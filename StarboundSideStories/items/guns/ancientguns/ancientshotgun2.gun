@@ -1,0 +1,32 @@
+{
+  "itemName" : "ancientshotgun2",
+  "inventoryIcon" : "ancientshotgun.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "An ancient shotgun.",
+  "shortdescription" : "The Tentacle Shotty",
+  "image" : "ancientshotgun.png",
+  "handPosition" : [-9, -1],
+  "firePosition" : [17, 0],
+  "recoilTime" : 0.1,
+  "level" : 9,
+  "projectileCount" : 5,
+  "inaccuracy" : 0.11,
+  "tooltipKind" : "gun",
+  "weaponType" : "Shotgun",
+  "fireTime" : 0.85,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "greenplasmabullet",
+  "projectile" : {
+    "speed" : 85,
+    "life" : 3,
+    "power" : 2.02
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun4.wav" } ],
+    "animation" : "/animations/muzzleflash/plasmamuzzle4green/plasmamuzzle4green.animation"
+  }
+}

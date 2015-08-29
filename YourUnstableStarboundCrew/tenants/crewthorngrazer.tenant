@@ -1,0 +1,27 @@
+{
+  "name": "crewthorngrazer",
+  "priority": 10,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "crewthorngrazer": 1
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "floran",
+	  "seed": 845674547,
+      "type": "crewthorngrazer",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [800.0, 1200.0],
+    "pool": "thorngrazerGift"
+  }
+}

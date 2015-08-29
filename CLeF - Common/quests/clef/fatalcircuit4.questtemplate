@@ -1,0 +1,19 @@
+{
+  "id" : "fatalcircuit4.gearup",
+  "prerequisites" : [ ],
+  "requiredShipLevel" : 3,  
+  "title" : "^yellow;Fatal Circuit #4: Judgement Day",
+  "text" : "Let's see... Now you'll need to ^green;build the parts for the robot and assemble it^white;. You can't shake off the feeling something here smells fishy, especially the proposed sharp appendages. Perhaps, you could ^green;activate the machine and test it on your own^white; before giving it to those scared glitches?",
+  "completionText" : "Wow! That scrap of insane metal was flat out deadly! Time to move on and pay a visit to the familiar penguin. You sure he'll be very surprised to see you alive. It may be a good idea to ^green;bring along the proof that you've destroyed the robot^white;. ^orange;The severed shorted out hand^white; surely looks credible.",
+  "acceptItems" : [ ],
+  "completionConditions" : [
+    { "type" : "gather", "item" : "fatalclawbroken", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [ ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "",
+  "requireTurnIn" : false
+}
+ 

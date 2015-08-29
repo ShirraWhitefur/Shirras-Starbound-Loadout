@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinposter11",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 50,
+	"shortdescription" : "Felin Scholar Poster",
+	"description" : "A nice pinup poster of a felin scholar",
+	"race" : "felin",
+	"apexDescription" : "A gesture like that could get you shot.",
+	"avianDescription" : "Peace be with you as well.",
+	"floranDescription" : "Floran rather work with hunters than ssscholars.",
+	"glitchDescription" : "Curious. What has this scholar done to deserve hero worship?",
+	"humanDescription" : "Haa hah, I don't know who this is.",
+	"hylotlDescription" : "You have to admire a culture that respects their scholars.",
+	"felinDescription" : "High five, learned dude.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinposter16.png:3",
+			"imagePosition" : [-8, -12],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

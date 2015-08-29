@@ -1,0 +1,15 @@
+{
+  "name" : "longlegs",
+  "category" : "smallbiped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "longlegs.png"
+  },
+
+  "parameters" : {
+    "walkMultiplier" : 1.2,
+    "runMultiplier" : 1.2,
+    "jumpMultiplier" : 1.2
+  }
+}

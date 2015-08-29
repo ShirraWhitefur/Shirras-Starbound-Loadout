@@ -1,0 +1,16 @@
+  {
+  "id" : "glitchguard8.gearup",
+  "prerequisites" : [ "glitchguard7.gearup" ],
+  "title" : "^orange;Glitchy Piggies",
+  "text" : "Sad. Our village once had a pet pig, but it seems to have ran off. Villagers have searched the planet to no avail, but I might have an idea. Could you bring me five automatos?",
+  "completionText" : "Hope. I hope this works! I've noticed the automatos have been chomped on recently, maybe our pet pig will come back if you place this bowl in our village.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "automato", "count" : 5, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "piglettbowl", 1 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

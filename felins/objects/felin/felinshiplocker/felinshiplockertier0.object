@@ -1,0 +1,49 @@
+{
+	"objectName" : "felinshiplockerTier0",
+	"tags" : [ "felin", "storage" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"printable" : false,
+	"description" : "Store some stuff, why don't you?",
+	"shortdescription" : "Shiplocker",
+	"race" : "felin",
+	"lightColor" : [61, 88, 102],
+	"apexDescription" : "The ship's storage system. It's not currently functional.",
+	"avianDescription" : "A device that holds many items. It appears to function differently from our own. This one is not on.",
+	"floranDescription" : "Sssstorage. It'sss not on.",
+	"glitchDescription" : "Stating the obvious. A felin storage system of apex origin. It is not on.",
+	"humanDescription" : "A storage device, seems to function a lot like my own. This one isn't on.",
+	"hylotlDescription" : "An elegant storage solution. It's not currently powered.",
+	"felinDescription": "Whatever's in there is staying in there for now.",
+	"particleEmitter" : {
+		"emissionRate" : 1,
+		"pixelOrigin" : [164, 27],
+		"particle" : {
+			"type" : "textured",
+			"image" : "/objects/felin/felinshiplocker/felinese_e.png",
+			"size" : 1,
+			"color" : [255, 255, 255, 255],
+			"fade" : 0.0,
+			"initialVelocity" : [0.0, 0],
+			"finalVelocity" : [0.0, 0],
+			"approach" : [0, 0],
+			"timeToLive" : 0.5,
+			"layer" : "front",
+			"fullbright" : true
+		}
+	},
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinshiplocker.png:broken.<frame>",
+			"imagePosition" : [-16, -8],
+			"frames" : 8,
+			"animationCycle" : 1,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	],
+	"scripts" : [ "/objects/noisy/noisy.lua" ],
+	"animation" : "/objects/noisy/noisy.animation",
+	"sounds" : [ "/sfx/interface/ship_error1.wav" ]
+}

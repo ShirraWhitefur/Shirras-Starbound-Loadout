@@ -1,0 +1,16 @@
+  {
+  "id" : "glitchguard5.gearup",
+  "prerequisites" : [ "glitchguard4.gearup" ],
+  "title" : "^orange;Steel Swords",
+  "text" : "Wondering. You were able to bring us iron to make our armor...how about bringing us 20 bars of steel, to help our weapons?",
+  "completionText" : "Relieved. Thank you so much for helping us out, great warrior. You will never be forgotten in this village.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "steelbar", "count" : 20, "consume" : true }
+  ],
+  "moneyRange" : [500, 700],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

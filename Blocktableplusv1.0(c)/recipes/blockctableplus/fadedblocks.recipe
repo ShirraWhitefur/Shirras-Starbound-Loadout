@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "sandstonematerial", "count" : 1 }
+  ],
+  "output" : { "item" : "fadedblocks", "count" : 1 },
+  "groups" : [ "blocktableplus", "materials", "all", "wall", "avian" ]
+}

@@ -1,0 +1,6 @@
+[
+  { "op" : "replace", "path" : "/metadata/protected", "value" : false },
+
+  { "op" : "add", "path" : "/tiles/122/brush/1/2/parameters", "value" : { "treasurePools" : [ "waterCoolerTreasure" ] } },
+  { "op" : "add", "path" : "/tiles/123/brush/1/2/parameters", "value" : { "treasurePools" : [ "waterCoolerTreasure" ] } }
+]

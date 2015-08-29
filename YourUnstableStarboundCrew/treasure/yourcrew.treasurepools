@@ -1,0 +1,263 @@
+{
+   "crewvaluable" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 0.3, "item" : "mattermodulecomponent"},
+        {"weight" : 0.2, "item" : [ "mattermodulecomponent", 2]},
+        {"weight" : 0.1, "item" : "colonydeed"},
+        {"weight" : 0.2, "item" : "manipulatormodule"},
+        {"weight" : 0.2, "item" : "upgradecomponent"}
+      ]
+    }]
+  ],
+  
+   "crewtechpool" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 0.7, "item" : [ "techchip", 1]},
+        {"weight" : 0.1, "item" : "blanktechcard"},
+        {"weight" : 0.2, "item" : "teleportercore"}
+      ]
+    }]
+  ],
+  
+   "crewcolonydeedpool" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "item" : "colonydeed"}
+      ]
+    }]
+  ],
+  
+   "crewpixels" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 0.1, "item" : [ "money", 800]},
+        {"weight" : 0.4, "item" : [ "money", 900]},
+        {"weight" : 0.4, "item" : [ "money", 1000]},
+        {"weight" : 0.1, "item" : [ "money", 1500]}
+      ]
+    }]
+  ],
+  
+   "crewvaluableore" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 0.5, "item" : [ "diamond", 2]},
+        {"weight" : 0.5, "item" : [ "corefragmentore", 15]}
+      ]
+    }]
+  ],
+  
+  "crewbiomemats" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.1, "item" : ["darkwoodmaterial", 20]},
+        {"weight" : 0.1, "item" : ["shroomblock", 20]},
+        {"weight" : 0.1, "item" : ["petalred", 20]},
+        {"weight" : 0.1, "item" : ["reed", 20]},
+        {"weight" : 0.1, "item" : ["tar", 20]},
+        {"weight" : 0.1, "item" : ["rainbowwood", 20]},
+		{"weight" : 0.1, "item" : ["bone", 20]},
+        {"weight" : 0.1, "item" : ["glowfibre", 20]},
+        {"weight" : 0.1, "item" : ["giantflowerpetal", 20]},
+        {"weight" : 0.05, "item" : ["metallic", 20]},
+        {"weight" : 0.05, "item" : ["crystal", 20]},
+        {"weight" : 0.05, "item" : ["limestone", 20]},
+        {"weight" : 0.05, "item" : ["fleshstrand", 20]}
+      ]
+    }]
+  ],
+  
+  "crewbiomerecipes" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.1, "item" : "fleshchair-recipe"},
+        {"weight" : 0.1, "item" : "slimechair-recipe"},
+        {"weight" : 0.1, "item" : "slimebed-recipe"},
+        {"weight" : 0.1, "item" : "fleshtable-recipe"},
+        {"weight" : 0.1, "item" : "cavechair-recipe"},
+        {"weight" : 0.1, "item" : "cavelamp-recipe"},
+        {"weight" : 0.1, "item" : "bonebed-recipe"},
+        {"weight" : 0.1, "item" : "bonechest-recipe"},
+        {"weight" : 0.1, "item" : "tarlight-recipe"},
+        {"weight" : 0.1, "item" : "tarman-recipe"},
+        {"weight" : 0.1, "item" : "shroomchair-recipe"},
+        {"weight" : 0.1, "item" : "shroomchest-recipe"},
+        {"weight" : 0.1, "item" : "crystalchair-recipe"},
+        {"weight" : 0.1, "item" : "crystaltable-recipe"},
+        {"weight" : 0.1, "item" : "rustchair-recipe"},
+        {"weight" : 0.1, "item" : "rusttable-recipe"},
+        {"weight" : 0.1, "item" : "icechair-recipe"},
+        {"weight" : 0.1, "item" : "icechest-recipe"},
+        {"weight" : 0.1, "item" : "eyechest-recipe"},
+        {"weight" : 0.1, "item" : "eyedoor-recipe"},
+        {"weight" : 0.1, "item" : "glowflowerlamp-recipe"},
+        {"weight" : 0.1, "item" : "glowchest-recipe"}
+      ]
+    }]
+  ],
+  
+   "crewlore" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "childrenofkluexCodex", 1]},
+        {"weight" : 0.08, "item" : [ "groundeddoctrineCodex", 1]},
+        {"weight" : 0.08, "item" : [ "kluexcommandsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "kluexdelusion01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "kluexdelusion02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "kluexdelusion03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "kluexdelusion04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "kluexdelusion05Codex", 1]},
+        {"weight" : 0.08, "item" : [ "lasladiary01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "lasladiary02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "lasladiary03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "notesfromthegroundCodex", 1]},
+        {"weight" : 0.08, "item" : [ "progenitorsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "thefallCodex", 1]},
+        {"weight" : 0.08, "item" : [ "villageprayerCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townadvertCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townbigapeCodex", 1]},
+        {"weight" : 0.08, "item" : [ "towncaseapexCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townfolkCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townfriendsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townheadlineCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townminutesCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townpleasantCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townposterCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townproblemsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townresistanceCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townrhymeCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townsillyCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florviljournal01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "florviljournal02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilteachingCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilwordsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilarchitectCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilbanCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilbookCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvildrawingCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilguestsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilpeaceCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilprintCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilrantCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilreviewCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florviltreetopCodex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerlog01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerlog02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerlog03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerlog04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerlog05Codex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerlog06Codex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerpolicyCodex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerhumansCodex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerbeastCodex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerbustersCodex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerbookCodex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerordersCodex", 1]},
+        {"weight" : 0.08, "item" : [ "deckardnoteCodex", 1]},
+        {"weight" : 0.08, "item" : [ "outcastscoraleCodex", 1]},
+        {"weight" : 0.08, "item" : [ "stamppamphletCodex", 1]},
+        {"weight" : 0.08, "item" : [ "transcript0292Codex", 1]},
+        {"weight" : 0.08, "item" : [ "transcript0293Codex", 1]},
+        {"weight" : 0.08, "item" : [ "individualscoraleCodex", 1]},
+        {"weight" : 0.08, "item" : [ "outcastposterCodex", 1]},
+        {"weight" : 0.08, "item" : [ "hierarchycoraleCodex", 1]},
+        {"weight" : 0.08, "item" : [ "steelbook01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "steelbook02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "steelbook03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "steelbook04Codex", 1]}
+      ]
+    }]
+  ],
+  
+  
+   "crewlovejonesmission" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "item" : "crewlovejonesdisplay"}
+      ]
+    }]
+  ],
+  
+  
+   "crewgoldobotmission" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "item" : "crewgoldobottools"}
+      ]
+    }]
+  ],
+  
+  
+   "crewthorngrazermission" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "item" : "crewthorngrazerconsole"}
+      ]
+    }]
+  ],
+  
+  
+   "crewgenekongmission" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "item" : "crewgenekongcomputer"}
+      ]
+    }]
+  ],
+  
+  
+   "crewdivewingsmission" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "item" : "crewdivewingsconsole"}
+      ]
+    }]
+  ]
+  
+}

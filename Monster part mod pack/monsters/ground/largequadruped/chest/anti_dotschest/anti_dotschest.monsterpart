@@ -1,0 +1,9 @@
+{
+  "name" : "anti_dotschest",
+  "category" : "largequadruped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "anti_dotschest.png"
+  }
+}

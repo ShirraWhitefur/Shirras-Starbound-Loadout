@@ -1,0 +1,30 @@
+{	//LIRITH WAS HERE  GOODBYE
+	//liriþ itihnwa Rikþa
+	"objectName" : "felingraffiti3",
+	"tags" : [ "felin", "felinvillage", "felinwriting" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 1,
+	"smashOnBreak" : true,
+	"description" : "Graffiti. More courteous than usual.",
+	"shortdescription" : "Felin Graffiti",
+	"race" : "felin",
+	"apexDescription" : "Someone or other was here.",
+	"avianDescription" : "Goodbye, mysterious visitor.",
+	"floranDescription" : "Floran not sure who wrote thisss.",
+	"glitchDescription" : "Cordial. Goodbye, Lirith.",
+	"humanDescription" : "Kilroy was here.",
+	"hylotlDescription" : "At least the writer has a sense of courtesy.",
+	"felinDescription" : "'Lirith was here. Goodbye!'",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felingraffiti3.png",
+			"imagePosition" : [-20, -8],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

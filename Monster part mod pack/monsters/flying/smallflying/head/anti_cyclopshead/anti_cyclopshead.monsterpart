@@ -1,0 +1,9 @@
+{
+  "name" : "anti_cyclopshead",
+  "category" : "smallflying",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_cyclopshead.png"
+  }
+}

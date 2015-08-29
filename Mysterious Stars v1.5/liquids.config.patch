@@ -1,0 +1,35 @@
+[
+  { 
+  "op" : "add", 
+  "path" : "/liquids/1/interactions/-", 
+  "value" : {
+          "liquid": 80,
+          "liquidResult" : 80
+        }
+  },
+  { 
+  "op" : "add", 
+  "path" : "/liquids/80", 
+  "value" : {
+      "name" : "tentaclejuice",
+      "tickDelta" : 1,
+      "color" : [244, 170, 159, 128],
+      "itemDrop" : "liquidtentaclejuice",
+
+      "interactions" : [
+        {
+          "liquid" : 3,
+          "liquidResult" : 3
+        },
+        {
+          "liquid" : 8,
+          "liquidResult" : 0
+        }
+      ],
+
+      "texture" : "/liquids/tentacletex.png",
+      "bottomLightMix" : [244, 170, 159],
+      "textureMovementFactor" : 2.6
+    }
+  }
+]

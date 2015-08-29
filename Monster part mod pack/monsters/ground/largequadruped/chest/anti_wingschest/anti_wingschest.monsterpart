@@ -1,0 +1,9 @@
+{
+  "name" : "anti_wingschest",
+  "category" : "largequadruped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "anti_wingschest.png"
+  }
+}

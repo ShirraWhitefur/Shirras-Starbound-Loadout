@@ -1,0 +1,37 @@
+{
+	"objectName" : "felinbathsign",
+	"tags" : [ "felin", "felinvillage" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 50,
+	"shortdescription" : "Felin 'Bathhouse' Sign",
+	"description" : "'Bath.'",
+	"race" : "felin",
+	"inventoryIcon" : "felinbuildingsign.png:bath.icon",
+	"orientations" : [
+		{
+			"image" : "felinbuildingsign.png:bath.top",
+			"imagePosition" : [-8, -8],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "top" ]
+		},
+		{
+			"image" : "felinbuildingsign.png:bath.side",
+			"imagePosition" : [-8, -8],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "left" ]
+		},
+		{
+			"image" : "felinbuildingsign.png:bath.side",
+			"imagePosition" : [-8, -8],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "right" ]
+		}
+	]
+}

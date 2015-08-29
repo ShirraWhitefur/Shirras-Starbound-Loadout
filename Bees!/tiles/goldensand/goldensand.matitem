@@ -1,0 +1,12 @@
+{
+  "itemName" : "goldensand",
+  "rarity" : "Common",
+  "inventoryIcon" : "goldensandmaterial.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A golden glittering sand. Could probably be made into glass!",
+  "shortdescription" : "Golden Sand",
+  "glitchdescription" : "Statement. Sand.",
+  "florandescription" : "Sssand.",
+
+  "materialId" : 1703
+}

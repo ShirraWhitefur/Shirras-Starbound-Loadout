@@ -1,0 +1,39 @@
+[
+	{ "op" : "add",
+		"path" : "/items",
+		"value" : { "felin" : [
+			[5, [
+				{
+					"head" : [ { "name" : "felintier5ahead" } ],
+					"chest" : [
+						{ "name" : "felintier5achest", "data" : { "colorIndex" : [4] } }
+					],
+					"legs" : [
+						{ "name" : "felintier5apants", "data" : { "colorIndex" : [4] } }
+					],
+					"primary" : [
+						{ "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } },
+						{ "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+						{ "name" : "generatedgun", "parameters" : { "definition" : "commonassaultrifle" } }
+					]
+				}
+			] ],
+			[6, [
+				{
+					"head" : [ { "name" : "felintier6ahead" } ],
+					"chest" : [
+						{ "name" : "felintier6achest" }
+					],
+					"legs" : [
+						{ "name" : "felintier6apants" }
+					],
+					"primary" : [
+						{ "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } },
+						{ "name" : "generatedgun", "parameters" : { "definition" : "commonmachinepistol" } },
+						{ "name" : "generatedgun", "parameters" : { "definition" : "commonassaultrifle" } }
+					]
+				}
+			] ]
+		] }
+	}
+]

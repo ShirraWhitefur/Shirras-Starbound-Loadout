@@ -1,0 +1,9 @@
+{
+  "name" : "freak_backshell",
+  "category" : "largequadruped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "freak_backshell.png"
+  }
+}

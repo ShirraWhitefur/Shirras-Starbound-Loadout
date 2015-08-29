@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 20},
+    { "item" : "darkwoodmaterial", "count" : 3}
+  ],
+  "output" : {
+    "item" : "gbotfence3",
+    "count" : 1
+  },
+  "groups" : [ "mod", "craftingtable", "objects", "all" ]
+}

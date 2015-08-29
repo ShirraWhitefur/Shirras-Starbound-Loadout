@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ancientcore", "count" : 3 },
+    { "item" : "money", "count" : 10000 }
+  ],
+  "output" : { "item" : "ancientlocker", "count" : 1 },
+  "groups" : [ "ancientcrafting" ]
+}

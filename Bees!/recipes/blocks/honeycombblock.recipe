@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "normalcomb", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "honeycombblock",
+    "count" : 5
+  },
+  "groups" : [ "mod", "beestation", "blocks", "all" ]
+}

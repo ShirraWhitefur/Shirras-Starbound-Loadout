@@ -1,0 +1,27 @@
+{
+  "name": "crewlovejones",
+  "priority": 10,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "crewlovejones": 1
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "human",
+	  "seed": 3456326,
+      "type": "crewlovejones",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [800.0, 1200.0],
+    "pool": "lovejonesGift"
+  }
+}

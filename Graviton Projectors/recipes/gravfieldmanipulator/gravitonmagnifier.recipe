@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "corefragmentore", "count" : 1 },
+    { "item" : "laserdiode", "count" : 1 }
+  ],
+  "output" : { "item" : "gravitonmagnifier", "count" : 1 },
+  "groups" : [ "wiringstation", "gravitoncraftingtable", "all" ]
+}

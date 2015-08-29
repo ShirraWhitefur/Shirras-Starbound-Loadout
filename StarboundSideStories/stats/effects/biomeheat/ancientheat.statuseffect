@@ -1,0 +1,16 @@
+{
+  "name" : "ancientheat",
+  "blockingStat" : "ancientheatImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "ancientheat.lua"
+  ],
+
+  "animationConfig" : "ancientheat.animation",
+
+  "label" : "Ancient Aura",
+  "icon" : "/interface/statuses/biomeheat.png"
+}

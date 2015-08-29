@@ -1,0 +1,242 @@
+{
+  "name" : "tarms",
+  "friendlyName" : "Tar",
+
+  "spawnProfiles" : [
+    {
+      "groups" : [ "hardsurface1" ],
+      "extraSpawns" : [ "mousecritter", "ravencritter", "vulturecritter" ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }
+    },
+    {
+      "groups" : [ "hard surface2" ],
+      "extraSpawns" : [ "mousecritter", "ravencritter", "vulturecritter" ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }
+    }
+  ],
+
+  "mainBlock" : "tar",
+  "subBlocks" : [ "wetdirt" ],
+  "ores" : "surfaceOres",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "tar" ],
+    "grassModDensity" : 0.4,
+
+    "items" : [
+      
+	  // CHESTS and ARTIFICIAL PLACEABLES
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "tarChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  
+	  // TERRAIN
+	  
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDist",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "terrainfeatures" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibossoverground",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "minibossoverground" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "aridplatforming" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "tarpitsmicrodungeons" ]
+      },
+	  
+	  // GRASS and TREES and PLANTS
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "desertpalm", "alienpalm", "bark", "beach", "blank", "cactus", "cross", "palm", "plain", "twirl" ],
+        "treeFoliageList" : [ "palmleaves", "palmy", "roseleaves", "lushleaves", "palmlush", "elegant" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "tar", "rockstacks" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "smashbones1" ], [0.35, "smashbones2" ], [0.35, "smashbones3" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "tar" ],
+    "grassModDensity" : 0.9,
+
+    "ceilingGrassMod" : [ "tarceiling" ],
+    "ceilingGrassModDensity" : 0.7,
+	
+	"items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "tarChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "smashbones1" ], [0.35, "smashbones2" ], [0.35, "smashbones3" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 3,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 0,
+        "treeStemList" : [ "tarvine" ],
+        "treeFoliageList" : [ "" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 10,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "aridplatforming" ]
+      }
+    ]
+  }
+}

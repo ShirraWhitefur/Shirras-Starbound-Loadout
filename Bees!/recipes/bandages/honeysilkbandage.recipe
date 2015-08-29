@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "beesilk", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "honeysilkbandage",
+    "count" : 1
+  },
+  "groups" : [ "mod", "beestation", "consumables", "all" ]
+}

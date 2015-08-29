@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 4 }
+  ],
+  "output" : { "item" : "mirror", "count" : 5 },
+  "groups" : [ "blocktableplus", "materials", "all", "wall" ]
+}

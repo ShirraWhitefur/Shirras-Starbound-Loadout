@@ -1,0 +1,32 @@
+{
+	"objectName" : "felincaptainschair",
+	"tags" : [ "felin" ],
+	"rarity" : "common",
+	"objectType" : "loungeable",
+	"description" : "Engage!",
+	"shortdescription" : "Captain's Chair",
+	"race" : "felin",
+	"category" : "furniture",
+	"printable" : false,
+	"apexDescription" : "Ahh freedom...",
+	"avianDescription" : "Bless my beak, it's all torn up.",
+	"floranDescription" : "SSsmells of felin butt.",
+	"glitchDescription" : "Anticipation. Where to next?",
+	"humanDescription" : "A pretty wrecked chair.",
+	"hylotlDescription" : "Elegant is not the word.",
+	"felinDescription" : "My claws itch at the sight. So does my bum.",
+	"inventoryIcon" : "captainschairicon.png",
+	"orientations" : [
+		{
+			"dualImage" : "felincaptainschair.png",
+			"imagePosition" : [-12, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"interactAction" : "openCockpitInterface",
+	"sitFlipDirection" : true,
+	"sitPosition" : [1, 22]
+}

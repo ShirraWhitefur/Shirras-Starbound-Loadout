@@ -1,0 +1,27 @@
+[
+  /* EXTRA ARCHITECTS TABLE TECH BLUEPRINTS */
+  /* TITANIUM */
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier3gravitonelevatorbase" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier3gravitonelevatortube" }},
+  /* DURASTEEL */
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier4gravitonelevatorbase" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier4gravitonelevatortube" }},
+  /* AEGISALT */
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier5gravitonelevatorbase" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier5gravitonelevatortube" }},
+  /* FEROZIUM */
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier6gravitonelevatorbase" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier6gravitonelevatortube" }},
+  /* CERULIUM */
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier7gravitonelevatorbase" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier7gravitonelevatortube" }},
+  /* VIOLIUM */
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier8gravitonelevatorbase" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier8gravitonelevatortube" }},
+  /* RUBIUM */
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier9gravitonelevatorbase" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier9gravitonelevatortube" }},
+  /* IMPERVIUM */
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier10gravitonelevatorbase" }},
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "tier10gravitonelevatortube" }}
+]

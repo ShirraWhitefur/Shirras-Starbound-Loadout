@@ -1,0 +1,17 @@
+{
+  "id" : "crewadventurertenant.gearup",
+  "prerequisites" : [ "crewtenantmission.gearup" ], 
+  "title" : "^green;The Nova Tenants Adventurer",
+  "text" : "Shucks, nothin here...can you believe it? A super cool ruin like this and no treasure? I'm tired of exploring this dust bowl of a planet...",
+  "completionText" : "You want an adventurer to go explore planets and find treasure? Sure! I'll be taking half the loot, of course, but the rest is yours!",
+  "completionConditions" : [
+ 
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "crewsworddisplay", 1] ]
+   ],
+  "canBeAbandoned" : false,
+  "requireTurnIn" : true
+}
+ 

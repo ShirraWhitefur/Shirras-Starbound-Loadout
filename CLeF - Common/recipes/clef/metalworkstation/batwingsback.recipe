@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 16 },
+    { "item" : "rubiumore", "count" : 4 },
+    { "item" : "ironbar", "count" : 2 }
+  ],
+  "output" : { "item" : "batwingsback", "count" : 1 },
+  "groups" : [ "metalworkstation", "armors", "all" ]
+}

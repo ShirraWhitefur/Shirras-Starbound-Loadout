@@ -1,0 +1,15 @@
+  {
+  "id" : "explorerflare.gearup",
+  "title" : "^orange;Helping with Flares",
+  "text" : "Please help! I just used up all of my flares, and I really need to get some diamonds to upgrade my ship! Could you bring me 3 more flares so I can continue digging?",
+  "completionText" : "Wow, thanks so much, stranger! I hope this helps in your adventures!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "flare", "count" : 3, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "bandage", 20 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

@@ -1,0 +1,9 @@
+{
+  "name" : "darkbee",
+  "category" : "darkbee",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkbee.png"
+  }
+}

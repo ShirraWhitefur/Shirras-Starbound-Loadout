@@ -1,0 +1,9 @@
+[
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "slimehead" },
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "slimechest" },
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "slimelegs" },
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "slimetorch" },
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "slimebed" },
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "slimechair" },
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "slimehide" }
+]

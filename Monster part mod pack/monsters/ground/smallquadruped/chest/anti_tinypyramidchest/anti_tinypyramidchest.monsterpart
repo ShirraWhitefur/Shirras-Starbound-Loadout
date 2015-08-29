@@ -1,0 +1,9 @@
+{
+  "name" : "anti_tinypyramidchest",
+  "category" : "smallquadruped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "anti_tinypyramidchest.png"
+  }
+}

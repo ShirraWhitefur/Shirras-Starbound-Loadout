@@ -1,0 +1,288 @@
+{
+  "name" : "crystallinems",
+  "friendlyName" : "Crystalline",
+  
+  "spawnProfiles" : [
+    {
+      "groups" : [ "hardsurface1" ],
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "colors" : "volcanic"
+      }
+    },
+    {
+      "groups" : [ "hardsurface2" ],
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "colors" : "volcanic"
+      }
+    }
+  ],
+  
+  "hueShiftOptions" : [-120, -54, 0, 15, 20],
+
+  "mainBlock" : "obsidian",
+  "subBlocks" : [ "ash", "blaststone" ],
+  "ores" : "surfaceOres",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "blackash" ],
+    "grassModDensity" : 0.3,
+
+    "items" : [
+      
+	  // CHESTS and ARTIFICIAL PLACEABLES
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "crystalChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  
+	  // TERRAIN
+	  
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDist",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "terrainfeatures" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibossoverground",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "minibossoverground" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "aridplatforming" ]
+      },
+	  
+	  // GRASS and TREES and PLANTS
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 0,
+        "treeStemList" : [ "crystalline" ],
+        "treeFoliageList" : [ "crystallinenofoliage" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 4.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "crystalflower" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "crystallinebush1" ], [0.35, "crystallinebush2" ], [0.35, "crystallinebush3" ], [0.35, "crystallinebush4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "crystalcavebush1" ], [0.35, "crystalcavebush2" ], [0.35, "crystalcavebush3" ], [0.35, "crystalcavebush4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "crystals",
+            "baseHueShiftMax" : 180,
+            "modHueShiftMax" : 180
+          }
+        ]
+      },
+	  
+	  // CROPS
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildcrystalplantseed" ] ],
+            "parameters" : {
+              "startingStage" : 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "crystalChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 4.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "crystalflower" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "crystallinebush1" ], [0.35, "crystallinebush2" ], [0.35, "crystallinebush3" ], [0.35, "crystallinebush4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "crystalcavebush1" ], [0.35, "crystalcavebush2" ], [0.35, "crystalcavebush3" ], [0.35, "crystalcavebush4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 10,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "aridplatforming" ]
+      }
+    ]
+  }
+}

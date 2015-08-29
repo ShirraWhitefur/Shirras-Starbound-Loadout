@@ -1,0 +1,41 @@
+[
+
+
+{
+"op" : "add",
+"path" : "/ancientweather",
+"value" : [     
+    [0.3, "clear"],
+    [0.025, "ember"],
+    [0.1, "groundmist"],
+    [0.025, "snow"],
+    [0.1, "storm"],
+    [0.1, "rain"],
+    [0.1, "windstorm"],
+    [0.1, "glowingrain"],
+    [0.1, "sandstorm"],
+    [0.025, "drizzle"],
+    [0.025, "meteorshower"],
+    [0.025, "largemeteor"]
+	]
+},
+
+{
+"op" : "add",
+"path" : "/ancientcoldweather",
+"value" : [     
+    [0.3, "clear"],
+    [0.1, "groundmist"],
+    [0.2, "snow"],
+    [0.1, "storm"],
+    [0.1, "windstorm"],
+    [0.1, "glowingrain"],
+    [0.05, "drizzle"],
+    [0.025, "meteorshower"],
+    [0.025, "largemeteor"]
+	]
+}
+  
+]
+
+

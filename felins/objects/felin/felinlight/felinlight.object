@@ -1,0 +1,38 @@
+{
+	"objectName" : "felinlight",
+	"tags" : [ "felin", "light" ],
+	"printable" : false,
+	"rarity" : "common",
+	"category" : "light",
+	"price" : 20,
+	"maximumLiquidLevel" : 0.5,
+	"description" : "A simple fluorescent gas-based light source.",
+	"shortdescription" : "Felin Gas Lamp",
+	"race" : "generic",
+	"apexDescription" : "A simple fluorescent tube light.",
+	"avianDescription" : "It's not entirely clear what gas is trapped inside.",
+	"floranDescription" : "Floran likes glow.",
+	"glitchDescription" : "Statement. A simple but effective design.",
+	"humanDescription" : "What kind of gas glows orange when electrified?",
+	"hylotlDescription" : "A useful light source.",
+	"felinDescription" : "Lovely orange glow~",
+	"statusEffects" : [ ],
+	"lightColor" : [255, 160, 64],
+	"flickerDistance" : 0.5,
+	"flickerStrength" : 0.1,
+	"inventoryIcon" : "felinlighticon.png",
+	"orientations" : [
+		{
+			"image" : "felinlight.png:default.on",
+			"imagePosition" : [0, 0],
+			"spaces" : [ [0, 0], [0, 1] ],
+			"fgAnchors" : [ [0, -1] ]
+		}
+	],
+	"animation" : "/objects/wired/light/lighttoggle.animation",
+	"animationParts" : { "light" : "felinlight.png" },
+	"animationPosition" : [0, 0],
+	"scripts" : [ "/objects/wired/light/light.lua" ],
+	"scriptDelta" : 60,
+	"inboundNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "833honeycrystalblock", "count" : 3 }, { "item" : "goldbar", "count" : 6 },  { "item" : "money", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "honeycrystallamp",
+    "count" : 1
+  },
+  "groups" : [ "mod", "beestation", "objects", "all" ]
+}

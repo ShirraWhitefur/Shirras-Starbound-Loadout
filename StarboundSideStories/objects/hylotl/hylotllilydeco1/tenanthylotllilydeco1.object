@@ -1,0 +1,32 @@
+{
+  "objectName" : "tenanthylotllilydeco1",
+  "tags" : ["stimtenant"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 250,
+
+  "shortdescription" : "Little Lily Pad",
+  "description" : "A small lily pad decoration.",
+  "race" : "hylotl",
+
+  "apexDescription" : "A decorative lily pad. Nice.",
+  "avianDescription" : "I haven't seen this many lily pads since that time I crash-landed in a swamp.",
+  "floranDescription" : "Floran control plantsss. Frogmen make sssilly plastic thing.",
+  "glitchDescription" : "Critical. This lily pad would make for interesting decoration if it wasn't surrounded by numerous other lily pads.",
+  "humanDescription" : "The perfect gift for someone who adores lily pads. Unfortunately, that someone is not me.",
+  "hylotlDescription" : "The beauty of nature, captured in a single piece.",
+
+  "inventoryIcon" : "hylotllilydeco1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotllilydeco1.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

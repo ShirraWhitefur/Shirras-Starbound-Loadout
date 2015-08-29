@@ -1,0 +1,117 @@
+{
+  "type" : "wizardmerchant",
+  "baseType" : "merchant",
+
+  "dropPools" : [ "wizardtreasure" ],
+
+  "scriptConfig" : {
+	"offeredQuests" : [ "wizardmerchant1.gearup", "wizardmerchant2.gearup", "wizardmerchant3.gearup", "wizardmerchant4.gearup", "wizardmerchant5.gearup", "wizardmerchant6.gearup" ],
+	"turnInQuests" : [ "wizardmerchant1.gearup", "wizardmerchant2.gearup", "wizardmerchant3.gearup", "wizardmerchant4.gearup", "wizardmerchant5.gearup", "wizardmerchant6.gearup" ],
+    
+    "merchant" : {
+      "categories" : {
+        "override": [ "wizardmerchant" ]
+      },
+      "priceVarianceRange" : [1, 1],
+      "numItems" : 5,
+      "storeRadius" : -1
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "Welcome to my shop.",
+              "See anything you like?",
+              "What can I do ya for?"
+            ]
+          },
+          "apex" : {
+            "default" : [
+              "I've got things the Miniknog would kill for.",
+              "You're not Miniknog are you? Goooooood.",
+              "Got more than just bananas, if you know what I mean.",
+              "How about a bit of monkey magic, eh?"
+            ]
+          },
+          "avian" : {
+            "default" : [
+              "Kluex has blessed my stock.",
+              "I have items for sale that even the Sunborn envy.",
+              "Stargazers HATE me. Try this one weird item...",
+              "I sell to Thornwing himself."
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran sssell magic thingies, buy it, buy it!",
+              "Greenfinger sssay Floran ssstock best magic ssstock.",
+              "Magic everywhere in this ditch!"
+            ],
+            "hylotl" : [
+              "Even fishman want Floran magic, sssee.",
+              "Floran sssell to fishman, blow mind.",
+              "Come closer fish, sssee what Floran can do for you."
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Mystical. Not everything can be explained by science, customer.",
+              "Mysterious. Traveller, come hither, and browse my magic.",
+              "Clandestine. Cogs and gears only go so far, young one.",
+              "Tantalising. Death need not be the end, there are stims for that..."
+            ]
+          },
+          "hylotl" : {
+            "default" : [
+              "The ocean hides more than just treasure, wanderer. Magic lies beneath the sea.",
+              "The Hylotl darkness will be swept away by the typhoon.",
+              "Eternal life is just a shot away...",
+              "There is nothing fishy about my goods."
+            ],
+            "floran" : [
+              "Come, Floran friend. Come and be cleansed!",
+              "Our kinds war, and yet in magic we find peace.",
+              "May you find Sanctuary, Floran. May my magic help you on your way."
+            ]
+
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "Farewell, traveller.",
+              "Blessed be.",
+              "Courage to you!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Deceptive. May you be forever blessed.",
+              "Sinister. Goodwill to you, traveller.",
+              "Insincere. May you have safe travels."
+            ]
+
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ "wizardchest" ],
+            "legs" : [ "wizardlegs" ],
+            "head" : [ "wizardhead" ],
+            "back" : [ "wizardback" ],
+            "sheathedprimary" : [
+              [ "generatedsword", 1, { "definition" : "watersword" } ]
+            ]
+          }
+        ] ]
+    ]
+  }
+}

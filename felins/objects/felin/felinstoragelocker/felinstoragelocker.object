@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinstoragelocker",
+	"tags" : [ "felin", "storage" ],
+	"rarity" : "rare",
+	"objectType" : "container",
+	"category" : "storage",
+	"price" : 180,
+	"printable" : false,
+	"description" : "A nice, spacious, wall-mounted storage solution.",
+	"shortdescription" : "Storage Locker",
+	"race" : "felin",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinstoragelocker.png:default.<key>",
+			"imagePosition" : [-16, -8],
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	],
+	"openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+	"closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+	"slotCount" : 48,
+	"uiConfig" : "/interface/chests/chest%slots%.config",
+	"frameCooldown" : 5,
+	"openFrameIndex" : 4,
+	"autoCloseCooldown" : 3600
+}

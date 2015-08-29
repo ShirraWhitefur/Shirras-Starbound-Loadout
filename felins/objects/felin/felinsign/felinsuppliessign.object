@@ -1,0 +1,22 @@
+{
+	"objectName" : "felinsuppliessign",
+	"tags" : [ "felin", "felinvillage" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 20,
+	"shortdescription" : "Supplies Sign",
+	"description" : "Felin guidance signage, not actually in the Felin language.",
+	"race" : "felin",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"leftImage" : "felinsuppliessign.png:default.left",
+			"rightImage" : "felinsuppliessign.png:default.right",
+			"imagePosition" : [-16, 0],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

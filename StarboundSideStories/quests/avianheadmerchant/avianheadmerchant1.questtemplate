@@ -1,0 +1,13 @@
+  {
+  "id" : "avianheadmerchant1.gearup",
+  "title" : "^orange;Bird Merchant",
+  "text" : "Well if it isn't an avid explorer! Welcome to our fine Avian market! I'm the famous merchant, Featherbags, and I think you and I can work out a deal.",
+  "completionText" : "Yes, yes, I can tell you enjoy your pixels, and know a good deal when you hear it. These fine Avian folk are great selling clothes and trinkets, but we need more! I've got some buyers that want some exotic stuff, and I simply don't have the time to get it. That's where you come in.",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

@@ -1,0 +1,81 @@
+[
+	{
+		"op": "add",
+		"path": "/merchantStart/felin",
+		"value": {
+			"default": [
+				"Stuff for sale~",
+				"Anybody need anything?",
+				"Good stuff here!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantEnd/felin",
+		"value": {
+			"default": [
+				"See ya~",
+				"Don't be a stranger~",
+				"Your pixels are always good here.",
+				"Pleasure doing business with you!",
+				"Thanks for visiting my store.",
+				"Great to see you!",
+				"Let's do business again."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/follow/felin",
+		"value": {
+			"default": [
+				"Follow me to my store, please.",
+				"The best prices around, just if you please to come with me.",
+				"I can show the merchandise in my store."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/welcome/felin",
+		"value": {
+			"default": [
+				"Does anything catch your eyes?",
+				"What you wish to buy? If you wish to buy...",
+				"I got everything that can help you in anything."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tout/felin",
+		"value": {
+			"default" : [
+				"I got the best goods!",
+				"If you can't find it here... it's not for sale here.",
+				"Best deals around!",
+				"Interested in brand new goods?"
+			],
+			"apex" : [
+				"I got the best goods!",
+				"If you can't find it here... it's not for sale here.",
+				"Interested in brand new goods?",
+				"What? Tracking device? Why should it has one?"
+			],
+			"floran" : [
+				"I got the best goods!",
+				"If you can't find it here... it's not for sale here.",
+				"Interested in brand new goods?",
+				"I got stuff that help you flower-flourish I meant."
+			],
+			"felin" : [
+				"I got the best goods!",
+				"If you can't find it here... it's not for sale here.",
+				"Interested in brand new goods?",
+				"Need some help in your hunt?",
+				"Anything I can help with, Hunter?"
+			]
+		}
+	}
+]

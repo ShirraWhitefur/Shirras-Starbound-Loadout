@@ -1,0 +1,9 @@
+{
+  "name" : "freak_wrinkled",
+  "category" : "largequadruped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "freak_wrinkled.png"
+  }
+}

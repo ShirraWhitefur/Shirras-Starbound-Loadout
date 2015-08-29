@@ -1,0 +1,15 @@
+{
+  "name" : "anti_tallbladebody",
+  "category" : "largebiped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "anti_tallbladebody.png"
+  },
+
+  "parameters" : {
+    "walkMultiplier" : 0.9,
+    "runMultiplier" : 1.1,
+    "jumpMultiplier" : 1.3
+  }
+}

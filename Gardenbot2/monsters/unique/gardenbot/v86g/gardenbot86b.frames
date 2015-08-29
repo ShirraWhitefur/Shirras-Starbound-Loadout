@@ -1,0 +1,18 @@
+{
+  "frameGrid" : {
+    "size" : [30, 35],
+    "dimensions" : [6, 3],
+
+    "names" : [
+      [ null, "idle.1", "head.0", "head.1", "head.2", "head.3" ],
+      [ null, "move.1", "move.2", "move.3", "move.4" ],
+      [ null, "barm.0", "barm.1", "barm.2", "barm.3", "barm.4" ]
+    ]
+  },
+  
+  "aliases" : {
+      "idle" : "idle.1",
+      "jump" : "idle.1",
+      "mod" : "idle.1"
+  }
+}

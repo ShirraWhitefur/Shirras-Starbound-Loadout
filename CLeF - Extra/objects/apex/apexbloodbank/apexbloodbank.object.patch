@@ -1,0 +1,14 @@
+[
+  { "op" : "replace", "path" : "/category", "value" : "storage" },
+  { "op" : "add", "path" : "/objectType", "value" : "container" },
+  { "op" : "add", "path" : "/tooltipKind", "value" : "container" },
+
+  { "op" : "add", "path" : "/novakidDescription", "value" : "Well, partner, now I know where the Bloody Mary comes from..." },
+
+  { "op" : "add", "path" : "/openSounds", "value" : [ "/sfx/objects/locker_open.wav" ] },
+  { "op" : "add", "path" : "/closeSounds", "value" : [ "/sfx/objects/locker_close.wav" ] },
+  { "op" : "add", "path" : "/slotCount", "value" : 48 },
+  { "op" : "add", "path" : "/uiConfig", "value" : "/interface/chests/chest%slots%.config" },
+  { "op" : "add", "path" : "/frameCooldown", "value" : 5 },
+  { "op" : "add", "path" : "/autoCloseCooldown", "value" : 3600 }
+]

@@ -1,0 +1,30 @@
+{
+	"itemName" : "felintier1rifle",
+	"inventoryIcon" : "felintier1rifle.png",
+	"dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+	"maxStack" : 1,
+	"price" : 180,
+	"rarity" : "common",
+	"description" : "Carried by the Wildcats, the Felins' interplanetary police.",
+	"shortdescription" : "Wildcat Service Rifle",
+	"image" : "felintier1rifle.png",
+	"handPosition" : [-3, 3],
+	"firePosition" : [14, 6],
+	"recoilTime" : 0.1,
+	"level" : 1,
+	"tooltipKind" : "gun",
+	"fireTime" : 1.0,
+	"twoHanded" : true,
+	"walkWhileFiring" : false,
+	"projectileType" : "plasmabullet",
+	"projectile" : {
+		"speed" : 150,
+		"life" : 3,
+		"power" : 6,
+		"color" : [255, 10, 10]
+    	},
+	"muzzleEffect" : {
+		"animation" : "/animations/muzzleflash/plasmamuzzle1/plasmamuzzle1.animation",
+		"fireSound" : [ { "file" : "/sfx/gun/plasma_pistol1.wav" } ]
+	}
+}

@@ -1,0 +1,126 @@
+{
+  "name" : "magmaoceanfloorms",
+  "friendlyName" : "Magma Ocean Floor",
+
+  "spawnProfiles" : [
+    {
+      "groups" : [ "oceanfloor" ],
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "fireImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
+    }
+  ],
+
+  "hueShiftOptions" : [-18, 0, 15],
+
+  "parallax" : "/parallax/surface/magmaoceanfloor.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/magma_day.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/magma_night.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/planetarium.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vastimmortalsuns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/arctic-exploration1.ogg", "/music/arctic-exploration2.ogg", "/music/haiku.ogg", "/music/M54.ogg", "/music/on-the-beach-at-night.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+    }
+  },
+
+  "mainBlock" : "obsidian",
+  "subBlocks" : [ "ash", "rock14" ],
+  "ores" : "msSolarium",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "ash" ],
+    "grassModDensity" : 0.0,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "pebbles" ]
+      }
+    ]
+  },
+  
+  "undergroundPlaceables" : {
+    "items" : [
+	  {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "pebbles" ]
+      }
+    ]
+  }
+}

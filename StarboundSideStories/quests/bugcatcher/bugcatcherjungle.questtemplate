@@ -1,0 +1,18 @@
+  {
+  "id" : "bugcatcherjungle.gearup",
+  "prerequisites" : [ "bugcatchersnow.gearup" ],
+  "title" : "^orange;Bugs in the Jungle",
+  "text" : "Our next assignment ssshall be finding sssome bugs on tropical planets. I believe there's the brightstripe, the vineclimber,and the thornbee on these planets.",
+  "completionText" : "Great job! ",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "brightstripe", "count" : 1, "consume" : false }, 
+	{ "type" : "gather", "item" : "vineclimber", "count" : 1, "consume" : false }, 
+	{ "type" : "gather", "item" : "thornbee", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [400, 500],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

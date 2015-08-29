@@ -1,0 +1,15 @@
+  {
+  "id" : "ishcartaalchemist1.gearup",
+  "title" : "^orange;Ishcarta's Alchemist",
+  "text" : "Hm? Oh, hello. Ishida Rainbush, a pleasure to meet you. I'm Ishcarta's alchemist, as you may or may not have heard. You've ssseen ssstims around the universe, yes? My potions are sssimilar, and I could use your help making some more.",
+  "completionText" : "Good, as I thought, ssstims are useful, but last sssuch a sssmall amount of time. Together we can fix that.",
+  "completionConditions" : [
+	
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

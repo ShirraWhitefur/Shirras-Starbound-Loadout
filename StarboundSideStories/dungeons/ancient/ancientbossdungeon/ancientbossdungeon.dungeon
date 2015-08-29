@@ -1,0 +1,330 @@
+{
+  "metadata" : {
+    "name" : "ancientbossdungeon",
+    "species" : "dummy",
+    "rules" : [
+    ],
+    "anchor" : [ "ancientboss1", "ancientboss2", "ancientboss3", "ancientboss4" ],
+    "gravity" : 80,
+    "maxRadius" : 2000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+  "tiles" : [
+    {
+      "value" : [255, 0, 220, 255],
+      "comment" : "magic pinkppp, a no-op value"
+    },
+    {
+      "value" : [0, 0, 0, 255],
+      "rules" : [ [ "worldGenMustContainAirBackground" ], [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ] ]
+    },
+    {
+      "value" : [120, 120, 120, 255],
+      "rules" : [ [ "worldGenMustContainAirForeground" ], [ "allowOverdrawing" ] ]
+    },
+    {
+      "value" : [255, 255, 255, 255],
+      "rules" : [ [ "worldGenMustContainSolidBackground" ], [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface", { "variant" : 0 } ] ]
+    },
+    {
+      "value" : [0, 38, 255, 255],
+      "comment" : "bright blue, entrance coupler",
+      "connector" : true
+    },
+
+    {
+      "value" : [0, 255, 186, 255],
+      "comment" : "bright aqua, empty cave coupler",
+      "connector" : true
+    },
+
+    {
+      "value" : [240, 255, 0, 255],
+      "comment" : "bright yellow, entrance piece coupler",
+      "connector" : true
+    },
+
+    {
+      "value" : [32, 32, 32, 255],
+      "comment" : "Empty hole",
+      "brush" : [ [ "clear" ] ]
+    },
+
+    {
+      "value" : [128, 128, 128, 255],
+      "comment" : "Biome tile brush",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface" ] ]
+    },
+
+    {
+      "value" : [100, 100, 100, 255],
+      "comment" : "Biome tile brush non-overwritable",
+      "brush" : [ [ "surface" ] ]
+    },
+
+    {
+      "value" : [200, 200, 200, 255],
+      "comment" : "Biome tile background brush",
+      "brush" : [ [ "clear" ], [ "surfacebackground" ] ]
+    },
+
+    {
+      "value" : [54, 63, 105, 255],
+      "comment" : "water pool foreground",
+      "brush" : [ [ "clear" ], [ "liquid", "water" ] ]
+    },
+
+    {
+      "value" : [255, 232, 178, 255],
+      "comment" : "background main biome block",
+      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 0 } ] ]
+    },
+
+    {
+      "value" : [255, 222, 178, 255],
+      "comment" : "overwritable background main biome block",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 0 } ] ]
+    },
+
+    {
+      "value" : [204, 186, 143, 255],
+      "comment" : "foreground main biome block",
+      "brush" : [ [ "surface", { "variant" : 0 } ] ]
+    },
+
+    {
+      "value" : [204, 176, 143, 255],
+      "comment" : "overwritable foreground main biome block",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface", { "variant" : 0 } ] ]
+    },
+
+    {
+      "value" : [178, 232, 255, 255],
+      "comment" : "background sub biome block #1",
+      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 1 } ] ]
+    },
+
+    {
+      "value" : [178, 222, 255, 255],
+      "comment" : "overwritable background sub biome block #1",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 1 } ] ]
+    },
+
+    {
+      "value" : [143, 186, 204, 255],
+      "comment" : "foreground sub biome block #1",
+      "brush" : [ [ "surface", { "variant" : 1 } ] ]
+    },
+
+    {
+      "value" : [143, 176, 204, 255],
+      "comment" : "overwritable foreground sub biome block #1",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface", { "variant" : 1 } ] ]
+    },
+
+    {
+      "value" : [222, 255, 178, 255],
+      "comment" : "background sub biome block #2",
+      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 2 } ] ]
+    },
+
+    {
+      "value" : [222, 245, 178, 255],
+      "comment" : "overwritable background sub biome block #2",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 2 } ] ]
+    },
+
+    {
+      "value" : [177, 204, 143, 255],
+      "comment" : "foreground sub biome block #2",
+      "brush" : [ [ "surface", { "variant" : 2 } ] ]
+    },
+
+    {
+      "value" : [177, 194, 143, 255],
+      "comment" : "overwritable foreground sub biome block #2",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface", { "variant" : 2 } ] ]
+    },
+
+    {
+      "value" : [185, 179, 21, 255],
+      "comment" : "background crosshatch",
+      "brush" : [ [ "clear" ], [ "back", "crosshatch" ] ]
+    },
+
+    {
+      "value" : [237, 230, 26, 255],
+      "comment" : "foreground crosshatch",
+      "brush" : [ [ "clear" ], [ "front", "crosshatch" ] ]
+    },
+
+    {
+      "value" : [56, 107, 140, 255],
+      "comment" : "background ancientblock",
+      "brush" : [ [ "clear" ], [ "back", "ancientblock" ] ]
+    },
+
+    {
+      "value" : [87, 165, 217, 255],
+      "comment" : "foreground ancientblock",
+      "brush" : [ [ "clear" ], [ "back", "ancientblock" ], [ "front", "ancientblock" ] ]
+    },
+    
+    {
+      "value" : [63, 56, 140, 255],
+      "comment" : "background ancientbrick",
+      "brush" : [ [ "clear" ], [ "back", "ancientbrick" ] ]
+    },
+
+    {
+      "value" : [98, 87, 217, 255],
+      "comment" : "foreground ancientbrick",
+      "brush" : [ [ "clear" ], [ "back", "ancientbrick" ], [ "front", "ancientbrick" ] ]
+    },
+	
+    {
+      "value" : [139, 130, 111, 255],
+      "comment" : "ancient stairs/platform",
+      "brush" : [ [ "clear" ], [ "front", "ancientplatform" ] ]
+    },
+    
+    {
+      "value" : [119, 56, 140, 255],
+      "comment" : "background meteoriterock",
+      "brush" : [ [ "clear" ], [ "back", "meteoriterock" ] ]
+    },
+
+    {
+      "value" : [184, 87, 217, 255],
+      "comment" : "foreground meteoriterock",
+      "brush" : [ [ "clear" ], [ "back", "meteoriterock" ], [ "front", "meteoriterock" ] ]
+    },
+
+    {
+      "value" : [229, 50, 122, 255],
+      "comment" : "tentaclehologram",
+      "brush" : [ [ "clear" ], [ "object", "hologram2" ] ]
+    },
+
+    {
+      "value" : [196, 56, 255, 255],
+      "comment" : "ancient light dot left",
+      "brush" : [ [ "clear" ], [ "object", "ancientstriplight3", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [176, 50, 229, 255],
+      "comment" : "ancient light",
+      "brush" : [ [ "clear" ], [ "object", "ancientstriplight1" ] ]
+    },
+
+    {
+      "value" : [140, 56, 255, 255],
+      "comment" : "tech hologram",
+      "brush" : [ [ "clear" ], [ "object", "hologram4" ] ]
+    },
+
+    {
+      "value" : [125, 50, 229, 255],
+      "comment" : "ancient chest",
+      "brush" : [ [ "clear" ], [ "object", "techchest", { "direction" : "left", "parameters" : { "treasurePools" : [ "techTreasure" ] } } ] ]
+    },
+
+    {
+      "value" : [125, 90, 0, 255],
+      "comment" : "ancient pillar",
+      "brush" : [ [ "clear" ], [ "object", "ancientpillar" ] ]
+    },
+
+    {
+      "value" : [39, 90, 210, 255],
+      "comment" : "miniboss monster",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "floran",
+            "typeName" : "ancientbadman2"
+          }
+        ] ]
+    },
+	
+    {
+      "value" : [19, 190, 110, 255],
+      "comment" : "Ancient Bad Man",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "floran",
+            "typeName" : "ancientbadman"
+          }
+        ] ]
+    },
+	
+    {
+      "value" : [148, 147, 42, 255],
+      "comment" : "Ancient UFO",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "ancientpenguinUfo",
+            "parameters" : {
+              "aggressive" : true
+            }
+          }
+        ] ]
+    },
+	
+    {
+      "value" : [225, 225, 225, 255],
+      "comment" : "humangenerator facing right - on state",
+      "brush" : [ [ "clear" ], [ "object", "shieldducky", { "direction" : "right", "parameters" : { "defaultState" : true } } ] ]
+    },
+	
+    {
+      "value" : [252, 132, 132, 255],
+      "comment" : "Ancient Robot",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "ancientrobotboss",
+            "parameters" : {
+              "aggressive" : true
+            }
+          }
+        ] ]
+    }
+  ],
+
+  "parts" : [
+    {
+      "name" : "ancientboss1",
+      "rules" : [ ],
+      "def" : [ "image", [ "ancientbossdungeon1.png", "ancientbossdungeon1-objects.png" ] ]
+    },
+	{
+      "name" : "ancientboss2",
+      "rules" : [ ],
+      "def" : [ "image", [ "ancientbossdungeon2.png", "ancientbossdungeon2-objects.png" ] ]
+    },
+	{
+      "name" : "ancientboss3",
+      "rules" : [ ],
+      "def" : [ "image", [ "ancientbossdungeon3.png", "ancientbossdungeon3-objects.png" ] ]
+    },
+	{
+      "name" : "ancientboss4",
+      "rules" : [ ],
+      "def" : [ "image", [ "ancientbossdungeon4.png", "ancientbossdungeon4-objects.png" ] ]
+    }
+  ]
+}

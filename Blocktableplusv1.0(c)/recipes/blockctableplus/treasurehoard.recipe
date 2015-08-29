@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 30 }
+  ],
+  "output" : { "item" : "treasurehoard", "count" : 1 },
+  "groups" : [ "blocktableplus", "materials", "all", "other" ]
+}

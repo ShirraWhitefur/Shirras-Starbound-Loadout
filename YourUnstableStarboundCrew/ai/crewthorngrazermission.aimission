@@ -1,0 +1,85 @@
+{
+  "missionName" : "crewthorngrazer",
+  "icon" : "crewthorngrazer.png",
+  "missionWorld" : "crewthorngrazer",
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Savannah of Bones",
+      "repeatButtonText" : "Repeat Savannah of Bones",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This arid planet is home to at least two friendly species, possibly more. The coordinates point to a Floran village on the edge of some plains, there you should be able to meet Kananna Bonebane. Speciality: Combat. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Savannah of Bones",
+      "repeatButtonText" : "Repeat Savannah of Bones",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This arid planet is home to at least two friendly species, possibly more. The coordinates point to a Floran village on the edge of some plains, there you should be able to meet Kananna Bonebane. Speciality: Combat. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Savannah of Bones",
+      "repeatButtonText" : "Repeat Savannah of Bones",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This arid planet is home to at least two friendly species, possibly more. The coordinates point to a Floran village on the edge of some plains, there you should be able to meet Kananna Bonebane. Speciality: Combat. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Savannah of Bones",
+      "repeatButtonText" : "Repeat Savannah of Bones",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This arid planet is home to at least two friendly species, possibly more. The coordinates point to a Floran village on the edge of some plains, there you should be able to meet Kananna Bonebane. Speciality: Combat. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Savannah of Bones",
+      "repeatButtonText" : "Repeat Savannah of Bones",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This arid planet is home to at least two friendly species, possibly more. The coordinates point to a Floran village on the edge of some plains, there you should be able to meet Kananna Bonebane. Speciality: Combat. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Savannah of Bones",
+      "repeatButtonText" : "Repeat Savannah of Bones",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This arid planet is home to at least two friendly species, possibly more. The coordinates point to a Floran village on the edge of some plains, there you should be able to meet Kananna Bonebane. Speciality: Combat. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Savannah of Bones",
+      "repeatButtonText" : "Repeat Savannah of Bones",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This arid planet is home to at least two friendly species, possibly more. The coordinates point to a Floran village on the edge of some plains, there you should be able to meet Kananna Bonebane. Speciality: Combat. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "ancientcore",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "ancientcore.png",
+  "description" : "A rare, high-tech key component of ancient technology.",
+  "shortdescription" : "Ancient Core",
+
+  "learnBlueprintsOnPickup" : [
+    "ancientbroadsword", "ancientshortsword", "ancientrocket", "ancientshotgun", "ancientarmorchest", "ancientarmorhead", "ancientarmorpants", "ancientarmor2chest", "ancientarmor2head", "ancientarmor2pants", "ancientbeamaxe", "ancientlocker", "ancientwrap"
+  ]
+}

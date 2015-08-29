@@ -1,0 +1,327 @@
+{
+  "name" : "toxicplainsms",
+  "friendlyName" : "Toxic Plains",
+
+  "spawnProfiles" : [
+    {
+      "groups" : [ "hardsurface1" ],
+      "extraSpawns" : [ "greentip", "blueback", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
+      "monsterParameters" : {
+        "colors" : "forest"
+      }
+    },
+    {
+      "groups" : [ "hardsurface2" ],
+      "extraSpawns" : [ "blueback", "redwing", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
+      "monsterParameters" : {
+        "colors" : "forest"
+      }
+    }
+  ],
+  
+  "hueShiftOptions" : [40, 50, 60, 70, 80, 90, 100],
+
+  "mainBlock" : "mud",
+  "subBlocks" : [ "rock02" ],
+  "ores" : "surfaceOres",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "grass" ],
+    "grassModDensity" : 0.9,
+
+    "ceilingGrassMod" : [ "undergrowth" ],
+    "ceilingGrassModDensity" : 0.5,
+
+    "items" : [
+      
+	  // CHESTS and ARTIFICIAL PLACEABLES
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "forestChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  
+	  // TERRAIN
+	  
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDist",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "terrainfeatures" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibossoverground",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "minibossoverground" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "greenplatforming" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "forestmicrodungeons" ]
+      },
+	  
+	  // GRASS and TREES and PLANTS
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "grass",
+        "grasses" : [ "grass", "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "flowerred" ], [0.35, "flowerblue" ], [0.35, "floweryellow" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "testbush",
+            "baseHueShiftMax" : 180,
+            "modHueShiftMax" : 180
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "grasstree" ],
+        "treeFoliageList" : [ "bluebell" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "bladetree" ],
+        "treeFoliageList" : [ "nothing" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildcarrotseed" ] ],
+            "parameters" : {
+              "startingStage" : 2
+            }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildtomatoseed" ] ],
+            "parameters" : {
+              "startingStage" : 3
+            }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildcoffeeseed" ] ],
+            "parameters" : {
+              "startingStage" : 3
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "grass" ],
+    "grassModDensity" : 0.2,
+
+    "ceilingGrassMod" : [ "roots" ],
+    "ceilingGrassModDensity" : 0.3,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "forestChest" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundtechChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "techChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 10,
+        "treeStemList" : [ "rootvine", "rootvine2", "rootvine3" ],
+        "treeFoliageList" : [ "" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "period" : 5,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "greenplatforming" ]
+      }
+    ]
+  }
+}

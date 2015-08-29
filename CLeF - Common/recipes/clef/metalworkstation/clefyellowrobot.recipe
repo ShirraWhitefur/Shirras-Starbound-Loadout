@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 5 },
+    { "item" : "clefrobothead", "count" : 1 },
+    { "item" : "clefrobotchest", "count" : 1 },
+    { "item" : "clefrobotlegs", "count" : 1 },
+    { "item" : "clefrobotarms", "count" : 1 }
+  ],
+  "output" : { "item" : "clefyellowrobot", "count" : 1 },
+  "groups" : [ "metalworkstation", "other", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "anti_fluffbody",
+  "category" : "smallflying",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "anti_fluffbody.png"
+  }
+}

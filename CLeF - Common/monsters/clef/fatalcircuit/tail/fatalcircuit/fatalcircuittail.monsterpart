@@ -1,0 +1,9 @@
+{
+  "name" : "fatalcircuittail",
+  "category" : "fatalcircuit_robotic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "fatalcircuittail.png"
+  }
+}

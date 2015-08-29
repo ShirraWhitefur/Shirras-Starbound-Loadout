@@ -1,0 +1,12 @@
+{
+	"id" : "felinftlrepair.gearup",
+	"title" : "^#orange;Like 300 Years Ago",
+	"text" : "Now that I can visit the planets within this solar system, ^green;I should start looking into repairing my FTL drive. ^orange;S.A.I.L will probably know more.",
+	"completionText" : "It's working! I can finally visit other star systems!",
+	"completionConditions" : [
+		{ "type" : "shiplevel", "level" : 3 }
+	],
+	"moneyRange" : [500, 500],
+	"followUp" : "fuel.gearup",
+	"canBeAbandoned" : false
+}

@@ -1,0 +1,28 @@
+{
+	"objectName" : "lettieplush",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 100,
+	"description" : "A cute little plushie of a most excellent nurse.",
+	"shortdescription" : "Letrune Plushie",
+	"race" : "felin",
+	"apexDescription" : "todo",
+	"avianDescription" : "todo",
+	"floranDescription" : "Ssssilly famous cat full of little grains.",
+	"glitchDescription" : "todo",
+	"humanDescription" : "This 'Letrune' must be a pretty famous figure to the cats.",
+	"hylotlDescription" : "I'd hate to say it, but this is fine craftsmanship.",
+	"felinDescription" : "todo",
+	"inventoryIcon" : "plushies.png:lettie.icon",
+	"orientations" : [
+		{
+			"dualImage" : "plushies.png:lettie",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 0.4,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"config" : {
+		"shipUpgrades" : {
+			"capabilities" : [],
+			"fuelMax" : 1000
+		}
+	},
+	"backgroundOverlays" : [
+		{
+			"image" : "felint1.png",
+			"position" : [9, 12],
+			"fullbright" : true
+		},
+		{
+			"image" : "felint1lit.png",
+			"position" : [9, 12]
+		}		
+	],
+	"blockKey" : "blockKey.config:blockKey",
+	"blockImage" : "felint0blocks.png"
+} 

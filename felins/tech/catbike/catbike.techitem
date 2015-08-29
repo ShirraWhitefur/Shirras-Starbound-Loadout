@@ -1,0 +1,9 @@
+{
+  "itemName" : "catbike",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/humanhoverbike.png",
+  "description" : "Press F to use this. Traverses rough terrain quicker. It can also jump!",
+  "shortdescription" : "Felin Hoverbike",
+
+  "techModule" : "catbike"
+}

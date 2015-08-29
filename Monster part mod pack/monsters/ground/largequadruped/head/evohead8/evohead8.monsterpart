@@ -1,0 +1,16 @@
+{
+  "name" : "evohead8",
+  "category" : "largequadruped",
+  "type" : "head",
+
+
+  "frames" : {
+    "head" : "evohead8.png"
+  },
+
+  "parameters" :
+  {
+    "meleeProjectile" : "meleebite",
+    "projectileSourcePosition" : [1, -0.5]
+  }
+}

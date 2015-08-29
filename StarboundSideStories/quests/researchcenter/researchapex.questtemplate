@@ -1,0 +1,16 @@
+  {
+  "id" : "researchapex.gearup",
+  "prerequisites" : [ "researchglitch.gearup" ],
+  "title" : "^orange;Ancient Apex",
+  "text" : "These myths the Glitch have are actually quite interesting, and might help us with out understanding. Great job! We might as well continue with the rounds, could you go and speak with an Apex representative in one of their towns?",
+  "completionText" : "Hey there! Hope all is going well with the exploring...oh? The ark? I've looked into it a little, but our knowledge on the subject is fairly limited. I'll send the research center our notes on it.",
+  "completionConditions" : [
+	
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

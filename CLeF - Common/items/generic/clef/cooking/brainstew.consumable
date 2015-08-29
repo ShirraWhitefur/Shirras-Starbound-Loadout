@@ -1,0 +1,18 @@
+{
+  "itemName" : "brainstew",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "brainstew.png",
+  "description" : "Mmm! Braaains! Don't mind the cyan-ish tint, I'm sure it's tasty.",
+  "shortdescription" : "Brain Stew",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal240",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "brainpie", "mashedpotato" ]
+}

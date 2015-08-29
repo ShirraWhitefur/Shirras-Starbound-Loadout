@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/sounds/turnHostile", "value" : [ "/sfx/npc/quadruped/powlhead_turnhostile.wav" ] }
+]

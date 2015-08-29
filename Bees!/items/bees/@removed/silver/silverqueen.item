@@ -1,0 +1,9 @@
+{
+  "itemName" : "silverqueen",
+  "rarity" : "Common",
+  "inventoryIcon" : "silverqueen.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "An silver bee queen.",
+  "shortdescription" : "Silver Queen",
+  "maxStack" : 1000
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "beeflower",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "The seed of a bright yellow beeflower",
+  "shortdescription" : "Beeflower Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "inventoryIcon" : "beeflowericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "beeflower.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [400, 440]
+    },
+    {
+      "alts" : 3,
+      "harvestPool" : "beeflowerHarvest",
+      "resetToStage" : 1
+    }
+  ]
+}

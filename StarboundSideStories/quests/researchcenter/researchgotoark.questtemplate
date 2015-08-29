@@ -1,0 +1,16 @@
+  {
+  "id" : "researchgotoark.gearup",
+  "prerequisites" : [ "researchwelcome.gearup" ],
+  "title" : "^orange;Visiting the Ark",
+  "text" : "I'm sure you've already visited, but still, the first thing I like our recruitments to do is go and take in the ambience of the ark. It's a spectacular place.",
+  "completionText" : "As you walk along the ark's glowing floor, you take in surrounding area as you were instructed to do. Who built this ark? Who is the tentacle monster? Who's the space man? I better report back to the research center. Before you do, however, you notice a strange orb at your feet...",
+  "completionConditions" : [
+	
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "ancientcore", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

@@ -1,0 +1,85 @@
+{
+  "missionName" : "crewashblazer",
+  "icon" : "crewashblazer.png",
+  "missionWorld" : "crewashblazer",
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Novakid Canyon",
+      "repeatButtonText" : "Repeat Novakid Canyon",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "A village of Novakids, along with a mining operation. Mr. Sora recommends seeing if any of the Novakids would be interested in traveling the universe with us as planet-side base tenants. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Novakid Canyon",
+      "repeatButtonText" : "Repeat Novakid Canyon",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "A village of Novakids, along with a mining operation. Mr. Sora recommends seeing if any of the Novakids would be interested in traveling the universe with us as planet-side base tenants. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Novakid Canyon",
+      "repeatButtonText" : "Repeat Novakid Canyon",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "A village of Novakids, along with a mining operation. Mr. Sora recommends seeing if any of the Novakids would be interested in traveling the universe with us as planet-side base tenants. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Novakid Canyon",
+      "repeatButtonText" : "Repeat Novakid Canyon",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "A village of Novakids, along with a mining operation. Mr. Sora recommends seeing if any of the Novakids would be interested in traveling the universe with us as planet-side base tenants. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Novakid Canyon",
+      "repeatButtonText" : "Repeat Novakid Canyon",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "A village of Novakids, along with a mining operation. Mr. Sora recommends seeing if any of the Novakids would be interested in traveling the universe with us as planet-side base tenants. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Novakid Canyon",
+      "repeatButtonText" : "Repeat Novakid Canyon",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "A village of Novakids, along with a mining operation. Mr. Sora recommends seeing if any of the Novakids would be interested in traveling the universe with us as planet-side base tenants. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Novakid Canyon",
+      "repeatButtonText" : "Repeat Novakid Canyon",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "A village of Novakids, along with a mining operation. Mr. Sora recommends seeing if any of the Novakids would be interested in traveling the universe with us as planet-side base tenants. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

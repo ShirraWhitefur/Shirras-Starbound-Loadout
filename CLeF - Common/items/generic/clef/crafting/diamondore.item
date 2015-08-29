@@ -1,0 +1,8 @@
+{
+  "itemName" : "diamondore",
+  "rarity" : "Rare",
+  "inventoryIcon" : "diamondore.png",
+  "description" : "Diamond ore. Can be used for smelting or repairs.",
+  "shortdescription" : "Diamond Ore",
+  "learnBlueprintsOnPickup" : [ "diamond" ]
+}

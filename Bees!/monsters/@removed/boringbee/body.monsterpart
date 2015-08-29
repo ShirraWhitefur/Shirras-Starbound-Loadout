@@ -1,0 +1,9 @@
+{
+  "name" : "boringbee",
+  "category" : "boringbee",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "boringbee.png"
+  }
+}

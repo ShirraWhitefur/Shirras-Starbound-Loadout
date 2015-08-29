@@ -1,0 +1,26 @@
+{
+  "name": "colourfultenant",
+  "priority": 2,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "colourful": 4
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "glitch",
+      "type": "eccentricbiomebaddy",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [600.0, 1200.0],
+    "pool": "subbiomeGift"
+  }
+}

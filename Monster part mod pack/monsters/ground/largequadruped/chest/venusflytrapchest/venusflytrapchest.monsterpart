@@ -1,0 +1,9 @@
+{
+  "name" : "venusflytrapchest",
+  "category" : "largequadruped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "venusflytrapchest.png"
+  }
+}

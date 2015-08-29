@@ -1,0 +1,11 @@
+{
+  "name" : "radiationglow",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "radiationglow.lua"
+  ],
+
+  "animationConfig" : "radiationglow.animation"
+}

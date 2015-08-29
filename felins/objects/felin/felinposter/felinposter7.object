@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinposter7",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 75,
+	"shortdescription" : "Felin Recruitment Poster",
+	"description" : "Join the Wildcats!",
+	"race" : "felin",
+	"apexDescription" : "The Wildcats. A good attempt.",
+	"avianDescription" : "Join the Wildcats? No thanks.",
+	"floranDescription" : "Floran like the Wildcats.",
+	"glitchDescription" : "Intrigued. I wonder how many felin are reserve Wildcats.",
+	"humanDescription" : "Do I get to wear the cool armor if I join?",
+	"hylotlDescription" : "The Wildcats. The felin police force, I believe.",
+	"felinDescription" : "Join the Wildcats!",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinposter24.png:2",
+			"imagePosition" : [-12, -16],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

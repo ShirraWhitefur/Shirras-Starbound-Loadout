@@ -1,0 +1,10 @@
+{
+  "name" : "ds_mysterious_stars",
+  "path" : ".",
+  "requires" : [],
+  "metadata": {
+  	"version" : "v1.5 for Pleased Giraffe",
+    "author" : "Broconut",
+    "description" : "Adds a new star type, mysterious, which contains all biomes with a new threat level."
+  }
+}

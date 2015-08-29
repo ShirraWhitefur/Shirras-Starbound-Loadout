@@ -1,0 +1,9 @@
+{
+  "name" : "freak_tinyrobot",
+  "category" : "smallquadruped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "freak_tinyrobot.png"
+  }
+}

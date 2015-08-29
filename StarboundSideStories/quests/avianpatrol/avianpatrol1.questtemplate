@@ -1,0 +1,13 @@
+  {
+  "id" : "avianpatrol1.gearup",
+  "title" : "^orange;Avian Patrols",
+  "text" : "Hey, an explorer! The name's Skyshaper Coztl, it's nice to meet someone from the stars! I've been stuck down here in this village my entire life, but I'm about to become a guard, so that's kind of exciting, I guess.",
+  "completionText" : "Really though, I kind of want to explore being a chef for the village more than protecting it. Oh? You can cook a dish or two? And you want to help me become a chef? You're the greatest!",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

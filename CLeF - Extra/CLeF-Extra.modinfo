@@ -1,0 +1,15 @@
+{
+	"name" : "CLeF-Extra",
+	"version" : "",
+	"path" : ".",
+	"requires" : [ "CLeF" ],
+	"includes" : [],
+	"metadata" : {
+	  "displayName" : "CLeF Extras Module",
+		"author" : "dsp2003",
+		"description" : "",
+		"support_url" : "https://github/dsp2003/clf/",
+		"version" : "",
+		"thanks" : ""
+	}
+}

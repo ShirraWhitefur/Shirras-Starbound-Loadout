@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "833ambersword", "count" : 1 }, { "item" : "refinedviolium", "count" : 12 }, { "item" : "petalblue", "count" : 20 }
+  ],
+  "output" : { "item" : "833petalsword", "count" : 1 },
+  "groups" : [ "mod", "beestation", "weapons", "all" ]
+}

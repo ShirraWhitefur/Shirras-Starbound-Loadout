@@ -1,0 +1,22 @@
+{
+  "kind" : "gravitons",
+  "definition" : {
+    "type" : "ember",
+    "size" : 2.0,
+    "color" : [0, 240, 255, 175],
+    "fade" : 0,
+    "initialVelocity" : [0,5],
+    "finalVelocity" : [0,5],
+    "approach" : [0,-5],
+    "timeToLive" : 0.51,
+    "light" : [0, 240, 255],
+    "layer" : "front",
+    "variance" : {
+      "size" : 1,
+      "offset" : [2, 0]
+    },
+    "ignoreWind" : true,
+    "collidesForeground" : false,
+    "collidesLiquid" : false
+  }
+}

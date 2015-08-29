@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinstatue2",
+	"tags" : [ "felin", "felinvillage", "pretty", "valuable" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 100,
+	"description" : "It's a statue of Letrune, a famed felin healer.",
+	"shortdescription" : "Healer Statue",
+	"race" : "felin",
+	"apexDescription" : "Remarkable. This famous felin is dressed, and you can still look up her dress.",
+	"avianDescription" : "Healers are good, I guess, for such a slap-happy people.",
+	"floranDescription" : "Ssssilly famous cat with big fatty sssacks.",
+	"glitchDescription" : "Amazed. This healer has impressive measurements.",
+	"humanDescription" : "This 'Letrune' must be a pretty important figure to the cats.",
+	"hylotlDescription" : "I don't think she's wearing anything underneath that dress.",
+	"felinDescription" : "We could all learn from this lady. And some others.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"dualImage" : "felinstatue2.png",
+			"imagePosition" : [-16, 0],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	]
+}

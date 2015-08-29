@@ -1,0 +1,10 @@
+{
+	"codexId" : "howtobeafelin",
+	"title" : "How to be a Felin",
+	"codexkind" : "codex",
+	"itemName" : "howtobeafelinCodex",
+	"inventoryIcon" : "felinbook_02.png",
+	"rarity" : "common",
+	"description" : "A Primer",
+	"shortdescription" : "How to be a Felin"
+}

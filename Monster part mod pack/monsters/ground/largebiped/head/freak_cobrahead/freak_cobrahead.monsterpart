@@ -1,0 +1,13 @@
+{
+  "name" : "freak_cobrahead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "freak_cobrahead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}

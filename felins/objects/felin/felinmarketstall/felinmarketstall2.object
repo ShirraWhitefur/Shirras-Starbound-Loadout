@@ -1,0 +1,29 @@
+{
+	"objectName" : "felinmarketstall2",
+	"tags" : [ "felin", "felinvillage", "felinmarket", "commerce" ],
+	"rarity" : "common",
+	"description" : "Beautiful fabrics and clothing adorn this cute little stall.",
+	"shortdescription" : "Felin Clothes Stall",
+	"race" : "felin",
+	"category" : "decorative",
+	"price" : 120,
+	"apexDescription" : "A selection of bright clothing.",
+	"avianDescription" : "It's funny how much the cats' clothing resembles that of humans and hylotl.",
+	"floranDescription" : "Cat friendsss don't wear much. Good for mobility.",
+	"glitchDescription" : "Insecure. I have no knowledge of fashion.",
+	"humanDescription" : "I could wear these. I could. I don't think I should.",
+	"hylotlDescription" : "Some of these remind of our own styles.",
+	"felinDescription" : "Felin don't usually distinguish between clothing for men or women.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"dualImage" : "felinmarketstall2.png",
+			"imagePosition" : [-24, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ],
+			"collision" : "platform"
+		}
+	]
+}

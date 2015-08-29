@@ -1,0 +1,2364 @@
+[
+  {
+    "op" : "add",
+    "path" : "/planetTypes/gardenms",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "gardenms" ],
+          "dungeonCountRange" : [0, 1],
+          "dungeons" : [ "apexresearchlab", "apextestchamber", "apextowerblock", "avianairship", "aviantemple", "aviantomb", "aviantower", "avianvillage", "floranhell", "floranhuntinggrounds", "floranvillagetower", "glitchcastle", "glitchsewer", "glitchvillage", "humanbunker", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_garden" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/gardenmsapex",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "gardenmsapex" ],
+          "dungeonCountRange" : [3, 3],
+          "dungeons" : [ "apexresearchlab", "apextestchamber", "apextowerblock" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_garden_apex" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/gardenmshuman",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "gardenmshuman" ],
+          "dungeonCountRange" : [3, 3],
+          "dungeons" : [ "humanbunker", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_garden_human" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/forestms",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "forestms" ],
+          "secondaryRegion" : [ "springms", "mushroompatchms", "toxicplainsms" ],
+          "dungeonCountRange" : [0, 1],
+          "dungeons" : [ "apexresearchlab", "apextestchamber", "apextowerblock", "avianairship", "aviantemple", "aviantomb", "aviantower", "avianvillage", "floranhell", "floranhuntinggrounds", "floranvillagetower", "glitchcastle", "glitchsewer", "glitchvillage", "humanbunker", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_forest" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/forestmsfloran",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "forestmsfloran" ],
+          "dungeonCountRange" : [3, 3],
+          "dungeons" : [ "floranhell", "floranhuntinggrounds", "floranvillagetower" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_forest_floran" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/forestmshuman",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "forestmshuman" ],
+          "dungeonCountRange" : [3, 3],
+          "dungeons" : [ "humanbunker", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_forest_human" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/desertms",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "desertms" ],
+          "secondaryRegion" : [ "oasisms", "tarms", "sandstonems" ],
+          "dungeonCountRange" : [0, 1],
+          "dungeons" : [ "apexresearchlab", "apextestchamber", "apextowerblock", "avianairship", "aviantemple", "aviantomb", "aviantower", "avianvillage", "floranhell", "floranhuntinggrounds", "floranvillagetower", "glitchcastle", "glitchsewer", "glitchvillage", "humanbunker", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_desert" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/desertmsavian",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "desertmsavian" ],
+          "dungeonCountRange" : [3, 3],
+          "dungeons" : [ "avianairship", "aviantemple", "aviantomb", "aviantower", "avianvillage" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_desert_avian" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/oceanms",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "oceanms" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "oceanfloorms" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_ocean" ],
+          "secondaryRegion" : [ "coralcavesms" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "stonecaves", "zencavesms" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "stonecaves", "zencavesms" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "stonecaves", "zencavesms" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/savannahms",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "savannahms" ],
+          "secondaryRegion" : [ "colourfulms", "bonesms" ],
+          "dungeonCountRange" : [0, 1],
+          "dungeons" : [ "apexresearchlab", "apextestchamber", "apextowerblock", "avianairship", "aviantemple", "aviantomb", "aviantower", "avianvillage", "floranhell", "floranhuntinggrounds", "floranvillagetower", "glitchcastle", "glitchsewer", "glitchvillage", "humanbunker", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_arid" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/savannahmsavian",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "savannahmsavian" ],
+          "dungeonCountRange" : [3, 3],
+          "dungeons" : [ "avianairship", "aviantemple", "aviantomb", "aviantower", "avianvillage" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_arid_avian" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/snowms",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "snowms" ],
+          "secondaryRegion" : [ "alpinems", "bioluminescencems", "taigams" ],
+          "dungeonCountRange" : [0, 1],
+          "dungeons" : [ "apexresearchlab", "apextestchamber", "apextowerblock", "avianairship", "aviantemple", "aviantomb", "aviantower", "avianvillage", "floranhell", "floranhuntinggrounds", "floranvillagetower", "glitchcastle", "glitchsewer", "glitchvillage", "humanbunker", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_snow" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "luminouscaves", "icecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "luminouscaves", "icecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "luminouscaves", "icecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "luminouscaves", "icecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/snowmsglitch",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "snowmsglitch" ],
+          "dungeonCountRange" : [3, 3],
+          "dungeons" : [ "glitchcastle", "glitchsewer", "glitchvillage" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_snow_glitch" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "luminouscaves", "icecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "luminouscaves", "icecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "luminouscaves", "icecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "luminouscaves", "icecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/junglems",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "junglems" ],
+          "secondaryRegion" : [ "giantflowersms", "swampms" ],
+          "dungeonCountRange" : [0, 1],
+          "dungeons" : [ "apexresearchlab", "apextestchamber", "apextowerblock", "avianairship", "aviantemple", "aviantomb", "aviantower", "avianvillage", "floranhell", "floranhuntinggrounds", "floranvillagetower", "glitchcastle", "glitchsewer", "glitchvillage", "humanbunker", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_jungle" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/junglemsapex",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "junglemsapex" ],
+          "dungeonCountRange" : [3, 3],
+          "dungeons" : [ "apexresearchlab", "apextestchamber", "apextowerblock" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_jungle_apex" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/junglemsfloran",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "junglemsfloran" ],
+          "dungeonCountRange" : [3, 3],
+          "dungeons" : [ "floranhell", "floranhuntinggrounds", "floranvillagetower" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_jungle_floran" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/toxicms",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "toxicms" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "toxicoceanfloorms" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_toxic" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "luminouscaves", "hivems", "slimecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/alienms",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "alienms" ],
+          "secondaryRegion" : [ "eyepatchms", "fleshms" ],
+          "dungeonCountRange" : [0, 1],
+          "dungeons" : [ "apexresearchlab", "apextestchamber", "apextowerblock", "avianairship", "aviantemple", "aviantomb", "aviantower", "avianvillage", "floranhell", "floranhuntinggrounds", "floranvillagetower", "glitchcastle", "glitchsewer", "glitchvillage", "humanbunker", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_alien" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "fleshcaves", "cellcaves", "slimecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "fleshcaves", "cellcaves", "slimecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "fleshcaves", "cellcaves", "slimecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "fleshcaves", "cellcaves", "slimecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/arcticms",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "arcticms" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "arcticoceanfloorms" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_snow" ],
+          "secondaryRegion" : [ "icecoralcavesms" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "stonecaves", "icecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "stonecaves", "icecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "stonecaves", "icecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/tundrams",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "tundrams" ],
+          "secondaryRegion" : [ "icems", "orbms" ],
+          "dungeonCountRange" : [0, 1],
+          "dungeons" : [ "apexresearchlab", "apextestchamber", "apextowerblock", "avianairship", "aviantemple", "aviantomb", "aviantower", "avianvillage", "floranhell", "floranhuntinggrounds", "floranvillagetower", "glitchcastle", "glitchsewer", "glitchvillage", "humanbunker", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_snow" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "luminouscaves", "icecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "luminouscaves", "icecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "luminouscaves", "icecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "luminouscaves", "icecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/magmams",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "magmams" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "magmaoceanfloorms" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_volcanic" ],
+          "secondaryRegion" : [ "crystalcavesms", "heckms" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "crystalcavesms", "heckms" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "crystalcavesms", "heckms" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "crystalcavesms", "heckms" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/volcanicms",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "volcanicms" ],
+          "secondaryRegion" : [ "crystallinems" ],
+          "dungeonCountRange" : [0, 1],
+          "dungeons" : [ "apexresearchlab", "apextestchamber", "apextowerblock", "avianairship", "aviantemple", "aviantomb", "aviantower", "avianvillage", "floranhell", "floranhuntinggrounds", "floranvillagetower", "glitchcastle", "glitchsewer", "glitchvillage", "humanbunker", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_volcanic" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "crystalcavesms", "heckms" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "crystalcavesms", "heckms" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "crystalcavesms", "heckms" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "crystalcavesms", "heckms" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/scorchedms",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "scorchedms" ],
+          "secondaryRegion" : [ "rustms" ],
+          "dungeonCountRange" : [0, 1],
+          "dungeons" : [ "apexresearchlab", "apextestchamber", "apextowerblock", "avianairship", "aviantemple", "aviantomb", "aviantower", "avianvillage", "floranhell", "floranhuntinggrounds", "floranvillagetower", "glitchcastle", "glitchsewer", "glitchvillage", "humanbunker", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_scorched" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/scorchedmsglitch",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "scorchedmsglitch" ],
+          "secondaryRegion" : [ "rustms" ],
+          "dungeonCountRange" : [3, 3],
+          "dungeons" : [ "glitchcastle", "glitchsewer", "glitchvillage" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_scorched_glitch" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "tarunderground", "bonecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/tentaclesms",
+    "value" : {
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "tentaclesms" ],
+          "dungeonCountRange" : [0, 1],
+          "dungeons" : [ "apexresearchlab", "apextestchamber", "apextowerblock", "avianairship", "aviantemple", "aviantomb", "aviantower", "avianvillage", "floranhell", "floranhuntinggrounds", "floranvillagetower", "glitchcastle", "glitchsewer", "glitchvillage", "humanbunker", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_tentacle" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_upper" ],
+          "secondaryRegion" : [ "fleshcaves", "cellcaves", "slimecaves" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_upper2" ],
+          "secondaryRegion" : [ "fleshcaves", "cellcaves", "slimecaves" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_mid" ],
+          "secondaryRegion" : [ "fleshcaves", "cellcaves", "slimecaves" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_mid2" ],
+          "secondaryRegion" : [ "fleshcaves", "cellcaves", "slimecaves" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_lower" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_lower2" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_semicore" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "underground11_core" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/moonms",
+    "value" : {
+      "gravityRange" : [10, 20],
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "moonms" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "underground11_moon" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "underground11_moon" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "underground11_moon" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "underground11_moon" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "underground11_moon" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "underground11_moon" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "underground11_moon" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "underground11_moon" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "underground11_moon" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "mooncore" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/asteroidfieldms",
+    "value" : {
+      "gravityRange" : [1, 1],
+      "threatRange" : [11, 11],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "asteroidfieldms" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "asteroidfieldms" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "asteroidfieldms" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "asteroidfieldms" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "asteroidfieldms" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "asteroidfieldms" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "asteroidfieldms" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "asteroidfieldms" ]
+        },
+        "underground7" : {
+          "primaryRegion" : [ "asteroidfieldms" ]
+        },
+        "underground8" : {
+          "primaryRegion" : [ "asteroidfieldms" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "asteroidfieldms" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/gardenms",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "gardenms" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/gardenmsapex",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "gardenmsapex" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/gardenmshuman",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "gardenmshuman" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/forestms",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "forestms" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/forestmsfloran",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "forestmsfloran" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/forestmshuman",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "forestmshuman" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/desertms",
+    "value" : {
+      "blockSelector" : [ "remixedMildCanyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "desertms" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/desertmsavian",
+    "value" : {
+      "blockSelector" : [ "remixedMildCanyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "desertmsavian" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/savannahms",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedMildCanyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "savannahms" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/savannahmsavian",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedMildCanyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "savannahmsavian" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/snowms",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface", "remixedMildCanyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "snowms" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/snowmsglitch",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface", "remixedMildCanyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "snowmsglitch" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/oceanms",
+    "value" : {
+      "oceanLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedIslandsSurface" ],
+      "fgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "oceanms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/oceanfloorms",
+    "value" : {
+      "oceanLiquid" : [ "water" ],
+      "oceanLevelOffset" : 9999,
+      "blockSelector" : [ "ledgesSurface" ],
+      "fgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "oceanfloorms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/junglems",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "junglems" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/junglemsapex",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "junglems" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/junglemsfloran",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "junglems" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/alienms",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "alienms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/toxicms",
+    "value" : {
+      "oceanLiquid" : [ "poison" ],
+      "blockSelector" : [ "remixedFlatIslandsSurface" ],
+      "fgCaveSelector" : [ "empty" ],
+      "caveLiquid" : [ "poison" ],
+      "biome" : [
+        [0, [ "toxicms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/toxicoceanfloorms",
+    "value" : {
+      "oceanLiquid" : [ "poison" ],
+      "oceanLevelOffset" : 9999,
+      "blockSelector" : [ "ledgesSurface" ],
+      "fgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "toxicoceanfloorms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/tundrams",
+    "value" : {
+      "blockSelector" : [ "remixedSurface", "remixedCanyonsSurface", "remixedMountainsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "tundrams" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/arcticms",
+    "value" : {
+      "oceanLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedIslandsSurface" ],
+      "fgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "arcticms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/arcticoceanfloorms",
+    "value" : {
+      "oceanLiquid" : [ "water" ],
+      "oceanLevelOffset" : 9999,
+      "blockSelector" : [ "ledgesSurface" ],
+      "fgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "arcticoceanfloorms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/volcanicms",
+    "value" : {
+      "caveLiquid" : [ "lava" ],
+      "blockSelector" : [ "remixedSurface", "remixedCanyonsSurface", "remixedMountainsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "volcanicms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/scorchedms",
+    "value" : {
+      "caveLiquid" : [ "tarliquid" ],
+      "blockSelector" : [ "remixedSurface", "remixedCanyonsSurface", "remixedMountainsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "scorchedms" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/scorchedmsglitch",
+    "value" : {
+      "caveLiquid" : [ "tarliquid" ],
+      "blockSelector" : [ "remixedSurface", "remixedCanyonsSurface", "remixedMountainsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "scorchedmsglitch" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/magmams",
+    "value" : {
+      "oceanLiquid" : [ "lava" ],
+      "blockSelector" : [ "remixedIslandsSurface" ],
+      "fgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "magmams" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/magmaoceanfloorms",
+    "value" : {
+      "oceanLiquid" : [ "lava" ],
+      "oceanLevelOffset" : 9999,
+      "blockSelector" : [ "ledgesSurface" ],
+      "fgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "magmaoceanfloorms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/tentaclesms",
+    "value" : {
+      "caveLiquid" : [ "tentaclejuice" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "blockSelector" : [ "remixedSurface", "remixedCanyonsSurface", "remixedMountainsSurface" ],
+      "fgCaveSelector" : [ "moonSurfaceCaves" ],
+      "biome" : [
+        [0, [ "tentaclesms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/moonms",
+    "value" : {
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "moonSurfaceCaves" ],
+      "biome" : [
+        [0, [ "moonms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/asteroidfieldms",
+    "value" : {
+      "blockSelector" : [ "asteroids" ],
+      "fgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "asteroidfieldms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/mushroompatchms",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "mushroompatchms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/springms",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "biome" : [
+        [0, [ "springms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/toxicplainsms",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "caveLiquid" : [ "poison" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "biome" : [
+        [0, [ "toxicplainsms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/oasisms",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "caveLiquid" : [ "healingliquid" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "biome" : [
+        [0, [ "oasisms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/sandstonems",
+    "value" : {
+      "blockSelector" : [ "remixedMildCanyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "sandstonems" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/tarms",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "caveLiquid" : [ "tarliquid" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "biome" : [
+        [0, [ "tarms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/alpinems",
+    "value" : {
+      "blockSelector" : [ "remixedMountainsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "alpinems" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/bioluminescencems",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "bioluminescencems" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/taigams",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface", "remixedMildCanyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "caveLiquid" : [ "water" ],
+      "biome" : [
+        [0, [ "taigams" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/bonesms",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "bonesms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/colourfulms",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "caveLiquid" : [ "healingliquid" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "biome" : [
+        [0, [ "colourfulms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/giantflowersms",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "giantflowersms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/swampms",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "caveLiquid" : [ "swampwater" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "biome" : [
+        [0, [ "swampms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/eyepatchms",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "eyepatchms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/fleshms",
+    "value" : {
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "fleshms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/icems",
+    "value" : {
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "icems" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/orbms",
+    "value" : {
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "orbms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/rustms",
+    "value" : {
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "rustms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/crystallinems",
+    "value" : {
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "crystallinems" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/coralcavesms",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "biome" : [
+        [0, [ "coralcavesms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/zencavesms",
+    "value" : {
+      "biome" : [
+        [0, [ "zencavesms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/hivems",
+    "value" : {
+      "biome" : [
+        [0, [ "hivems" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/icecoralcavesms",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "biome" : [
+        [0, [ "icecoralcavesms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/crystalcavesms",
+    "value" : {
+      "caveLiquid" : [ "healingliquid" ],
+      "caveLiquidChanceRange" : [20, 20],
+      "biome" : [
+        [0, [ "crystalcavesms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/heckms",
+    "value" : {
+      "biome" : [
+        [0, [ "heckms" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_garden",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_garden" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_garden_apex",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_garden_apex" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_garden_human",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_garden_human" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_forest",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_forest" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_forest_floran",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_forest_floran" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_forest_human",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_forest_human" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_desert",
+    "value" : {
+      "caveLiquid" : [ "tarliquid" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_desert" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_desert_avian",
+    "value" : {
+      "caveLiquid" : [ "tarliquid" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_desert_avian" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_arid",
+    "value" : {
+      "caveLiquid" : [ "tarliquid" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_arid" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_arid_avian",
+    "value" : {
+      "caveLiquid" : [ "tarliquid" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_arid_avian" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_ocean",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [20, 20],
+      "biome" : [
+        [11, [ "underground11_ocean" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_snow",
+    "value" : {
+      "biome" : [
+        [11, [ "underground11_snow" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_snow_glitch",
+    "value" : {
+      "biome" : [
+        [11, [ "underground11_snow_glitch" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_jungle",
+    "value" : {
+      "caveLiquid" : [ "water", "poison" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_jungle" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_jungle_apex",
+    "value" : {
+      "caveLiquid" : [ "water", "poison" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_jungle_apex" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_jungle_floran",
+    "value" : {
+      "caveLiquid" : [ "water", "poison" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_jungle_floran" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_toxic",
+    "value" : {
+      "caveLiquid" : [ "poison" ],
+      "caveLiquidChanceRange" : [20, 20],
+      "biome" : [
+        [11, [ "underground11_toxic" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_alien",
+    "value" : {
+      "caveLiquid" : [ "water", "poison" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_alien" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_volcanic",
+    "value" : {
+      "caveLiquid" : [ "lava" ],
+      "caveLiquidChanceRange" : [20, 20],
+      "biome" : [
+        [11, [ "underground11_volcanic" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_scorched",
+    "value" : {
+      "caveLiquid" : [ "tarliquid" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_scorched" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_scorched_glitch",
+    "value" : {
+      "caveLiquid" : [ "tarliquid" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_scorched_glitch" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_tentacle",
+    "value" : {
+      "caveLiquid" : [ "tentaclejuice" ],
+      "caveLiquidChanceRange" : [20, 20],
+      "biome" : [
+        [11, [ "underground11_tentacle" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_upper",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_upper" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_upper2",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_upper2" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_mid",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_mid" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_mid2",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [10, 20],
+      "biome" : [
+        [11, [ "underground11_mid2" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_lower",
+    "value" : {
+      "biome" : [
+        [11, [ "underground11_lower" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_lower2",
+    "value" : {
+      "biome" : [
+        [11, [ "underground11_lower2" ]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_semicore",
+    "value" : {
+      "caveLiquid" : [ "lava" ],
+      "caveLiquidChanceRange" : [20, 20],
+      "biome" : [
+        [11, ["underground11_semicore"]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_core",
+    "value" : {
+      "caveLiquid" : [ "lava" ],
+      "caveLiquidChanceRange" : [20, 20],
+      "oceanLiquid" : [ "corelava" ],
+      "oceanLevelOffset" : -20,
+      "fgCaveSelector" : [ "coreCaves" ],
+      "bgCaveSelector" : [ "coreBackgroundCaves" ],
+      "biome" : [
+        [11, ["underground11_core"]]
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/underground11_moon",
+    "value" : {
+      "fgCaveSelector" : [ "moonCaves" ],
+      "caveLiquid" : [ "fuel" ],
+      "caveLiquidChanceRange" : [5, 5],
+      "biome" : [
+        [0, [ "underground11_moon"]]
+      ]
+    }
+  }
+]

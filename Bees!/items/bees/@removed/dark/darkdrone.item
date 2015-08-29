@@ -1,0 +1,9 @@
+{
+  "itemName" : "darkdrone",
+  "rarity" : "Common",
+  "inventoryIcon" : "darkdrone.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A dark bee drone with a dark past.",
+  "shortdescription" : "Dark Drone",
+  "maxStack" : 1000
+}

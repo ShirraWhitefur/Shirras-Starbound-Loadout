@@ -1,0 +1,62 @@
+{
+  "objectName" : "tier7_XL_gravitonprojectorring",
+  "printable" : false,
+  "rarity" : "rare",
+  "category" : "wire",
+  "price" : 4250,
+  "description" : "An XL cerulium-encased device that projects a graviton field.",
+  "shortdescription" : "Gravring Model XLC5",
+  "race" : "generic",
+ 
+  "apexDescription" : "An XL cerulium-encased device that projects a graviton field.",
+  "avianDescription" : "An XL cerulium-encased device that projects a graviton field.",
+  "floranDescription" : "Thingsss fly up! Thingsss float down!",
+  "glitchDescription" : "Analysis. An XL cerulium-encased graviton field projection device.",
+  "humanDescription" : "An XL cerulium-encased device that projects a graviton field.",
+  "hylotlDescription" : "An XL cerulium-encased device that projects a graviton field.",
+
+  "inventoryIcon" : "/objects/icons/tier7_gravitonprojectorringicon.png",
+ 
+  "orientations" : [
+    {
+      "image" : "/animations/gravitondevices/tier7/tier7_XL_gravitonprojectorring.png:default.off",
+      "imagePosition" : [0, -8],
+      
+      "animationParts" : {
+        "projector" : "/animations/gravitondevices/tier7/tier7_XL_gravitonprojectorring.png",
+        "projectorlit" : "/animations/gravitondevices/tier7/tier7_XL_gravitonprojectorringlit.png"
+      },
+      "animationPosition" : [0, -8],
+  
+      "spaceScan" : 0.65,
+      "anchors" : [ "left", "right" ],
+      "collision" : "solid"
+    }
+  ],
+ 
+  "animation" : "/animations/gravitondevices/gravitondevice.animation",  
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/gravitonpulse_on.wav" ],
+      "off" : [ "/sfx/objects/gravitonpulse_off.wav" ]
+    }
+  },
+  "animationParts" : {
+    "projector" : "/animations/gravitondevices/tier7/tier7_XL_gravitonprojectorring.png",
+    "projectorlit" : "/animations/gravitondevices/tier7/tier7_XL_gravitonprojectorringlit.png"
+  },
+  "animationPosition" : [0, -8],
+ 
+  "inboundNodes" : [ [ 0, 0 ] ],
+  "outboundNodes" : [ [ 7, 0 ] ],
+ 
+  "scripts" : [ "/scripts/gravitonprojectorring.lua" ],
+  "scriptDelta" : 1,
+
+  "padcentrepoint" : 5,
+  "ringcentrepoint" : 4,
+  "fieldsize" : 2.25,
+  "forcestrength" : 2.55,
+  "devicesize" : "XL",
+  "devicetier" : "tier7"
+}

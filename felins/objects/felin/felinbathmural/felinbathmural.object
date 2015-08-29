@@ -1,0 +1,23 @@
+{
+	"objectName" : "felinbathmural",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "rare",
+	"category" : "decorative",
+	"price" : 10,
+	"description" : "A slightly faded depiction of three felin.",
+	"shortdescription" : "Felin Bathhouse Mural",
+	"race" : "felin",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinbathmural.png",
+			"imagePosition" : [-52, 0],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	],
+	"health" : 100,
+	"smashOnBreak" : true
+}

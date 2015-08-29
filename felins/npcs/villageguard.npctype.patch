@@ -1,0 +1,50 @@
+[
+	{
+		"op": "add",
+		"path": "/items/felin",
+		"value": [
+			[
+				0,
+				[
+					{
+						"head": [
+							{ "name": "felintier1head" }
+						],
+						"chest": [
+							{ "name": "felintier1chest", "data": { "colorIndex": [8] } },
+							{ "name": "felintier2chest", "data": { "colorIndex": [8] } }
+						],
+						"legs": [
+							{ "name": "felintier1pants", "data": { "colorIndex": [8] } }
+						],
+						"primary": [
+							{ "name": "felintier1broadsword" },
+							{ "name": "felintier2broadsword" }
+						],
+						"sheathedprimary": [
+							{ "name": "felintier1pistol" }
+						]
+					},
+					{
+						"head": [
+							{ "name": "felintier1head" }
+						],
+						"chest": [
+							{ "name": "felintier1chest", "data": { "colorIndex": [9] } },
+							{ "name": "felintier2chest", "data": { "colorIndex": [9] } }
+						],
+						"legs": [
+							{ "name": "felintier1pants", "data": { "colorIndex": [9] } }
+						],
+						"primary": [
+							{ "name": "felintier1pistol" }
+						],
+						"sheathedprimary": [
+							{ "name": "felintier2broadsword" }
+						]
+					}
+				]
+			]
+		]
+	}
+]

@@ -1,0 +1,9 @@
+{
+  "itemName" : "preciousqueen",
+  "rarity" : "Common",
+  "inventoryIcon" : "preciousqueen.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A shining silver queen.",
+  "shortdescription" : "Precious Queen",
+  "maxStack" : 1000
+}

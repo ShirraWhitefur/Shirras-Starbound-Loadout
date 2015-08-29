@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 20 },
+    { "item" : "cobblestonematerial", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "stonepickaxe",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "tools", "all" ]
+}

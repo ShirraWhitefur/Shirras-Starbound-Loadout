@@ -1,0 +1,50 @@
+{
+  "objectName" : "gardenbotcropbin",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 150,
+  "description" : "A bin for storing crops.",
+  "shortdescription" : "Crop Bin",
+  "race" : "generic",
+
+  "apexDescription" : "A large wooden crop bin. Useful.",
+  "avianDescription" : "Lots of space to store items.",
+  "floranDescription" : "Big ssstorage sspace.",
+  "glitchDescription" : "Content. A lot of storage space.",
+  "humanDescription" : "A large crop bin. I'm sure I have something I could store here.",
+  "hylotlDescription" : "Lots of storage space.",
+
+  "inventoryIcon" : "cropbinicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "cropbin.png:<color>.1",
+
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "animation" : "/objects/gardenbot/bins/bin.animation",
+
+  "animationParts" : {
+    "bin" : "cropbin.png"
+  },
+  "animationPosition" : [-16, 0],
+  
+  "scripts" : [ 
+    "/objects/gardenbot/bins/bin.lua",
+    "/scripts/inventoryManager.lua"
+  ],
+  "containerCallback" : "binInventoryChange",
+  "binFrames" : 3,
+  
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

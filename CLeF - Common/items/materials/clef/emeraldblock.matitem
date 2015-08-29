@@ -1,0 +1,10 @@
+{
+  "itemName" : "emeraldblock",
+  "rarity" : "rare",
+  "inventoryIcon" : "emeraldblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A whole block of solid emerald.",
+  "shortdescription" : "Emerald Block",
+
+  "materialId" : 8766
+}

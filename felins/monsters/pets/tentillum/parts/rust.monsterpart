@@ -1,0 +1,6 @@
+{
+	"name" : "rust",
+	"category" : "tentillum",
+	"type" : "body",
+	"frames" : { "body" : "rust.png" }
+}

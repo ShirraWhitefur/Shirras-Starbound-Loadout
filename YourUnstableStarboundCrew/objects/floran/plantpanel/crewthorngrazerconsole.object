@@ -1,0 +1,55 @@
+{
+  "objectName" : "crewthorngrazerconsole",
+  "tags" : ["crewthorngrazer"],
+  "rarity" : "rare",
+
+  "category" : "wire",
+  "price" : 475,
+  "description" : "Lots of tempting buttons that should probably be left alone.",
+  "shortdescription" : "Kananna's Panel",
+  "race" : "floran",
+
+  "apexDescription" : "I wonder what this button does...",
+  "avianDescription" : "Does something happen if I push this button?",
+  "floranDescription" : "Floran touch buttonssss.",
+  "glitchDescription" : "Curiosity. A collection of buttons.",
+  "humanDescription" : "All these buttons to press! What could possibly go wrong?",
+  "hylotlDescription" : "Look before you leap.",
+
+  "inventoryIcon" : "plantpanelicon.png",
+  "orientations" : [
+    {
+      "image" : "plantpanel.png:<color>.off",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "plantpanel.png:<color>.off",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/plantpanel_interact.wav" ],
+      "off" : [ "/sfx/objects/plantpanel_interact.wav" ]
+    }
+  },
+  "animationParts" : {
+    "switch" : "plantpanel.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ]
+}

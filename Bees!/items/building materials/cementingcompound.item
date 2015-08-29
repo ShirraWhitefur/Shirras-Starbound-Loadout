@@ -1,0 +1,10 @@
+{
+  "itemName" : "bees_cementingcompound",
+  "rarity" : "Common",
+  "inventoryIcon" : "cementingcompound.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A mixture of bone, clay, and water. Perfect for making castle walls.",
+  "handPosition" : [0.0, 0],
+  "learnBlueprintsOnPickup" : [ "castlewalls1", "castlewalls2" ],
+  "shortdescription" : "Cementing Compound"
+}

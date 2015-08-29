@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinstatue3",
+	"tags" : [ "felin", "felinvillage", "pretty", "valuable" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 100,
+	"description" : "It's a statue of Laenathin, a famed felin warlord.",
+	"shortdescription" : "Leader Statue",
+	"race" : "felin",
+	"apexDescription" : "I understand most cats don't grow beards.",
+	"avianDescription" : "You don't usually hear stories about this person.",
+	"floranDescription" : "Ssssilly famous cat with lots of chin hair.",
+	"glitchDescription" : "Interesting. A felin with a beard.",
+	"humanDescription" : "This 'Laenathin' must be a pretty important figure to the cats.",
+	"hylotlDescription" : "Thankfully, this warlord wears pants.",
+	"felinDescription" : "We could all learn from this man. And some others.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"dualImage" : "felinstatue3.png",
+			"imagePosition" : [-16, 0],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	]
+}

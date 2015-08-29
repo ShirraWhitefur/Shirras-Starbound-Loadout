@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 25 }
+  ],
+  "output" : { "item" : "purplecrystalmaterial", "count" : 1 },
+  "groups" : [ "blocktableplus", "materials", "all", "other" ]
+}

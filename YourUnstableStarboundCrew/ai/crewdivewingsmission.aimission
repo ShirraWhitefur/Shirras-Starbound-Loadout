@@ -1,0 +1,85 @@
+{
+  "missionName" : "crewdivewings",
+  "icon" : "crewdivewings.png",
+  "missionWorld" : "crewdivewings",
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Ruins in the Ice",
+      "repeatButtonText" : "Repeat Ruins in the Ice",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "An Avian named Maneca is currently investigating ancient ruins on an arctic planet. I'll send you down close to her camp. Speciality: knowledge of the universe. Threat level: Risky.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Ruins in the Ice",
+      "repeatButtonText" : "Repeat Ruins in the Ice",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "An Avian named Maneca is currently investigating ancient ruins on an arctic planet. I'll send you down close to her camp. Speciality: knowledge of the universe. Threat level: Risky.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Ruins in the Ice",
+      "repeatButtonText" : "Repeat Ruins in the Ice",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "An Avian named Maneca is currently investigating ancient ruins on an arctic planet. I'll send you down close to her camp. Speciality: knowledge of the universe. Threat level: Risky.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Ruins in the Ice",
+      "repeatButtonText" : "Repeat Ruins in the Ice",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "An Avian named Maneca is currently investigating ancient ruins on an arctic planet. I'll send you down close to her camp. Speciality: knowledge of the universe. Threat level: Risky.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Ruins in the Ice",
+      "repeatButtonText" : "Repeat Ruins in the Ice",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "An Avian named Maneca is currently investigating ancient ruins on an arctic planet. I'll send you down close to her camp. Speciality: knowledge of the universe. Threat level: Risky.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Ruins in the Ice",
+      "repeatButtonText" : "Repeat Ruins in the Ice",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "An Avian named Maneca is currently investigating ancient ruins on an arctic planet. I'll send you down close to her camp. Speciality: knowledge of the universe. Threat level: Risky.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Ruins in the Ice",
+      "repeatButtonText" : "Repeat Ruins in the Ice",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "An Avian named Maneca is currently investigating ancient ruins on an arctic planet. I'll send you down close to her camp. Speciality: knowledge of the universe. Threat level: Risky.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

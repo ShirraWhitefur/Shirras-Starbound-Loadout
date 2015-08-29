@@ -1,0 +1,16 @@
+  {
+  "id" : "airship6.gearup",
+  "prerequisites" : [ "airship5.gearup" ],
+  "title" : "^orange;A Home Base",
+  "text" : "It kind of looks like our ship needs even more repairs, so we might be here for a while. How about you go plunder 2500 pixels, and I'll throw you some building materials to start making a base down on the ground.",
+  "completionText" : "Good job, you're becoming quite the valuable crew member. It's your choice as to what to build down there, so have at it. YOu might be able to plunder some furniture by nearby Avian villages.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "money", "count" : 2500, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [  [ "fullwood1", 900 ], [ "fadedblocks", 900 ], [ "platform", 500 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

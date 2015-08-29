@@ -1,0 +1,16 @@
+  {
+  "id" : "avianpatrol3.gearup",
+  "prerequisites" : [ "avianpatrol2.gearup" ],
+  "title" : "^orange;Setting up the Farm",
+  "text" : "Well with a little kitchen built, we'll certainly need a farm! If you bring me 500 pixels I'll give you a bulk deal on some seeds!",
+  "completionText" : "Thanks again, this'll be great! Would you mind taking these seeds over by the kitchen and planting them?",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "money", "count" : 500, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [  [ "avesmingoseed", 5 ], [ "beakseedseed", 5 ], [ "feathercrownseed", 5 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

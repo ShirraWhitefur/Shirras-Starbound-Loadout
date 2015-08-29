@@ -1,0 +1,17 @@
+{
+  "id" : "crewweapontenant.gearup",
+  "prerequisites" : [ "crewtenantmission.gearup" ], 
+  "title" : "^green;The Nova Tenants Weapons",
+  "text" : "Howdy, welcome to the saloon. I heard they have the best drinks and views a Novakid could ask for, but I dunno. Huh? You need a weaponsmith for a planet-side base...?",
+  "completionText" : "Aw shucks, why not. I'm pretty good at craftin weapons, and they'll be the level of whatever planet you put me on. Be sure to give me some cool views in my house! ",
+  "completionConditions" : [
+ 
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "crewgaragetools", 1] ]
+   ],
+  "canBeAbandoned" : false,
+  "requireTurnIn" : true
+}
+ 

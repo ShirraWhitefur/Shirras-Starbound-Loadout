@@ -1,0 +1,10 @@
+{
+  "name" : "anti_stringy",
+  "category" : "smallflying",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "anti_stringybwing.png",
+    "frontWings" : "anti_stringyfwing.png"
+  }
+}

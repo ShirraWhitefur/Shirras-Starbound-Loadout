@@ -1,0 +1,9 @@
+{
+  "name" : "anti_pighead",
+  "category" : "smallflying",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_pighead.png"
+  }
+}

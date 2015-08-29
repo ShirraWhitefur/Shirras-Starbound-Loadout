@@ -1,0 +1,9 @@
+{
+  "name" : "vege_spider",
+  "category" : "largequadruped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "vege_spider.png"
+  }
+}

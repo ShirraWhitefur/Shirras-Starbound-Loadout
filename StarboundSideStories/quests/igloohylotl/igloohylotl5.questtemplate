@@ -1,0 +1,16 @@
+  {
+  "id" : "igloohylotl5.gearup",
+  "prerequisites" : [ "igloohylotl4.gearup" ],
+  "title" : "^orange;A feast!",
+  "text" : "Now that you've got a nice little igloo to go with mine, why don't we feast? Could you prepare us two dishes of fish in a bone?",
+  "completionText" : "Absolutely delicious! Some think it's strange that a Hylotl like myself would enjoy fish, but they've obviously never tasted this planet's fish.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "fishinabone", "count" : 2, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

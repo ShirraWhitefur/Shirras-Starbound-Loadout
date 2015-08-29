@@ -1,0 +1,15 @@
+  {
+  "id" : "ishcartavillager4.gearup",
+  "title" : "^orange;Ishcarta's Villagers IV",
+  "text" : "Gah! That Kaddo keeps on trying to replace our lovely green lamps with torches. We live in a giant tree! Ssstupid Floran...Hey, if you bring me 200 units of water to help take out some torches, I'll ssstash them and give them to you!",
+  "completionText" : "Ha! That Kaddo will never sssee this coming! Thanks for helping keep Ishcarta sssafe from the flames!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "liquidwater", "count" : 200, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "torch", 137 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

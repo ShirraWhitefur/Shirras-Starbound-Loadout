@@ -1,0 +1,9 @@
+{
+	"itemName" : "carpet",
+	"rarity" : "Common",
+	"inventoryIcon" : "carpet.png",
+	"dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+	"description" : "Soft and fluffy.",
+	"shortdescription" : "Carpet",
+	"materialId" : 9001
+}

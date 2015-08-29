@@ -1,0 +1,74 @@
+{
+	"type" : "tentacle",
+	"categories" : [ "tentillum" ],
+	"parts" : [ "body" ],
+	"animation" : "tentillum.animation",
+	"dropPools" : [ ],
+	"baseParameters" : {
+		"scripts" : [
+			"/monsters/unique/robotchicken/behavior.lua",
+			"/scripts/sensors.lua",
+			"/scripts/stateMachine.lua",
+			"/scripts/util.lua",
+			"/scripts/vec2.lua"
+		],
+		"damageTeam" : 1,
+		"metaBoundBox" : [-1.625, -2.375, 1.75, 2.0],
+		"scale" : 1.0,
+		"movementSettings" : {
+			"collisionPoly" : [ [-0.75, -1], [0.75, -1], [0.75, 0.5], [-0.75, 0.5] ],
+			"mass" : 1.0,
+			"walkSpeed" : 2,
+			"runSpeed" : 4,
+			"jumpSpeed" : 8,
+			"flySpeed" : 8,
+			"airForce" : 50.0,
+			"airFriction" : 0.0,
+			"airJumpProfile": {
+				"jumpSpeed" : 45.0,
+				"jumpInitialPercentage": 1.0,
+				"jumpHoldTime": 0.0
+			}
+		},
+		"bodyMaterialKind" : "organic",
+		"knockoutTime" : 0.3,
+		"knockoutEffect" : "blink",
+		"knockoutAnimationStates" : { "movement" : "die" },
+		"deathParticles" : "deathPoof",
+		"touchDamage" : {
+			"poly" : [ [-1.625, -2.375], [1.75, -2.375], [1.75, 2.0], [-1.625, 2.0] ],
+			"damage" : 15,
+			"teamType" : "enemy",
+			"damageSourceKind" : "lash",
+			"statusEffects" : [ ]
+		},
+		"dropPools" : [ "potreasure" ],
+		"statusSettings" : {
+			"statusProperties" : {
+				"targetMaterialKind" : "organic"
+			},
+			"appliesEnvironmentStatusEffects" : false,
+			"minimumLiquidStatusEffectPercentage" : 0.1,
+			"primaryScriptSources" : [ "/stats/monster_primary.lua" ],
+			"primaryScriptDelta" : 0,
+			"stats" : {
+				"maxHealth" : { "baseValue" : 2 },
+				"protection" : { "baseValue" : 1.0 },
+				"healthRegen" : { "baseValue" : 0.0}
+			},
+			"resources" : {
+				"health" : {
+					"maxStat" : "maxHealth",
+					"deltaStat" : "healthRegen",
+					"defaultPercentage" : 100
+				}
+			}
+		},
+		"mouthOffset" : [0, 0],
+		"feetOffset" : [0, -8],
+		"blockedSensors" : [ [1.25, 0.0] ],
+		"moveTimeRange" : [2.5, 5.0],
+		"fleeDistanceRange" : [10.0, 50.0],
+		"fleeMaxTime" : 20.0
+	}
+}

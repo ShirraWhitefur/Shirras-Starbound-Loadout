@@ -1,0 +1,62 @@
+{
+  "objectName" : "tier5_medium_gravitonprojectorring",
+  "printable" : false,
+  "rarity" : "uncommon",
+  "category" : "wire",
+  "price" : 3000,
+  "description" : "An aegisalt-encased device that projects a graviton field.",
+  "shortdescription" : "Gravring Model MA3",
+  "race" : "generic",
+ 
+  "apexDescription" : "An aegisalt-encased device that projects a graviton field.",
+  "avianDescription" : "An aegisalt-encased device that projects a graviton field.",
+  "floranDescription" : "Thingsss go up!",
+  "glitchDescription" : "Analysis. An aegisalt-encased graviton field projection device.",
+  "humanDescription" : "An aegisalt-encased device that projects a graviton field.",
+  "hylotlDescription" : "An aegisalt-encased device that projects a graviton field.",
+
+  "inventoryIcon" : "/objects/icons/tier5_gravitonprojectorringicon.png",
+ 
+  "orientations" : [
+    {
+      "image" : "/animations/gravitondevices/tier5/tier5_medium_gravitonprojectorring.png:default.off",
+      "imagePosition" : [0,0],
+
+      "animationParts" : {
+        "projector" : "/animations/gravitondevices/tier5/tier5_medium_gravitonprojectorring.png",
+        "projectorlit" : "/animations/gravitondevices/tier5/tier5_medium_gravitonprojectorringlit.png"
+      },
+      "animationPosition" : [0,0],
+  
+      "spaceScan" : 0.85,
+      "anchors" : [ "left", "right" ],
+      "collision" : "solid"
+    }
+  ],
+  
+  "animation" : "/animations/gravitondevices/gravitondevice.animation",  
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/gravitonpulse_on.wav" ],
+      "off" : [ "/sfx/objects/gravitonpulse_off.wav" ]
+    }
+  },
+  "animationParts" : {
+    "projector" : "/animations/gravitondevices/tier5/tier5_medium_gravitonprojectorring.png",
+    "projectorlit" : "/animations/gravitondevices/tier5/tier5_medium_gravitonprojectorringlit.png"
+  },
+  "animationPosition" : [0,0],
+ 
+  "inboundNodes" : [ [ 0, 0 ] ],
+  "outboundNodes" : [ [ 5, 0 ] ],
+ 
+  "scripts" : [ "/scripts/gravitonprojectorring.lua" ],
+  "scriptDelta" : 1,
+  
+  "padcentrepoint" : 3,
+  "ringcentrepoint" : 3,
+  "fieldsize" : 1,
+  "forcestrength" : 2.25,
+  "devicesize" : "medium",
+  "devicetier" : "tier5"
+}

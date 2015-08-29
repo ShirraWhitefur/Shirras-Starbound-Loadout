@@ -1,0 +1,164 @@
+[
+{
+    "op": "add",
+    "path": "/crewlovejones",
+    "value": 
+      {
+	"primaryDungeon" : "crewlovejones",
+    "threatLevel" : 2,
+    "gravity" : 80,
+    "worldSize" : [2000, 1000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 750,
+    "ambientLightLevel" : [128, 128, 128],
+	"biome" : "forest",
+    "ambientNoises" : "/sfx/environmental/jungle_night.ogg",
+    "musicTrack" : "/music/atlas.ogg"
+      }
+},
+
+{
+    "op": "add",
+    "path": "/crewgenekong",
+    "value": 
+      {
+	"primaryDungeon" : "crewgenekong",
+    "threatLevel" : 4,
+    "gravity" : 80,
+    "worldSize" : [2000, 1000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 815,
+    "ambientLightLevel" : [128, 128, 128],
+	"biome" : "jungle",
+    "ambientNoises" : "/sfx/environmental/desert_day.ogg",
+    "musicTrack" : "/music/vastimmortalsuns.ogg"
+      }
+},
+
+{
+    "op": "add",
+    "path": "/crewgenekong2",
+    "value": 
+      {
+	"primaryDungeon" : "crewgenekong2",
+    "threatLevel" : 4,
+    "gravity" : 80,
+    "worldSize" : [2000, 1000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 810,
+    "ambientLightLevel" : [128, 128, 128],
+	"biome" : "volcanic",
+    "ambientNoises" : "/sfx/environmental/volcanic_day.ogg",
+    "musicTrack" : "/music/temple-of-kluex.ogg"
+      }
+},
+
+{
+    "op": "add",
+    "path": "/crewdivewings",
+    "value": 
+      {
+	"primaryDungeon" : "crewdivewings",
+    "threatLevel" : 4,
+    "gravity" : 80,
+    "worldSize" : [2000, 1000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 821,
+    "ambientLightLevel" : [128, 128, 128],
+	"biome" : "arctic",
+    "ambientNoises" : "/sfx/environmental/arctic_day.ogg",
+    "musicTrack" : "/music/arctic-constellation1.ogg"
+      }
+},
+
+{
+    "op": "add",
+    "path": "/crewgoldobot",
+    "value": 
+      {
+	"primaryDungeon" : "crewgoldobot",
+    "threatLevel" : 3,
+    "gravity" : 80,
+    "worldSize" : [2000, 1000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 779,
+    "ambientLightLevel" : [128, 128, 128],
+	"biome" : "ocean",
+    "ambientNoises" : "/sfx/environmental/ocean_surface_calm.ogg",
+    "musicTrack" : "/music/tranquility-base.ogg"
+      }
+},
+
+{
+    "op": "add",
+    "path": "/crewspongewaltzer",
+    "value": 
+      {
+	"primaryDungeon" : "crewspongewaltzer",
+    "threatLevel" : 2,
+    "gravity" : 80,
+    "worldSize" : [2000, 1000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 778,
+    "ambientLightLevel" : [128, 128, 128],
+	"biome" : "asteroidfield",
+    "ambientNoises" : "/sfx/environmental/space_loop1.ogg",
+    "musicTrack" : "/music/i-was-the-sun.ogg"
+      }
+},
+
+{
+    "op": "add",
+    "path": "/crewthorngrazer",
+    "value": 
+      {
+	"primaryDungeon" : "crewthorngrazer",
+    "threatLevel" : 3,
+    "gravity" : 80,
+    "worldSize" : [2000, 1000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 870,
+    "ambientLightLevel" : [128, 128, 128],
+	"biome" : "savannah",
+    "ambientNoises" : "/sfx/environmental/arid_day.ogg",
+    "musicTrack" : "/music/europa.ogg"
+      }
+},
+
+{
+    "op": "add",
+    "path": "/crewpenguin",
+    "value": 
+      {
+	"primaryDungeon" : "crewpenguin",
+    "threatLevel" : 6,
+    "gravity" : 80,
+    "worldSize" : [2000, 1000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 712,
+    "ambientLightLevel" : [128, 128, 128],
+	"biome" : "toxic",
+    "ambientNoises" : "/sfx/environmental/ominous_loop1.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg"
+      }
+},
+
+{
+    "op": "add",
+    "path": "/crewashblazer",
+    "value": 
+      {
+	"primaryDungeon" : "crewashblazer",
+    "threatLevel" : 3,
+    "gravity" : 80,
+    "worldSize" : [2000, 1000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 712,
+    "ambientLightLevel" : [128, 128, 128],
+	"biome" : "desert",
+    "ambientNoises" : "/sfx/environmental/desert_day.ogg",
+    "musicTrack" : "/music/horsehead-nebula.ogg"
+      }
+}
+
+]

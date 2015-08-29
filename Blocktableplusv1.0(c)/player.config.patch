@@ -1,0 +1,41 @@
+[
+{ "op" : "add", "path" :
+"/defaultBlueprints/tier1/-", "value" : {
+"item" : "blocktableplus"} },
+{ "op" : "add", "path" :
+"/defaultBlueprints/tier1/-", "value" : {
+"item" : "blaststone"} },
+{ "op" : "add", "path" :
+"/defaultBlueprints/tier1/-", "value" : {
+"item" : "direstone"} },
+{ "op" : "add", "path" :
+"/defaultBlueprints/tier1/-", "value" : {
+"item" : "rock01"} },
+{ "op" : "add", "path" :
+"/defaultBlueprints/tier1/-", "value" : {
+"item" : "rock02"} },
+{ "op" : "add", "path" :
+"/defaultBlueprints/tier1/-", "value" : {
+"item" : "rock03"} },
+{ "op" : "add", "path" :
+"/defaultBlueprints/tier1/-", "value" : {
+"item" : "rock04"} },
+{ "op" : "add", "path" :
+"/defaultBlueprints/tier1/-", "value" : {
+"item" : "rock12"} },
+{ "op" : "add", "path" :
+"/defaultBlueprints/tier1/-", "value" : {
+"item" : "rock14"} },
+{ "op" : "add", "path" :
+"/defaultBlueprints/tier1/-", "value" : {
+"item" : "rock15"} },
+{ "op" : "add", "path" :
+"/defaultBlueprints/tier1/-", "value" : {
+"item" : "rock17"} },
+{ "op" : "add", "path" :
+"/defaultBlueprints/tier1/-", "value" : {
+"item" : "rock19"} },
+{ "op" : "add", "path" :
+"/defaultBlueprints/tier1/-", "value" : {
+"item" : "rock20"} }
+]

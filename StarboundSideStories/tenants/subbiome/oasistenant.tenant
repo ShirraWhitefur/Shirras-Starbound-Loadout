@@ -1,0 +1,26 @@
+{
+  "name": "oasistenant",
+  "priority": 2,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "oasis": 4
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "avian",
+      "type": "gentlebiomebaddy",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [600.0, 1200.0],
+    "pool": "subbiomeGift"
+  }
+}

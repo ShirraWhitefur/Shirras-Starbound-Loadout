@@ -1,0 +1,13 @@
+{
+  "name" : "koopatroopahead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "koopatroopahead.png"
+  },
+
+"parameters" :
+  {
+  }
+}

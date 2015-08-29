@@ -1,0 +1,16 @@
+{
+  "name" : "hydro_tinysnakehead",
+  "category" : "smallquadruped",
+  "type" : "head",
+
+
+  "frames" : {
+    "head" : "hydro_tinysnakehead.png"
+  },
+
+"parameters" :
+  {
+    "projectileSourcePosition" : [1, -1.4]
+  }
+}
+

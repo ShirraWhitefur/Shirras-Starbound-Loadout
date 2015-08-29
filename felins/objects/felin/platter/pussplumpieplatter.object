@@ -1,0 +1,32 @@
+{
+	"objectName" : "pussplumpieplatter",
+	"tags" : [ "misc" ],
+	"rarity" : "common",
+	"description" : "A slice of pussplum pie. The smell is a little off-putting.",
+	"shortdescription" : "Plate of Pussplum Pie",
+	"race" : "felin",
+	"category" : "furniture",
+	"price" : 20,
+	"apexDescription" : "If you smell the pie too much, you'll regret it.",
+	"avianDescription" : "It's a slice of pussplum pie with cream.",
+	"floranDescription" : "Floran ignores the ssssmell.",
+	"glitchDescription" : "Cautious. This pie smells bad.",
+	"humanDescription" : "A slice of pussplum pie. Smells bad, yo!",
+	"hylotlDescription" : "Pussplum pie... with whipped cream on top.",
+	"felinDescription" : "Nothing quite like the smell of fresh pussplum.",
+	"inventoryIcon" : "pussplumpieplattericon.png",
+	"orientations" : [
+		{
+			"dualImage" : "pussplumpieplatter.png",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"breakDropOptions" : [ [
+		[ "felinplate", 1, { } ],
+		[ "pussplumpie", 1, { } ]
+	] ]
+}

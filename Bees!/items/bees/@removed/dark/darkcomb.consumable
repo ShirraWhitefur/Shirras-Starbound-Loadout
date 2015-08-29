@@ -1,0 +1,22 @@
+{
+  "itemName" : "darkcomb",
+  "rarity" : "Common",
+  "inventoryIcon" : "darkcomb.png",
+  "description" : "A dark and devious honeycomb.",
+  "shortdescription" : "Dark Honeycomb",
+  "handPosition" : [0.0, 0]
+,
+ 
+  "effects" : [ [
+    {
+        "effect" : "items/honeyheal1",
+        "duration" :60  },
+    {
+        "effect" : "fedhoney",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+     "fedhoney"
+  ]
+}

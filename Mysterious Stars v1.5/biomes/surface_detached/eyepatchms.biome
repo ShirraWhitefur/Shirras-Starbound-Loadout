@@ -1,0 +1,235 @@
+{
+  "name" : "eyepatchms",
+  "friendlyName" : "Eyepatch",
+
+  "spawnProfiles" : [
+    {
+      "groups" : [ "hardsurface1" ],
+      "extraSpawns" : [ "eyefriend", "eyepodcritter" ],
+      "monsterParameters" : {
+        "colors" : "alien"
+      }
+    },
+    {
+      "groups" : [ "hardsurface2" ],
+      "extraSpawns" : [ "eyefriend", "eyepodcritter" ],
+      "monsterParameters" : {
+        "colors" : "alien"
+      }
+    }
+  ],
+
+  "hueShiftOptions" : [-180, -135, -90, -45, 45, 90, 135],
+
+  "mainBlock" : "dirt",
+  "subBlocks" : [ "eyepiles", "rock02" ],
+  "ores" : "surfaceOres",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "aridgrass" ],
+    "grassModDensity" : 0.9,
+
+    "items" : [
+      
+	  // CHESTS and ARTIFICIAL PLACEABLES
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "eyeChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  
+	  // TERRAIN
+	  
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDist",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "terrainfeatures" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibossoverground",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "minibossoverground" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "aridplatforming" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "eyepatchmicrodungeons" ]
+      },
+	  
+	  // GRASS and TREES and PLANTS
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "eyeplant" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "eyestem" ],
+        "treeFoliageList" : [ "eyefoliage" ]
+      },
+	  
+	  // CROPS
+	  
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildoculemonseed" ] ],
+            "parameters" : {
+              "startingStage" : 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+	"grassMod" : [ "aridgrass" ],
+    "grassModDensity" : 0.6,
+
+    "ceilingGrassMod" : [ "roots" ],
+    "ceilingGrassModDensity" : 0.8,
+	
+	"items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "eyeChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "ceiling",
+        "priority" : 2.5,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 0,
+        "treeStemList" : [ "eyevein" ],
+        "treeFoliageList" : [ "eyeveiny" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 10,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "aridplatforming" ]
+      }
+    ]
+  }
+}

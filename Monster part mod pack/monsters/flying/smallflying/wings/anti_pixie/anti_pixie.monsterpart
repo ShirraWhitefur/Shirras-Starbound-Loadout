@@ -1,0 +1,10 @@
+{
+  "name" : "anti_pixie",
+  "category" : "smallflying",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "anti_pixiebwing.png",
+    "frontWings" : "anti_pixiefwing.png"
+  }
+}

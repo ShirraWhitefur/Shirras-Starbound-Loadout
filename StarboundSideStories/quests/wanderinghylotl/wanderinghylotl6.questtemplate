@@ -1,0 +1,16 @@
+  {
+  "id" : "wanderinghylotl6.gearup",
+  "prerequisites" : [ "wanderinghylotl5.gearup" ],
+  "title" : "^orange;Hylotl Population",
+  "text" : "We've got some buildings, a teleporter, some food...we need more Hylotl now! Bring me five Hylotl spawners, and I'll match you to put into our town.",
+  "completionText" : "I'm sure these Hylotl will love their new town. I also think I'm on the verge of figuring out a way to allow you access to more Hylotl materials.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "spawnerhylotl", "count" : 5, "consume" : false }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "spawnerhylotl", 5 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

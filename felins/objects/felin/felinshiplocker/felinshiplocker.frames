@@ -1,0 +1,16 @@
+{
+	"frameGrid" : {
+		"size" : [32, 24],
+		"dimensions" : [8, 3],
+		"names" : [
+			[ "default.0", "default.1", "default.2", "default.3", "default.4", "default.5", "default.6", "default.7" ],
+			[ "lit.0", "lit.1", "lit.2", "lit.3", "lit.4", "lit.5", "lit.6", "lit.7" ],
+			[ "broken.0", "broken.1", "broken.2", "broken.3", "broken.4", "broken.5", "broken.6", "broken.7" ]
+		]
+	},
+	"aliases" : {
+		"default.default" : "default.0",
+		"broken.default" : "broken.0",
+		"lit.default" : "lit.0"
+	}
+}

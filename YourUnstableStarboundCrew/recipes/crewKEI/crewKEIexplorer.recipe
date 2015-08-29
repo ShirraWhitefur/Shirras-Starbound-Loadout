@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "upgrademodule", "count" : 5 },
+    { "item" : "crewKEIspeed", "count" : 1 },
+    { "item" : "crewKEIjump", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "crewKEIexplorer",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

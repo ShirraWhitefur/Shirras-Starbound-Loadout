@@ -1,0 +1,129 @@
+{
+	"animatedParts" : {
+		"stateTypes" : {
+			"movement" : {
+				"default" : "idle",
+				"states" : {
+					"idle" : { },
+
+					"jump" : {
+						"frames" : 2,
+						"cycle" : 0.5,
+						"mode" : "end",
+						"properties" : {
+							"immediateSound" : "/sfx/tech/tech_doublejump.wav"
+						}
+					},
+
+					"fall" : {
+						"frames" : 2,
+						"cycle" : 0.5,
+						"mode" : "end"
+					},
+
+					"driveForward" : {
+						"frames" : 3,
+						"cycle" : 0.5,
+						"mode" : "loop"
+					},
+
+					"driveReverse" : {
+						"frames" : 3,
+						"cycle" : 0.5,
+						"mode" : "loop"
+					}
+				}
+			}
+		},
+
+		"parts" : {
+			"background" : {
+				"properties" : {
+					"centered" : true,
+					"zLevel" : 0,
+					"back" : true
+				},
+
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "catbikeback.png:idle.<frame>"
+							}
+						},
+						"jump" : {
+							"properties" : {
+								"image" : "catbikeback.png:jump.<frame>"
+							}
+						},
+						"fall" : {
+							"properties" : {
+								"image" : "catbikeback.png:fall.<frame>"
+							}
+						},
+						"driveForward" : {
+							"properties" : {
+								"image" : "catbikeback.png:move.<frame>"
+							}
+						},
+						"driveReverse" : {
+							"properties" : {
+								"image" : "catbikeback.png:bmove.<frame>"
+							}
+						}
+					}
+				}
+			},
+
+			"foreground" : {
+				"properties" : {
+					"centered" : true,
+					"zLevel" : 1
+				},
+
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "catbikefront.png:idle.<frame>"
+							}
+						},
+						"jump" : {
+							"properties" : {
+								"image" : "catbikefront.png:jump.<frame>"
+							}
+						},
+						"fall" : {
+							"properties" : {
+								"image" : "catbikefront.png:fall.<frame>"
+							}
+						},
+						"driveForward" : {
+							"properties" : {
+								"image" : "catbikefront.png:move.<frame>"
+							}
+						},
+						"driveReverse" : {
+							"properties" : {
+								"image" : "catbikefront.png:bmove.<frame>"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+
+	"sounds" : {
+		"hoverbikeHorn" : ["/sfx/tech/honk.wav"]
+	},
+
+	"particleEmitters" : {
+		"carActivateParticles" : {
+			"particles" : [ ]
+		},
+		"carDeactivateParticles" : {
+			"particles" : [ ]
+		}
+	}
+}

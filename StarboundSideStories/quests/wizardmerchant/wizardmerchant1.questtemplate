@@ -1,0 +1,13 @@
+  {
+  "id" : "wizardmerchant1.gearup",
+  "title" : "^orange;The Astounding Merlibot",
+  "text" : "Exclamation: Hello stranger, I am Merlibot! You're very lucky...I almost zapped you with one of my very powerful wizard spells! Oh? What's that? You wish to learn wizardry...?",
+  "completionText" : "Excitement: OF COURSE YOU DO! Who would not want to learn from the astounding Merlibot? We have much work to do young one, much work!",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

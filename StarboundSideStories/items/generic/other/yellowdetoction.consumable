@@ -1,0 +1,17 @@
+{
+  "itemName" : "yellowdecoction",
+  "rarity" : "rare",
+  "price" : 150,
+  "inventoryIcon" : "yellowstim.png",
+  "description" : "A stimpack full of yellow liquid",
+  "shortdescription" : "Potion of Starlight",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "effect" : "glow",
+        "duration" : 1200
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

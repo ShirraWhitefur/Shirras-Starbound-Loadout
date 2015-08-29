@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 4 }
+  ],
+  "output" : { "item" : "shojiscreenpanel", "count" : 1 },
+  "groups" : [ "blocktableplus", "materials", "all", "wall" ]
+}

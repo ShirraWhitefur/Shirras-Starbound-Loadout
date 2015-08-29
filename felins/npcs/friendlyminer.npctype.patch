@@ -1,0 +1,27 @@
+[
+	{
+		"op" : "add",
+		"path" : "/items/felin",
+		"value" : [
+			[0,
+				[
+					{
+						"head" : [
+							{ "name" : "devhead", "parameters" : { "colorIndex" : 0 } },
+							{ "name" : "mininghathead", "parameters" : { "colorIndex" : 0 } }
+						],
+						"chest" : [
+							{ "name" : "felintier1chest", "parameters" : { "colorIndex" : 5 } }
+						],
+						"legs" : [
+							{ "name" : "felintier1pants", "parameters" : { "colorIndex" : 5 } }
+						],
+						"primary" : [
+							{ "name" : "pickaxe" }
+						]
+					}
+				]
+			]
+		]
+	}
+]

@@ -1,0 +1,48 @@
+{
+	"objectName" : "felinfireplace",
+	"tags" : [ "felin", "felinvillage", "light" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 130,
+	"description" : "Careful with that match, Eugene.",
+	"shortdescription" : "Wooden Fireplace",
+	"race" : "felin",
+	"maximumLiquidLevel" : 0.2,
+	"lightColor" : [204, 108, 54],
+	"flickerDistance" : 0.5,
+	"flickerStrength" : 0.1,
+	"statusEffects" : [ ],
+	"soundEffect" : "/sfx/objects/oillantern.wav",
+	"subtitle" : "Isn't that unsafe?",
+	"objectType" : "container",
+	"recipeGroup" : "cooking",
+	"openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+	"slotCount" : 2,
+	"uiConfig" : "/interface/objectcrafting/campfire.config",
+	"frameCooldown" : 67,
+	"autoCloseCooldown" : 3600,
+	"inventoryIcon" : "felinfireplaceicon.png",
+	"orientations" : [
+		{
+			"imageLayers" : [ { "image" : "felinfireplace.png:default.<frame>", "fullbright" : true }, { "image" : "felinfireplace.png:lit" } ],
+			"imagePosition" : [-16, 0],
+			"frames" : 4,
+			"animationCycle" : 0.6,
+			"direction" : "left",
+			"flipImages" : true,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ],
+			"collision" : "platform"
+		},
+		{
+			"imageLayers" : [ { "image" : "felinfireplace.png:default.<frame>", "fullbright" : true }, { "image" : "felinfireplace.png:lit" } ],
+			"imagePosition" : [-16, 0],
+			"frames" : 4,
+			"animationCycle" : 0.6,		
+			"direction" : "right",
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ],
+			"collision" : "platform"
+		}
+	]
+}

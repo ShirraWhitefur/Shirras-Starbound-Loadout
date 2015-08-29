@@ -1,0 +1,27 @@
+{
+	"itemName" : "beltskirtlegs",
+	"inventoryIcon" : "icons.png:pants",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "common",
+	"shortdescription" : "Belt Skirt",
+	"description" : "It's literally a f°cking belt.",
+	"tooltipKind" : "armor",
+	"maleFrames" : "pantsf.png",
+	"femaleFrames" : "pantsf.png",
+	"statusEffects" : [ ],
+	"colorOptions" : [
+		{ "FFCA8A" : "CCAE7C", "E0975C" : "A47844", "A85636" : "754C23", "6F2919" : "472B13" }, //brown
+		{ "FFCA8A" : "838383", "E0975C" : "555555", "A85636" : "383838", "6F2919" : "151515" }, //black
+		{ "FFCA8A" : "B5B5B5", "E0975C" : "808080", "A85636" : "555555", "6F2919" : "303030" }, //gray
+		{ "FFCA8A" : "E6E6E6", "E0975C" : "B6B6B6", "A85636" : "7B7B7B", "6F2919" : "373737" }, //white
+		{ "FFCA8A" : "F4988C", "E0975C" : "D93A3A", "A85636" : "932625", "6F2919" : "601119" }, //red
+		{ "FFCA8A" : "FFD495", "E0975C" : "EA9931", "A85636" : "AF4E00", "6F2919" : "6E2900" }, //orange
+		{ "FFCA8A" : "FFFFA7", "E0975C" : "E2C344", "A85636" : "A46E06", "6F2919" : "642F00" }, //yellow
+		{ "FFCA8A" : "B2E89D", "E0975C" : "51BD3B", "A85636" : "247824", "6F2919" : "144216" }, //green
+		{ "FFCA8A" : "96CBE7", "E0975C" : "5588D4", "A85636" : "344495", "6F2919" : "1A1C51" }, //blue
+		{ "FFCA8A" : "D29CE7", "E0975C" : "A451C4", "A85636" : "6A2284", "6F2919" : "320C40" }, //purple
+		{ "FFCA8A" : "EAB3DB", "E0975C" : "D35EAE", "A85636" : "97276D", "6F2919" : "59163F" }, //pink
+		{ "FFCA8A" : "CCAE7C", "E0975C" : "A47844", "A85636" : "754C23", "6F2919" : "472B13" }  //brown
+	]
+}

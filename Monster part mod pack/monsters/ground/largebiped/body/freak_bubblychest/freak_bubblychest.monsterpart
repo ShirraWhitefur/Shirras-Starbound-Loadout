@@ -1,0 +1,15 @@
+{
+  "name" : "freak_bubblychest",
+  "category" : "largebiped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "freak_bubblychest.png"
+  },
+
+  "parameters" : {
+    "walkMultiplier" : 1.0,
+    "runMultiplier" : 1.0,
+    "jumpMultiplier" : 1.0
+  }
+}

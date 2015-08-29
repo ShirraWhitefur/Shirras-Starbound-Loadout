@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "cacti", "count" : 3 }
+  ],
+  "output" : { "item" : "cactiblock", "count" : 1 },
+  "groups" : [ "blocktableplus", "materials", "all", "other" ]
+}

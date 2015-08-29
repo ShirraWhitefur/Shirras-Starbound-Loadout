@@ -1,0 +1,45 @@
+{
+  "objectName" : "cardboardbox",
+  "tags" : ["storage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 35,
+  "description" : "A cardboard box.",
+  "shortdescription" : "Cardboard box",
+  "race" : "generic",
+
+  "apexDescription" : "A cardboard box.",
+  "avianDescription" : "A box made out of cardboard.",
+  "floranDescription" : "A box of recycled tree-flesssh.",
+  "glitchDescription" : "Identify. Box. Cardboard.",
+  "humanDescription" : "A box for useless stuff.",
+  "hylotlDescription" : "A primitive cardboard box.",
+  "novakidDescription" : "Bleh. How can this thing even hold something?",
+
+  "inventoryIcon" : "cardboardboxicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "cardboardboxleft.png:default",
+      "rightImage" : "cardboardboxright.png:default",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/cardboardbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/cardboardbox_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

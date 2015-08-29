@@ -1,0 +1,279 @@
+{
+  "name" : "colourfulms",
+  "friendlyName" : "Colourful",
+  
+  "spawnProfiles" : [
+    {
+      "groups" : [ "hardsurface1" ],
+      "extraSpawns" : [ "dustmoth", "dewhopper", "bowbirdcritter", "sluggreencritter", "slugbluecritter", "slugcritter", "leafscabcritter"  ]
+    },
+    {
+      "groups" : [ "hardsurface2" ],
+      "extraSpawns" : [ "dustmoth", "muddancer", "bowbirdcritter", "sluggreencritter", "slugbluecritter", "slugcritter", "leafscabcritter" ]
+    }
+  ],
+
+  "mainBlock" : "sand2",
+  "subBlocks" : [ "sand", "sandstone01" ],
+  "ores" : "surfaceOres",
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "colourfulgrass" ],
+    "grassModDensity" : 0.75,
+
+    "ceilingGrassMod" : [ "roots" ],
+    "ceilingGrassModDensity" : 0.6,
+
+    "baseHueShiftMax" : 120,
+    "modHueShiftMax" : 180,
+
+    "items" : [
+      
+	  // CHESTS and ARTIFICIAL PLACEABLES
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "rainbowChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  
+	  // TERRAIN
+	  
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDist",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "terrainfeatures" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibossoverground",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "minibossoverground" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "aridplatforming" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "colourfulmicrodungeons" ]
+      },
+	  
+	  // GRASS and TREES and PLANTS
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 3,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 120,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "colourfulstem" ],
+        "treeFoliageList" : [ "colourfulpalm" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 4.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "grass",
+        "grasses" : [ "colourfulflower" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "colourfulbush1" ], [0.35, "colourfulbush2" ], [0.35, "colourfulbush3" ], [0.35, "colourfulbush4" ], [0.35, "colourfulbush5" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  
+	  // CROPS
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 0.5,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildkiwiseed" ] ],
+            "parameters" : {
+              "startingStage" : 2
+            }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildgrapesseed" ] ],
+            "parameters" : {
+              "startingStage" : 3
+            }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildneonmelonseed" ] ],
+            "parameters" : {
+              "startingStage" : 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "colourfulgrass" ],
+    "grassModDensity" : 0.4,
+
+    "ceilingGrassMod" : [ "roots" ],
+    "ceilingGrassModDensity" : 0.6,
+	
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "rainbowChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 3,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 120,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "colourfulvine" ],
+        "treeFoliageList" : [ "colourfulleaves" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 10,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "aridplatforming" ]
+      }
+    ]
+  }
+}

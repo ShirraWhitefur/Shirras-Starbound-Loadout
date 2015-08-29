@@ -1,0 +1,16 @@
+  {
+  "id" : "basebuilding3.gearup",
+  "prerequisites" : [ "basebuilding2.gearup" ],
+  "title" : "^orange;Mining for the Base",
+  "text" : "For 6000 pixels I can get some cool rocks that actually grow ore! Considering how you've managed to reach a moon to get here, I'm assuming you've done a fair amount of digging.",
+  "completionText" : "Great! Hopefully we can make the pixels back in not too long. The Novakid I bought these off of also tossed in a free tool spawner, which is nice.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "money", "count" : 6000, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "spawnertools", 1 ], [  "silvernode", 1 ], [  "goldnode", 1 ], [  "diamondnode", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

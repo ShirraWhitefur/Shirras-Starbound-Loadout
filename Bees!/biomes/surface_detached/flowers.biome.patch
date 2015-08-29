@@ -1,0 +1,5 @@
+[ 
+
+{"op":"replace","path":"/spawnProfiles/0","value":{"groups":["mediumsurface1"],"extraSpawns":["flowerbee"]}},
+{"op":"replace","path":"/spawnProfiles/1","value":{"groups":["mediumsurface2"],"extraSpawns":["flowerbee"]}}
+]

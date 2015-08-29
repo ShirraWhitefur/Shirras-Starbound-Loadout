@@ -1,0 +1,8 @@
+{
+	"input" : [
+		{ "item" : "fabric", "count" : 20 },
+		{ "item" : "wheatseed", "count" : 20 }
+	],
+	"output" : { "item" : "felinbeanbagchair", "count" : 1 },
+	"groups" : [ "craftingtable", "objects", "all" ]
+}

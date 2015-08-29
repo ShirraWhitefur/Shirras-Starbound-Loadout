@@ -1,0 +1,6 @@
+{
+	"name" : "body",
+	"category" : "rous",
+	"type" : "body",
+	"frames" : { "body" : "rous.png" }
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "op" : "add",
+    "path" : "/surfaceOres/-",
+    "value" : [10.5, [ [ "coal", 1.40], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "iron", 0.20], [ "titanium", 0.20], [ "aegisalt", 0.20], [ "rubium", 0.20], [ "violium", 0.20] ] ]
+  },
+  {
+    "op" : "add",
+    "path" : "/depth1/-",
+    "value" : [10.5, [ [ "coal", 1.15], [ "copper", 1.15], [ "silverore", 1.15], [ "gold", 1.15], [ "platinum", 1.15], [ "diamond", 1.15], [ "iron", 1.15], [ "titanium", 1.15], [ "aegisalt", 1.15], [ "rubium", 1.15], [ "violium", 1.15], ["fossil", 0.79] ] ]
+  },
+  {
+    "op" : "add",
+    "path" : "/depth2/-",
+    "value" : [10.5, [ [ "coal", 1.25], [ "copper", 1.20], [ "silverore", 1.20], [ "gold", 1.20], [ "platinum", 1.20], [ "diamond", 1.20], [ "iron", 1.20], [ "titanium", 1.20], [ "aegisalt", 1.20], [ "rubium", 1.20], [ "violium", 1.20], ["fossil", 0.79] ] ]
+  },
+  {
+    "op" : "add",
+    "path" : "/depth3/-",
+    "value" : [10.5, [ [ "coal", 1.15], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.25], [ "iron", 1.25], [ "titanium", 1.25], [ "aegisalt", 1.25], [ "rubium", 1.25], [ "violium", 1.25], ["fossil", 0.79] ] ]
+  },
+  {
+    "op" : "add",
+    "path" : "/core/-",
+    "value" : [10.5, [ [ "corefragment", 1.50], ["fossil", 0.79] ] ]
+  },
+  {
+    "op" : "add",
+    "path" : "/msUranium",
+    "value" : [
+    [10.5, [ [ "coal", 1.40], [ "uranium", 1.00] ] ]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/msPlutonium",
+    "value" : [
+    [10.5, [ [ "coal", 1.40], [ "plutonium", 1.00] ] ]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/msSolarium",
+    "value" : [
+    [10.5, [ [ "coal", 1.40], [ "solarium", 1.00] ] ]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/msMoon",
+    "value" : [
+    [10.5, [ [ "plutonium", 1.00] ] ]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/msAsteroid",
+    "value" : [
+    [10.5, [ [ "plutonium", 1.00] ] ]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/msSubUranium",
+    "value" : [
+    [10.5, [ [ "coal", 1.15], [ "uranium", 1.00], [ "copper", 1.15], [ "silverore", 1.15], [ "gold", 1.15], [ "platinum", 1.15], [ "diamond", 1.15], [ "iron", 1.15], [ "titanium", 1.15], [ "aegisalt", 1.15], [ "rubium", 1.15], [ "violium", 1.15], ["fossil", 0.79] ] ]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/msSubPlutonium",
+    "value" : [
+    [10.5, [ [ "coal", 1.15], [ "plutonium", 1.00], [ "copper", 1.15], [ "silverore", 1.15], [ "gold", 1.15], [ "platinum", 1.15], [ "diamond", 1.15], [ "iron", 1.15], [ "titanium", 1.15], [ "aegisalt", 1.15], [ "rubium", 1.15], [ "violium", 1.15], ["fossil", 0.79] ] ]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/msSubSolarium",
+    "value" : [
+    [10.5, [ [ "coal", 1.15], [ "solarium", 1.00], [ "copper", 1.15], [ "silverore", 1.15], [ "gold", 1.15], [ "platinum", 1.15], [ "diamond", 1.15], [ "iron", 1.15], [ "titanium", 1.15], [ "aegisalt", 1.15], [ "rubium", 1.15], [ "violium", 1.15], ["fossil", 0.79] ] ]
+  ]
+  }
+]

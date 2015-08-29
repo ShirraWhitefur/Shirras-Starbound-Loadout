@@ -1,0 +1,13 @@
+{
+  "name" : "gravitonbuff",
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "gravitonbuff.lua"
+  ],
+
+  "animationConfig" : "gravitonbuff.animation",  
+  
+  "label" : "Graviton Field",
+  "icon" : "/interface/statuses/gravbuff.png"
+}

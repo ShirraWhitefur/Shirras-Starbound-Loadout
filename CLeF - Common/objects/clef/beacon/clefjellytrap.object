@@ -1,0 +1,41 @@
+{
+  "objectName" : "clefjellytrap",
+  "tags" : [],
+  "rarity" : "Common",
+  "description" : "This could attract anything... I should make sure I'm prepared before using it.",
+  "shortdescription" : "Peanut Butter Trap",
+  "race" : "generic",
+  "category" : "tools",
+  "printable" : false,
+  "apexDescription" : "A peanut butter trap. I wonder what this could catch?",
+  "avianDescription" : "A trap with peanut butter. Tasty AND deadly.",
+  "floranDescription" : "Floran use peanut sssquishy to catch thing!",
+  "glitchDescription" : "Sceptical. Surely only a tiny creature will be lured in by this.",
+  "humanDescription" : "If I'm not careful, I'll get caught in this trap myself.",
+  "hylotlDescription" : "A peanut butter trap. I bet this won't attract a thing.",
+
+  "inventoryIcon" : "clefjellytrapicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "clefjellytrap.png",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "animation" : "/objects/clef/beacon/clefjellytrap.animation",
+  "animationParts" : {
+    "beacon" : "clefjellytrap.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/clef/beacon/clefjellytrap.lua" ],
+  "scriptDelta" : 5
+
+}

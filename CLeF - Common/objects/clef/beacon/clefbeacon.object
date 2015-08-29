@@ -1,0 +1,43 @@
+{
+  "objectName" : "clefbeacon",
+  "rarity" : "Uncommon",
+  "description" : "A distress beacon. Who knows who might hear it?",
+  "shortdescription" : "Old Distress Beacon",
+  "race" : "generic",
+  "category" : "tools",
+  "printable" : false,
+  "apexDescription" : "A distress beacon. I hope the person who left it is okay.",
+  "avianDescription" : "A distress beacon. Someone must be in trouble.",
+  "floranDescription" : "Floran help as well as hunt. Sssometimes.",
+  "glitchDescription" : "Analysis. This distress beacon is transmitting at a number of frequencies.",
+  "humanDescription" : "This beacon's sending out a distress call.",
+  "hylotlDescription" : "Someone needs help. Protecting the weak is a worthwhile pursuit.",
+  "novakidDescription" : "A distress... somethin'. This movin' salad dish distracts me.",
+
+  "inventoryIcon" : "clefbeaconicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "clefbeacon.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 12,
+      "animationCycle" : 2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "pickupQuestTemplates" : ["clefbeacon.gearup"],
+
+  "animation" : "/objects/clef/beacon/clefbeacon.animation",
+  "animationParts" : {
+    "beacon" : "clefbeacon.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/clef/beacon/clefbeacon.lua" ],
+  "scriptDelta" : 5
+
+}

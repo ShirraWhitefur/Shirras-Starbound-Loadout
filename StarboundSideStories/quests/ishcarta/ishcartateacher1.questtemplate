@@ -1,0 +1,15 @@
+  {
+  "id" : "ishcartateacher1.gearup",
+  "title" : "^orange;Ishcarta's Teacher I",
+  "text" : "Oh, hello there! Welcome to the village, I'm Imla Sssagebush, the local teacher in Ishcarta. I don't have time for a full lesson, but would you be interseted in hearing about our Floran origins?",
+  "completionText" : "Oh yes, that is great! Not many Floran care about knowing their origins, ssso it is great ssseeing an outsider who is interested!",
+  "completionConditions" : [
+	
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "floranoriginsCodex", 1 ], [  "floranambitionCodex", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

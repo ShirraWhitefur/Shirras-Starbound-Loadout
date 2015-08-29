@@ -1,0 +1,10 @@
+{
+    "name": "Ground-Penetrating Radar Mapper",
+    "version": "v1.35: for Pleased Giraffe",
+    "path": ".",
+	"dependencies" : [],
+	"metadata" : {
+	  "author" : "Peasly Wellbott",
+	  "description" : "Place this machine and interact with to see a detailed map of the surrounding environment."
+	  }
+}

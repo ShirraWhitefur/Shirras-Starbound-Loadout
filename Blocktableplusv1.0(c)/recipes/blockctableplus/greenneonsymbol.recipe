@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 1 },
+	{ "item" : "money", "count" : 5 }
+  ],
+  "output" : { "item" : "greenneonsymbol", "count" : 3 },
+  "groups" : [ "blocktableplus", "materials", "all", "wall" ]
+}

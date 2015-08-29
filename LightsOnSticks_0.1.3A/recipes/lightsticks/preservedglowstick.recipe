@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "permafrost", "count" : 1 },
+	{ "item" : "durasteelbar", "count" : 15 },
+	{ "item" : "yellowstim", "count" : 1 }
+  ],
+  "output" : { "item" : "preservedglowstick", "count" : 1 },
+  "groups" : [ "scifianvil", "armors", "all" ]
+}
+

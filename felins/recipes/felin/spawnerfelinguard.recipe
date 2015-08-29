@@ -1,0 +1,7 @@
+{
+	"input" : [
+		{ "item" : "steelbar", "count" : 20 }
+	],
+	"output" : { "item" : "spawnerfelinguard", "count" : 1 },
+	"groups" : [ "spawnerstation", "objects", "all", "other" ]
+}

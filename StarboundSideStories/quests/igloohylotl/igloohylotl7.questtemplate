@@ -1,0 +1,16 @@
+  {
+  "id" : "igloohylotl7.gearup",
+  "prerequisites" : [ "igloohylotl6.gearup" ],
+  "title" : "^orange;The Golden Rod",
+  "text" : "You've been such a nice friend to help me with all this stuff. I actually have a fishing pole that I'd like you to have, but I need to know you're a good fisherman. Prove it by bringing 50 pieces of raw fish.",
+  "completionText" : "Wow! You really are an amazing angler! Here's your golden fishing rod, I hope you enjoy it!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "rawfish", "count" : 50, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "goldenfishingrod", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

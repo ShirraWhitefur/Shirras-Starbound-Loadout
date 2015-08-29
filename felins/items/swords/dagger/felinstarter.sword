@@ -1,0 +1,47 @@
+{
+	"itemName" : "felinstarter",
+	"level" : 1,
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"price" : 100,
+	"rarity" : "common",
+	"description" : "A kind of push dagger.",
+	"shortdescription" : "Katar",
+	"tooltipKind" : "sword",
+	"kind" : "Dagger",
+	"image" : "felinstarter.png",
+	"firePosition" : [13.5, -1.5],
+	"fireTime" : 0.333,
+	"fireAfterWindup" : true,
+	"soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_dagger.wav" } ] },
+	"primaryStances" : {
+		"directional" : false,
+		"projectileType" : "daggerswoosh1",
+		"projectile" : {
+			"speed" : 0.1,
+			"power" : 2.0
+		},
+		"idle" : {
+			"twoHanded" : false,
+			"armAngle": -120,
+			"swordAngle": 150,
+			"handPosition": [4, -32],
+			"armFrameOverride" : "idleMelee",
+			"duration" : 0.1
+		},
+		"windup" : {
+			"twoHanded" : false,
+			"armAngle" : 0,
+			"swordAngle" : -60,
+			"handPosition" : [0.2, -25],
+			"duration" : 0.05
+		},
+		"cooldown" : {
+			"twoHanded" : false,
+			"armAngle" : -140,
+			"swordAngle" : -90,
+			"handPosition" : [2.7, -12.5],
+			"duration" : 0.4
+		}
+	}
+}

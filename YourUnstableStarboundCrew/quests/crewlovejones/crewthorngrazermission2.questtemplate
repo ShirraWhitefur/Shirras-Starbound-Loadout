@@ -1,0 +1,17 @@
+{
+  "id" : "crewthorngrazermission2.gearup",
+  "prerequisites" : [ "crewthorngrazermission.gearup" ], 
+  "title" : "^green;Kananna's's Ssstuff",
+  "text" : "As I was sssaying...the ssstupid beasts took my console. You go to the left and sssee what you can find, I'll look to the right.",
+  "completionText" : "Ssso this frog has been taking my village's ssstuff?! It ssseems friendly enough...I'll let the village know where to find their thingsss. Thank you sssso much! My village ssshould be sssafe now, even without me there...If it's okay with you, I've never actually left this planet. If you ssstick this console in your ssship, I'll join you until the Wild Hunt happens!",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "crewthorngrazerconsole", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "colonydeed", 1] ]
+   ],
+  "canBeAbandoned" : false,
+  "requireTurnIn" : true
+}
+ 

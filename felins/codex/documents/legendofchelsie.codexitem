@@ -1,0 +1,10 @@
+{
+	"codexId" : "legendofchelsie",
+	"title" : "The Legend of Chelsie",
+	"codexkind" : "codex",
+	"itemName" : "legendofchelsieCodex",
+	"inventoryIcon" : "felinbook_01.png",
+	"rarity" : "common",
+	"description" : "An Account",
+	"shortdescription" : "The Legend of Chelsie"
+}

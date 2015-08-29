@@ -1,0 +1,61 @@
+[
+	{ "op" : "add", "path" : "/metadata/anchor/-", "value" : "felintradingcaravan" },
+	{ "op" : "add", "path" : "/metadata/anchor/-", "value" : "felincamp" },
+	{ "op" : "add", "path" : "/metadata/anchor/-", "value" : "felincamp2" },
+	{ "op" : "add", "path" : "/tiles/-", "value" : {
+		"value" : [100, 10, 0, 255],
+		"comment" : "Felin merchant",
+		"brush" : [ [ "npc",
+			{
+				"kind" : "npc",
+				"species" : "felin",
+				"typeName" : "merchant",
+				"parameters" : {
+					"scriptConfig" : {
+						"merchant" : {
+							"storeRadius" : -1,
+							"categories" : { "default" : [ "felinclothes", "randomswords" ] },
+							"numItems" : 10
+						}
+					}
+				}
+			}
+		] ]
+	} },
+	{ "op" : "add", "path" : "/tiles/-", "value" : {
+		"value" : [100, 20, 0, 255],
+		"comment" : "Felin bandit",
+		"brush" : [ [ "npc",
+			{
+				"kind" : "npc",
+				"species" : "felin",
+				"typeName" : "bandit",
+				"parameters" : { "persistent" : true }
+			}
+		] ]
+	} },
+	{ "op" : "add", "path" : "/tiles/-", "value" : {
+		"value" : [100, 30, 0, 255],
+		"comment" : "Felin mystic",
+		"brush" : [ [ "npc",
+			{
+				"kind" : "npc",
+				"species" : "felin",
+				"typeName" : "mystic",
+				"parameters" : { "persistent" : true }
+			}
+		] ]
+	} },
+	{ "op" : "add", "path" : "/parts/-", "value" : {
+		"name" : "felintradingcaravan", "rules" : [ ],
+		"def" : [ "image", [ "felintradingcaravan.png", "felintradingcaravan-objects.png" ] ]
+	} },
+	{ "op" : "add", "path" : "/parts/-", "value" : {
+		"name" : "felincamp", "rules" : [ ],
+		"def" : [ "image", [ "felincamp.png", "felincamp-objects.png" ] ]
+	} },
+	{ "op" : "add", "path" : "/parts/-", "value" : {
+		"name" : "felincamp2", "rules" : [ ],
+		"def" : [ "image", [ "felincamp.png", "felincamp-objects2.png" ] ]
+	} }
+]

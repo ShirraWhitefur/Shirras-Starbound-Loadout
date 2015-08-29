@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "refinedrubium", "count" : 2 },
+    { "item" : "circuitboard", "count" : 1 },
+    { "item" : "gravitonmagnifier", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "tier9_tiny_gravitonprojectorring",
+    "count" : 1
+  },
+  "groups" : [ "gravitoncraftingtable", "wire", "size t", "rubium",  "objects", "all" ]
+}

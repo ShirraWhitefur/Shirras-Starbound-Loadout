@@ -1,0 +1,27 @@
+{
+  "name": "crewgenekong",
+  "priority": 10,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "crewgenekong": 1
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "apex",
+	  "seed": 17,
+      "type": "crewgenekong",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [800.0, 1200.0],
+    "pool": "genekongGift"
+  }
+}

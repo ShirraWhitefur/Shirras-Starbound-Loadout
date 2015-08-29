@@ -1,0 +1,31 @@
+{
+	"objectName" : "felinbenchintact",
+	"tags" : [ "felin", "felinvillage" ],
+	"rarity" : "common",
+	"description" : "A simple but comfortable bench.",
+	"shortdescription" : "Felin Bench",
+	"race" : "felin",
+	"category" : "furniture",
+	"price" : 110,
+	"apexDescription" : "A thick, foamy bench.",
+	"avianDescription" : "A fairly comfortable bench.",
+	"floranDescription" : "Floran sssit down and wait. But for what?",
+	"glitchDescription" : "Statement. A relatively comfortable bench.",
+	"humanDescription" : "A bench. Looks pretty comfy.",
+	"hylotlDescription" : "A bench with thick foam padding.",
+	"felinDescription" : "The most comfy bench EVER, with some work.",
+	"inventoryIcon" : "felinbenchicon.png",
+	"orientations" : [
+		{
+			"dualImage" : "felinbench.png:default.1",
+			"imagePosition" : [-16, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"objectType" : "loungeable",
+	"sitFlipDirection" : false,
+	"sitPosition" : [3, 22]
+}

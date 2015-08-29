@@ -1,0 +1,6 @@
+{
+	"name" : "red",
+	"category" : "tentillum",
+	"type" : "body",
+	"frames" : { "body" : "red.png" }
+}

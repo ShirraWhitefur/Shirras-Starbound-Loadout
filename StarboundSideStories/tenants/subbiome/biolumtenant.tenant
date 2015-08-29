@@ -1,0 +1,26 @@
+{
+  "name": "biolumtenant",
+  "priority": 2,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "bioluminescence": 3
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "human",
+      "type": "eccentricbiomebaddy",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [600.0, 1200.0],
+    "pool": "subbiomeGift"
+  }
+}

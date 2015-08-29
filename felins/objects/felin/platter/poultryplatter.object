@@ -1,0 +1,32 @@
+{
+	"objectName" : "poultryplatter",
+	"tags" : [ "misc" ],
+	"rarity" : "common",
+	"description" : "A nice, roasted bird.",
+	"shortdescription" : "Plate of Poultry",
+	"race" : "felin",
+	"category" : "furniture",
+	"price" : 20,
+	"apexDescription" : "That's one roast bird.",
+	"avianDescription" : "D:",
+	"floranDescription" : "Delicious biiird...",
+	"glitchDescription" : "Relieved. No traces of salmonella detected.",
+	"humanDescription" : "A nice, roasted bird.",
+	"hylotlDescription" : "It's a roast bird. So?",
+	"felinDescription" : "Delicious biiird...",
+	"inventoryIcon" : "poultryplattericon.png",
+	"orientations" : [
+		{
+			"dualImage" : "poultryplatter.png",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"breakDropOptions" : [ [
+		[ "felinplate", 1, { } ],
+		[ "cookedpoultry", 1, { } ]
+	] ]
+}

@@ -1,0 +1,9 @@
+{
+  "itemName" : "titaniumqueen",
+  "rarity" : "Common",
+  "inventoryIcon" : "titaniumqueen.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "An titanium bee queen.",
+  "shortdescription" : "Titanium Queen",
+  "maxStack" : 1000
+}

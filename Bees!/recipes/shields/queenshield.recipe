@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 2000 },    { "item" : "godlycomb", "count" : 6 },    { "item" : "imperviumcompound", "count" : 12 },    { "item" : "petalred", "count" : 25 }
+  ],
+  "output" : { "item" : "generatedshield", "count" : 1, "data" : { "definition" : "Queenswrath", "level" : 10 } },
+  "groups" : [ "mod", "beestation", "weapons", "all" ]
+}

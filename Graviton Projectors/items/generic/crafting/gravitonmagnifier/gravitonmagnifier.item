@@ -1,0 +1,7 @@
+{
+  "itemName" : "gravitonmagnifier",
+  "rarity" : "Common",
+  "inventoryIcon" : "gravitonmagnifier.png",
+  "description" : "This is used in devices which project and amplify graviton fields.",
+  "shortdescription" : "Graviton Magnifier"
+}

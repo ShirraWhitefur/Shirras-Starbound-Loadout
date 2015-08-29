@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "waxchunk", "count" : 6 },  { "item" : "ironbar", "count" : 8 }, { "item" : "bone", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "833honeyhammer",
+    "count" : 1
+  },
+  "groups" : [ "mod", "beestation", "weapons", "all" ]
+}

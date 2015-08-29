@@ -1,0 +1,37 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/dropPools",
+    "value" : [ "tentaclecometspore" ]
+  },
+  {
+    "op" : "replace",
+    "path" : "/baseParameters/scripts",
+    "value" : [
+      "/monsters/capturepod.lua",
+      "/monsters/boss/tentaclecometspore/behavior.lua",
+      "/scripts/pathing.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua",
+
+      "/monsters/ground/aggroHopState.lua",
+      "/monsters/ground/approachState.lua",
+      "/monsters/ground/fleeState.lua",
+      "/monsters/ground/captiveState.lua",
+      "/monsters/ground/stunState.lua",
+      "/monsters/ground/socializeState.lua",
+      "/monsters/ground/wanderState.lua"
+    ]
+  },
+  {
+    "op" : "replace",
+    "path" : "/baseParameters/movementSettings/walkSpeed",
+    "value" : 12
+  },
+  {
+    "op" : "replace",
+    "path" : "/baseParameters/movementSettings/runSpeed",
+    "value" : 16
+  }
+]

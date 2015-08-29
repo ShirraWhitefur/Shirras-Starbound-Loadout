@@ -1,0 +1,9 @@
+{
+  "name" : "anti_geometricchest",
+  "category" : "largequadruped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "anti_geometricchest.png"
+  }
+}

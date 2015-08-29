@@ -1,0 +1,16 @@
+  {
+  "id" : "miningquest10.gearup",
+  "prerequisites" : [ "miningquest9.gearup" ],
+  "title" : "^orange;The Amazing Diamond",
+  "text" : "Diamonds...don't we all love diamonds? Such pixels! Bring me thirty diamonds, and we can make a fortune!",
+  "completionText" : "My sixty percent cut on these diamond nodes should end up being...well, a lot of pixels. A TON of pixels.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "diamond", "count" : 30, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "diamondnode", 2 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

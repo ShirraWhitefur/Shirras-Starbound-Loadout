@@ -1,0 +1,9 @@
+{
+  "itemName" : "eclipsequeen",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "eclipsequeen.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A queen bee with a strange attraction to dark objects.",
+  "shortdescription" : "Eclipse Queen",
+  "maxStack" : 1000
+}

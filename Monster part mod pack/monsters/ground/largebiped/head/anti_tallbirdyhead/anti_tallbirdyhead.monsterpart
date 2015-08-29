@@ -1,0 +1,13 @@
+{
+  "name" : "anti_tallbirdyhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_tallbirdyhead.png"
+  },
+
+   "parameters" :
+  {
+  }
+}

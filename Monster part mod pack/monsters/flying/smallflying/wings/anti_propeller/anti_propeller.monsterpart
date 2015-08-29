@@ -1,0 +1,10 @@
+{
+  "name" : "anti_propeller",
+  "category" : "smallflying",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "anti_propellerbwing.png",
+    "frontWings" : "anti_propellerfwing.png"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id" : "creworetenant.gearup",
+  "prerequisites" : [ "crewtenantmission.gearup" ], 
+  "title" : "^green;The Nova Tenants Ore",
+  "text" : "Woo hoo, you found me! The other miners seemed to be getting a bit on edge, so I went over here and did what I do best, mine! Oh? You say you can take me to different planets and let me mine as much as I want...?",
+  "completionText" : "Well partner, you got yourself a deal! Place this mining thing I like to use in a house, and I'll go out and dig for ya!",
+  "completionConditions" : [
+ 
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "crewminingcrusher", 1] ]
+   ],
+  "canBeAbandoned" : false,
+  "requireTurnIn" : true
+}
+ 

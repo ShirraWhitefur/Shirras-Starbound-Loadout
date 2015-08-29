@@ -1,0 +1,32 @@
+{
+	"objectName" : "hamplatter",
+	"tags" : [ "misc" ],
+	"rarity" : "common",
+	"description" : "A haunch of roasted ham.",
+	"shortdescription" : "Plate of Ham",
+	"race" : "felin",
+	"category" : "furniture",
+	"price" : 20,
+	"apexDescription" : "That's the second largest ham I've ever seen.",
+	"avianDescription" : "That's one large ham.",
+	"floranDescription" : "Floran likessss ham! But prefers it rrrraw...",
+	"glitchDescription" : "Impressed. This is one good-looking ham.",
+	"humanDescription" : "This ham's glaze... It looks so... glorious!",
+	"hylotlDescription" : "That's one large ham.",
+	"felinDescription" : "Did someone order a large ham~?",
+	"inventoryIcon" : "hamplattericon.png",
+	"orientations" : [
+		{
+			"dualImage" : "hamplatter.png",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"breakDropOptions" : [ [
+		[ "felinplate", 1, { } ],
+		[ "cookedham", 1, { } ]
+	] ]
+}

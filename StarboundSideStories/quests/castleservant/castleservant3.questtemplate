@@ -1,0 +1,16 @@
+  {
+  "id" : "castleservant3.gearup",
+  "prerequisites" : [ "castleservant2.gearup" ],
+  "title" : "^orange;Royal Teleportation",
+  "text" : "Contemplating. We will be needing you to show your face at your castle at least every once and a while, master. Bring me a teleportation core and I can craft you a teleporter to beam you back and forth.",
+  "completionText" : "Content. We will all be blessed to see your face more often with this, your majesty. I hope you enjoy the design! Feel free to begin constructing more rooms for the castle to hold any expansions as you see fit.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "teleportercore", "count" : 1, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "brassteleporter", 1 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

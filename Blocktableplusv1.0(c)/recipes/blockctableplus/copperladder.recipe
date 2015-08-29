@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 1 }
+  ],
+  "output" : { "item" : "copperladder", "count" : 1 },
+  "groups" : [ "blocktableplus", "materials", "all", "platform" ]
+}

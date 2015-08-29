@@ -1,0 +1,10 @@
+{
+	"codexId" : "felinheroes",
+	"title" : "Felin Heroes",
+	"codexkind" : "codex",
+	"itemName" : "felinheroesCodex",
+	"inventoryIcon" : "felinbook_03.png",
+	"rarity" : "common",
+	"description" : "A Reference Guide",
+	"shortdescription" : "Felin Heroes"
+}

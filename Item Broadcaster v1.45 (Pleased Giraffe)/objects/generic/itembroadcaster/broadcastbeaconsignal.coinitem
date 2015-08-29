@@ -1,0 +1,12 @@
+{
+  "itemName" : "broadcastbeaconsignal",
+  "rarity" : "Common",
+  "inventoryIcon" : "broadcastbeaconsignal.png",
+  "dropCollision" : [-1.0, -1.0, 1.0, 1.0],
+  "description" : "Pixels, used for 3D Printing; they have become a universal currency.",
+  "shortdescription" : "Pixels",
+  "value" : 1,
+  "pickupSoundsSmall" : [ "/sfx/objects/coinstack_small1.wav", "/sfx/objects/coinstack_small2.wav", "/sfx/objects/coinstack_small3.wav" ],
+  "pickupSoundsMedium" : [ "/sfx/objects/coinstack_medium1.wav", "/sfx/objects/coinstack_medium2.wav" ],
+  "pickupSoundsLarge" : [ "/sfx/objects/coinstack_large.wav" ]
+}

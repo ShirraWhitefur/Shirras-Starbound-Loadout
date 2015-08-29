@@ -1,0 +1,43 @@
+{
+  "objectName" : "ancientchest2",
+  "rarity" : "rare",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 350,
+  "description" : "A chest with bright glowing markings throughout.",
+  "shortdescription" : "Ancient Chest",
+  "race" : "generic",
+
+  "apexDescription" : "A high-tech chest. It looks as if it might contain something valuable.",
+  "avianDescription" : "A chest that looks like it stores something valuable.",
+  "floranDescription" : "Sspecial sshiny chesst.",
+  "glitchDescription" : "Non-committal. This chest is of unknown origin.",
+  "humanDescription" : "Who made this? What's in it?",
+  "hylotlDescription" : "There is amazing technology built into the chest itself.",
+  
+  "lightColor" : [119, 16, 195],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "ancientchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ancientchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

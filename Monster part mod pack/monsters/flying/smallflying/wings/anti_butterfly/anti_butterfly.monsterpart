@@ -1,0 +1,10 @@
+{
+  "name" : "anti_butterfly",
+  "category" : "smallflying",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "anti_butterflybwing.png",
+    "frontWings" : "anti_butterflyfwing.png"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "missionName" : "crewspongewaltzer",
+  "icon" : "crewspongewaltzer.png",
+  "missionWorld" : "crewspongewaltzer",
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Asteroid Abodes",
+      "repeatButtonText" : "Repeat Asteroid Abodes",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "A series of different homes in an asteroid belt, with the colony being led by a Hylotl named Mr. Sora. Currently the colony is under lock down, with multiple hostile units within. Speciality: Colonies. Threat level: Mostly harmless.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Asteroid Abodes",
+      "repeatButtonText" : "Repeat Asteroid Abodes",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "A series of different homes in an asteroid belt, with the colony being led by a Hylotl named Mr. Sora. Currently the colony is under lock down, with multiple hostile units within. Speciality: Colonies. Threat level: Mostly harmless.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Asteroid Abodes",
+      "repeatButtonText" : "Repeat Asteroid Abodes",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "A series of different homes in an asteroid belt, with the colony being led by a Hylotl named Mr. Sora. Currently the colony is under lock down, with multiple hostile units within. Speciality: Colonies. Threat level: Mostly harmless.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Asteroid Abodes",
+      "repeatButtonText" : "Repeat Asteroid Abodes",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "A series of different homes in an asteroid belt, with the colony being led by a Hylotl named Mr. Sora. Currently the colony is under lock down, with multiple hostile units within. Speciality: Colonies. Threat level: Mostly harmless.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Asteroid Abodes",
+      "repeatButtonText" : "Repeat Asteroid Abodes",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "A series of different homes in an asteroid belt, with the colony being led by a Hylotl named Mr. Sora. Currently the colony is under lock down, with multiple hostile units within. Speciality: Colonies. Threat level: Mostly harmless.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Asteroid Abodes",
+      "repeatButtonText" : "Repeat Asteroid Abodes",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "A series of different homes in an asteroid belt, with the colony being led by a Hylotl named Mr. Sora. Currently the colony is under lock down, with multiple hostile units within. Speciality: Colonies. Threat level: Mostly harmless.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Asteroid Abodes",
+      "repeatButtonText" : "Repeat Asteroid Abodes",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "A series of different homes in an asteroid belt, with the colony being led by a Hylotl named Mr. Sora. Currently the colony is under lock down, with multiple hostile units within. Speciality: Colonies. Threat level: Mostly harmless.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

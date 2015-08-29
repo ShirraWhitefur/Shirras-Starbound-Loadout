@@ -1,0 +1,9 @@
+{
+  "name" : "goldbee",
+  "category" : "goldbee",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "goldbee.png"
+  }
+}

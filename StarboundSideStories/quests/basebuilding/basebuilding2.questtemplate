@@ -1,0 +1,16 @@
+  {
+  "id" : "basebuilding2.gearup",
+  "prerequisites" : [ "basebuilding1.gearup" ],
+  "title" : "^orange;Decorating the Base",
+  "text" : "I already swapped out the weird energy thing with a teleporter, so no need for a teleporter core or whatever! We're already set up to the outpost. It is pretty barren in here though. I know a guy that can sell us some outpost furniture if you bring me 5000 pixels.",
+  "completionText" : "Now this Floran buddy of mine doesn't say too much, but rest assured he'll give you a great deal on furniture to set up the base with. I can tell your base is going to look great already!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "money", "count" : 5000, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "outpostarchitectspawner", 1 ], [  "outpostarchitectspawner-recipe", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

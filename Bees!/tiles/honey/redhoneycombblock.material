@@ -1,0 +1,21 @@
+{
+  "materialId" : 1762,
+  "materialName" : "redhoneycombblock",
+  "particleColor" : [189, 57, 52, 255],
+  "itemDrop" : "redhoneycombblock",
+  "description" : "A block of red honeycombs! Yum!",
+  "shortdescription" : "Red Honeycomb Block",
+  "multicolored" : false,
+  "category": "material",
+  "footstepSound" : "/sfx/blocks/footstep_ice.wav",
+  "health" : 5,
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "redhoneycombblock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

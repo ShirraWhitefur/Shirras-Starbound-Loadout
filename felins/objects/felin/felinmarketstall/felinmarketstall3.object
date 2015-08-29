@@ -1,0 +1,29 @@
+{
+	"objectName" : "felinmarketstall3",
+	"tags" : [ "felin", "felinvillage", "felinmarket", "commerce", "combat" ],
+	"rarity" : "common",
+	"description" : "An assortment of blingy things.",
+	"shortdescription" : "Felin Weapon Stall",
+	"race" : "felin",
+	"category" : "decorative",
+	"price" : 120,
+	"apexDescription" : "This weaponry almost seems like it's for show.",
+	"avianDescription" : "The cats are excellent warriors. This weaponry belies that, though.",
+	"floranDescription" : "Shiny cat friend weaponssss.",
+	"glitchDescription" : "Informative. These weapons are as deadly as they are frilly.",
+	"humanDescription" : "These weapons look like children's toys. Children with bad parents.",
+	"hylotlDescription" : "Leave it to the cats to balance looks and functionality.",
+	"felinDescription" : "You could take someone's eye out with these.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"dualImage" : "felinmarketstall3.png",
+			"imagePosition" : [-24, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ],
+			"collision" : "platform"
+		}
+	]
+}

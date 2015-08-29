@@ -1,0 +1,16 @@
+  {
+  "id" : "apexresearcher10.gearup",
+  "prerequisites" : [ "apexresearcher9.gearup" ],
+  "title" : "^orange;Useful Blood Bank",
+  "text" : "NowI'm almost done with my little project, I just need a few more things. Namely, I need you to go grab me about 15 nanowrap bandages.",
+  "completionText" : "Voila! My own nanowrap dispenser! Thanks for helping me out so much, myself and the little town really appreciate it. You can do whatever you'd like with this, but it'd be lovely if you could place it somewhere in the town. Thank you, again!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "nanowrap", "count" : 15, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [  [ "nanowrapdispenser", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

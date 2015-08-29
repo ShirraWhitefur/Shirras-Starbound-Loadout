@@ -1,0 +1,9 @@
+{
+  "name" : "anti_tallpsychetailic",
+  "category" : "largebiped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "anti_tallpsychetailic.png"
+  }
+}

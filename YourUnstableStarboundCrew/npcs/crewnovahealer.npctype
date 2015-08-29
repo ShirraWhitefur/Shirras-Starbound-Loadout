@@ -1,0 +1,48 @@
+{
+  "type" : "crewnovahealer",
+  "baseType" : "merchant",
+  
+  "damageTeam" : 1, 
+  "levelVariance" : [-0.5, -0.5],
+
+  "disableWornArmor" : true,
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "turnInQuests" : [ "crewtenantmission.gearup" ],
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 8,
+      "categories" : {
+        "default" : ["doctormerchant" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 20,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Your Healer",
+          "subtitle" : " Stay healthy."
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "bedouinchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "bedouinlegs", "parameters" : { "colorIndex" : 1 } }
+            ]
+          }
+      ]]
+    ]
+  }
+}

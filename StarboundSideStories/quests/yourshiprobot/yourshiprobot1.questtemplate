@@ -1,0 +1,13 @@
+  {
+  "id" : "yourshiprobot1.gearup",
+  "title" : "^orange;Strange Console",
+  "text" : "You look at the wrecked console, and notice it's not quite as wrecked as other ones here on the ship. You ask yourself if you're up to the task of fixing it up.",
+  "completionText" : "Of course you are! You're not sure what you'll need yet, but you inspect the machine.",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

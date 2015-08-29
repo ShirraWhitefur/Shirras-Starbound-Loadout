@@ -1,0 +1,9 @@
+{
+  "name" : "awinfantry",
+  "category" : "smallflying",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "awinfantry.png"
+  }
+}

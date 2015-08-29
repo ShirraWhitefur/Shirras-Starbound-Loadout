@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "upgrademodule", "count" : 2 },
+    { "item" : "techchip", "count" : 3 },
+    { "item" : "crewKEI", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "crewKEI2",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

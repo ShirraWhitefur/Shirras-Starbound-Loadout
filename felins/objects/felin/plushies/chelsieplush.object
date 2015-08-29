@@ -1,0 +1,28 @@
+{
+	"objectName" : "chelsieplush",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 100,
+	"description" : "A cute little plushie of a fearsome warrior.",
+	"shortdescription" : "Chelsie Plushie",
+	"race" : "felin",
+	"apexDescription" : "I suppose hero figures are marketable.",
+	"avianDescription" : "At least she's wearing a jacket.",
+	"floranDescription" : "Ssssilly famous cat full of little grains.",
+	"glitchDescription" : "Surprised. The figure's little wooden sword is sharpened.",
+	"humanDescription" : "This 'Chelsie' must be a pretty famous figure to the cats.",
+	"hylotlDescription" : "I'd hate to say it, but this is fine craftsmanship.",
+	"felinDescription" : "Hunter merchandise weapons are always functional.",
+	"inventoryIcon" : "plushies.png:chelsie.icon",
+	"orientations" : [
+		{
+			"dualImage" : "plushies.png:chelsie",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 0.4,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	]
+}

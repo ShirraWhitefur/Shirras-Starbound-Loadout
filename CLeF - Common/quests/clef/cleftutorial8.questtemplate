@@ -1,0 +1,12 @@
+{
+  "id" : "cleftutorial8.gearup",
+  "title" : "^yellow;CLeF Tutorial #8: Heavy Metal",
+  "text" : "It's finally time to craft your new armour pieces and some decent weaponry! Sound awesome, right? But in order to do that, you'll need to make an ^orange;Iron Anvil^white; first.",
+  "completionText" : "Awesome! Weapons and armour aside, it will also help you to craft some complex building block pieces and simple machinery.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "ironanvil", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [80, 80],
+  "followUp" : "cleftutorial9.gearup",
+  "canBeAbandoned" : false
+}

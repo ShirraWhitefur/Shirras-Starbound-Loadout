@@ -1,0 +1,13 @@
+{
+  "name" : "anti_neckhead",
+  "category" : "smallbiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_neckhead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}

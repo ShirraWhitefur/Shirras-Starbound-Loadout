@@ -1,0 +1,12 @@
+{
+  "id" : "cleftutorial5.gearup",
+  "title" : "^yellow;CLeF Totorial #5: Cozy Fire",
+  "text" : "What is the main attribute of every camp which makes your heart, skin and stomach warm? A ^orange;campfire^white;, of course! Throwing some ^orange;wood^white; and ^orange;coal^white; together - who said things could not be simple?",
+  "completionText" : "Ahhh, much better. Not only it's a decent light and heat source, but is the most basic device you can ^green;use to cook your food^white; with. Also, you can use ^orange;coal^white; to ^green;make more torches^white;.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "campfire", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [50, 50],
+  "followUp" : "cleftutorial6.gearup",
+  "canBeAbandoned" : false
+}

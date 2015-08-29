@@ -1,0 +1,12 @@
+{
+"name" : "Blocktableplus",
+"version" : "Beta v. Upbeat Giraffe",
+"path" : ".",
+"dependencies" : [],
+"metadata": 
+{
+   "author" : "shardshunt",
+   "description" : "A Table That lets you craft any block you found in your travels",
+   "support_url" : "http://community.playstarbound.com/index.php?threads/blocktable-plus.92601/"
+}
+}

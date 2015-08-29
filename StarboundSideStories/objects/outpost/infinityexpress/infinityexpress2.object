@@ -1,0 +1,54 @@
+{
+  "objectName" : "infinityexpress2",
+  "rarity" : "Common",
+  "description" : "An intergalactic convenience store. It seems an ideal place to stock up.",
+  "shortdescription" : "Infinity Express",
+  "race" : "generic",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/frogmerchant.config",
+    "filter" : [ "infinityexpress" ]
+  },
+  "printable" : false,
+  "lightColor" : [175, 175, 175],
+  // Masking Fullbright Transparency Values: 0% brightness on lights, 75% brightness on posters in window, 70% on window
+
+  "apexDescription" : "A store. I'll be sure to buy everything I need.",
+  "avianDescription" : "A handy store. Let's hope they sell what I want.",
+  "floranDescription" : "Floran get goods and ssservices in exchange for credits or ssstabbing.",
+  "glitchDescription" : "Statement. A merchant of some sort.",
+  "humanDescription" : "I hope they do Twinkies.",
+  "hylotlDescription" : "A store. I doubt it sells lily pads.",
+  "novakidDescription" : "Gonna buy me some guns, ammo, and maybe a sneaky bottle a' automato juice.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "infinityexpressleft.png:<color>", "fullbright" : true }, { "image" : "infinityexpressleftlit.png:<color>" } ],
+      "direction" : "left",
+      
+      "lightPosition" : [-2, 4],
+
+      "imagePosition" : [-88, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "infinityexpressright.png:<color>", "fullbright" : true }, { "image" : "infinityexpressrightlit.png:<color>" } ],
+      "direction" : "right",
+      
+      "lightPosition" : [1, 4],
+
+      "imagePosition" : [-88, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}

@@ -1,0 +1,16 @@
+  {
+  "id" : "floranadvisor4.gearup",
+  "prerequisites" : [ "floranadvisor3.gearup" ],
+  "title" : "^orange;Back and Forth",
+  "text" : "Doing tasks for chief makes Floran understand the need for fast transportation. Have a teleporter core? Floran can turn that into a teleporter.",
+  "completionText" : "Floran is excited for you to have a teleporter to put in our lovely village. Maybe use leftover materials from your house to make a teleporter room for village?",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "teleportercore", "count" : 1, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "woodenteleporter", 1 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

@@ -1,0 +1,13 @@
+  {
+  "id" : "castleservant1.gearup",
+  "title" : "^orange;Your New Castle",
+  "text" : "Exclamation: Thank god you came! I have been stuck with these aggressive Glitch for what seems like eternity. The current ruler is insane, and this castle desperately needs a new one.",
+  "completionText" : "Realization: You...you look like ruler material. How about you go through and take out the rest of these crazy inhabitants, and we start this castle over?",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

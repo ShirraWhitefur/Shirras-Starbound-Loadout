@@ -1,0 +1,18 @@
+[
+	{
+		"op": "add",
+		"path": "/items/felin",
+		"value": [
+			[
+				0, [
+					{
+						"head": [ "chefhead" ],
+						"chest": [ "chefchest" ],
+						"legs": [ "cheflegs" ],
+						"sheathedprimary": [ [ "generatedsword", 1, { "definition": "commondagger" } ] ]
+					}
+				]
+			]
+		]
+	}
+]

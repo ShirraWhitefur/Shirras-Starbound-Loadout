@@ -1,0 +1,28 @@
+[
+  // Restores Sci-Fi Dungeon
+  // { "op" : "add", "path" : "/planetTypes/jungle/layers/surface/dungeons/-", "value" : "scifidungeon" },
+  // { "op" : "add", "path" : "/planetTypes/alien/layers/surface/dungeons/-", "value" : "scifidungeon" },
+  // { "op" : "add", "path" : "/planetTypes/tundra/layers/surface/dungeons/-", "value" : "scifidungeon" },
+  // { "op" : "add", "path" : "/planetTypes/volcanic/layers/surface/dungeons/-", "value" : "scifidungeon" },
+  // { "op" : "add", "path" : "/planetTypes/scorched/layers/surface/dungeons/-", "value" : "scifidungeon" },
+  // ...and adds it to Moon planet
+  { "op" : "add", "path" : "/planetTypes/moon/layers/surface/dungeons", "value" : [ "outpostsurfaceencounter", "wreck", "scifidungeon" ] },
+  // ...and make sure the Moon planet actually spawns it!
+  { "op" : "add", "path" : "/planetTypes/moon/layers/surface/dungeonCountRange", "value" : [0, 3] },
+  // Surface dungeon count range patch
+  { "op" : "add", "path" : "/planetTypes/alien/layers/surface/dungeonCountRange", "value" : [0, 7] },
+  { "op" : "add", "path" : "/planetTypes/desert/layers/surface/dungeonCountRange", "value" : [0, 7] },
+  { "op" : "add", "path" : "/planetTypes/forest/layers/surface/dungeonCountRange", "value" : [0, 7] },
+  { "op" : "add", "path" : "/planetTypes/garden/layers/surface/dungeonCountRange", "value" : [0, 7] },
+  { "op" : "add", "path" : "/planetTypes/jungle/layers/surface/dungeonCountRange", "value" : [0, 7] },
+  { "op" : "add", "path" : "/planetTypes/savannah/layers/surface/dungeonCountRange", "value" : [0, 7] },
+  { "op" : "add", "path" : "/planetTypes/scorched/layers/surface/dungeonCountRange", "value" : [0, 7] },
+  { "op" : "add", "path" : "/planetTypes/snow/layers/surface/dungeonCountRange", "value" : [0, 7] },
+  { "op" : "add", "path" : "/planetTypes/tundra/layers/surface/dungeonCountRange", "value" : [0, 7] },
+  { "op" : "add", "path" : "/planetTypes/volcanic/layers/surface/dungeonCountRange", "value" : [0, 7] },
+  // Mwahaha~
+  { "op" : "replace", "path" : "/planetSizes/small/layerDefaults/dungeonCountRange", "value" : [0, 7] },
+  { "op" : "replace", "path" : "/planetSizes/medium/layerDefaults/dungeonCountRange", "value" : [0, 7] },
+  { "op" : "replace", "path" : "/planetSizes/large/layerDefaults/dungeonCountRange", "value" : [0, 7] },
+  { "op" : "replace", "path" : "/planetTypes/garden/layers/surface/dungeonCountRange", "value" : [0, 7] }
+]

@@ -1,0 +1,32 @@
+{
+  "objectName" : "glitcharmorstand",
+  "rarity" : "rare",
+  "category" : "decorative",
+  "price" : 250,
+  "description" : "An armor stand.",
+  "shortdescription" : "Glitch Armor Stand",
+  "race" : "glitch",
+ 
+
+  "apexDescription" : "An armor stand",
+  "avianDescription" : "An armor stand",
+  "floranDescription" : "An armor stand",
+  "glitchDescription" : "An armor stand",
+  "humanDescription" : "An armor stand",
+  "hylotlDescription" : "An armor stand",
+
+  "inventoryIcon" : "icons.png",
+  "orientations" : [
+    {
+      "dualImage" : "glitcharmorstand.png:<color>",
+	  
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

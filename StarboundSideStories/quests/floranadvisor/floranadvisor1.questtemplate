@@ -1,0 +1,13 @@
+  {
+  "id" : "floranadvisor1.gearup",
+  "title" : "^orange;Sssalutations",
+  "text" : "Floran welcome ssstranger to our village with open arms. You ssseem to have interest in our village? Maybe enough to help us prosper?",
+  "completionText" : "Floran very happy. Introductions first, thisss Floran is named Shanina Pinenut, and I am advisor to our village chief. Welcome!",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

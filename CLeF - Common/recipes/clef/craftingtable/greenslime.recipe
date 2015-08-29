@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "liquidslime", "count" : 2 }
+  ],
+  "output" : { "item" : "greenslime", "count" : 1 },
+  "groups" : [ "craftingtable", "all" ]
+}

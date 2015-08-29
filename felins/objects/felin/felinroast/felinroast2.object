@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinroast2",
+	"tags" : [ "felin", "felinvillage", "felinhunter", "evil" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 50,
+	"shortdescription" : "Roast Critter",
+	"description" : "A succulent piece of roast animal.",
+	"race" : "felin",
+	"apexDescription" : "Barbaric, but efficient.",
+	"avianDescription" : "Why would you put it on display like this?",
+	"floranDescription" : "Deliciousssss.",
+	"glitchDescription" : "Critical. Parts still seem to be raw.",
+	"humanDescription" : "You can smell the blood and spices from here.",
+	"hylotlDescription" : "Horrifying.",
+	"felinDescription" : "Makes your mouth water.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinroast2.png",
+			"imagePosition" : [-8, -24],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "top" ]
+		}
+	]
+}

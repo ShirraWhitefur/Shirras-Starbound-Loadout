@@ -1,0 +1,7 @@
+{
+	"input" : [
+	  { "item" : "copperbar", "count" : 10 }
+	],
+	"output" : { "item" : "copperarmorhead", "count" : 1 },
+	"groups" : [ "anvil", "armors", "all" ]
+}

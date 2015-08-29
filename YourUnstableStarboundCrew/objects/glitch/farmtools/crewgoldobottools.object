@@ -1,0 +1,32 @@
+{
+  "objectName" : "crewgoldobottools",
+  "tags" : ["crewgoldobot"],
+  "rarity" : "rare",
+  "description" : "A spade, a rake and a broom for all sorts of back-breaking farm work.",
+  "shortdescription" : "Ironslip's Tools",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 450,
+
+  "apexDescription" : "Tools for someone that lives by tending the land.",
+  "avianDescription" : "A rack of various different tools. The spade is the only one I recognise.",
+  "floranDescription" : "Toolss for controlling plantss.",
+  "glitchDescription" : "Educate. Many common Glitch live their lives as farmers. These are the tools of their trade.",
+  "humanDescription" : "Farming tools. Earth farming was largely automated.",
+  "hylotlDescription" : "The Hylotl don't have tools like these.",
+
+  "inventoryIcon" : "farmtoolsicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "farmtools.png:<color>",
+
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

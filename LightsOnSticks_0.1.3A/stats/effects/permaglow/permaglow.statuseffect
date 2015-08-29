@@ -1,0 +1,11 @@
+{
+  "name" : "permaglow",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "permaglow.lua"
+  ],
+
+  "animationConfig" : "permaglow.animation"
+}

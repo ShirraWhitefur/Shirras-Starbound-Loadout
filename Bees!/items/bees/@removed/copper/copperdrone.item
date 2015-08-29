@@ -1,0 +1,9 @@
+{
+  "itemName" : "copperdrone",
+  "rarity" : "Common",
+  "inventoryIcon" : "copperdrone.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "An copper bee drone.",
+  "shortdescription" : "Copper Drone",
+  "maxStack" : 1000
+}

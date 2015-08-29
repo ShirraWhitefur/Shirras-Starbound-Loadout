@@ -1,0 +1,26 @@
+{
+  "name": "creworehelper",
+  "priority": 10,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "crewore": 1
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": ["novakid"],
+      "type": "crewnovaore",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1200.0],
+    "pool": "crewminerGift"
+  }
+}

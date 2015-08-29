@@ -1,0 +1,9 @@
+{
+  "itemName" : "ancientprotectionTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/skins/heatprotection/overlay.png",
+  "description" : "Protects the wearer from all dangers of the universe.",
+  "shortdescription" : "Ancient Protection",
+
+  "techModule" : "ancientprotection"
+}

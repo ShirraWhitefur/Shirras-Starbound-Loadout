@@ -1,0 +1,14 @@
+{
+  "name" : "scraftyhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "scraftyhead.png"
+  },
+
+ "parameters" :
+  {
+  }
+}
+

@@ -1,0 +1,148 @@
+[
+	{
+		"op": "add",
+		"path": "/hail/felin",
+		"value": {
+			"default": [
+				"I'm watching you.",
+				"Don't make trouble and we won't trouble you.",
+				"Be nice to eachother.",
+				"Hi stranger~",
+				"Be nice and there will be no problem from us."
+			],
+			"floran": [
+				"Floran friend, hi.",
+				"No leafing around, friend.",
+				"Hello, friend.",
+				"Floran~"
+			],
+			"felin": [
+				"Hunter.",
+				"Remember our laws, Hunter.",
+				"Welcome, Hunter.",
+				"Play safe, friend.",
+				"I was a Hunter once, but my family is closer this way."
+			],
+			"avali": [
+				"Giant fluffy space raptor? Okay.",
+				"Be careful 'round here, Raptor.",
+				"...the second biggest...",
+				"Raptor."
+			],
+			"khajiit-sr": [
+				"No skooma allowed in the area, khajiit.",
+				"Khajiit.",
+				"Watching you, khajiit.",
+				"Hello, cat."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/swordwarning1/felin",
+		"value": {
+			"default": [
+				"Put that away before you take out an eye.",
+				"Sheathe it.",
+				"Put the weapon away and carry on."
+			],
+			"felin": [
+				"Sheathe it.",
+				"Put the weapon away and carry on.",
+				"We are not in the wild anymore.",
+				"Mind the claws, Hunter!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/gunwarning1/felin",
+		"value": {
+			"default": [
+				"Traveller, put your gun away.",
+				"It's all fun and games, traveller.",
+				"Holster the peashooter."
+			],
+			"felin": [
+				"Hunter, put your gun away.",
+				"It's all fun and games, Hunter.",
+				"Holster the peashooter."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/swordwarning2/felin",
+		"value": {
+			"default": [
+				"Second warning, pal - put the weapon down.",
+				"I said sheathe it!",
+				"Don't test me, friend."
+			],
+			"felin": [
+				"Second warning, Hunter - put the weapon down.",
+				"I said sheathe it!",
+				"Don't test me, Hunter.",
+				"Hunter, you are in a town now..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/gunwarning2/felin",
+		"value": {
+			"default": [
+				"Drop. The. Gun.",
+				"No more games. Put the gun away.",
+				"Holster it!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/swordwarning3/felin",
+		"value": {
+			"default": [
+				"You are sorely tempting me, friend.",
+				"Your weapon. Put it the f°ck away.",
+				"Final warning - drop the weapon."
+			],
+			"felin": [
+				"You are sorely tempting me, Hunter.",
+				"Your weapon, Hunter. Put it away. Now.",
+				"Final warning - drop the weapon."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/gunwarning3/felin",
+		"value": {
+			"default": [
+				"If you don't holster your gun, I'll have to get rough.",
+				"I'm coming for you if you don't comply!",
+				"Don't make me come and take the gun and your LIFE!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/weaponSheathed/felin",
+		"value": {
+			"default": [
+				"Thank you. Carry on now."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/comeBack/felin",
+		"value": {
+			"default": [
+				"Hey!",
+				"Get over here!",
+				"Now you f°cked up!"
+			]
+		}
+	}
+]

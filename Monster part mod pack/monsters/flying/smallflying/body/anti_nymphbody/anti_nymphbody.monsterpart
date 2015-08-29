@@ -1,0 +1,9 @@
+{
+  "name" : "anti_nymphbody",
+  "category" : "smallflying",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "anti_nymphbody.png"
+  }
+}

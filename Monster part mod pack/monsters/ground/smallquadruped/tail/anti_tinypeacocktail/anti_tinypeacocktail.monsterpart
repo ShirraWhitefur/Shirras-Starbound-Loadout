@@ -1,0 +1,9 @@
+{
+  "name" : "anti_tinypeacocktail",
+  "category" : "smallquadruped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "anti_tinypeacocktail.png"
+  }
+}

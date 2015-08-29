@@ -1,0 +1,13 @@
+{
+  "name" : "anti_dreadhead",
+  "category" : "smallbiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_dreadhead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}

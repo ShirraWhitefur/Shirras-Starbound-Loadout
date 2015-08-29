@@ -1,0 +1,307 @@
+{
+  "name" : "scorchedms",
+  "friendlyName" : "Scorched",
+  
+  "airless" : true,
+  "breathable" : false,
+
+  "statusEffects" : [ "biomeheat" ],
+
+  "spawnProfiles" : [
+    {
+      "groups" : [ "hardsurface1" ],
+      "extraSpawns" : [ "shadowmoth", "cinderfly" ],
+      "monsterParameters" : {
+        "colors" : "scorched"
+      }
+    },
+    {
+      "groups" : [ "hardsurface2" ],
+      "extraSpawns" : [ "shadowmoth", "ashsprite" ],
+      "monsterParameters" : {
+        "colors" : "scorched"
+      }
+    }
+  ],
+
+  "hueShiftOptions" : [-30, -15, 0, 15],
+
+  "weather" : [
+    [0, [
+      "/weather.config:scorchedNew",
+      "/weather.config:scorchedNewMeteor",
+	  "/weather.config:scorchedWindy",
+	  "/weather.config:scorchedGlowingRain"
+    ]]
+  ],
+
+  "skyOptions" : [
+    {
+      // dark peachy massacre
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [200, 24, 0], [252, 30, 0] ],
+      "dayColors" : [ [200, 52, 7], [255, 83, 52] ],
+      "eveningColors" : [ [200, 21, 0], [254, 65, 29] ],
+      "nightColors" : [ [40, 17, 17, 60], [40, 17, 17, 160] ],
+
+      "morningLightColor" : [100, 77, 0],
+      "dayLightColor" : [100, 38, 0],
+      "eveningLightColor" : [100, 0, 0],
+      "nightLightColor" : [40, 17, 17]
+    }
+  ],
+
+  "mainBlock" : "drysand",
+  "subBlocks" : [ "drydirt", "direstone", "rock15" ],
+  "ores" : "msSolarium",
+
+  "parallax" : "/parallax/surface/scorched.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/arid_day.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/arid_night.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/planetarium.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vastimmortalsuns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/M54.ogg", "/music/on-the-beach-at-night.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+    }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "bone", "aridgrass" ],
+    "grassModDensity" : 0.9,
+
+    "items" : [
+	  {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDist",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "terrainfeatures" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibossoverground",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "minibossoverground" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "aridplatforming" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:randomEncounter",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "randomencounter", "avianencounter", "glitchencounter" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistRare",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "rocktunnel", "rockclimb", "blank" ]
+      },
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpySmall",
+
+        "type" : "grass",
+        "grasses" : [ "shrooms", "testflower7", "testflower8" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "desertrocks",
+            "baseHueShiftMax" : 30,
+            "modHueShiftMax" : 30
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpyLarge",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "testbush2",
+            "baseHueShiftMax" : 40,
+            "modHueShiftMax" : 180
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpyLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "old", "barren", "skeletal", "stripey" ],
+        "treeFoliageList" : [ "piney", "autumny", "aridblank", "weirdly", "patchy", "willowy" ]
+      },
+	  
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildwartweedseed" ] ],
+            "parameters" : {
+              "startingStage" : 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpySmall",
+
+        "type" : "grass",
+        "grasses" : [ "testflower7", "testflower8" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 10,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "aridplatforming" ]
+      }
+    ]
+  }
+}

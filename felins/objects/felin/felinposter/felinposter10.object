@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinposter10",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 50,
+	"shortdescription" : "Felin Hero Poster",
+	"description" : "A nice pinup poster of a felin hero",
+	"race" : "felin",
+	"apexDescription" : "Not sure who this is, but I like her style.",
+	"avianDescription" : "I really like her... haircut?",
+	"floranDescription" : "Black cat.",
+	"glitchDescription" : "Jocular. You could only see this felin's eyes in the dark.",
+	"humanDescription" : "Oh, hey. She's topless.",
+	"hylotlDescription" : "Why do felin heroes wear so little clothes?",
+	"felinDescription" : "One of the less renowned, recent heroes.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinposter16.png:2",
+			"imagePosition" : [-8, -12],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

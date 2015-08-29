@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 3 },
+    { "item" : "circuitboard", "count" : 1 },
+    { "item" : "gravitonmagnifier", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "tier5_small_gravitonprojectorpad",
+    "count" : 1
+  },
+  "groups" : [ "gravitoncraftingtable", "wire", "size s", "aegisalt",  "objects", "all" ]
+}

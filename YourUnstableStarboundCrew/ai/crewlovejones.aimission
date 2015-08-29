@@ -1,0 +1,85 @@
+{
+  "missionName" : "crewlovejones",
+  "icon" : "crewlovejones.png",
+  "missionWorld" : "crewlovejones",
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "The Forest Gully",
+      "repeatButtonText" : "Repeat The Forest Gully",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The distress signal appears to come from a large gully on a forest planet. I'm also detecting a broken human ship some what close by.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "The Forest Gully",
+      "repeatButtonText" : "Repeat The Forest Gully",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The distress signal appears to come from a large gully on a forest planet. I'm also detecting a broken human ship some what close by.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "The Forest Gully",
+      "repeatButtonText" : "Repeat The Forest Gully",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The distress signal appears to come from a large gully on a forest planet. I'm also detecting a broken human ship some what close by.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "The Forest Gully",
+      "repeatButtonText" : "Repeat The Forest Gully",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The distress signal appears to come from a large gully on a forest planet. I'm also detecting a broken human ship some what close by.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "The Forest Gully",
+      "repeatButtonText" : "Repeat The Forest Gully",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The distress signal appears to come from a large gully on a forest planet. I'm also detecting a broken human ship some what close by.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "The Forest Gully",
+      "repeatButtonText" : "Repeat The Forest Gully",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The distress signal appears to come from a large gully on a forest planet. I'm also detecting a broken human ship some what close by.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "The Forest Gully",
+      "repeatButtonText" : "Repeat The Forest Gully",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The distress signal appears to come from a large gully on a forest planet. I'm also detecting a broken human ship some what close by.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

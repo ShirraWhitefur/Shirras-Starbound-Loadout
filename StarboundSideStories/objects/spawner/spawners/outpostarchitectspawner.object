@@ -1,0 +1,55 @@
+{
+  "objectName" : "outpostarchitectspawner",
+  "rarity" : "rare",
+  "description" : "Spawn your very own outpost architect!",
+  "shortdescription" : "Outpost Architect",
+  "race" : "hylotl",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 300,
+
+  "apexDescription" : "Spawning Hylotls. Uh... maybe later.",
+  "avianDescription" : "I'll have to take care not to use this too often.",
+  "floranDescription" : "Floran sssummon fishman right into sssword!",
+  "glitchDescription" : "Insincere. A Hylotl gathering would be just wonderful.",
+  "humanDescription" : "Well, I guess one Hylotl wouldn't hurt...",
+  "hylotlDescription" : "What joy! I can finally surround myself with culture again.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_floran.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/floran.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_floran.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "floran" ],
+    "npcTypeOptions" : [ "outpostarchitect" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

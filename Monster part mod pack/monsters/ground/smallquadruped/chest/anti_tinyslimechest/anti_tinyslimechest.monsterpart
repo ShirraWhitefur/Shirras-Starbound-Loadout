@@ -1,0 +1,9 @@
+{
+  "name" : "anti_tinyslimechest",
+  "category" : "smallquadruped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "anti_tinyslimechest.png"
+  }
+}

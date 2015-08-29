@@ -1,0 +1,9 @@
+{
+  "name" : "chronotriggerhead6",
+  "category" : "smallflying",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "chronotriggerhead6.png"
+  }
+}

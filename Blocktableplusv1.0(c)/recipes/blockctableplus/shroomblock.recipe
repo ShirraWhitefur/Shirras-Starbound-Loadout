@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "shroom", "count" : 3 },
+	{ "item" : "darwoodmaterial", "count" : 10 }
+  ],
+  "output" : { "item" : "shroomblock", "count" : 10 },
+  "groups" : [ "blocktableplus", "materials", "all", "wall" ]
+}

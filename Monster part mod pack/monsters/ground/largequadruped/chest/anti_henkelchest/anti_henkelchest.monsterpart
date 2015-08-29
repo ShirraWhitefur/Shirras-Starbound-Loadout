@@ -1,0 +1,9 @@
+{
+  "name" : "anti_henkelchest",
+  "category" : "largequadruped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "anti_henkelchest.png"
+  }
+}

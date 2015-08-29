@@ -1,0 +1,13 @@
+{
+  "name" : "freak_wisesnakehead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "freak_wisesnakehead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}

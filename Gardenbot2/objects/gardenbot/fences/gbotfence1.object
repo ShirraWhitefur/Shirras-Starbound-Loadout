@@ -1,0 +1,48 @@
+{
+  "objectName" : "gbotfence1",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "gardenfence",
+  "price" : 50,
+
+  "description" : "A small light emitter used to mark gardens.",
+  "shortdescription" : "Garden Marker",
+  "race" : "generic",
+
+  "apexDescription" : "A small light emitter used to mark gardens.",
+  "avianDescription" : "A small light emitter used to mark gardens.",
+  "floranDescription" : "A small light emitter used to mark gardens.",
+  "glitchDescription" : "A small light emitter used to mark gardens.",
+  "humanDescription" : "A small light emitter used to mark gardens.",
+  "hylotlDescription" : "A small light emitter used to mark gardens.",
+
+  "lightColor" : [0, 50, 90],
+
+  "inventoryIcon" : "gbotfence1icon.png",
+  "orientations" : [
+    {
+      "image" : "gbotfence1.png:<color>.down.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    },
+    {
+      "image" : "gbotfence1.png:<color>.up.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "gbotfence1.png:<color>.float.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ]
+    }
+  ]
+}

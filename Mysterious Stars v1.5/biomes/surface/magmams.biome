@@ -1,0 +1,361 @@
+{
+  "name" : "magmams",
+  "friendlyName" : "Magma",
+  
+  "airless" : true,
+  "breathable" : false,
+
+  "statusEffects" : [ "biomeheat" ],
+
+  "spawnProfiles" : [
+    {
+      "groups" : [ "oceansurface1" ],
+      "extraSpawns" : [ "flameroach", "lavahopper" ],
+      "monsterParameters" : {
+        "colors" : "magma",
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "fireImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "groups" : [ "oceansurface2" ],
+      "extraSpawns" : [ "flameroach", "fireygiant" ],
+      "monsterParameters" : {
+        "colors" : "magma",
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "fireImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
+    }
+  ],
+
+  "hueShiftOptions" : [-18, 0, 15],
+
+  "weather" : [
+    [0, [
+      "/weather.config:magmaNew",
+      "/weather.config:magmaNewMeteor",
+	  "/weather.config:magmaEmber",
+	  "/weather.config:magmaAsh",
+	  "/weather.config:magmaGlowingRain"
+    ]]
+  ],
+
+  "skyOptions" : [
+    {
+      // light reddish
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [255, 224, 129], [252, 230, 164] ],
+      "dayColors" : [ [255, 152, 107], [255, 183, 152] ],
+      "eveningColors" : [ [254, 121, 69], [254, 165, 129] ],
+      "nightColors" : [ [70, 20, 0, 60], [70, 20, 0, 160] ],
+
+      "morningLightColor" : [202, 177, 100],
+      "dayLightColor" : [202, 138, 100],
+      "eveningLightColor" : [202, 100, 100],
+      "nightLightColor" : [70, 20, 0]
+    },
+    {
+      // pinkish all around
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [255, 167, 152], [255, 163, 208] ],
+      "dayColors" : [ [228, 152, 169], [243, 205, 193] ],
+      "eveningColors" : [ [221, 186, 235], [247, 73, 121] ],
+      "nightColors" : [ [70, 20, 0, 60], [70, 20, 0, 160] ],
+
+      "morningLightColor" : [195, 156, 149],
+      "dayLightColor" : [197, 184, 182],
+      "eveningLightColor" : [197, 98, 126],
+      "nightLightColor" : [70, 20, 0]
+    },
+    {
+      // dark peachy massacre
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [200, 24, 0], [252, 30, 0] ],
+      "dayColors" : [ [200, 52, 7], [255, 83, 52] ],
+      "eveningColors" : [ [200, 21, 0], [254, 65, 29] ],
+      "nightColors" : [ [70, 20, 0, 60], [70, 20, 0, 160] ],
+
+      "morningLightColor" : [100, 77, 0],
+      "dayLightColor" : [100, 38, 0],
+      "eveningLightColor" : [100, 0, 0],
+      "nightLightColor" : [70, 20, 0]
+    },
+    {
+      // pretty in pink
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [230, 129, 204], [230, 164, 210] ],
+      "dayColors" : [ [230, 107, 132], [230, 152, 163] ],
+      "eveningColors" : [ [230, 69, 101], [230, 129, 145] ],
+      "nightColors" : [ [70, 20, 0, 60], [70, 20, 0, 160] ],
+
+      "morningLightColor" : [240, 100, 202],
+      "dayLightColor" : [240, 100, 202],
+      "eveningLightColor" : [240, 100, 202],
+      "nightLightColor" : [70, 20, 0]
+    }
+  ],
+
+  "mainBlock" : "obsidian",
+  "subBlocks" : [ "ash", "rock14" ],
+  "ores" : "msSolarium",
+
+  "parallax" : "/parallax/surface/magma.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/magma_day.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/magma_night.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/planetarium.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vastimmortalsuns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/M54.ogg", "/music/on-the-beach-at-night.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+    }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "ash" ],
+    "grassModDensity" : 0.9,
+
+    "items" : [
+	  {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDist",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:randomEncounter",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "randomencounter", "avianencounter", "glitchencounter" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibossoverground",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "minibossoverground" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "aridplatforming" ]
+      },
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpySmall",
+
+        "type" : "grass",
+        "grasses" : [ "magmaflower", "magmaflower2", "magmaflower3", "magmaflower4", "testflower8", "magmaflower5" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "lavabowl",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "moltenrock",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpyLarge",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "testbush2",
+            "baseHueShiftMax" : 40,
+            "modHueShiftMax" : 180
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpyLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "grumpy", "ashy", "coal", "crispy", "lava", "magma" ],
+        "treeFoliageList" : [ "grey", "red", "fluff" ]
+      },
+	  
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSurfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildchiliseed" ] ],
+            "parameters" : {
+              "startingStage" : 3
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "ash" ],
+    "grassModDensity" : 0.6,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpySmall",
+
+        "type" : "grass",
+        "grasses" : [ "magmaflower", "magmaflower2", "magmaflower3", "magmaflower4", "testflower8", "magmaflower5" ]
+      }
+    ]
+  }
+}

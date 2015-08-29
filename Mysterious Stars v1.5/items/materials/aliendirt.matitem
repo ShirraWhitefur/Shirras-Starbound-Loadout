@@ -1,0 +1,12 @@
+{
+  "itemName" : "aliendirt",
+  "rarity" : "Common",
+  "inventoryIcon" : "aliendirt.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Some rather bizarre dirt.",
+  "shortdescription" : "Alien Dirt",
+  "glitchdescription" : "Awestruck. I never thought I would live to see such colourful dirt.",
+  "florandescription" : "Floran find colourful dirt funny.",
+
+  "materialId" : 1285
+}

@@ -1,0 +1,53 @@
+{
+	"objectName" : "felincomputer",
+	"tags" : [ "felin", "electronic", "wired" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 50,
+	"description" : "This computer is busy doing nothing at all.",
+	"shortdescription" : "Idling Computer",
+	"race" : "felin",
+	"apexDescription" : "This is clearly an apex computer. A few years old, perhaps.",
+	"avianDescription" : "This computer screen has so many colours.",
+	"floranDescription" : "Floran sssteal technology to sssurvive.",
+	"glitchDescription" : "Seduction. What a beautiful machine.",
+	"humanDescription" : "This looks a lot like the kind of computing power humanity used to possess.",
+	"hylotlDescription" : "A basic computer.",
+	"felinDescription" : "If only I had something to do with this...",
+	"inventoryIcon" : "felincomputer.png:icon",
+	"lightColor" : [61, 88, 102],
+	"lightPosition" : [0, 0],
+	"orientations" : [
+		{
+			"imageLayers" : [ { "image" : "felincomputer.png:default.<frame>", "fullbright" : true }, { "image" : "felincomputer.png:lit" } ],
+			"flipImages" : true,
+			"direction" : "left",
+			"imagePosition" : [-8, 0],
+			"frames" : 9,
+			"animationCycle" : 2.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		},
+		{
+			"imageLayers" : [ { "image" : "felincomputer.png:default.<frame>", "fullbright" : true }, { "image" : "felincomputer.png:lit" } ],
+			"direction" : "right",
+			"imagePosition" : [-8, 0],
+			"frames" : 9,
+			"animationCycle" : 2.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"scripts" : [ "/objects/felin/felincomputer/felincomputer.lua" ],
+	"scriptDelta" : 5,
+	"animation" : "/objects/felin/felincomputer/felincomputer.animation",
+	"animationCustom" : {
+		"sounds" : {
+			"on" : [ "/sfx/objects/screen2.wav" ],
+			"off" : [ "/sfx/objects/console_generic_switchoff.wav" ]
+		}
+	},
+	"animationParts" : { "switch" : "felincomputer.png" },
+	"animationPosition" : [-8, 0],
+	"outboundNodes" : [ [0, 0] ]
+}

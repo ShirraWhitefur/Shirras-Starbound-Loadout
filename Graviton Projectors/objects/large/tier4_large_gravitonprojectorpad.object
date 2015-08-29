@@ -1,0 +1,60 @@
+{
+  "objectName" : "tier4_large_gravitonprojectorpad",
+  "printable" : false,
+  "rarity" : "common",
+  "category" : "wire",
+  "price" : 3250,
+  "description" : "An large durasteel-encased pad that can project and manipulate a graviton field above it.",
+  "shortdescription" : "Gravpad Model LD2",
+  "race" : "generic",
+
+  "apexDescription" : "An large durasteel-encased pad that projects a graviton field.",
+  "avianDescription" : "An large durasteel-encased pad that projects a graviton field.",
+  "floranDescription" : "Thingsss go up! Thingsss go down!",
+  "glitchDescription" : "Analysis. An large graviton field projection durasteel-encased pad.",
+  "humanDescription" : "An large durasteel-encased pad that projects a graviton field.",
+  "hylotlDescription" : "An large durasteel-encased pad that projects a graviton field.",
+    
+  "inventoryIcon" : "/objects/icons/tier4_gravitonprojectorpadicon.png",
+  
+  "orientations" : [
+    {
+      "image" : "/animations/gravitondevices/tier4/tier4_large_gravitonprojectorpad.png:default.off",
+      "imagePosition" : [0, 0],
+      "animationParts" : {
+        "projector" : "/animations/gravitondevices/tier4/tier4_large_gravitonprojectorpad.png",
+        "projectorlit" : "/animations/gravitondevices/tier4/tier4_large_gravitonprojectorpadlit.png"
+      },
+      "animationPosition" : [0, 0],
+      "spaceScan" : 0.5,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ],
+
+  "animation" : "/animations/gravitondevices/tier4/tier4_gravitondevice.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/gravitonpulse_on.wav" ],
+      "off" : [ "/sfx/objects/gravitonpulse_off.wav" ]
+    }
+  },
+  "animationParts" : {
+    "projector" : "/animations/gravitondevices/tier4/tier4_large_gravitonprojectorpad.png",
+    "projectorlit" : "/animations/gravitondevices/tier4/tier4_large_gravitonprojectorpadlit.png"
+  },
+  "animationPosition" : [0, 0],
+  
+  "inboundNodes" : [ [ 1, 0 ] ],
+  "outboundNodes" : [ [ 7, 0 ] ],
+
+  "scripts" : [ "/scripts/gravitonprojectorpad.lua" ],
+  "scriptDelta" : 1,
+  
+  "padcentrepoint" : 4.5,
+  "ringcentrepoint" : 3.5,
+  "fieldsize" : 2.25,
+  "forcestrength" : 2.1,
+  "devicesize" : "large",
+  "devicetier" : "tier4"
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "copperbee",
+  "category" : "copperbee",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "copperbee.png"
+  }
+}

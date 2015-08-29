@@ -1,0 +1,39 @@
+{
+	"objectName" : "felinshiplocker",
+	"tags" : [ "felin", "storage" ],
+	"rarity" : "common",
+	"objectType" : "container",
+	"tooltipKind" : "container",
+	"category" : "storage",
+	"printable" : false,
+	"description" : "Store some stuff, why don't you?",
+	"shortdescription" : "Shiplocker",
+	"race" : "apex",
+	"lightColor" : [61, 88, 102],
+	"lightPosition" : [0, 0],
+	"apexDescription" : "The ship's storage system.",
+	"avianDescription" : "A device that holds many items. It appears to function differently from our own.",
+	"floranDescription" : "Sssstorage.",
+	"glitchDescription" : "Stating the obvious. A felin storage system of apex origin.",
+	"humanDescription" : "A storage device, seems to function a lot like my own.",
+	"hylotlDescription" : "An elegant storage solution.",
+	"felinDescription": "Your run-of-the-mill storage locker.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"imageLayers" : [ { "image" : "felinshiplocker.png:default.<frame>", "fullbright" : true }, { "image" : "felinshiplocker.png:lit.<frame>" } ],
+			"imagePosition" : [-16, -8],
+			"frames" : 8,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	],
+
+	"openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+	"closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+	"slotCount" : 64,
+	"uiConfig" : "/interface/chests/chest%slots%.config",
+	"frameCooldown" : 11,
+	"autoCloseCooldown" : 3600
+}

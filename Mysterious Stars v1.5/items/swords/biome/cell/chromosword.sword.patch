@@ -1,0 +1,12 @@
+[
+  { 
+  "op" : "replace", 
+  "path" : "/level", 
+  "value" : 4
+  },
+  { 
+  "op" : "replace", 
+  "path" : "/primaryStances/projectile/power", 
+  "value" : 7.15
+  }
+]

@@ -1,0 +1,15 @@
+  {
+  "id" : "molemerchant2.gearup",
+  "title" : "^orange;The Other Mining Mole",
+  "text" : "Howdy explorer! I'm Moley Moley, the mining mole, here to help!",
+  "completionText" : "I've got some upgraded drills I can sell you to help you adventure around down here.",
+  "completionConditions" : [
+	
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [  [ "upgradedcopperdrill-recipe", 1 ], [ "upgradedsilverdrill-recipe", 1 ], [ "upgradedgolddrill-recipe", 1 ], [ "upgradedplatinumdrill-recipe", 1 ], [ "upgradeddiamonddrill-recipe", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

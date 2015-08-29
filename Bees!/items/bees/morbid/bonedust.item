@@ -1,0 +1,10 @@
+{
+  "itemName" : "bees_bonedust",
+  "rarity" : "Common",
+  "inventoryIcon" : "bonedust.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A pile of ground bone. Used at the metalworking station to make cement.",
+  "handPosition" : [0.0, 0],
+  "learnBlueprintsOnPickup" : [ "bees_cementingcompound" ],
+  "shortdescription" : "Bone Dust"
+}

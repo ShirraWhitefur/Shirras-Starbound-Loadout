@@ -1,0 +1,37 @@
+[
+  { 
+  "op" : "add", 
+  "path" : "/skeyejelly",
+  "value" : 
+  [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "endomorphicjelly"}
+      ],
+      "poolRounds" : [
+        [0.60, 1],
+        [0.40, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+  },
+  { 
+  "op" : "add", 
+  "path" : "/tentaclecometspore",
+  "value" : 
+  [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "item" : "rawtentacle"},
+		{"weight" : 0.5, "item" : "rawfleshlump"}
+      ],
+      "poolRounds" : [
+        [0.60, 1],
+        [0.40, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+  }
+]

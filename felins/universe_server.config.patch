@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/felin",
+		"value" : [
+			"/ships/felin/felint0.structure",
+			"/ships/felin/felint1.structure",
+			"/ships/felin/felint2.structure",
+			"/ships/felin/felint3.structure",
+			"/ships/felin/felint4.structure",
+			"/ships/felin/felint5.structure",
+			"/ships/felin/felint6.structure",
+			"/ships/felin/felint7.structure",
+			"/ships/felin/felint8.structure"
+		]
+	}
+]

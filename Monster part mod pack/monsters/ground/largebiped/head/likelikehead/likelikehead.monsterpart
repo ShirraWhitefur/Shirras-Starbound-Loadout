@@ -1,0 +1,14 @@
+{
+  "name" : "likelikehead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "likelikehead.png"
+  },
+
+"parameters" :
+  {
+  }
+}
+

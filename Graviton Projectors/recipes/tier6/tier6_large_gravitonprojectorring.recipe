@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "feroziumcompound", "count" : 5 },
+    { "item" : "circuitboard", "count" : 1 },
+    { "item" : "gravitonmagnifier", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "tier6_large_gravitonprojectorring",
+    "count" : 1
+  },
+  "groups" : [ "gravitoncraftingtable", "wire", "size l", "ferozium",  "objects", "all" ]
+}

@@ -1,0 +1,134 @@
+{
+  "lovejonesGift" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "pool" : "crewvaluable"},
+        {"weight" : 0.4, "pool" : "crewvaluableore"}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "genekongGift" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.8, "pool" : "crewtechpool"},
+        {"weight" : 0.2, "pool" : "crewvaluable"}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "thorngrazerGift" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.3, "pool" : "thrownWeapon"},
+        {"weight" : 0.3, "pool" : "healingItem"},
+        {"weight" : 0.2, "pool" : "stim"},
+        {"weight" : 0.2, "pool" : "crewvaluable"}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "spongewaltzerGift" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.4, "pool" : "crewbiomemats"},
+        {"weight" : 0.2, "pool" : "crewcolonydeedpool"},
+        {"weight" : 0.3, "pool" : "crewbiomerecipes"},
+        {"weight" : 0.1, "pool" : "crewvaluable"}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "goldobotGift" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "seed"},
+        {"weight" : 0.4, "pool" : "food"},
+        {"weight" : 0.3, "pool" : "diggingTool"},
+        {"weight" : 0.2, "pool" : "crewvaluable"}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "divewingsGift" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.8, "pool" : "crewlore"},
+        {"weight" : 0.1, "pool" : "costume"},
+        {"weight" : 0.1, "pool" : "crewvaluable"}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "crewminerGift" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "pool" : "ore"}
+      ],
+      "poolRounds" : [
+        [2, 4]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+
+  "crewweaponGift" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "pool" : "goodWeapon"}
+      ],
+      "poolRounds" : [
+        [1, 2]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+
+  "crewhealingGift" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "pool" : "healingItem"}
+      ],
+      "poolRounds" : [
+        [1, 3]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+
+  "crewadventurerGift" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "pool" : "basicTreasure"}
+      ],
+      "poolRounds" : [
+        [1, 4]
+      ],
+      "allowDuplication" : true
+    }]
+  ]
+}

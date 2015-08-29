@@ -1,0 +1,29 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesText/felin",
+		"value" : {
+			"buttonText" : "Upgrade M. M. - Size",
+			"selectSpeech" : [
+				{
+					"animation" : "talk",
+					"text" : "^white;With ^orange;3 manipulator modules^white;, I can upgrade your matter manipulator to ^green;increase its mining area^white;.",
+					"speedModifier" : 1.0
+				}
+			],
+			"successSpeech" : [
+				{
+					"animation" : "unique",
+					"text" : "^white;Your matter manipulator has been upgraded to ^green;increase its mining area^white;.",
+					"speedModifier" : 1.0
+				}
+			],
+			"failSpeech" : [
+				{
+					"animation" : "refuse",
+					"text" : "^white;Insufficient resources. I'll need ^orange;3 manipulator modules^white; to complete this upgrade.",
+					"speedModifier" : 1.0
+				}
+			]
+		}
+	}
+]

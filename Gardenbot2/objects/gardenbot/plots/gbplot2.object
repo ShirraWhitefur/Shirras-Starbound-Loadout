@@ -1,0 +1,36 @@
+{
+  "objectName" : "gardenbotplot2",
+  "rarity" : "Common",
+  "price" : 1,
+  "description" : "gardenbotplot",
+  "shortdescription" : "gardenbotplot",
+  "race" : "generic",
+
+  "apexDescription" : "gardenbotplot",
+  "avianDescription" : "gardenbotplot",
+  "floranDescription" : "gardenbotplot",
+  "glitchDescription" : "gardenbotplot",
+  "humanDescription" : "gardenbotplot",
+  "hylotlDescription" : "gardenbotplot",
+  
+  "x-hidden" : true,
+
+  "scripts" : [ 
+    "/objects/gardenbot/plots/gbplot.lua"
+  ],
+  "scriptDelta" : 5,
+  
+  "inventoryIcon" : "ploticon.png",
+  "orientations" : [
+    {
+      "image" : "gbplot2.png:default.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "alienmeat", "count" : 1 },
+	{ "item" : "dirtmaterial", "count" : 3 }
+	
+  ],
+  "output" : { "item" : "fleshblock", "count" : 4 },
+  "groups" : [ "blocktableplus", "materials", "all", "ground", "other" ]
+}

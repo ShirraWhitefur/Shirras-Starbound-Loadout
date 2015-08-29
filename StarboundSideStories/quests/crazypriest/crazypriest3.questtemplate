@@ -1,0 +1,16 @@
+  {
+  "id" : "crazypriest3.gearup",
+  "prerequisites" : [ "crazypriest2.gearup" ],
+  "title" : "^orange;Pools for Kluex",
+  "text" : "Little Wing brought up a good point to me, we need this place to be a little flashier! Bring me 500 units of water so we can create a pool to reflect Kluex's glory.",
+  "completionText" : "As much as Little Beak wishes to help you build the pool, he's too busy learning about some of Kluex's great deeds. Here's some bricks, and use that water to make a glorious entrance pool.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "liquidwater", "count" : 500, "consume" : false }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [  [ "fadedblocks", 900 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

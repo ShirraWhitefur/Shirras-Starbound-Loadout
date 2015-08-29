@@ -1,0 +1,38 @@
+{
+  "objectName" : "tenantminingchest",
+  "tags" : ["minertenant"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 450,
+  "description" : "Perfect for storing tools and equipment in!",
+  "shortdescription" : "Mining Chest",
+  "race" : "generic",
+
+  "apexDescription" : "A chest! Let's look inside.",
+  "avianDescription" : "Often these chests stored valuables. I'm excited!",
+  "floranDescription" : "Chessst! Floran musst sssearch!",
+  "glitchDescription" : "Anticipation. What could be inside?",
+  "humanDescription" : "A chest! Let's open it up.",
+  "hylotlDescription" : "This chest has an industrial look about it.",
+
+  "inventoryIcon" : "miningchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "miningchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/miningchest_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/miningchest_close.wav" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 32,
+  "autoCloseCooldown" : 3600
+}

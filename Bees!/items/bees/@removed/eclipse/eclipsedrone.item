@@ -1,0 +1,9 @@
+{
+  "itemName" : "eclipsedrone",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "eclipsedrone.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A bee with a strange attraction to dark objects.",
+  "shortdescription" : "Eclipse Drone",
+  "maxStack" : 1000
+}

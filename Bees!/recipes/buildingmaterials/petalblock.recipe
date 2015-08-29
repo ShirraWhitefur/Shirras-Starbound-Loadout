@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 8 },    { "item" : "petalred", "count" : 10 },    { "item" : "fullwood1", "count" : 2 },  { "item" : "bees_cementingcompound", "count" : 1 }
+  ],
+  "output" : { "item" : "petalblock", "count" : 10 },
+  "groups" : [ "mod", "beestation", "blocks", "all" ]
+}

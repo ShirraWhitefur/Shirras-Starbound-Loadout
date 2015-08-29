@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/items/felin",
+		"value": [
+			[
+				0, [
+					{
+						"chest": [ "scientistchest" ],
+						"legs": [ "scientistlegs" ],
+						"sheathedprimary": [ [ "generatedgun", 1, { "definition": "commonplasmapistol" } ] ]
+					}
+				]
+			]
+		]
+	}
+]

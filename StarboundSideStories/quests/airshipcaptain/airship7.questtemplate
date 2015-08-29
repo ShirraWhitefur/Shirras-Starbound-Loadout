@@ -1,0 +1,17 @@
+  {
+  "id" : "airship7.gearup",
+  "prerequisites" : [ "airship6.gearup" ],
+  "title" : "^orange;Thirsty Crew",
+  "text" : "One thing the crew would really appreciate is a place to go grab a drink. I'd be quite pleased if you could build a tavern of such down there, and while you're at it, we should get some drinking supplies. How about you bring me 300 unites of water and five wheat seeds?",
+  "completionText" : "Good show, junior crew member. Or rather, normal crew member, since you've done so much so far. I'll be taking the water to give to a drink specialist on the crew, but could you do me a favor and go plant those wheat seeds down by the tavern?",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "wheatseed", "count" : 5, "consume" : false },
+	{ "type" : "gather", "item" : "liquidwater", "count" : 300, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "pirateback", 1 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

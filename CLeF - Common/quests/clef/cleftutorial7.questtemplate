@@ -1,0 +1,12 @@
+{
+  "id" : "cleftutorial7.gearup",
+  "title" : "^yellow;CLeF Tutorial #7: Ore Smelting",
+  "text" : "Obviously, crafting decent armours and weapons with unrefined ore is a total waste of time, so the next step is to make a ^orange;Stone Furnace^white;, where you'll be able to ^green;smelt ore into bars^white;. It also works as a ^yellow;light source^white;.",
+  "completionText" : "Good. Note you can also use ^orange;Stone Furnace^white; to smelt ^orange;Glass Blocks^white; out of ^yellow;Sand^white;, as well as turn ^orange;Wood^white; into ^orange;Coal^white;. Some metals and minerals, such as ^orange;diamonds^white; and ^green;emeralds^white;, cannot be refined in Stone Furnace and require more advanced ^orange;Alloy Furnace^white;.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "stonefurnace", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [70, 70],
+  "followUp" : "cleftutorial8.gearup",
+  "canBeAbandoned" : false
+}

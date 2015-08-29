@@ -1,0 +1,9 @@
+{
+  "name" : "frigidbee",
+  "category" : "frigidbee",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "frigidbee.png"
+  }
+}

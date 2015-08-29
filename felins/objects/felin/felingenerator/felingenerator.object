@@ -1,0 +1,59 @@
+{
+	"objectName" : "felingenerator",
+	"tags" : [ "felin", "wired" ],
+	"rarity" : "rare",
+	"description" : "-todo-",
+	"shortdescription" : "Felin Shield Generator",
+	"race" : "felin",
+	"price" : 2000,
+	"lightColor" : [78, 111, 128],
+	"category" : "wire",
+	//"objectItem" : "circuitboard",
+	"apexDescription" : "-todo-",
+	"avianDescription" : "-todo-",
+	"floranDescription" : "-todo-",
+	"glitchDescription" : "-todo-",
+	"humanDescription" : "-todo-",
+	"hylotlDescription" : "-todo-",
+	"felinDescription" : "-todo-",
+	"inventoryIcon" : "felingeneratoricon.png",
+	"orientations" : [
+		{
+			"image" : "felingenerator.png:default.<frame>",
+			"flipImages" : true,
+			"direction" : "left",
+			"imagePosition" : [-40, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"lightPosition" : [-2, 2],
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		},
+		{
+			"image" : "felingenerator.png:default.<frame>",
+			"direction" : "right",
+			"imagePosition" : [-40, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"lightPosition" : [1, 2],
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"scripts" : [ "/objects/wired/shieldgenerator/shieldgenerator.lua" ],
+	"scriptDelta" : 5,
+	"animation" : "felingenerator.animation",
+	"animationCustom" : {
+		"sounds" : {
+			"on" : [ "/sfx/objects/apexconsole2switch.wav" ],
+			"off" : [ "/sfx/objects/apexconsole2switch.wav" ]
+		}
+	},
+	"animationParts" : {
+		"bg" : "felingenerator.png",
+		"fg" : "felingenerator.png"
+	},
+	"animationPosition" : [-40, 0],
+	"outboundNodes" : [ [0, 0] ],
+	"inboundNodes" : [ [0, 2] ]
+}

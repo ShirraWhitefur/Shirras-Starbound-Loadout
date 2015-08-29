@@ -1,0 +1,10 @@
+{
+  "name" : "anti_geometric",
+  "category" : "smallflying",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "anti_geometricbwing.png",
+    "frontWings" : "anti_geometricfwing.png"
+  }
+}

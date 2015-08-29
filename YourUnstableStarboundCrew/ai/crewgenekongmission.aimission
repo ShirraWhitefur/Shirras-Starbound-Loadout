@@ -1,0 +1,85 @@
+{
+  "missionName" : "crewgenekong",
+  "icon" : "crewgenekong.png",
+  "missionWorld" : "crewgenekong",
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Scorching Jungle Lab",
+      "repeatButtonText" : "Repeat Scorching Jungle Lab",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The jungle lab of the Apex scientist Geny Petraft. Appears to be working on a special teleporter to allow slight time travel. Speciality: techs. Threat level: Risky.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Scorching Jungle Lab",
+      "repeatButtonText" : "Repeat Scorching Jungle Lab",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The jungle lab of the Apex scientist Geny Petraft. Appears to be working on a special teleporter to allow slight time travel. Speciality: techs. Threat level: Risky.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Scorching Jungle Lab",
+      "repeatButtonText" : "Repeat Scorching Jungle Lab",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The jungle lab of the Apex scientist Geny Petraft. Appears to be working on a special teleporter to allow slight time travel. Speciality: techs. Threat level: Risky.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Scorching Jungle Lab",
+      "repeatButtonText" : "Repeat Scorching Jungle Lab",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The jungle lab of the Apex scientist Geny Petraft. Appears to be working on a special teleporter to allow slight time travel. Speciality: techs. Threat level: Risky.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Scorching Jungle Lab",
+      "repeatButtonText" : "Repeat Scorching Jungle Lab",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The jungle lab of the Apex scientist Geny Petraft. Appears to be working on a special teleporter to allow slight time travel. Speciality: techs. Threat level: Risky.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Scorching Jungle Lab",
+      "repeatButtonText" : "Repeat Scorching Jungle Lab",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The jungle lab of the Apex scientist Geny Petraft. Appears to be working on a special teleporter to allow slight time travel. Speciality: techs. Threat level: Risky.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Scorching Jungle Lab",
+      "repeatButtonText" : "Repeat Scorching Jungle Lab",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The jungle lab of the Apex scientist Geny Petraft. Appears to be working on a special teleporter to allow slight time travel. Speciality: techs. Threat level: Risky.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

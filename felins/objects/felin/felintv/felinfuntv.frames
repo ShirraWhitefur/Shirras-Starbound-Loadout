@@ -1,0 +1,91 @@
+{
+/* ANIMATION GUIDE
+real	frame	name
+-------------------------------
+0	0	black
+1	1	this is 1
+2	2	this is 2
+3	3	okay 1
+4	4	okay 2
+5	5	okay 3 (hold to 10)
+6	11	scene 1
+7	12	scene 2
+8	13	scene 3
+9	14	scene 4
+10	15	scene 5 (hold to 20)
+11	21	scene 6
+0	22	black (reuse 0)
+1	23	this is 1 (reuse 1)
+2	24	this is 2 (reuse 2)
+12	25	better 1
+13	26	better 2
+14	27	better 3 (hold to 32)
+15	33	scene 1
+16	34	scene 2
+17	35	scene 3
+18	36	scene 4
+19	37	scene 5 (hold to 42)
+20	43	scene 6
+0	44	black (reuse 0)
+21	45	any questions 1
+22	46	any questions 2 (hold to 51)
+21	52	any questions 1 (reuse 45)
+0	53	black (reuse 0, hold to 55)
+*/
+	"frameGrid" : {
+		"size" : [64, 32],
+		"dimensions" : [24, 1],
+		"names" : [
+			[
+				"default.0", //black
+				"default.1", "default.2", //this is
+				"default.3", "default.4", "default.5", //okay
+				"default.11", "default.12", "default.13", "default.14", "default.15", "default.21", //scene 1
+				"default.25", "default.26", "default.27", //better
+				"default.33", "default.34", "default.35", "default.36", "default.37", "default.43", //scene 2
+				"default.45", "default.46",
+				"lit"
+			]
+		]
+	},
+	"aliases" : {
+		"default.default" : "default.0",
+		"default.off" : "default.0",
+		//Holders
+		"default.6" : "default.5",
+		"default.7" : "default.5",
+		"default.8" : "default.5",
+		"default.9" : "default.5",
+		"default.10" : "default.5",
+		"default.16" : "default.15",
+		"default.17" : "default.15",
+		"default.18" : "default.15",
+		"default.19" : "default.15",
+		"default.20" : "default.15",
+		"default.28" : "default.27",
+		"default.29" : "default.27",
+		"default.30" : "default.27",
+		"default.31" : "default.27",
+		"default.32" : "default.27",
+		"default.38" : "default.37",
+		"default.39" : "default.37",
+		"default.40" : "default.37",
+		"default.41" : "default.37",
+		"default.42" : "default.37",
+		"default.47" : "default.46",
+		"default.48" : "default.46",
+		"default.49" : "default.46",
+		"default.50" : "default.46",
+		"default.51" : "default.46",
+		//Reusers
+		"default.22" : "default.0",
+		"default.23" : "default.1",
+		"default.24" : "default.2",
+		"default.44" : "default.0",
+		"default.52" : "default.45",
+		//Both
+		"default.53" : "default.0",
+		"default.54" : "default.0",
+		"default.55" : "default.0"
+	}
+}

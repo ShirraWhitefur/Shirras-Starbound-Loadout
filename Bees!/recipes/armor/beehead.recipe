@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 300 }, { "item" : "fabric", "count" : 14 }
+  ],
+  "output" : {
+    "item" : "beesuithead",
+    "count" : 1
+  },
+  "groups" : [ "mod", "beestation", "armor", "all" ]
+}

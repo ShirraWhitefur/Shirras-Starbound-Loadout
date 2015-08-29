@@ -1,0 +1,48 @@
+{
+  "type" : "blacksmith",
+  "baseType" : "guard",
+
+  "dropPools" : [ "mineTreasure" ],
+
+  "scriptConfig" : {
+  	"offeredQuests" : [ "blacksmith1.gearup", "blacksmith2.gearup", "blacksmith3.gearup", "blacksmith4.gearup", "blacksmith5.gearup", "blacksmith6.gearup" ],
+	"turnInQuests" : [ "blacksmith1.gearup", "blacksmith2.gearup", "blacksmith3.gearup", "blacksmith4.gearup", "blacksmith5.gearup", "blacksmith6.gearup" ],
+
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Oh, you done started somethin' now!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Curmudgeonly. You young'uns are always causin' trouble!",
+            "World-weary. Here we go again, then.",
+            "Grizzled. You'll not make a mockery of me!",
+            "Gruff. Didn't they tell ye, never aggro a smith?",
+            "Surly. Looks like I'll be messin' up me nice new weapon.",
+            "Resigned. Sigh. More disruption.",
+            "Eager. Good chance to test me weapons out.",
+            "Grumpy. Looks like I'll have to teach yeh a lesson."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "glitch" : [
+      [0, [
+          {
+
+            "chest" : [ { "name" : "merchantchest" } ],
+            "legs" : [ { "name" : "merchantlegs" } ],
+            "primary" : [
+              [ "generatedsword", 1, { "definition" : "commonhammer" } ]
+            ]
+          }
+        ] ]
+    ]
+  }
+}

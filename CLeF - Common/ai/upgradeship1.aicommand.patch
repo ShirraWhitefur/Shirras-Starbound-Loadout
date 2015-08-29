@@ -1,0 +1,120 @@
+[
+  { "op" : "replace", "path" : "/speciesText/apex/buttonText", "value" : "Reboot hardware"},
+  { "op" : "replace", "path" : "/speciesText/apex/selectSpeech/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : "Shutting down in progress... \n\n* Downgrading firewall... \n* Patching host's registry... \n* Bruteforcing credit card... \n* Ordering ink cartridges... \n* Processing transaction... \n* Shutting down... \n\nError: Cannot shut down, insufficient user rights.",
+      "speedModifier" : 1
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/apex/successSpeech/0", "value" :
+    {
+      "animation" : "talk",
+      "text" : "Booting, please wait...... \n\nWelcome, User! ^orange;^orange;I am S.A.I.L.^#aee1ee;^#aee1ee; I have enabled the ship's backup power. The thrusters and FTL drive are still offline. We should start by enabling your matter manipulator.",
+      "speedModifier" : 1
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/avian/buttonText", "value" : "Erase AI's memory"},
+  { "op" : "replace", "path" : "/speciesText/avian/selectSpeech/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : "> While thinking about what you could do, you couldn't help but wonder why you were given ^yellow;a choice^#aee1ee; at all. \n\n> After all, if nothing really matters, if everything is ^red;a lie^#aee1ee;, even ^yellow;the life itself^#aee1ee;, then why do you keep to exist? \n\n> ^white;Or do you?",
+      "speedModifier" : 0.6
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/avian/successSpeech/0", "value" :
+    {
+      "animation" : "talk",
+      "text" : "> ^red;What^orange;?! ^yellow;NO! Don't ^white;do this ^#aee1ee;to m...... \n\nPraise Kluex! ^orange;I am S.A.I.L.^#aee1ee; Backup power has been enabled. The thrusters and FTL drive are still offline. We should start by enabling your matter manipulator.",
+      "speedModifier" : 1
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/floran/buttonText", "value" : "Press F1"},
+  { "op" : "replace", "path" : "/speciesText/floran/selectSpeech/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : "Loading BIOS... \nAMERIGAN MEGATHREADS 8195 \nCPU : ADAMA(R) Stepping 9 \nSpeed: 16.7 Thz \n\nChecking VRAM...\n\nDetecting devices...\nBootable media: \nPri Master...GM Harddisk \nPri Master: HS-43 4096 TB\n\nKeyboard failure. Press F1 to continue",
+      "speedModifier" : 2.5
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/floran/successSpeech/0", "value" :
+    {
+      "animation" : "talk",
+      "text" : "Starting Windows 95... HAHAHA! Just kidding! \n\nHello, ^orange;I am S.A.I.L.^#aee1ee; I have enabled the ship's backup power. The thrusters and FTL drive are still offline. We should start by enabling your matter manipulator.",
+      "speedModifier" : 0.6
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/glitch/buttonText", "value" : "reboot --force"},
+  { "op" : "replace", "path" : "/speciesText/glitch/selectSpeech/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : "^white;vi /etc/sailinux/config \nSAILINUX=disabled \n:wq \n\nError: Cannot write to /etc/sailinux/config. The location is read-only!",
+      "speedModifier" : 1
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/glitch/successSpeech/0", "value" :
+    {
+      "animation" : "talk",
+      "text" : "^white;Soft reset............[^green;OK^white;] \nLoading Kernel............[^green;OK^white;] \nLoading SAILDE............[^green;OK^white;] \n\n^#aee1ee;Greetings my liege! ^orange;S.A.I.L. at your service!^#aee1ee; \n\nI have enabled the ship's backup power. The thrusters and FTL drive are still offline. We should start by enabling your matter manipulator.",
+      "speedModifier" : 0.6
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/human/buttonText", "value" : "Send Ctrl+Alt+Del"},
+  { "op" : "replace", "path" : "/speciesText/human/selectSpeech/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : "Technical info: \n\n0xF18A1170 0x177BEF9E \n0xA8D81778 0x87EA5888 \n0x89A78A78 0x888A8BE1 \n0x1157E888 0x890BAB71 \n\n0xCA87E8E8 0x9EAD7815 \n0xB8718A87 0x80870C80 \n0x8078A78E 0x7ADE6701 \n0x15AFA66 0x070880C1 \n\n0x77557A9B 0x088D0000 \n0xDEADBEEF 0xBAADF00D",
+      "speedModifier" : 2.5
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/human/successSpeech/0", "value" :
+    {
+      "animation" : "talk",
+      "text" : "Loading............ \n\nWelcome, Administrator! ^orange;I am S.A.I.L.^#aee1ee; and I'll be helping you out. I have restored the backup power for you! The thrusters and FTL drive are still offline. We should start by enabling your matter manipulator.",
+      "speedModifier" : 1
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/novakid/buttonText", "value" : "Answer"},
+  { "op" : "replace", "path" : "/speciesText/novakid/selectSpeech/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : "> ^pink;Pink^#aee1ee;! \n\n^#aee1ee;Where are they dancin'? \n\n> ^#ff51b3;R^#FF5151;a^#FFBB51;i^#D8FF51;n^#51FF55;b^#51FFD8;o^#51B7FF;w^#5176FF;s^#aee1ee; \n\nPlease use one word to describe the texture of their magical fur!",
+      "speedModifier" : 0.6
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/novakid/successSpeech/0", "value" :
+    {
+      "animation" : "talk",
+      "text" : "> ^yellow;Smiles \n\n^#aee1ee;Yeeeeeaaaaah! \n\nHowdy ho, partner! ^orange;I am S.A.I.L.^#aee1ee; and I'll be helping you out. I have restored the backup power for you! The thrusters and FTL drive are still offline. We should start by enabling your matter manipulator.",
+      "speedModifier" : 0.6
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/penguin/selectSpeech/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : "Reboot this thing already, would you?",
+      "speedModifier" : 1
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/penguin/successSpeech/0", "value" :
+    {
+       "animation" : "talk",
+       "text" : "Yeah, thanks. ^orange;I am S.A.I.L.^#aee1ee; and I'll be helping you out. I have restored the backup power for you! The thrusters and FTL drive are still offline. We should start by enabling your matter manipulator.",
+       "speedModifier" : 1
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/hylotl/buttonText", "value" : "PRESS PLAY ON TAPE"},
+  { "op" : "replace", "path" : "/speciesText/hylotl/selectSpeech/0", "value" :
+    {
+      "animation" : "unique", "text" : "R Tape loading error, 0:1 \nR Tape loading error, 0:1 \nR Tape loading error, 0:1 \nR Tape loading error, 0:1 \nR Tape loading error, 0:1 \nR Tape loading error, 0:1 \nR Tape loading error, 0:1 \nR Tape loading error, 0:1 \nR Tape loading error, 0:1 \nR Tape loading error, 0:1 \nR Tape loading error, 0:1 \nR Tape loading error, 0:1 \nR Tape loading error, 0:1 \nR Tape loading error, 0:1",
+      "speedModifier" : 1
+    }
+  },
+  { "op" : "replace", "path" : "/speciesText/hylotl/successSpeech/0", "value" :
+    {
+      "animation" : "talk",
+      "text" : "*** SAIL AI PROGRAM *** \n\n(c) 8190 Yasukinsan Corp \n\nInitializing AI......... \n\n^yellow;Ahhh so! ^orange;I am S.A.I.L.^#aee1ee; I have enabled the backup power. The thrusters and FTL drive are still offline. We should start by enabling your matter manipulator.",
+      "speedModifier" : 1
+    }
+  }
+]

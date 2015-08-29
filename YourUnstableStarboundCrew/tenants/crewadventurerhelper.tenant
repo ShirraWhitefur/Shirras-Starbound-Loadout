@@ -1,0 +1,26 @@
+{
+  "name": "crewadventurerhelper",
+  "priority": 10,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "crewadventurer": 1
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": ["novakid"],
+      "type": "crewnovaadventurer",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1200.0],
+    "pool": "crewadventurerGift"
+  }
+}

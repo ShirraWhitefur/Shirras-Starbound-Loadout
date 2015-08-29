@@ -1,0 +1,14 @@
+{
+  "name" : "freak_lizardtwohornhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "freak_lizardtwohornhead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}
+

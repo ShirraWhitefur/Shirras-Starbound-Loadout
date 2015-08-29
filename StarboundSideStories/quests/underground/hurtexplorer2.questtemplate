@@ -1,0 +1,15 @@
+  {
+  "id" : "hurtexplorer2.gearup",
+  "title" : "^orange;Helping with Medkits",
+  "text" : "OW! I just stubbed my toe SO BAD. Do you have three medkits to help with this?! It sounds like a lot, but this HURTS.",
+  "completionText" : "Wow, thanks so much, stranger! I hope this helps in your adventures!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "medkit", "count" : 3, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "teleportercore", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

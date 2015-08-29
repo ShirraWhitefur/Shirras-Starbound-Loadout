@@ -1,0 +1,13 @@
+{
+  "name" : "anti_tallleafhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_tallleafhead.png"
+  },
+
+    "parameters" :
+  {
+  }
+}

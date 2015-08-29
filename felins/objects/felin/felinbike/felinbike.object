@@ -1,0 +1,29 @@
+{
+	"objectName" : "felinbike",
+	"tags" : [ "felin", "felinvillage", "odd" ],
+	"rarity" : "rare",
+	"description" : "nah",
+	"shortdescription" : "Old Bicycle",
+	"race" : "felin",
+	"category" : "decoration",
+	"price" : 0,
+	"apexDescription" : "A primitive transport. Something motorized would be better.",
+	"avianDescription" : "What is this? What's it doing here?",
+	"floranDescription" : "Green... thing.",
+	"glitchDescription" : "Critical. The metal of this transport is rusty.",
+	"humanDescription" : "Didn't expect to see one of those.",
+	"hylotlDescription" : "An ugly two-wheeled conveyance.",
+	"felinDescription" : "Someone's old bike, worthless junk.",
+	"inventoryIcon" : "felinbikeicon.png",
+	"orientations" : [
+		{
+			"dualImage" : "felinbike.png",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"smashOnBreak" : true
+}

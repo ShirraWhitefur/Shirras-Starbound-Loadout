@@ -1,0 +1,15 @@
+{
+  "name" : "hydro_tinyantlertuskhead",
+  "category" : "smallquadruped",
+  "type" : "head",
+
+
+  "frames" : {
+    "head" : "hydro_tinyantlertuskhead.png"
+  },
+
+  "parameters" :
+  {
+    "projectileSourcePosition" : [1, -1.4]
+  }
+}

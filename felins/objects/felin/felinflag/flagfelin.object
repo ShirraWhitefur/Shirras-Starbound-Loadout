@@ -1,0 +1,42 @@
+{
+	"objectName" : "flagfelin",
+	"tags" : [ "felin" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 65,
+	"printable" : false,
+	"objectType" : "teleporter",
+	"description" : "The felin flag. Bookmarks a teleportation location.",
+	"shortdescription" : "Felin Flag",
+	"race" : "felin",
+	"apexDescription" : "A felin flag. Tattered but functional.",
+	"avianDescription" : "A felin flag. If you need something...",
+	"floranDescription" : "Floran happy to see felin flag.",
+	"glitchDescription" : "Exuberance. A felin flag.",
+	"humanDescription" : "A felin flag, all torn up.",
+	"hylotlDescription" : "The felin flag. Clearly made from one of ours.",
+	"inventoryIcon" : "flagfelinicon.png",
+	"orientations" : [
+		{
+			"image" : "flagfelin.png:default.<frame>",
+			"flipImages" : true,
+			"direction" : "left",
+			"imagePosition" : [-17, 0],
+			"frames" : 6,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		},
+		{
+			"image" : "flagfelin.png:default.<frame>",
+			"direction" : "right",
+			"imagePosition" : [1, 0],
+			"frames" : 6,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"interactAction" : "OpenTeleportDialog",
+	"interactData" : "/interface/warping/destinationonly.config"
+}

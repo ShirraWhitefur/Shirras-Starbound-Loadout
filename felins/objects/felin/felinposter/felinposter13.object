@@ -1,0 +1,21 @@
+{
+	"objectName" : "felinposter13",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 10,
+	"shortdescription" : "Felin Centerfold",
+	"description" : "Ripped from a magazine.",
+	"race" : "felin",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinposter24.png:4",
+			"imagePosition" : [-12, -16],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

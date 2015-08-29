@@ -1,0 +1,30 @@
+{	//ONCE YOU ARE DEAD YOU ARE NOTHING
+	//fahri kvuþirm oel vlatHo oel
+	"objectName" : "felingraffiti6",
+	"tags" : [ "felin", "felinvillage", "felinwriting" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 1,
+	"smashOnBreak" : true,
+	"description" : "Philosophical graffiti.",
+	"shortdescription" : "Felin Graffiti",
+	"race" : "felin",
+	"apexDescription" : "I suppose that's right.",
+	"avianDescription" : "Once you're dead... yeah, I guess so.",
+	"floranDescription" : "Floran not planning to die and find out.",
+	"glitchDescription" : "Skeptical. Once you are dead, do you not respawn?",
+	"humanDescription" : "Woah, that's deep.",
+	"hylotlDescription" : "Perhaps if you met a floran.",
+	"felinDescription" : "'Once you are dead, you are nothing.'",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felingraffiti6.png",
+			"imagePosition" : [-16, -12],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

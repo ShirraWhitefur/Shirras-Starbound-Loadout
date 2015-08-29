@@ -1,0 +1,11 @@
+{
+  "name" : "solariumglow",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "solariumglow.lua"
+  ],
+
+  "animationConfig" : "solariumglow.animation"
+}

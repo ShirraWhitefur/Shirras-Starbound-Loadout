@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "glowstickblue", "count" : 1 },
+	{ "item" : "cobblestonematerial", "count" : 4 }
+	
+  ],
+  "output" : { "item" : "biorock2", "count" : 4 },
+  "groups" : [ "blocktableplus", "materials", "all", "ground" ]
+}

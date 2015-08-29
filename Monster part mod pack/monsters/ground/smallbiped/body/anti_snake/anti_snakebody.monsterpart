@@ -1,0 +1,15 @@
+{
+  "name" : "anti_snakebody",
+  "category" : "smallbiped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "anti_snakebody.png"
+  },
+
+  "parameters" : {
+    "walkMultiplier" : 0.6,
+    "runMultiplier" : 1.2,
+    "jumpMultiplier" : 1.2
+  }
+}

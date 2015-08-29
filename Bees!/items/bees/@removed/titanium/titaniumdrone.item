@@ -1,0 +1,9 @@
+{
+  "itemName" : "titaniumdrone",
+  "rarity" : "Common",
+  "inventoryIcon" : "titaniumdrone.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "An titanium bee drone.",
+  "shortdescription" : "Titanium Drone",
+  "maxStack" : 1000
+}

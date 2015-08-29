@@ -1,0 +1,173 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "gravrailState" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "frames" : 1
+          },
+          "onRight" : {
+            "frames" : 14,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "onLeft" : {
+            "frames" : 14,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "gravrail" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+        "partStates" : {
+          "gravrailState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:default.off"
+              }
+            },
+            "onRight" : {
+              "properties" : {
+                "image" : "<partImage>:default.1"
+              }
+            },
+            "onLeft" : {
+              "properties" : {
+                "image" : "<partImage>:default.1"
+              }
+            }
+          }
+        }
+      },
+      "powerglow" : {
+        "properties" : {
+          "offset" : [0.875, 1.125],
+          "centered" : false,
+          "zLevel" : 2
+        },
+        "partStates" : {
+          "gravrailState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:default.off"
+              }
+            },
+            "onRight" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>",
+                "fullbright" : true                
+              }
+            },
+            "onLeft" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>?flipx",
+                "fullbright" : true
+                }
+            }
+          }
+        }
+      }
+    }
+  },
+  
+  "particleEmitters" : {
+    "gravrailBeamRight1" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamright",
+          "offset" : [5, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamRight2" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamright",
+          "offset" : [10, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamRight3" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamright",
+          "offset" : [15, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamRight4" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamright",
+          "offset" : [20, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamRight5" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamright",
+          "offset" : [25, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamLeft1" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamleft",
+          "offset" : [-0.125, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamLeft2" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamleft",
+          "offset" : [-5, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamLeft3" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamleft",
+          "offset" : [-10, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamLeft4" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamleft",
+          "offset" : [-15, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamLeft5" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamleft",
+          "offset" : [-20, 1.5]
+        }
+      ]
+    }
+  }
+}

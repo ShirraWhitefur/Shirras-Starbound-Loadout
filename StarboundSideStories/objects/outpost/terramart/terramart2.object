@@ -1,0 +1,53 @@
+{
+  "objectName" : "terramart2",
+  "rarity" : "Common",
+  "description" : "For all your farming and terraforming needs!",
+  "shortdescription" : "Terramart",
+  "race" : "generic",
+  "printable" : false,
+  "lightColor" : [46, 66, 77],
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/terramart.config",
+    "filter" : [ "terramart" ]
+  },
+
+  "apexDescription" : "A farm shop. Delightful.",
+  "avianDescription" : "The best place to buy seeds, bar none.",
+  "floranDescription" : "Floran make pretty garden from ssshop!",
+  "glitchDescription" : "Statement. A Terramart.",
+  "humanDescription" : "Terrormart? I'm already shaking! Wait, oh. Terramart. Okay.",
+  "hylotlDescription" : "Another merchant intent on monetising our ecosystem.",
+  "novakidDescription" : "I always wanted to retire to an ol' farmstead.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "terramartleft.png:<color>.<frame>", "fullbright" : true }, { "image" : "terramartleftlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      
+      "lightPosition" : [-1, 2],
+
+      "imagePosition" : [-64, 0],
+      "frames" : 32,
+      "animationCycle" : 3.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "terramartright.png:<color>.<frame>", "fullbright" : true }, { "image" : "terramartrightlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+      
+      "lightPosition" : [0, 2],
+
+      "imagePosition" : [-64, 0],
+      "frames" : 32,
+      "animationCycle" : 3.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/hubbub.wav"
+}

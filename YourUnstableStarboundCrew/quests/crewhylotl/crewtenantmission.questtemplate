@@ -1,0 +1,18 @@
+{
+  "id" : "crewtenantmission.gearup",
+  "prerequisites" : [ "crewgoldobotmission.gearup" ], 
+  "title" : "^green;The Nova Tenants",
+  "text" : "Greetings, captain. I was thinking it would be beneficial to get a group of tenants for you to put on the surface of your current planet that could help you explore. I know of a planet full of Novakids that you could easily sway to be your planet-side team.",
+  "completionText" : "Well howdy there! Welcome to our village, can I help you? Oh, you want me to travel the galaxy with you and provide you with healing stuff? Sounds great to me! Just add this rune to a house and I'll give you healing items appropriate for that planet's level!",
+  "completionConditions" : [
+ 
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "crewliferune", 1] ]
+   ],
+  "canBeAbandoned" : false,
+  "associatedMission" : "crewashblazer",
+  "requireTurnIn" : true
+}
+ 

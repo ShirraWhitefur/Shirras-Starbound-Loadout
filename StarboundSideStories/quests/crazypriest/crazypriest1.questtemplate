@@ -1,0 +1,13 @@
+  {
+  "id" : "crazypriest1.gearup",
+  "title" : "^orange;Helping the Stargazers",
+  "text" : "Wait, don't attack! These Avians...they may be my feathers, but they have the wrong idea about Kluex. They don't realize that the outside can help us reach our goals, and that we probably shouldn't eliminate them.",
+  "completionText" : "In fact...I could use your help, if you're offering. I'm a high priest of Kluex, sent from my planet of Avos to spread the word. To do so, I'm hoping to build a temple to Kluex's greatness!",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

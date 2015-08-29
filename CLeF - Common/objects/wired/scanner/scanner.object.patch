@@ -1,0 +1,4 @@
+[
+  // NoLag Patch
+  { "op" : "replace", "path" : "/scriptDelta", "value" : 30 }
+]

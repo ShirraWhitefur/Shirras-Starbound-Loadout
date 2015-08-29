@@ -1,0 +1,22 @@
+{
+  "itemName" : "morbidcomb",
+  "rarity" : "Common",
+  "inventoryIcon" : "morbidcomb.png",
+  "description" : "A honeycomb filled with specks of bone.",
+  "shortdescription" : "Morbid Honeycomb",
+  "handPosition" : [0.0, 0]
+,
+ 
+  "effects" : [ [
+    {
+        "effect" : "items/honeyheal1",
+        "duration" :60  },
+    {
+        "effect" : "fedhoney",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+     "fedhoney"
+  ]
+}

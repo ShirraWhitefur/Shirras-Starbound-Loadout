@@ -1,0 +1,9 @@
+{
+  "itemName" : "frigiddrone",
+  "rarity" : "Common",
+  "inventoryIcon" : "frigiddrone.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A frigid drone. It can live in even the coldest climates.",
+  "shortdescription" : "Frigid Drone",
+  "maxStack" : 1000
+}

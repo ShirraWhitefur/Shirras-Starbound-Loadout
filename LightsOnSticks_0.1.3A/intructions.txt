@@ -1,0 +1,22 @@
+Drag and drop (extract) the LightsOnSticks_x.x.x folder (NOT the zip/folder containing this text file) into the mods folder, in this directory: "Starbound\giraffe_storage\mods"
+
+
+The default, Tier 1 light (not added by this mod) is the Lantern Stick item, found in the Steel Crafting Table.
+
+The Tier 2 light, added by this mod, is the Ship-Light Stick item, found in the Robotic Crafting Table.
+
+The next three lights added by this mod will all be found in the replicator.
+
+Tier 3 - Uranium Radiation Rod:
+Requires 1 Uranium Rod, 15 Durasteel Bars, and 30 Uranium Ore. Also requires protection against Radiation.
+
+Tier 4 - Preserved-Glow Stick:
+Requires 1 Permafrost, 15 Durasteel Bars, and 1 Yellow Stim Pack. Also requires protection against Cold.
+
+Tier 5 - Solarium Star Rod:
+Requires 1 Solarium Star, 15 Durasteel Bars, and 30 Solarium Ore. Also requires protection against Heat.
+
+
+
+There is also 1 material item added by this mod.
+Permafrost: Made with 15 Snowflakes in a Magnetic Crucible (scifianvil). Snowflakes can be found by smashing ice chunks on frozen planets.

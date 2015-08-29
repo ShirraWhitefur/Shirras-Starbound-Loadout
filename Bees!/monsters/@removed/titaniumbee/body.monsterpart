@@ -1,0 +1,9 @@
+{
+  "name" : "titaniumbee",
+  "category" : "titaniumbee",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "titaniumbee.png"
+  }
+}

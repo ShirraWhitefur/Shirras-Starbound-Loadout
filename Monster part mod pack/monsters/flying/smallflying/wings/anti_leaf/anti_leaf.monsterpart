@@ -1,0 +1,10 @@
+{
+  "name" : "anti_leaf",
+  "category" : "smallflying",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "anti_leafbwing.png",
+    "frontWings" : "anti_leaffwing.png"
+  }
+}

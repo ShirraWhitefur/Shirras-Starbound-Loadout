@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinposter9",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 50,
+	"shortdescription" : "Felin Model Poster",
+	"description" : "A nice pinup poster of a felin model",
+	"race" : "felin",
+	"apexDescription" : "There's plenty deceit in apex culture. We don't need The Deceiver.",
+	"avianDescription" : "The Deceiver. I wonder how she got that title?",
+	"floranDescription" : "Nice cat lady.",
+	"glitchDescription" : "Confused. Is this the legendary Chelsie?",
+	"humanDescription" : "Not sure what this lady's deal was.",
+	"hylotlDescription" : "This cat reminds me of another...",
+	"felinDescription" : "Anerae the Deceiver.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinposter16.png:1",
+			"imagePosition" : [-8, -12],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

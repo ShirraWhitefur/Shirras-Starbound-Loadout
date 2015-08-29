@@ -1,0 +1,16 @@
+  {
+  "id" : "blacksmith2.gearup",
+  "prerequisites" : [ "blacksmith1.gearup" ],
+  "title" : "^orange;Setting up the Smithing Camp",
+  "text" : "Excitement. It's always good to have friends. If you bring me a fair some of pixels...say, 3000 pixels? I can get a good deal on building supplies.",
+  "completionText" : "Excitement. Make yourself a house, it would be most welcome! Or feel free to expand on my smithing station, whichever you'd like.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "money", "count" : 3000, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [  [ "castlewalls1", 900 ], [ "castlewalls2", 900 ], [ "rooftiles", 300 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

@@ -1,0 +1,17 @@
+  {
+  "id" : "castleservant10.gearup",
+  "prerequisites" : [ "castleservant9.gearup" ],
+  "title" : "^orange;Royal Crown",
+  "text" : "Thinking. Your castle is looking great, your majesty. Now, onto you! If you bring me ten bars of gold and a piece of diamond, I'll get someone to craft you a crown to fit this castle.",
+  "completionText" : "Excited. Here is your crown, your majesty. I also prepared some other simple clothes to go along with the crown. I hope you enjoy ruling this castle!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "goldbar", "count" : 10, "consume" : true }, 
+	{ "type" : "gather", "item" : "diamond", "count" : 1, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [ "glitchroyalhead", 1 ], [ "glitchtier4chest", 1 ], [ "glitchtier4pants", 1 ], [ "simplecapeback", 1 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

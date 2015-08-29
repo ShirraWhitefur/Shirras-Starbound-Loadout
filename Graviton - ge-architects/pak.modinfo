@@ -1,0 +1,10 @@
+{
+  "name" : "ge-architects",
+  "version" : "Beta v. Spirited Giraffe",
+  "path" : ".",
+  "dependencies" : ["architectsdraftingtable", "gravitonprojectors", "greebles"],
+  "metadata" : {
+    "author" : "Storm_UK",
+	  "description" : "Graviton Elevator Holoblueprints"
+  }
+}

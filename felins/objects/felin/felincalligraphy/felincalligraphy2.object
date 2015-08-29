@@ -1,0 +1,28 @@
+{
+	"objectName" : "felincalligraphy2",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 50,
+	"shortdescription" : "Felin Catspaw Art",
+	"description" : "Framed picture of a catspaw.",
+	"race" : "felin",
+	"apexDescription" : "The cats are taking after the fish. How odd.",
+	"avianDescription" : "An admirable attempt.",
+	"floranDescription" : "Pat pat cat pat!",
+	"glitchDescription" : "Amused. The artist certainly tried.",
+	"humanDescription" : "A cat's paw? Seriously?",
+	"hylotlDescription" : "A waste of paper if you ask me.",
+	"felinDescription" : "Catspaw!",
+	"inventoryIcon" : "icon.png:1",
+	"orientations" : [
+		{
+			"image" : "felincalligraphy.png:1",
+			"imagePosition" : [-8, -10],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

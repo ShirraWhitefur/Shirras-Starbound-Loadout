@@ -1,0 +1,16 @@
+  {
+  "id" : "avianpatrol5.gearup",
+  "prerequisites" : [ "avianpatrol4.gearup" ],
+  "title" : "^orange;Avian Cooking 2",
+  "text" : "How about something a little more difficult? I've heard beakseed bread is amazing, mind showing me?",
+  "completionText" : "This looks amazing! I'll be sure to study the dish and make it even better!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "beakseedbread", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [400, 600],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

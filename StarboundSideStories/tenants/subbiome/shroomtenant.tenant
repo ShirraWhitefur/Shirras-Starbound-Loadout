@@ -1,0 +1,26 @@
+{
+  "name": "shroomtenant",
+  "priority": 2,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "mushroompatch": 4
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "floran",
+      "type": "gentlebiomebaddy",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [600.0, 1200.0],
+    "pool": "subbiomeGift"
+  }
+}

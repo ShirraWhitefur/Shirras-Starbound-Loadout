@@ -1,0 +1,100 @@
+{
+  "objectName" : "oldalloyfurnace",
+  "rarity" : "rare",
+  "description" : "Old cracked alloy furnace, crafts steel and other strong materials, one item at a time.",
+  "shortdescription" : "Old Alloy Furnace",
+  "race" : "generic",
+  "subtitle" : "Classic smelting.",
+  "category" : "crafting",
+  "price" : 125,
+  "objectType" : "container",
+  "printable" : false,
+  "hydrophobic" : true,
+
+  "apexDescription" : "An alloy furnace. I can smelt steel and other materials here.",
+  "avianDescription" : "A furnace perfect for crafting steel and other alloys.",
+  "floranDescription" : "Furnace hisss, ssspit, burn. Floran brave it.",
+  "glitchDescription" : "Craftsmanship. The furnace is the perfect temperature for creating steel and other alloys.",
+  "humanDescription" : "An alloy furnace, hot enough to smelt steel and other materials.",
+  "hylotlDescription" : "A very hot, imposing, alloy furnace. I can make stronger materials with this.",
+  "novakidDescription" : "Dat thing's hot. Hotter than me.",
+
+  "lightColor" : [229, 218, 207],
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "size" : 1.0,
+      "color" : [255, 100, 0, 255],
+      "light" : [150, 50, 50],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, 3.0],
+      "approach" : [0, 20],
+      "timeToLive" : 2,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0]
+    }
+  },
+
+  "inventoryIcon" : "oldalloyfurnaceicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "oldalloyfurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "oldalloyfurnacelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "oldalloyfurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "oldalloyfurnacelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.wav",
+
+  "statusEffects" : [
+// dsp2003: Commented out until somebody fixes this mess
+//    {
+//      "kind" : "Warmth",
+//      "amount" : 70,
+//      "range" : 8
+//    }
+  ],
+
+  "recipeGroup" : "alloyfurnace",
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/clef/objectcrafting/oldstonefurnace.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

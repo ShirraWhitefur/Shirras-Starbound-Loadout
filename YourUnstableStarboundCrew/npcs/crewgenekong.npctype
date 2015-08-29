@@ -1,0 +1,48 @@
+{
+  "type" : "crewgenekong",
+  "baseType" : "crewmerchant",
+  
+  "damageTeam" : 1, 
+  "levelVariance" : [-0.5, -0.5],
+
+  "disableWornArmor" : true,
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "turnInQuests" : [ "crewgenekongmission.gearup", "crewgenekongmission2.gearup" ],
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 8,
+      "categories" : {
+        "default" : ["crewgenekongshop" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 20,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Dr. Petraft",
+          "subtitle" : "  For technology needs."
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "apextier5schest", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "legs" : [
+              { "name" : "apextier5spants", "parameters" : { "colorIndex" : 4 } }
+            ]
+          }
+      ]]
+    ]
+  }
+}

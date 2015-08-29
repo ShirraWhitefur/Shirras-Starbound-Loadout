@@ -1,0 +1,15 @@
+{
+  "name" : "ghosthead",
+  "category" : "largequadruped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "ghosthead.png"
+  },
+
+  "parameters" :
+  {
+    "meleeProjectile" : "meleebite",
+    "projectileSourcePosition" : [1, -0.5]
+  }
+}

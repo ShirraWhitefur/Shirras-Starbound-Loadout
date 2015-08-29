@@ -1,0 +1,14 @@
+{
+  "name" : "freak_baloonhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "freak_baloonhead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}
+

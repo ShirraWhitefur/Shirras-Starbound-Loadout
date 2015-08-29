@@ -1,0 +1,10 @@
+{
+	"codexId" : "lenniedeath",
+	"title" : "Laenathin and Death",
+	"codexkind" : "codex",
+	"itemName" : "lenniedeathCodex",
+	"inventoryIcon" : "felinbook_04.png",
+	"rarity" : "common",
+	"description" : "An Ice-Cream Koan",
+	"shortdescription" : "Laenathin and Death"
+}

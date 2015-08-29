@@ -1,0 +1,28 @@
+{
+	/* Thanks to RyuujinZERO for letting me use the avalicushion2 sprites. */
+	"objectName" : "felincushion",
+	"tags" : [ "felin", "felinvillage" ],
+	"rarity" : "common",
+	"objectType" : "loungeable",
+	"description" : "It's a sitting cushion of oddly familiar shape.",
+	"shortdescription" : "Sitting Pillow",
+	"race" : "felin",
+	"category" : "furniture",
+	"price" : 40,
+	"inventoryIcon" : "icon.png",
+	"retainObjectParametersInItem" : true,
+	"orientations" : [
+		{
+			"leftImage" : "felincushion.png:<color>.0",
+			"rightImage" : "felincushion.png:<color>.1",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+
+		}
+	],
+	"sitFlipDirection" : false,
+	"sitPosition" : [1, 14]
+}

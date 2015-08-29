@@ -1,0 +1,32 @@
+{
+  "objectName" : "crewminingcrusher",
+  "tags" : ["crewore"],
+  "rarity" : "rare",
+  "category" : "decorative",
+  "price" : 10000,
+  "description" : "This should attract a mining tenant.",
+  "shortdescription" : "Mining Impact Crusher",
+  "race" : "human",
+
+  "apexDescription" : "An industrial machine, used for breaking down rocks.",
+  "avianDescription" : "A machine used for breaking down rocks.",
+  "floranDescription" : "Floran wants to drop prey inssside machine!",
+  "glitchDescription" : "Observant. The machine exists to crush rocks.",
+  "humanDescription" : "A machine used for breaking down rocks.",
+  "hylotlDescription" : "An unsightly metal construction.",
+
+  "inventoryIcon" : "miningcrushericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "miningcrusher.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

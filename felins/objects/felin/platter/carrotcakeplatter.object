@@ -1,0 +1,32 @@
+{
+	"objectName" : "carrotcakeplatter",
+	"tags" : [ "misc" ],
+	"rarity" : "common",
+	"description" : "It's a delicious carrot cake! Tastes better than it sounds.",
+	"shortdescription" : "Plate of Carrot Cake",
+	"race" : "felin",
+	"category" : "furniture",
+	"price" : 20,
+	"apexDescription" : "Carrots don't actually improve your eyesight.",
+	"avianDescription" : "Carrot cake. Whose idea was this anyway?",
+	"floranDescription" : "Floran not like thissss carrot cake.",
+	"glitchDescription" : "Uncertain. Who makes a cake out of carrots?",
+	"humanDescription" : "Carrot cake's better than it sounds.",
+	"hylotlDescription" : "A carrot cake. Honestly...",
+	"felinDescription" : "Felin don't usually eat carrots, but a cake's always welcome.",
+	"inventoryIcon" : "carrotcakeplattericon.png",
+	"orientations" : [
+		{
+			"dualImage" : "carrotcakeplatter.png",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"breakDropOptions" : [ [
+		[ "felinplate", 1, { } ],
+		[ "carrotcake", 1, { } ]
+	] ]
+}

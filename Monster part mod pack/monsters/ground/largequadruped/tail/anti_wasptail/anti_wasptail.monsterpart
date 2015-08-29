@@ -1,0 +1,9 @@
+{
+  "name" : "anti_wasptail",
+  "category" : "largequadruped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "anti_wasptail.png"
+  }
+}

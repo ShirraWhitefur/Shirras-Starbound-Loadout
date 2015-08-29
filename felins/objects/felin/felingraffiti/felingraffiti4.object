@@ -1,0 +1,30 @@
+{	//CRUEL LIALAIR  WHY DO YOU NOT LOVE ME?
+	//sifvuar lÁlâr eun nar shiGieÁ?
+	"objectName" : "felingraffiti4",
+	"tags" : [ "felin", "felinvillage", "felinwriting" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 1,
+	"smashOnBreak" : true,
+	"description" : "Graffiti. A little long-winded, perhaps.",
+	"shortdescription" : "Felin Graffiti",
+	"race" : "felin",
+	"apexDescription" : "It seems the writer is unlucky in love.",
+	"avianDescription" : "I feel you, mystery cat.",
+	"floranDescription" : "Floran ssstab cruel people.",
+	"glitchDescription" : "Empatic. The author must feel frustrated.",
+	"humanDescription" : "Bad choice in partners.",
+	"hylotlDescription" : "How poetic. How sad.",
+	"felinDescription" : "She doesn't love you because she's cruel, silly.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felingraffiti4.png",
+			"imagePosition" : [-16, -12],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

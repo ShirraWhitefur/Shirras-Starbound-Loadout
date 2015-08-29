@@ -1,0 +1,13 @@
+{
+  "name" : "freak_scaryhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "freak_scaryhead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}

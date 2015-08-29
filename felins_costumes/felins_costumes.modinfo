@@ -1,0 +1,11 @@
+{
+	"name" : "Felins Costume+",
+	"path" : ".",
+	"requires" : [],
+	"includes" : [ "Felins" ],
+	"metadata" : {
+		"author" : "Kawa",
+		"description" : "Adds more costumes to the Felins, but they're not required.",
+		"version" : "1.0"
+	}
+}

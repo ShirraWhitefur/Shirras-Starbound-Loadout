@@ -1,0 +1,5 @@
+[
+  // NoLag Patch
+  { "op" : "replace", "path" : "/animatedParts/stateTypes/switchState/states/off/cycle", "value" : 3.2 },
+  { "op" : "replace", "path" : "/animatedParts/stateTypes/switchState/states/on/cycle", "value" : 3.2 }
+]

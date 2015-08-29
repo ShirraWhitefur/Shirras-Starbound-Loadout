@@ -1,0 +1,30 @@
+{	//FEMINE IS SWEET AND CHARMING
+	//femin dlaphem i biumhuaw oene
+	"objectName" : "felingraffiti5",
+	"tags" : [ "felin", "felinvillage", "felinwriting" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 1,
+	"smashOnBreak" : true,
+	"description" : "Graffiti. Sweet and charming.",
+	"shortdescription" : "Felin Graffiti",
+	"race" : "felin",
+	"apexDescription" : "The flourishes make this harder to read than usual.",
+	"avianDescription" : "Somebody is sweet and cha-- charming?",
+	"floranDescription" : "Floran like flourishes.",
+	"glitchDescription" : "Uplifted. The author must think highly of this person.",
+	"humanDescription" : "I can't read this. Silly flourishes.",
+	"hylotlDescription" : "Amazing. They made an ugly script slightly less so.",
+	"felinDescription" : "'Femine is sweet and charming.' Daww.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felingraffiti5.png",
+			"imagePosition" : [-16, -12],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

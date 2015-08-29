@@ -1,0 +1,9 @@
+{
+  "name" : "leafbee",
+  "category" : "leafbee",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "leafbee.png"
+  }
+}

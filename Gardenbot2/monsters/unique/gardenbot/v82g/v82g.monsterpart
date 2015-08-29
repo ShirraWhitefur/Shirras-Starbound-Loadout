@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "gardenbotv82g",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "v82g.png"
+  }
+}

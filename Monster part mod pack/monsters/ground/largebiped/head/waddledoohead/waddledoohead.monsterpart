@@ -1,0 +1,14 @@
+{
+  "name" : "waddledoohead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "waddledoohead.png"
+  },
+
+ "parameters" :
+  {
+  }
+}
+

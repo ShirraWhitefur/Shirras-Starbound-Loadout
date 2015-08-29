@@ -1,0 +1,9 @@
+{
+  "name" : "ACCM 1.3",
+  "version" : "Stable v. Upbeat Giraffe",
+  "path" : ".",
+  "metadata": {
+    "author" : "Motionless",
+    "description" : "'Another Character Creation Menu with custom race support."
+        }
+}

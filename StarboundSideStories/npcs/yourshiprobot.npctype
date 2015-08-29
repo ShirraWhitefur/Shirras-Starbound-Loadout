@@ -1,0 +1,272 @@
+{
+  "type" : "yourshiprobot",
+  
+  "damageTeamType" : "friendly",
+  "damageTeam" : 1,
+  "levelVariance" : [1, 1],
+
+  "disableWornArmor" : true,
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/scripts/pathing.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/followState.lua",
+    "/npcs/standingIdleState.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+	"offeredQuests" : [ "yourshiprobothello.gearup" ],
+	"turnInQuests" : [ "yourshiprobothello.gearup" ],
+    "attackerLimit" : 4,
+    "attackerLimitCooldown" : 3,
+
+    "doorHitPoly" : [ [2, -1], [2, 1], [0, 1], [0, -1] ],
+    "idleTimeRange" : [0.1, 0.2],
+    "gapSensor" : [ [2.0, -4.5] ],
+    "gapFarSideSensors" : [ [3.0, -4.5], [4.0, -4.5], [5.0, -4.5], [6.0, -4.5], [7.0, -4.5], [8.0, -4.5] ],
+    "gapJumpHoldTime" : 0.4,
+
+    "follower" : {
+      "playerQueryRadius" : 15,
+      "follower.maxFollowRange" : 40,
+
+      "attackDistance" : 20,
+
+      "attackSayingPercent" : 25,
+      "returnSayingPercent" : 25,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [
+            "I'll take these guys on!",
+            "Sneak attack!",
+            "Strike!",
+            "Attack!",
+            "Quick, we're under attack!",
+            "Be careful!",
+            "Look out!",
+            "No time for chit-chat, we've been spotted!",
+            "Uh-oh!",
+            "We've been spotted!",
+            "I came prepared!",
+            "Are we attacking? We're attacking!",
+            "Let's teach these guys a lesson!",
+            "They want a hunt? I'll give them a hunt!",
+            "I'll escape or die trying!"
+          ]
+        },
+        "join" : {
+          "default" : [
+            "I hope your day is going well, captain!",
+            "How is your exploring going recently? Seen any Hylotl stuff? I've heard it's pretty rare.",
+            "I've been around for a while, and I STILL haven't seen a Novakid structure. Have you seen one, captain?"
+          ]
+        },
+        "returnFromCombat" : {
+          "default" : [
+            "Let's move on.",
+            "I'm impressed.",
+            "How did you get here anyway?",
+            "We're a team worth fearing!",
+            "Take that.",
+            "Phew.",
+            "Stay alert, there could be more.",
+            "That's what you get for messing with US!",
+            "Hopefully there won't be more to fight down here.",
+            "Let's go.",
+            "Phew, you handle yourself quite well."
+          ]
+        },
+        "wait" : {
+          "default" : [
+            "I'll just wait here.",
+            "Good luck exploring, captain!",
+            "If I could be anything I guess I'd be a human...they're so curious!",
+            "What's been your favorite planet type so far?",
+            "Hum dee dum dum...oh, yes, I'll stay here, captain.",
+            "Have you found a dish you enjoy cooking yet?",
+            "No, I don't really understand what 42 refers to, apologies, captain.",
+            "I wonder how other captains decorate their ship...",
+            "I'm quite sad the only existing dog seems to be on the outpost.",
+            "Is there anything better than cruising around the universe?",
+            "Don't forget to get a good night's rest!",
+            "I tried talking with S.A.I.L., but I think it only responds to you.",
+            "What's the strangest creature you've encountered? I once saw a monster barf a rainbow.",
+            "I'll stand by as long as you need me to, captain.",
+            "Do you need a moment?"
+          ]
+        },
+        "returnFromWait" : {
+          "default" : [
+            "Hello again. Find any cool planets recently?",
+            "Your ship is looking great, captain!",
+            "I tried feeding your pet, but I think it's still warming up to me.",
+            "Have you tried pearlpea risotto, captain? If prepared correctly, it's divine! So I hear, at least.",
+            "Do you know who made the outpost, captain?",
+            "I once found the blue print to create a fossil station, but I seem to have misplaced it...",
+            "Do you have a favored instrument? Personally I enjoy the microphone!",
+            "Do Glitch dream of electric sheep? Avians of electric birds...?",
+            "I don't think the Hyltol are that bad, they're just proud of their achievements.",
+            "Did you know some planets are made out of eyes? Gross...",
+            "Isn't the aurora on snowy planets simply the best?",
+            "Do you have a particular kind of village you like most?",
+            "How is your pet doing? It seems to really enjoy your company.",
+            "My ship once landed on a strange tentacle planet, but the crew were unable to land...",
+            "I have yet to explore too much underground, but aren't the gnome villages the best?"
+          ]
+        }
+      }
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 5,
+      "swingTime" : 0.4,
+      "swingCooldownTime" : 0.6,
+      "switchDistance" : 15,
+      "runThreshold" : 0,
+      "searchTime" : 10,
+      "backoffDistanceRange" : [8.0, 12.0],
+      "repositionCooldownTimeRange" : [2.0, 3.0]
+    },
+
+    "rangedAttack" : {
+      "minDistance" : 10,
+      "maxDistance" : 30,
+      "coverYOffset" : -1.5,
+      "coverYClearanceOffset" : 0.5,
+      "coverDistance" : 2.5,
+      "coverHideTimeRange" : [0.5, 1.0],
+      "coverFireTimeRange" : [1.0, 3.0],
+      "attackerSpacing" : 2.5,
+      "searchTime" : 10
+    }
+  },
+
+  "items" : {
+        "default" : [
+            [0, [
+                {
+                    "head" : [ { "name" : "adventurerobothead" } ],
+                    "chest" : [ { "name" : "adventurerobotchest" } ],
+					"legs" : [ { "name" : "adventurerobotpants" } ]
+                }
+            ] ]
+        ]
+    },
+
+  "movementControllerSettings" : {
+    "standingPoly" : [ [-0.75, -2.0], [-0.35, -2.5], [0.35, -2.5], [0.75, -2.0], [0.75, 0.65], [0.35, 1.22], [-0.35, 1.22], [-0.75, 0.65] ],
+    "crouchingPoly" : [ [-0.75, -2.0], [-0.35, -2.5], [0.35, -2.5], [0.75, -2.0], [0.75, -0.5], [0.35, 0], [-0.35, 0], [-0.75, -0.5] ],
+
+    "mass" : 0.6,
+    "airFriction": 0.0,
+    "airJumpProfile": {
+      "jumpSpeed" : 45.0,
+      "jumpInitialPercentage": 1.0,
+      "jumpHoldTime": 0.0
+    }
+  },
+
+  "humanoidTiming" : {
+    // Idle, Walk, Run, Jump, Fall, Swim, SwimIdle, Duck, Sit, Lay
+    "stateCycle" : [1.0, 0.75, 0.75, 0.25, 0.25, 0.50, 0.50, 1.0, 1.0, 1.0],
+    "stateFrames" : [1, 8, 8, 4, 4, 7, 2, 1, 1, 1],
+
+    // EmoteIdle, Blabbering, Shouting, Happy, Sad, NEUTRAL, Laugh, Annoyed, Oh, OOOH, Blink, Wink, Eat, Sleep
+    //          , normal    , caps    , :)   , :'(, :|     , :D   ,        , :o, :O  ,      , ;)
+    "emoteCycle" : [1.0, 0.3, 0.3, 0.3, 1.0, 0.3, 0.5, 1.0, 1.0, 1.0, 1.0, 0.5, 0.3, 1],
+    "emoteFrames" : [1, 2, 2, 2, 5, 2, 2, 2, 2, 3, 3, 5, 2, 2]
+  },
+  
+  "dropPools" : [ "villagertreasure" ],
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "appliesEnvironmentStatusEffects" : false,
+    "minimumLiquidStatusEffectPercentage" : 0.1,
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 5,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 300.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 100.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 5.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  },
+  
+  "persistent" : true,
+
+  "splashConfig" : {
+    "splashSpeedMin" : 10.0,
+    "splashMinWaterLevel" : 0.4,
+    "splashBottomSensor" : [0, -2.0],
+    "splashTopSensor" : [0, 2.0],
+    "numSplashParticles" : 8,
+    "splashYVelocityFactor" : 0.2,
+
+    "splashParticle" : {
+      "type" : "ember",
+      "position" : [0, -1],
+      "finalVelocity" : [0, -20],
+      "approach" : [0, 50],
+      "color" : [60, 150, 224, 100],
+      "size" : 4.0,
+      "timeToLive" : 0.5,
+      "destructionAction" : "shrink",
+      "destructionTime" : 0.2
+    },
+
+    "splashParticleVariance" : {
+      "velocity" : [10, 0]
+    }
+  }
+}

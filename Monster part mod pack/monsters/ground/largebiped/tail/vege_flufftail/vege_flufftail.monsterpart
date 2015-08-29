@@ -1,0 +1,9 @@
+{
+  "name" : "vege_flufftail",
+  "category" : "largebiped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "vege_flufftail.png"
+  }
+}

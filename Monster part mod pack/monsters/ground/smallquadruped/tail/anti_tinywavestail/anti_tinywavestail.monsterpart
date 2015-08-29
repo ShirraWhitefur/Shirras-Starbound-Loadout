@@ -1,0 +1,9 @@
+{
+  "name" : "anti_tinywavestail",
+  "category" : "smallquadruped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "anti_tinywavestail.png"
+  }
+}

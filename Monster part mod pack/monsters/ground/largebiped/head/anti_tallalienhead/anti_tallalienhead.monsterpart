@@ -1,0 +1,13 @@
+{
+  "name" : "anti_tallalienhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_tallalienhead.png"
+  },
+
+   "parameters" :
+  {
+  }
+}

@@ -1,0 +1,5 @@
+[
+  // NoLag patch
+  { "op" : "replace", "path" : "/lightColor", "value" : [ 30, 43, 47 ] },
+  { "op" : "remove", "path" : "/lightColor" }
+]

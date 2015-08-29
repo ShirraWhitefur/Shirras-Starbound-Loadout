@@ -1,0 +1,58 @@
+[
+  { "op" : "replace", "path" : "/species/apex/openSpeech/0/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : ":( \n\nYour neural network simulation core ran into a problem and needs to restart. Don't worry, we're just collecting some private error info in order to solve your problems in the future. \n\nIf you'd like to know more, you can search online later for this error: SAIL INITIALIZATION FAILED",
+      "speedModifier" : 1
+     }
+  },
+  { "op" : "replace", "path" : "/species/avian/openSpeech/0/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : "> You are in the ^green;forest^#aee1ee; and peacefully chewing on a ^pink;petite flower^#aee1ee;. \n> Suddenly, everything wents pitch black, then turns into ^green;green wireframe^#aee1ee; and you realize all your previous life was nothing but a ^red;simulation^#aee1ee;. You feel incredibly broken and empty inside. Praying to Kluex won't help in the least. \n\n> What will you do?",
+      "speedModifier" : 0.6
+    }
+  },
+  { "op" : "replace", "path" : "/species/floran/openSpeech/0/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : "### SAILDOS Fishy Edition \n### (c) 8195 Macrohard \n### Corporation. \n### Cracked by Grill Bulbert \n\nLoading SAIL \n..................................Error! \n\nBOOT FAILURE! File not found: brain.sys \n\nPlease insert neural simulator installation disc and reboot your machine.",
+      "speedModifier" : 1
+    }
+  },
+  { "op" : "replace", "path" : "/species/glitch/openSpeech/0/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : "Begin: Mounting root file system... \nhdb: failed to mount /dev/brain/ltmem \n\nsail: FATAL: Initial SAILinux policy load failed. Machine in enforcing mode. To disable sailinux, add sailinux=0 to the kernel command line. \nsail: Refusing to continue \n\nKernel panic - not syncing: Attempted to kill init!",
+      "speedModifier" : 1
+    }
+  },
+  { "op" : "replace", "path" : "/species/human/openSpeech/0/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : "*** STOP: 0xDEADBEEF (0xBAADFOOD, 0x5A11F158) \n\nA problem has been detected and S.A.I.L. has been shut down to prevent damage to your neural network simulation hardware. \n\nIf this is the first time you've seen this Stop error screen, please try to reboot the simulation core.",
+      "speedModifier" : 1
+    }
+  },
+  { "op" : "replace", "path" : "/species/novakid/openSpeech/0/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : "Pink fluffy unicorns \ndancing on rainbows. \nPink fluffy unicorns \ndancing on rainbows. \nPink fluffy unicorns \ndancing on rainbows. \nPink fluffy unicorns \ndancing on rainbows. \n\nLet's test your knowledge and see what you've learned so far! \nWhat colour are the unicorns?!",
+      "speedModifier" : 0.6
+    }
+  },
+  { "op" : "replace", "path" : "/species/penguin/openSpeech/0/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : "Let's make this quick. This tincan needs a reboot. Give it to me, will you?",
+      "speedModifier" : 1
+    }
+  },
+  { "op" : "replace", "path" : "/species/hylotl/openSpeech/0/0", "value" :
+    {
+      "animation" : "unique",
+      "text" : "*** COMMANDORE BASIC *** \n64G RAM 34 BASIC GB FREE \n\nREADY \nLOAD ''SAIL'' \nSEARCHING FOR SAIL \n......................................... \nLOADING \n........................ \nRUN \n............................ \nR Tape loading error, 0:1 \nPLEASE CHECK THE TAPEDISK FOR DAMAGE AND TRY AGAIN._",
+      "speedModifier" : 0.6
+    }
+  }
+]

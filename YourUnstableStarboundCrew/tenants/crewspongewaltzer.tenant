@@ -1,0 +1,27 @@
+{
+  "name": "crewspongewaltzer",
+  "priority": 10,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "crewspongewaltzer": 1
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "hylotl",
+	  "seed": 73457347,
+      "type": "crewspongewaltzer",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [800.0, 1200.0],
+    "pool": "spongewaltzerGift"
+  }
+}

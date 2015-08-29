@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinpeacegraffiti",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 1,
+	"smashOnBreak" : true,
+	"description" : "A messily drawn felin peace symbol.",
+	"shortdescription" : "Peace Graffiti",
+	"race" : "felin",
+	"apexDescription" : "Last time an apex drew something like that, they got taken away.",
+	"avianDescription" : "For a proud warrior race, the felin sure like the idea of peace.",
+	"floranDescription" : "Cat friends want peace. Floran confused.",
+	"glitchDescription" : "Hypothesis. The artist used a light coating to preserve pigment.",
+	"humanDescription" : "Peace, yo.",
+	"hylotlDescription" : "The sloppiness detracts from the message.",
+	"inventoryIcon" : "felinpeacegraffitiicon.png",
+	"orientations" : [
+		{
+			"image" : "felinpeacegraffiti.png",
+			"imagePosition" : [-12, -12],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

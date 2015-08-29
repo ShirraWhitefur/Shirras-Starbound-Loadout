@@ -1,0 +1,66 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "projectorState" : {
+        "default" : "off",
+        "states" : {
+          "on" : {
+            "frames" : 6,
+            "cycle" : 2,
+            "mode" : "loop"
+          },
+          "off" : {
+            "frames" : 6,
+            "cycle" : 4,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "projectorlit" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "projectorState" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:default"
+              }
+            },
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:default"
+              }
+            }
+          }
+        }
+      },
+      "projector" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "projectorState" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>",
+                "fullbright" : true
+              }
+            },
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>",
+                "fullbright" : true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

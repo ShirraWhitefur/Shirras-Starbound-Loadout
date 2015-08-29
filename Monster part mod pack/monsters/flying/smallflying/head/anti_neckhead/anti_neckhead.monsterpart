@@ -1,0 +1,9 @@
+{
+  "name" : "anti_neckhead",
+  "category" : "smallflying",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_neckhead.png"
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "type" : "petkeeper",
+  
+  "damageTeam" : 1,
+  "levelVariance" : [0, 0],
+
+  "disableWornArmor" : true,
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/scripts/pathing.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/chatState.lua",
+    "/npcs/converseState.lua",
+    "/npcs/fleeState.lua",
+    "/npcs/sitState.lua",
+    "/npcs/sleepState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+	"offeredQuests" : [ "petkeeper1.gearup" ],
+	"turnInQuests" : [ "petkeeper1.gearup" ],
+    "doorHitPoly" : [ [2, -1], [2, 1], [0, 1], [0, -1] ],
+    "idleTimeRange" : [2.0, 10.0],
+    "gapSensor" : [ [2.0, -4.5] ],
+    "gapFarSideSensors" : [ [3.0, -4.5], [4.0, -4.5], [5.0, -4.5], [6.0, -4.5], [7.0, -4.5], [8.0, -4.5] ],
+    "gapJumpHoldTime" : 0.4,
+
+    "converse" : {
+      "waitTime" : 0.5,
+      "dialog" : {
+        "default" : [ "I have nothing to say to you" ],
+        "apex" : {
+          "default" : [
+            "You don't LOOK like Miniknog..."
+          ],
+          "human" : [
+            "Ah, lovely to see humans in our midst."
+          ],
+          "apex" : [
+            "You take a risk coming back here, pariah."
+          ],
+          "avian" : [
+            "Greetings, Avian."
+          ],
+          "floran" : [
+            "A Floran. Oh."
+          ],
+          "glitch" : [
+            "Hello there, Glitch."
+          ],
+          "hylotl" : [
+            "Hello there, Hylotl."
+          ]
+        },
+        "hylotl" : {
+          "default" : [
+            "I'm not sure I want to know what you are."
+          ],
+          "human" : [
+            "Oh, hello smoothskin."
+          ],
+          "apex" : [
+            "Don't get too close, ape. You stink."
+          ],
+          "avian" : [
+            "Greetings, Avian."
+          ],
+          "floran" : [
+            "Ghurk!"
+          ],
+          "glitch" : [
+            "Oh, a robot."
+          ],
+          "hylotl" : [
+            "Ahh, finally someone who will appreciate me."
+          ]
+        },
+        "avian" : {
+          "default" : [
+            "Have a blessed day, stranger."
+          ],
+          "human" : [
+            "Greetings, human."
+          ],
+          "apex" : [
+            "Greetings, ape."
+          ],
+          "avian" : [
+            "Greetings, fellow Avian."
+          ],
+          "floran" : [
+            "Oh... a Floran."
+          ],
+          "glitch" : [
+            "Hello there, Glitch."
+          ],
+          "hylotl" : [
+            "Oh, a Hylotl."
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Have an awesome day!"
+          ],
+          "human" : [
+            "Yo!",
+            "Hey, great to see you."
+          ],
+          "apex" : [
+            "A talking monkey. Cool."
+          ],
+          "avian" : [
+            "Hey, it's a big bird!"
+          ],
+          "floran" : [
+            "A triffid!"
+          ],
+          "glitch" : [
+            "Whoa, nice, a robot."
+          ],
+          "hylotl" : [
+            "Oh hey, a giant fish."
+          ]
+        },
+        "floran" : {
+          "default" : [
+            "Ssstrange thing."
+          ],
+          "human" : [
+            "Meatman!"
+          ],
+          "apex" : [
+            "Floran want cuddle from monkey man!"
+          ],
+          "avian" : [
+            "Birdman!"
+          ],
+          "floran" : [
+            "Floran!"
+          ],
+          "glitch" : [
+            "Floran greet metal man!"
+          ],
+          "hylotl" : [
+            "Hsssss!"
+          ]
+        },
+    
+        "glitch" : {
+          "default" : [
+            "Confusion. What manner of being are you?"
+          ],
+          "human" : [
+            "Superiority. Puny human."
+          ],
+          "apex" : [
+            "Shocked. Such a hairy creature!"
+          ],
+          "avian" : [
+            "Query. Does your plumage self-assemble, or is it constructed by artisans?"
+          ],
+          "floran" : [
+            "Friendly. Greetings plantman."
+          ],
+          "glitch" : [
+            "Friendly. Greetings friend."
+          ],
+          "hylotl" : [
+            "Sceptical. For a species that lives underwater, you don't smell very clean."
+          ]
+        }
+      }
+    },
+
+    "flee" : {
+      "reactionTimeRange" : [0.2, 1.0],
+      "safeDistance" : 100,
+      "safeDistanceWithGuards" : 40,
+      "safeTimer" : 10,
+      "stuckTime" : 4,
+      "stuckCooldown" : 10,
+      "dialogTimeRange" : [4, 10],
+
+      "dialog" : {
+        "helpme" : {
+          "default" : [
+            "Help me!",
+            "Help!",
+            "I've been accosted!"
+          ],
+          "glitch" : [
+            "Fear. Help me!",
+            "Intimidated. Please don't hurt me!",
+            "Abused. I've been accosted!",
+            "Afraid. Get away from me!",
+            "Terrified. Save me!",
+            "Shocked. No! Get away from me!"
+          ],
+      "floran" : [
+        "Ssstabby time for me!",
+      "Floran being hurted!",
+      "Floran not ready for hunt!"
+      ]
+        },
+        "helpthem" : {
+          "default" : [
+            "What have you done!?"
+          ],
+          "glitch" : [
+            "Fear. Somebody help!",
+            "Intimidated. Please don't hurt me!",
+            "Afraid. Leave me be!",
+            "Terrified. Save me!",
+            "Shocked. What have you done?!",
+            "Righteous. I will write an electronic letter in protest!"
+          ],
+      "floran" : [
+        "Ssstabby time for me!",
+      "Floran being hurted!",
+      "Floran not ready for hunt!"
+      ]
+        },
+        "encourage" : {
+          "default" : [
+            "Get 'em!",
+            "Avenge me!",
+            "Stick 'em once for me!",
+            "Don't let 'em get away!"
+          ],
+          "glitch" : [
+            "Encourage. Put 'em to the sword!",
+            "Excitement. Avenge me!",
+            "Aggressive. Strike him down!",
+            "Vengeful. Don't let 'em get away!"
+          ],
+      "floran" : [
+        "Ssstabb the intruders!",
+      "Floran get revenge now!",
+      "Ssslice them!"
+      ]
+        },
+        "safe" : {
+          "default" : [
+            "Phew, I think I got away.",
+            "I've escaped with my life!",
+            "Is this the safe zone?"
+          ],
+          "glitch" : [
+            "Relieved. Phew, I think I got away.",
+            "Thankful. I've escaped with my life!",
+            "Wishful. If only I could afford a keep.",
+            "Hopeful. Am I safe?",
+            "Embarrassed. I think I leaked a little oil."
+          ],
+      "floran" : [
+        "Floran sssafe now.",
+      "Floran not get ssstabbed after all.",
+      "Them lucky Floran not have weapon.",
+      "Sssalvation!"
+      ]
+        }
+      }
+    },
+
+    "sit" : {
+      "timeOfDayRanges" : [ [0.0, 1.0] ],
+      "moveTimeLimit" : 30,
+      "searchRadius" : 25,
+      "sitRadius" : 3,
+      "cooldown" : 60,
+      "timeRange" : [15, 240]
+    },
+
+    "sleep" : {
+      "searchRadius" : 15,
+      "lieDownRadius" : 3,
+      "moveToBedTimeLimit" : 10.0,
+      "timeOfDayRanges" : [ [ [0.7, 0.75], [0.95, 1.0] ] ],
+      "cooldown" : 30
+    },
+
+    "wander" : {
+      "timeRange" : [2.0, 10.0],
+      "chatDistance" : 4,
+      "indoorTimeOfDayRanges" : [ [0.0, 1.0] ],
+      "indoorSearchRadius" : 60,
+      "indoorLookaheadDistance" : 4,
+      "moveToTargetTime" : 10.0,
+      "changeDirectionCooldown" : 2,
+      "dropDownChance" : 5,
+      "cooldown" : 10,
+      "maxDistanceFromSpawnPoint" : 10
+    },
+
+    "chat" : {
+      "distanceRange" : [2.0, 4.0],
+      "conversations" : [
+        [
+          [2, "blabbering", "idle" ],
+          [1, "idle", "laugh" ],
+          [2, "idle", "blabbering" ],
+          [1, "sad", "idle" ]
+        ],
+        [
+          [2, "idle", "blabbering" ],
+          [2, "blabbering", "happy" ],
+          [1, "wink", "laugh" ],
+          [2, "happy", "happy" ]
+        ],
+        [
+          [2, "idle", "blabbering" ],
+          [2, "blabbering", "blabbering" ],
+          [2, "blabbering", "annoyed" ],
+          [3, "shouting", "shouting" ],
+          [2, "annoyed", "annoyed" ]
+        ]
+      ],
+      "cooldown" : 10
+    }
+  },
+  
+  "items" : {
+        "default" : [
+            [0, [
+                {
+                    "head" : [ { "name" : "winterscarfhead" } ],
+                    "chest" : [ { "name" : "hunterchest" } ],
+					"legs" : [ { "name" : "hunterlegs" } ]
+                }
+            ] ]
+        ]
+    },
+
+  "movementControllerSettings" : {
+    "standingPoly" : [ [-0.75, -2.0], [-0.35, -2.5], [0.35, -2.5], [0.75, -2.0], [0.75, 0.65], [0.35, 1.22], [-0.35, 1.22], [-0.75, 0.65] ],
+    "crouchingPoly" : [ [-0.75, -2.0], [-0.35, -2.5], [0.35, -2.5], [0.75, -2.0], [0.75, -0.5], [0.35, 0], [-0.35, 0], [-0.75, -0.5] ],
+
+    "mass" : 0.6,
+    "airFriction": 0.0,
+    "airJumpProfile": {
+      "jumpSpeed" : 45.0,
+      "jumpInitialPercentage": 1.0,
+      "jumpHoldTime": 0.0
+    }
+  },
+
+  "humanoidTiming" : {
+    // Idle, Walk, Run, Jump, Fall, Swim, SwimIdle, Duck, Sit, Lay
+    "stateCycle" : [1.0, 0.75, 0.75, 0.25, 0.25, 0.50, 0.50, 1.0, 1.0, 1.0],
+    "stateFrames" : [1, 8, 8, 4, 4, 7, 2, 1, 1, 1],
+
+    // EmoteIdle, Blabbering, Shouting, Happy, Sad, NEUTRAL, Laugh, Annoyed, Oh, OOOH, Blink, Wink, Eat, Sleep
+    //          , normal    , caps    , :)   , :'(, :|     , :D   ,        , :o, :O  ,      , ;)
+    "emoteCycle" : [1.0, 0.3, 0.3, 0.3, 1.0, 0.3, 0.5, 1.0, 1.0, 1.0, 1.0, 0.5, 0.3, 1],
+    "emoteFrames" : [1, 2, 2, 2, 5, 2, 2, 2, 2, 3, 3, 5, 2, 2]
+  },
+  
+  "dropPools" : [ "villagertreasure" ],
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "appliesEnvironmentStatusEffects" : false,
+    "minimumLiquidStatusEffectPercentage" : 0.1,
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 5,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 900.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 100.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 2.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 100.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 200
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  },
+  
+  "persistent" : true,
+
+  "splashConfig" : {
+    "splashSpeedMin" : 10.0,
+    "splashMinWaterLevel" : 0.4,
+    "splashBottomSensor" : [0, -2.0],
+    "splashTopSensor" : [0, 2.0],
+    "numSplashParticles" : 8,
+    "splashYVelocityFactor" : 0.2,
+
+    "splashParticle" : {
+      "type" : "ember",
+      "position" : [0, -1],
+      "finalVelocity" : [0, -20],
+      "approach" : [0, 50],
+      "color" : [60, 150, 224, 100],
+      "size" : 4.0,
+      "timeToLive" : 0.5,
+      "destructionAction" : "shrink",
+      "destructionTime" : 0.2
+    },
+
+    "splashParticleVariance" : {
+      "velocity" : [10, 0]
+    }
+  }
+}

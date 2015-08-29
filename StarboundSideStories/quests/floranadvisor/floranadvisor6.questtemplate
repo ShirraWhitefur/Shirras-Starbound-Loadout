@@ -1,0 +1,16 @@
+  {
+  "id" : "floranadvisor6.gearup",
+  "prerequisites" : [ "floranadvisor5.gearup" ],
+  "title" : "^orange;Ssslithering Sssnakes",
+  "text" : "Floran knows what else this village needs, but it is a sssurprise for our new village member. Bring me five boneboos?",
+  "completionText" : "A sssnake! Every Floran village needs one. Place the bowl anywhere, and the sssnake will come!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "boneboo", "count" : 5, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "snakebowl", 1 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

@@ -1,0 +1,8 @@
+{
+	"input" : [
+		{ "item" : "steelbar", "count" : 2 },
+		{ "item" : "glass", "count" : 1 }
+	],
+	"output" : { "item" : "spycatsuithead", "count" : 1 },
+	"groups" : [ "scifianvil", "armors", "all" ]
+}

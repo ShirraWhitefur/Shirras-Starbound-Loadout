@@ -1,0 +1,17 @@
+{
+  "id" : "crewgoldobotmission2.gearup",
+  "prerequisites" : [ "crewgoldobotmission.gearup" ], 
+  "title" : "^green;King of the Castle",
+  "text" : "Do I want to join your crew? Of course! I'm sure it's more of a home than this reed shack. But I need my tools. They're near a lake of lava close to the core of the volcano the old castle was built on. I'm not much of a fighter, so how about you lead the way and I'll trail far behind?",
+  "completionText" : "I'm guessing you did alright against that usurper? While you were up there exploring the castle I broke through some of the rubble the other Glitch had set up and managed to find my way here. Take those tools of mine and throw them on your ship, and I'll join your crew!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "crewgoldobottools", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "colonydeed", 1] ]
+   ],
+  "canBeAbandoned" : false,
+  "requireTurnIn" : true
+}
+ 

@@ -1,0 +1,33 @@
+{
+  "name" : "Queenswrath",
+  "kind" : "queenshield",
+
+  "rarity" : "legendary",
+  "palette" : [
+    { }
+  ],
+
+  "hitSound" : "/sfx/melee/shield_block_metal.wav",
+  "perfectHitSound" : "/sfx/melee/shield_block_metal_perfect.wav",
+  "breakSound" : "/sfx/melee/shield_break_metal.wav",
+  "perfectBlockParticle" : "shieldspark",
+  "breakParticle" : "guardbrokenmessage",
+
+  "baseline" : {
+    "recoilTime" : 0.2,
+    "knockbackPower" : 10,
+    "knockbackDamageKind" : "",
+    "statusEffects" : [
+      {
+        "stat" : "encumberance",
+        "amount" : 0.4
+      }
+    ],
+    "shieldPoly" : [ [-8, 0], [-8, 12], [8, 20], [8, -24], [-8, -12] ],
+    "damagePoly" : [ [-8, 0], [8, 18], [8, -18] ]
+  },
+  "nameGenerator" : "Queenswrathnames.config:namegen",
+  "tooltipKind" : "shield",
+  "health" : 400.0,
+  "healthRegen" : 20
+}

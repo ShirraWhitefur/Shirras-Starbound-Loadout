@@ -1,0 +1,16 @@
+  {
+  "id" : "yourshiprobot2.gearup",
+  "prerequisites" : [ "yourshiprobot1.gearup" ],
+  "title" : "^orange;Powering up the Wrecked Console",
+  "text" : "To start off I'm going to have to go get 15 fragments of a planet's core to help power the console.",
+  "completionText" : "After you insert the ore into the power supply, it starts to whirl to life. As with anything electronics, however, it doesn't work, and errors pop up.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "corefragmentore", "count" : 15, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

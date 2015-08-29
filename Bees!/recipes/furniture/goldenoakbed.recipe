@@ -1,0 +1,10 @@
+{
+  "input" : [
+   { "item" : "goldenplank", "count" : 15 },  { "item" : "beesilk", "count" : 20 },  { "item" : "waxchunk", "count" : 5 },  { "item" : "money", "count" : 300 }
+  ],
+  "output" : {
+    "item" : "goldenoakbed",
+    "count" : 1
+  },
+  "groups" : [ "mod", "beestation", "objects", "all" ]
+}

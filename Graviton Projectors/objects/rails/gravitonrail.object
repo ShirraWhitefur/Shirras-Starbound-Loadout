@@ -1,0 +1,51 @@
+{
+  "objectName" : "gravitonrail",
+  "printable" : false,
+  "rarity" : "common",
+  "category" : "wire",
+  "price" : 2500,
+  "description" : "A device that projects a graviton energy field and a marker beam rail.",
+  "shortdescription" : "Graviton rail",
+  "race" : "generic",
+ 
+  "apexDescription" : "A device that projects a graviton energy field and a marker beam rail.",
+  "avianDescription" : "A device that projects a graviton energy field and a marker beam rail.",
+  "floranDescription" : "Makes thingsss vroosssh!",
+  "glitchDescription" : "Analysis. A device that projects a graviton energy field and a marker beam rail.",
+  "humanDescription" : "A device that projects a graviton energy field and a marker beam rail.",
+  "hylotlDescription" : "A device that projects a graviton energy field and a marker beam rail rail.",
+ 
+  "inventoryIcon" : "gravrailicon.png",
+
+  "orientations" : [
+    {
+      "image" : "/animations/gravitonrail.png:default.1?flipx",
+      "imagePosition" : [-16,0],
+      "spaceScan" : 0.6,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "/animations/gravrail.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "onSounds" : [ "/sfx/objects/gravitonpulse_on.wav" ],
+      "offSounds" : [ "/sfx/objects/gravitonpulse_off.wav" ]
+    }
+  },
+  "animationParts" : {
+    "gravrail" : "/animations/gravitonrail.png",
+    "powerglow" : "/animations/powerglow.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [ -2, 1 ] ],
+  "outboundNodes" : [ [ 2 , 1 ] ],  
+
+  "scripts" : [
+    "/scripts/gravitonrail.lua"
+  ],
+  "scriptDelta" : 1
+}

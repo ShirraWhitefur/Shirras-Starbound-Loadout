@@ -1,0 +1,29 @@
+{
+	"itemName" : "felintier6rifle",
+	"inventoryIcon" : "temprifle.png",
+	"dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+	"maxStack" : 1,
+	"price" : 180,
+	"rarity" : "legendary",
+	"description" : "",
+	"shortdescription" : "Felin tier 6 rifle",
+	"image" : "temprifle.png",
+	"handPosition" : [-4, -1],
+	"firePosition" : [26, 1.5],
+	"recoilTime" : 0.1,
+	"level" : 6,
+	"tooltipKind" : "gun",
+	"fireTime" : 1.0,
+	"twoHanded" : true,
+	"walkWhileFiring" : false,
+	"projectileType" : "plasmabullet",
+	"projectile" : {
+		"speed" : 150,
+		"life" : 3,
+		"power" : 6
+	},
+	"muzzleEffect" : {
+		"animation" : "/animations/muzzleflash/plasmamuzzle1/plasmamuzzle1.animation",
+		"fireSound" : [ { "file" : "/sfx/gun/plasma_pistol1.wav" } ]
+	}
+}

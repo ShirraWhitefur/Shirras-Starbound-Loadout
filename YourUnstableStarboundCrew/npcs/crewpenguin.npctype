@@ -1,0 +1,33 @@
+{
+  "type" : "crewpenguin",
+  "baseType" : "crewmerchant",
+  
+  "damageTeam" : 1, 
+  "levelVariance" : [-0.5, -0.5],
+
+  "disableWornArmor" : true,
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "turnInQuests" : [ "crewpenguinmission.gearup" ],
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 8,
+      "categories" : {
+        "default" : ["crewlovejonesshop" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.3, 0.4 ],
+      "numItems" : 20,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Merchant Jerry",
+          "subtitle" : "  pixels pls"
+        }
+      }
+    }
+  }
+}

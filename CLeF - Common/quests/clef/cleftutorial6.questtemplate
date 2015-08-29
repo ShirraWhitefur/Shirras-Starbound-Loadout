@@ -1,0 +1,12 @@
+{
+  "id" : "cleftutorial6.gearup",
+  "title" : "^yellow;CLeF Tutorial #6: Hunting",
+  "text" : "The food can be either ^green;grown^white;, collected from the ^orange;wild crops^white; or obtained by ^red;killing monsters^white;. Attacking with battle weapons will spoil the meat in the most cases, so you'll need to either ^green;craft a ^orange;Hunting Bow^white; or ^orange;Hunting Spear^white; to get as many pieces of meat as possible. Even if you're vegetarian, your pet is probably not, so treating it a ^orange;juicy roasted steak^white; would be nice.",
+  "completionText" : "Crunchy! While killing mosters is an easy option, growing stuff from the crops and seeds requires patience. And a ^orange;Hoe^white;, of course. You can either make it barehanded from ^orange;cobblestone^white; or try to find some ^orange;copper ore^white; and craft its more advanced version via ^orange;Crafting Table^white;.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "cookedalienmeat", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [60, 60],
+  "followUp" : "cleftutorial7.gearup",
+  "canBeAbandoned" : false
+}

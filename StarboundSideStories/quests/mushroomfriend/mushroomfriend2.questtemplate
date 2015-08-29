@@ -1,0 +1,16 @@
+  {
+  "id" : "mushroomfriend2.gearup",
+  "prerequisites" : [ "mushroomfriend1.gearup" ],
+  "title" : "^orange;Weird Shrooms",
+  "text" : "Bababa takes some pixels out and shakes them around, then points to you. You think he wants some pixels, but not really sure how much.",
+  "completionText" : "Apparently 1000 pixels did the trick, and he now swipes it out of your hands. In return he produces some materials, and points around his house, then to you. Maybe make a house for yourself?",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "money", "count" : 1000, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [  [ "darkwoodmaterial", 600 ], [ "shroomblock", 300 ], [ "platform", 150 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

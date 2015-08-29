@@ -1,0 +1,9 @@
+{
+  "name" : "anti_woolbody",
+  "category" : "smallflying",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "anti_woolbody.png"
+  }
+}

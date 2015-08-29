@@ -1,0 +1,26 @@
+{
+  "name": "crewhealinghelper",
+  "priority": 10,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "crewhealing": 1
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": ["novakid"],
+      "type": "crewnovahealer",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1200.0],
+    "pool": "crewhealingGift"
+  }
+}

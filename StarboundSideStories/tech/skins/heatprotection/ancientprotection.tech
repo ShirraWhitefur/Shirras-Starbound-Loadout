@@ -1,0 +1,8 @@
+{
+  "name" : "ancientprotection",
+  "type" : "suit",
+  "suitOverlay" : "/tech/skins/heatprotection/suits/<species>-<gender>.png",
+
+  "scripts" : ["ancientprotection.lua"],
+  "actions" : []
+}

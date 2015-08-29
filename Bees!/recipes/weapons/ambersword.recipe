@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "833honeycrystalblock", "count" : 14 }, { "item" : "steelbar", "count" : 10 }
+  ],
+  "output" : { "item" : "833ambersword", "count" : 1 },
+  "groups" : [ "mod", "beestation", "weapons", "all" ]
+}

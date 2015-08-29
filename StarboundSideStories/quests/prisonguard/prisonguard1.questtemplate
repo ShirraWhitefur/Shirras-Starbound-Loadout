@@ -1,0 +1,13 @@
+  {
+  "id" : "prisonguard1.gearup",
+  "title" : "^orange;Prison Guard Down!",
+  "text" : "Ugh...thank goodness you're not one of those crazy prisoners out there. I was one of the guards at the prison before everyone revolted and took over. Hopefully others are okay.",
+  "completionText" : "Oh...I'm the only one left. I don't even want to know where the others are. Since I'm a little injured, do you think you could go take care of the rest of the prisoners?",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

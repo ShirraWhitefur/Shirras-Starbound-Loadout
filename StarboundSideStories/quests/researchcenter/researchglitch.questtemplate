@@ -1,0 +1,16 @@
+  {
+  "id" : "researchglitch.gearup",
+  "prerequisites" : [ "researchfloran.gearup" ],
+  "title" : "^orange;Ancient Glitch",
+  "text" : "So the Floran chief knows nothing...ugh. The notes are a little hard to decipher, but Lux is on it. Perhaps there is a Glitch leader of some sorts in a village that you could talk to next.",
+  "completionText" : "Disappointment. Sorry adventurer, we only have myths that have to do with the ark. I'm handing you some of those myths to take back to the research center. Best of luck in understanding what's going on.",
+  "completionConditions" : [
+	
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

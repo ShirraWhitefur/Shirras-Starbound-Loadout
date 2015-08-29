@@ -1,0 +1,11 @@
+{
+	"name" : "Felins Objects+",
+	"path" : ".",
+	"requires" : [ "Felins" ],
+	"includes" : [],
+	"metadata" : {
+		"author" : "Kawa",
+		"description" : "Adds Felin descriptions to the default objects.",
+		"version" : "1.0.4"
+	}
+}

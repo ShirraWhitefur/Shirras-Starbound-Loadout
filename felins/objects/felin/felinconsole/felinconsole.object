@@ -1,0 +1,50 @@
+{
+	"objectName" : "felinconsole",
+	"tags" : [ "felin", "electronic", "wired" ],
+	"rarity" : "common",
+	"category" : "wire",
+	"price" : 40,
+	"description" : "todo",
+	"shortdescription" : "Small Console",
+	"race" : "felin",
+	"apexDescription" : "todo",
+	"avianDescription" : "todo",
+	"floranDescription" : "todo",
+	"glitchDescription" : "todo",
+	"humanDescription" : "todo",
+	"hylotlDescription" : "todo",
+	"felinDescription" : "todo",
+	"inventoryIcon" : "felinconsoleicon.png",
+	"lightColor" : [61, 88, 102],
+	"lightPosition" : [0, 0],
+	"orientations" : [
+		{
+			"imageLayers" : [ { "image" : "felinconsole.png:default", "fullbright" : true }, { "image" : "felinconsole.png:lit" } ],
+			"flipImages" : true,
+			"direction" : "left",
+			"imagePosition" : [-8, 0],
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		},
+		{
+			"imageLayers" : [ { "image" : "felinconsole.png:default", "fullbright" : true }, { "image" : "felinconsole.png:lit" } ],
+			"direction" : "right",
+			"imagePosition" : [-8, 0],
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"soundEffect" : "/sfx/objects/bunkerconsole.wav",
+	"scripts" : [ "/objects/wired/switch/switch.lua" ],
+	"scriptDelta" : 5,
+	"animation" : "/objects/wired/switch/switchtoggle.animation",
+	"animationCustom" : {
+		"sounds" : {
+			"on" : [ "/sfx/objects/screen2.wav" ],
+			"off" : [ "/sfx/objects/console_generic_switchoff.wav" ]
+		}
+	},
+	"animationParts" : { "switch" : "felinconsole.png" },
+	"animationPosition" : [-8, 0],
+	"outboundNodes" : [ [0, 0] ]
+}

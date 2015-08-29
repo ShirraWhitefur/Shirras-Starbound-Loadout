@@ -1,0 +1,16 @@
+  {
+  "id" : "wizardmerchant5.gearup",
+  "prerequisites" : [ "wizardmerchant4.gearup" ],
+  "title" : "^orange;Merlibot and the Magical Clones",
+  "text" : "Nostalgic. I once had a book on some pieces of wood that some might call a medieval codex. How about you bring me one?",
+  "completionText" : "Excitement. Yes, this is the exact same medieval codex. No others like it. Wow. It even has a spell on it that we shall both learn. It summons me...ANYWHERE. Good job, apprentice wizard. ",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "medievalcodex", "count" : 1, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "spawnerwizard-recipe", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

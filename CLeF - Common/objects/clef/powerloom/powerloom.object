@@ -1,0 +1,51 @@
+{
+  "objectName" : "powerloom",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "A device that uses fabrics. I can tailor new clothes with it!",
+  "shortdescription" : "^orange;Power Loom^white;",
+  "race" : "generic",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/clef/windowconfig/powerloom.config",
+    "filter" : [ "spinningwheel" ]
+  },
+  "category" : "crafting",
+  "price" : 500,
+
+  "apexDescription" : "Artisan tailors use machines like these.",
+  "avianDescription" : "Less effort than a spinning wheel.",
+  "floranDescription" : "Floran wantsss ssshirt fassster!",
+  "glitchDescription" : "Analysis. It can weave fabrics very efficiently.",
+  "humanDescription" : "Not so old fashioned now, are we?",
+  "hylotlDescription" : "Ah, a hi-tech cloth spinner! How pleasing.",
+  "novakidDescription" : "So that's how these fancy clothes are made!",
+
+  "inventoryIcon" : "powerloom_inv.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "powerloom.png:<color>.<frame>", "fullbright" : true }, { "image" : "powerloomlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-16, 0],
+      "frames" : 2,
+      "animationCycle" : 0.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "powerloom.png:<color>.<frame>", "fullbright" : true }, { "image" : "powerloomlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 2,
+      "animationCycle" : 0.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}

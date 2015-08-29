@@ -1,0 +1,9 @@
+{
+  "name" : "anti_tallroostertail",
+  "category" : "largebiped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "anti_tallroostertail.png"
+  }
+}

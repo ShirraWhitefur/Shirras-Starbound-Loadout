@@ -1,0 +1,67 @@
+[
+  { 
+    "op" : "add", 
+    "path" : "/gunDamageLevelMultiplier/12", 
+    "value" : [11, 6.0]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/gunLevelEnergyCostPerDamage/12", 
+    "value" : [11, 1.5]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/staffDamageLevelMultiplier/12", 
+    "value" : [11, 6.0]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/staffLevelEnergyCostPerDamage/12", 
+    "value" : [11, 0.5]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/swordDamageLevelMultiplier/12", 
+    "value" : [11, 6.0]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/shieldLevelMultiplier/12",
+    "value" : [11, 2.0]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/npcLevelHealthIncrease/12",
+    "value" : [11, 0.60]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/npcLevelEnergyIncrease/12", 
+    "value" : [11, 2.2]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/npcLevelPowerMultiplier/12", 
+    "value" : [11, 5.0]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/npcLevelProtectionIncrease/12", 
+    "value" : [11, 76]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/monsterLevelHealthIncrease/12", 
+    "value" : [11, 7.0]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/monsterLevelTouchDamageMultiplier/12", 
+    "value" : [11, 5.5]
+  },
+  { 
+    "op" : "add", 
+    "path" : "/monsterLevelPowerMultiplier/12", 
+    "value" : [11, 5.5]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "id" : "fatalcircuit2.gearup",
+  "prerequisites" : [ "fatalcircuit1.gearup" ],
+  "requiredShipLevel" : 3,  
+  "title" : "^yellow;Fatal Circuit #2: Prelude",
+  "text" : "So, those two iron dorks sent you, huh? And you've got the ^green;gems^white;? Sweet. Listen, you look like a bright fellow, so let me tell you this - nobody would even come near the two glitch losers, let alone guard them. Say, what if I'll give you some, ahem, ^yellow;rare schematics^white; and you'll ^green;build a personal highly advanced ^yellow;robot bodyguard^white; for them? Sounds like a deal, right?",
+  "completionText" : "Okay, I've just sent you the schematics. Oh, you'll also need ^yellow;this handy tool^white;. Just don't tell anyone I gave it to you, this stuff is illegal in half of the galaxy. Dangerous? Nope, it just ^green;rips monster's brains off^white;. With several modifications, though, it could be used against sentient creatures, like you and me, but you are wise enough to not do that, right?",
+  "acceptItems" : [ ],
+  "completionConditions" : [
+    { "type" : "gather", "item" : "emerald", "count" : 5 }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+    [ [ "brainextractor", 1 ] ]
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "fatalcircuit3.gearup",
+  "requireTurnIn" : true
+}
+ 

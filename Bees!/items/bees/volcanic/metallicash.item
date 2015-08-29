@@ -1,0 +1,8 @@
+{
+  "itemName" : "metallicash",
+  "rarity" : "Common",
+  "inventoryIcon" : "metallicash.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A chunk of stone, commonly found around volcanoes.",
+  "shortdescription" : "Basalt Chunk"
+}

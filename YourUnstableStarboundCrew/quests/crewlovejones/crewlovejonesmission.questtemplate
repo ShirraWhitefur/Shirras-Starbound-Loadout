@@ -1,0 +1,17 @@
+{
+  "id" : "crewlovejonesmission.gearup",
+  "prerequisites" : [ "yourstarboundcrewstart.gearup" ], 
+  "title" : "^green;Helping Taylor",
+  "text" : "I recently escaped from Earth, as I'm assuming you did as well. Unlike you, however, I tried my luck at starting the FTL drive without repairing it, and it sent me hurtling down towards this planet. I think my ship should be through a cavern to the right of us, under the water. I'll try to meet you there! My storage locker has a star map that points to various crew members I was intending on recruiting, if you're interested.",
+  "completionText" : "Just made it here, glad I managed to find my grapple hook while I was out exploring and found you. If you put that console you found inside your ship, along with this colony deed, I'll appear and try to be useful! Thanks for the help, hope I get to call you captain!",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "crewlovejonesdisplay", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "colonydeed", 1] ]
+   ],
+  "canBeAbandoned" : false,
+  "requireTurnIn" : true
+}
+ 

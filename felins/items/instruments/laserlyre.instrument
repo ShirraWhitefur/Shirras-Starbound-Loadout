@@ -1,0 +1,18 @@
+{
+	"itemName" : "laserlyre",
+	"inventoryIcon" : "laserlyreicon.png",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "common",
+	"description" : "A pocket-sized fold-out lightshow.",
+	"shortdescription" : "Laser Lyre",
+	"largeImage" : "laserlyre.png",
+	"image" : "laserlyre.png",
+	"tooltipKind" : "tool",
+	"activeImage" : "laserlyre.png",
+	"activeAngle" : -20,
+	"activeHandPosition" : [0.1, 0.1],
+	"handPosition" : [0, 0],
+	"twoHanded" : true,
+	"kind" : "sawtooth"
+}

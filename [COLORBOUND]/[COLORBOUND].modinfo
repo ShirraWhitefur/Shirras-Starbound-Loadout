@@ -1,0 +1,15 @@
+{
+  "name" : "[COLORBOUND]",
+  "version" : "Beta v. Upbeat Giraffe",
+  "path" : ".",
+  "dependencies" : [ ],
+  "metadata" : {
+    "displayName" : "[COLORBOUND]",
+    "author" : "Seraphi",
+    "version" : "3.2",
+	"date" : "31/01/2015",
+	"description" : "Downloaded from http://playstarbound.com/modding/",
+	"support_url" : "http://community.playstarbound.com/"
+  }
+}
+

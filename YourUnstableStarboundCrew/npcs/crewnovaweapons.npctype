@@ -1,0 +1,48 @@
+{
+  "type" : "crewnovaweapons",
+  "baseType" : "villager",
+  
+
+  "scriptConfig" : {
+    "offeredQuests" : [ "crewweapontenant.gearup" ],
+    "turnInQuests" : [ "crewweapontenant.gearup" ],
+    "dialog" : {
+      "converse" : {
+        "glitch" : {
+          "default" : [
+            "Pompous. I am minor royalty! You'd be good to me if you were wise.",
+            "Disappointed. I'm used to living in grander places than this.",
+            "Unappreciative. I suppose I could live here. I've lived in bigger places, though.",
+            "Wistful. I used to live in a grand castle, tall enough to touch the sky itself.",
+            "Disrespectful. This home will do, but it isn't as grand as I'd like."
+          ],
+          "glitch" : [
+            "Polite. You only look like a peasant, but it doesn't mean you can't achieve great things.",
+            "Recognising. I used to have a servant that looked just like you!",
+            "Unappreciative. I've had much bigger homes than this. Someone like you wouldn't understand.",
+            "Wistful. I used to live in a grand castle, tall enough to touch the sky itself.",
+            "Intrigued. If you aren't royalty, who does all your chores?"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "novatier1head" }
+            ],
+            "chest" : [
+              { "name" : "novatier1chest" }
+            ],
+            "legs" : [
+              { "name" : "novatier1pants" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

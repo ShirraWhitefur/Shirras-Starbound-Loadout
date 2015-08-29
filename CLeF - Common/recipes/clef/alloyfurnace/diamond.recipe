@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "diamondore", "count" : 2 }
+  ],
+  "output" : { "item" : "diamond", "count" : 1 },
+  "groups" : [ "alloyfurnace", "all" ]
+}

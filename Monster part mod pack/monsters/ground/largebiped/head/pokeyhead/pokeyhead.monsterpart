@@ -1,0 +1,14 @@
+{
+  "name" : "pokeyhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "pokeyhead.png"
+  },
+
+"parameters" :
+  {
+  }
+}
+

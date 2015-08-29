@@ -1,0 +1,30 @@
+{
+	"itemName" : "felintier3rifle",
+	"inventoryIcon" : "temprifle.png",
+	"dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+	"maxStack" : 1,
+	"price" : 180,
+	"rarity" : "uncommon",
+	"description" : "",
+	"shortdescription" : "Felin tier 3 rifle",
+	"image" : "temprifle.png",
+	"handPosition" : [-4, 0],
+	"firePosition" : [29, 2.5],
+	"recoilTime" : 0.1,
+	"level" : 3,
+	"tooltipKind" : "gun",
+	"fireTime" : 1.0,
+	"twoHanded" : true,
+	"walkWhileFiring" : false,
+	"projectileType" : "plasmabullet",
+	"projectile" : {
+		"speed" : 150,
+		"life" : 3,
+		"power" : 6,
+		"color" : [255, 10, 10]
+	},
+	"muzzleEffect" : {
+		"animation" : "/animations/muzzleflash/plasmamuzzle1/plasmamuzzle1.animation",
+		"fireSound" : [ { "file" : "/sfx/gun/plasma_pistol1.wav" } ]
+	}
+}

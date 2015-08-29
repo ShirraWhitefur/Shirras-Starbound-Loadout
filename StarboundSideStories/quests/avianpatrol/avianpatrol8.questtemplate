@@ -1,0 +1,16 @@
+  {
+  "id" : "avianpatrol8.gearup",
+  "prerequisites" : [ "avianpatrol7.gearup" ],
+  "title" : "^orange;Bunny Time!",
+  "text" : "While I was cooking with some carrots I saw a little bunny run by. Sadly I'm all out of carrots now, and it seems to have ran away. Bring me three carrots to try to get the bunny back!",
+  "completionText" : "Cool! Just take this bowl full of those carrots, and our village will have a pet bunny!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" :  "carrot", "count" : 3, "consume" : true }
+  ],
+  "moneyRange" : [400, 600],
+  "rewards" : [
+     [ [  "bunnybowl", 1 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

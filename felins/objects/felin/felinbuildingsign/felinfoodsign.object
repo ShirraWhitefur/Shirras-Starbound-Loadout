@@ -1,0 +1,38 @@
+{
+	"objectName" : "felinfoodsign",
+	"tags" : [ "felin", "felinvillage" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 50,
+	"shortdescription" : "Felin 'Food' Sign",
+	"description" : "'Food.'",
+	"floranDescription" : "'Flesssh.'",
+	"race" : "felin",
+	"inventoryIcon" : "felinbuildingsign.png:food.icon",
+	"orientations" : [
+		{
+			"image" : "felinbuildingsign.png:food.top",
+			"imagePosition" : [-8, -8],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "top" ]
+		},
+		{
+			"image" : "felinbuildingsign.png:food.side",
+			"imagePosition" : [-8, -8],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "left" ]
+		},
+		{
+			"image" : "felinbuildingsign.png:food.side",
+			"imagePosition" : [-8, -8],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "right" ]
+		}
+	]
+}

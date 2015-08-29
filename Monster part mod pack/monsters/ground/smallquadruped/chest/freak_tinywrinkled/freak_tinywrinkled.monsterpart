@@ -1,0 +1,9 @@
+{
+  "name" : "freak_tinywrinkled",
+  "category" : "smallquadruped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "freak_tinywrinkled.png"
+  }
+}

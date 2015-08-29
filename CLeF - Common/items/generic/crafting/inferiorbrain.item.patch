@@ -1,0 +1,4 @@
+[
+  { "op" : "replace", "path" : "/description", "value" : "A waste of brain cells. Might taste good if cooked." },
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup", "value" : [ "brainstew", "brainpie", "monsterbrainjar" ] }
+]

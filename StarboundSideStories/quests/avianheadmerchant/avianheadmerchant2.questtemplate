@@ -1,0 +1,16 @@
+  {
+  "id" : "avianheadmerchant2.gearup",
+  "prerequisites" : [ "avianheadmerchant1.gearup" ],
+  "title" : "^orange;Merchant Glory 1",
+  "text" : "This order came in from a Floran. They want one of those white and brown pelts found in Floran villages. If you can find it I'll pay double its value!",
+  "completionText" : "Dang, you're good. The Floran will be incredibly happy with his purchase thanks to you.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "floranpelt5", "count" : 1, "consume" : true }
+  ],
+  "moneyRange" : [600, 700],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

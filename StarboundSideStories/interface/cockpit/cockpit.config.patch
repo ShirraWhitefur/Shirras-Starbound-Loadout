@@ -1,0 +1,67 @@
+[
+  {
+    "op" : "add",
+    "path" : "/starmapTypeColor/crewunstablestar",
+    "value" : [162, 57, 46, 255]
+  },
+  {
+    "op" : "add",
+    "path" : "/starmapTypeDescription/crewunstablestar",
+    "value" : "Ancient Star"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/crewgarden",
+    "value" : "A ^#76fe68;lush ^white;planet teeming with plenty of life."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/crewforest",
+    "value" : "A forested planet, filled with life."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/crewsavannah",
+    "value" : "An arid land scape that is filled with life."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/crewjungle",
+    "value" : "A dense and dangerous jungle."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/crewalien",
+    "value" : "Planet is covered in ^#7800ff;alien ^white;plant life.^red; Non breathable atmosphere. ^red;High levels of radiation."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/crewtundra",
+    "value" : "A vast expanse of ^#61ffe3;ice ^white;and snow. ^red;Temp dangerously low."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/ancientplanet",
+    "value" : "This ancient planet appears to be almost as old as the universe itself... ^red;Incredibly dangerous."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/ancientplanet2",
+    "value" : "This ancient forest appears to be almost as old as the universe itself... ^red;Incredibly dangerous."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/ancientplanet3",
+    "value" : "This ancient tundra appears to be almost as old as the universe itself... ^red;Incredibly dangerous."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/ancientplanet4",
+    "value" : "This ancient planet is seething with tentacles. ^red;Incredibly dangerous."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/ancientgateway2",
+    "value" : "This gate seems to be different from the other systems..."
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "upgrademodule", "count" : 5 },
+    { "item" : "manipulatormodule", "count" : 2 },
+    { "item" : "crewKEI3", "count" : 1 },
+    { "item" : "blanktechcard", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "crewKEIdefense",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

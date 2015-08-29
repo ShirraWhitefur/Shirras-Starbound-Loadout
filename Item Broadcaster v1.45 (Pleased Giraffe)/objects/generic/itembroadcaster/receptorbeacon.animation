@@ -1,0 +1,58 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "static" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 1
+          },
+		  "on" : {
+			"frames" : 1
+			},
+		  "pulse" : {
+			"frames" : 1
+		  }
+        }
+      }
+    },
+
+    "parts" : {
+      "beacon" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "static" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:off"
+              }
+            },
+			"on" : {
+              "properties" : {
+                "image" : "<partImage>:on"
+              }
+            }
+          }
+        }
+      },
+	  "pulsebeacon" : {
+        "properties" : {
+          "centered" : true,
+		  "offset" : [0.5, 0.5]
+        },
+        "partStates" : {
+          "static" : {
+            "pulse" : {
+              "properties" : {
+                "image" : "<partImage>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

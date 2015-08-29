@@ -1,0 +1,9 @@
+{
+  "name" : "anti_tinyhairychest",
+  "category" : "smallquadruped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "anti_tinyhairychest.png"
+  }
+}

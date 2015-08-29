@@ -1,0 +1,9 @@
+{
+  "itemName" : "irondrone",
+  "rarity" : "Common",
+  "inventoryIcon" : "irondrone.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "An iron bee drone.",
+  "shortdescription" : "Iron Drone",
+  "maxStack" : 1000
+}

@@ -1,0 +1,38 @@
+[
+	{ "op" : "add",
+		"path" : "/scriptConfig/merchant/categories/felin",
+		"value" : [ "randomguns", "randomswords", "felinarmorblueprints", "felinclothes", "feliningredients", "musicalinstruments" ]
+	},
+	{ "op" : "add",
+		"path" : "/items/felin",
+		"value" : [
+			[0, [
+				{
+					"chest" : [
+						{ "name" : "kimonochest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					],
+					"legs" : [
+						{ "name" : "kimonolegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					]
+				},
+				{
+					"chest" : [
+						{ "name" : "shirtlong1chest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					],
+					"legs" : [
+						{ "name" : "jeans3legs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "jeans1legs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					]
+				},
+				{
+					"chest" : [
+						{ "name" : "felincrafterchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					],
+					"legs" : [
+						{ "name" : "felincrafterlegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					]
+				}
+			] ]
+		]
+	}
+]

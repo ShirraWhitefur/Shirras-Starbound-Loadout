@@ -1,0 +1,14 @@
+{
+  "name" : "chronotriggerhead5",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "chronotriggerhead5.png"
+  },
+
+ "parameters" :
+  {
+  }
+}
+

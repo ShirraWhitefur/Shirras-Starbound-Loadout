@@ -1,0 +1,16 @@
+  {
+  "id" : "igloohylotl2.gearup",
+  "prerequisites" : [ "igloohylotl1.gearup" ],
+  "title" : "^orange;Fishy Meal",
+  "text" : "I suppose the first thing to do would be to have a meal! Could you possibly go out and get a raw piece of fish?",
+  "completionText" : "These last few months have been spent cooking lots of fish, and I guess at this point I'm a bit of an expert. Here's some cooked fish just for you, fresh off the camp fire!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "rawfish", "count" : 1, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "cookedfish", 10 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

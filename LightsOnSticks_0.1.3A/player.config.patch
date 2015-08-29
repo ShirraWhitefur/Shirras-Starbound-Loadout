@@ -1,0 +1,37 @@
+[
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "outpostlightstickback"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "shiplightstickback"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "uraniumradiationrod"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "preservedglowstick"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "solariumstarrod"
+    }
+  }
+]

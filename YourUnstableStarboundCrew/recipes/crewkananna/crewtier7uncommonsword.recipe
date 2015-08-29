@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "upgrademodule", "count" : 4 },
+    { "item" : "crewtier7broadsword", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "crewtier7uncommonbroadsword",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

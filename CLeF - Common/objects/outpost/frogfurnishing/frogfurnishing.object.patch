@@ -1,0 +1,6 @@
+[
+  // NoLag patch
+  { "op" : "replace", "path" : "/orientations/0/animationCycle", "value" : 6.3 },
+  { "op" : "replace", "path" : "/orientations/1/animationCycle", "value" : 6.3 },
+  { "op" : "replace", "path" : "/scriptDelta", "value" : 30}
+]

@@ -1,0 +1,49 @@
+{
+  "type" : "crewthorngrazer",
+  "baseType" : "crewmerchant",
+  
+  "damageTeam" : 1, 
+  "levelVariance" : [-0.5, -0.5],
+
+  "disableWornArmor" : true,
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "offeredQuests" : [ "crewthorngrazermission2.gearup" ],
+    "turnInQuests" : [ "crewthorngrazermission.gearup", "crewthorngrazermission2.gearup" ],
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 8,
+      "categories" : {
+        "default" : ["crewthorngrazershop" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 20,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Kananna Bonebane",
+          "subtitle" : "  In case of a fight."
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "toughchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "toughlegs", "parameters" : { "colorIndex" : 1 } }
+            ]
+          }
+      ]]
+    ]
+  }
+}

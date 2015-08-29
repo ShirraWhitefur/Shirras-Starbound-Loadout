@@ -1,0 +1,15 @@
+{
+  "name" : "anti_dreadbody",
+  "category" : "smallbiped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "anti_dreadbody.png"
+  },
+
+  "parameters" : {
+    "walkMultiplier" : 0.3,
+    "runMultiplier" : 1.0,
+    "jumpMultiplier" : 1.2
+  }
+}

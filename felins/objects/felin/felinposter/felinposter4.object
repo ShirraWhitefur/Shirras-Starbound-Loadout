@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinposter4",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 100,
+	"shortdescription" : "Calming Felin Poster",
+	"description" : "Make love, not war.",
+	"race" : "felin",
+	"apexDescription" : "Is there no end to the cats' mockery?",
+	"avianDescription" : "This seems to be a parody of a parody. Neat, in a way.",
+	"floranDescription" : "No! Make ssstabby war, not filthy flessshling love!",
+	"glitchDescription" : "Critical. The subject's chest appears to have been manipulated in post.",
+	"humanDescription" : "A nice sentiment, ma'am. Pick a number.",
+	"hylotlDescription" : "When it comes to mocking, the cats have it down to an art.",
+	"felinDescription" : "A little from column A, a little from column B...",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinposter40.png:3",
+			"imagePosition" : [-20, -16],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

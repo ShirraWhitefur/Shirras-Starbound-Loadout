@@ -1,0 +1,370 @@
+{
+	"panels" : [
+		{
+			"drawables" : [ { "image" : "/cinematics/black.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 1,
+					"position" : [480, 270],
+					"timecode" : 0,
+					"zoom" : 500
+				}
+			]
+		},
+
+		//"The Felins."
+		{
+			"drawables" : [ { "image" : "/cinematics/felin/intro01a.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 270],
+					"timecode" : 0,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 0.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 5.5
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 6
+				}
+			]
+		},
+		{
+			"drawables" : [ { "image" : "/cinematics/felin/intro01b.png:{frame}" } ],
+			"animationFrames" : 4,
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"frame" : 0,
+					"zoom" : 1.5,
+					"position" : [346, 298],
+					"timecode" : 0
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 0.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 5.5
+				},
+				{
+					"alpha" : 0,
+					"frame" : 40,
+					"position" : [336, 302],
+					"timecode" : 6
+				}
+			]
+		},
+		{
+			"drawables" : [ { "image" : "/cinematics/felin/intro01c.png:0" } ],
+			"animationFrames" : 1,
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"frame" : 0,
+					"zoom" : 1.5,
+					"position" : [358, 416],
+					"timecode" : 0
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 0.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 5.5
+				},
+				{
+					"alpha" : 0,
+					"frame" : 0,
+					"zoom" : 1.3,
+					"position" : [362, 410],
+					"timecode" : 6
+				}
+			]
+		},
+		{
+			"drawables" : [ { "image" : "/cinematics/felin/intro01c.png:1" } ],
+			"animationFrames" : 1,
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"frame" : 0,
+					"zoom" : 1.5,
+					"position" : [634, 258],
+					"timecode" : 0
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 0.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 5.5
+				},
+				{
+					"alpha" : 0,
+					"frame" : 0,
+					"zoom" : 1.7,
+					"position" : [630, 252],
+					"timecode" : 6
+				}
+			]
+		},
+
+
+		//"A curious people, peaceful on the surface..."
+		{
+			"drawables" : [ { "image" : "/cinematics/felin/intro02.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 270],
+					"timecode" : 5.5,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 6
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 11.5
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 12
+				}
+			]
+		},
+
+
+		//"Felins have no gods, only heroes..."
+		//(placed here for layering purposes)
+		{
+			"drawables" : [ { "image" : "/cinematics/felin/intro04a.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 294],
+					"timecode" : 17.5,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 18
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 23.5
+				},
+				{
+					"alpha" : 1,
+					"position" : [480, 300],
+					"timecode" : 24
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 25
+				}				
+			]
+		},
+		{
+			"drawables" : [ { "image" : "/cinematics/felin/intro04e.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 264],
+					"timecode" : 17.5,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 18
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 23.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 24
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 25
+				}
+			]
+		},
+		{
+			"drawables" : [ { "image" : "/cinematics/felin/intro04b.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 294],
+					"timecode" : 17.5,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 18
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 23.5
+				},
+				{
+					"alpha" : 1,
+					"position" : [480, 298],
+					"timecode" : 24
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 25
+				}
+			]
+		},
+		{
+			"drawables" : [ { "image" : "/cinematics/felin/intro04d.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 293],
+					"timecode" : 17.5,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 18
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 23.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 24
+				}
+			]
+		},
+		{
+			"drawables" : [ { "image" : "/cinematics/felin/intro04c.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 90],
+					"timecode" : 17.5,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 18
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 23.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 24
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 25
+				}
+			]
+		},
+
+
+		//"...but just as often, vicious and cunning."
+		{
+			"drawables" : [ { "image" : "/cinematics/felin/intro03.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 270],
+					"timecode" : 11.5,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 12
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 17.5
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 18
+				}
+			]
+		},
+
+		//"...and an insatiable curiosity."
+		{
+			"drawables" : [ { "image" : "/cinematics/felin/intro05.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 270],
+					"timecode" : 23.5,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 24
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 29.5
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 30
+				}
+			]
+		},
+		//"Such a thing has never killed anyone, right?"
+		{
+			"drawables" : [ { "image" : "/cinematics/felin/intro06.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 270],
+					"timecode" : 29.5,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 30
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 35.5
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 36
+				}
+			]
+		}
+	],
+	"audio" : [
+		{ "timecode" : 0, "resource" : "/cinematics/felin/1100821.ogg" },
+		{ "timecode" : 1, "resource" : "/cinematics/felin/felins_frame1.ogg" },
+		{ "timecode" : 6.5, "resource" : "/cinematics/felin/felins_frame2.ogg" },
+		{ "timecode" : 12, "resource" : "/cinematics/felin/felins_frame3.ogg" },
+		{ "timecode" : 18.5, "resource" : "/cinematics/felin/felins_frame4.ogg" },
+		{ "timecode" : 24, "resource" : "/cinematics/felin/felins_frame5.ogg" },
+		{ "timecode" : 32, "resource" : "/cinematics/felin/felins_frame6.ogg" }
+	]
+}

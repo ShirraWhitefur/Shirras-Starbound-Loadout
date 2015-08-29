@@ -1,0 +1,13 @@
+  {
+  "id" : "airship1.gearup",
+  "title" : "^orange;Welcome to my Airship!",
+  "text" : "Ahoy! Who might you be...? Ah, a friendly explorer! That's great to hear. I'm Captain Suncaller, and this is my ship the Sun Spear. I'm actually looking for a new crew member, would you have any interest?",
+  "completionText" : "Glad to hear! One thing I forgot to mention is that my ship is a little broken at the moment, so we're kind of stuck here...",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

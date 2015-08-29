@@ -1,0 +1,23 @@
+[
+	{
+		"op": "add",
+		"path": "/beacon/felin",
+		"value": {
+			"default": [
+				"Shigriaw, raiwum prilw~",
+				"What is it?",
+				"Yeeeesss?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/felin",
+		"value": {
+			"default": [
+				"This oughta cover it.",
+				"Happy to be a productive member of society."
+			]
+		}
+	}
+]

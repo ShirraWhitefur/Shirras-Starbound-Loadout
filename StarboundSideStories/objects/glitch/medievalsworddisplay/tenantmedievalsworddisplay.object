@@ -1,0 +1,32 @@
+{
+  "objectName" : "tenantmedievalsworddisplay",
+  "tags" : ["guardtenant"],
+  "rarity" : "Common",
+  "description" : "These display swords look very pointy.",
+  "shortdescription" : "Sword Display",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 300,
+
+  "apexDescription" : "Two sharp display swords. The dagger is the weapon of the Apex.",
+  "avianDescription" : "Sharp decorative swords. The Avians favour spears.",
+  "floranDescription" : "SSharp sswords. Floran like hammer!",
+  "glitchDescription" : "Inspect. A sharp sword display. The Glitch weapon of choice is the broadsword.",
+  "humanDescription" : "Two sharp swords. Human warriors favour the axe.",
+  "hylotlDescription" : "A couple of sharp swords. The Hylotl favour the shortsword over other weapons.",
+
+  "inventoryIcon" : "medievalsworddisplayicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalsworddisplay.png:<color>",
+
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

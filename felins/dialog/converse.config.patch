@@ -1,0 +1,170 @@
+[
+	{
+		"op": "add",
+		"path": "/converse/felin",
+		"value": {
+			"default" : [
+				"Hi~!",
+				"Hi. I'm <selfname>. Who're you?",
+				"Like it around?",
+				"You came this far to visit our humble village?",
+				"Why do they always joke about those bike sheds? It gets old.",
+				"You came to trade or to hunt?"
+			],
+			"apex" : [
+				"Hi~!",
+				"Hi. I'm <selfname>. Who're you?",
+				"Minikong? Is that a smaller Apex?",
+				"I've always wanted to know... how far does Big Ape see?"
+			],
+			"avian" : [
+				"Hi, birdy!",
+				"Hi. I'm <selfname>. Who're you?",
+				"Hi, dinner-I mean guest!",
+				"We don't pray to Kluex or anybody here. We got our heroes!"
+			],
+			"floran" : [
+				"Hello, plant friend.",
+				"Hi. I'm <selfname>. Who're you, plant friend?",
+				"Floran friend, hi!",
+				"Hunter."
+			],
+			"human" : [
+				"Ah, hi.",
+				"Hi. I'm <selfname>. Who're you, human?",
+				"Why does your kind have so little fur?",
+				"I once saw a bunch of humans in the forest with guns!"
+			],
+			"hylotl" : [
+				"Oh, hello.",
+				"Hi. I'm <selfname>. Who're you?",
+				"Hello, honored hylotl.",
+				"Master Hylotl."
+			],
+			"felin" : [
+				"Hello~!",
+				"Hi. I'm <selfname>. Who're you, Hunter?",
+				"What's new, pussycat?",
+				"I saw a veramin last week. It escaped.",
+				"Big haul yesterday. 50 pixels for hugs, all for <selfname>~",
+				"Have you met this weird monk? Mike something?",
+				"The weather's so pretty, no matter what it is.",
+				"You belong to me. No arguments.",
+				"My butt itches.",
+				"Pull finger, recieve joke. Pull tail, die.",
+				"Sup, friend?",
+				"Always good to see another felin~!",
+				"All we are is cats in the wind, friend.",
+				"They say ponex give the best hugs. Ours are worth the price.",
+				"Remember: be nice to each other <3",
+				"How's travel?",
+				"I want chicken, I want liver~",
+				"<selfname> says wassup?"
+			],
+			"avali" : [
+				"Hi, birdy!",
+				"Hi. I'm <selfname>. Who're you?",
+				"Hi, prey-I mean guest!",
+				"Did the Scholars figure out the Nexus yet?",
+				"Space raptor :D",
+				"Something smells of cleaning products.",
+				"Nice feathers.",
+				"You look interesting."
+			],
+			"khajiit-sr" : [
+				"Hello, fellow cat.",
+				"Why do you look like that?",
+				"<selfname> always knew felin weren't the only cats around.",
+				"Is your name Ma'... Ma'-whatever?",
+				"<selfname> heard Omes-rath are prettier than you.",
+				"Cat~",
+				"Got any moon sugar? No? Good!",
+				"Talos preserve me, it's another cat!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/converse/apex/felin",
+		"value": [
+			"You are as hairy as the best of us.",
+			"Perhaps you could assist me, felin.",
+			"Do not come too close to me. I have fleas.",
+			"Would you care for a banana? I suppose not.",
+			"Could you build me a bike shed, felin?",
+			"Don't sneak too much, cat. Miniknog is watching.",
+			"I stroke your head, you stroke mine?",
+			"I don't suppose you would hunt a Miniknog guard for me?"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/converse/floran/felin",
+		"value": [
+			"Cat friend.",
+			"Floran not sssstab cat friend.",
+			"Floran fight cat, but play it sssafe.",
+			"Cat friend great hunter, like floran.",
+			"Floran pet cat friend. Pet pet pet.",
+			"Meow! Floran ssspeak cat. Or not.",
+			"Cat friend body feels funny.",
+			"Cat friend look ssscary. Floran not impressed."
+		]
+	},
+	{
+		"op": "add",
+		"path": "/converse/human/felin",
+		"value": [
+			"Oh hello, kitty.",
+			"Why do you felins make me feel so warm?",
+			"Please don't come too close, I think I might be allergic.",
+			"Here kitty kitty~",
+			"So how do you feel about scratching posts?",
+			"Do you use litter boxes or toilets?",
+			"I saw a rodent of unusual size the other day.",
+			"Nice fur. Can I stroke it?"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/converse/glitch/felin",
+		"value": [
+			"Curious. Are you related to the Apex?",
+			"Flirtatious. I have some objects of value if you want.",
+			"Frightened. Please do not grin at me like that.",
+			"Careful. May I stroke your fur?",
+			"Teasing. Here kitty kitty.",
+			"Annoyed. You smell of fish.",
+			"Curious. Why the propensity towards flaunting?",
+			"Flirtatious. How much for a full go again?"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/converse/hylotl/felin",
+		"value": [
+			"Ah, a Hunter. I do hope I'm not a target.",
+			"Greetings, my feline friend.",
+			"Would you like to learn about our architecture?",
+			"Have you and your kind improved your art lately?",
+			"I... I'll admit. The fur looks good on you.",
+			"What is it, Hunter?",
+			"I saw a floran the other day. How can you stand them?",
+			"Good day to you, Hunter."
+		]
+	},
+	{
+		"op": "add",
+		"path": "/converse/avian/felin",
+		"value": [
+			"Greetings, Hunter.",
+			"Please don't hurt me.",
+			"I have a great idea for a bike shed if you want it.",
+			"Wouldn't you rather chase veramin?",
+			"You're not so bad, aren't you?",
+			"How do you feel about religion, Hunter?",
+			"I have to ask, what is 'luffie' anyway?",
+			"Teeth!"
+		]
+	}
+]

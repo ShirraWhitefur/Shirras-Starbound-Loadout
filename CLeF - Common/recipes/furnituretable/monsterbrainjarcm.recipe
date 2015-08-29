@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "monsterbrainjar", "count" : 1 },
+	"groups" : [ "furnituretable", "clef" ]
+}

@@ -1,0 +1,18 @@
+{
+  "id" : "crewgoldobotmission.gearup",
+  "title" : "^green;Farming with Ironslip",
+  "text" : "...a Glitch farmer and cook named Ironslip...",
+  "completionText" : "You must be the one interested in a crew? I'm Ironslip, a simple farmer who loves cooking. I was working on my masterpiece dish in an old abandoned castle, when some insane king came in and said he owned the place...my kitchen, my garden, he ruined it all, not that it was that great to begin with.",
+  "completionConditions" : [
+ 
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      
+   ],
+  "canBeAbandoned" : false,
+  "associatedMission" : "crewgoldobot",
+  "followUp" : "crewgoldobotmission2.gearup",
+  "requireTurnIn" : true
+}
+ 

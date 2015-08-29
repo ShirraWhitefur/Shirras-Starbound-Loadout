@@ -1,0 +1,31 @@
+{
+	"objectName" : "plateofplates",
+	"tags" : [ "misc" ],
+	"rarity" : "common",
+	"description" : "Conserve space - stack up your empty plates.",
+	"shortdescription" : "Stack of Plates",
+	"race" : "felin",
+	"category" : "furniture",
+	"price" : 20,
+	"apexDescription" : "A stack of empty wooden plates.",
+	"avianDescription" : "You can't take just one.",
+	"floranDescription" : "Floran usually hassss no need for plates.",
+	"glitchDescription" : "Appreciative. Space is often at a premium.",
+	"humanDescription" : "No mom, I won't do the dishes! You can't tell me what to do!",
+	"hylotlDescription" : "A stack of plates, lined up nicely.",
+	"felinDescription" : "...cos that's what Bilbo Baggins hates!",
+	"inventoryIcon" : "plateofplatesicon.png",
+	"orientations" : [
+		{
+			"dualImage" : "plateofplates.png",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"breakDropOptions" : [ [
+		[ "felinplate", 4, { } ]
+	] ]
+}

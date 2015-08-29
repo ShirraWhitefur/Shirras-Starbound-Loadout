@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinposter1",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 100,
+	"shortdescription" : "Felin Model Poster",
+	"description" : "A nice pinup poster of a felin model.",
+	"race" : "felin",
+	"apexDescription" : "Apex do not believe in mystic powers.",
+	"avianDescription" : "I think this is some mystic?",
+	"floranDescription" : "Floran can't tell if lady or guy.",
+	"glitchDescription" : "Appreciative. This felin woman seems nice.",
+	"humanDescription" : "I like this one.",
+	"hylotlDescription" : "Some overly-pretty cat.",
+	"felinDescription" : "Lenirthi the Mystic.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinposter40.png:0",
+			"imagePosition" : [-20, -16],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

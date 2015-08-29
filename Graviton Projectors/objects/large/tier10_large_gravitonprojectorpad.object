@@ -1,0 +1,60 @@
+{
+  "objectName" : "tier10_large_gravitonprojectorpad",
+  "printable" : false,
+  "rarity" : "legendary",
+  "category" : "wire",
+  "price" : 4750,
+  "description" : "A large impervium-encased pad that can project and manipulate a graviton field above it.",
+  "shortdescription" : "Gravpad Model LI8",
+  "race" : "generic",
+
+  "apexDescription" : "A large impervium-encased pad that projects a graviton field.",
+  "avianDescription" : "A large impervium-encased pad that projects a graviton field.",
+  "floranDescription" : "Thingsss go up! Thingsss go down!",
+  "glitchDescription" : "Analysis. A large graviton field projection impervium-encased pad.",
+  "humanDescription" : "A large impervium-encased pad that projects a graviton field.",
+  "hylotlDescription" : "A large imperviumo-encased pad that projects a graviton field.",
+
+  "inventoryIcon" : "/objects/icons/tier10_gravitonprojectorpadicon.png",
+  
+  "orientations" : [
+    {
+      "image" : "/animations/gravitondevices/tier10/tier10_large_gravitonprojectorpad.png:default.off",
+      "imagePosition" : [0, 0],
+      "animationParts" : {
+        "projector" : "/animations/gravitondevices/tier10/tier10_large_gravitonprojectorpad.png",
+        "projectorlit" : "/animations/gravitondevices/tier10/tier10_large_gravitonprojectorpadlit.png"
+      },
+      "animationPosition" : [0, 0],  
+      "spaceScan" : 0.5,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ],
+
+  "animation" : "/animations/gravitondevices/tier10/tier10_large_gravpad.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/gravitonpulse_on.wav" ],
+      "off" : [ "/sfx/objects/gravitonpulse_off.wav" ]
+    }
+  },
+  "animationParts" : {
+    "projector" : "/animations/gravitondevices/tier10/tier10_large_gravitonprojectorpad.png",
+    "projectorlit" : "/animations/gravitondevices/tier10/tier10_large_gravitonprojectorpadlit.png"
+  },
+  "animationPosition" : [0,0],
+  
+  "inboundNodes" : [ [ 1, 0 ] ],
+  "outboundNodes" : [ [ 7, 0 ] ],
+
+  "scripts" : [ "/scripts/gravitonprojectorpad.lua" ],
+  "scriptDelta" : 1,
+  
+  "padcentrepoint" : 4.5,
+  "ringcentrepoint" : 3.5,
+  "fieldsize" : 2.25,
+  "forcestrength" : 3,
+  "devicesize" : "large",
+  "devicetier" : "tier10"
+}

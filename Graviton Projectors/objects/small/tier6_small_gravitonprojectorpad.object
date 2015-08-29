@@ -1,0 +1,62 @@
+{
+  "objectName" : "tier6_small_gravitonprojectorpad",
+  "printable" : false,
+  "rarity" : "uncommon",
+  "category" : "wire",
+  "price" : 2750,
+  "description" : "A small ferozium-encased pad that can project and manipulate a graviton field above it.",
+  "shortdescription" : "Gravpad Model SF4",
+  "race" : "generic",
+
+  "apexDescription" : "A small ferozium-encased pad that projects a graviton field.",
+  "avianDescription" : "A small ferozium-encased pad that projects a graviton field.",
+  "floranDescription" : "Thingsss go up! Thingsss go down!",
+  "glitchDescription" : "Analysis. A small ferozium-encased graviton field projection pad.",
+  "humanDescription" : "A small ferozium-encased pad that projects a graviton field.",
+  "hylotlDescription" : "A small ferozium-encased pad that projects a graviton field.",
+
+  "inventoryIcon" : "/objects/icons/tier6_gravitonprojectorpadicon.png",
+  
+  "orientations" : [
+    {
+      "image" : "/animations/gravitondevices/tier6/tier6_small_gravitonprojectorpad.png:default.off",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "projector" : "/animations/gravitondevices/tier6/tier6_small_gravitonprojectorpad.png",
+        "projectorlit" : "/animations/gravitondevices/tier6/tier6_small_gravitonprojectorpadlit.png"
+      },
+      "animationPosition" : [0, 0],
+  
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ],
+
+  "animation" : "/animations/gravitondevices/gravitondevice.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/gravitonpulse_on.wav" ],
+      "off" : [ "/sfx/objects/gravitonpulse_off.wav" ]
+    }
+  },
+  "animationParts" : {
+    "projector" : "/animations/gravitondevices/tier6/tier6_small_gravitonprojectorpad.png",
+    "projectorlit" : "/animations/gravitondevices/tier6/tier6_small_gravitonprojectorpadlit.png"
+  },
+  "animationPosition" : [0, 0],
+  
+  "inboundNodes" : [ [ 1, 0 ] ],
+  "outboundNodes" : [ [ 3 , 0 ] ],
+
+  "scripts" : [ "/scripts/gravitonprojectorpad.lua" ],
+  "scriptDelta" : 1,
+  
+  "padcentrepoint" : 2.5,
+  "ringcentrepoint" : 2.5,
+  "fieldsize" : 0.75,
+  "forcestrength" : 2.4,
+  "devicesize" : "small",
+  "devicetier" : "tier6"
+}

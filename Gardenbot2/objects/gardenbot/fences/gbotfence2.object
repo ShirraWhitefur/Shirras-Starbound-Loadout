@@ -1,0 +1,30 @@
+{
+  "objectName" : "gbotfence2",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "gardenfence",
+  "price" : 50,
+
+  "description" : "A small garden gnome, to scare off the gophers",
+  "shortdescription" : "Garden Gnome",
+  "race" : "generic",
+
+  "apexDescription" : "A small garden gnome.",
+  "avianDescription" : "A small garden gnome.",
+  "floranDescription" : "A small garden gnome.",
+  "glitchDescription" : "A small garden gnome.",
+  "humanDescription" : "A small garden gnome.",
+  "hylotlDescription" : "A small garden gnome.",
+
+  "inventoryIcon" : "gbotfence2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "gbotfence2.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    }
+  ]
+}

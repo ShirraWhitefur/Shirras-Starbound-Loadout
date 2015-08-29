@@ -1,0 +1,16 @@
+  {
+  "id" : "researchbacktoark.gearup",
+  "prerequisites" : [ "researchavian.gearup" ],
+  "title" : "^orange;Ancient Revisits",
+  "text" : "And no concrete info from the Avians either. I've talked with the human and Hylotl researchers, but nothing from them either. I'm kind of at a loss here...maybe you should go back to the ark and see if you can't figure anything out...",
+  "completionText" : "Having learned nothing about the keys to open this gate or gain access to ancient tentacle planets, you mope around the ark. Suddenly you hear strange whispers above your head, and a message to get back to the research center as soon as possible.",
+  "completionConditions" : [
+	
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

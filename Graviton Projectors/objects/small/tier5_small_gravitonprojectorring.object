@@ -1,0 +1,62 @@
+{
+  "objectName" : "tier5_small_gravitonprojectorring",
+  "printable" : false,
+  "rarity" : "uncommon",
+  "category" : "wire",
+  "price" : 2500,
+  "description" : "A small aegisalt-encased device that projects a graviton field.",
+  "shortdescription" : "Gravring Model SA3",
+  "race" : "generic",
+ 
+  "apexDescription" : "A small aegisalt-encased device that projects a graviton field.",
+  "avianDescription" : "A small aegisalt-encased device that projects a graviton field.",
+  "floranDescription" : "Thingsss go up!",
+  "glitchDescription" : "Analysis. A small aegisalt-encased graviton field projection device.",
+  "humanDescription" : "A small aegisalt-encased device that projects a graviton field.",
+  "hylotlDescription" : "A small aegisalt-encased device that projects a graviton field.",
+
+  "inventoryIcon" : "/objects/icons/tier5_gravitonprojectorringicon.png",
+ 
+  "orientations" : [
+    {
+      "image" : "/animations/gravitondevices/tier5/tier5_small_gravitonprojectorring.png:default.off",
+      "imagePosition" : [0, -8],
+
+      "animationParts" : {
+        "projector" : "/animations/gravitondevices/tier5/tier5_small_gravitonprojectorring.png",
+        "projectorlit" : "/animations/gravitondevices/tier5/tier5_small_gravitonprojectorringlit.png"
+      },
+      "animationPosition" : [0, -8],
+
+      "spaceScan" : 0.85, 
+      "anchors" : [ "left", "right" ],
+      "collision" : "solid"
+    }
+  ],
+ 
+  "animation" : "/animations/gravitondevices/gravitondevice.animation",  
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/gravitonpulse_on.wav" ],
+      "off" : [ "/sfx/objects/gravitonpulse_off.wav" ]
+    }
+  },
+  "animationParts" : {
+    "projector" : "/animations/gravitondevices/tier5/tier5_small_gravitonprojectorring.png",
+    "projectorlit" : "/animations/gravitondevices/tier5/tier5_small_gravitonprojectorringlit.png"
+  },
+  "animationPosition" : [0, -8],
+ 
+  "inboundNodes" : [ [ 0, 0 ] ],
+  "outboundNodes" : [ [ 4, 0 ] ],
+ 
+  "scripts" : [ "/scripts/gravitonprojectorring.lua" ],
+  "scriptDelta" : 1,
+  
+  "padcentrepoint" : 2.5,
+  "ringcentrepoint" : 2.5,
+  "fieldsize" : 0.75,
+  "forcestrength" : 2.25,
+  "devicesize" : "small",
+  "devicetier" : "tier5"
+}

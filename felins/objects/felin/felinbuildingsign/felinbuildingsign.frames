@@ -1,0 +1,14 @@
+{
+	"frameGrid" : {
+		"size" : [16, 16],
+		"dimensions" : [3, 6],
+		"names" : [
+			[ "bath.side", "bath.top", "bath.icon" ],
+			[ "clothing.side", "clothing.top", "clothing.icon" ],
+			[ "food.side", "food.top", "food.icon" ],
+			[ "love.side", "love.top", "love.icon" ],
+			[ "school.side", "school.top", "school.icon" ],
+			[ "weapon.side", "weapon.top", "weapon.icon" ]
+		]
+	}
+}

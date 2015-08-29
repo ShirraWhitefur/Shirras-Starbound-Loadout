@@ -1,0 +1,23 @@
+{
+  "type" : "bountyavian",
+  "baseType" : "hostile",
+
+  "levelVariance" : [-0.5, -0.5],
+
+  "dropPools" : [ "sidestorybounties" ],
+  
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "buccaneerhead" } ],
+            "chest" : [ { "name" : "buccaneerchest" } ],
+            "legs" : [ { "name" : "buccaneerlegs" } ],
+            "primary" : [
+              { "name" : "generatedsword", "parameters" : { "definition" : "uncommonbroadsword" } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

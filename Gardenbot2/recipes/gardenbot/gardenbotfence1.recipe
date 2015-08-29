@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "laserdiode", "count" : 1},
+    { "item" : "glassmaterial", "count" : 1}
+  ],
+  "output" : {
+    "item" : "gbotfence1",
+    "count" : 1
+  },
+  "groups" : [ "mod", "ironcraftingtable", "objects", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "cabinroofing", "count" : 1 },
+  "groups" : [ "blocktableplus", "materials", "all", "wall" ]
+}
+

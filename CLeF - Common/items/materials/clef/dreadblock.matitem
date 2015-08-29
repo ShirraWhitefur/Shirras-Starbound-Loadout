@@ -1,0 +1,10 @@
+{
+  "itemName" : "dreadblock",
+  "rarity" : "legendary",
+  "inventoryIcon" : "dreadblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "What a dreadful block.",
+  "shortdescription" : "Dreadful Block",
+
+  "materialId" : 8767
+}

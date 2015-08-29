@@ -1,0 +1,23 @@
+[
+/* Hello! (^_^) */
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "fec0af", "fff8b5" : "fe815f", "fde03f" : "fd4a2e", "f6b919" : "f42a21", "806319" : "530e0b" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "feb19f", "fff8b5" : "fd633f", "fde03f" : "ee3b27", "f6b919" : "c4241c", "806319" : "430c0a" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "fed698", "fff8b5" : "fdad31", "fde03f" : "f17225", "f6b919" : "d1431e", "806319" : "47170a" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "fee69f", "fff8b5" : "fece40", "fde03f" : "fd9f2b", "f6b919" : "f55f23", "806319" : "54200c" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "fef19c", "fff8b5" : "fee43a", "fde03f" : "febf2e", "f6b919" : "fc8126", "806319" : "562c0d" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "fefb9d", "fff8b5" : "fef73b", "fde03f" : "fee631", "f6b919" : "f9bd2a", "806319" : "55400e" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "b5ffe7", "fff8b5" : "6bffcf", "fde03f" : "3ef9a2", "f6b919" : "2adf6b", "806319" : "0e4c25" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "9ffbda", "fff8b5" : "3ff8b6", "fde03f" : "2be07e", "f6b919" : "20ab4c", "806319" : "0b3a1a" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "9efcf4", "fff8b5" : "3ef9e9", "fde03f" : "30e4c4", "f6b919" : "25b989", "806319" : "0d3f2f" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "9df9ef", "fff8b5" : "3bf4e0", "fde03f" : "2ed4b7", "f6b919" : "219a76", "806319" : "0b3528" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "e3efef", "fff8b5" : "c7dfe0", "fde03f" : "8eb4b6", "f6b919" : "537c7c", "806319" : "1c2a2a" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "a4effe", "fff8b5" : "4ae0fe", "fde03f" : "34bcfe", "f6b919" : "2a7ceb", "806319" : "0e2a50" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "a1d8fd", "fff8b5" : "43b2fb", "fde03f" : "2f87e8", "f6b919" : "2351b9", "806319" : "0c1c3f" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "ffffff", "fff8b5" : "f4f6f8", "fde03f" : "d6dee4", "f6b919" : "a2b2bb", "806319" : "373d40" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "aacee1", "fff8b5" : "569dc3", "fde03f" : "31618b", "f6b919" : "1f3b57", "806319" : "0b141e" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "a6b8db", "fff8b5" : "4e71b7", "fde03f" : "2e417a", "f6b919" : "1e274c", "806319" : "0a0d1a" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "e5b2fc", "fff8b5" : "cb65f9", "fde03f" : "a12fe3", "f6b919" : "660db6", "806319" : "23043e" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "f5a5fa", "fff8b5" : "eb4bf6", "fde03f" : "c312dd", "f6b919" : "830da8", "806319" : "2d0439" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "fcb8ec", "fff8b5" : "f972d9", "fde03f" : "e339ac", "f6b919" : "b51771", "806319" : "3e0827" } },
+{"op" : "add", "path" : "/bodyColor/-", "value" : { "ffffff" : "faaacf", "fff8b5" : "f656a0", "fde03f" : "dd246c", "f6b919" : "a80d3c", "806319" : "390414" } }
+]

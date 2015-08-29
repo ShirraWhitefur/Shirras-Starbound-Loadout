@@ -1,0 +1,33 @@
+{
+  "objectName" : "crewliferune",
+  "tags" : ["crewhealing"],
+  "rarity" : "rare",
+  "description" : "Should call a healing tenant.",
+  "shortdescription" : "Strange Rune",
+  "race" : "alpaca",
+  "category" : "decorative",
+  "price" : 10000,
+
+  "apexDescription" : "It's an ancient rune that means life.",
+  "avianDescription" : "An ancient rune similar to some of our own. This one means life.",
+  "floranDescription" : "Ancient runesss... this means life. Cannot eat...",
+  "glitchDescription" : "Statement. An Alpacish run that signifies life.",
+  "humanDescription" : "This is an old rune that means life. It looks familiar...",
+  "hylotlDescription" : "A rune meaning life from a race that spread amoung the stars before even the Hylotl.",
+  "novakidDescription" : "It's an ancient rune that means life. Darn-tootin' it is!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "alpacaliferune.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

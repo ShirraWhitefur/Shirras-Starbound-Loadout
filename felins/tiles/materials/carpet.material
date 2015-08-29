@@ -1,0 +1,21 @@
+{
+	"materialId" : 9001,
+	"materialName" : "carpet",
+	"particleColor" : [252, 99, 157, 255],
+	"itemDrop" : "carpet",
+	"description" : "Plush carpeting.",
+	"glitchDescription" : "Judging. Adequately plush.",
+	"shortdescription" : "Carpet",
+	"footstepSound" : "/sfx/blocks/footstep_tallgrass.wav",
+	"health" : 10,
+	"category": "materials",
+	"renderTemplate" : "/tiles/classicmaterialtemplate.config",
+	"renderParameters" : {
+		"texture" : "carpet.png",
+		"variants" : 3,
+		"lightTransparent" : false,
+		"multiColored" : true,
+		"occludesBelow" : true,
+		"zLevel" : 0
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"name" : "tan",
+	"category" : "tentillum",
+	"type" : "body",
+	"frames" : { "body" : "tan.png" }
+}

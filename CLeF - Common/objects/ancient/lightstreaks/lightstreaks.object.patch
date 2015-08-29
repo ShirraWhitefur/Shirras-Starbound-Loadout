@@ -1,0 +1,4 @@
+[
+  { "op" : "replace", "path" : "/price", "value" : 500 },
+  { "op" : "replace", "path" : "/smashOnBreak", "value" : false }
+]

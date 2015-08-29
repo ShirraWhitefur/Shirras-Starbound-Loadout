@@ -1,0 +1,83 @@
+{
+  "objectName" : "tier8gravitonelevatorbase",
+  "rarity" : "rare",
+  
+  "category" : "Generic building",
+  "price" : 2500,
+  "description" : "A large prefabricated violium-reinforced glass tube base with graviton projector pad and ring.",
+  "shortdescription" : "Model SV6 Base",
+  "race" : "generic",
+
+  "apexDescription" : "A large prefabricated violium-reinforced glass tube base with graviton projector pad and ring.",
+  "avianDescription" : "A large prefabricated violium-reinforced glass tube base with graviton projector pad and ring.",
+  "floranDescription" : "This would make big ssssmash!",
+  "glitchDescription" : "Statement. A large prefabricated violium-reinforced glass tube base with graviton projector pad and ring.",
+  "humanDescription" : "A large prefabricated reinforced violium-glass tube base with graviton projector pad and ring.",
+  "hylotlDescription" : "A large prefabricated reinforced violium-glass tube base with graviton projector pad and ring.",
+    
+  "inventoryIcon" : "gravitonelevatorbaseicon.png",
+  
+  "orientations" : [
+
+    {
+      "image" : "tier8gravitonelevatorbase.png",
+      "imagePosition" : [-36, -28],
+      "frames" : 1,
+      "fgAnchors" : [ [-3, -3], [-2, -3], [-1, -3], [0, -3], [1, -3], [2, -3], [3, -3] ],
+      "bgAnchors" : [ [-3, -3], [-2, -3], [-1, -3], [0, -3], [1, -3], [2, -3], [3, -3] ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/architectsblueprint.lua" ],
+  "scriptDelta" : 1,
+  
+  "bpWidth" : 7,
+  "bpHeight" : 17,
+
+  "bpOffset" : [-4,-2],
+
+  "bpClearance" : [
+    {"minPos":[2,1],"maxPos":[7,6]},
+    {"minPos":[3,7],"maxPos":[6,15]},
+    {"minPos":[2,14],"maxPos":[7,14]}
+  ],
+  
+  "bpTiles" : [
+    " GgggG ",
+    "XbbbbbX",
+    "XbbbbbX",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    "sgggggs",
+    "sgggggs",
+    "sgggggs",
+    "sgggggs",
+    "sgggggs",
+    "sbbbbbs",
+    "TTTTTTT"
+  ],
+  "bpTileCodes" : "GgTsbX",
+  "bpMaterials" : [
+    {"bg":"tier8reinforcedglass","fg":"tier8reinforcedglass","color":0,"overlap":false},
+    {"bg":"tier8reinforcedglass","fg":" ","color":0,"overlap":false},
+    {"bg":"tier8panel","fg":"tier8panel","color":0,"overlap":false},
+    {"bg":"tier8support","fg":" ","color":0,"overlap":false},    
+    {"bg":"tier8beam","fg":" ","color":0,"overlap":false},
+    {"bg":" ","fg":" ","color":0,"overlap":false}
+  ],
+
+  "bpObjects" : [
+    {"objName":"tier8greebleC1","objPos":[1,15],"objDir":-1},
+    {"objName":"tier8greebleC1","objPos":[7,15],"objDir":1},
+    {"objName":"tier8greebleL1","objPos":[2,7],"objDir":-1},
+    {"objName":"tier8greebleL1","objPos":[6,7],"objDir":1},
+    {"objName":"tier8_small_gravitonprojectorring","objPos":[2,15],"objDir":1},
+    {"objName":"tier8_small_gravitonprojectorpad","objPos":[2,1],"objDir":1}
+  ]
+
+}

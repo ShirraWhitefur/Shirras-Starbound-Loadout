@@ -1,0 +1,14 @@
+{
+  "name" : "freak_angrylizardhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "freak_angrylizardhead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}
+

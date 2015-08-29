@@ -1,0 +1,22 @@
+[
+  { 
+    "op" : "add", 
+    "path" : "/ore/-",
+    "value" : 
+    [10.9, {
+      "poolRounds" : [[0.85, 1], [0.1, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.1, "item" : [ "ironore", 8]},
+        {"weight" : 0.1, "item" : [ "titaniumore", 8]},
+        {"weight" : 0.1, "item" : [ "aegisaltore", 8]},
+        {"weight" : 0.1, "item" : [ "rubiumore", 8]},
+        {"weight" : 0.1, "item" : [ "violiumore", 8]},
+        {"weight" : 0.1, "item" : [ "copperore", 8]},
+        {"weight" : 0.1, "item" : [ "silverore", 8]},
+        {"weight" : 0.1, "item" : [ "goldore", 8]},
+        {"weight" : 0.1, "item" : [ "platinumore", 8]},
+        {"weight" : 0.1, "item" : [ "diamond", 4]}
+      ]
+    }]
+  }
+]

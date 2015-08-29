@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "tier8_small_gravitonprojectorring", "count" : 1 },
+    { "item" : "tier8greebleC1", "count" : 2 },
+    { "item" : "tier8beam", "count" : 10 },
+    { "item" : "tier8reinforcedglass", "count" : 98 }
+  ],
+  "output" : {
+    "item" : "tier8gravitonelevatortube",
+    "count" : 1
+  },
+  "groups" : [ "draftstable", "Generic building","all" ]
+}

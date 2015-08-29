@@ -1,0 +1,14 @@
+{
+  "name" : "rockyhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "rockyhead.png"
+  },
+
+"parameters" :
+  {
+  }
+}
+

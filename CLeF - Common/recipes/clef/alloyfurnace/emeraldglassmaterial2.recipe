@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "sand2", "count" : 2 },
+    { "item" : "emeraldore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "emeraldglassmaterial",
+    "count" : 1
+  },
+  "groups" : [ "alloyfurnace", "all" ]
+}

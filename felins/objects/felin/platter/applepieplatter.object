@@ -1,0 +1,32 @@
+{
+	"objectName" : "applepieplatter",
+	"tags" : [ "misc" ],
+	"rarity" : "common",
+	"description" : "Apple pie! It's as American as itself!",
+	"shortdescription" : "Plate of Apple Pie",
+	"race" : "felin",
+	"category" : "furniture",
+	"price" : 20,
+	"apexDescription" : "Why not a banana pie?",
+	"avianDescription" : "Pie's pie.",
+	"floranDescription" : "Wassste of good apples... Floran not ssssure if true.",
+	"glitchDescription" : "Analysis. This pie will not stain the surface it is placed on.",
+	"humanDescription" : "Apple pie! It's as American as itself!",
+	"hylotlDescription" : "Not bad, for an apple pie.",
+	"felinDescription" : "Delicious apple pie!",
+	"inventoryIcon" : "applepieplattericon.png",
+	"orientations" : [
+		{
+			"dualImage" : "applepieplatter.png",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"breakDropOptions" : [ [
+		[ "felinplate", 1, { } ],
+		[ "applepie", 1, { } ]
+	] ]
+}

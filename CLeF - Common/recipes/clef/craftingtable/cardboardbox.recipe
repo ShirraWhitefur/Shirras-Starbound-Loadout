@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 42 }
+  ],
+  "output" : {
+    "item" : "cardboardbox",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "all" ]
+}

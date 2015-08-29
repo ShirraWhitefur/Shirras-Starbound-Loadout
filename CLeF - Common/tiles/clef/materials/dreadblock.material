@@ -1,0 +1,21 @@
+{
+  "materialId" : 8767,
+  "materialName" : "dreadblock",
+  "particleColor" : [31, 39, 20, 255],
+  "itemDrop" : "dreadblock",
+  "shortdescription" : "Dreadful Block",
+  "description" : "A block from Deadwing's ship.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+  "health" : 8,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dreadblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "objectName" : "clefprincess",
+  "tags" : [],
+  "rarity" : "Common",
+  "description" : "A decoy princess. The perfect bait.",
+  "shortdescription" : "Decoy Princess",
+  "race" : "generic",
+  "category" : "tools",
+  "printable" : false,
+  "apexDescription" : "This fake princess will serve as bait.",
+  "avianDescription" : "A cunning bait and switch.",
+  "floranDescription" : "Floran ssstab any beast that take princess!",
+  "glitchDescription" : "Proud. A cunning plan, this decoy.",
+  "humanDescription" : "This decoy will help me lure out a terrifying beast.",
+  "hylotlDescription" : "Perhaps luring a creature to me is ill-advised, but here goes.",
+  "novakidDescription" : "Fake damsel in distress. A classy way to confuse a cowboy.",
+
+  "inventoryIcon" : "clefprincessicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "clefprincess.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "animation" : "/objects/clef/beacon/clefprincess.animation",
+  "animationParts" : {
+    "beacon" : "clefprincess.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/clef/beacon/clefprincess.lua" ],
+  "scriptDelta" : 5
+
+}

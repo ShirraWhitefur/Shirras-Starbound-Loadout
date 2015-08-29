@@ -1,0 +1,9 @@
+{
+  "name" : "anti_tinygeometrictail",
+  "category" : "smallquadruped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "anti_tinygeometrictail.png"
+  }
+}

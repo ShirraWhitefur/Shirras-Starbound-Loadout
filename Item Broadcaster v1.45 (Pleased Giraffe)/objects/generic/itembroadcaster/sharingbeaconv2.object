@@ -1,0 +1,40 @@
+{
+  "objectName" : "sharingbeaconV2",
+  "rarity" : "Common",
+  "description" : "Connects multiple containers to the same Hammerspace location.",
+  "shortdescription" : "Hyper-storage Beacon",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "A brilliant application of hyperspace technology.",
+  "avianDescription" : "Our priests would never allow such technology; it borders on Kluex's domain.",
+  "floranDescription" : "One thing in many places? Floran head hurt thinking about this.",
+  "glitchDescription" : "Concern. Should we really be bending space-time just to store crockery?",
+  "humanDescription" : "Hyperstorage, the ultimate beer cooler.",
+  "hylotlDescription" : "In the great Hylotl cities, our libraries work on similar principles.",
+  "novakidDescription" : "A packhorse for the future.",
+  
+  "category" : "wire",
+  "price" : 500,
+
+  "inventoryIcon" : "sharingbeacon.png:off",
+  "orientations" : [
+    {
+      "image" : "sharingbeaconrange.png",
+      "imagePosition" : [0,-80 ],
+	  "spaces" : [[0,0]],
+      "anchors" : [ "background" ],
+	  "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/scripts/vec2.lua", "/objects/generic/itembroadcaster/sharingbeaconV2.lua" ],
+  "scriptDelta" : 5,
+  "animation" : "/objects/generic/itembroadcaster/broadcastbeacon.animation",
+
+  "animationParts" : {
+    "beacon" : "sharingbeacon.png",
+	"pulsebeacon" : "sharingbeaconrange.png"
+  },
+  "animationPosition" : [0, 0]
+}

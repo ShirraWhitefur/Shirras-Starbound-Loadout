@@ -1,0 +1,21 @@
+[
+  { "op" : "replace", "path" : "/category", "value" : "storage" },
+  { "op" : "replace", "path" : "/description", "value" : "A toxic waste barrel. Don't spill any!" },
+  { "op" : "add", "path" : "/objectType", "value" : "container" },
+  { "op" : "add", "path" : "/tooltipKind", "value" : "container" },
+
+  { "op" : "replace", "path" : "/apexDescription", "value" : "A barrel that once was filled with waste." },
+  { "op" : "replace", "path" : "/avianDescription", "value" : "A foul-smelling barrel. What was inside?" },
+  { "op" : "replace", "path" : "/floranDescription", "value" : "Sssmell like Floran bathwater. Bleh!" },
+  { "op" : "replace", "path" : "/glitchDescription", "value" : "Alert. This concoction may be dangerous. Kind of." },
+  { "op" : "replace", "path" : "/humanDescription", "value" : "If I fall in this barrel, will I get superpowers? Nah." },
+  { "op" : "replace", "path" : "/hylotlDescription", "value" : "Many of these barrels get dumped in the ocean by other, careless species." },
+  { "op" : "add", "path" : "/novakidDescription", "value" : "Bleh. The more I see the new species, the more I hate how their waste smells!" },
+  
+  { "op" : "add", "path" : "/openSounds", "value" : [ "/sfx/objects/bunkercabinet_open.wav" ] },
+  { "op" : "add", "path" : "/closeSounds", "value" : [ "/sfx/objects/bunkercabinet_close.wav" ] },
+  { "op" : "add", "path" : "/slotCount", "value" : 12 },
+  { "op" : "add", "path" : "/uiConfig", "value" : "/interface/chests/chest%slots%.config" },
+  { "op" : "add", "path" : "/frameCooldown", "value" : 5 },
+  { "op" : "add", "path" : "/autoCloseCooldown", "value" : 3600 }
+]

@@ -1,0 +1,18 @@
+{
+	"frameGrid" : {
+		"size" : [16, 16],
+		"dimensions" : [6, 10],
+		"names" : [
+			[ "rect.default.plat", "rect.default.back", "circle.default.plat", "circle.default.back", "heart.default.plat", "heart.default.back" ],
+			[ "rect.red.plat", "rect.red.back", "circle.red.plat", "circle.red.back", "heart.red.plat", "heart.red.back" ],
+			[ "rect.blue.plat", "rect.blue.back", "circle.blue.plat", "circle.blue.back", "heart.blue.plat", "heart.blue.back" ],
+			[ "rect.green.plat", "rect.green.back", "circle.green.plat", "circle.green.back", "heart.green.plat", "heart.green.back" ],
+			[ "rect.yellow.plat", "rect.yellow.back", "circle.yellow.plat", "circle.yellow.back", "heart.yellow.plat", "heart.yellow.back" ],
+			[ "rect.orange.plat", "rect.orange.back", "circle.orange.plat", "circle.orange.back", "heart.orange.plat", "heart.orange.back" ],
+			[ "rect.pink.plat", "rect.pink.back", "circle.pink.plat", "circle.pink.back", "heart.pink.plat", "heart.pink.back" ],
+			[ "rect.black.plat", "rect.black.back", "circle.black.plat", "circle.black.back", "heart.black.plat", "heart.black.back" ],
+			[ "rect.white.plat", "rect.white.back", "circle.white.plat", "circle.white.back", "heart.white.plat", "heart.white.back" ],
+			[ "rect.icon", null, "circle.icon", null, "heart.icon", null ]
+		]
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "id" : "crewthorngrazermission.gearup",
+  "title" : "^green;Peace with the Warrior",
+  "text" : "...a Floran hunter named Kananna...",
+  "completionText" : "Ssstupid monsters! Argh, sssorry, I'm Kananna, this village's best warrior. Not too great though, sssince I ssstill can't muster up the courage to take out the monster across the plain. It keeps on ssstealing our ssstuff! If you can help get me back my persssonal console it ssstole, I'll give you sssome fighting tips!",
+  "completionConditions" : [
+    
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+ 
+   ],
+  "canBeAbandoned" : false,
+  "associatedMission" : "crewthorngrazer",
+  "requireTurnIn" : true
+}
+ 

@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidtentaclejuice",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidtentaclejuiceicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Tentacle Juice",
+  "description" : "A measure of tentacle juice.",
+
+  "liquid" : "tentaclejuice"
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "anti_gigglehead",
+  "category" : "smallflying",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_gigglehead.png"
+  }
+}

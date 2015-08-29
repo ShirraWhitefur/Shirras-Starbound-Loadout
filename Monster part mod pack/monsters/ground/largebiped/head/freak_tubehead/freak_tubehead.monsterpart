@@ -1,0 +1,14 @@
+{
+  "name" : "freak_tubehead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "freak_tubehead.png"
+  },
+
+ "parameters" :
+  {
+  }
+}
+

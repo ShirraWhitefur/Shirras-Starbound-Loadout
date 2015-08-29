@@ -1,0 +1,26 @@
+{
+  "name": "crewpenguin",
+  "priority": 10,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "crewpenguin": 1
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "penguin",
+      "type": "crewpenguin",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [800.0, 1200.0],
+    "pool": "crewpixels"
+  }
+}

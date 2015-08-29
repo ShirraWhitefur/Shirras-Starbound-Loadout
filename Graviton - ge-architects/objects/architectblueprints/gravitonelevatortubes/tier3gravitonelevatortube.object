@@ -1,0 +1,76 @@
+{
+  "objectName" : "tier3gravitonelevatortube",
+  "rarity" : "common",
+
+  "category" : "Generic building",
+  "price" : 2000,
+  "description" : "A large prefabricated titanium-reinforced glass tube and graviton projector ring.",
+  "shortdescription" : "Model ST1 Tube",
+  "race" : "generic",
+
+  "apexDescription" : "A large prefabricated titanium-reinforced glass tube and graviton projector ring.",
+  "avianDescription" : "A large prefabricated reinforced titanium-glass tube and graviton projector ring.",
+  "floranDescription" : "This would make big ssssmash!",
+  "glitchDescription" : "Statement. A large prefabricated titanium-reinforced glass tube and graviton projector ring.",
+  "humanDescription" : "A large prefabricated titanium-reinforced glass tube and graviton projector ring.",
+  "hylotlDescription" : "A large prefabricated titanium-reinforced glass tube and graviton projector ring.",
+    
+  "inventoryIcon" : "gravitonelevatortubeicon.png",
+  
+  "orientations" : [
+    {
+      "image" : "tier3gravitonelevatortube.png",
+      "imagePosition" : [-36, -12],
+      "frames" : 1,
+      "fgAnchors" : [ [-2, -1], [2, -1] ],
+      "bgAnchors" : [ [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1] ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/architectsblueprint.lua" ],
+  "scriptDelta" : 1,
+  
+  "bpWidth" : 7,
+  "bpHeight" : 16,
+
+  "bpOffset" : [-4,0],
+
+  "bpClearance" : [
+    {"minPos":[3,1],"maxPos":[6,14]},
+    {"minPos":[2,13],"maxPos":[7,13]}
+  ],
+  
+  "bpTiles" : [
+    " GgggG ",
+    "XbbbbbX",
+    "XbbbbbX",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    " GgggG ",
+    " GgggG "
+  ],
+  "bpTileCodes" : "GgsbX",
+  "bpMaterials" : [
+    {"bg":"tier3reinforcedglass","fg":"tier3reinforcedglass","color":0,"overlap":false},
+    {"bg":"tier3reinforcedglass","fg":" ","color":0,"overlap":false},
+    {"bg":"tier3support","fg":" ","color":0,"overlap":false},
+    {"bg":"tier3beam","fg":" ","color":0,"overlap":false},
+    {"bg":" ","fg":" ","color":0,"overlap":false}
+  ],
+
+  "bpObjects" : [
+    {"objName":"greebleC1","objPos":[1,14],"objDir":-1},
+    {"objName":"greebleC1","objPos":[7,14],"objDir":1},
+    {"objName":"tier3_small_gravitonprojectorring","objPos":[2,14],"objDir":1}
+  ]
+  
+}

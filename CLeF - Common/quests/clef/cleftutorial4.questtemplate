@@ -1,0 +1,12 @@
+{
+  "id" : "cleftutorial4.gearup",
+  "title" : "^yellow;CLeF Tutorial #4: Dig in Deep",
+  "text" : "As you might have noticed, ^orange;Matter Manipulator^white; is way too slow and impractical for a serious underground exploration. Hence, you'll need to ^green;craft yourself ^orange;a pickaxe^white;. While it's possible to craft from a variety of materials, it's a good idea to use something cheap and widely available. ^orange;Cobblestone^white;, for example.",
+  "completionText" : "Now we're talking! The tools you craft have a ^red;durability bar^white;. With its depletion, the tool will either break apart or become blunt. In order to ^yellow;repair^white; blunted tool, pick up either ore or bars of the corresponding material and ^yellow;right-click^white; on the tool's icon. Alas, ^yellow;stone pickaxes cannot be repaired^white;, so once overused, they'll turn into dust.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "stonepickaxe", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [40, 40],
+  "followUp" : "cleftutorial5.gearup",
+  "canBeAbandoned" : false
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "gbotfence3",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "gardenfence",
+  "price" : 50,
+
+  "description" : "A scarecrow. It keeps things from entering a garden, or leaving.",
+  "shortdescription" : "Basic Scarecrow",
+  "race" : "generic",
+
+  "apexDescription" : "A basic scarecrow.",
+  "avianDescription" : "A basic scarecrow.",
+  "floranDescription" : "A basic scarecrow.",
+  "glitchDescription" : "Offended. A scarecrow.",
+  "humanDescription" : "A basic scarecrow.",
+  "hylotlDescription" : "A basic scarecrow.",
+
+  "inventoryIcon" : "gbotfence3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "gbotfence3.png:<color>.<frame>",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

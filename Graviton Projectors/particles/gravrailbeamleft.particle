@@ -1,0 +1,19 @@
+{
+  "kind" : "gravrailbeamleft",
+  "definition" : {
+    "type" : "ember",
+    "size" : 4.0,
+    "color" : [0, 240, 255, 175],
+    "fade" : 0,
+    "initialVelocity" : [-10,0],
+    "finalVelocity" : [-10,0],
+    "approach" : [0,0],
+    "timeToLive" : 0.51,
+    "light" : [0, 240, 255],
+    "layer" : "middle",
+    "ignoreWind" : true,
+    "variance" : {
+      "size" : 1
+    }
+  }
+}

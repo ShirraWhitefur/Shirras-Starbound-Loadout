@@ -1,0 +1,16 @@
+  {
+  "id" : "mushroomfriend4.gearup",
+  "prerequisites" : [ "mushroomfriend3.gearup" ],
+  "title" : "^orange;Weird Shroom Lights",
+  "text" : "Bababa now begins to make a circular motion with his hands, and points at a torch, then a plant. You're confused. An hour later you finally figure it out, he wants one of those Floran orb lights.",
+  "completionText" : "He gets a strange smile on his face when you bring this to him...you're not sure how to feel about that. Well Bababa got his item, I wonder what else he needs.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "floranlight", "count" : 1, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [  [ "shroomhead4", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

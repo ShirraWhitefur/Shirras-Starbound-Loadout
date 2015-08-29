@@ -1,0 +1,29 @@
+{
+	"objectName" : "felinmarketstall1",
+	"tags" : [ "felin", "felinvillage", "felinmarket", "commerce" ],
+	"rarity" : "common",
+	"description" : "I wonder what kind of food they sell on this planet.",
+	"shortdescription" : "Felin Food Stall",
+	"race" : "felin",
+	"category" : "decorative",
+	"price" : 120,
+	"apexDescription" : "A wide selection of fruits and meats.",
+	"avianDescription" : "These fruits seem okay enough.",
+	"floranDescription" : "Delicious meatsss. Floran wants top shelf!",
+	"glitchDescription" : "Mouthwatering. If I were capable of producing saliva, I would be salivating.",
+	"humanDescription" : "Did that tentacle on the top shelf just wriggle?",
+	"hylotlDescription" : "Surface food is so rich and full of flavour.",
+	"felinDescription" : "Why bother with separate fruit and meat vendors? This is so much more efficient.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"dualImage" : "felinmarketstall1.png",
+			"imagePosition" : [-24, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ],
+			"collision" : "platform"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+  {
+  "id" : "miningquest8.gearup",
+  "prerequisites" : [ "miningquest7.gearup" ],
+  "title" : "^orange;Mining Company",
+  "text" : "We're finally bringing in a good chunk of pixels! I figured we could take a break from mining and instead focus on some food. How about you bring me a dozen bushels of wheat for my little buddy and us?",
+  "completionText" : "Personally I enjoy bread, but this little guy right here enjoys wheat very much. Or does he? I don't really know. It likes food. Anyways, want to put down its pet bowl somewhere in the mine or the settlement for me?",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "wheat", "count" : 12, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "snuggetbowl", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

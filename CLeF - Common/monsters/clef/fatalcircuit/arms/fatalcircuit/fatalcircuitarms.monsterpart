@@ -1,0 +1,10 @@
+{
+  "name" : "fatalcircuitarms",
+  "category" : "fatalcircuit_robotic",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "fatalcircuitfarm.png",
+    "backArm" : "fatalcircuitbarm.png"
+  }
+}

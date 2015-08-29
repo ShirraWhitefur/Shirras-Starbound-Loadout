@@ -1,0 +1,10 @@
+{
+  "name" : "anti_jetpack",
+  "category" : "smallflying",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "anti_jetpackbwing.png",
+    "frontWings" : "anti_jetpackfwing.png"
+  }
+}

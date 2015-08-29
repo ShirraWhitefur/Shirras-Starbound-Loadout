@@ -1,0 +1,1356 @@
+{
+	"metadata": {
+		"name": "felinvillage",
+		"species": "felin",
+		"rules": [],
+		"maxRadius": 750,
+		"maxParts": 100,
+		"anchor": [ /* "felinhouse1a", */ "felinbath" /*, "felinmarket1" */ ],
+		"protected" : true
+	},
+
+	"tiles": [
+		{
+			"value": [ 255, 0, 220, 255 ],
+			"comment": "NOP"
+		},
+		{
+			"value": [ 0, 0, 0, 255 ],
+			"comment": "Must be air",
+			"brush": [ [ "clear" ] ],
+			"rules": [ [ "worldGenMustContainAirBackground" ], [ "allowOverdrawing" ] ]
+		},
+		{
+			"value": [ 255, 255, 255, 255 ],
+			"comment": "Must be solid background",
+			"brush": [ [ "surface" ] ],
+			"rules": [ [ "worldGenMustContainSolidBackground" ], [ "allowOverdrawing" ] ]
+		},
+		{
+			"value": [ 0, 38, 255, 255 ],
+			"comment": "Primary coupler",
+			"connector": true
+		},
+		{
+			"value": [ 0, 255, 186, 255 ],
+			"comment": "Secondary coupler",
+			"connector": true
+		},
+		{
+			"value": [ 64, 255, 186, 255 ],
+			"comment": "Tertiary coupler",
+			"connector": true
+		},
+		{
+			"value": [ 32, 32, 32, 255 ],
+			"comment": "Clear",
+			"brush": [ [ "clear" ] ]
+		},
+
+		{
+			"value": [85, 255, 0, 255],
+			"comment": "Player Spawn",
+			"brush": [ [ "playerstart" ] ]
+		},
+
+		{
+			"value": [220, 220, 220, 255],
+			"comment": "Shield generator (left, on)",
+			"brush": [ [ "clear" ], [ "object", "felingenerator", { "direction" : "left", "parameters" : { "defaultState" : true } } ] ]
+		},
+
+		{
+			"value": [ 128, 128, 128, 255 ],
+			"comment": "Biome-specific (foreground, overdraw)",
+			"brush": [ [ "surface" ] ],
+			"rules": [ [ "allowOverdrawing" ] ]
+		},
+		{
+			"value": [ 100, 100, 100, 255 ],
+			"comment": "Biome-specific (foreground)",
+			"brush": [ [ "surface" ] ]
+		},
+		{
+			"value": [ 200, 200, 200, 255 ],
+			"comment": "Biome-specific (background)",
+			"brush": [ [ "clear" ], [ "surfacebackground" ] ]
+		},
+
+		{
+			"value": [ 54, 63, 105, 255 ],
+			"comment": "Water (object layer!)",
+			"brush": [ [ "clear" ], [ "liquid", "water" ] ]
+		},
+		{
+			"value": [ 255, 96, 0, 255 ],
+			"comment": "Lava (object layer!)",
+			"brush": [ [ "clear" ], [ "liquid", "lava" ] ]
+		},
+
+		{
+			"value": [ 255, 0, 0, 255 ],
+			"comment": "Wire 1 - red",
+			"brush": [ [ "wire", { "group": "group1", "local": true } ] ]
+		},
+		{
+			"value": [ 0, 255, 0, 255 ],
+			"comment": "Wire 2 - green",
+			"brush": [ [ "wire", { "group": "group2", "local": true } ] ]
+		},
+		{
+			"value": [ 0, 0, 255, 255 ],
+			"comment": "Wire 3 - blue",
+			"brush": [ [ "wire", { "group": "group3", "local": true } ] ]
+		},
+
+
+		{
+			"value" : [26, 77, 0, 255],
+			"comment" : "Biome-specific tree",
+			"rules" : [ [ "allowOverdrawing" ] ],
+			"brush" : [ [ "biometree" ] ]
+		},
+
+		{
+			"value" : [34, 102, 0, 255],
+			"comment" : "Biome-specific flora",
+			"rules" : [ [ "allowOverdrawing" ] ],
+			"brush" : [ [ "biomeitems" ] ]
+		},
+
+//-----------------------------------//
+
+		{
+			"value": [ 170, 146, 247, 255 ],
+			"comment": "Light bricks (foreground)",
+			"brush": [ [ "clear" ], [ "back", "fadedblocks" ], [ "front", "fadedblocks" ] ]
+		},
+		{
+			"value": [ 108, 91, 162, 255 ],
+			"comment": "Light bricks (background)",
+			"brush": [ [ "clear" ], [ "back", "fadedblocks" ] ]
+		},
+
+		{
+			"value": [ 146, 210, 247, 255 ],
+			"comment": "Painted bricks (foreground)",
+			"brush": [ [ "clear" ], [ "back", "homewalls1" ], [ "front", "homewalls1" ] ]
+		},
+		{
+			"value": [ 91, 136, 162, 255 ],
+			"comment": "Painted bricks (background)",
+			"brush": [ [ "clear" ], [ "back", "homewalls1" ] ]
+		},
+
+		/*
+		{
+			"value": [ 170, 146, 247, 255 ],
+			"comment": "Light metal (foreground)",
+			"brush": [ [ "clear" ], [ "back", "lightmetal" ], [ "front", "lightmetal" ] ]
+		},
+		{
+			"value": [ 108, 91, 162, 255 ],
+			"comment": "Light metal (background)",
+			"brush": [ [ "clear" ], [ "back", "lightmetal" ] ]
+		},
+
+		{
+			"value": [ 146, 210, 247, 255 ],
+			"comment": "Medium metal (foreground)",
+			"brush": [ [ "clear" ], [ "back", "mediummetal" ], [ "front", "mediummetal" ] ]
+		},
+		{
+			"value": [ 91, 136, 162, 255 ],
+			"comment": "Medium metal (background)",
+			"brush": [ [ "clear" ], [ "back", "mediummetal" ] ]
+		},
+		*/
+
+		{
+			"value": [ 237, 26, 184, 255 ],
+			"comment": "Processed wood (foreground)",
+			"brush": [ [ "clear" ], [ "back", "darkwood" ], [ "front", "darkwood" ] ]
+		},
+		{
+			"value": [ 186, 20, 145, 255 ],
+			"comment": "Processed wood (background)",
+			"brush": [ [ "clear" ], [ "back", "darkwood" ] ]
+		},
+
+		{
+			"value": [ 102, 52, 99, 255 ],
+			"comment": "Unrefined wood (foreground)",
+			"brush": [ [ "clear" ], [ "back", "fullwood2" ], [ "front", "fullwood2" ] ]
+		},
+		{
+			"value": [ 60,25, 58,255 ],
+			"comment": "Unrefined wood (background)",
+			"brush": [ [ "clear" ], [ "back", "fullwood2" ] ]
+		},
+
+		{
+			"value": [ 224, 247, 146, 255 ],
+			"comment": "Shoji (background)",
+			"brush": [ [ "clear" ], [ "back", "shojiscreenpanel" ] ]
+		},
+
+		{
+			"value": [ 205, 255, 128, 255 ],
+			"comment": "Glass (object layer!)",
+			"brush": [ [ "clear" ], [ "front", "glass" ] ]
+		},
+		{
+			"value": [ 165, 204, 102, 255 ],
+			"comment": "Glass (background)",
+			"brush": [ [ "clear" ], [ "back", "glass" ] ]
+		},
+
+		{
+			"value": [ 217, 184, 85, 255 ],
+			"comment": "Thatch (foreground)",
+			"brush": [ [ "clear" ], [ "back", "thatch" ], [ "front", "thatch" ] ]
+		},
+		{
+			"value": [ 166, 140, 65, 255 ],
+			"comment": "Thatch (background)",
+			"brush": [ [ "clear" ], [ "back", "thatch" ] ]
+		},
+
+		{
+			"value": [ 85, 217, 129, 255 ],
+			"comment": "Plant matter (foreground)",
+			"brush": [ [ "clear" ], [ "back", "plantmatter" ], [ "front", "plantmatter" ] ]
+		},
+		{
+			"value": [ 65, 166, 98, 255 ],
+			"comment": "Plant matter (background)",
+			"brush": [ [ "clear" ], [ "back", "plantmatter" ] ]
+		},
+		{
+			"value": [ 55, 140, 83, 255 ],
+			"comment": "Plant matter (background, overwrite)",
+			"brush": [ [ "clear" ], [ "back", "plantmatter" ] ],
+			"rules": [ [ "allowOverdrawing" ] ]
+		},
+
+		{
+			"value": [ 69, 8, 109, 255 ],
+			"comment": "Carpet (foreground)",
+			"brush": [ [ "clear" ], [ "back", "carpet" ], [ "front", "carpet" ] ]
+		},
+		{
+			"value": [ 31, 8, 109, 255 ],
+			"comment": "Carpet (background)",
+			"brush": [ [ "clear" ], [ "back", "carpet" ] ]
+		},
+
+		{
+			"value" : [217, 151, 85, 255],
+			"comment" : "Fence (foreground)",
+			"brush" : [ [ "clear" ], [ "front", "fence" ] ]
+		},
+		{
+			"value" : [166, 115, 65, 255],
+			"comment" : "Fence (background)",
+			"rules" : [ [ "allowOverdrawing" ] ],
+			"brush" : [ [ "clear" ], [ "back", "fence" ] ]
+		},
+
+		{
+			"value" : [148, 185, 21, 255],
+			"comment" : "Message wall (background)",
+			"brush" : [ [ "clear" ], [ "back", "darksmoothstone" ] ]
+		},
+
+
+//-----------------------------------//
+
+
+		{
+			"value": [ 137, 124, 76, 255 ],
+			"comment": "Wooden stairs & platform",
+			"brush": [ [ "clear" ], [ "front", "platform2" ] ]
+		},
+		{
+			"value": [ 222, 134, 173, 255 ],
+			"comment": "Steel stairs & platform",
+			"brush": [ [ "clear" ], [ "front", "steelplatform" ] ]
+		},
+
+		{
+			"value": [ 175, 168, 143, 255 ],
+			"comment": "Wooden door",
+			"brush": [ [ "clear" ], [ "object", "felindoor" ] ]
+		},
+		{
+			"value": [ 175, 170, 143, 255 ],
+			"comment": "Shoji door",
+			"brush": [ [ "clear" ], [ "object", "hylotlshojidoor" ] ]
+		},
+
+		{
+			"value": [ 251, 209, 209, 255 ],
+			"comment": "Sign 2 - Be Nice",
+			"brush": [ [ "clear" ], [ "object", "felinsign1" ] ]
+		},
+		{
+			"value": [ 241, 209, 209, 255 ],
+			"comment": "Sign 2 - Prices",
+			"brush": [ [ "clear" ], [ "object", "felinsign2" ] ]
+		},
+		{
+			"value": [ 251, 209, 248, 255 ],
+			"comment": "Sign 3 - supplies (left)",
+			"brush": [ [ "clear" ], [ "object", "felinsign3", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 241, 209, 248, 255 ],
+			"comment": "Sign 3 - supplies (right)",
+			"brush": [ [ "clear" ], [ "object", "felinsign3", { "direction": "right" } ] ]
+		},
+
+		{
+			"value": [ 209, 251, 227, 255 ],
+			"comment": "Fluorescent light",
+			"brush": [ [ "clear" ], [ "object", "fluorescentlight" ] ]
+		},
+
+		{
+			"value": [ 249, 251, 209, 255 ],
+			"comment": "Space heater (left)",
+			"brush": [ [ "clear" ], [ "object", "bunkerheater1", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 249, 231, 209, 255 ],
+			"comment": "Space heater (right)",
+			"brush": [ [ "clear" ], [ "object", "bunkerheater1", { "direction": "right" } ] ]
+		},
+
+		{
+			"value": [ 229, 251, 209, 255 ],
+			"comment": "Fireplace (left)",
+			"brush": [ [ "clear" ], [ "object", "felinfireplace", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 239, 251, 209, 255 ],
+			"comment": "Fireplace (right)",
+			"brush": [ [ "clear" ], [ "object", "felinfireplace", { "direction": "right" } ] ]
+		},
+		{
+			"value": [ 229, 241, 209, 255 ],
+			"comment": "Smokestack (left)",
+			"brush": [ [ "clear" ], [ "object", "felinsmokestack", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 239, 241, 209, 255 ],
+			"comment": "Smokestack (right)",
+			"brush": [ [ "clear" ], [ "object", "felinsmokestack", { "direction": "right" } ] ]
+		},
+
+		{
+			"value": [ 255, 47, 47, 255 ],
+			"comment": "Wooden support strut",
+			"brush": [ [ "clear" ], [ "object", "woodsupport" ] ]
+		},
+
+		{
+			"value": [ 14, 97, 43, 255 ],
+			"comment": "Calligraphy 1 - neko kanji",
+			"brush": [ [ "clear" ], [ "object", "felincalligraphy1" ] ]
+		},
+		{
+			"value": [ 97, 88, 14, 255 ],
+			"comment": "Calligraphy 2 - pawprint",
+			"brush": [ [ "clear" ], [ "object", "felincalligraphy2" ] ]
+		},
+
+		{
+			"value": [ 209, 219, 251, 255 ],
+			"comment": "Beanbag chair (left)",
+			"brush": [ [ "clear" ], [ "object", "felinbeanbagchair", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 199, 219, 251, 255 ],
+			"comment": "Beanbag chair (right)",
+			"brush": [ [ "clear" ], [ "object", "felinbeanbagchair", { "direction": "right" } ] ]
+		},
+
+		{
+			"value": [ 47, 255, 243, 255 ],
+			"comment": "Bed (left)",
+			"brush": [ [ "clear" ], [ "object", "felinbed", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 37, 255, 243, 255 ],
+			"comment": "Bed (right)",
+			"brush": [ [ "clear" ], [ "object", "felinbed", { "direction": "right" } ] ]
+		},
+
+		{
+			"value": [ 226, 209, 251, 255 ],
+			"comment": "Barrel fire",
+			"brush": [ [ "clear" ], [ "object", "prisonbarrelfire" ] ]
+		},
+
+		{
+			"value": [ 255, 24, 24, 255 ],
+			"comment": "Lava lamp",
+			"brush": [ [ "clear" ], [ "object", "lavalamp1" ] ]
+		},
+
+		{
+			"value": [ 111, 24, 255, 255 ],
+			"comment": "Edutainment TV",
+			"brush": [ [ "clear" ], [ "object", "felinfuntv", { "direction": "right" } ] ]
+		},
+		{
+			"value": [ 111, 24, 245, 255 ],
+			"comment": "Romcom TV",
+			"brush": [ [ "clear" ], [ "object", "felintv", { "direction": "right" } ] ]
+		},
+
+		{
+			"value" : [255, 189, 47, 255],
+			"comment" : "Banner",
+			"brush" : [ [ "clear" ], [ "object", "felinbanner" ] ]
+		},
+
+		{
+			"value": [ 255, 24, 209, 255 ],
+			"comment": "Shoji screen",
+			"brush": [ [ "clear" ], [ "object", "hylotlshojiscreen" ] ]
+		},
+
+		{
+			"value": [ 116, 219, 211, 255 ],
+			"comment": "Frisky Felin Hologram",
+			"brush": [ [ "clear" ], [ "object", "felinhologram", { "direction": "left" } ] ]
+		},
+
+		{
+			"value": [ 255, 184, 153, 255 ],
+			"comment": "Supply box (left)",
+			"brush": [ [ "clear" ], [ "object", "cardboard2", {
+				"direction": "left",
+				"parameters": {
+					"treasurePools": [ "basicChestTreasure" ]
+				}
+			} ] ]
+		},
+		{
+			"value": [ 245, 184, 153, 255 ],
+			"comment": "Supply box (right)",
+			"brush": [ [ "clear" ], [ "object", "cardboard2", {
+				"direction": "right",
+				"parameters": {
+					"treasurePools": [ "basicChestTreasure" ]
+				}
+			} ] ]
+		},
+
+		{
+			"value": [ 174, 220, 125, 255 ],
+			"comment": "Tall cabinet (left)",
+			"brush": [ [ "clear" ], [ "object", "felincabinet2", {
+				"direction": "left",
+				"parameters": {
+					"treasurePools": [ "felinTallCabinetTreasure" ]
+				}
+			} ] ]
+		},
+		{
+			"value": [ 184, 220, 125, 255 ],
+			"comment": "Tall cabinet (right)",
+			"brush": [ [ "clear" ], [ "object", "felincabinet2", {
+				"direction": "right",
+				"parameters": {
+					"treasurePools": [ "felinTallCabinetTreasure" ]
+				}
+			} ] ]
+		},
+
+		{
+			"value": [ 220, 125, 185, 255 ],
+			"comment": "Short cabinet (left)",
+			"brush": [ [ "clear" ], [ "object", "felincabinet3", {
+				"direction": "left",
+				"parameters": {
+					"treasurePools": [ "felinShortCabinetTreasure" ]
+				}
+			} ] ]
+		},
+		{
+			"value": [ 230, 125, 185, 255 ],
+			"comment": "Short cabinet (right)",
+			"brush": [ [ "clear" ], [ "object", "felincabinet3", {
+				"direction": "right",
+				"parameters": {
+					"treasurePools": [ "felinShortCabinetTreasure" ]
+				}
+			} ] ]
+		},
+
+		{
+			"value" : [125, 47, 255, 255],
+			"comment" : "Ceiling cabinet (left)",
+			"brush" : [ [ "clear" ], [ "object", "felinceilingcabinet1", {
+				"direction": "left",
+				"parameters": {
+					"treasurePools": [ "felinShortCabinetTreasure" ]
+				}
+			} ] ]
+		},
+		{
+			"value" : [115, 47, 255, 255],
+			"comment" : "Ceiling cabinet (right)",
+			"brush" : [ [ "clear" ], [ "object", "felinceilingcabinet1", {
+				"direction": "right",
+				"parameters": {
+					"treasurePools": [ "felinShortCabinetTreasure" ]
+				}
+			} ] ]
+		},
+
+		{
+			"value": [ 198, 24, 255, 255 ],
+			"comment": "Security camera",
+			"brush": [ [ "clear" ], [ "object", "prisonsecuritycamera" ] ]
+		},
+
+		{
+			"value": [ 209, 247, 251, 255 ],
+			"comment": "Computer (left)",
+			"brush": [ [ "clear" ], [ "object", "felincomputer", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 199, 247, 251, 255 ],
+			"comment": "Computer (right)",
+			"brush": [ [ "clear" ], [ "object", "felincomputer", { "direction": "right" } ] ]
+		},
+
+		{
+			"value": [ 231, 251, 209, 255 ],
+			"comment": "Comfy chair (left)",
+			"brush": [ [ "clear" ], [ "object", "apexcomfychair", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 221, 251, 209, 255 ],
+			"comment": "Comfy chair (right)",
+			"brush": [ [ "clear" ], [ "object", "apexcomfychair", { "direction": "right" } ] ]
+		},
+
+		{
+			"value": [ 135, 77, 110, 255 ],
+			"comment": "Market stall 1 - food (left)",
+			"brush": [ [ "clear" ], [ "object", "felinmarketstall1", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 135, 77, 127, 255 ],
+			"comment": "Market stall 1 - food (right)",
+			"brush": [ [ "clear" ], [ "object", "felinmarketstall1", { "direction": "right" } ] ]
+		},
+		{
+			"value": [ 130, 77, 135, 255 ],
+			"comment": "Market stall 2 - clothes (left)",
+			"brush": [ [ "clear" ], [ "object", "felinmarketstall2", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 111, 77, 135, 255 ],
+			"comment": "Market stall 2 - clothes (right)",
+			"brush": [ [ "clear" ], [ "object", "felinmarketstall2", { "direction": "right" } ] ]
+		},
+		{
+			"value": [ 100, 77, 135, 255 ],
+			"comment": "Market stall 3 - weapons (left)",
+			"brush": [ [ "clear" ], [ "object", "felinmarketstall3", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 86, 77, 135, 255 ],
+			"comment": "Market stall 3 - weapons (right)",
+			"brush": [ [ "clear" ], [ "object", "felinmarketstall3", { "direction": "right" } ] ]
+		},
+		{
+			"value": [ 77, 81, 135, 255 ],
+			"comment": "Market stall 4 - empty small (left)",
+			"brush": [ [ "clear" ], [ "object", "felinmarketstall4", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 77, 93, 135, 255 ],
+			"comment": "Market stall 4 - empty small (right)",
+			"brush": [ [ "clear" ], [ "object", "felinmarketstall4", { "direction": "right" } ] ]
+		},
+		{
+			"value": [ 77, 107, 135, 255 ],
+			"comment": "Market stall 5 - empty (left)",
+			"brush": [ [ "clear" ], [ "object", "felinmarketstall5", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 77, 119, 135,255 ],
+			"comment": "Market stall 5 - empty (right)",
+			"brush": [ [ "clear" ], [ "object", "felinmarketstall5", { "direction": "right" } ] ]
+		},
+
+		{
+			"value": [ 182, 11, 217, 255 ],
+			"comment": "Burning coals (left)",
+			"brush": [ [ "clear" ], [ "object", "burningcoals", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 161, 10, 191, 255 ],
+			"comment": "Burning coals (right)",
+			"brush": [ [ "clear" ], ["object", "burningcoals", { "direction": "right" } ] ]
+		},
+
+		{
+			"value": [ 134, 157, 222, 255 ],
+			"comment": "Wooden table (left)",
+			"brush": [ [ "clear" ], [ "object", "woodtable", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 144, 157, 222, 255 ],
+			"comment": "Wooden table (right)",
+			"brush": [ [ "clear" ], [ "object", "woodtable", { "direction": "right" } ] ]
+		},
+
+		{
+			"value": [ 47, 255, 81, 255 ],
+			"comment": "Bar stool (left)",
+			"brush": [ [ "clear" ], [ "object", "barstool" ] ]
+		},
+
+		{
+			"value": [ 217, 33, 155, 255 ],
+			"comment": "Pelt",
+			"brush": [ [ "clear" ], [
+			"object", "floranpelt1" ] ]
+		},
+
+		{
+			"value": [ 228, 47, 255, 255 ],
+			"comment": "Roast 1",
+			"brush": [ [ "clear" ], [ "object", "felinroast1" ] ]
+		},
+		{
+			"value": [ 47, 174, 255, 255 ],
+			"comment": "Roast 2",
+			"brush": [ [ "clear" ], [ "object", "felinroast2" ] ]
+		},
+
+		{
+			"value": [ 218, 47, 255, 255 ],
+			"comment": "School chalkboard",
+			"brush": [ [ "clear" ], [ "object", "felinchalkboard" ] ]
+		},
+
+		{
+			"value": [ 69, 185, 134, 255 ],
+			"comment": "Toilet (left)",
+			"brush": [ [ "clear" ], [ "object", "basictoilet", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 69, 185, 118, 255 ],
+			"comment": "Toilet (right)",
+			"brush": [ [ "clear" ], [ "object", "basictoilet", { "direction": "right" } ] ]
+		},
+
+		{
+			"value": [ 134, 185, 69, 255 ],
+			"comment": "Bathtub (left)",
+			"brush": [ [ "clear" ], [ "object", "basicbath", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 156, 203, 96, 255 ],
+			"comment": "Bathtub (right)",
+			"brush": [ [ "clear" ], [ "object", "basicbath", { "direction": "right" } ] ]
+		},
+
+		{
+			"value": [ 47, 213, 255, 255 ],
+			"comment": "Fridge (left)",
+			"brush": [ [ "clear" ], [ "object", "fridge", {
+				"direction": "left",
+				"parameters": { "treasurePools": [ "felinFridge" ]
+				}
+			} ] ]
+		},
+		{
+			"value": [ 37, 213, 255, 255 ],
+			"comment": "Fridge (right)",
+			"brush": [ [ "clear" ], [ "object", "fridge", {
+				"direction": "right",
+				"parameters": { "treasurePools": [ "felinFridge" ]
+				}
+			} ] ]
+		},
+
+		{
+			"value": [ 221, 241, 209, 255 ],
+			"comment": "Sink (left)",
+			"brush": [ [ "clear" ], [ "object", "woodensink", { "direction": "left" } ] ]
+		},
+		{
+			"value": [ 249, 241, 209, 255 ],
+			"comment": "Sink (right)",
+			"brush": [ [ "clear" ], [ "object", "woodensink", { "direction": "right" } ] ]
+		},
+
+		{
+			"value": [ 47, 180, 255, 255 ],
+			"comment": "Bathhouse sign",
+			"brush": [ [ "clear" ], [ "object", "felinbathsign" ] ]
+		},
+		{
+			"value": [ 47, 186, 255, 255 ],
+			"comment": "Clothing sign",
+			"brush": [ [ "clear" ], [ "object", "felinclothingsign" ] ]
+		},
+		{
+			"value": [ 47, 192, 255, 255 ],
+			"comment": "Food sign",
+			"brush": [ [ "clear" ], [ "object", "felinfoodsign" ] ]
+		},
+		{
+			"value": [ 47, 198, 255, 255 ],
+			"comment": "Love sign",
+			"brush": [ [ "clear" ], [ "object", "felinlovesign" ] ]
+		},
+		{
+			"value": [ 47, 204, 255, 255 ],
+			"comment": "School sign",
+			"brush": [ [ "clear" ], [ "object", "felinschoolsign" ] ]
+		},
+		{
+			"value": [ 47, 210, 255, 255 ],
+			"comment": "Weapons sign",
+			"brush": [ [ "clear" ], [ "object", "felinweaponsign" ] ]
+		},
+		{
+			"value": [ 47, 214, 255, 255 ],
+			"comment": "Shopping music speaker",
+			"brush": [ [ "clear" ], [ "object", "felinmarketspeaker" ] ]
+		},
+
+		{
+			"value": [ 47, 210, 245, 255 ],
+			"comment": "Poster 1 - Green",
+			"brush": [ [ "clear" ], [ "object", "felinposter1" ] ]
+		},
+		{
+			"value": [ 47, 210, 235, 255 ],
+			"comment": "Poster 2 - Gray",
+			"brush": [ [ "clear" ], [ "object", "felinposter2" ] ]
+		},
+		{
+			"value": [ 47, 210, 225, 255 ],
+			"comment": "Poster 3 - Red",
+			"brush": [ [ "clear" ], [ "object", "felinposter3" ] ]
+		},
+		{
+			"value": [ 47, 210, 215, 255 ],
+			"comment": "Poster 4 - Chelsie",
+			"brush": [ [ "clear" ], [ "object", "felinposter4" ] ]
+		},
+		{
+			"value": [ 47, 210, 205, 255 ],
+			"comment": "Poster 5 - Brown",
+			"brush": [ [ "clear" ], [ "object", "felinposter5" ] ]
+		},
+		{
+			"value": [ 47, 210, 195, 255 ],
+			"comment": "Poster 6 - Red",
+			"brush": [ [ "clear" ], [ "object", "felinposter6" ] ]
+		},
+		{
+			"value": [ 47, 210, 185, 255 ],
+			"comment": "Poster 7 - Recruitment",
+			"brush": [ [ "clear" ], [ "object", "felinposter7" ] ]
+		},
+		{
+			"value": [ 47, 210, 175, 255 ],
+			"comment": "Poster 8 - Red",
+			"brush": [ [ "clear" ], [ "object", "felinposter8" ] ]
+		},
+		{
+			"value": [ 47, 210, 165, 255 ],
+			"comment": "Poster 9 - Not Chelsie",
+			"brush": [ [ "clear" ], [ "object", "felinposter9" ] ]
+		},
+		{
+			"value": [ 47, 210, 155, 255 ],
+			"comment": "Poster 10 - Black",
+			"brush": [ [ "clear" ], [ "object", "felinposter10" ] ]
+		},
+		{
+			"value": [ 47, 210, 145, 255 ],
+			"comment": "Poster 11 - Blond",
+			"brush": [ [ "clear" ], [ "object", "felinposter11" ] ]
+		},
+		{
+			"value": [ 47, 210, 135, 255 ],
+			"comment": "Megazord poster",
+			"brush": [ [ "clear" ], [ "object", "megazordposter" ] ]
+		},
+
+		{
+			"value" : [166, 124, 83, 255],
+			"comment" : "Wooden gate",
+			"brush" : [ [ "clear" ], [ "object", "woodengate" ] ]
+		},
+
+		{
+			"value" : [251, 241, 209, 255],
+			"comment" : "Clock (left)",
+			"brush" : [ [ "clear" ], [ "object", "owlclock", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [241, 241, 209, 255],
+			"comment" : "Clock (right)",
+			"brush" : [ [ "clear" ], [ "object", "owlclock", { "direction" : "right" } ] ]
+		},
+
+		{
+			"value" : [216, 209, 251, 255],
+			"comment" : "Plate of Apple Pie",
+			"brush" : [ [ "clear" ], [ "object", "applepieplatter" ] ]
+		},
+		{
+			"value" : [57, 24, 255, 255],
+			"comment" : "Plate of Bacon",
+			"brush" : [ [ "clear" ], [ "object", "baconplatter" ] ]
+		},
+		{
+			"value" : [24, 144, 255, 255],
+			"comment" : "Plate of Carrot Cake",
+			"brush" : [ [ "clear" ], [ "object", "carrotcakeplatter" ] ]
+		},
+		{
+			"value" : [24, 236, 255, 255],
+			"comment" : "Plate of Ham",
+			"brush" : [ [ "clear" ], [ "object", "hamplatter" ] ]
+		},
+		{
+			"value" : [24, 255, 160, 255],
+			"comment" : "Plate of Alien Meat",
+			"brush" : [ [ "clear" ], [ "object", "meatplatter" ] ]
+		},
+		{
+			"value" : [84, 255, 24, 255],
+			"comment" : "Plate of Poultry",
+			"brush" : [ [ "clear" ], [ "object", "poultryplatter" ] ]
+		},
+		{
+			"value" : [220, 255, 24, 255],
+			"comment" : "Plate of Pussplum Pie",
+			"brush" : [ [ "clear" ], [ "object", "pussplumpieplatter" ] ]
+		},
+		{
+			"value" : [125, 47, 255, 255],
+			"comment" : "Plate of Rib",
+			"brush" : [ [ "clear" ], [ "object", "ribplatter" ] ]
+		},
+		{
+			"value" : [115, 47, 255, 255],
+			"comment" : "Plate of Tentacles",
+			"brush" : [ [ "clear" ], [ "object", "tentacleplatter" ] ]
+		},
+
+		{
+			"value" : [174, 189, 17, 255],
+			"comment" : "Bicycle",
+			"brush" : [ [ "clear" ], [ "object", "felinbike" ] ]
+		},
+
+		{
+			"value" : [175, 189, 23, 255],
+			"comment" : "Trash can",
+			"brush": [ [ "clear" ], [ "object", "felintrashcan", {
+				"parameters": {
+					"treasurePools": [ "felinTrashcan" ]
+				}
+			} ] ]
+		},
+
+		{
+			"value": [ 235, 184, 153, 255 ],
+			"comment": "Supply box (corvette chip)",
+			"brush": [ [ "clear" ], [ "object", "cardboard2", {
+				"direction": "right",
+				"parameters": {
+					"treasurePools": [ "felinSuppliesCarTech" ]
+				}
+			} ] ]
+		},
+
+		{
+			"value" : [111, 255, 47, 255],
+			"comment" : "Chelsie plushie",
+			"brush" : [ [ "clear" ], [ "object", "chelsieplush" ] ]
+		},
+		{
+			"value" : [121, 255, 47, 255],
+			"comment" : "Letrune plushie",
+			"brush" : [ [ "clear" ], [ "object", "lettieplush" ] ]
+		},
+
+		{
+			"value" : [147, 189, 23, 255],
+			"comment" : "Graffiti 1 (Chelise is Cool)",
+			"brush" : [ [ "clear" ], [ "object", "felingraffiti1" ] ]
+		},
+		{
+			"value" : [147, 189, 33, 255],
+			"comment" : "Graffiti 2 (Behold the Pogo)",
+			"brush" : [ [ "clear" ], [ "object", "felingraffiti2" ] ]
+		},
+		{
+			"value" : [147, 189, 43, 255],
+			"comment" : "Graffiti 3 (Lirith was Here)",
+			"brush" : [ [ "clear" ], [ "object", "felingraffiti3" ] ]
+		},
+		{
+			"value" : [147, 189, 53, 255],
+			"comment" : "Graffiti 4 (Why so Cruel)",
+			"brush" : [ [ "clear" ], [ "object", "felingraffiti4" ] ]
+		},
+		{
+			"value" : [147, 189, 63, 255],
+			"comment" : "Graffiti 5 (Femine is Sweet)",
+			"brush" : [ [ "clear" ], [ "object", "felingraffiti5" ] ]
+		},
+		{
+			"value" : [147, 189, 73, 255],
+			"comment" : "Graffiti 6 (Once you are Dead)",
+			"brush" : [ [ "clear" ], [ "object", "felingraffiti6" ] ]
+		},
+
+		{
+			"value" : [157, 189, 73, 255],
+			"comment" : "Bathhouse mural (with backmat)",
+			"brush" : [ [ "clear" ], [ "back", "homewalls1" ], [ "object", "felinbathmural" ] ]
+		},
+
+
+//-----------------------------------//
+
+
+		{
+			"value": [ 0, 200, 0, 255 ],
+			"comment": "Villager",
+			"brush": [ [ "npc",
+				{
+					"kind": "npc",
+					"species": "felin",
+					"typeName": "villager"
+				}
+			] ]
+		},
+		{
+			"value": [ 0, 210, 0, 255 ],
+			"comment": "Comforter",
+			"brush": [ [ "npc",
+				{
+					"kind": "npc",
+					"species": "felin",
+					"typeName": "comforter"
+				}
+			] ]
+		},
+		{
+			"comment": "Food merchant",
+			"value": [ 175, 0, 0, 255 ],
+			"brush": [ [ "npc",
+				{
+					"kind": "npc",
+					"species": "felin",
+					"typeName": "merchant",
+					"parameters": {
+						"scriptConfig": {
+							"noticePlayersRadius": 20.0,
+							"merchant": {
+								"storeRadius": 2,
+								"categories": { "default" : [ "feliningredients" ] },
+								"priceVarianceRange": [ 0.8, 1.2 ],
+								"numItems": 6
+							},
+							"sit": {
+								"searchRadius": 8
+							}
+						}
+					}
+				}
+			] ]
+		},
+		{
+			"value": [ 200, 0, 0, 255 ],
+			"comment": "Weapons merchant",
+			"brush": [ [ "npc",
+				{
+					"kind": "npc",
+					"species": "felin",
+					"typeName": "merchant",
+					"parameters": {
+						"scriptConfig": {
+							"noticePlayersRadius": 20.0,
+							"merchant": {
+								"storeRadius": 2,
+								"categories": { "default" : [ "felinweaponblueprints", "randomswords" ] },
+								"priceVarianceRange": [ 0.8, 1.2 ],
+								"numItems": 10
+							},
+							"sit": {
+								"searchRadius": 8
+							}
+						}
+					}
+				}
+			] ]
+		},
+		{
+			"value": [ 225, 0, 0, 255 ],
+			"comment": "Armor/clothes merchant",
+			"brush": [ [ "npc",
+				{
+					"kind": "npc",
+					"species": "felin",
+					"typeName": "merchant",
+					"parameters": {
+						"scriptConfig": {
+							"noticePlayersRadius": 20.0,
+							"merchant": {
+								"storeRadius": 2,
+								"categories": { "default" : [ "felinarmorblueprints", "felinclothes" ] },
+								"priceVarianceRange": [ 0.8, 1.2 ],
+								"numItems": 20
+							},
+							"sit": {
+								"searchRadius": 8
+							}
+						}
+					}
+				}
+			] ]
+		},
+		{
+			"value": [ 0, 0, 200, 255 ],
+			"comment": "Village guard",
+			"brush": [ [ "npc",
+				{
+					"kind": "npc",
+					"species": "felin",
+					"typeName": "villageguard"
+				}
+			] ]
+		},
+		{
+			"value": [ 0, 0, 225, 255 ],
+			"comment": "Guard captain",
+			"brush": [ [ "npc",
+				{
+					"kind": "npc",
+					"species": "felin",
+					"typeName": "villageguardcaptain"
+				}
+			] ]
+		},
+		{
+			"value": [ 0, 230, 0, 255 ],
+			"comment": "Rous",
+			"brush": [ [ "npc",
+				{
+					"kind": "monster",
+					"typeName": "rous"
+				}
+			] ]
+		}
+	],
+
+
+//-----------------------------------//
+
+	"parts": [
+		//HOUSING
+		{
+			"name": "felinhouse1a",
+			"def": [
+				"image", [ "felinhouse1a.png", "felinhouse1a-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 2 ] ],
+				[ "doNotConnectToPart", [ "felinhouse1a", "felinhouse1b", "felinhouse1c" ] ]
+			]
+		},
+		{
+			"name": "felinhouse1b",
+			"def": [
+				"image", [ "felinhouse1b.png", "felinhouse1b-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 2 ] ],
+				[ "doNotConnectToPart", [ "felinhouse1a", "felinhouse1b", "felinhouse1c" ] ]
+			]
+		},
+		{
+			"name": "felinhouse1c",
+			"def": [
+				"image", [ "felinhouse1c.png", "felinhouse1c-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 2 ] ],
+				[ "doNotConnectToPart", [ "felinhouse1a", "felinhouse1b", "felinhouse1c" ] ]
+			]
+		},
+		{
+			"name": "felinhouse2a",
+			"def": [
+				"image", [ "felinhouse2a.png", "felinhouse2a-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 3 ] ],
+				[ "doNotConnectToPart", [ "felinhouse2a", "felinhouse2b", "felinhouse2c" ] ]
+			]
+		},
+		{
+			"name": "felinhouse2b",
+			"def": [
+				"image", [ "felinhouse2b.png", "felinhouse2b-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 3 ] ],
+				[ "doNotConnectToPart", [ "felinhouse2a", "felinhouse2b", "felinhouse2c" ] ]
+			]
+		},
+		{
+			"name": "felinhouse2c",
+			"def": [
+				"image", [ "felinhouse2c.png", "felinhouse2c-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 3 ] ],
+				[ "doNotConnectToPart", [ "felinhouse2a", "felinhouse2b", "felinhouse2c" ] ]
+			]
+		},
+		{
+			"name": "felinhouse3a",
+			"def": [
+				"image", [ "felinhouse3a.png", "felinhouse3a-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 2 ] ],
+				[ "doNotConnectToPart", [ "felinhouse3a" ] ]
+			]
+		},
+
+		//COMMERCE
+		{
+			"name": "felinmarket1",
+			"def": [
+				"image", [ "felinmarket1.png", "felinmarket1-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 1 ] ],
+				[ "doNotConnectToPart", [ "felinmarket1", "felinentryleft", "felinentryright" ] ]
+			]
+		},
+		
+		//MISC
+		{
+			"name": "felinbath",
+			"def": [
+				"image", [ "felinbath.png", "felinbath-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 1 ] ],
+				[ "doNotConnectToPart", [ "felinentryleft", "felinentryright" ] ]
+			]
+		},
+		{
+			"name": "felinlodge",
+			"def": [
+				"image", [ "felinlodge.png", "felinlodge-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 1 ] ],
+				[ "doNotConnectToPart", [ "felinentryleft", "felinentryright" ] ]
+			]
+		},
+		{
+			"name": "felinschool",
+			"def": [
+				"image", [ "felinschool.png", "felinschool-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 1 ] ],
+				[ "doNotConnectToPart", [ "felinentryleft", "felinentryright" ] ]
+			]
+		},
+		{
+			"name": "felincomforter1",
+			"def": [
+				"image", [ "felincomforter1.png", "felincomforter1-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 2 ] ],
+				[ "doNotConnectToPart", [ "felinhooker1", "felinentryleft", "felinentryright" ] ]
+			]
+		},
+		{
+			"name": "felinrous",
+			"def": [
+				"image", [ "felinrous.png", "felinrous-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 2 ] ],
+				[ "doNotConnectToPart", [ "felinrous" ] ]
+			]
+		},
+		{
+			"name": "felinbikeshed",
+			"chance" : 0.1,
+			"def": [
+				"image", [ "felinbikeshed.png", "felinbikeshed-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 1 ] ],
+				[ "doNotConnectToPart", [ "felinbikeshed" ] ]
+			]
+		},
+		{
+			"name": "felinentryleft",
+			"chance" : 1,
+			"def": [
+				"image", [ "felinentryleft.png", "felinentryleft-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 1 ] ],
+				[ "doNotConnectToPart", [ "felinentryright" ] ]
+			]
+		},
+		{
+			"name": "felinentryright",
+			"chance" : 1,
+			"def": [
+				"image", [ "felinentryright.png", "felinentryright-objects.png" ]
+			],
+			"rules": [
+				[ "maxSpawnCount", [ 1 ] ],
+				[ "doNotConnectToPart", [ "felinentryleft" ] ]
+			]
+		},
+
+		//MESSAGE WALL
+		{
+			"name": "felinwallleft",
+			"def": [ "image", [ "felinwallleft.png" ] ],
+			"rules": [ ]
+		},
+		{
+			"name": "felinwallright",
+			"def": [ "image", [ "felinwallright.png" ] ],
+			"rules": [ ]
+		},
+		{
+			"name": "felinwall1a",
+			"def": [ "image", [ "felinwall1.png", "felinwall1a-objects.png" ] ],
+			"rules": [
+				[ "maxSpawnCount", [ 3 ] ],
+				[ "doNotConnectToPart", [ "felinwall1a" ] ]
+			]
+		},
+		{
+			"name": "felinwall1b",
+			"def": [ "image", [ "felinwall1.png", "felinwall1b-objects.png" ] ],
+			"rules": [
+				[ "maxSpawnCount", [ 3 ] ],
+				[ "doNotConnectToPart", [ "felinwall1b" ] ]
+			]
+		},
+		{
+			"name": "felinwall1c",
+			"def": [ "image", [ "felinwall1.png", "felinwall1c-objects.png" ] ],
+			"rules": [
+				[ "maxSpawnCount", [ 3 ] ],
+				[ "doNotConnectToPart", [ "felinwall1c" ] ]
+			]
+		},
+		{
+			"name": "felinwall1d",
+			"def": [ "image", [ "felinwall1.png", "felinwall1d-objects.png" ] ],
+			"rules": [
+				[ "maxSpawnCount", [ 3 ] ],
+				[ "doNotConnectToPart", [ "felinwall1d" ] ]
+			]
+		},
+		{
+			"name": "felinwall1e",
+			"def": [ "image", [ "felinwall1.png", "felinwall1e-objects.png" ] ],
+			"rules": [
+				[ "maxSpawnCount", [ 3 ] ],
+				[ "doNotConnectToPart", [ "felinwall1e" ] ]
+			]
+		},
+		{
+			"name": "felinwall1f",
+			"def": [ "image", [ "felinwall1.png", "felinwall1f-objects.png" ] ],
+			"rules": [
+				[ "maxSpawnCount", [ 3 ] ],
+				[ "doNotConnectToPart", [ "felinwall1f" ] ]
+			]
+		},
+
+		//FILLER SLOPES
+		{
+			"name": "slope1",
+			"chance" : 0.1,
+			"def" : [ "image", [ "slope1.png" ] ],
+			"rules" : [
+				[ "doNotCombineWith", [ "slope2" ] ],
+				[ "doNotConnectToPart", [ "slope1", "slope2", "slope3", "slope4", "slope5", "slope6" ] ]
+			]
+		},
+		{
+			"name": "slope2",
+			"chance" : 0.1,
+			"def" : [ "image", [ "slope2.png" ] ],
+			"rules" : [
+				[ "doNotCombineWith", [ "slope1" ] ],
+				[ "doNotConnectToPart", [ "slope1", "slope2", "slope3", "slope4", "slope5", "slope6" ] ]
+			]
+		},
+		{
+			"name": "slope3",
+			"chance" : 0.1,
+			"def" : [ "image", [ "slope3.png" ] ],
+			"rules" : [
+				[ "doNotCombineWith", [ "slope4" ] ],
+				[ "doNotConnectToPart", [ "slope1", "slope2", "slope3", "slope4", "slope5", "slope6" ] ]
+			]
+		},
+		{
+			"name": "slope4",
+			"chance" : 0.1,
+			"def" : [ "image", [ "slope4.png" ] ],
+			"rules" : [
+				[ "doNotCombineWith", [ "slope3" ] ],
+				[ "doNotConnectToPart", [ "slope1", "slope2", "slope3", "slope4", "slope5", "slope6" ] ]
+			]
+		},
+		{
+			"name": "slope5",
+			"chance" : 0.1,
+			"def" : [ "image", [ "slope5.png" ] ],
+			"rules" : [
+				[ "doNotCombineWith", [ "slope6" ] ],
+				[ "doNotConnectToPart", [ "slope1", "slope2", "slope3", "slope4", "slope5", "slope6" ] ]
+			]
+		},
+		{
+			"name": "slope6",
+			"chance" : 0.1,
+			"def" : [ "image", [ "slope6.png" ] ],
+			"rules" : [
+				[ "doNotCombineWith", [ "slope5" ] ],
+				[ "doNotConnectToPart", [ "slope1", "slope2", "slope3", "slope4", "slope5", "slope6" ] ]
+			]
+		}
+	]
+}

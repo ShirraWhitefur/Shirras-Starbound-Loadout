@@ -1,0 +1,4 @@
+[
+  { "op" : "replace", "path" : "/text", "value" : "The fusion reactor installed on your ship accepts various kinds of matter as a fuel, but the most popular across the galaxy is ^pink;Liquid Erchius.^white; This pink liquid can be found in pools underground on moon planets. The amount of fuel used for travel entirely depends on the distance between the planets and their respective star systems." },
+  { "op" : "replace", "path" : "/completionText", "value" : "Nicely done! Just a reminder: you can also fuel your ship with ^pink;Erchius Crystals^white;, ^orange;Core Fragment Ore^white;, ^orange;Coal^white;, ^orange;Liquid Oil^white;, ^orange;Liquid Lava^white;, ^pink;Plutonium Ore^white; and ^green;Uranium Ore^white;. Even if the planet lacks of all of the above, you can make some Coal from the Wood in any available Furnace." }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "fastfoodtenant",
+  "priority": 3,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "fastfoodglitch": 1,
+    "misc": 4
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "glitch",
+      "type": "chefmerchant",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [300.0, 600.0],
+    "pool": "fastfoodGift"
+  }
+}

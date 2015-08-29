@@ -1,0 +1,13 @@
+  {
+  "id" : "researchwelcome.gearup",
+  "title" : "^orange;Ancient Research",
+  "text" : "Greetings! Welcome to my research center, at the fore front of information on the ancient civilization that built the ark. Is there anything we can help you with today?",
+  "completionText" : "So you wish to learn more about these ancient people? Of course! We always appreciate some extra help around here, especially of the adventuring variety.",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "manipulatormodule", "count" : 25 },
+    { "item" : "crewoldmm", "count" : 1 }
+  ],
+  "output" : { "item" : "crewmm", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "tools", "all" ]
+}

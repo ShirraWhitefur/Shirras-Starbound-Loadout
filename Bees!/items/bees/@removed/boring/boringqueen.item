@@ -1,0 +1,9 @@
+{
+  "itemName" : "boringqueen",
+  "rarity" : "Common",
+  "inventoryIcon" : "boringqueen.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A boring bee queen.",
+  "shortdescription" : "Boring Queen",
+  "maxStack" : 1000
+}

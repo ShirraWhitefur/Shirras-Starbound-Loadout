@@ -1,0 +1,41 @@
+{
+	"objectName" : "felinsmokestack",
+	"tags" : [ "felin", "felinvillage" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 100,
+	"description" : "Don't breathe this!",
+	"shortdescription" : "Smokestack",
+	"race" : "felin",
+	"particleEmitter" : {
+		"emissionRate" : 5.0,
+		"emissionVariance" : 0.05,
+		"pixelOrigin" : [0, 16],
+		"particle" : {
+			"type" : "ember",
+			"size" : 3.0,
+			"color" : [0, 0, 0, 127],
+			"destructionAction" : "shrink",
+			"destructionTime" : 7,
+			"initialVelocity" : [1, 2],
+			"finalVelocity" : [-1, 2],
+			"approach" : [0, 20],
+			"timeToLive" : 4,
+			"layer" : "middle"
+		},
+		"particleVariance" : {
+			"initialVelocity" : [1.5, 1.1]
+		}
+	},
+	"inventoryIcon" : "felinsmokestack.png:icon",
+	"orientations" : [
+		{
+			"dualImage" : "felinsmokestack.png:default",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	]
+}

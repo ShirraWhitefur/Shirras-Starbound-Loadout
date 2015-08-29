@@ -1,0 +1,48 @@
+{
+  "objectName" : "gardenbotwoodshed",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 150,
+  "description" : "A shed for storing wood.",
+  "shortdescription" : "Wood Shed",
+  "race" : "generic",
+
+  "apexDescription" : "A large wooden shed. Useful.",
+  "avianDescription" : "Lots of space to store items.",
+  "floranDescription" : "Big ssstorage sspace.",
+  "glitchDescription" : "Content. A lot of storage space.",
+  "humanDescription" : "A large wooden shed. I'm sure I have something I could store here.",
+  "hylotlDescription" : "Lots of storage space.",
+
+  "inventoryIcon" : "woodshedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodshed.png:<color>.0",
+
+      "imagePosition" : [-20, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "animation" : "/objects/gardenbot/bins/bin.animation",
+
+  "animationParts" : {
+    "bin" : "woodshed.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "scripts" : [ 
+    "/objects/gardenbot/bins/bin.lua"
+  ],
+  "containerCallback" : "binInventoryChange",
+  
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 40,
+  "uiConfig" : "/interface/chests/chest60.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

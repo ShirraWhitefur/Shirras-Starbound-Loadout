@@ -1,0 +1,13 @@
+{
+  "name" : "firehead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "firehead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}

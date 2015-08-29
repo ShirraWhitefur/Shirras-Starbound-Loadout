@@ -1,0 +1,12 @@
+{
+  "id" : "cleftutorial9.gearup",
+  "title" : "^yellow;CLeF Tutorial #9: Ups, Downs and the Beacons",
+  "text" : "Your ship is still in bad condition, so it's probably time to get yourself ^orange;20 core fragments^white; which S.A.I.L. was talking about. While you can obtain them deep underground near the planet's core, there is also a chance to get the required materials from a passing ship. But for that you'll need to deploy the ^orange;Distress Beacon^white;. The choice is up to you.",
+  "completionText" : "You did it! Now all what's left is to ^green;gather some fuel^white;. Once you'll fix the ^orange;ship's thrusters^white;, you'll have access to ^yellow;fuel hatch^white;. The fusion reactor installed on your ship can extract energy from ^orange;Coal^white;, ^orange;Oil^white;, ^orange;Liquid Lava^white;, ^orange;Core Fragment Ore^white;, ^pink;Liquid Erchius Fuel^white;, ^pink;Erchius Crystals^white; and even ^green;Uranium Ore^white;.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "corefragmentore", "count" : 20, "consume" : false }
+  ],
+  "moneyRange" : [90, 90],
+  "followUp" : "cleftutorial10.gearup",
+  "canBeAbandoned" : false
+}

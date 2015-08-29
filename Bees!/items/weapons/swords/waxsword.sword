@@ -1,0 +1,52 @@
+{
+  "itemName" : "waxsword",
+  "inventoryIcon" : "waxswordicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "level" : 1,
+  "rarity" : "common",
+  "description" : "A plain wax sword. Not very powerful",
+  "shortdescription" : "Wax Sword",
+  "inspectionKind" : "sword",
+  "kind" : "Broadsword",
+
+  "image" : "waxsword.png",
+  "firePosition" : [-2, 4],
+  "fireTime" : 1.0,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+
+
+  "primaryStances" : {
+    "projectileType" : "testswoosh3",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 15
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : 999,
+      "swordAngle" : 999,
+      "handPosition" : [-6, -16],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-6, -16],
+      "duration" : 0.2,
+      "statusEffects" : [
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-6, -16],
+      "duration" : 0.4,
+      "statusEffects" : [
+      ]
+    }
+  }
+}

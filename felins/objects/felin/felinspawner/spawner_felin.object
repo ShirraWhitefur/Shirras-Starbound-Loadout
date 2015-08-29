@@ -1,0 +1,37 @@
+{
+	"objectName" : "spawnerfelin",
+	"tags" : [ "misc" ],
+	"rarity" : "common",
+	"description" : "Spawn your very own Felin villager!",
+	"shortdescription" : "Felin Spawner",
+	"race" : "felin",
+	"category" : "spawner",
+	"printable" : false,
+	"price" : 100,
+	"inventoryIcon" : "spawner_felinicon.png",
+	"orientations" : [
+		{
+			"image" : "spawner_felin.png",
+			"imagePosition" : [-8, -8],
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+	"scriptDelta" : 1, 
+	"animation" : "spawner_felin.animation",
+	"animationParts" : { "switch" : "spawner_felin.png" },
+	"animationPosition" : [-8, -8],	
+	"inboundNodes" : [ ],
+	"outboundNodes" : [ ],
+	"spawner" : {
+		"searchRadius" : 32.0,
+		"npcSpeciesOptions" : ["felin"],
+		"npcTypeOptions" : ["villager"],
+		"npcParameterOptions" : [
+			{
+				"dropPools" : []
+			}
+		]
+	}	
+}

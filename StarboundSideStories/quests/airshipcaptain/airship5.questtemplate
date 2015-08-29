@@ -1,0 +1,16 @@
+  {
+  "id" : "airship5.gearup",
+  "prerequisites" : [ "airship4.gearup" ],
+  "title" : "^orange;A Hungry Bunny",
+  "text" : "Did you know an Avian's favorite pet is a bunny? Now you do! We lost ours on the ground when we first landed, but I think we can lure it back by giving it five carrots.",
+  "completionText" : "Alrighty, I mashed up the carrots and put it in this food bowl. Why don't you go and place it some where on the ship or on the ground and see if it works?",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "carrot", "count" : 5, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "bunnybowl", 1 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

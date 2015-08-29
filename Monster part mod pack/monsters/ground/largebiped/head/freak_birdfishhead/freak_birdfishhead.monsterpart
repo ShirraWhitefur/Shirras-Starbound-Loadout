@@ -1,0 +1,14 @@
+{
+  "name" : "freak_birdfishhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "freak_birdfishhead.png"
+  },
+
+"parameters" :
+  {
+  }
+}
+

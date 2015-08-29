@@ -1,0 +1,32 @@
+{
+	"objectName" : "ribplatter",
+	"tags" : [ "misc" ],
+	"rarity" : "common",
+	"description" : "Pass the barbecue sauce!",
+	"shortdescription" : "Plate of Ribs",
+	"race" : "felin",
+	"category" : "furniture",
+	"price" : 20,
+	"apexDescription" : "Ribs. How... delightful.",
+	"avianDescription" : "Ribs on a non-stick surface.",
+	"floranDescription" : "Ribsss. Floran approvessss.",
+	"glitchDescription" : "Intrigued. The juices from this ribs do not seem to stick to the plate.",
+	"humanDescription" : "Pass the barbecue sauce!",
+	"hylotlDescription" : "It's ribs, presented on a wooden plate.",
+	"felinDescription" : "Ribbies! Eat it up, yum~",
+	"inventoryIcon" : "ribplattericon.png",
+	"orientations" : [
+		{
+			"dualImage" : "ribplatter.png",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"breakDropOptions" : [ [
+		[ "felinplate", 1, { } ],
+		[ "cookedribmeat", 1, { } ]
+	] ]
+}

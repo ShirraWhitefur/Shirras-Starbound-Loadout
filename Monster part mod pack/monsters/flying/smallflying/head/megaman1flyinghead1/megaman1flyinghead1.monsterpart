@@ -1,0 +1,9 @@
+{
+  "name" : "megaman1flyinghead1",
+  "category" : "smallflying",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "megaman1flyinghead1.png"
+  }
+}

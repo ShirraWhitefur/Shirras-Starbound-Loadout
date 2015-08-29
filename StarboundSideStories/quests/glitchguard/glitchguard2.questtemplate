@@ -1,0 +1,16 @@
+  {
+  "id" : "glitchguard2.gearup",
+  "prerequisites" : [ "glitchguard1.gearup" ],
+  "title" : "^orange;Securing the Perimeter",
+  "text" : "Serious. The beasts, they are everywhere, and getting on my nerves. Could you possibly hunt some beasts, and bring me back ten pieces of meat as proof?",
+  "completionText" : "Overjoyed. Yes, this is very nice to see. Many beasts have been slain by your hand, you will be an excellent friend. Thank you.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "alienmeat", "count" : 10, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

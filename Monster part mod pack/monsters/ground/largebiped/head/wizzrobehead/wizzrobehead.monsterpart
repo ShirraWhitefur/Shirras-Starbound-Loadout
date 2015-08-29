@@ -1,0 +1,14 @@
+{
+  "name" : "wizzrobehead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "wizzrobehead.png"
+  },
+
+ "parameters" :
+  {
+  }
+}
+

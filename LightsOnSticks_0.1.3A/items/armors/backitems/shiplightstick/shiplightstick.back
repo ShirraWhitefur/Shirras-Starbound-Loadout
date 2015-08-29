@@ -1,0 +1,16 @@
+{
+  "itemName" : "shiplightstickback",
+  "inventoryIcon" : "shiplightstickicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Common",
+  "description" : "The bright comfort of home. On your back.",
+  "shortdescription" : "Ship-Light Stick",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "statusEffects" : [
+    "lightglow"
+  ]
+
+}

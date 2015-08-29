@@ -1,0 +1,13 @@
+{
+  "name" : "anti_zigzaghead",
+  "category" : "smallbiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_zigzaghead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}

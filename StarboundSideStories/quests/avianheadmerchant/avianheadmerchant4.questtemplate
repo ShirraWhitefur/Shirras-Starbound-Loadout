@@ -1,0 +1,16 @@
+  {
+  "id" : "avianheadmerchant4.gearup",
+  "prerequisites" : [ "avianheadmerchant3.gearup" ],
+  "title" : "^orange;Merchant Glory 3",
+  "text" : "This order came in from an Apex. They want one of those aquariums with fish in them found in Apex villages. If you can find it I'll pay double its value!",
+  "completionText" : "Dang, you're good. The Apex will be incredibly happy with his purchase thanks to you.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "apexaquarium1", "count" : 1, "consume" : true }
+  ],
+  "moneyRange" : [700, 800],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

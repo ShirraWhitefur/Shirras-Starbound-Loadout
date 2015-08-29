@@ -1,0 +1,182 @@
+{
+  "name" : "underground11_jungle_floran",
+  "friendlyName" : "Underground 11 Jungle",
+  
+  "spawnProfiles" : [
+    {
+      "groups" : [ "mediumunderground1" ],
+      "extraSpawns" : [ ],
+	  "monsterParameters" : {
+        "colors" : "jungle"
+      }
+    },
+    {
+      "groups" : [ "mediumunderground2" ],
+      "extraSpawns" : [ ],
+	  "monsterParameters" : {
+        "colors" : "jungle"
+      }
+    }
+  ],
+  
+  "parallax" : "/parallax/underground/underground1d.parallax",
+
+  "mainBlock" : "grassyrock",
+  "subBlocks" : [ "mud", "clay" ],
+  "ores" : "msDepth1Uranium",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/jungle_underground.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/jungle_underground.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/planetarium.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vastimmortalsuns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/M54.ogg", "/music/on-the-beach-at-night.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+    }
+  },
+
+  "undergroundPlaceables" : {
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.6, "copperrocksmall" ], [0.2, "copperrock" ], [0.14, "silverrocksmall" ], [0.06, "silverrock" ], [0.1, "goldrocksmall" ], [0.1, "goldrock" ], [0.4, "platinumrocksmall" ], [0.2, "platinumrock" ], [0.14, "diamondrocksmall" ], [0.06, "diamondrock" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:hazardUndergroundLower",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.20, "greengroundspike1" ], [0.20, "greengroundspike2" ], [0.20, "greengroundspike3" ], [0.20, "greengroundspike4" ] ]
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:hazardUndergroundCeilingLower",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.20, "greenceilingspike1" ], [0.20, "greenceilingspike2" ], [0.20, "greenceilingspike3" ], [0.20, "greenceilingspike4" ] ]
+          }
+        ]
+      },
+	  {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundVines",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 180,
+        "treeStemList" : [ "vine", "vine2", "vine3", "vine4" ],
+        "treeFoliageList" : [ "flowery", "starry", "dreamy" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:layer3Chests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:layer3Chests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundtechChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "techChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:veryRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "challengedoor" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:randomEncounterUnderground",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "floranundergroundencounter" ]
+      }
+    ]
+  },
+
+  "hueShiftOptions" : [0]
+}

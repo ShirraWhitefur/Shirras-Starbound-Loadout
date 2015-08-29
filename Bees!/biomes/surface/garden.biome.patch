@@ -1,0 +1,4 @@
+[ 
+{"op":"replace","path":"/spawnProfiles/0","value":{"groups":["easysurface1"],"extraSpawns":["normalbee","nocturnalbee","butterbee","fawnfly"]}},
+{"op":"replace","path":"/spawnProfiles/1","value":{"groups":["easysurface2"],"extraSpawns":["normalbee","nocturnalbee","butterbee","mudstag"]}}
+]

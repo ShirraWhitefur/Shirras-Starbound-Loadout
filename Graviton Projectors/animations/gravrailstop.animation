@@ -1,0 +1,286 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "gravrailState" : {
+        "default" : "off off",
+        "states" : {
+          "off off" : {
+            "frames" : 1
+          },
+          "onRight off" : {
+            "frames" : 14,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "onLeft off" : {
+            "frames" : 14,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "off onRight" : {
+            "frames" : 14,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "off onLeft" : {
+            "frames" : 14,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "onRight onRight" : {
+            "frames" : 14,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "onLeft onLeft" : {
+            "frames" : 14,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "onRight onLeft" : {
+            "frames" : 14,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "onLeft onRight" : {
+            "frames" : 14,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "gravrail" : {
+        "properties" : {
+          "image" : "<partImage>:default.1",
+          "centered" : false,
+          "zLevel" : 1
+        },
+        "partStates" : {
+          "gravrailState" : { }
+        }
+      },
+      
+      "powerglowLeft" : {
+        "properties" : {
+          "offset" : [0.5, 1.125],
+          "centered" : false,
+          "zLevel" : 2
+        },
+        "partStates" : {
+          "gravrailState" : {
+            "off off" : {
+              "properties" : {
+                "image" : "<partImage>:default.off"
+              }
+            },
+            "off onRight" : {
+              "properties" : {
+                "image" : "<partImage>:default.off"
+              }
+            },
+            "off onLeft" : {
+              "properties" : {
+                "image" : "<partImage>:default.off"
+              }
+            },
+            "onRight off" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>",
+                "fullbright" : true
+              }
+            },
+            "onRight onRight" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>",
+                "fullbright" : true
+              }
+            },
+            "onRight onLeft" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>",
+                "fullbright" : true
+              }
+            },
+            "onLeft off" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>?flipx",
+                "fullbright" : true
+              }
+            },
+            "onLeft onRight" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>?flipx",
+                "fullbright" : true
+              }
+            },
+            "onLeft onLeft" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>?flipx",
+                "fullbright" : true
+              }
+            }
+          }
+        }
+      },
+      
+      "powerglowRight" : {
+        "properties" : {
+          "offset" : [2.75, 1.125],
+          "centered" : false,
+          "zLevel" : 3
+        },
+        "partStates" : {
+          "gravrailState" : {
+            "off off" : {
+              "properties" : {
+                "image" : "<partImage>:default.off"
+              }
+            },
+            "off onRight" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>",
+                "fullbright" : true
+              }
+            },
+            "off onLeft" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>?flipx",
+                "fullbright" : true
+              }
+            },
+            "onRight off" : {
+              "properties" : {
+                "image" : "<partImage>:default.off"
+              }
+            },
+            "onRight onRight" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>",
+                "fullbright" : true                
+              }
+            },
+            "onRight onLeft" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>?flipx",
+                "fullbright" : true
+              }
+            },
+            "onLeft off" : {
+              "properties" : {
+                "image" : "<partImage>:default.off"
+              }
+            },
+            "onLeft onRight" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>",
+                "fullbright" : true
+              }
+            },
+            "onLeft onLeft" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>?flipx",
+                "fullbright" : true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  
+  "particleEmitters" : {
+    "gravrailBeamRight1" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamright",
+          "offset" : [5, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamRight2" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamright",
+          "offset" : [10, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamRight3" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamright",
+          "offset" : [15, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamRight4" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamright",
+          "offset" : [20, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamRight5" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamright",
+          "offset" : [25, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamLeft1" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamleft",
+          "offset" : [-0.125, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamLeft2" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamleft",
+          "offset" : [-5, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamLeft3" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamleft",
+          "offset" : [-10, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamLeft4" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamleft",
+          "offset" : [-15, 1.5]
+        }
+      ]
+    },
+    "gravrailBeamLeft5" : {
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : "gravrailbeamleft",
+          "offset" : [-20, 1.5]
+        }
+      ]
+    }
+  }
+}

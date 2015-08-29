@@ -1,0 +1,9 @@
+{
+  "name" : "anti_nymphhead",
+  "category" : "smallflying",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_nymphhead.png"
+  }
+}

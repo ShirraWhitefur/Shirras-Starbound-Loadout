@@ -1,0 +1,12 @@
+{
+  "name" : "PerennialCrops",
+  "version" : "Upbeat Giraffe",
+  "path" : ".",
+  "dependencies" : [ ],
+  "metadata": {
+    "displayName" : "Perennial Crops",
+    "author" : "Toyi85",
+    "description" : "Avoid the annoying chores of replanting your crops",
+	"version" : "1.1"
+  }
+}

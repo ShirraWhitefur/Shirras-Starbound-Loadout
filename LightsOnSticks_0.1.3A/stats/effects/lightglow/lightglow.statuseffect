@@ -1,0 +1,11 @@
+{
+  "name" : "lightglow",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "lightglow.lua"
+  ],
+
+  "animationConfig" : "lightglow.animation"
+}

@@ -1,0 +1,52 @@
+{
+  "objectName" : "gravitonrailstop",
+  "printable" : false,
+  "rarity" : "common",
+  "category" : "wire",
+  "price" : 2500,
+  "description" : "A device that projects a graviton energy field and a marker beam rail.",
+  "shortdescription" : "Graviton railstop",
+  "race" : "generic",
+
+  "apexDescription" : "A device that projects a graviton energy field and a marker beam rail.",
+  "avianDescription" : "A device that projects a graviton energy field and a marker beam rail.",
+  "floranDescription" : "Makes thingsss vroosssh!",
+  "glitchDescription" : "Analysis. A device that projects a graviton energy field and a marker beam rail.",
+  "humanDescription" : "A device that projects a graviton energy field and a marker beam rail.",
+  "hylotlDescription" : "A device that projects a graviton energy field and a marker beam rail rail.",
+
+  "inventoryIcon" : "gravrailstopicon.png",
+
+  "orientations" : [
+    {
+      "image" : "/animations/gravitonrailstop.png:default.1",
+      "imagePosition" : [-16,0],
+      "spaceScan" : 0.8,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "/animations/gravrailstop.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "onSounds" : [ "/sfx/objects/gravitonpulse_on.wav" ],
+      "offSounds" : [ "/sfx/objects/gravitonpulse_off.wav" ]
+    }
+  },
+  "animationParts" : {
+    "gravrail" : "/animations/gravitonrailstop.png",
+    "powerglowLeft" : "/animations/shortpowerglow.png",
+    "powerglowRight" : "/animations/shortpowerglow.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [-2, 2], [2, 2] ],
+  "outboundNodes" : [ [-2, 1], [2, 1] ],
+
+  "scripts" : [
+    "/scripts/gravitonrailstop.lua"
+  ],
+  "scriptDelta" : 1
+}

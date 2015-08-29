@@ -1,0 +1,9 @@
+{
+  "name" : "anti_tinybushtail",
+  "category" : "smallquadruped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "anti_tinybushtail.png"
+  }
+}

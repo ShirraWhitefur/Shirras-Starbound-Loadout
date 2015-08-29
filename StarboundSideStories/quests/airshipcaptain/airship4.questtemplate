@@ -1,0 +1,16 @@
+  {
+  "id" : "airship4.gearup",
+  "prerequisites" : [ "airship3.gearup" ],
+  "title" : "^orange;A Hungry Crew",
+  "text" : "I don't know about you, but the rest of the crew is pretty hungry. Could you do me a big favor and bring back five feathercrown seeds? It's the crew's favorite.",
+  "completionText" : "Great job, this will really improve the crew's morale. Any way I could get you to take those seeds down to the ground and plant them?",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "feathercrownseed", "count" : 5, "consume" : false }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "feathercrownseed", 5 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

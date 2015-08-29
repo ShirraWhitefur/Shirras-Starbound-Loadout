@@ -1,0 +1,9 @@
+{
+  "name" : "gravitonprojectors",
+  "version" : "Beta v. Spirited Giraffe",
+  "path" : ".",
+  "metadata" : {
+    "author" : "Storm_UK",
+	  "description" : "Graviton projection devices (elevators and rails)"
+  }
+}

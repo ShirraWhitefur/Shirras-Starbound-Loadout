@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : { "item" : "rhohead", "count" : 1 },
+  "groups" : [ "spinningwheel", "material" ]
+}

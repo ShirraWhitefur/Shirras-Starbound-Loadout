@@ -1,0 +1,22 @@
+{
+	"objectName" : "felinchalkboard",
+	"tags" : [ "felin", "felinvillage" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 100,
+	"shortdescription" : "Felin chalkboard",
+	"description" : "A schoolroom's board, filled with felin knowledge.",
+	"felinDescription" : "Love. Hunt. Be epic.",
+	"race" : "felin",
+	"inventoryIcon" : "felinsign1icon.png",
+	"orientations" : [
+		{
+			"image" : "felinchalkboard.png",
+			"imagePosition" : [-32, -16],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

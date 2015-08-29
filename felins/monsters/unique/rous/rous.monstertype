@@ -1,0 +1,73 @@
+{
+	"type" : "rous",
+	"categories" : [ "rous" ],
+	"parts" : [ "body" ],
+	"animation" : "rous.animation",
+	"reversed" : true,
+	"dropPools" : [ "felinRousDrops" ],
+	"baseParameters" : {
+		"scripts" : [
+			"/monsters/unique/robotchicken/behavior.lua",
+			"/scripts/sensors.lua",
+			"/scripts/stateMachine.lua",
+			"/scripts/util.lua",
+			"/scripts/vec2.lua"
+		],
+		"damageTeam" : 1,
+		"metaBoundBox" : [-1.0, -1.0, 1.0, 1.0],
+		"scale" : 1.0,
+		"movementSettings" : {
+			"collisionPoly" : [ [-1.0, -1.0], [1.0, -1.0], [1.0, 1.0], [-1.0, 1.0] ],
+			"mass" : 1.0,
+			"walkSpeed" : 3,
+			"runSpeed" : 6,
+			"jumpSpeed" : 5,
+			"flySpeed" : 15,
+			"airForce" : 50.0,
+			"airFriction" : 0.0,
+			"airJumpProfile": {
+				"jumpSpeed" : 45.0,
+				"jumpInitialPercentage": 1.0,
+				"jumpHoldTime": 0.0
+			}
+		},
+		"knockoutTime" : 0.5,
+		"knockoutEffect" : "blink",
+		"knockoutAnimationStates" : { "movement" : "die" },
+		"deathParticles" : "deathPoof",
+		"touchDamage" : {
+			"poly" : [ [-1.0, -1.0], [1.0, -1.0], [1.0, 1.0], [-1.0, 1.0] ],
+			"damage" : 15,
+			"teamType" : "enemy",
+			"damageSourceKind" : "bite",
+			"statusEffects" : [ ]
+		},
+		"statusSettings" : {
+			"statusProperties" : {
+				"targetMaterialKind" : "organic"
+			},
+			"appliesEnvironmentStatusEffects" : false,
+			"minimumLiquidStatusEffectPercentage" : 0.1,
+			"primaryScriptSources" : [ "/stats/monster_primary.lua" ],
+			"primaryScriptDelta" : 0,
+			"stats" : {
+				"maxHealth" : { "baseValue" : 2 },
+				"protection" : { "baseValue" : 1.0 },
+				"healthRegen" : { "baseValue" : 0.0}
+			},
+			"resources" : {
+				"health" : {
+					"maxStat" : "maxHealth",
+					"deltaStat" : "healthRegen",
+					"defaultPercentage" : 100
+				}
+			}
+		},
+		"mouthOffset" : [0, 0],
+		"feetOffset" : [0, -8],
+		"blockedSensors" : [ [1.25, 0.0] ],
+		"moveTimeRange" : [2.5, 5.0],
+		"fleeDistanceRange" : [10.0, 50.0],
+		"fleeMaxTime" : 20.0
+	}
+}

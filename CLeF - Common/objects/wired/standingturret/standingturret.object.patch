@@ -1,0 +1,7 @@
+[
+  { "op" : "replace", "path" : "/description", "value" : "Turret for your protection!" },
+  { "op" : "replace", "path" : "/printable", "value" : true },
+  { "op" : "remove", "path" : "/breakDropOptions" },
+  { "op" : "add", "path" : "/novakidDescription", "value" : "It goes pew-pew!" },
+  { "op" : "add", "path" : "/hasObjectItem", "value" : true }
+]

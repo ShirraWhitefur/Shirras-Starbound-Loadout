@@ -1,0 +1,12 @@
+[
+	{
+		"op" : "replace",
+		"path" : "/interfaceCrossoverRes",
+		"value" : [1200, 700]
+	},
+	{
+		"op" : "replace",
+		"path" : "/maxInterfaceScale",
+		"value" : 2
+	}
+]

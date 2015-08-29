@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "waspenemy",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

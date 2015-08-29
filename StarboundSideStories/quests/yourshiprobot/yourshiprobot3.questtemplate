@@ -1,0 +1,17 @@
+  {
+  "id" : "yourshiprobot3.gearup",
+  "prerequisites" : [ "yourshiprobot2.gearup" ],
+  "title" : "^orange;Polishing up the Kong",
+  "text" : "You notice the source of the problem, the inside is a little destroyed. I guess I'll need a circuit board and a wire to get it to work again.",
+  "completionText" : "It works! The console comes to life, error free, and gives you a blue print for a robot that must have once been on this ship. Cool!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "circuitboard", "count" : 1, "consume" : true },
+	{ "type" : "gather", "item" : "wire", "count" : 1, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "yourshiprobotspawner", 1 ], [  "yourshiprobotspawner-recipe", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

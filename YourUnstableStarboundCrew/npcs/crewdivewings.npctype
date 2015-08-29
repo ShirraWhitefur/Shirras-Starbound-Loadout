@@ -1,0 +1,49 @@
+{
+  "type" : "crewdivewings",
+  "baseType" : "crewmerchant",
+  
+  "damageTeam" : 1, 
+  "levelVariance" : [-0.5, -0.5],
+
+  "disableWornArmor" : true,
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "offeredQuests" : [ "crewdivewingsmission2.gearup" ],
+    "turnInQuests" : [ "crewdivewingsmission.gearup" ],
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 8,
+      "categories" : {
+        "default" : ["crewdivewingsshop" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 20,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Maneca",
+          "subtitle" : "  Helps you understand the universe."
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "wizardchest" }
+            ],
+            "legs" : [
+              { "name" : "wizardlegs" }
+            ]
+          }
+      ]]
+    ]
+  }
+}

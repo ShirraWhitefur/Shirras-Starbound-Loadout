@@ -1,0 +1,8 @@
+{
+  "itemName" : "emeraldore",
+  "rarity" : "Rare",
+  "inventoryIcon" : "emeraldore.png",
+  "description" : "Emerald ore. Can be used for smelting or repairs.",
+  "shortdescription" : "Emerald Ore",
+  "learnBlueprintsOnPickup" : [ "emerald", "emeraldglassmaterial", "emeraldblock" ]
+}

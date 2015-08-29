@@ -1,0 +1,16 @@
+{
+  "name" : "hydro_tinyrazortoothhead",
+  "category" : "smallquadruped",
+  "type" : "head",
+
+
+  "frames" : {
+    "head" : "hydro_tinyrazortoothhead.png"
+  },
+
+"parameters" :
+  {
+    "projectileSourcePosition" : [1, -1.4]
+  }
+}
+

@@ -1,0 +1,9 @@
+{
+  "name" : "anti_thintail",
+  "category" : "smallbiped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "anti_thintail.png"
+  }
+}

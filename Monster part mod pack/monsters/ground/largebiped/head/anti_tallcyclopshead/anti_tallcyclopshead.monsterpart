@@ -1,0 +1,13 @@
+{
+  "name" : "anti_tallcyclopshead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_tallcyclopshead.png"
+  },
+
+    "parameters" :
+  {
+  }
+}

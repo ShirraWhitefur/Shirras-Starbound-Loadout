@@ -1,0 +1,13 @@
+{
+  "name" : "megaman1head4",
+  "category" : "smallbiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "megaman1head4.png"
+  },
+
+ "parameters" :
+  {
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "freak_robot",
+  "category" : "largequadruped",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "freak_robot.png"
+  }
+}

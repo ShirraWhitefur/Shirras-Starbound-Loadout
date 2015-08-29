@@ -1,0 +1,12 @@
+{
+  "id" : "cleftutorial10.gearup",
+  "title" : "^yellow;CLeF Tutorial #10: Beam Me Up, Scotty",
+  "text" : "Liked the world you explored and want to have an easy access to it? Then you need to craft a ^orange;teleporter platform^white; and ^green;place it on the planet's surface^white;. There is a wide selection of teleports which you can craft, but most are costly, material-wise. Fortunately, there's a cheap alternative - ^orange;portable teleporter^white; with unstable ^orange;orange core^white;.",
+  "completionText" : "Wonderful! Now ^green;place it on the planet's surface^white; (or anyplace you want) ^green;and activate^white;. ^yellow;Use at your own risk^white;. You can name the teleport however you want, except you can only use basic latin and digits.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "portableteleporter", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [100, 100],
+  "followUp" : "cleftutorial11.gearup",
+  "canBeAbandoned" : false
+}

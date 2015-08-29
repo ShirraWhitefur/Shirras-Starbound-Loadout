@@ -1,0 +1,9 @@
+{
+  "itemName" : "preciousdrone",
+  "rarity" : "Common",
+  "inventoryIcon" : "preciousdrone.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A shining silver drone.",
+  "shortdescription" : "Precious Drone",
+  "maxStack" : 1000
+}

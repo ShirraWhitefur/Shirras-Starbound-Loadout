@@ -1,0 +1,13 @@
+{
+  "name" : "anti_tallcrochead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_tallcrochead.png"
+  },
+
+   "parameters" :
+  {
+  }
+}

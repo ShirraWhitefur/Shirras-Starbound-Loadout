@@ -1,0 +1,8 @@
+{
+	"itemName" : "catcorvette",
+	"rarity" : "Legendary",
+	"inventoryIcon" : "catcorvetteicon.png",
+	"description" : "Press F to use this. Traverses rough terrain quicker. It can also jump!",
+	"shortdescription" : "'71 Stingray",
+	"techModule" : "catcorvette"
+}

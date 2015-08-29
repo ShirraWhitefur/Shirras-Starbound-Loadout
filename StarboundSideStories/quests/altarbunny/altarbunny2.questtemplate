@@ -1,0 +1,16 @@
+  {
+  "id" : "altarbunny2.gearup",
+  "prerequisites" : [ "altarbunny1.gearup" ],
+  "title" : "^orange;Bunny Resurrection",
+  "text" : "TOGETHER WE CAN UNLEASH MY MORTAL FORM ONTO THIS WORLD. THIS WILL BE FUN. I PROMISE. FIRST I NEED A HEART. A CORE ORE WOULD WORK BEST. YES IT WOULD. BRING FIVE CORE ORES.",
+  "completionText" : "YES, YES, JUST LET ME SWALLOW THAT CORE. THANK YOU. TASTY. I FEEL MY MORTAL FORM SLOWLY GAINING POWER.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "corefragmentore", "count" : 5, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

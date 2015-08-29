@@ -1,0 +1,10 @@
+{
+  "codexId" : "bossbonedragon",
+  "title" : "Reading material",
+  "inventoryIcon" : "bossbook.png",
+  "codexkind" : "codex",
+  "itemName" : "bossbonedragonCodex",
+  "rarity" : "common",
+  "description" : "Information on the Bone Dragon, undead lizard of doom.",
+  "shortdescription" : "The Bone Dragon"
+}

@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "crewgenekong2",
+    "species" : "avian",
+    "rules" : [
+    ],
+    "anchor" : [ "crewgenekong2" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "crewgenekong2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "crewgenekong2.json" ]
+    }
+  ]
+}

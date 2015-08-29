@@ -1,0 +1,26 @@
+{
+	"type" : "mystic",
+	"baseType" : "hostile",
+	"levelVariance" : [-0.5, -0.5],
+	"persistent" : true,
+	"scriptConfig" : {
+		"dialog" : {
+			"attack" : "/dialog/felin.config:mystic_attack"
+		}
+	},
+	"items" : {
+		"default" : [
+			[0, [
+					{
+						"chest" : [ { "name" : "felinmysticchest" } ],
+						"legs" : [ { "name" : "hammerlegs" } ],
+						"primary" : [
+							[ "generatedsword", 1, { "definition" : "commondagger" } ]
+						]
+
+					}
+				] ]
+		]
+	},
+	"dropPools" : [ "mystictreasure" ]
+}

@@ -1,0 +1,78 @@
+{
+	"type" : "comforter",
+	"baseType" : "villager",
+
+	"scripts" : [
+		"/npcs/bmain.lua"
+	],
+	"initialScriptDelta" : 5,
+
+	"scriptConfig" : {
+		"behavior" : "villager",
+		"personality" : "normal",
+
+		"reactions" : {
+			"spontaneous" : [
+				[5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+				[1.0, "sit", { "timeRange" : [0.6,0.2]}],
+				[1.0, "comforterwander"]
+			]
+		},
+
+		"dialog" : {
+			"tenant" : {
+				"grumbles" : {
+					"tagCriteria" : "/dialog/felin.config:comforter_tagCriteria",
+					"enclosedArea" : "/dialog/felin.config:comforter_enclosedArea",
+					"otherDeed" : "/dialog/grumble.config:otherDeed",
+					"severe" : "/dialog/grumble.config:severe",
+					"final" : "/dialog/grumble.config:final"
+				},
+				"arrivedHome" : {
+					"beacon" : "/dialog/arrivedhome.config:beacon",
+					"rent" : "/dialog/arrivedhome.config:rent"
+				},
+				"flee" : {
+					"helpme" : "/dialog/flee.config:helpme",
+					"helpthem" : "/dialog/flee.config:helpthem",
+					"encourage" : "/dialog/flee.config:encourage",
+					"safe" : "/dialog/flee.config:safe"
+				}
+			},
+			"converse" : "/dialog/felin.config:comforter_converse"
+		}
+	},
+	"items" : {
+		"felin" : [
+			[0, [
+				{
+					"chest" : [
+						{ "name" : "shirtshort1chest", "data" : { "colorIndex" : [3] } },
+						{ "name" : "kawa_shorttop" }
+					],
+					"legs" : [
+						{ "name" : "kawa_hotpants" },
+						{ "name" : "jeans3legs" }
+					]
+				},
+				{
+					"chest" : [
+						{ "name" : "catcorsetchest", "data" : { "colorIndex" : [1,4,8,10] } }
+					],
+					"legs" : [
+						{ "name" : "felincrafterlegs", "data" : { "colorIndex" : [1,4,8,10] } },
+						{ "name" : "kawa_hotpants" }
+					]
+				},
+				{
+					"chest" : [
+						{ "name" : "felinnoblechest" }
+					],
+					"legs" : [
+						{ "name" : "felinnoblelegs" }
+					]
+				}
+			] ]
+		]
+	}
+}

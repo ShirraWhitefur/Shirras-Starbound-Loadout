@@ -1,0 +1,17 @@
+{
+  "id" : "crewspongewaltzermission.gearup",
+  "title" : "^green;Dastardly Tenants",
+  "text" : "...there's an asteroid field with a Hylotl named Picky Sora...",
+  "completionText" : "Just in the nick of time, I'm starving! The name is Picky Sora by the way, just call me Sora. I've been talking with Taylor over my primitive com system and before you ask, yes, I'd love to get off this failed attempt at a colony and help you instead. Use this console on your ship to call me up, let's go!",
+  "completionConditions" : [
+ 
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "crewspongewaltzerconsole", 1], [ "colonydeed", 1] ]
+   ],
+  "canBeAbandoned" : false,
+  "associatedMission" : "crewspongewaltzer",
+  "requireTurnIn" : true
+}
+ 

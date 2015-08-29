@@ -1,0 +1,12 @@
+{
+	"name" : "Felins Intro Cinematic",
+	"path" : ".",
+	"requires" : [ "Felins" ],
+	"includes" : [],
+	"metadata" : {
+		"version" : "1.3",
+		"author" : "Kawa",
+		"description" : "Adds an intro cinematic to the Felins.",
+		"credit" : "Narrated by Covarr. Background music by Kevin MacLeod; http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100821"
+	}
+}

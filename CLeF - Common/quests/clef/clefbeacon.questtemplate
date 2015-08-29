@@ -1,0 +1,17 @@
+{
+  "id" : "clefbeacon.gearup",
+  "title" : "^yellow;CLeF Tutorial #9.1.1: The First Contact",
+  "text" : "Your ship is in bad condition, so a good trade with friendly alien folks would really boost up your progress! ^green;Craft an ^orange;Old Distress Beacon ^green;and maybe you'll be able to make contact with a larger ship. ^white;Make sure you're ready for anything before you do though!",
+  "completionText" : "Nicely done. We suggest you gear up before placing it. You never know who'll receive your signal.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "clefbeacon", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [11, 900],
+//  "rewards" : [
+//    [ [ "clefbeacon", 1 ] ]
+//  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "",
+  "canBeAbandoned" : false
+}

@@ -1,0 +1,18 @@
+  {
+  "id" : "bugcatcherocean.gearup",
+  "prerequisites" : [ "bugcatcherdesert.gearup" ],
+  "title" : "^orange;Bugs in the Ocean",
+  "text" : "Our next assignment ssshall be finding some bugs on ocean planets. I believe there's the tidefly, the ssseahornet,and the wavebird on these planets.",
+  "completionText" : "Great job! ",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "tidefly", "count" : 1, "consume" : false }, 
+	{ "type" : "gather", "item" : "seahornet", "count" : 1, "consume" : false }, 
+	{ "type" : "gather", "item" : "wavebird", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [400, 500],
+  "rewards" : [
+      
+   ],
+  "requireTurnIn" : true
+}
+ 

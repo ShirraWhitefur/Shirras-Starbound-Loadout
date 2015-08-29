@@ -1,0 +1,16 @@
+  {
+  "id" : "humanbunker5.gearup",
+  "prerequisites" : [ "humanbunker4.gearup" ],
+  "title" : "^orange;Human Farms",
+  "text" : "We've got people, and now we need food! We don't need anything too fancy, so how about you bring me five wheat seeds?",
+  "completionText" : "I'm also handing you some corn and tomato seeds I found while looking around. It'd be great if you could plant those above ground for this quickly improving base.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "wheatseed", "count" : 5, "consume" : false }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "wheatseed", 5 ], [  "cornseed", 5 ], [  "tomatoseed", 5 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

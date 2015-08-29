@@ -1,0 +1,30 @@
+{
+  "materialId" : 8766,
+  "materialName" : "emeraldblock",
+  "particleColor" : [205, 254, 217, 255],
+  "itemDrop" : "emeraldblock",
+  "description" : "A whole block of solid emerald.",
+  "shortdescription" : "Emerald Block",
+  
+  "apexDescription" : "An emerald block. Hard as rock and hardly useful.",
+  "avianDescription" : "My eyes will hurt if I'll look at it for too long.",
+  "glitchDescription" : "Statement. A block of emerald.",
+  "floranDescription" : "Floran likesss green, remindsss a sssafe place.",
+  "humanDescription" : "Time to build an Emerald City!",
+  "hylotlDescription" : "I suspect this might be poisonous.",
+  "novakidDescription" : "Green gold, literally speakin'.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 8,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "emeraldblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

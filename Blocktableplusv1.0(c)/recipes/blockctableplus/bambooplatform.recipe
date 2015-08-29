@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "bambooplatform", "count" : 1 },
+  "groups" : [ "blocktableplus", "materials", "all", "platform", "floran" ]
+}

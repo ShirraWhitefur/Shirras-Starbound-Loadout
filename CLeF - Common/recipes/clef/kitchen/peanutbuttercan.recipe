@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "peanutbeans", "count" : 51 },
+    { "item" : "butter", "count" : 21 }
+  ],
+  "output" : { "item" : "peanutbuttercan", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodhealthboost" ]
+}

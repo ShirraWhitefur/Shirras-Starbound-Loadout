@@ -1,0 +1,17 @@
+{
+  "id" : "crewpenguinmission.gearup",
+  "title" : "^green;Strange Snow Globe",
+  "text" : "You notice on the bottom of the snow globe that there's a long list of numbers...possibly a set of coordinates to a planet. Maybe some sort of manufacturing plant? You decide to investigate.",
+  "completionText" : "Well, aren't you special! You want me to pack my bags and stop making evil penguin creations? We'll see. But you do deserve something. Take this box and put it on your ship, it should attract pixel loving penguins. Now scram!",
+  "completionConditions" : [
+ 
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "crewpenguincrate", 1], [ "colonydeed", 1] ]
+   ],
+  "canBeAbandoned" : false,
+  "associatedMission" : "crewpenguin",
+  "requireTurnIn" : true
+}
+ 

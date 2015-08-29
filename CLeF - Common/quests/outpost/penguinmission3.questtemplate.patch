@@ -1,0 +1,4 @@
+[
+  { "op" : "replace", "path" : "/completionText", "value" : "Thanks for taking care of that for me. I found this ^green;processor ^white;in the wreckage of Dreadwing's ship... Oh, and take this ^yellow;package^white;! Don't ask me where I got it, this stuff is ^green;illegal^white; in half of the galaxy. I'm sure you'll find a decent use for it." },
+  { "op" : "add", "path" : "/rewards/0/0", "value" : [ "matteritem", 50 ] }
+]

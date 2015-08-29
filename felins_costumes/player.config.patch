@@ -1,0 +1,17 @@
+[
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "felinnobleblackchest" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "ribbonschest" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "spycatsuit2chest" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "swimsuit2chest" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "swimsuitchest" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tubetop1chest" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "beltskirtlegs" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "boxerslegs" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "miniskirt1legs" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "miniskirt2legs" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "miniskirt3legs" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "felinnobleblacklegs" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "ribbonslegs" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "spycatsuitlegs" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "swimsuitlegs" } }
+]

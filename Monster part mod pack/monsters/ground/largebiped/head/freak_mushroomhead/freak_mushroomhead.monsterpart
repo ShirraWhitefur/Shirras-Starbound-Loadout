@@ -1,0 +1,14 @@
+{
+  "name" : "freak_mushroomhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "freak_mushroomhead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}
+

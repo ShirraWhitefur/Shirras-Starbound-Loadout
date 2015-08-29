@@ -1,0 +1,11 @@
+[
+{"op":"add","path":"/spawns/normalbee","value":{"spawnParameters":{"area":"air","region":"exposed","time":"day"},"targetDensity":0.02,"monsterType":"normalbee","monsterParameters":{"aggressive":false}}},
+{"op":"add","path":"/spawns/junglebee","value":{"spawnParameters":{"area":"air","region":"exposed","time":"day"},"targetDensity":0.02,"monsterType":"junglebee","monsterParameters":{"aggressive":false}}},
+{"op":"add","path":"/spawns/rockbee","value":{"spawnParameters":{"area":"air","region":"exposed","time":"day"},"targetDensity":0.02,"monsterType":"rockbee","monsterParameters":{"aggressive":false}}},
+{"op":"add","path":"/spawns/flowerbee","value":{"spawnParameters":{"area":"air","region":"exposed","time":"day"},"targetDensity":0.02,"monsterType":"flowerbee","monsterParameters":{"aggressive":false}}},
+{"op":"add","path":"/spawns/arcticbee","value":{"spawnParameters":{"area":"air","region":"exposed","time":"day"},"targetDensity":0.02,"monsterType":"arcticbee","monsterParameters":{"aggressive":false}}},
+{"op":"add","path":"/spawns/volcanicbee","value":{"spawnParameters":{"area":"air","region":"exposed","time":"day"},"targetDensity":0.02,"monsterType":"volcanicbee","monsterParameters":{"aggressive":false}}},
+{"op":"add","path":"/spawns/nocturnalbee","value":{"spawnParameters":{"area":"air","region":"exposed","time":"night"},"targetDensity":0.04,"monsterType":"nocturnalbee","monsterParameters":{"aggressive":false}}},
+{"op":"add","path":"/spawns/aridbee","value":{"spawnParameters":{"area":"air","region":"exposed","time":"all"},"targetDensity":0.02,"monsterType":"aridbee","monsterParameters":{"aggressive":false}}},
+{"op":"add","path":"/spawns/forestbee","value":{"spawnParameters":{"area":"air","region":"exposed","time":"day"},"targetDensity":0.02,"monsterType":"forestbee","monsterParameters":{"aggressive":false}}}
+]

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "tier4_small_gravitonprojectorring", "count" : 1 },
+    { "item" : "tier4greebleC1", "count" : 2 },
+    { "item" : "tier4beam", "count" : 10 },
+    { "item" : "tier4reinforcedglass", "count" : 98 }
+  ],
+  "output" : {
+    "item" : "tier4gravitonelevatortube",
+    "count" : 1
+  },
+  "groups" : [ "draftstable", "Generic building","all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 50 },
+	{ "item" : "silverbar", "count" : 1}
+  ],
+  "output" : { "item" : "receptorbeacon", "count" : 1 },
+  "groups" : [ "mod", "wiringstation", "all"]
+}

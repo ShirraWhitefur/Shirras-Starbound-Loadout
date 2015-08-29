@@ -1,0 +1,31 @@
+{
+  "objectName" : "monsterbrainjar",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "description" : "A brain in a jar, daydreaming.",
+  "shortdescription" : "Monster's brain in a Jar",
+  "race" : "generic",
+  "apexDescription" : "This is an animal brain...",
+  "avianDescription" : "A brain of a vicious creature.",
+  "floranDescription" : "Resssst in piecessss.",
+  "glitchDescription" : "Wistful jealousy. Even if it belong to a monster, it's still a real brain...",
+  "humanDescription" : "Is that a... brain?",
+  "hylotlDescription" : "Disgusting creature got what it deserved - confined in a jar forever.",
+  "novakidDescription" : "Nothing a good bullet can't fix.",
+
+  "inventoryIcon" : "monsterbrainjaricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "monsterbrainjar.png:<color>",
+
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

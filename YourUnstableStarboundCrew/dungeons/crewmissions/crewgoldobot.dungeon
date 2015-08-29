@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "crewgoldobot",
+    "species" : "avian",
+    "rules" : [
+    ],
+    "anchor" : [ "crewgoldobot" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "crewgoldobot",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "crewgoldobot.json" ]
+    }
+  ]
+}

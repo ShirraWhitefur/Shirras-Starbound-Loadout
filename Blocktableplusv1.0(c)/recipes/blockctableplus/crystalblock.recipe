@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 1 },
+	{ "item" : "cobblestonematerial", "count" : 3 }
+  ],
+  "output" : { "item" : "crystalblock", "count" : 4 },
+  "groups" : [ "blocktableplus", "materials", "all", "other" ]
+}

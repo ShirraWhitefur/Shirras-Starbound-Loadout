@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinposter5",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 75,
+	"shortdescription" : "Felin Model Poster",
+	"description" : "A nice pinup poster of a felin model.",
+	"race" : "felin",
+	"apexDescription" : "Hm. Overly-muscular chest...",
+	"avianDescription" : "This man protects beachgoers, if I remember right.",
+	"floranDescription" : "Floran could take ssssilly baywatch in a fight.",
+	"glitchDescription" : "Unimpressed. Glitch chests are harder.",
+	"humanDescription" : "Why would cats have a baywatch?",
+	"hylotlDescription" : "Coast guard, I believe.",
+	"felinDescription" : "Eron the Guardian.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinposter24.png:0",
+			"imagePosition" : [-12, -16],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

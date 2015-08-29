@@ -1,0 +1,16 @@
+{
+  "itemName" : "outpostlightstickback",
+  "inventoryIcon" : "outpostlightstickicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Common",
+  "description" : "An outpost light on a metal rod. Much Brighter than a Lantern Stick. Batteries included!",
+  "shortdescription" : "Outpost-Light Stick",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "statusEffects" : [
+    "lightglow"
+  ]
+
+}

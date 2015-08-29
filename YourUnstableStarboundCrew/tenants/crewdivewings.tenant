@@ -1,0 +1,27 @@
+{
+  "name": "crewdivewings",
+  "priority": 10,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "crewdivewings": 1
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "avian",
+	  "seed": 14,
+      "type": "crewdivewings",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [800.0, 1200.0],
+    "pool": "divewingsGift"
+  }
+}

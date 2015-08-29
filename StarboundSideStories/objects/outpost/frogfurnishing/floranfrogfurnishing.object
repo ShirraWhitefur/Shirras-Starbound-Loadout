@@ -1,0 +1,166 @@
+{
+  "objectName" : "floranfrogfurnishing",
+  "tags" : ["outpost","commerce"],
+  "rarity" : "Common",
+  "description" : "Finest Furnishings!",
+  "shortdescription" : "Frögg Furnishing",
+  "race" : "generic",
+  "printable" : false,
+  //"hasObjectItem" : false,
+  "lightColor" : [190, 170, 150],
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfurniturestore.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  FLORAN FRӦGG FURNISHINGS",
+        "subtitle" : "  Floran themed furniture",
+        "icon" : {
+          "file" : "/interface/crafting/frogfurnishing.png"
+        }
+      }
+    },
+    "filter" : [],
+    "recipes" : [
+      {
+        "input" : [ ["money", 400] ],
+        "output" : "floranarmchair",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 400] ],
+        "output" : "floranbed",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 200] ],
+        "output" : "floranchair",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 5000] ],
+        "output" : "colonydeed",
+        "groups" : [ "deeds" ]
+      },
+      {
+        "input" : [ ["money", 1500] ],
+        "output" : "floranbonedisplay2",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 400] ],
+        "output" : "florantable1",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 400] ],
+        "output" : "floranstove",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 400] ],
+        "output" : "florancabinet1",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 400] ],
+        "output" : "floranbookcase",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 200] ],
+        "output" : "floranlight",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 200] ],
+        "output" : "floranbench",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 500] ],
+        "output" : "floranchandelier",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 200] ],
+        "output" : "floranpainting1",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 200] ],
+        "output" : "floranpainting2",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 600] ],
+        "output" : "floranpelt1",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 500] ],
+        "output" : "floranpelt5",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 300] ],
+        "output" : "floranshelf",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 400] ],
+        "output" : "floranscreen1",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 200] ],
+        "output" : "floranlamp1",
+        "groups" : [ "storefurniture" ]
+      },
+      {
+        "input" : [ ["money", 100] ],
+        "output" : "florandoor",
+        "groups" : [ "storefurniture" ]
+      }
+    ]
+  },
+
+  "apexDescription" : "It's one of those frog merchants. This one's peddling furniture. ",
+  "avianDescription" : "Who is this curious merchant? His furnishings are fabulous.",
+  "floranDescription" : "Floran ssslightly ssscared by sssilent frog.",
+  "glitchDescription" : "This frog has some comfortable looking wares.",
+  "humanDescription" : "This strange amphibian peddles some rather nice furniture.",
+  "hylotlDescription" : "This creature has an impressive collection of furniture.",
+  "novakidDescription" : "Don't see many frog merchants round these parts!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "frogfurnishingleft.png:<color>.<frame>", "fullbright" : true }, { "image" : "frogfurnishingleftlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      
+      "lightPosition" : [-4, 7],
+
+      "imagePosition" : [-64, 0],
+      "frames" : 32,
+      "animationCycle" : 4.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "frogfurnishingright.png:<color>.<frame>", "fullbright" : true }, { "image" : "frogfurnishingrightlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+      
+      "lightPosition" : [0, 2],
+
+      "imagePosition" : [-64, 0],
+      "frames" : 32,
+      "animationCycle" : 4.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/hubbub.wav"
+}

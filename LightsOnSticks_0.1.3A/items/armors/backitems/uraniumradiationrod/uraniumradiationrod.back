@@ -1,0 +1,17 @@
+{
+  "itemName" : "uraniumradiationrod",
+  "inventoryIcon" : "uraniumradiationrod.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Common",
+  "description" : "You were too rad for school. Requires radiation protection if survival is intended.",
+  "shortdescription" : "Uranium Radiation Rod",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "statusEffects" : [
+    "radiationglow",
+	"biomeradiation"
+  ]
+
+}

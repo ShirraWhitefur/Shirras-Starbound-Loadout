@@ -1,0 +1,28 @@
+{
+	"objectName" : "laenathinplush",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 100,
+	"description" : "A little plushie of a fearsome warlord.",
+	"shortdescription" : "Laenathin Plushie",
+	"race" : "felin",
+	"apexDescription" : "I suppose hero figures are marketable.",
+	"avianDescription" : "At least he's wearing pants.",
+	"floranDescription" : "Ssssilly famous cat full of little grains.",
+	"glitchDescription" : "Surprised. A felin with a beard.",
+	"humanDescription" : "This 'Laenathin' must be a pretty famous figure to the cats.",
+	"hylotlDescription" : "I'd hate to say it, but this is fine craftsmanship.",
+	"felinDescription" : "Laenathin's beard can be styled.",
+	"inventoryIcon" : "plushies.png:laenathin.icon",
+	"orientations" : [
+		{
+			"dualImage" : "plushies.png:laenathin",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 0.4,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	]
+}

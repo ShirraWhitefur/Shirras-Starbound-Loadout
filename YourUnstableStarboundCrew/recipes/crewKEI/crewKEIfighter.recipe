@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "upgrademodule", "count" : 5 },
+    { "item" : "crewKEIcombat", "count" : 1 },
+    { "item" : "crewKEIdefense", "count" : 1 },
+    { "item" : "crewKEIenergy", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "crewKEIfighter",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

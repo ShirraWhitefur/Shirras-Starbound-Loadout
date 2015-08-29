@@ -1,0 +1,108 @@
+{
+  "type" : "crewgenekongmission",
+  "baseType" : "crewmerchant",
+  
+  "damageTeam" : 1, 
+  "levelVariance" : [-0.5, -0.5],
+
+  "disableWornArmor" : true,
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "offeredQuests" : [ "crewgenekongmission2.gearup" ],
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 8,
+      "categories" : {
+        "default" : ["crewgenekongshop" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 10,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Genekong",
+          "subtitle" : "  For technology needs."
+        }
+      }
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "human" : {
+            "default" : [
+              "Hey captain, need any help?",
+              "How is your exploring going recently? Seen any Hylotl stuff? I've heard it's pretty rare.",
+              "The ship is looking good!",
+              "I hope your day is going well, captain!"
+            ]
+          }  
+        },
+        "end" : {
+          "human" : {
+            "default" : [
+            "What's been your favorite planet type so far?",
+            "Have you found a dish you enjoy cooking yet?",
+			"I tried feeding your pet, but I think it's still warming up to me.",
+            "I wonder how other captains decorate their ship...",
+			"Your ship is looking great, captain!",
+            "What's the strangest creature you've encountered? I once saw a monster barf a rainbow."
+            ]
+          }
+        },
+        "follow" : {
+          "human" : {
+            "default" : [
+              "Follow, the ssstore is thisss way, friend!",
+              "It helpsss to have connected friendsss in a world like this!",
+              "Floran isss a professional bonesmith. Thisss way.",
+              "Follow thisss way..."
+            ]
+          }
+        },
+        "welcome" : {
+          "human" : {
+            "default" : [
+              "Here isss the store!",
+              "Now for sssome tradesss!",
+              "I have thingsss you might need."
+            ]
+          }
+        },
+        "tout" : "/dialog/merchant.config:tout"
+      },
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/merchant.config:tagCriteria",
+          "enclosedArea" : "/dialog/merchant.config:enclosedArea",
+          "otherDeed" : "/dialog/merchant.config:otherDeed",
+          "severe" : "/dialog/merchant.config:severe",
+          "final" : "/dialog/merchant.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/merchant.config:beacon",
+          "rent" : "/dialog/merchant.config:rent"
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "apextier5schest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "apextier5spants", "parameters" : { "colorIndex" : 1 } }
+            ]
+          }
+      ]]
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 15 },
+    { "item" : "crewtier1broadsword", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "crewtier2broadsword",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

@@ -1,0 +1,4 @@
+[
+  { "op" : "add", "path" : "/platform", "value" : true },
+  { "op" : "add", "path" : "/renderParameters/platform", "value" : true }
+]

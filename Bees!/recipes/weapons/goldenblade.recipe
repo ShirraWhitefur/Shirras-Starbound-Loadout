@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 16 }, { "item" : "normalcomb", "count" : 12 }
+  ],
+  "output" : { "item" : "833goldenblade", "count" : 1 },
+  "groups" : [ "mod", "beestation", "weapons", "all" ]
+}

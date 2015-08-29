@@ -1,0 +1,27 @@
+{
+	"objectName" : "felinmarketspeaker",
+	"tags" : [ "felin", "felinvillage", "felinmarket", "commerce", "musical" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 100,
+	"description" : "It's a loudspeaker that plays shopping music.",
+	"shortdescription" : "Market Music Speaker",
+	"race" : "felin",
+	"apexDescription" : "A speaker playing... upbeat shopping music?",
+	"avianDescription" : "",
+	"floranDescription" : "Ssome kind of ssound machine?",
+	"glitchDescription" : "",
+	"humanDescription" : "",
+	"hylotlDescription" : "",
+	"felinDescription" : "",
+	"inventoryIcon" : "felinmarketspeakericon.png",
+	"orientations" : [
+		{
+			"dualImage" : "felinmarketspeaker.png",
+			"imagePosition" : [-8, -8],
+			"spaceScan" : 0.1,
+			"anchors" : [ "top" ]
+		}
+	],
+	"soundEffect" : "/sfx/felin/felinmarket.ogg"
+}

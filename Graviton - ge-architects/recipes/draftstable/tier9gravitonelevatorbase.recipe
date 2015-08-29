@@ -1,0 +1,17 @@
+{
+  "input" : [
+    { "item" : "tier9_small_gravitonprojectorring", "count" : 1 },
+    { "item" : "tier9_small_gravitonprojectorpad", "count" : 1 },
+    { "item" : "tier9greebleC1", "count" : 2 },
+    { "item" : "tier9greebleL1", "count" : 2 },
+    { "item" : "tier9panel", "count" : 14 },
+    { "item" : "tier9support", "count" : 10 },
+    { "item" : "tier9beam", "count" : 15 },
+    { "item" : "tier9reinforcedglass", "count" : 81 }
+  ],
+  "output" : {
+    "item" : "tier9gravitonelevatorbase",
+    "count" : 1
+  },
+  "groups" : [ "draftstable", "Generic building","all" ]
+}

@@ -1,0 +1,13 @@
+  {
+  "id" : "mushroomfriend1.gearup",
+  "title" : "^orange;Baboo Mushroo?",
+  "text" : "You stare at the mushroom man, and he stares back at you...all of a sudden he smiles, and waves. Surprised at the friendliness of the encounter, you decide to stay for a second.",
+  "completionText" : "He points to himself...herself? You're not sure, but he says his name is possibly Babababa. You point at yourself and give your name. Mushroom people are weird.",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

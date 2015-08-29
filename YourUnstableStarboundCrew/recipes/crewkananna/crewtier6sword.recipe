@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "imperviumcompound", "count" : 15 },
+    { "item" : "crewtier5broadsword", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "crewtier6broadsword",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

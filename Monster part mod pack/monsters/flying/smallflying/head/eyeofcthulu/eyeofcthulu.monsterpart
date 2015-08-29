@@ -1,0 +1,9 @@
+{
+  "name" : "eyeofcthulu",
+  "category" : "smallflying",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "eyeofcthulu.png"
+  }
+}

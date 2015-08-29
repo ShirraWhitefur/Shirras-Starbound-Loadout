@@ -1,0 +1,153 @@
+{
+  "objectName" : "gravitoncraftingtable",
+  "printable" : false,
+  "rarity" : "legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/gravitoncraftingtable.config",
+    "filter" : [ "gravitoncraftingtable" ]
+  },
+  "description" : "This module can be used to construct graviton devices.",
+  "shortdescription" : "^orange;Gravfield Manipulator^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 250,
+  
+  "lightColor" : [89, 119, 179],
+
+  "flickerPeriod" : 0.9,
+  "flickerMinIntensity" : 0.75,
+  "flickerMaxIntensity" : 0.8,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "I can use this to construct graviton devices.",
+  "avianDescription" : "I can use this to construct graviton devices.",
+  "floranDescription" : "Floran make ssspecial floaty machines.",
+  "glitchDescription" : "Statement. I can use this to construct graviton devices.",
+  "humanDescription" : "I can use this to construct graviton devices.",
+  "hylotlDescription" : "I can use this to construct graviton devices.",
+
+  "inventoryIcon" : "gravitoncraftingtableicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "gravitoncraftingtable.png:<color>.<frame>", "fullbright" : true }, { "image" : "gravitoncraftingtablelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 4,
+      "animationCycle" : 0.9,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "gravitoncraftingtable.png:<color>.<frame>", "fullbright" : true }, { "image" : "gravitoncraftingtablelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 4,
+      "animationCycle" : 0.9,
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "learnBlueprintsOnPickup" : [
+    "gravitoncraftingtable",
+
+    "gravitonrail",
+    "gravitonrailstop",
+
+    "tier3_tiny_gravitonprojectorpad",
+    "tier3_tiny_gravitonprojectorring",
+    "tier3_small_gravitonprojectorpad",
+    "tier3_small_gravitonprojectorring",
+    "tier3_medium_gravitonprojectorpad",
+    "tier3_medium_gravitonprojectorring",
+    "tier3_large_gravitonprojectorpad",
+    "tier3_large_gravitonprojectorring",
+    "tier3_XL_gravitonprojectorpad",
+    "tier3_XL_gravitonprojectorring",
+    
+    "tier4_tiny_gravitonprojectorpad",
+    "tier4_tiny_gravitonprojectorring",
+    "tier4_small_gravitonprojectorpad",
+    "tier4_small_gravitonprojectorring",
+    "tier4_medium_gravitonprojectorpad",
+    "tier4_medium_gravitonprojectorring",
+    "tier4_large_gravitonprojectorpad",
+    "tier4_large_gravitonprojectorring",
+    "tier4_XL_gravitonprojectorpad",
+    "tier4_XL_gravitonprojectorring",
+
+    "tier5_tiny_gravitonprojectorpad",
+    "tier5_tiny_gravitonprojectorring",
+    "tier5_small_gravitonprojectorpad",
+    "tier5_small_gravitonprojectorring",
+    "tier5_medium_gravitonprojectorpad",
+    "tier5_medium_gravitonprojectorring",
+    "tier5_large_gravitonprojectorpad",
+    "tier5_large_gravitonprojectorring",
+    "tier5_XL_gravitonprojectorpad",
+    "tier5_XL_gravitonprojectorring",
+
+    "tier6_tiny_gravitonprojectorpad",
+    "tier6_tiny_gravitonprojectorring",
+    "tier6_small_gravitonprojectorpad",
+    "tier6_small_gravitonprojectorring",
+    "tier6_medium_gravitonprojectorpad",
+    "tier6_medium_gravitonprojectorring",
+    "tier6_large_gravitonprojectorpad",
+    "tier6_large_gravitonprojectorring",
+    "tier6_XL_gravitonprojectorpad",
+    "tier6_XL_gravitonprojectorring",
+
+    "tier7_tiny_gravitonprojectorpad",
+    "tier7_tiny_gravitonprojectorring",
+    "tier7_small_gravitonprojectorpad",
+    "tier7_small_gravitonprojectorring",
+    "tier7_medium_gravitonprojectorpad",
+    "tier7_medium_gravitonprojectorring",
+    "tier7_large_gravitonprojectorpad",
+    "tier7_large_gravitonprojectorring",
+    "tier7_XL_gravitonprojectorpad",
+    "tier7_XL_gravitonprojectorring",
+
+    "tier8_tiny_gravitonprojectorpad",
+    "tier8_tiny_gravitonprojectorring",
+    "tier8_small_gravitonprojectorpad",
+    "tier8_small_gravitonprojectorring",
+    "tier8_medium_gravitonprojectorpad",
+    "tier8_medium_gravitonprojectorring",
+    "tier8_large_gravitonprojectorpad",
+    "tier8_large_gravitonprojectorring",
+    "tier8_XL_gravitonprojectorpad",
+    "tier8_XL_gravitonprojectorring",
+
+    "tier9_tiny_gravitonprojectorpad",
+    "tier9_tiny_gravitonprojectorring",
+    "tier9_small_gravitonprojectorpad",
+    "tier9_small_gravitonprojectorring",
+    "tier9_medium_gravitonprojectorpad",
+    "tier9_medium_gravitonprojectorring",
+    "tier9_large_gravitonprojectorpad",
+    "tier9_large_gravitonprojectorring",
+    "tier9_XL_gravitonprojectorpad",
+    "tier9_XL_gravitonprojectorring",
+
+    "tier10_tiny_gravitonprojectorpad",
+    "tier10_tiny_gravitonprojectorring",
+    "tier10_small_gravitonprojectorpad",
+    "tier10_small_gravitonprojectorring",
+    "tier10_medium_gravitonprojectorpad",
+    "tier10_medium_gravitonprojectorring",
+    "tier10_large_gravitonprojectorpad",
+    "tier10_large_gravitonprojectorring",
+    "tier10_XL_gravitonprojectorpad",
+    "tier10_XL_gravitonprojectorring"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "itemName" : "goldenfishingrod",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "level" : 1,
+  "rarity" : "legendary",
+  "description" : "A fishing rod. Use it to catch fish.",
+  "shortdescription" : "Golden Rod",
+  "weaponType" : "Fishing Rod",
+
+  "image" : "goldenfishingrod.png",
+  "firePosition" : [16, 24],
+  "fireTime" : 0.8,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileType" : "fishinglure",
+    "projectile" : {
+      "speed" : 35,
+      "power" : 3
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -45,
+      "swordAngle" : -45,
+      "handPosition" : [-6.0, -17.0],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-6.0, -17.0],
+      "duration" : 0.2
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -45,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -27.5],
+      "duration" : 0.4
+    }
+  }
+}

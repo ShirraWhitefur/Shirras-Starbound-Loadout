@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "money", "count" : 500 } ],
+	"output" : { "item" : "laserlyre", "count" : 1 },
+	"groups" : [ "roboticcraftingtable", "all", "tools" ]
+}

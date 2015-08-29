@@ -1,0 +1,28 @@
+{
+	"objectName" : "megazordposter",
+	"tags" : [ "odd" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 75,
+	"shortdescription" : "Dino Megazord Poster",
+	"description" : "Mighty.",
+	"race" : "generic",
+	"apexDescription" : "The apex rebellion could use such a thing.",
+	"avianDescription" : "The... Mega Zord, I think.",
+	"floranDescription" : "Giant stompy robot.",
+	"glitchDescription" : "Impressed. This robot is certainly large.",
+	"humanDescription" : "Mighty.",
+	"hylotlDescription" : "From an old human television series, I believe.",
+	"felinDescription" : "One of the more well-known of the giant robots.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "megazordposter.png",
+			"imagePosition" : [-20, -16],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

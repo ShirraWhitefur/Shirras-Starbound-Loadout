@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinposter8",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 50,
+	"shortdescription" : "Felin Hero Poster",
+	"description" : "A nice pinup poster of a felin hero",
+	"race" : "felin",
+	"apexDescription" : "This cat looks like a traveller.",
+	"avianDescription" : "I -think- this is a male.",
+	"floranDescription" : "Floran likesss this cat.",
+	"glitchDescription" : "Confused. Can't tell this character's gender.",
+	"humanDescription" : "I can't tell if this is a guy or a girl! Help!",
+	"hylotlDescription" : "Why do felin have to be so... androgynous?",
+	"felinDescription" : "Aelir the Traveller.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinposter16.png:0",
+			"imagePosition" : [-8, -12],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

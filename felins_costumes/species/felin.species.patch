@@ -1,0 +1,33 @@
+[
+	{ "op": "add", "path": "/genders/0/shirt/-", "value": "felinnobleblackchest" },
+	{ "op": "add", "path": "/genders/0/shirt/-", "value": "ribbonschest" },
+	{ "op": "add", "path": "/genders/0/shirt/-", "value": "spycatsuit2chest" },
+	{ "op": "add", "path": "/genders/0/shirt/-", "value": "swimsuitchest" },
+	{ "op": "add", "path": "/genders/0/shirt/-", "value": "swimsuit2chest" },
+	{ "op": "add", "path": "/genders/0/shirt/-", "value": "tubetop1chest" },
+
+	{ "op": "add", "path": "/genders/1/shirt/-", "value": "felinnobleblackchest" },
+	{ "op": "add", "path": "/genders/1/shirt/-", "value": "ribbonschest" },
+	{ "op": "add", "path": "/genders/1/shirt/-", "value": "spycatsuit2chest" },
+	{ "op": "add", "path": "/genders/1/shirt/-", "value": "swimsuitchest" },
+	{ "op": "add", "path": "/genders/1/shirt/-", "value": "swimsuit2chest" },
+	{ "op": "add", "path": "/genders/1/shirt/-", "value": "tubetop1chest" },
+
+	{ "op": "add", "path": "/genders/0/pants/-", "value": "beltskirtlegs" },
+	{ "op": "add", "path": "/genders/0/pants/-", "value": "boxerslegs" },
+	{ "op": "add", "path": "/genders/0/pants/-", "value": "miniskirt1legs" },
+	{ "op": "add", "path": "/genders/0/pants/-", "value": "miniskirt2legs" },
+	{ "op": "add", "path": "/genders/0/pants/-", "value": "miniskirt3legs" },
+	{ "op": "add", "path": "/genders/0/pants/-", "value": "felinnobleblacklegs" },
+	{ "op": "add", "path": "/genders/0/pants/-", "value": "ribbonslegs" },
+	{ "op": "add", "path": "/genders/0/pants/-", "value": "swimsuitlegs" },
+
+	{ "op": "add", "path": "/genders/1/pants/-", "value": "beltskirtlegs" },
+	{ "op": "add", "path": "/genders/1/pants/-", "value": "boxerslegs" },
+	{ "op": "add", "path": "/genders/1/pants/-", "value": "miniskirt1legs" },
+	{ "op": "add", "path": "/genders/1/pants/-", "value": "miniskirt2legs" },
+	{ "op": "add", "path": "/genders/1/pants/-", "value": "miniskirt3legs" },
+	{ "op": "add", "path": "/genders/1/pants/-", "value": "felinnobleblacklegs" },
+	{ "op": "add", "path": "/genders/1/pants/-", "value": "ribbonslegs" },
+	{ "op": "add", "path": "/genders/1/pants/-", "value": "swimsuitlegs" }
+]

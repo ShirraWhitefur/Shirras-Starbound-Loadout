@@ -1,0 +1,28 @@
+{
+  "type" : "crewmermen",
+  "baseType" : "hostile",
+
+  "levelVariance" : [-0.5, -0.5],
+
+  "dropPools" : [ "banditTreasure" ],
+  
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "lagoonhead" } ],
+            "chest" : [ { "name" : "lagoonchest" } ],
+            "legs" : [ { "name" : "lagoonpants" } ],
+            "primary" : [
+              [ "generatedsword", 1, { "definition" : "commondagger" } ],
+              [ "generatedsword", 1, { "definition" : "commonaxe" } ],
+              [ "generatedsword", 1, { "definition" : "commonshortsword" } ],
+              [ "generatedsword", 1, { "definition" : "commonbroadsword" } ],
+              [ "generatedsword", 1, { "definition" : "commonhammer" } ],
+              [ "generatedsword", 1, { "definition" : "commonspear" } ]
+            ]
+          }
+        ] ]
+    ]
+  }
+}

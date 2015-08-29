@@ -1,0 +1,23 @@
+{
+	"objectName" : "felinsign2",
+	"tags" : [ "felin", "felinvillage", "felinwriting" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 30,
+	"shortdescription" : "Felin Prices Sign",
+	"description" : "Oh my.",
+	"race" : "felin",
+	"glitchDescription": "Shocked. Oh my.",
+	"felinDescription" : "Hope you got fifty pixels!",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinsign2.png",
+			"imagePosition" : [-24, 0],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

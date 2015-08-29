@@ -1,0 +1,9 @@
+{
+  "name" : "anti_oneclawbody",
+  "category" : "smallflying",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "anti_oneclawbody.png"
+  }
+}

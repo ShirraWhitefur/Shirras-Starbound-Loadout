@@ -1,0 +1,16 @@
+  {
+  "id" : "miningquest7.gearup",
+  "prerequisites" : [ "miningquest6.gearup" ],
+  "title" : "^orange;Golden Ores",
+  "text" : "We're finally getting into some good quality ore! You know the drill, bring me 30 gold ores and I'll work it out with this mysterious bot I keep mentioning.",
+  "completionText" : "Gold is so lovely! Put these golden nodes somewhere down in our mine so I can enjoy the wealth as well!",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "goldore", "count" : 30, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "goldnode", 2 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

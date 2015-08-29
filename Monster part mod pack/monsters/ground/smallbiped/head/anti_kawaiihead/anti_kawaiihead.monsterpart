@@ -1,0 +1,13 @@
+{
+  "name" : "anti_kawaiihead",
+  "category" : "smallbiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_kawaiihead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}

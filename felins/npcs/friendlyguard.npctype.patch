@@ -1,0 +1,26 @@
+[
+	{ "op" : "add",
+		"path" : "/scriptConfig/dialog/hail",
+		"value" : "/dialog/felin.config:friendlyguard_hail"
+	},
+	{ "op" : "add",
+		"path" : "/items",
+		"value" : { "felin" : [
+			[0, [
+				{
+					"head" : [ { "name" : "felintier1head" } ],
+					"chest" : [
+						{ "name" : "felintier1chest", "data" : { "colorIndex" : [4] } }
+					],
+					"legs" : [
+						{ "name" : "felintier1pants", "data" : { "colorIndex" : [4] } }
+					],
+					"primary" : [
+						{ "name" : "generatedgun", "data" : { "definition" : "commonplasmapistol" } },
+						{ "name" : "generatedgun", "data" : { "definition" : "commonplasmamachinepistol" } }
+					]
+				}
+			] ]
+		] }
+	}
+]

@@ -1,0 +1,35 @@
+[
+	{
+		"op": "add",
+		"path": "/helpme/felin",
+		"value": {
+			"default": [
+				"HISS!",
+				"MROOOW!",
+				"MRAAAWR!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/helpthem/felin",
+		"value": {
+			"default": [
+				"What have you done!?",
+				"You animal!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/encourage/felin",
+		"value": {
+			"default": [
+				"Fight, fight, fight!",
+				"Don't let 'em get away!",
+				"The prey grows weaker!",
+				"MROOOW!"
+			]
+		}
+	}
+]

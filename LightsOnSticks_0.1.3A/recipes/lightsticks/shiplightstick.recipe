@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "apexshiplight", "count" : 1 },
+	{ "item" : "steelbar", "count" : 15 },
+	{ "item" : "liquidfuel", "count" : 60 }
+  ],
+  "output" : { "item" : "shiplightstickback", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "armors", "all" ]
+}
+

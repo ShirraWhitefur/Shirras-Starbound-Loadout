@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 }
+  ],
+  "output" : { "item" : "composite01material", "count" : 6 },
+  "groups" : [ "blocktableplus", "materials", "all", "wall", "human" ]
+}

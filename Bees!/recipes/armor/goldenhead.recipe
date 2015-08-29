@@ -1,0 +1,10 @@
+{
+  "input" : [
+ { "item" : "money", "count" : 900 }, { "item" : "goldbar", "count" : 20 }, { "item" : "godlycomb", "count" : 10 }, { "item" : "imperviumcompound", "count" : 12 }
+  ],
+  "output" : {
+    "item" : "833goldenhead",
+    "count" : 1
+  },
+  "groups" : [ "mod", "beestation", "armor", "all" ]
+}

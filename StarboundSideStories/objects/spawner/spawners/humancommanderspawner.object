@@ -1,0 +1,55 @@
+{
+  "objectName" : "humancommanderspawner",
+  "rarity" : "rare",
+  "description" : "Spawn a genetic copy of Commander Jesse",
+  "shortdescription" : "Commander Jesse",
+  "race" : "hylotl",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 300,
+
+  "apexDescription" : "Spawning Hylotls. Uh... maybe later.",
+  "avianDescription" : "I'll have to take care not to use this too often.",
+  "floranDescription" : "Floran sssummon fishman right into sssword!",
+  "glitchDescription" : "Insincere. A Hylotl gathering would be just wonderful.",
+  "humanDescription" : "Well, I guess one Hylotl wouldn't hurt...",
+  "hylotlDescription" : "What joy! I can finally surround myself with culture again.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_human.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/human.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_human.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "human" ],
+    "npcTypeOptions" : [ "humancommander" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

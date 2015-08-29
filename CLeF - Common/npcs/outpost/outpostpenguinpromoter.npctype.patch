@@ -1,0 +1,7 @@
+[
+  // Fatal Circuit Quest Part 2, 5
+  { "op": "add", "path": "/scriptConfig/offeredQuests/0", "value": "fatalcircuit5.gearup" },
+  { "op": "add", "path": "/scriptConfig/offeredQuests/0", "value": "fatalcircuit2.gearup" },
+  { "op": "add", "path": "/scriptConfig/turnInQuests/0", "value": "fatalcircuit5.gearup" },
+  { "op": "add", "path": "/scriptConfig/turnInQuests/0", "value": "fatalcircuit2.gearup" }
+]

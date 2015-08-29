@@ -1,0 +1,16 @@
+  {
+  "id" : "apexresearcher5.gearup",
+  "prerequisites" : [ "apexresearcher4.gearup" ],
+  "title" : "^orange;Finally Some Experiments",
+  "text" : "Finally, time to do some actual experiments now that you've moved in and helped out the village a bit. Bring me ten glass syringes so I can help make some stims.",
+  "completionText" : "And here we are, of course. Here's your cut of the stims I created, we need the rest for the town's people. Oh, and thanks, by the way.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "syringe", "count" : 10, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [  [ "redstim", 5 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

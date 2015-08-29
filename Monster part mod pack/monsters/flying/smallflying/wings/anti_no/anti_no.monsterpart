@@ -1,0 +1,10 @@
+{
+  "name" : "anti_no",
+  "category" : "smallflying",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "anti_nobwing.png",
+    "frontWings" : "anti_nofwing.png"
+  }
+}

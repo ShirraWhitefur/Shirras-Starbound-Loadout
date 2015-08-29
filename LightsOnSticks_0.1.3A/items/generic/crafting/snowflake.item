@@ -1,0 +1,12 @@
+{
+  "itemName" : "snowflake",
+  "rarity" : "Common",
+  "inventoryIcon" : "snowflake.png",
+  "description" : "A perfectly preserved snowflake. They say no two of these are ever the same.",
+  "shortdescription" : "Snowflake",
+
+  "learnBlueprintsOnPickup" : [
+    "snowflakeshuriken",
+	"permafrost"
+  ]
+}

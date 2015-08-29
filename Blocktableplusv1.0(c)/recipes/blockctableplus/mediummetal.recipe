@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 1 }
+  ],
+  "output" : { "item" : "mediummetal", "count" : 5 },
+  "groups" : [ "blocktableplus", "materials", "all", "wall", "apex" ]
+}

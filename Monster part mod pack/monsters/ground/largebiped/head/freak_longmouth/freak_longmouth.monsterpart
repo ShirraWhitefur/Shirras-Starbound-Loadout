@@ -1,0 +1,14 @@
+{
+  "name" : "freak_longmouth",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "freak_longmouth.png"
+  },
+
+  "parameters" :
+  {
+  }
+}
+

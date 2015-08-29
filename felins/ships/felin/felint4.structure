@@ -1,0 +1,21 @@
+{
+	"config" : {
+		"shipUpgrades" : {
+			"capabilities" : ["teleport", "planetTravel", "systemTravel"],
+			"maxFuel" : 1000
+		}
+	},
+	"backgroundOverlays" : [
+		{
+			"image" : "felint4.png",
+			"position" : [-4, 9],
+			"fullbright" : true
+		},
+		{
+			"image" : "felint4lit.png",
+			"position" : [-4, 9]
+		}
+	],
+	"blockKey" : "blockKey.config:blockKey",
+	"blockImage" : "felint4blocks.png"
+}

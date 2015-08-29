@@ -1,0 +1,9 @@
+{
+  "itemName" : "darkqueen",
+  "rarity" : "Common",
+  "inventoryIcon" : "darkqueen.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A dark bee queen with a dark past.",
+  "shortdescription" : "Dark Queen",
+  "maxStack" : 1000
+}

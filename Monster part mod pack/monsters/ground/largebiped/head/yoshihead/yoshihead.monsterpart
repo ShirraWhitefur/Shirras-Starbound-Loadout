@@ -1,0 +1,14 @@
+{
+  "name" : "yoshihead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "yoshihead.png"
+  },
+
+ "parameters" :
+  {
+  }
+}
+

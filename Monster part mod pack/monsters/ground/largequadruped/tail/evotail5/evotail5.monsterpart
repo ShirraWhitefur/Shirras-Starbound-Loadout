@@ -1,0 +1,9 @@
+{
+  "name" : "evotail5",
+  "category" : "largequadruped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "evotail5.png"
+  }
+}

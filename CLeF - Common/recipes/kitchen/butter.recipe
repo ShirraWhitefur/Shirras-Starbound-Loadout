@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "liquidmilk", "count" : 2 }
+  ],
+  "output" : { "item" : "butter", "count" : 1 },
+  "groups" : [ "campfire", "kitchen", "consumables", "foodhealing", "foodhealthboost" ]
+}

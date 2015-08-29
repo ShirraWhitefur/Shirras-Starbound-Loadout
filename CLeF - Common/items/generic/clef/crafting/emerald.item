@@ -1,0 +1,8 @@
+{
+  "itemName" : "emerald",
+  "rarity" : "Rare",
+  "inventoryIcon" : "emerald.png",
+  "description" : "It's a beautifully cut emerald.",
+  "shortdescription" : "Emerald",
+  "learnBlueprintsOnPickup" : [ "emeraldpickaxe", "emeralddrill" ]
+}

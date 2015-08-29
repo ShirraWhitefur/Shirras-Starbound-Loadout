@@ -1,0 +1,36 @@
+{
+	"objectName" : "felincabinet2",
+	"tags" : [ "felin", "felinvillage", "storage" ],
+	"rarity" : "common",
+	"objectType" : "container",
+	"description" : "A sturdy wooden cabinet, felin design.",
+	"shortdescription" : "Tall Felin Cabinet",
+	"race" : "felin",
+	"category" : "storage",
+	"price" : 195,
+	"apexDescription" : "A large wooden storage cabinet. Useful.",
+	"avianDescription" : "Lots of space to store items.",
+	"floranDescription" : "Big ssstorage sspace.",
+	"glitchDescription" : "Content. A lot of storage space.",
+	"humanDescription" : "A large cabinet. I'm sure I have something I could store here.",
+	"hylotlDescription" : "Lots of storage space.",
+	"inventoryIcon" : "felincabinet2icon.png",
+	"retainObjectParametersInItem" : true,
+	"orientations" : [
+		{
+			"dualImage" : "felincabinet2.png:<color>",
+			"imagePosition" : [-16, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ],
+			"collision" : "platform"
+		}
+	],
+	"openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
+	"closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
+	"slotCount" : 60,
+	"uiConfig" : "/interface/chests/chest%slots%.config",
+	"frameCooldown" : 67,
+	"autoCloseCooldown" : 3600
+}

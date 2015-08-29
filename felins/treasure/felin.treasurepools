@@ -1,0 +1,148 @@
+{
+	"felinStarterTreasure" : [
+		[0, {
+			"fill" : [
+				{ "pool" : "starterTreasure" },
+				{ "item" : [ "felinstarter", 1 ] },
+				{ "item" : [ "pussplumseed", 3] }
+			]
+		} ]
+	],
+
+	"felinTallCabinetTreasure" : [
+		[ 0, {
+			"pool" : [
+				{ "weight" : 0.1, "item" : [ "kawa_hotpants", 1 ] },
+				{ "weight" : 0.1, "item" : [ "kawa_shorttop", 1 ] },
+				{ "weight" : 0.1, "item" : [ "kimonochest", 1 ] },
+				{ "weight" : 0.1, "item" : [ "kimonolegs", 1 ] },
+				{ "weight" : 0.1, "item" : [ "justajacket", 1 ] },
+				{ "weight" : 0.1, "item" : [ "kendolegs", 1 ] },
+				{ "weight" : 0.1, "item" : [ "twotoneshirt", 1 ] }
+			],
+			"poolRounds" : [
+				[0.2, 0],
+				[0.4, 4],
+				[0.2, 6],
+				[0.2, 8]
+			],
+			"allowDuplication" : true
+		} ]
+	],
+	"felinShortCabinetTreasure" : [
+		[ 0, {
+			"pool" : [
+				{ "weight" : 0.01, "item" : [ "legendofchelsieCodex", 1 ] },
+				{ "weight" : 0.01, "item" : [ "howtobeafelinCodex", 1 ] },
+				{ "weight" : 0.01, "item" : [ "felinheroesCodex", 1 ] },
+				{ "weight" : 0.01, "item" : [ "felinloveCodex", 1 ] },
+				{ "weight" : 0.01, "item" : [ "lenniedeathCodex", 1 ] }
+			],
+			"poolRounds" : [
+				[0.2, 0],
+				[0.4, 1],
+				[0.2, 2]
+			],
+			"allowDuplication" : false
+		} ]
+	],
+	"felinFridge" : [
+		[ 0, {
+			"pool" : [
+				{ "weight" : 0.15, "item" : [ "rawbacon", 2 ] },
+				{ "weight" : 0.15, "item" : [ "rawfish", 2 ] },
+				{ "weight" : 0.15, "item" : [ "rawham", 2 ] },
+				{ "weight" : 0.15, "item" : [ "rawtentacle", 2 ] },
+				{ "weight" : 0.15, "item" : [ "milk", 1 ] },
+				{ "weight" : 0.1, "item" : [ "tentachews", 1 ] },
+				{ "weight" : 0.1, "item" : [ "ricecake", 2 ] },
+				{ "weight" : 0.1, "item" : [ "sushi", 2 ] },
+				{ "weight" : 0.1, "item" : [ "egg", 1 ] },
+				{ "weight" : 0.1, "item" : [ "pussplum", 1 ] },
+				{ "weight" : 0.1, "item" : [ "hamburger", 1 ] },
+				{ "weight" : 0.1, "item" : [ "bread", 1 ] },
+				{ "weight" : 0.1, "item" : [ "cheese", 1 ] },
+				{ "weight" : 0.1, "item" : [ "meatballs", 1 ] }
+			],
+			"poolRounds" : [
+				[0.30, 2],
+				[0.45, 3],
+				[0.30, 4]
+			],
+			"allowDuplication" : false
+		} ]
+	],
+	"felinSuppliesCarTech" : [
+		[ 0, {
+			"fill" : [
+				//{ "item" : [ "catcorvette-chip", 1 ] }
+			],
+			"allowDuplication" : true
+		} ]
+	],
+	"felinTrashcan" : [
+		[ 0, {
+			"pool" : [
+				{ "weight" : 0.15, "item" : [ "perfectlygenericitem", 1 ] },
+				{ "weight" : 0.15, "item" : [ "revoltingstew", 1 ] },
+				{ "weight" : 0.15, "item" : [ "rottenapple", 1 ] },
+				{ "weight" : 0.15, "item" : [ "bone", 1 ] }
+			],
+			"poolRounds" : [
+				[0.2, 0],
+				[0.4, 4],
+				[0.2, 6]
+			],
+			"allowDuplication" : true
+		} ]
+	],
+	"felinGuardDrops" : [
+		[ 0, {
+			"pool" : [
+			        { "weight" : 0.6, "pool" : "money" },
+			        { "weight" : 0.2, "item" : [ "felintier1pistol", 1 ] }
+			],
+			"poolRounds" : [
+				[0.8, 1],
+				[0.2, 2]
+			]
+		} ]
+	],
+	"felinGuardCaptainDrops" : [
+		[ 0, {
+			"pool" : [
+			        { "weight" : 0.6, "pool" : "money" },
+			        { "weight" : 0.2, "item" : [ "felintier1rifle", 1 ] }
+			],
+			"poolRounds" : [
+				[0.8, 1],
+				[0.2, 2]
+			]
+		} ]
+	],
+	"felinRousDrops" : [
+		[ 0, {
+			"pool" : [
+				{ "weight" : 0.2, "item" : [ "rawfleshlump", 1 ] }
+			],
+			"poolRounds" : [
+				[0.2, 0],
+				[0.8, 1]
+
+			],
+			"allowDuplication" : true
+		} ]
+	],
+	"mystictreasure" : [
+		[ 0, {
+			"pool" : [
+			        { "weight" : 0.6, "pool" : "money" },
+			        { "weight" : 0.2, "item" : [ "felinmysticchest", 1 ] }
+			],
+			"poolRounds" : [
+				[0.8, 1],
+				[0.2, 2]
+			]
+		} ]
+	]
+}

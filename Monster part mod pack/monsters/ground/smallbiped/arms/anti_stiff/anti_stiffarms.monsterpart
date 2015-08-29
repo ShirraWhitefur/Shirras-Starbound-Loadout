@@ -1,0 +1,10 @@
+{
+  "name" : "anti_stiffarms",
+  "category" : "smallbiped",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "anti_stifffarm.png",
+    "backArm" : "anti_stiffbarm.png"
+  }
+}

@@ -1,0 +1,195 @@
+[
+  { 
+  "op" : "add", 
+  "path" : "/oceanFloorTreasure/0/1/pool/-",
+  "value" : {"weight" : 0.3, "item" : "coralcleaver"}
+  },
+  { 
+  "op" : "add", 
+  "path" : "/oceanFloorTreasure/0/1/pool/-",
+  "value" : {"weight" : 0.3, "item" : "heatcleaver"}
+  },
+  { 
+  "op" : "add", 
+  "path" : "/mushroomTreasure/0/1/pool/-",
+  "value" : {"weight" : 0.3, "item" : "smashroom"}
+  },
+  { 
+  "op" : "add", 
+  "path" : "/boneTreasure/0/1/pool/-",
+  "value" : {"weight" : 0.2, "item" : [ "generatedsword", 1, { "definition" : "bonehammer" } ]}
+  },
+  { 
+  "op" : "add", 
+  "path" : "/boneTreasure/0/1/pool/-",
+  "value" : {"weight" : 0.2, "item" : [ "generatedsword", 1, { "definition" : "boneaxe" } ]}
+  },
+  { 
+  "op" : "add", 
+  "path" : "/boneCaveTreasure/0/1/pool/-",
+  "value" : {"weight" : 0.2, "item" : [ "generatedsword", 1, { "definition" : "bonehammer" } ]}
+  },
+  { 
+  "op" : "add", 
+  "path" : "/boneCaveTreasure/0/1/pool/-",
+  "value" : {"weight" : 0.2, "item" : [ "generatedsword", 1, { "definition" : "boneaxe" } ]}
+  },
+  { 
+  "op" : "add", 
+  "path" : "/eyeTreasure/0/1/pool/-",
+  "value" : {"weight" : 0.3, "item" : [ "generatedsword", 1, { "definition" : "eyesword" } ]}
+  },
+  { 
+  "op" : "add", 
+  "path" : "/mushroomUndergroundTreasure/0/1/pool/-",
+  "value" : {"weight" : 0.3, "item" : "blighchen"}
+  },
+  { 
+  "op" : "add", 
+  "path" : "/mushroomUndergroundTreasure/0/1/pool/-",
+  "value" : {"weight" : 0.3, "item" : "mushroomsword"}
+  },
+  { 
+  "op" : "add", 
+  "path" : "/cellTreasure/0/1/pool/-",
+  "value" : {"weight" : 0.3, "item" : "chromosword"}
+  },
+  { 
+  "op" : "add", 
+  "path" : "/cellTreasure/0/1/pool/-",
+  "value" : {"weight" : 0.3, "item" : "cellshade"}
+  },
+  { 
+  "op" : "add", 
+  "path" : "/hiveChestTreasure",
+  "value" : 
+  [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "basicTreasure"},
+        {"weight" : 0.8, "pool" : "hiveTreasure"}
+      ],
+      "poolRounds" : [
+        [0.05, 1],
+        [0.40, 2],
+        [0.30, 3],
+        [0.15, 4],
+        [0.10, 5]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+  },
+  { 
+  "op" : "add", 
+  "path" : "/icesphereChestTreasure",
+  "value" : 
+  [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "basicTreasure"},
+        {"weight" : 0.8, "pool" : "icesphereTreasure"}
+      ],
+      "poolRounds" : [
+        [0.05, 1],
+        [0.40, 2],
+        [0.30, 3],
+        [0.15, 4],
+        [0.10, 5]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+  },
+  { 
+  "op" : "add", 
+  "path" : "/icesphereTreasure",
+  "value" : 
+  [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : ["iceblock", 50]},
+        {"weight" : 1.0, "item" : ["snowflake", 10]},
+        {"weight" : 1.0, "item" : ["icecrystal", 10]},
+        {"weight" : 0.3, "item" : "geometricbed-recipe"},
+        {"weight" : 0.3, "item" : "geometricchair-recipe"},
+        {"weight" : 0.3, "item" : "geometricchest-recipe"},
+        {"weight" : 0.3, "item" : "geometricscreen-recipe"},
+        {"weight" : 0.3, "item" : "geometrictable-recipe"},
+        {"weight" : 0.3, "item" : "snowglobe1"},
+        {"weight" : 0.3, "item" : "snowglobe2"},
+        {"weight" : 0.3, "item" : "frostspear"},
+        {"weight" : 0.3, "item" : [ "generatedshield", 1, { "definition" : "frostshield" } ]},
+        {"weight" : 0.3, "item" : "cyclopsyetihead"},
+        {"weight" : 0.3, "item" : "frostcrownhead"},
+        {"weight" : 0.2, "item" : ["snowflakeshuriken", 5]}
+      ]
+    }]
+  ]
+  },
+  { 
+  "op" : "add", 
+  "path" : "/heckChestTreasure",
+  "value" : 
+  [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "basicTreasure"},
+        {"weight" : 0.8, "pool" : "heckTreasure"}
+      ],
+      "poolRounds" : [
+        [0.05, 1],
+        [0.40, 2],
+        [0.30, 3],
+        [0.15, 4],
+        [0.10, 5]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+  },
+  { 
+  "op" : "add", 
+  "path" : "/heckTreasure",
+  "value" : 
+  [
+    [1, {
+      "pool" : [
+		{"weight" : 1.0, "item" : ["fleshstrand", 15]},
+		{"weight" : 0.5, "item" : ["bone", 15]},
+		{"weight" : 0.5, "item" : ["rawalienmeat", 5]},
+		{"weight" : 0.5, "item" : ["rawribmeat", 5]},
+        {"weight" : 0.3, "item" : "bonewingsback"},
+        {"weight" : 0.3, "item" : "goathead"},
+        {"weight" : 0.3, "item" : "alienskullhead"},
+        {"weight" : 0.3, "item" : [ "generatedgun", 1, { "definition" : "boneassault" } ]},
+        {"weight" : 0.3, "item" : [ "generatedgun", 1, { "definition" : "boneshotgun" } ]},
+        {"weight" : 0.3, "item" : [ "generatedgun", 1, { "definition" : "bonepistol" } ]},
+		{"weight" : 0.3, "item" : [ "generatedsword", 1, { "definition" : "bonesword" } ]},
+		{"weight" : 0.3, "item" : [ "generatedsword", 1, { "definition" : "boneaxe" } ]},
+		{"weight" : 0.3, "item" : [ "generatedsword", 1, { "definition" : "bonehammer" } ]},
+        {"weight" : 0.3, "item" : "gutterknife"},
+		{"weight" : 0.3, "item" : "splatterknife"}
+      ]
+    }]
+  ]
+  },
+  { 
+  "op" : "replace", 
+  "path" : "/hiveTreasure",
+  "value" : 
+  [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : [ "bugshell", 15]},
+		{"weight" : 0.5, "item" : [ "hivebomb", 5]},
+        {"weight" : 0.3, "item" : [ "generatedgun", 1, { "definition" : "stingergun" } ]},
+		{"weight" : 0.3, "item" : [ "thornyneedler", 15]},
+		{"weight" : 0.3, "item" : "terminite"},
+		{"weight" : 0.3, "item" : "xterminitor"}
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+  }
+]

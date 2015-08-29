@@ -1,0 +1,10 @@
+{
+  "name" : "anti_fiery",
+  "category" : "smallflying",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "anti_fierybwing.png",
+    "frontWings" : "anti_fieryfwing.png"
+  }
+}

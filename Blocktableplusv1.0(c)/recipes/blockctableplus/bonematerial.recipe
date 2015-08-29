@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "bone", "count" : 3 },
+	{ "item" : "darkwoodmaterial", "count" : 10 }
+  ],
+  "output" : { "item" : "bonematerial", "count" : 10 },
+  "groups" : [ "blocktableplus", "materials", "all", "ground" ]
+}

@@ -1,0 +1,16 @@
+  {
+  "id" : "blacksmith3.gearup",
+  "prerequisites" : [ "blacksmith2.gearup" ],
+  "title" : "^orange;Smite the Core",
+  "text" : "Excitement. I assume you want to visit me once you depart this lovely planet, yes? If you can grab me a teleporter core, I can get you a deal on a teleporter, so you can visit whenever you'd like!",
+  "completionText" : "Excitement. This is a fine teleporter, if I do say so myself. Now how about we get to some actual smith work?",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "teleportercore", "count" : 1, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "brassteleporter", 1 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

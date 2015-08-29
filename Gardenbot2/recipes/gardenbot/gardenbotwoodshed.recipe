@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 40 },
+    { "item" : "cobblestonematerial", "count" : 15 }
+  ],
+  "output" : {
+    "item" : "gardenbotwoodshed",
+    "count" : 1
+  },
+  "groups" : [ "mod", "craftingtable", "objects", "all" ]
+}

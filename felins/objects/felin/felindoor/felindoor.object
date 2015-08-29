@@ -1,0 +1,35 @@
+{
+	"objectName" : "felindoor",
+	"tags" : [ "felin", "felinvillage", "door" ],
+	"rarity" : "common",
+	"category" : "door",
+	"price" : 100,
+	"description" : "A decorated wooden door.",
+	"shortdescription" : "Paw Print Door",
+	"race" : "felin",
+	"apexDescription" : "This door has a hand-made quality to it.",
+	"avianDescription" : "They say no two pawprints are the same.",
+	"floranDescription" : "Floran not like smooth door like this.",
+	"glitchDescription" : "Observation. This has been sanded very thoroughly",
+	"humanDescription" : "A well-crafted door with a pawprint on.",
+	"hylotlDescription" : "The cats certainly know how to make things.",
+	"felinDescription" : "Let me in~",
+	"inventoryIcon" : "felindooricon.png",
+	"orientations" : [
+		{
+			"dualImage" : "felindoor.png:default",
+			"imagePosition" : [-16, 0],
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom", "top" ]
+		}
+	],
+	"scripts" : [ "/objects/wired/door/door.lua" ],
+	"scriptDelta" : 5,
+	"animation" : "/objects/wired/door/door.animation",
+	"animationParts" : { "door" : "felindoor.png" },
+	"animationPosition" : [-16, 0],
+	"inboundNodes" : [ [-1, 4] ],
+	"outboundNodes" : [ [1, 0] ],
+	"openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+	"closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}

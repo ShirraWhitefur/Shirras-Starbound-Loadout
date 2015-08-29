@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 2 }
+  ],
+  "output" : { "item" : "bookpiles", "count" : 1 },
+  "groups" : [ "blocktableplus", "materials", "all", "object" ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "anti_gigglebody",
+  "category" : "smallflying",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "anti_gigglebody.png"
+  }
+}

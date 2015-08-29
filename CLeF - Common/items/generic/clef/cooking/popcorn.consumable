@@ -1,0 +1,16 @@
+{
+  "itemName" : "popcorn",
+  "rarity" : "Common",
+  "inventoryIcon" : "popcorn.png",
+  "description" : "Freshly popped corn.",
+  "shortdescription" : "Popcorn",
+  "handPosition" : [8, 4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal145",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+  ]
+}

@@ -1,0 +1,13 @@
+  {
+  "id" : "miningquest1.gearup",
+  "title" : "^orange;Mining Around",
+  "text" : "Hey stranger! Hope all is going well! The outpost sent out a team of miners to different garden planets, hoping to start up a mining operation some where. You look quite capable at mining, so how about we forget the outpost's deal, and the two of us will work it out?",
+  "completionText" : "Just the answer I was looking for! I'd say the first priority would be to go into my expertly crafted mine shaft, and take out all the enemies inside. Then we'll talk mining business.",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

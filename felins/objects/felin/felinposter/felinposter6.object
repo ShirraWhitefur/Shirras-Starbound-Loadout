@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinposter6",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 75,
+	"shortdescription" : "Felin Model Poster",
+	"description" : "A nice pinup poster of a felin model.",
+	"race" : "felin",
+	"apexDescription" : "Put this cat and the gray one together and we can topple Big Ape.",
+	"avianDescription" : "I'm not sure if this is supposed to look sexy or threatening.",
+	"floranDescription" : "Floran approves of thisss one.",
+	"glitchDescription" : "Suspicious. A felin without clothes is always dangerous.",
+	"humanDescription" : "Beware cats without clothes.",
+	"hylotlDescription" : "Believe it or not, she is armed.",
+	"felinDescription" : "Jalmine the Assassin.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinposter24.png:1",
+			"imagePosition" : [-12, -16],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

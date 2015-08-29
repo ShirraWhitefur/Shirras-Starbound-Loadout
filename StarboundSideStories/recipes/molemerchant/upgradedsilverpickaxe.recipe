@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silverore", "count" : 25 },
+	{ "item" : "money", "count" : 2500 }
+  ],
+  "output" : { "item" : "upgradedsilverpickaxe", "count" : 1 },
+  "groups" : [ "molemerchant1" ]
+}

@@ -1,0 +1,35 @@
+{
+  "objectName" : "altarbunny",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+  "description" : "A stone bunny sits on top of this altar.",
+  "shortdescription" : "Bunny Altar",
+  "race" : "avian",
+
+  "apexDescription" : "A rabbit? Why have the Avians crafted a rabbit?",
+  "avianDescription" : "The rabbit symbolises beasts of the soil. This altar is a warning to tomb raiders from other races.",
+  "floranDescription" : "Tassty golden morsel. Why are eyes so red?",
+  "glitchDescription" : "Investigate. Solid gold with rubies for eyes.",
+  "humanDescription" : "Is that a rabbit?",
+  "hylotlDescription" : "It is disarming to see creatures with Hylotl eyes.",
+  
+  "offeredQuests" : [ "altarbunny1.gearup", "altarbunny2.gearup", "altarbunny3.gearup", "altarbunny4.gearup", "altarbunny5.gearup" ],
+	"turnInQuests" : [ "altarbunny1.gearup", "altarbunny2.gearup", "altarbunny3.gearup", "altarbunny4.gearup", "altarbunny5.gearup" ],
+
+  "inventoryIcon" : "altarbunnyicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "altarbunnyleft.png:default",
+      "rightImage" : "altarbunnyright.png:default",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

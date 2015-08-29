@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidhoney",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidhoneyicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Pure Honey",
+  "description" : "A measure of sweet, sweet honey.",
+
+  "liquid" : "honey"
+}

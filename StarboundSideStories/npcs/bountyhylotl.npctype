@@ -1,0 +1,22 @@
+{
+  "type" : "bountyhylotl",
+  "baseType" : "hostile",
+
+  "levelVariance" : [-0.5, -0.5],
+
+  "dropPools" : [ "sidestorybounties" ],
+  
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "kimonochest" } ],
+			"legs" : [ { "name" : "kimonolegs" } ],
+            "primary" : [
+              { "name" : "generatedsword", "parameters" : { "definition" : "watersword" } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

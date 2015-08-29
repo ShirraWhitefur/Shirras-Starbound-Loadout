@@ -1,0 +1,15 @@
+{
+  "id" : "crewgenekongmission.gearup",
+  "title" : "^green;Trusty Teleportation!",
+  "text" : "...a location of an Apex named Geny Petraft, a tech specialist...",
+  "completionText" : "Ah! You must be the captain of the ship I was asked to join. As you can see I'm quite happy here, my house is lovely and allows for some great experiments. Anyways, thank you for the core, would you like to be the first one to test it out with me? I currently have it set for ten hours, shouldn't be too bad. Just jump into the teleporter and we'll test it out!",
+  "completionConditions" : [
+ 
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [ ],
+  "canBeAbandoned" : false,
+  "associatedMission" : "crewgenekong",
+  "requireTurnIn" : true
+}
+ 

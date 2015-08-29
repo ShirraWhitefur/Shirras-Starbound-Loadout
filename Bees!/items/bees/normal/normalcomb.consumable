@@ -1,0 +1,22 @@
+{
+  "itemName" : "normalcomb",
+  "rarity" : "Common",
+  "inventoryIcon" : "normalcomb.png",
+  "description" : "A delicious honey comb! Eat it!",
+  "shortdescription" : "Honeycomb",
+  "handPosition" : [0.0, 0]
+,
+ 
+  "effects" : [ [
+    {
+        "effect" : "items/honeyheal1",
+        "duration" :60  },
+    {
+        "effect" : "fedhoney",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+     "fedhoney"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 5 },
+	{ "item" : "oculemon", "count" : 1 }
+  ],
+  "output" : { "item" : "eyepiles", "count" : 5 },
+  "groups" : [ "blocktableplus", "materials", "all", "other" ]
+}

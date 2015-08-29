@@ -1,0 +1,10 @@
+{
+  "name" : "arms",
+  "category" : "gardenbotv86g",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "farm.png",
+    "backArm" : "barm.png"
+  }
+}

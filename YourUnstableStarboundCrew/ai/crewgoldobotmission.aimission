@@ -1,0 +1,85 @@
+{
+  "missionName" : "crewgoldobot",
+  "icon" : "crewgoldobot.png",
+  "missionWorld" : "crewgoldobot",
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "The Overgrown Castle",
+      "repeatButtonText" : "Repeat The Overgrown Castle",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "These coordinates will take you to Ironslip the Glitch's current shack. There appears to be a ruined Glitch castle built on a volcano near the spawn point as well. Speciality: Cooking and farming. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "The Overgrown Castle",
+      "repeatButtonText" : "Repeat The Overgrown Castle",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "These coordinates will take you to Ironslip the Glitch's current shack. There appears to be a ruined Glitch castle built on a volcano near the spawn point as well. Speciality: Cooking and farming. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "The Overgrown Castle",
+      "repeatButtonText" : "Repeat The Overgrown Castle",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "These coordinates will take you to Ironslip the Glitch's current shack. There appears to be a ruined Glitch castle built on a volcano near the spawn point as well. Speciality: Cooking and farming. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "The Overgrown Castle",
+      "repeatButtonText" : "Repeat The Overgrown Castle",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "These coordinates will take you to Ironslip the Glitch's current shack. There appears to be a ruined Glitch castle built on a volcano near the spawn point as well. Speciality: Cooking and farming. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "The Overgrown Castle",
+      "repeatButtonText" : "Repeat The Overgrown Castle",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "These coordinates will take you to Ironslip the Glitch's current shack. There appears to be a ruined Glitch castle built on a volcano near the spawn point as well. Speciality: Cooking and farming. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "The Overgrown Castle",
+      "repeatButtonText" : "Repeat The Overgrown Castle",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "These coordinates will take you to Ironslip the Glitch's current shack. There appears to be a ruined Glitch castle built on a volcano near the spawn point as well. Speciality: Cooking and farming. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "The Overgrown Castle",
+      "repeatButtonText" : "Repeat The Overgrown Castle",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "These coordinates will take you to Ironslip the Glitch's current shack. There appears to be a ruined Glitch castle built on a volcano near the spawn point as well. Speciality: Cooking and farming. Threat level: Moderate.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

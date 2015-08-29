@@ -1,0 +1,63 @@
+{
+  "objectName" : "explorecapsule",
+  "rarity" : "legendary",
+  "category" : "pot",
+  "price" : 200,
+  "lightColor" : [119, 16, 195],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 4,
+
+  "description" : "Wonder what's inside.",
+  "shortdescription" : "Surprise Capsule",
+  "race" : "apex",
+
+  "apexDescription" : "A capsule. These often contain supplies.",
+  "avianDescription" : "A capsule. Something is inside, I wonder what it is...",
+  "floranDescription" : "Sssmash it open! Get the goodiess insside!",
+  "glitchDescription" : "Destructive. Engage smashing.",
+  "humanDescription" : "I think there's something in there. I can probably break it open.",
+  "hylotlDescription" : "Sometimes force can yield rewards.",
+
+    "particleEmitter" : {
+    "emissionRate" : 0.2,
+    "emissionVariance" : 0,
+    "pixelOrigin" : [0, 0],
+
+    "particle" : {
+      "type" : "ember",
+      "size" : 1.0,
+      "color" : [255, 255, 255, 200],
+      "destructionAction" : "shrink",
+      "destructionTime" : 7,
+      "initialVelocity" : [-0.1, -0.1],
+      "finalVelocity" : [-0.1, -0.1],
+      "approach" : [0.65, 0.65],
+      "timeToLive" : 10,
+      "light" : [10, 10, 10],
+      "layer" : "back"
+    },
+    "particleVariance" : {
+      "initialVelocity" : [1.0, 1.0],
+      "finalVelocity" : [1.0, 1.0],
+      "position" : [20, 20]
+    }
+  },
+  
+  "inventoryIcon" : "capsulebigicon.png",
+  "orientations" : [
+    {
+      "image" : "explorecapsule.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropPool" : "explorecapsule", 
+  "breakDropPool" : "explorecapsule"
+}

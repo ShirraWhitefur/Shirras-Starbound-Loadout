@@ -1,0 +1,10 @@
+{
+	"frameGrid" : {
+		"size" : [16, 16],
+		"dimensions" : [5, 2],
+		"names" : [
+			[ "chelsie", "lettie", "laenathin", "jalmine", "tentacle" ],
+			[ "chelsie.icon", "lettie.icon", "laenathin.icon", "jalmine.icon", "tentacle.icon" ]
+		]
+	}
+}

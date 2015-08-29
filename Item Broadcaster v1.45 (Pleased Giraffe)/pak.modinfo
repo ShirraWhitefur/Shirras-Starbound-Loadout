@@ -1,0 +1,10 @@
+{
+    "name": "Item Broadcaster v1.45 (Pleased Giraffe)",
+    "version": "Beta v. Pleased Giraffe",
+    "path": ".",
+	"dependencies" : [],
+	"metadata" : {
+	  "author" : "Peasly Wellbott",
+	  "description" : "Craft the Broadcast Beacon and Reception Beacon at the wiring bench. Use them to quickly and conveniently auto-sort items into containers. Craft the Hyper-storage Beacon to link up multiple chests to share a sngle, planet-wide inventory."
+	  }
+}

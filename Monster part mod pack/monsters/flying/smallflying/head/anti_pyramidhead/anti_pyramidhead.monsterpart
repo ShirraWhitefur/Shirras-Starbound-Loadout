@@ -1,0 +1,9 @@
+{
+  "name" : "anti_pyramidhead",
+  "category" : "smallflying",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_pyramidhead.png"
+  }
+}

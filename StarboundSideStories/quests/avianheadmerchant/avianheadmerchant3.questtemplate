@@ -1,0 +1,16 @@
+  {
+  "id" : "avianheadmerchant3.gearup",
+  "prerequisites" : [ "avianheadmerchant2.gearup" ],
+  "title" : "^orange;Merchant Glory 2",
+  "text" : "This order came in from an Avian. They want one of those golden duckies found in Avian villages. If you can find it I'll pay double its value!",
+  "completionText" : "Dang, you're good. The Avian will be incredibly happy with his purchase thanks to you.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "goldenducky", "count" : 1, "consume" : true }
+  ],
+  "moneyRange" : [600, 700],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

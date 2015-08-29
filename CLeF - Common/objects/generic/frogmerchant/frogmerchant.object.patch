@@ -1,0 +1,4 @@
+[
+  { "op" : "add", "path" : "/novakidDescription", "value" : "Shoot! Looks like this big guy knows how to dress up with style." },
+  { "op" : "replace", "path" : "/unbreakable", "value" : false }
+]

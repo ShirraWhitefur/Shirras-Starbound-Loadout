@@ -1,0 +1,32 @@
+[
+	{
+		"op": "add",
+		"path": "/attack/felin",
+		"value": {
+			"default": [
+				"Run, coward!",
+				"ROOOAAAAWWWR!",
+				"Move move move!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/killedTarget/felin",
+		"value": {
+			"default": [
+				"<Irheaw oen.>",
+				"<Nevla ra urtha.>"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/lostTarget/felin",
+		"value": {
+			"default": [
+				"Lost the prey. Such a shame."
+			]
+		}
+	}
+]

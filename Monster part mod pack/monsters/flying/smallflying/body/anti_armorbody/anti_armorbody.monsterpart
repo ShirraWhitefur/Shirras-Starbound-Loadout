@@ -1,0 +1,9 @@
+{
+  "name" : "anti_armorbody",
+  "category" : "smallflying",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "anti_armorbody.png"
+  }
+}

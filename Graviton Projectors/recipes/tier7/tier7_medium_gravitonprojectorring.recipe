@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ceruliumcompound", "count" : 4 },
+    { "item" : "circuitboard", "count" : 1 },
+    { "item" : "gravitonmagnifier", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "tier7_medium_gravitonprojectorring",
+    "count" : 1
+  },
+  "groups" : [ "gravitoncraftingtable", "wire", "size m", "cerulium",  "objects", "all" ]
+}

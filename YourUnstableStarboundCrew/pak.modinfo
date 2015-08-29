@@ -1,0 +1,14 @@
+{
+  "name" : "Your Starbound Crew",
+  "version" : "Upbeat Giraffe 20141218",
+  "path" : ".",
+  "requires" : [],
+  "includes" : [],
+  "metadata":
+    {
+      "author" : "Luminaesthesia",
+	  "version" : "5.0",
+      "description" : "Adds a crew for your ship.",
+      "support_url" : ""
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"itemName" : "felinplate",
+	"rarity" : "common",
+	"inventoryIcon" : "felinplate.png",
+	"description" : "A wooden plate. The kind you'd eat from.",
+	"shortdescription" : "Wooden plate",
+	"learnBlueprintsOnPickup" : [
+		"applepieplatter", "baconplatter", "carrotcakeplatter",
+		"hamplatter", "meatplatter", "poultryplatter",
+		"pussplumpieplatter", "ribplatter", "tentacleplatter", 
+		"plateofplates"
+	]
+}

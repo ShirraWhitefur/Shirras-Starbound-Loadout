@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "crewlovejones",
+    "species" : "avian",
+    "rules" : [
+    ],
+    "anchor" : [ "crewlovejones" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "crewlovejones",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "crewlovejones2.json" ]
+    }
+  ]
+}

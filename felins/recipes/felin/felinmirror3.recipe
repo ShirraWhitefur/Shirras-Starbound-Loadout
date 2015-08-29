@@ -1,0 +1,8 @@
+{
+	"input" : [
+		{ "item" : "darkwoodmaterial", "count" : 1 },
+		{ "item" : "glassmaterial", "count" : 2 }
+	],
+	"output" : { "item" : "felinmirror3", "count" : 1 },
+	"groups" : [ "craftingtable", "objects", "all" ]
+}

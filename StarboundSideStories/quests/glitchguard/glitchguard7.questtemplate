@@ -1,0 +1,16 @@
+  {
+  "id" : "glitchguard7.gearup",
+  "prerequisites" : [ "glitchguard6.gearup" ],
+  "title" : "^orange;Glitchy Teleporters",
+  "text" : "Wondering. Have you seen one of those mystical teleporter cores? If you bring one to me, I'll take it to our most intelligent villager to see what she can do with it.",
+  "completionText" : "Happy. She said that the core was perfect, and gave me a teleporter to give you. Place it any where in the village, or maybe make its own room.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "teleportercore", "count" : 1, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "stoneteleporter", 1 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

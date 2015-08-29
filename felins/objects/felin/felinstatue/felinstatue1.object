@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinstatue1",
+	"tags" : [ "felin", "felinvillage", "pretty", "valuable" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 100,
+	"description" : "It's a statue of Chelsie, a famed felin warrior.",
+	"shortdescription" : "Hunter Statue",
+	"race" : "felin",
+	"apexDescription" : "Why do famous felin have this tendency to be naked?",
+	"avianDescription" : "At least she's wearing a jacket.",
+	"floranDescription" : "Ssssilly famous cat with big fatty sssacks.",
+	"glitchDescription" : "Intrigued. Cultural proclivity to flaunting.",
+	"humanDescription" : "This 'Chelsie' must be a pretty important figure to the cats.",
+	"hylotlDescription" : "I wonder what would happen if you gave an activist some spraypaint.",
+	"felinDescription" : "We could all learn from this lady. And some others.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"dualImage" : "felinstatue1.png",
+			"imagePosition" : [-16, 0],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	]
+}

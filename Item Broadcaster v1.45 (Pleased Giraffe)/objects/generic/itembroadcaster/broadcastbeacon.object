@@ -1,0 +1,36 @@
+{
+  "objectName" : "broadcastbeacon",
+  "rarity" : "Common",
+  "description" : "Outgoing waypoint for the Item Broadcast network.",
+  "shortdescription" : "Broadcasting Beacon",
+  "race" : "generic",
+  "printable" : false,
+
+  "category" : "wire",
+  "price" : 1000,
+
+  "inventoryIcon" : "broadcastbeacon.png:off",
+  "orientations" : [
+    {
+      "image" : "broadcastbeaconrange.png",
+      "imagePosition" : [0,-80 ],
+	  "spaces" : [[0,0]],
+      "anchors" : [ "background" ],
+	  "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/generic/itembroadcaster/broadcastbeacon.lua" ],
+  "scriptDelta" : 10,
+  "animation" : "/objects/generic/itembroadcaster/broadcastbeacon.animation",
+
+  "animationParts" : {
+    "beacon" : "broadcastbeacon.png",
+	"pulsebeacon" : "broadcastbeaconrange.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "interval" : 10
+}

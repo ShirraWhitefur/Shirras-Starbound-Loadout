@@ -1,0 +1,14 @@
+{
+	"itemName" : "tentachews",
+	"rarity" : "common",
+	"price" : 80,
+	"inventoryIcon" : "tentachews.png",
+	"description" : "TentaChews (TM). Lightly toasted bits of tentacle in cream.",
+	"shortdescription" : "TentaChews (TM)",
+	"handPosition" : [4, -2],
+	"effects" : [ [
+		{ "effect" : "foodheal95", "duration" : 120 },
+		{ "effect" : "wellfed", "duration" : 180 }
+	] ],
+	"blockingEffects" : [ "wellfed" ]
+}

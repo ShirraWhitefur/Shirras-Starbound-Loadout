@@ -1,0 +1,4 @@
+[
+  { "op" : "add", "path" : "/undergroundPlaceables/items/1/objectSets/0/pool/-", "value" : [0.05, "emeraldrocksmall" ] },
+  { "op" : "add", "path" : "/undergroundPlaceables/items/1/objectSets/0/pool/-", "value" : [0.02, "emeraldrock" ] }
+]

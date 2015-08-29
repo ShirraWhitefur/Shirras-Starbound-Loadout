@@ -1,0 +1,26 @@
+{
+  "name": "bonetenant",
+  "priority": 2,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "bone": 4
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "avian",
+      "type": "eccentricbiomebaddy",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [600.0, 1200.0],
+    "pool": "subbiomeGift"
+  }
+}

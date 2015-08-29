@@ -1,0 +1,22 @@
+{
+  "itemName" : "peanutbeans",
+  "rarity" : "Common",
+  "price" : 120,
+  "inventoryIcon" : "peanutbeans.png",
+  "description" : "Oh, look, a peanuts!",
+  "shortdescription" : "Peanuts",
+  "effects" : [ [
+    {
+        "effect" : "energyregen96",
+        "duration" : 120
+    }
+//    {
+//        "effect" : "wellfed",
+//        "duration" : 180
+//    }
+  ] ],
+  "blockingEffects" : [
+//    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "peanutbuttercan" ]
+}

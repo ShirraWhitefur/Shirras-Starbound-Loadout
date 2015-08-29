@@ -1,0 +1,85 @@
+{
+  "missionName" : "crewpenguin",
+  "icon" : "crewpenguin.png",
+  "missionWorld" : "crewpenguin",
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Snowglobe Factory XK2",
+      "repeatButtonText" : "Repeat Snowglobe Factory XK2",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The coordinates on your snow globe point to a toxic world that was once full of snow. These will take you to a penguin production facility.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Snowglobe Factory XK2",
+      "repeatButtonText" : "Repeat Snowglobe Factory XK2",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The coordinates on your snow globe point to a toxic world that was once full of snow. These will take you to a penguin production facility.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Snowglobe Factory XK2",
+      "repeatButtonText" : "Repeat Snowglobe Factory XK2",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The coordinates on your snow globe point to a toxic world that was once full of snow. These will take you to a penguin production facility.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Snowglobe Factory XK2",
+      "repeatButtonText" : "Repeat Snowglobe Factory XK2",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The coordinates on your snow globe point to a toxic world that was once full of snow. These will take you to a penguin production facility.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Snowglobe Factory XK2",
+      "repeatButtonText" : "Repeat Snowglobe Factory XK2",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+		  "text" : "The coordinates on your snow globe point to a toxic world that was once full of snow. These will take you to a penguin production facility.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Snowglobe Factory XK2",
+      "repeatButtonText" : "Repeat Snowglobe Factory XK2",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The coordinates on your snow globe point to a toxic world that was once full of snow. These will take you to a penguin production facility.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Snowglobe Factory XK2",
+      "repeatButtonText" : "Repeat Snowglobe Factory XK2",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The coordinates on your snow globe point to a toxic world that was once full of snow. These will take you to a penguin production facility.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

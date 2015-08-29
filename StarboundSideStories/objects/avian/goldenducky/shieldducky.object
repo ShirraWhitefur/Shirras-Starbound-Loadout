@@ -1,0 +1,34 @@
+{
+  "objectName" : "shieldducky",
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 150,
+  "description" : "How did you get this?!",
+  "shortdescription" : "Golden SHIELD Ducky",
+  "race" : "avian",
+
+  "apexDescription" : "A little golden duck.",
+  "avianDescription" : "These are very valuable.",
+  "floranDescription" : "Tassty little ducky.",
+  "glitchDescription" : "Cute. It's adorable.",
+  "humanDescription" : "An adorable little duck.",
+  "hylotlDescription" : "Birds like this swim on the surface of lakes and streams.",
+
+  "inventoryIcon" : "goldenduckyicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "goldenducky.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "scripts" : [ "/objects/wired/shieldgenerator/shieldgenerator.lua" ],
+  "scriptDelta" : 5
+}

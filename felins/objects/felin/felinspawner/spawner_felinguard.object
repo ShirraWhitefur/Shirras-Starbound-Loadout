@@ -1,0 +1,44 @@
+{
+	"objectName" : "spawnerfelinguard",
+	"tags" : [ "misc" ],
+	"rarity" : "common",
+	"description" : "Spawn your very own guard!",
+	"shortdescription" : "Felin Guard Spawner",
+	"race" : "felin",
+	"category" : "spawner",
+	"printable" : false,
+	"price" : 100,
+	"apexDescription" : "I could do with some extra protection from the Miniknog.",
+	"avianDescription" : "With a guard, Kluex wouldn't dare touch me.",
+	"floranDescription" : "Floran can guard ssself! But more guard not hurt.",
+	"glitchDescription" : "Content. There is strength in numbers.",
+	"humanDescription" : "I've always wanted an entourage.",
+	"hylotlDescription" : "Guards could help me spread peace.",
+	"felinDescription" : "Get a posse!",
+	"inventoryIcon" : "spawner_felinicon.png",
+	"orientations" : [
+		{
+			"image" : "spawner_felinguard.png",
+			"imagePosition" : [-8, -8],
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+	"scriptDelta" : 1,
+	"animation" : "spawner_felin.animation",
+	"animationParts" : { "switch" : "spawner_felinguard.png" },
+	"animationPosition" : [-8, -8],
+	"inboundNodes" : [ ],
+	"outboundNodes" : [ ],
+	"spawner" : {
+		"searchRadius" : 32.0,
+		"npcSpeciesOptions" : [ "felin" ],
+		"npcTypeOptions" : [ "friendlyguard" ],
+		"npcParameterOptions" : [
+			{
+				"dropPools" : [ ]
+			}
+		]
+	}
+}

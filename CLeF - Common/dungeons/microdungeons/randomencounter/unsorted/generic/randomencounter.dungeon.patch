@@ -1,0 +1,4 @@
+[
+  { "op" : "add", "path" : "/tiles/87/brush/1/2/parameters", "value" : { "treasurePools" : [ "waterCoolerTreasure" ] } },
+  { "op" : "add", "path" : "/tiles/88/brush/1/2/parameters", "value" : { "treasurePools" : [ "waterCoolerTreasure" ] } }
+]

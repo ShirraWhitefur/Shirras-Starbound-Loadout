@@ -1,0 +1,17 @@
+{
+  "id" : "crewdivewingsmission2.gearup",
+  "prerequisites" : [ "crewdivewingsmission.gearup" ], 
+  "title" : "^green;Ancient Ruins in the Ice II",
+  "text" : "From what I can tell, at least one of the rooms I entered required me to eliminate the enemies within the area, just as a heads up. Also, I'm going to continue looking around up here, if you want me on your crew just take the artifact inside and pop it on your ship after talking to your first mate. See you on your ship!",
+  "completionText" : "Great job captain! When you place that artifact in your ship you'll call upon Moonfinder Maneca to whatever room you put it in.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "crewdivewingsconsole", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "colonydeed", 1] ]
+   ],
+  "canBeAbandoned" : false,
+  "requireTurnIn" : true
+}
+ 

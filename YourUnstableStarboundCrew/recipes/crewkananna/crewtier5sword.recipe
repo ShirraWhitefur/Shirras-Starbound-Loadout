@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 15 },
+    { "item" : "crewtier4broadsword", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "crewtier5broadsword",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

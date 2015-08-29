@@ -1,0 +1,8 @@
+[
+  { "op" : "replace", "path" : "/description", "value" : "A golden drill! Money well spent indeed!" },
+  { "op" : "replace", "path" : "/durability", "value" : 4000 },
+  { "op" : "replace", "path" : "/blockRadius", "value" : 3},
+  { "op" : "replace", "path" : "/tileDamage", "value" : 3.3},
+  { "op" : "add", "path" : "/canBeRepaired", "value" : true},
+  { "op" : "add", "path" : "/durabilityRegenChart", "value" : [ [ "goldore", 750 ], [ "goldbar", 1500 ] ] }
+]

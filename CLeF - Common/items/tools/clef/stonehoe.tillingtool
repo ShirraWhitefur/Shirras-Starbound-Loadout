@@ -1,0 +1,19 @@
+{
+  "itemName" : "stonehoe",
+  "inventoryIcon" : "stonehoeicon.png",
+  "pickupQuestTemplates" : [ "hoe.gearup" ],
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A stone hoe, useful for farming.",
+  "shortdescription" : "^orange;Stone Hoe^white;",
+  "tooltipKind" : "tool",
+  "largeImage" : "stonehoebig.png",
+  "image" : "stonehoe.png",
+  "handPosition" : [-4, -4],
+  "fireTime" : 0.50,
+  "blockRadius" : 3,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.wav" ]
+}

@@ -1,0 +1,40 @@
+{
+	"itemName" : "twotoneshirt",
+	"inventoryIcon" : "icons.png:chest",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "common",
+	"description" : "An ordinary short sleeved top in two colors.",
+	"shortdescription" : "Two Toned Top",
+	"tooltipKind" : "armor",
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	"femaleFrames" : {
+		"body" : "chestf.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	"statusEffects" : [
+		{ "stat" : "powerMultiplier", "basePercentage" : 0.35 },
+		{ "stat" : "protection", "amount" : 2 },
+		{ "stat" : "maxEnergy", "amount" : 10 },
+		{ "stat" : "maxHealth", "amount" : 3 }
+	],
+	"colorOptions" : [
+		{ "727272":"ffffff", "414141":"c0c0c0", "1c1c1c":"808080", "e0975c":"555555", "a85636":"383838", "6f2919":"151515" }, //black sleeves
+		{ "727272":"ffffff", "414141":"c0c0c0", "1c1c1c":"808080", "e0975c":"808080", "a85636":"555555", "6f2919":"303030" }, //gray sleeves
+		{ "727272":"808080", "414141":"555555", "1c1c1c":"303030", "e0975c":"555555", "a85636":"383838", "6f2919":"151515" }, //gray chest
+		{ "727272":"ffffff", "414141":"c0c0c0", "1c1c1c":"808080", "e0975c":"555555", "a85636":"383838", "6f2919":"151515" }, //black sleeves
+		{ "727272":"ffffff", "414141":"c0c0c0", "1c1c1c":"808080", "e0975c":"d93a3a", "a85636":"932625", "6f2919":"601119" }, //red sleeves
+		{ "727272":"ffffff", "414141":"c0c0c0", "1c1c1c":"808080", "e0975c":"ea9931", "a85636":"af4e00", "6f2919":"6e2900" }, //orange sleeves
+		{ "727272":"ffffff", "414141":"c0c0c0", "1c1c1c":"808080", "e0975c":"e2c344", "a85636":"a46e06", "6f2919":"642f00" }, //yellow sleeves
+		{ "727272":"ffffff", "414141":"c0c0c0", "1c1c1c":"808080", "e0975c":"51bd3b", "a85636":"247824", "6f2919":"144216" }, //green sleeves
+		{ "727272":"ffffff", "414141":"c0c0c0", "1c1c1c":"808080", "e0975c":"5588d4", "a85636":"344495", "6f2919":"1a1c51" }, //blue sleeves
+		{ "727272":"a451c4", "414141":"6a2284", "1c1c1c":"320c40", "e0975c":"555555", "a85636":"383838", "6f2919":"151515" }, //purple chest
+		{ "727272":"d35eae", "414141":"97276d", "1c1c1c":"59163f", "e0975c":"555555", "a85636":"383838", "6f2919":"151515" }, //pink chest
+		{ "727272":"a47844", "414141":"754c23", "1c1c1c":"472b13", "e0975c":"555555", "a85636":"383838", "6f2919":"151515" }	//brown chest
+	]
+}

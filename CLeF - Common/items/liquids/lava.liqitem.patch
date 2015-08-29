@@ -1,0 +1,4 @@
+[
+  { "op" : "add", "path" : "/fuelAmount", "value" : 1 },
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup", "value" : [ "corefragmentore" ] }
+]

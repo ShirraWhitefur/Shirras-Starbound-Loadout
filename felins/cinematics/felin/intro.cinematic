@@ -1,0 +1,16 @@
+{
+	"panels" : [
+		{
+			"drawables" : [ { "image" : "/cinematics/black.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 1,
+					"position" : [480, 270],
+					"timecode" : 0,
+					"zoom" : 500
+				}
+			]
+		}
+	],
+	"audio" : []
+}

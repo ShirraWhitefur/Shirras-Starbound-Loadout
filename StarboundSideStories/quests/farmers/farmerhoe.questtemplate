@@ -1,0 +1,13 @@
+  {
+  "id" : "farmerhoe.gearup",
+  "title" : "^orange;Hoe of the Kluex",
+  "text" : "Praise Kluex, a stranger! Welcome to my farm, my name is Itzatli. Why did I build a farm in the tundra, you ask? To prove that even in these harsh conditions, Kluex will bless this farm to grow every species in the universe. Do you have a hoe?",
+  "completionText" : "By Kluex, you do! Just as my dream predicted. Together you and I must build up the ultimate farm! Under Kluex's protection, you will fly to the planets of the universe and bring back seeds to help build up the greatest farm under Kluex's mighty wings!",
+  "completionConditions" : [ { "type" : "gather", "item" :  "hoe", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [100, 200],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

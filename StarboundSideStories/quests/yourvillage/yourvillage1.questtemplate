@@ -1,0 +1,15 @@
+  {
+  "id" : "yourvillage1.gearup",
+  "title" : "^orange;Empty Colony",
+  "text" : "You find a note on a desk...it seems to be from a past explorer who tried to build up a village here. Apparently he ran out when his wife found out what he was doing with all their pixels. Well, little concern to me, looks like I could take over the job of being mayor of this village if I wanted to!",
+  "completionText" : "He also passed along three colony deeds, what I need to start getting some renters to appear in my new houses. The post script also states that the lava lamp beneath the desk, along with some wooden furniture, should attract a good starting tenant.",
+  "completionConditions" : [
+
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "colonydeed", 3 ], [  "tenantlavalamp", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

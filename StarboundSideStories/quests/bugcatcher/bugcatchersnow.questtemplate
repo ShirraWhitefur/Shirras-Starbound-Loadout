@@ -1,0 +1,18 @@
+  {
+  "id" : "bugcatchersnow.gearup",
+  "prerequisites" : [ "bugcatchersavannah.gearup" ],
+  "title" : "^orange;Bugs in the Snowy Plains",
+  "text" : "Our next assignment ssshall be finding some bugs on sssnowy planets. I believe there's the frostfly, the icetip,and the frostfleck on these planets.",
+  "completionText" : "Great job! ",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "frostfly", "count" : 1, "consume" : false }, 
+	{ "type" : "gather", "item" : "icetip", "count" : 1, "consume" : false }, 
+	{ "type" : "gather", "item" : "frostfleck", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [400, 500],
+  "rewards" : [
+      [ [  "silverbugnet", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

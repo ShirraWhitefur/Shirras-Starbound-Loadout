@@ -1,0 +1,49 @@
+{
+  "type" : "crewlovejones",
+  "baseType" : "crewmerchant",
+  
+  "damageTeam" : 1, 
+  "levelVariance" : [-0.5, -0.5],
+
+  "disableWornArmor" : true,
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "offeredQuests" : [ "crewlovejonesmission.gearup" ],
+    "turnInQuests" : [ "yourstarboundcrewstart.gearup", "crewlovejonesmission.gearup", "crewdivewingsmission2.gearup" ],
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 8,
+      "categories" : {
+        "default" : ["crewlovejonesshop" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 20,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  First Mate Taylor Hart",
+          "subtitle" : "  Helping you explore the galaxy!"
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "trackerchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "trackerpants", "parameters" : { "colorIndex" : 1 } }
+            ]
+          }
+      ]]
+    ]
+  }
+}

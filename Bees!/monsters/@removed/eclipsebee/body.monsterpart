@@ -1,0 +1,9 @@
+{
+  "name" : "eclipsebee",
+  "category" : "eclipsebee",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "eclipsebee.png"
+  }
+}

@@ -1,0 +1,139 @@
+{
+	"animatedParts" : {
+		"stateTypes" : {
+			"movement" : {
+				"default" : "idle",
+				"states" : {
+					"idle" : {
+						"properties" : {
+							"particleEmittersOff" : [ "exhaustSparks" ]
+						}
+					},
+					"jump" : {
+						"frames" : 2,
+						"cycle" : 0.5,
+						"mode" : "end",
+						"properties" : {
+							"immediateSound" : "/sfx/tech/mech_jump3.wav"
+						}
+					},
+
+					"fall" : {
+						"frames" : 2,
+						"cycle" : 0.5,
+						"mode" : "end"
+					},
+
+					"driveForward" : {
+						"frames" : 4,
+						"cycle" : 0.5,
+						"mode" : "loop",
+						"properties" : {
+							"particleEmittersOn" : [ "exhaustSparks" ]
+						},
+						"frameProperties" : {
+							"immediateSound" : [ "/sfx/felin/cardrive.ogg", "", "", "", "", "", "", "", "", "" ]
+						}
+					},
+					"driveReverse" : {
+						"frames" : 4,
+						"cycle" : 0.5,
+						"mode" : "loop",
+						"frameProperties" : {
+							"immediateSound" : [ "/sfx/felin/cardrive.ogg", "", "", "", "", "", "", "", "", "" ]
+						}
+					}
+				}
+			}
+		},
+		"parts" : {
+			"background" : {
+				"properties" : {
+					"centered" : true,
+					"zLevel" : 0,
+					"back" : true
+				},
+
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "catcorvetteback.png:idle.<frame>"
+							}
+						},
+						"jump" : {
+							"properties" : {
+								"image" : "catcorvetteback.png:jump.<frame>"
+							}
+						},
+						"fall" : {
+							"properties" : {
+								"image" : "catcorvetteback.png:fall.<frame>"
+							}
+						},
+						"driveForward" : {
+							"properties" : {
+								"image" : "catcorvetteback.png:move.<frame>"
+							}
+						},
+						"driveReverse" : {
+							"properties" : {
+								"image" : "catcorvetteback.png:bmove.<frame>"
+							}
+						}
+					}
+				}
+			},
+			"foreground" : {
+				"properties" : {
+					"centered" : true,
+					"zLevel" : 1
+				},
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "catcorvettefront.png:idle.<frame>"
+							}
+						},
+						"jump" : {
+							"properties" : {
+								"image" : "catcorvettefront.png:jump.<frame>"
+							}
+						},
+						"fall" : {
+							"properties" : {
+								"image" : "catcorvettefront.png:fall.<frame>"
+							}
+						},
+						"driveForward" : {
+							"properties" : {
+								"image" : "catcorvettefront.png:move.<frame>"
+							}
+						},
+						"driveReverse" : {
+							"properties" : {
+								"image" : "catcorvettefront.png:bmove.<frame>"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"sounds" : {
+		"carHorn" : ["/sfx/tech/honk.wav"]
+	},
+	"particleEmitters" : {
+		"carActivateParticles" : {
+			"particles" : [ ]
+		},
+		"carDeactivateParticles" : {
+			"particles" : [ ]
+		},
+		"exhaustSparks" : {
+			"emissionRate" : 30.0,
+			"particles" : [ { "particle" : "sparks", "offset" : [-3.5, -2] } ]
+		}
+	}
+}

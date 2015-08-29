@@ -1,0 +1,52 @@
+{
+	"objectName" : "felintv",
+	"tags" : [ "felin", "felinvillage", "electronic" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 300,
+	"description" : "An apex-made TV showing felin romcom shows.",
+	"shortdescription" : "Felin Rom-com TV",
+	"race" : "felin",
+	"apexDescription" : "There was supposed to be hidden propaganda. These cats are sly.",
+	"avianDescription" : "Awkward but cute, in a way.",
+	"floranDescription" : "Floran sssay felin fun isss different from floran's.",
+	"glitchDescription" : "Intrigued. I can't tell the actors' genders.",
+	"humanDescription" : "It's not really clear how much is romance and how much is comedy.",
+	"hylotlDescription" : "I am shocked and amazed in equal measures.",
+	"felinDescription" : "Edutainment is key to felin society.",
+	"lightColor" : [28, 181, 238],
+	"flickerDistance" : 0.2,
+	"flickerStrength" : 0.05,
+	"flickerTiming" : 4,
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"imageLayers" : [ { "image" : "felintv.png:default.<frame>", "fullbright" : true }, { "image" : "felintv.png:lit" } ],
+			"imagePosition" : [-16, -12],
+			"direction" : "left",
+			"flipImages" : true,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		},
+		{
+			"imageLayers" : [ { "image" : "felintv.png:default.<frame>", "fullbright" : true }, { "image" : "felintv.png:lit" } ],
+			"imagePosition" : [-16, -12],
+			"direction" : "right",
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	],
+	"scripts" : [ "/objects/wired/switch/switch.lua" ],
+	"scriptDelta" : 5,
+	"animation" : "felintv.animation",
+	"animationCustom" : {
+		"sounds" : {
+			"on" : [ "/sfx/objects/screen1.wav" ],
+			"off" : [ "/sfx/objects/screen2.wav" ]
+		}
+	},
+	"animationParts" : {
+		"switch" : "felintv.png"
+	},
+	"animationPosition" : [-16, -12]
+}

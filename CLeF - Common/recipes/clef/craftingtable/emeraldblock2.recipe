@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "emeraldore", "count" : 4 }
+  ],
+  "output" : { "item" : "emeraldblock", "count" : 1 },
+  "groups" : [ "craftingtable", "materials", "all" ]
+}

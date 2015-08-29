@@ -1,0 +1,22 @@
+{
+  "itemName" : "frigidcomb",
+  "rarity" : "Common",
+  "inventoryIcon" : "frigidcomb.png",
+  "description" : "A frozen honeycomb.",
+  "shortdescription" : "Frigid Honeycomb",
+  "handPosition" : [0.0, 0]
+,
+ 
+  "effects" : [ [
+    {
+        "effect" : "items/honeyheal1",
+        "duration" :60  },
+    {
+        "effect" : "fedhoney",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+     "fedhoney"
+  ]
+}

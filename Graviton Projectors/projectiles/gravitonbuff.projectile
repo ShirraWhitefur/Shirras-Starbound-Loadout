@@ -1,0 +1,19 @@
+{
+  "projectileName" : "gravitonbuff",
+  "physics" : "gravitonbuff",
+  "frames" : "blankprojectile.png",
+  "animationCycle" : 0.1,
+  "frameNumber" : 1,
+  "speed" : 0,
+  "damagePoly" : [ [-6, -6], [6, -6], [6, 6], [-6, 6] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : false,
+  "orientationLocked" : true,
+  "power" : 0,
+  "universalDamage" : true,
+  "damageKind" : "direct",
+  "damageType" : "ignoresdef",
+  "timeToLive" : 0.01,
+  "statusEffects" : [ "gravitonbuff" ]
+}

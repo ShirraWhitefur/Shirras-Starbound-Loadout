@@ -1,0 +1,28 @@
+{
+  "materialId" : 8764,
+  "materialName" : "emeraldglass",
+  "particleColor" : [205, 254, 217, 255],
+  "itemDrop" : "emeraldglassmaterial",
+  "description" : "I can see my reflection... it's hideous, with emerald tint!",
+  "shortdescription" : "Emerald Glass Block",
+  "apexDescription" : "An emerald-tinted glass. Useful.",
+  "avianDescription" : "Woo... Shiny!",
+  "glitchDescription" : "Statement. Glass.",
+  "floranDescription" : "Floran look pretty in glasssss.",
+  "humanDescription" : "Who's pretty? Yes you are!",
+  "hylotlDescription" : "I would hit my third eye pretty hard if not for that greenish tint.",
+  "novakidDescription" : "At least 20 percent cooler than an usual boring glass.",
+  "footstepSound" : "/sfx/blocks/footstep_glass.wav",
+  "health" : 4,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "emeraldglass.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

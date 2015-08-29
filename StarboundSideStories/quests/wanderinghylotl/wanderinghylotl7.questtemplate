@@ -1,0 +1,16 @@
+  {
+  "id" : "wanderinghylotl7.gearup",
+  "prerequisites" : [ "wanderinghylotl6.gearup" ],
+  "title" : "^orange;Hylotl Architects",
+  "text" : "Since all those new Hylotl probably need places to stay, and I don't really feel like running back and forth getting you Hylotl supplies, so I've found two Hylotl architects that you can hire! Just bring 5000 pixels, and I'll put the word in.",
+  "completionText" : "Great! With a traditional and a more modern Hylotl architect under your command, you should be able to build this place to be the ultimate Hylotl town!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "money", "count" : 5000, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [ "hylotlarchitectspawner", 1 ], [ "hylotlarchitectspawner2", 1 ], [ "hylotlarchitectspawner-recipe", 1 ], [ "hylotlarchitectspawner2-recipe", 1 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

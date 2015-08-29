@@ -1,0 +1,9 @@
+{
+  "name" : "anti_tinyballstail",
+  "category" : "smallquadruped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "anti_tinyballstail.png"
+  }
+}

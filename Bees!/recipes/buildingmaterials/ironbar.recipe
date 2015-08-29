@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "hematite", "count" : 2 }
+  ],
+  "output" : { "item" : "ironbar", "count" : 1 },
+  "groups" : [ "stonefurnace", "all" ]
+}

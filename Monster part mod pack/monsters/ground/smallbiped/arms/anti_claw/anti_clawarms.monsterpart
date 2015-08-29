@@ -1,0 +1,10 @@
+{
+  "name" : "anti_clawarms",
+  "category" : "smallbiped",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "anti_clawfarm.png",
+    "backArm" : "anti_clawbarm.png"
+  }
+}

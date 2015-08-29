@@ -1,0 +1,13 @@
+  {
+  "id" : "altarbunny1.gearup",
+  "title" : "^orange;Golden Bunny?",
+  "text" : "YOU ARE NOT ONE OF MY BIRD PRIESTS. BE WARNED THAT I AM INCREDIBLY POWERFUL, AND TO BE FEARED!",
+  "completionText" : "YOU, HOWEVER, ARE POWERFUL YOURSELF. YOU BARELY TREMBLE AT MY PRESENCE. WEIRD. BUT GOOD...WE MIGHT BE ABLE TO USE YOU.",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

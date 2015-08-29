@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 50 },
+    { "item" : "ironbar", "count" : 5 },
+    { "item" : "copperbar", "count" : 5 },
+    { "item" : "silverbar", "count" : 1 }
+  ],
+  "output" : { "item" : "clefbeacon", "count" : 1 },
+  "groups" : [ "craftingtable", "objects", "tools", "all" ]
+}

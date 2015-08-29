@@ -1,0 +1,32 @@
+{
+  "itemName" : "crewgardenspecial",
+  "rarity" : "rare",
+  "price" : 1200,
+  "inventoryIcon" : "pearlpeabroth.png",
+  "description" : "A delicious stew of garden ingrediants.",
+  "shortdescription" : "The Garden Special",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "glow",
+        "duration" : 60
+    },
+    {
+        "effect" : "nofalldamage",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 70
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "crewgardenspecial" ]
+}

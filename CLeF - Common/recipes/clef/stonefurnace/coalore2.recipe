@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "fullwood2", "count" : 10 }
+  ],
+  "output" : { "item" : "coalore", "count" : 1 },
+  "groups" : [ "stonefurnace", "all" ]
+}

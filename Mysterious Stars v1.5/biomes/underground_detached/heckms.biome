@@ -1,0 +1,112 @@
+{
+  "name" : "heckms",
+  "friendlyName" : "Heck",
+  
+  "mainBlock" : "hellstone",
+  "subBlocks" : [ "brains", "fleshblock" ],
+  "ores" : "depth2",
+  
+  "spawnProfiles" : [
+    {
+      "groups" : [ "mediumunderground1" ],
+      "extraSpawns" : [ ]
+    },
+    {
+      "groups" : [ "mediumunderground2" ],
+      "extraSpawns" : [ ]
+    }
+  ],
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "heckgrass" ],
+    "grassModDensity" : 0.9,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "heckChest" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 4.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:common",
+
+        "type" : "grass",
+        "grasses" : [ "heckflower" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.1,
+        "variants" : 11,
+        "distribution" : "/biomes/distributions.config:everywhere",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "heckbush1" ], [0.35, "heckbush2" ], [0.35, "heckbush3" ], [0.35, "heckbush4" ], [0.35, "heckbush5" ], [0.35, "heckbush6" ], [0.35, "heckbush7" ], [0.35, "heckbush8" ], [0.35, "heckbush9" ], [0.35, "heckbush10" ], [0.35, "hecklight1" ], [0.35, "hecklight2" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 0.1,
+        "variants" : 11,
+        "distribution" : "/biomes/distributions.config:rare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "heckaltar" ], [0.1, "huntingpike1" ], [0.1, "huntingpike2" ], [0.1, "huntingpike3" ], [0.35, "heckpillar1" ], [0.35, "heckpillar2" ], [0.05, "hecksign" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 180,
+        "treeStemList" : [ "fleshvine" ]
+      }
+    ]
+  }
+}

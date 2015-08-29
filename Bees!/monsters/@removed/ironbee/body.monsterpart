@@ -1,0 +1,9 @@
+{
+  "name" : "ironbee",
+  "category" : "ironbee",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "ironbee.png"
+  }
+}

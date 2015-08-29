@@ -1,0 +1,29 @@
+{	//BEHOLD THE HOLY POGO STICK
+	"objectName" : "felingraffiti2",
+	"tags" : [ "felin", "felinvillage", "felinwriting" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 1,
+	"smashOnBreak" : true,
+	"description" : "Graffiti. It seems nostalgic, somehow.",
+	"shortdescription" : "Felin Graffiti",
+	"race" : "felin",
+	"apexDescription" : "Behold the... what?",
+	"avianDescription" : "Behold the... I don't even.",
+	"floranDescription" : "Floran beholds many sssticks.",
+	"glitchDescription" : "Puzzled. There is no such thing here.",
+	"humanDescription" : "This feels really nostalgic somehow.",
+	"hylotlDescription" : "Why would you--?!",
+	"felinDescription" : "'Behold; the holy Pogo Stick!'",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felingraffiti2.png",
+			"imagePosition" : [-16, -16],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

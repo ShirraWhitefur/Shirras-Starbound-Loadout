@@ -1,0 +1,13 @@
+[
+  { "op" : "replace", "path" : "/findStarterWorldParameters/tries", "value" : 5 },
+  { "op" : "replace", "path" : "/findStarterWorldParameters/range", "value" : 100 },
+  { "op" : "replace", "path" : "/findStarterWorldParameters/requiredSystemWorlds", "value" : [
+    { "terrestrialBiome" : "forest" },
+    { "terrestrialBiome" : "desert" },
+    { "terrestrialBiome" : "garden" }
+  ] },
+  { "op" : "replace", "path" : "/findStarterWorldParameters/starterWorld", "value" : {
+      "terrestrialBiome" : "forest"
+    }
+  }
+]

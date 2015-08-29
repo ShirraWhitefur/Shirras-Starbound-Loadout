@@ -1,0 +1,16 @@
+  {
+  "id" : "glitchguard6.gearup",
+  "prerequisites" : [ "glitchguard5.gearup" ],
+  "title" : "^orange;Village Living",
+  "text" : "Wondering. You've helped us out so much, would you have any interest in setting up a home here in our village? Due to your kindness the village has donated supplies for you.",
+  "completionText" : "Happy. Glad you're taking it, the village is very happy you're making a home here.",
+  "completionConditions" : [
+	
+  ],
+  "moneyRange" : [500, 700],
+  "rewards" : [
+     [  [ "fadedblocks", 900 ], [ "fullwood1", 900 ], [ "thatch", 500 ], [ "castlewalls1", 500 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

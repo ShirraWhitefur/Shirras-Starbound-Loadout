@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 10 }
+  ],
+  "output" : { "item" : "stonetiles", "count" : 1 },
+  "groups" : [ "blocktableplus", "materials", "all", "wall" ]
+}

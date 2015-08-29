@@ -1,0 +1,17 @@
+[
+  {"op":"add","path":"/gravitonbuff","value":{
+    "mass" : 0.0,
+    "gravityMultiplier" : 0.0,
+    "bounceFactor" : 0.0,
+    "groundSlideMovementEnabled" : false,
+    "maxMovementPerStep" : 0.0,
+
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 0.0,
+    "liquidFriction" : 0.0,
+    "groundFriction" : 0.0
+    }
+  }
+]

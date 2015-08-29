@@ -1,0 +1,682 @@
+[
+  {
+    "op" : "add",
+    "path" : "/gardenNew",
+    "value" : [
+	[0.600, "clear"],
+    [0.200, "rain"],
+    [0.100, "storm"],
+	[0.100, "drizzle"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/gardenRainy",
+    "value" : [
+	[0.100, "clear"],
+    [0.400, "rain"],
+    [0.400, "storm"],
+	[0.100, "drizzle"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/gardenFoggy",
+    "value" : [
+	[0.300, "clear"],
+    [0.100, "rain"],
+	[0.100, "drizzle"],
+	[0.500, "fog"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/gardenGlowingRain",
+    "value" : [
+	[0.300, "clear"],
+    [0.050, "rain"],
+    [0.050, "storm"],
+	[0.100, "drizzle"],
+    [0.500, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/desertNew",
+    "value" : [
+    [0.600, "clear"],
+    [0.200, "windstorm"],
+    [0.200, "sandstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/desertRainy",
+    "value" : [
+    [0.600, "clear"],
+	[0.025, "rain"],
+    [0.025, "drizzle"],
+    [0.150, "windstorm"],
+    [0.200, "sandstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/desertWindy",
+    "value" : [
+    [0.200, "clear"],
+    [0.400, "windstorm"],
+    [0.400, "sandstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/desertGlowingRain",
+    "value" : [
+    [0.300, "clear"],
+    [0.100, "windstorm"],
+    [0.100, "sandstorm"],
+	[0.500, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/forestNew",
+    "value" : [
+    [0.600, "clear"],
+    [0.200, "rain"],
+    [0.100, "storm"],
+	[0.100, "drizzle"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/forestRainy",
+    "value" : [
+    [0.100, "clear"],
+    [0.400, "rain"],
+    [0.400, "storm"],
+	[0.100, "drizzle"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/forestFoggy",
+    "value" : [
+    [0.300, "clear"],
+    [0.100, "rain"],
+	[0.100, "drizzle"],
+	[0.500, "fog"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/forestGlowingRain",
+    "value" : [
+    [0.300, "clear"],
+    [0.050, "rain"],
+    [0.050, "storm"],
+	[0.100, "drizzle"],
+    [0.500, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/savannahNew",
+    "value" : [
+    [0.600, "clear"],
+	[0.150, "rain"],
+    [0.050, "drizzle"],
+    [0.150, "windstorm"],
+    [0.050, "sandstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/savannahRainy",
+    "value" : [
+    [0.200, "clear"],
+	[0.400, "rain"],
+    [0.400, "drizzle"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/savannahWindy",
+    "value" : [
+    [0.200, "clear"],
+    [0.400, "windstorm"],
+    [0.400, "sandstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/savannahGlowingRain",
+    "value" : [
+    [0.200, "clear"],
+	[0.100, "rain"],
+    [0.050, "drizzle"],
+    [0.100, "windstorm"],
+    [0.050, "sandstorm"],
+	[0.500, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/snowNew",
+    "value" : [
+    [0.275, "clear"],
+    [0.500, "snow"],
+    [0.225, "snowstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/snowSnowy",
+    "value" : [
+    [0.050, "clear"],
+    [0.675, "snow"],
+    [0.300, "snowstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/snowMisty",
+    "value" : [
+    [0.300, "clear"],
+    [0.150, "snow"],
+    [0.050, "snowstorm"],
+	[0.500, "groundmist"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/snowHail",
+    "value" : [
+    [0.200, "clear"],
+    [0.250, "snow"],
+    [0.150, "snowstorm"],
+	[0.400, "hailstones"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/snowGlowingRain",
+    "value" : [
+    [0.300, "clear"],
+    [0.150, "snow"],
+    [0.050, "snowstorm"],
+	[0.500, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/oceanNew",
+    "value" : [
+    [0.700, "clear"],
+	[0.200, "rain"],
+    [0.050, "storm"],
+	[0.050, "drizzle"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/oceanRainy",
+    "value" : [
+	[0.100, "clear"],
+    [0.400, "rain"],
+    [0.400, "storm"],
+	[0.100, "drizzle"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/oceanWindy",
+    "value" : [
+    [0.100, "clear"],
+	[0.200, "rain"],
+    [0.100, "storm"],
+	[0.100, "drizzle"],
+	[0.500, "windstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/oceanGlowingRain",
+    "value" : [
+    [0.700, "clear"],
+	[0.100, "rain"],
+    [0.050, "storm"],
+	[0.125, "drizzle"],
+    [0.025, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/jungleNew",
+    "value" : [
+    [0.600, "clear"],
+	[0.200, "rain"],
+    [0.100, "storm"],
+	[0.100, "drizzle"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/jungleRainy",
+    "value" : [
+    [0.100, "clear"],
+    [0.400, "rain"],
+    [0.400, "storm"],
+	[0.100, "drizzle"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/jungleFoggy",
+    "value" : [
+    [0.300, "clear"],
+	[0.100, "rain"],
+    [0.050, "storm"],
+	[0.050, "drizzle"],
+	[0.500, "fog"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/jungleAcidRain",
+    "value" : [
+    [0.600, "clear"],
+	[0.400, "acidrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/jungleGlowingRain",
+    "value" : [
+    [0.300, "clear"],
+	[0.100, "rain"],
+    [0.050, "storm"],
+	[0.050, "drizzle"],
+    [0.500, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/toxicNew",
+    "value" : [
+    [0.600, "clear"],
+    [0.400, "acidrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/toxicGlowingRain",
+    "value" : [
+    [0.200, "clear"],
+    [0.400, "acidrain"],
+	[0.400, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/alienNew",
+    "value" : [
+    [0.600, "clear"],
+	[0.200, "rain"],
+    [0.100, "storm"],
+	[0.100, "drizzle"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/alienRainy",
+    "value" : [
+    [0.100, "clear"],
+    [0.400, "rain"],
+    [0.400, "storm"],
+	[0.100, "drizzle"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/alienFoggy",
+    "value" : [
+    [0.300, "clear"],
+    [0.100, "rain"],
+	[0.100, "drizzle"],
+	[0.500, "fog"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/alienAcidRain",
+    "value" : [
+    [0.600, "clear"],
+	[0.400, "acidrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/alienGlowingRain",
+    "value" : [
+    [0.300, "clear"],
+	[0.100, "rain"],
+    [0.050, "storm"],
+	[0.050, "drizzle"],
+    [0.500, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/arcticNew",
+    "value" : [
+    [0.600, "clear"],
+    [0.300, "snow"],
+    [0.100, "snowstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/arcticSnowy",
+    "value" : [
+    [0.050, "clear"],
+    [0.675, "snow"],
+    [0.300, "snowstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/arcticMisty",
+    "value" : [
+    [0.300, "clear"],
+    [0.150, "snow"],
+    [0.050, "snowstorm"],
+	[0.500, "groundmist"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/arcticHail",
+    "value" : [
+    [0.200, "clear"],
+    [0.250, "snow"],
+    [0.150, "snowstorm"],
+	[0.400, "hailstones"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/arcticGlowingRain",
+    "value" : [
+    [0.300, "clear"],
+    [0.150, "snow"],
+    [0.050, "snowstorm"],
+	[0.500, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/tundraNew",
+    "value" : [
+    [0.600, "clear"],
+    [0.300, "snow"],
+    [0.100, "snowstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/tundraSnowy",
+    "value" : [
+    [0.050, "clear"],
+    [0.675, "snow"],
+    [0.300, "snowstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/tundraMisty",
+    "value" : [
+    [0.300, "clear"],
+    [0.150, "snow"],
+    [0.050, "snowstorm"],
+	[0.500, "groundmist"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/tundraHail",
+    "value" : [
+    [0.200, "clear"],
+    [0.250, "snow"],
+    [0.150, "snowstorm"],
+	[0.400, "hailstones"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/tundraGlowingRain",
+    "value" : [
+    [0.300, "clear"],
+    [0.150, "snow"],
+    [0.050, "snowstorm"],
+	[0.500, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/magmaNew",
+    "value" : [
+    [0.600, "clear"],
+    [0.200, "ember"],
+	[0.200, "ash"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/magmaEmber",
+    "value" : [
+    [0.300, "clear"],
+    [0.500, "ember"],
+	[0.200, "ash"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/magmaAsh",
+    "value" : [
+    [0.300, "clear"],
+    [0.200, "ember"],
+	[0.500, "ash"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/magmaGlowingRain",
+    "value" : [
+    [0.300, "clear"],
+    [0.100, "ember"],
+	[0.100, "ash"],
+	[0.500, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/magmaNewMeteor",
+    "value" : [
+    [0.600, "clear"],
+    [0.200, "ember"],
+	[0.100, "ash"],
+    [0.075, "meteorshower"],
+    [0.025, "largemeteor"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/volcanicNew",
+    "value" : [
+    [0.600, "clear"],
+    [0.200, "ember"],
+	[0.200, "ash"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/volcanicEmber",
+    "value" : [
+    [0.300, "clear"],
+    [0.500, "ember"],
+	[0.200, "ash"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/volcanicAsh",
+    "value" : [
+    [0.300, "clear"],
+    [0.200, "ember"],
+	[0.500, "ash"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/volcanicGlowingRain",
+    "value" : [
+    [0.300, "clear"],
+    [0.100, "ember"],
+	[0.100, "ash"],
+	[0.500, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/volcanicNewMeteor",
+    "value" : [
+    [0.600, "clear"],
+    [0.200, "ember"],
+	[0.100, "ash"],
+    [0.075, "meteorshower"],
+    [0.025, "largemeteor"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/scorchedNew",
+    "value" : [
+    [0.600, "clear"],
+	[0.300, "windstorm"],
+    [0.100, "sandstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/scorchedWindy",
+    "value" : [
+    [0.100, "clear"],
+	[0.500, "windstorm"],
+    [0.400, "sandstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/scorchedGlowingRain",
+    "value" : [
+    [0.300, "clear"],
+	[0.150, "windstorm"],
+    [0.050, "sandstorm"],
+	[0.500, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/scorchedNewMeteor",
+    "value" : [
+    [0.600, "clear"],
+    [0.200, "windstorm"],
+	[0.100, "sandstorm"],
+    [0.075, "meteorshower"],
+    [0.025, "largemeteor"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/tentaclesNew",
+    "value" : [
+    [0.600, "clear"],
+    [0.125, "rain"],
+    [0.075, "storm"],
+	[0.200, "windstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/tentaclesRainy",
+    "value" : [
+    [0.200, "clear"],
+    [0.500, "rain"],
+    [0.300, "storm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/tentaclesFoggy",
+    "value" : [
+    [0.300, "clear"],
+    [0.125, "rain"],
+    [0.075, "storm"],
+	[0.500, "fog"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/tentaclesWindy",
+    "value" : [
+    [0.300, "clear"],
+    [0.125, "rain"],
+    [0.075, "storm"],
+	[0.500, "windstorm"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/tentaclesGlowingRain",
+    "value" : [
+    [0.200, "clear"],
+    [0.125, "rain"],
+    [0.075, "storm"],
+	[0.100, "windstorm"],
+    [0.500, "glowingrain"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/moonNew",
+    "value" : [
+    [1.000, "clear"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/moonNewMeteor",
+    "value" : [
+    [0.900, "clear"],
+	[0.100, "meteorshower"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/moonSpaceJunk",
+    "value" : [
+    [0.600, "clear"],
+	[0.400, "spacejunk"]
+  ]
+  },
+  {
+    "op" : "add",
+    "path" : "/moonGlowingRain",
+    "value" : [
+    [0.600, "clear"],
+    [0.400, "glowingrain"]
+  ]
+  }
+]

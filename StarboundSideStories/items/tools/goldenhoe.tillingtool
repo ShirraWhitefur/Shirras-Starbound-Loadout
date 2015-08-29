@@ -1,0 +1,18 @@
+{
+  "itemName" : "goldenhoe",
+  "inventoryIcon" : "hoe.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "This hoe allows me to prepare soil. I can then farm all sorts of crops!",
+  "shortdescription" : "^orange;Golden Hoe^white;",
+  "tooltipKind" : "tool",
+  "largeImage" : "hoebig.png",
+  "image" : "goldenhoe.png",
+  "handPosition" : [-7, -15],
+  "fireTime" : 0.25,
+  "blockRadius" : 7,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.wav" ]
+}

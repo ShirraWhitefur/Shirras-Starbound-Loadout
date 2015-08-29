@@ -1,0 +1,16 @@
+  {
+  "id" : "castleservant9.gearup",
+  "prerequisites" : [ "castleservant8.gearup" ],
+  "title" : "^orange;Royal Benefits",
+  "text" : "Excited. Now that we have fifteen subjects under your rule, it's time to collect taxes! I've crafted this tax chest for you, put it in your royal chambers, and every so often your subjects will fill it with pixels.",
+  "completionText" : "Excited. May your majesty's castle prosper!",
+  "completionConditions" : [
+	
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [ "taxchest", 1 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

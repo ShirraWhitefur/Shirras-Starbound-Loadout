@@ -1,0 +1,497 @@
+[
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "beestation" }
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "castlewalls1" }
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "castlewalls2" }
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "petalblock" }
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "plantmatter" }
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "bees_cementingcompound" }
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "bees_bonedust" }
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "amite" }
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "generatedshield", "count" : 1, "data" : { "definition" : "Queenswrath", "level" : 10 }}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "bees_woodencentrifuge"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "beerefuge"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "goldenplank"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "goldenglass"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "bees_ironcentrifuge"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeyextractor"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "bees_industrialcentrifuge"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "beesuitpants"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "beesuithead"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "beesuitchest"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "833goldenhead"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "833goldenchest"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "833goldenlegs"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeyjarrer"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "goldenoakcabinet"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeytable"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeycomblight"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeycouch"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeycombchair"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeycombtable"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "savethequeen"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "833honeyhammer"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "833megahammer"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "833goldenblade"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "833ambersword"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "833petalsword"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "normalapiary"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "queenlegs"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "queenchest"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "queenhead"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "flowercandle"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "833honeycrystalblock"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeycrystalbed"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeycrystalchair"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeycrystaltable"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeycrystallamp"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeycrystalchest"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "steamapiary"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "goldenoakdoor1"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "breedingstation"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "waxplatform"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "redwaxplatform"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "whitewaxplatform"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "frozenwaxplatform"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "beewings"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "reversebeewings"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeybarrel"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "goldenoakchest"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeybeesign"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "redcandle"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "goldenoakbed"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "waxsword"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "redwaxsword"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "combchest"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeybread"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "waxcandle"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "ghostcandle"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeystraw"}
+},	  
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "grapehoneystraw"}
+},	  
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "applehoneystraw"}
+},	
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "orangehoneystraw"}
+},	  
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "redhoneycombblock"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeycombblock"}
+},	  
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "neonhoneystraw"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "scentedapiary"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "neonhoneystraw"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "waxblock1"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "redwaxblock"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "frozenwaxblock"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "whitewaxblock"}
+},		    
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "waspcage"}
+},	  
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "honeynutboltos"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "normalalveary"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "emptyhoneyjar"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "basicframe"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "sweetframe"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "provenframe"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "durasteelframe"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "scentedframe"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "uraniumframe"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "plutoniumframe"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "solarframe"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "eclipseframe"}
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "rubiumframe" }
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "ironframe" }
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "copperframe" }
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "titaniumframe" }
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "silverframe" }
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "goldframe" }
+},
+{
+  "op": "add",
+  "path": "/defaultBlueprints/tier1/0",
+  "value": { "item" : "diamondframe" }
+}
+]

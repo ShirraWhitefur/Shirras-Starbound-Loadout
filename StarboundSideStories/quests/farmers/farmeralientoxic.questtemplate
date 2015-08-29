@@ -1,0 +1,18 @@
+  {
+  "id" : "farmeralientoxic.gearup",
+  "prerequisites" : [ "farmersnowsavannah.gearup" ],
+  "title" : "^orange;Farmin the Alien and Toxic",
+  "text" : "Kluex says that alien and toxic planets hold the seeds we seek. There you will find dirturchin, oculemon and toxictop seeds. Bring those to me for the glory of Kluex!",
+  "completionText" : "Kluex and I thank you! Now it's time to go and plant them in the farm. May Kluex bless you.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "dirturchinseed", "count" : 1, "consume" : false }, 
+	{ "type" : "gather", "item" : "toxictopseed", "count" : 1, "consume" : false }, 
+	{ "type" : "gather", "item" : "oculemonseed", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [400, 500],
+  "rewards" : [
+      [ [  "spookydonut", 10 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

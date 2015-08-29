@@ -1,0 +1,29 @@
+{
+	"objectName" : "felinhologram",
+	"tags" : [ "felin", "felinvillage", "sexy", "electronic", "commerce" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 140,
+	"lightColor" : [65, 175, 225],
+	"description" : "A hologram displaying a felin feeling frisky.",
+	"shortdescription" : "Frisky Felin Hologram",
+	"race" : "felin",
+	"apexDescription" : "Just when you think you've seen it all.",
+	"avianDescription" : "I don't know what to say...",
+	"floranDescription" : "Felin are weird.",
+	"glitchDescription" : "Confused. There are no words.",
+	"humanDescription" : "I am so conflicted right now.",
+	"hylotlDescription" : "This is clearly a reprogramming of our fashion holograms.",
+	"felinDescription" : "Sort of inspiring, in a way.",
+	"inventoryIcon" : "felinhologramicon.png",
+	"orientations" : [
+		{
+			"image" : "felinhologram.png:default.<frame>",
+			"imagePosition" : [-12, 0],
+			"frames" : 18, //22,
+			"animationCycle" : 1.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	]
+}

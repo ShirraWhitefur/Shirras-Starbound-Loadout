@@ -1,0 +1,16 @@
+  {
+  "id" : "floranadvisor8.gearup",
+  "prerequisites" : [ "floranadvisor7.gearup" ],
+  "title" : "^orange;Village Warrior",
+  "text" : "Chief and Floran agree, you are a good member of village. Would you like to become village warrior?",
+  "completionText" : "A sssplendid day for our village! Please take these Floran warrior clothes, and thank you for joining our village!",
+  "completionConditions" : [
+	
+  ],
+  "moneyRange" : [4000, 6000],
+  "rewards" : [
+     [ [  "predatoryhead", 1 ], [  "predatorychest", 1 ], [  "predatorypants", 1 ], [  "predatoryback", 1 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

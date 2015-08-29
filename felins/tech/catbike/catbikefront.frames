@@ -1,0 +1,16 @@
+{
+	"frameGrid" : {
+		"size" : [75, 35],
+		"dimensions" : [3, 3],
+		"names" : [
+			[ "move.1", "move.2", "move.3" ],
+			[ "fall.1", "fall.2", "idle.1" ],
+			[ "jump.1", "jump.2", null ]
+		]
+	},
+	"aliases" : {
+		"bmove.3" : "move.1",
+		"bmove.2" : "move.2",
+		"bmove.1" : "move.3"
+	}
+}

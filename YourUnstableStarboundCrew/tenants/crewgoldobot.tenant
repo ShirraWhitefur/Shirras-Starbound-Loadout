@@ -1,0 +1,27 @@
+{
+  "name": "crewgoldobot",
+  "priority": 10,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "crewgoldobot": 1
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "glitch",
+	  "seed": 45647456,
+      "type": "crewgoldobot",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [800.0, 1200.0],
+    "pool": "goldobotGift"
+  }
+}

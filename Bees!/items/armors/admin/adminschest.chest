@@ -1,0 +1,46 @@
+{
+  "itemName" : "adminschest",
+  "inventoryIcon" : "chesticon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The armor of a Honey Bee admins.",
+  "shortdescription" : "admins's Dress",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 190
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 100
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 120
+    }
+  ],
+
+  "colorOptions" : [
+  	/* DEFAULT */
+    { "ffd174" : "8366a3", "f8cc00" : "67228f", "bf9d00" : "4f1a6d", "fff821" : "8b00db"},	
+       /* GREEN */
+    { "ffd174" : "60b462", "f8cc00" : "589459", "bf9d00" : "3b603c", "fff821" : "3bff21"}
+  ]
+}

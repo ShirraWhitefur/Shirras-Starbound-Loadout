@@ -1,0 +1,13 @@
+  {
+  "id" : "humanbunker1.gearup",
+  "title" : "^orange;A Far Off Signal",
+  "text" : "...this is Commander Jesse, trying to reach USMC outpost from Europa Base. Come in, do you read?",
+  "completionText" : "What's that? Everyone has gone aggressive? Ugh...thank you for reporting in, stranger. I'm Commander Jesse of the USMC, leader of the Europa base. Any way you could do me a favor and possibly clear out the base of these USMC traitors?",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

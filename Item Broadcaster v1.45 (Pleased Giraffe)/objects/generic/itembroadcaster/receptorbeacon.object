@@ -1,0 +1,37 @@
+{
+  "objectName" : "receptorbeacon",
+  "rarity" : "Common",
+  "description" : "Incoming waypoint for the Item Broadcast network.",
+  "shortdescription" : "Reception Beacon",
+  "race" : "generic",
+    "printable" : false,
+
+  "category" : "wire",
+  "price" : 500,
+
+  "inventoryIcon" : "receptorbeacon.png:off",
+  "orientations" : [
+    {
+      "image" : "receptorbeaconrange.png",
+      "imagePosition" : [-116,-116 ],
+	  "spaces" : [[0,0]],
+      "anchors" : [ "background" ],
+	  "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/generic/itembroadcaster/receptorbeacon.lua" ],
+  "scriptDelta" : 10,
+  
+  "animation" : "/objects/generic/itembroadcaster/receptorbeacon.animation",
+
+  "animationParts" : {
+    "beacon" : "receptorbeacon.png",
+	"pulsebeacon" : "receptorbeaconrange.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inboundNodes" : [ [0, 0] ],
+
+  "interval" : 10
+}

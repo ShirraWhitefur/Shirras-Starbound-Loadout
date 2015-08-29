@@ -1,0 +1,19 @@
+{
+  "itemName" : "stoneaxe",
+  "inventoryIcon" : "stoneaxeicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "tooltipKind" : "tool",
+  "description" : "Stone Axe. Chop chop!",
+  "shortdescription" : "Stone Axe",
+  "largeImage" : "stoneaxebig.png",
+  "image" : "stoneaxe.png",
+  "handPosition" : [-4, -8],
+  "fireTime" : 0.35,
+  "blockRadius" : 2,
+  "altBlockRadius" : 1,
+  "damage" : 10,
+  "twoHanded" : false,
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.wav" ]
+}

@@ -1,0 +1,36 @@
+{
+	"objectName" : "felinbed",
+	"tags" : [ "felin", "felinvillage" ],
+	"rarity" : "common",
+	"description" : "A super-comfy foam bed.",
+	"shortdescription" : "Felin Bed",
+	"race" : "felin",
+	"category" : "furniture",
+	"price" : 75,
+	"apexDescription" : "A simple wooden bed, nice and comfortable.",
+	"avianDescription" : "A wooden frame and comfortable mattress.",
+	"floranDescription" : "Floran rarely ssleep in ssuch nice bed.",
+	"glitchDescription" : "Drowsy. Power levels low. Sleep mode required.",
+	"humanDescription" : "Your basic, comfy bed.",
+	"hylotlDescription" : "A good place to close one's eyes.",
+	"inventoryIcon" : "felinbedicon.png",
+	"orientations" : [
+		{
+			"dualImage" : "felinbed.png:default",
+			"imagePosition" : [-24, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"objectType" : "loungeable",
+	"sitFlipDirection" : true,
+	"sitPosition" : [-10, 16],
+	"sitOrientation" : "lay",
+	"sitAngle" : 90,
+	"sitCoverImage" : "/objects/felin/felinbed/felinbed.png:cover",
+	"sitEmote" : "sleep",
+	"sitStatusEffects" : [ "regeneration1" ],
+	"sitEffectEmitters" : [ "sleepbubbles" ]
+}

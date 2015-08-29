@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "imperviumcompound", "count" : 6 },
+    { "item" : "circuitboard", "count" : 1 },
+    { "item" : "gravitonmagnifier", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "tier10_XL_gravitonprojectorring",
+    "count" : 1
+  },
+  "groups" : [ "gravitoncraftingtable", "wire", "size xl", "impervium",  "objects", "all" ]
+}

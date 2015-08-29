@@ -1,0 +1,37 @@
+{
+  "itemName" : "queenlegs",
+  "inventoryIcon" : "legsicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A queen's skirt and boots.",
+  "shortdescription" : "Queen's Skirt",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 130
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 85
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 120
+    }
+  ],
+  
+  "colorOptions" : [
+  	/* DEFAULT */
+    { "ffd174" : "ffd174", "f8cc00" : "f8cc00", "bf9d00" : "bf9d00", "fff821" : "fff821"},	
+    /* GREEN */
+    { "ffd174" : "60b462", "f8cc00" : "589459", "bf9d00" : "3b603c", "fff821" : "3bff21"}
+  ]
+}

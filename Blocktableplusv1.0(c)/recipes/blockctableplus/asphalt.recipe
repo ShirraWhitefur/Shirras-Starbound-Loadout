@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "gravelmaterial", "count" : 1 },
+    { "item" : "tar", "count" : 1 }
+  ],
+  "output" : { "item" : "asphalt", "count" : 1 },
+  "groups" : [ "blocktableplus", "materials", "all", "ground" ]
+}

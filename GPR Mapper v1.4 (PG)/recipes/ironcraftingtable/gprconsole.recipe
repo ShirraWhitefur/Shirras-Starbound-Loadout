@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 10 },
+    { "item" : "steelbar", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "gprconsole",
+    "count" : 1
+  },
+  "groups" : [ "ironcraftingtable", "objects", "all", "tools", "mod" ]
+}

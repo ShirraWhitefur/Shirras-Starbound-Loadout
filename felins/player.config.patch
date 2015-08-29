@@ -1,0 +1,12 @@
+[
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "kawa_hotpants" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "kawa_shorttop" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "kawa_catgirlback" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "kawa_catgirlhead" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "felinbeanbagchair" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "felincushion" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "felinplate" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "felinmirror1" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "felinmirror2" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "felinmirror3" } }
+]

@@ -1,0 +1,14 @@
+{
+  "name" : "bombyhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "bombyhead.png"
+  },
+
+"parameters" :
+  {
+  }
+}
+

@@ -1,0 +1,721 @@
+[
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/gardenms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/garden_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/gardenmshuman",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/garden_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/gardenmsapex",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/garden_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/forestms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/forest_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/forestmsfloran",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/forest_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/forestmshuman",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/forest_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/desertms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/desert_<selector>.png",
+      "maskPerPlanetRange" : [0, 0]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/desertmsavian",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/desert_<selector>.png",
+      "maskPerPlanetRange" : [0, 0]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/savannahms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/savannah_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/savannahmsavian",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/savannah_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/snowms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/snow_<selector>.png",
+      "maskPerPlanetRange" : [0, 0]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/snowmsglitch",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/snow_<selector>.png",
+      "maskPerPlanetRange" : [0, 0]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/oceanms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/ocean_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [1, 2]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/junglems",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/jungle_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/junglemsapex",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/jungle_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/junglemsfloran",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/jungle_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/alienms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/alienms_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/toxicms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/toxic_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [1, 2]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/tundrams",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/tundra_<selector>.png",
+      "maskPerPlanetRange" : [0, 0]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/arcticms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/arctic_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [1, 2]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/scorchedms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/scorched_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [2, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/scorchedmsglitch",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/scorched_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [2, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/volcanicms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/volcanic_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/magmams",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/magma_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [1, 2]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/tentaclesms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/tentacles_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/moonms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/moon_<selector>.png",
+      "maskPerPlanetRange" : [0, 0]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/asteroidfieldms",
+    "value" : {
+      "baseImages" : "/celestial/system/asteroids/horizon/asteroidfield_<selector>.png",
+      "maskPerPlanetRange" : [0, 0]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/gardenms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/garden/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/gardenmshuman",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/garden/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/gardenmsapex",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/garden/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/forestms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/forest/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/forestmsfloran",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/forest/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/forestmshuman",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/forest/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/desertms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/desert/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/desertmsavian",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/desert/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/savannahms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/savannah/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/savannahmsavian",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/savannah/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/snowms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/snow/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/snowmsglitch",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/snow/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/oceanms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/ocean/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/junglems",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/jungle/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/junglemsapex",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/jungle/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/junglemsfloran",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/jungle/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/alienms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/alienms/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/toxicms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/toxic/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/tundrams",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/tundra/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/arcticms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/arctic/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/scorchedms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/scorched/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/scorchedmsglitch",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/scorched/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/volcanicms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/volcanic/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/magmams",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/magma/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/tentaclesms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/tentacles/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/moonms",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/moon/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/asteroidfieldms",
+    "value" : {
+      "baseImages" : "/celestial/system/asteroids/base/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/asteroids/dynamics/<num>.png",
+      "dynamicsRange" : [1, 10]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/systemTypes/Purple",
+    "value" : {
+      "selectionWeight" : 1.0,
+      "baseParameters" : {
+        "typeName" : "purplestar",
+        "image" : "/celestial/system/purplestar.png",
+        "twinkleTime" : [1.0, 1.5]
+      },
+      "variationParameters" : [
+        {
+          "magnitude" : 3,
+          "description" : "Small Purple Star",
+          "imageScale" : 0.04,
+          "twinkleFrames" : "/celestial/stars/star7pxPurple.png",
+          "twinkleBackground" : "/celestial/stars/backgrounds/star7px.png",
+          "brightness" : [1, 1]
+        },
+        {
+          "magnitude" : 5,
+          "description" : "Medium Purple Star",
+          "imageScale" : 0.055,
+          "twinkleFrames" : "/celestial/stars/star13pxPurple.png",
+          "twinkleBackground" : "/celestial/stars/backgrounds/star13px.png",
+          "brightness" : [1, 1]
+        },
+        {
+          "magnitude" : 7,
+          "description" : "Large Purple Star",
+          "imageScale" : 0.075,
+          "twinkleFrames" : "/celestial/stars/star17pxPurple.png",
+          "twinkleBackground" : "/celestial/stars/backgrounds/star17px.png",
+          "brightness" : [1, 1]
+        }
+      ],
+      "orbitRegions" : [
+        {
+          "regionName" : "TierMS",
+          "orbitRange" : [2, 10],
+          "bodyProbability" : 0.5,
+          "planetaryTypes" : [
+            {"weight" : 0.7, "item" : "TierMS"},
+            {"weight" : 0.1, "item" : "TierMSInhabited"},
+            {"weight" : 0.12, "item" : "GasGiant"},
+            {"weight" : 0.08, "item" : "AsteroidField"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.6, "item" : "TierMS"},
+            {"weight" : 0.1, "item" : "TierMSInhabited"},
+            {"weight" : 0.3, "item" : "TierMSMoon"}
+          ]
+        },
+        {
+          "regionName" : "AsteroidField",
+          "orbitRange" : [11, 11],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "AsteroidField"}
+          ],
+          "satelliteTypes" : []
+        },
+        {
+          "regionName" : "Gate",
+          "orbitRange" : [12, 12],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "AncientGateway"}
+          ],
+          "satelliteTypes" : []
+        }
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetaryTypes/TierMS",
+    "value" : {
+      "satelliteProbability" : 0.15,
+      "maxSatelliteCount" : 2,
+
+      "baseParameters" : {
+        "worldType" : "Terrestrial",
+        "description" : "Tier MS Planet",
+        "smallImage" : "/celestial/system/planet_small.png",
+
+        "terrestrialType" : [ "gardenms", "forestms", "desertms", "oceanms", "savannahms", "snowms", "junglems", "toxicms", "alienms", "arcticms", "tundrams", "volcanicms", "magmams", "scorchedms", "tentaclesms" ]
+      },
+
+      "variationParameters" : [
+        {
+          "imageScale" : 0.125,
+          "smallImageScale" : 0.5,
+          "worldSize" : "medium"
+        },
+        {
+          "imageScale" : 0.15,
+          "smallImageScale" : 0.6,
+          "worldSize" : "large"
+        }
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetaryTypes/TierMSInhabited",
+    "value" : {
+      "satelliteProbability" : 0.15,
+      "maxSatelliteCount" : 2,
+
+      "baseParameters" : {
+        "worldType" : "Terrestrial",
+        "description" : "Tier MS Inhabited Planet",
+        "smallImage" : "/celestial/system/planet_small.png",
+
+        "terrestrialType" : [ "gardenmsapex", "gardenmshuman", "forestmsfloran", "forestmshuman", "desertmsavian", "savannahmsavian", "snowmsglitch", "junglemsapex", "junglemsfloran", "scorchedmsglitch" ]
+      },
+
+      "variationParameters" : [
+        {
+          "imageScale" : 0.125,
+          "smallImageScale" : 0.5,
+          "worldSize" : "medium"
+        },
+        {
+          "imageScale" : 0.15,
+          "smallImageScale" : 0.6,
+          "worldSize" : "large"
+        }
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetaryTypes/TierMSAsteroidField",
+    "value" : {
+      "satelliteProbability" : 0.0,
+
+      "baseParameters" : {
+        "worldType" : "Terrestrial",
+        "description" : "Asteroid Field",
+        "smallImage" : "/celestial/system/asteroids_small.png",
+
+        "terrestrialType" : [ "asteroidfieldms" ]
+      },
+
+      "variationParameters" : [
+        {
+          "imageScale" : 0.15,
+          "worldSize" : "large",
+          "smallImageScale" : 0.5
+        }
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/satelliteTypes/TierMS",
+    "value" : {
+      "baseParameters" : {
+        "worldType" : "Terrestrial",
+        "description" : "Tier MS Moon",
+
+        "terrestrialType" : [ "gardenms", "forestms", "desertms", "oceanms", "savannahms", "snowms", "junglems", "toxicms", "alienms", "arcticms", "tundrams", "volcanicms", "magmams", "scorchedms", "tentaclesms" ]
+      },
+
+      "variationParameters" : [
+        {
+          "imageScale" : 0.075,
+          "worldSize" : "medium"
+        },
+        {
+          "imageScale" : 0.055,
+          "worldSize" : "small"
+        }
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/satelliteTypes/TierMSInhabited",
+    "value" : {
+      "baseParameters" : {
+        "worldType" : "Terrestrial",
+        "description" : "Tier MS Inhabited Moon",
+
+        "terrestrialType" : [ "gardenmsapex", "gardenmshuman", "forestmsfloran", "forestmshuman", "desertmsavian", "savannahmsavian", "snowmsglitch", "junglemsapex", "junglemsfloran", "scorchedmsglitch" ]
+      },
+
+      "variationParameters" : [
+        {
+          "imageScale" : 0.075,
+          "worldSize" : "medium"
+        },
+        {
+          "imageScale" : 0.055,
+          "worldSize" : "small"
+        }
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/satelliteTypes/TierMSMoon",
+    "value" : {
+      "baseParameters" : {
+        "worldType" : "Terrestrial",
+        "description" : "Tier MS Lunar Moon",
+
+        "terrestrialType" : [ "moonms" ]
+      },
+
+      "variationParameters" : [
+        {
+          "imageScale" : 0.055,
+          "worldSize" : "small"
+        }
+      ]
+    }
+  }
+]

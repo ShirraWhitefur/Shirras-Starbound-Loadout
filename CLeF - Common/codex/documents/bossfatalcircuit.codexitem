@@ -1,0 +1,10 @@
+{
+  "codexId" : "bossfatalcircuit",
+  "title" : "Reading material",
+  "inventoryIcon" : "bossbook.png",
+  "codexkind" : "codex",
+  "itemName" : "bossfatalcircuitCodex",
+  "rarity" : "common",
+  "description" : "Information on Fatal Circuit, the Glitch with a glitch.",
+  "shortdescription" : "Fatal Circuit"
+}

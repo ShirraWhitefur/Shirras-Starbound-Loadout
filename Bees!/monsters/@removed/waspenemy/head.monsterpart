@@ -1,0 +1,9 @@
+{
+  "name" : "head",
+  "category" : "waspenemy",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "head.png"
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"objectName" : "meatplatter",
+	"tags" : [ "misc" ],
+	"rarity" : "common",
+	"description" : "A slab of delicious cooked steak.",
+	"shortdescription" : "Plate of Steak",
+	"race" : "felin",
+	"category" : "furniture",
+	"price" : 20,
+	"apexDescription" : "Alien meat. Juicy and chewy.",
+	"avianDescription" : "Alien meat. You never know what you'll get.",
+	"floranDescription" : "Floran always ssssurprised by alien meatssss...",
+	"glitchDescription" : "Surprised. One slab of meat becomes two.",
+	"humanDescription" : "Slabs of delicious cooked alien meat.",
+	"hylotlDescription" : "It's always a gamble with alien meat.",
+	"felinDescription" : "With alien meat, it's all in the presentation.",
+	"inventoryIcon" : "meatplattericon.png",
+	"orientations" : [
+		{
+			"dualImage" : "meatplatter.png",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"breakDropOptions" : [ [
+		[ "felinplate", 1, { } ],
+		[ "cookedalienmeat", 1, { } ]
+	] ]
+}

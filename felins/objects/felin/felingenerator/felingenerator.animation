@@ -1,0 +1,50 @@
+{
+	"animatedParts": {
+		"stateTypes": {
+			"switchState": {
+				"default": "off",
+				"states": {
+					"off": {},
+					"on": {
+						"frames": 3,
+						"cycle": 0.5,
+						"mode": "loop"
+					}
+				}
+			}
+		},
+		"parts": {
+			"bg": {
+				"properties": {
+					"centered": false
+				},
+				"partStates": {
+					"switchState": {
+						"off": {
+							"properties": { "image": "<partImage>:default.off" }
+						},
+						"on": {
+							"properties": { "image": "<partImage>:default.<frame>", "fullbright": true }
+						}
+					}
+				}
+			},
+			"fg": {
+				"properties": {
+					"centered": false,
+					"zLevel": 1
+				},
+				"partStates": {
+					"switchState": {
+						"off": {
+							"properties": { "image": "<partImage>:lit.off" }
+						},
+						"on": {
+							"properties": { "image": "<partImage>:lit.<frame>" }
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "freak_chickenbandithead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "freak_chickenbandithead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}
+

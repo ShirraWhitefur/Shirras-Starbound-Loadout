@@ -1,0 +1,21 @@
+{
+	"objectName" : "felinposter12",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 30,
+	"shortdescription" : "Felin Motivational Poster",
+	"description" : "Hang in there, baby.",
+	"race" : "felin",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinposter24.png:3",
+			"imagePosition" : [-12, -16],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

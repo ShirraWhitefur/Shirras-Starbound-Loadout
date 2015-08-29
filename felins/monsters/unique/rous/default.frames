@@ -1,0 +1,12 @@
+{
+	"frameGrid" : {
+		"size" : [16, 16],
+		"dimensions" : [8, 4],
+		"names" : [
+			[ "portrait", null, null, null, null, null, null, "invisible" ],
+			[ "idle.1", "idle.2", "idle.3", "idle.4", "idle.5", "idle.6", "idle.7", "idle.8" ],
+			[ "move.1", "move.2", "move.3", "move.4", null, null, null, null ],
+			[ "die.1", "die.2", "die.3", "die.4", "die.5", "die.6", "die.7", "die.8" ]
+		]
+	}
+}

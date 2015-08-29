@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "oldstonefurnace", "count" : 1 },
+	"groups" : [ "spawningtable", "techy" ]
+}

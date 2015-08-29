@@ -1,0 +1,141 @@
+{
+  "name" : "zencavesms",
+  "friendlyName" : "Zen Caves",
+  
+  "mainBlock" : "wetdirt",
+  "subBlocks" : [ "dirt" ],
+  "ores" : "depth2",
+  
+  "spawnProfiles" : [
+    {
+      "groups" : [ "mediumunderground1" ],
+      "extraSpawns" : [ ]
+    },
+    {
+      "groups" : [ "mediumunderground2" ],
+      "extraSpawns" : [ ]
+    }
+  ],
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "flowerygrass" ],
+    "grassModDensity" : 0.9,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "vaseclassicsmall1" ], [0.35, "vaseclassicsmall2" ], [0.35, "vaseclassicmedium1" ], [0.35, "vaseclassicmedium2" ], [0.35, "vaseclassiclarge1" ], [0.35, "vaseclassiclarge2" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "oceanChest" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "oceanFloorChest" ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 0.1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 180,
+        "treeStemList" : [ "vine2" ],
+        "treeFoliageList" : [ "flowery" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "frogstatue" ], [0.35, "hylotlwaterfeature1" ] ],
+            "parameters" : { }
+          }
+
+
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "cocoa", "fleshy", "pine", "wood" ],
+        "treeFoliageList" : [ "lotus" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.7, "zenrock1" ], [0.7, "zenrock2" ], [0.7, "zenrock3" ], [0.7, "zenrock4" ], [0.7, "zenrock5" ], [0.35, "hylotlpost" ], [0.35, "flowerbed1" ], [0.35, "flowerbed2" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.18, "hylotllantern1" ], [0.35, "flowerbasket1" ], [0.35, "flowerbasket2" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  }
+}

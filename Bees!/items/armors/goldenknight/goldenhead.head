@@ -1,0 +1,32 @@
+{
+  "itemName" : "833goldenhead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A shining knight's helm.",
+  "shortdescription" : "Amber Knight's Helm",
+  "tooltipKind" : "armor",
+
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 100
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 75
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 75
+    }
+  ]
+}

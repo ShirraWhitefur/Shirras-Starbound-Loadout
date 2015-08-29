@@ -1,0 +1,16 @@
+  {
+  "id" : "glitchguard9.gearup",
+  "prerequisites" : [ "glitchguard8.gearup" ],
+  "title" : "^orange;Glitchy Walls",
+  "text" : "Happy. Our village once had poorly equipped guards, but now we are strong. And we have a pig, and a new villager! There is one more thing I wish for you to help me with, though.",
+  "completionText" : "Hope. If possible, I hope you can take these materials to build a giant wall at the edges of our village. Maybe it could have room for guards at the top to take down the flying beasts. Thank you for all your help, great warrior.",
+  "completionConditions" : [
+	
+  ],
+  "moneyRange" : [4000, 5000],
+  "rewards" : [
+     [  [ "castlewalls1", 900 ], [ "castlewalls2", 900 ], [ "platform", 500 ], [ "largecastledoor", 4 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

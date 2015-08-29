@@ -1,0 +1,16 @@
+  {
+  "id" : "airship8.gearup",
+  "prerequisites" : [ "airship7.gearup" ],
+  "title" : "^orange;New Faces",
+  "text" : "As much as I love the crew, some new faces to see would be greatly appreciated. I'm guessing your ship has the ability to craft spawners, could you bring me five Avian spawners?",
+  "completionText" : "Excellent job, I'll even match you with five more spawners to place down in the settlement. Hope you can make room for them with the materials I got ya!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" :  "spawneravian", "count" : 5, "consume" : false }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "spawneravian", 5 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

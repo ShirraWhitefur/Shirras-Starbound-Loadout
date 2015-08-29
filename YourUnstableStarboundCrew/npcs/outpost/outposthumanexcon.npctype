@@ -1,0 +1,38 @@
+{
+  "type" : "outposthumanexcon",
+  "baseType" : "outpostcivilian",
+
+  "scriptConfig" : {
+    "offeredQuests" : [ "humanexcon2.gearup", "humanexcon4.gearup", "yourstarboundcrewstart.gearup" ],
+    "turnInQuests" : [ "humanexcon2.gearup", "humanexcon4.gearup" ],
+    
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Despite knowing I come from one of the USCM prisons, the people here have been very good to me. I owe them a lot."
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Despite knowing I come from one of the USCM prisons, the people here have been very good to me. I owe them a lot."
+          ],
+          "human" : [
+            "A word of advice. If you want to avoid trouble, don't visit any of the USCM prisons. Most of them have been torn apart."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+              "chest" : [ { "name" : "coolchest", "parameters" : { "colorIndex" : 3 } } ],
+              "legs" : [ { "name" : "jumpsuitlegs", "parameters" : { "colorIndex" : 5 } } ]
+          }
+        ] ]
+    ]
+  }
+}

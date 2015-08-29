@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 50 },
+    { "item" : "fabric", "count" : 20 },
+    { "item" : "darkwoodmaterial", "count" : 100 }
+  ],
+  "output" : { "item" : "clefprincess", "count" : 1 },
+  "groups" : [ "metalworkstation", "other", "all" ]
+}

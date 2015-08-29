@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 1 }
+  ],
+  "output" : { "item" : "pressurizedgirder", "count" : 4 },
+  "groups" : [ "blocktableplus", "materials", "all", "object" ]
+}

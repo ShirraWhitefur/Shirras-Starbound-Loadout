@@ -1,0 +1,16 @@
+  {
+  "id" : "apexresearcher9.gearup",
+  "prerequisites" : [ "apexresearcher8.gearup" ],
+  "title" : "^orange;Ferret Friends",
+  "text" : "Now don't get me wrong, the Apex in the town are great, but we could use a little more variety in here. Luckily, I have the perfect idea for that. How about you bring me five bananas and we'll see what in store for the town.",
+  "completionText" : "Okay, to be honest, I just wanted some bananas. But I also mashed one up and put it in this pet food bowl. Place it anywhere in the village, and we should have a new town pet!",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "banana", "count" : 5, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [  [ "ferretbowl", 1 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

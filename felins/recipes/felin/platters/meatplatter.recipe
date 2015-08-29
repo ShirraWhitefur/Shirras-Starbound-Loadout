@@ -1,0 +1,8 @@
+{
+	"input" : [
+		{ "item" : "felinplate", "count" : 1 },
+		{ "item" : "cookedalienmeat", "count" : 1 }
+	],
+	"output" : { "item" : "meatplatter", "count" : 1 },
+	"groups" : [ "plain", "objects", "all", "other" ]
+}

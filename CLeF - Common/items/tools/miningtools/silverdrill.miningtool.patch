@@ -1,0 +1,8 @@
+[
+  { "op" : "replace", "path" : "/description", "value" : "A silver drill! For people who cannot afford a golden one. That's the silver lining!" },
+  { "op" : "replace", "path" : "/durability", "value" : 3500 },
+  { "op" : "replace", "path" : "/blockRadius", "value" : 3},
+  { "op" : "replace", "path" : "/tileDamage", "value" : 3.1},
+  { "op" : "add", "path" : "/canBeRepaired", "value" : true},
+  { "op" : "add", "path" : "/durabilityRegenChart", "value" : [ [ "silverore", 750 ], [ "silverbar", 1500 ] ] }
+]

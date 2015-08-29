@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 500 }
+  ],
+  "output" : { "item" : "receptorbeacon", "count" : 1 },
+  "groups" : [ "teleshop"]
+}

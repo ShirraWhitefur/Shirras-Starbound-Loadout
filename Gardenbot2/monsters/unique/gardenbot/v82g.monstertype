@@ -1,0 +1,138 @@
+{
+  "type" : "gardenbotv82g",
+
+  "categories" : [ "gardenbotv82g" ],
+  "parts" : [ "body" ],
+
+  "animation" : "gardenbot.animation",
+  "projectiles" : "/monsters/projectiles.config",
+  "colors" : "/monsters/colors.config",
+  "reversed" : true,
+  "persistent" : true,
+
+  "dropPools" : [ ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/scripts/delegate.lua",
+      "/monsters/unique/gardenbot/gardenbot.lua",
+      "/monsters/unique/gardenbot/simplebehavior.lua",
+      "/scripts/sensors.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua",
+      "/scripts/inventoryManager.lua",
+      "/scripts/harvestPools.lua",
+      
+      "/monsters/unique/gardenbot/plantState.lua",
+      "/monsters/unique/gardenbot/harvestState.lua",
+      "/monsters/unique/gardenbot/gatherState.lua",
+      "/monsters/unique/gardenbot/depositState.lua",
+      "/monsters/unique/gardenbot/returnState.lua",
+      "/monsters/unique/gardenbot/idleState.lua",
+      "/monsters/unique/gardenbot/waterState.lua",
+      "/monsters/unique/gardenbot/grassState.lua"
+    ],
+
+    "scriptDelta" : 10,
+    "gardenSettings" : {
+      "interactRange" : 1.5,
+      "searchDistance" : 15.0,
+      "plantDistance" : 8.0,
+      "cooldown" : 15.0,
+      "locateTime" : [2.0, 3.0],
+      "harvestTime" : [1.0, 1.8],
+      "plantTime" : [1.0, 1.8],
+      "depositTime" : [0.5, 1.0],
+      "searchType" : "linearfarm",
+      "fovHeight" : 2,
+      "seed" : [ "seed", "avaliplant", "soybean", "bm_bamboosprout", "mushroomspore" ],
+      "gatherables" : [ 
+        {"seed" : "match", "consumable" : "type", "plant" : "match"}, "wheat", "plantfibre",
+        "sugar", "straw", "money", "soybean", "bm_bamboosprout", "mushroomspore"
+      ]
+    },
+
+    "metaBoundBox" : [-1.0, -0.65, 1.0, 0.65],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.0, -0.65], [1.0, -0.65], [1.0, 0.65], [-1.0, 0.65] ],
+
+      "mass" : 0.2,
+      "walkSpeed" : 4,
+      "runSpeed" : 5,
+      "jumpSpeed" : 5,
+      "flySpeed" : 15,
+      "airFriction" : 0.25,
+      "airForce" : 50.0
+    },
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ ],
+    "turnHostileNoise" : [ ],
+
+    "touchDamage" : {
+      "poly" : [ [-1.0, -0.65], [1.0, -0.65], [1.0, 0.65], [-1.0, 0.65] ],
+      "damage" : 15,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "electroshock",
+      "statusEffects" : [ ]
+    },
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "robotic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 0,
+
+      "stats" : {
+        "maxHealth" : {
+          "baseValue" : 32
+        },
+        "protection" : {
+          "baseValue" : 1.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "poisonImmunity" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+
+    "collisionSensors" : [ [1.25, 0.0] ],
+
+    "nearGroundSensor" : [ [0.0, -1.0] ],
+    "midGroundSensor" : [ [0.0, -4.0] ],
+
+    "moveTimeRange" : [1, 2.5],
+
+    "attackTargetHoldTime" : 5.0,
+    "attackDistance" : 2.0,
+    "attackHoldTime" : 2.0
+  }
+}

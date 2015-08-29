@@ -1,0 +1,50 @@
+{
+	"name" : "catbike",
+	"type" : "head",
+
+	"scripts" : [
+		"/scripts/vec2.lua",
+		"/tech/hoverbike/hoverbike.lua"
+	],
+
+	"actions" : [ "hoverbikeActivate", "hoverbikeDeactivate", "hoverbikeHorn" ],
+	"animator" : "catbike.animation",
+
+	"carCustomMovementParameters" : {
+		"standingPoly" : [ [-3.5, 0.25], [-2, -1.75], [2, -1.75], [3.5, 0.25], [3.5, 0.5], [2, 0.5], [-2, 0.5], [-3.5, 0.5] ],
+		"crouchingPoly" : [ [-3.5, 0.25], [-2, -1.75], [2, -1.75], [3.5, 0.25], [3.5, 0.5], [2, 0.5], [-2, 0.5], [-3.5, 0.5] ],
+		"mass" : 2.0,
+
+		"normalGroundFriction" : 20.0,
+		"ambulatingGroundFriction" : 6.0,
+
+		"groundForce" : 160.0,
+		"airForce" : 50.0,
+		"liquidForce" : 70.0,
+
+		"walkSpeed" : 6.0,
+		"runSpeed" : 30.0,
+
+		"airJumpProfile" : {
+			"jumpSpeed" : 15.0,
+			"jumpControlForce" : 700.0,
+			"jumpInitialPercentage" : 0.75,
+			"jumpHoldTime" : 0.15
+		},
+
+		"liquidJumpProfile" : {
+			"jumpSpeed" : 10.0,
+			"jumpControlForce" : 500.0,
+			"jumpInitialPercentage" : 0.75,
+			"jumpHoldTime" : 0.1
+		}
+	},
+
+	"energyCostPerSecond" : 5,
+
+	"parentOffset" : [0.4, 1.5], /* [-1.0, 1.2], */
+
+	"carCollisionTest" : [-3.5, -2.5, 3.5, 5],
+
+	"honkTime" : 1.0
+}

@@ -1,0 +1,9 @@
+{
+  "itemName" : "frigidqueen",
+  "rarity" : "Common",
+  "inventoryIcon" : "frigidqueen.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A frigid bee queen. It can live in even the coldest climates.",
+  "shortdescription" : "Frigid Queen",
+  "maxStack" : 1000
+}

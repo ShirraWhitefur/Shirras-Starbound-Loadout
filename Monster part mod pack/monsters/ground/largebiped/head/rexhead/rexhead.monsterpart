@@ -1,0 +1,14 @@
+{
+  "name" : "rexhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "rexhead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}
+

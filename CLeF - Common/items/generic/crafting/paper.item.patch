@@ -1,0 +1,4 @@
+[
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cardboardbox" },
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cardboardboxlarge" }
+]

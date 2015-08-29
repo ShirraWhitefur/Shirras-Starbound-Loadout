@@ -1,0 +1,40 @@
+{
+	"animatedParts" : {
+		"stateTypes" : {
+			"switchState" : {
+				"default" : "off",
+				"states" : {
+					"off" : {
+						"frames" : 1
+					},
+					"on" : {
+						"frames" : 53,
+						"cycle" : 6,
+						"mode" : "loop"
+					}
+				}
+			}
+		},
+		"parts" : {
+			"switch" : {
+				"properties" : {
+					"centered" : false
+				},
+				"partStates" : {
+					"switchState" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:default.off"
+							}
+						},
+						"on" : {
+							"properties" : {
+								"image" : "<partImage>:default.<frame>"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

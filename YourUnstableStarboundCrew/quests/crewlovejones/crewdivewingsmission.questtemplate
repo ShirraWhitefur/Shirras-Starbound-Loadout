@@ -1,0 +1,15 @@
+{
+  "id" : "crewdivewingsmission.gearup",
+  "title" : "^green;Ancient Ruins in the Ice",
+  "text" : "...an Avian researcher named Moonfinder Maneca, searching to understand the universe...",
+  "completionText" : "A pleasure to meet you! I'm Maneca, as Taylor has told you. Earlier today I managed to find what I think is an ancient temple, but I'm more of a researcher, not a fighting expert. With you being a protectorate candidate, perhaps you'd be interested in exploring it?",
+  "completionConditions" : [
+ 
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [ ],
+  "canBeAbandoned" : false,
+  "associatedMission" : "crewdivewings",
+  "requireTurnIn" : true
+}
+ 

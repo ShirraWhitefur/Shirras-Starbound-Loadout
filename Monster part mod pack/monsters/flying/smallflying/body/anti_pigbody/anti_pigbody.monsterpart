@@ -1,0 +1,9 @@
+{
+  "name" : "anti_pigbody",
+  "category" : "smallflying",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "anti_pigbody.png"
+  }
+}

@@ -1,0 +1,13 @@
+  {
+  "id" : "bugcatcherbugnet.gearup",
+  "title" : "^orange;Hope I'm Not Buggin Ya",
+  "text" : "Howdy ssstranger, how're you doing? I'm looking for sssome fellow friends who are interested in bugs! Would you be interested? Do you have a bug net??",
+  "completionText" : "Ah, you do have a bug net! That's great! I'm trying my best to collect as many bugs as I can in the universe, but my ssship can't really do FTL that well. I even ssset up some ssshelves for possible bug catching!",
+  "completionConditions" : [ { "type" : "gather", "item" : "bugnet", "count" : 1, "consume" : true }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [ [ [ "bugnet", 1] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

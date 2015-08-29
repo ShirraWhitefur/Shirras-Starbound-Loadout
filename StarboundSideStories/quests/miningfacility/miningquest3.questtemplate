@@ -1,0 +1,16 @@
+  {
+  "id" : "miningquest3.gearup",
+  "prerequisites" : [ "miningquest2.gearup" ],
+  "title" : "^orange;Copper Nodes",
+  "text" : "For our first mining operation I think we should start simple. Copper. It's every where. How about you bring me 30 copper ores, and I'll show you how to make this mine profitable.",
+  "completionText" : "This, my friend, is a very rare copper node. I have a little robot I developed that can help me make these, and they'll continually grow ore! Try putting it down somewhere in the mine. It's the beginning of our mining venture!",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "copperore", "count" : 30, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "coppernode", 2 ]  ]
+   ],
+  "requireTurnIn" : true
+}
+ 

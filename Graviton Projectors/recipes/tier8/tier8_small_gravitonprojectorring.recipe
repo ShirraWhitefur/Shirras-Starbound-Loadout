@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 3 },
+    { "item" : "circuitboard", "count" : 1 },
+    { "item" : "gravitonmagnifier", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "tier8_small_gravitonprojectorring",
+    "count" : 1
+  },
+  "groups" : [ "gravitoncraftingtable", "wire", "size s", "violium",  "objects", "all" ]
+}

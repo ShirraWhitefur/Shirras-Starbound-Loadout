@@ -1,0 +1,16 @@
+  {
+  "id" : "castleservant8.gearup",
+  "prerequisites" : [ "castleservant7.gearup" ],
+  "title" : "^orange;More Royal Subjects",
+  "text" : "Thinking. Our current population is satisfactory, but wouldn't more be better? Could you bring me five Glitch spawners?",
+  "completionText" : "Excited. The more the merrier! New faces are always nice to have around the place.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "spawnerglitch", "count" : 5, "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [ "spawnerglitch", 5 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

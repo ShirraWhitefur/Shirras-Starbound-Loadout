@@ -1,0 +1,16 @@
+  {
+  "id" : "researcharmor.gearup",
+  "prerequisites" : [ "researchtranslation.gearup" ],
+  "title" : "^orange;Ancient Preperation",
+  "text" : "So far you seem to be a very efficient adventurer, but ancient planets are more dangerous than anything you've faced. You should come back to me when you're wearing some ancient armor from our console to the left.",
+  "completionText" : "Excellent, you look ready for our system. I'm sure you've noticed that threat levels are incredibly high, so a solid defense would do you good. I'm sure you've also noticed that tentacle planets seem to have a strange aura about them...we're working on that.",
+  "completionConditions" : [
+	{ "type" : "gather", "tag" : "ancientarmor", "consume" : false }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

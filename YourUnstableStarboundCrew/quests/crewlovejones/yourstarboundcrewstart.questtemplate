@@ -1,0 +1,16 @@
+{
+  "id" : "yourstarboundcrewstart.gearup",
+  "title" : "^green;Human Distress",
+  "text" : "Hey! You! I just got a distress signal from some forest planet, but I'm a little busy making cakes and some coffee for strangers. Think you could help a fellow human out? I think their ship crashed or something like that.",
+  "completionText" : "Phew! Thank goodness someone came to my rescue! I'm Commander Hart of...oh, what does it matter? My ship is destroyed as it is. Oh? You recently got yours up and running? I might have something on that wrecked ship that might interest you!",
+  "completionConditions" : [
+ 
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [ ],
+  "canBeAbandoned" : false,
+  "followUp" : "crewlovejonesmission.gearup",
+  "associatedMission" : "crewlovejones",
+  "requireTurnIn" : true
+}
+ 

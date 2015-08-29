@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinposter2",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 100,
+	"shortdescription" : "Felin Model Poster",
+	"description" : "A nice pinup poster of a felin model.",
+	"race" : "felin",
+	"apexDescription" : "This lady could go up against Big Ape.",
+	"avianDescription" : "Some seductress character, if I remember right.",
+	"floranDescription" : "Big fat cat tats.",
+	"glitchDescription" : "Bemused. This felin does nothing for me.",
+	"humanDescription" : "Are you seducing me, ma'am?",
+	"hylotlDescription" : "Button up that jacket.",
+	"felinDescription" : "Mio the Seductress, action shot.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinposter40.png:1",
+			"imagePosition" : [-20, -16],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

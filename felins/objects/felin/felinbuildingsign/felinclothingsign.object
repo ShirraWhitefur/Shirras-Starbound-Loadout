@@ -1,0 +1,37 @@
+{
+	"objectName" : "felinclothingsign",
+	"tags" : [ "felin", "felinvillage" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 50,
+	"shortdescription" : "Felin 'Clothing' Sign",
+	"description" : "'Clothing.'",
+	"race" : "felin",
+	"inventoryIcon" : "felinbuildingsign.png:clothing.icon",
+	"orientations" : [
+		{
+			"image" : "felinbuildingsign.png:clothing.top",
+			"imagePosition" : [-8, -8],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "top" ]
+		},
+		{
+			"image" : "felinbuildingsign.png:clothing.side",
+			"imagePosition" : [-8, -8],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "left" ]
+		},
+		{
+			"image" : "felinbuildingsign.png:clothing.side",
+			"imagePosition" : [-8, -8],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "right" ]
+		}
+	]
+}

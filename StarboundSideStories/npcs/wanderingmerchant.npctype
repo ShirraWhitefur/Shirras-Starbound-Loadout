@@ -1,0 +1,152 @@
+{
+  "type" : "wanderingmerchant",
+  "baseType" : "merchant",
+
+  "damageTeam" : 1,
+  
+  "levelVariance" : [-0.5, -0.5],
+
+  "disableWornArmor" : true,
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/scripts/pathing.lua",
+    "/npcs/timers.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/chatState.lua",
+    "/npcs/sitState.lua",
+    "/npcs/sleepState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/merchant/merchantState.lua"
+  ],
+
+  "scriptConfig" : {
+	"offeredQuests" : [ "wanderingmerchant1.gearup" ],
+	"turnInQuests" : [ "wanderingmerchant1.gearup" ],
+    "noticePlayersRadius" : 30.0,
+
+    "merchant" : {
+      "storeRadius" : -1,
+      "categories" : [ "randomguns", "randomswords" ],
+      "priceVarianceRange" : [0.75, 1.25],
+      "numItems" : 10
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 5,
+      "swingTime" : 0.4,
+      "swingCooldownTime" : 0.6,
+      "runThreshold" : 9,
+      "searchTime" : 10,
+      "backoffDistanceRange" : [8.0, 12.0],
+      "repositionCooldownTimeRange" : [2.0, 3.0]
+    },
+
+    "rangedAttack" : {
+      "minDistance" : 10,
+      "maxDistance" : 30,
+      "coverYOffset" : -1.5,
+      "coverYClearanceOffset" : 0.5,
+      "coverDistance" : 2.5,
+      "coverHideTimeRange" : [0.5, 1.0],
+      "coverFireTimeRange" : [1.0, 3.0],
+      "attackerSpacing" : 2.5,
+      "searchTime" : 10
+    }
+  },
+
+  "items" : {
+    "human" : [
+      [0, [
+          {
+            "chest" : [ "sweatervestchest", "conceptchest", "coolchest", "workoutchest" ],
+            "legs" : [ "conceptlegs", "coollegs", "workoutlegs" ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
+          }
+        ] ]
+    ],
+    "avian" : [
+      [0, [
+          {
+            "chest" : [ "avianadventurershirt", "aviancommonershirt", "avianfancyshirt", "avianworkershirt" ],
+            "legs" : [ "avianadventurerpants", "aviancommonerlegs", "avianfancyskirt" ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
+          }
+        ] ]
+    ],
+    "apex" : [
+      [0, [
+          {
+            "chest" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket" ],
+            "legs" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
+          }
+        ] ]
+    ],
+    "floran" : [
+      [0, [
+          {
+            "chest" : [ "floranfurnivourchest", "floranhunterchest", "floranleafchest", "floranpeltchest" ],
+            "legs" : [ "floranfurnivourlegs", "floranhunterlegs", "floranleaflegs", "floranpeltlegs" ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
+          }
+        ] ]
+    ],
+    "glitch" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "craftsmenchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : 1 } } ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
+          },
+          {
+            "chest" : [ { "name" : "craftsmenchest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : 4 } } ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
+          },
+          {
+            "chest" : [ { "name" : "craftsmenchest", "parameters" : { "colorIndex" : 5 } } ],
+            "legs" : [ { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : 5 } } ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
+          },
+          {
+            "chest" : [ { "name" : "craftsmenchest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : 6 } } ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
+          },
+          {
+            "chest" : [ { "name" : "craftsmenchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : 7 } } ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
+          },
+          {
+            "chest" : [ { "name" : "craftsmenchest", "parameters" : { "colorIndex" : 8 } } ],
+            "legs" : [ { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : 8 } } ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
+          },
+          {
+            "chest" : [ { "name" : "craftsmenchest", "parameters" : { "colorIndex" : 9 } } ],
+            "legs" : [ { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : 9 } } ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
+          }
+        ] ]
+    ],
+    "hylotl" : [
+      [0, [
+          {
+            "chest" : [ "kimonochest", "monkchest", "traditionalchest", "traineechest" ],
+            "legs" : [ "kimonolegs", "monklegs", "traditionallegs", "traineelegs" ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ]
+          }
+        ] ]
+    ]
+  }
+}

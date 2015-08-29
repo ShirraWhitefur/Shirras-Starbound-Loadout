@@ -1,0 +1,3 @@
+[
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup", "value" : [ "pioneer2pants", "pioneer2chest", "pioneer2head" ] }
+]

@@ -1,0 +1,9 @@
+{
+  "itemName" : "eclipsecomb",
+  "rarity" : "Rare",
+  "inventoryIcon" : "eclipsecomb.png",
+  "description" : "A pitch black comb. It contains traces of hematite.",
+  "shortdescription" : "Eclipse Honeycomb",
+  "handPosition" : [0.0, 0],
+  "fuelAmount" : 25
+}

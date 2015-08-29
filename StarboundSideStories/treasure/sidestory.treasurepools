@@ -1,0 +1,321 @@
+{
+   "explorecapsule" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.05, "item" : ["ancientcore", 2]},
+        {"weight" : 0.4, "item" : ["ancientcore", 1]},
+		{"weight" : 0.1, "item" : ["money", 1000]},
+		{"weight" : 0.05, "item" : ["money", 3000]},
+        {"weight" : 0.05, "item" : ["teleportercore"] },
+        {"weight" : 0.1, "item" : ["diamond", 3] },
+        {"weight" : 0.025, "item" : ["blanktechcard"] },
+        {"weight" : 0.05, "item" : ["humanstoragelocker"] }
+      ],
+      "poolRounds" : [
+        [0.1, 2],
+        [0.9, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+  "ancienttreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["ancientcore", 1]},
+		{"weight" : 0.1, "item" : ["money", 3000]},
+        {"weight" : 0.05, "item" : ["ancientcore", 2]},
+        {"weight" : 0.1, "item" : [ "nanowrap", 6]},
+        {"weight" : 0.1, "pool" : "uncommonMelee"},
+        {"weight" : 0.02, "pool" : "uniqueMelee"},
+        {"weight" : 0.1, "pool" : "rareGun"},
+        {"weight" : 0.02, "pool" : "legendaryGun"},
+        {"weight" : 0.1, "item" : ["teleportercore"] },
+        {"weight" : 0.1, "item" : ["humanstoragelocker"] }
+      ],
+      "poolRounds" : [
+        [0.9, 2],
+        [0.1, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+  "ancienttentacletreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.01, "item" : ["ancientarmor3pants", 1]},
+        {"weight" : 0.01, "item" : ["ancientarmor3chest", 1]},
+        {"weight" : 0.01, "item" : [ "ancientarmor3head", 1]},
+        {"weight" : 0.01, "item" : [ "ancientbroadsword2", 1]},
+        {"weight" : 0.01, "item" : [ "ancientshortsword2", 1]},
+        {"weight" : 0.01, "item" : [ "ancientshotgun2", 1]},
+        {"weight" : 0.01, "item" : [ "ancientrocket2", 1]},
+        {"weight" : 0.1, "pool" : "uncommonMelee"},
+        {"weight" : 0.01, "pool" : "uniqueMelee"},
+        {"weight" : 0.01, "pool" : "legendaryGun"},
+        {"weight" : 0.05, "item" : ["diamond"] },
+        {"weight" : 0.3, "item" : ["ancientcore"] }
+      ],
+      "poolRounds" : [
+        [0.2, 2],
+        [0.8, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+  "amulettreasure1" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.2, "item" : ["amulet1attack", 1]},
+		{"weight" : 0.2, "item" : ["amulet1energy", 1]},
+        {"weight" : 0.2, "item" : ["amulet1glow", 1]},
+        {"weight" : 0.2, "item" : [ "amulet1protect", 1]},
+        {"weight" : 0.2, "item" : ["amulet1run", 1] },
+        {"weight" : 0.001, "item" : ["amulet2attack", 1]},
+		{"weight" : 0.001, "item" : ["amulet2energy", 1]},
+        {"weight" : 0.001, "item" : ["amulet2glow", 1]},
+        {"weight" : 0.001, "item" : [ "amulet2protect", 1]},
+        {"weight" : 0.001, "item" : ["amulet2run", 1] }
+      ],
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+  "amulettreasure2" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.2, "item" : ["amulet2attack", 1]},
+		{"weight" : 0.2, "item" : ["amulet2energy", 1]},
+        {"weight" : 0.2, "item" : ["amulet2glow", 1]},
+        {"weight" : 0.2, "item" : [ "amulet2protect", 1]},
+        {"weight" : 0.2, "item" : ["amulet2run", 1] },
+        {"weight" : 0.001, "item" : ["amulet3attack", 1]},
+		{"weight" : 0.001, "item" : ["amulet3energy", 1]},
+        {"weight" : 0.001, "item" : ["amulet3glow", 1]},
+        {"weight" : 0.001, "item" : [ "amulet3protect", 1]},
+        {"weight" : 0.001, "item" : ["amulet3run", 1] }
+      ],
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+  "amulettreasure3" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.2, "item" : ["amulet3attack", 1]},
+		{"weight" : 0.2, "item" : ["amulet3energy", 1]},
+        {"weight" : 0.2, "item" : ["amulet3glow", 1]},
+        {"weight" : 0.2, "item" : [ "amulet3protect", 1]},
+        {"weight" : 0.2, "item" : ["amulet3run", 1] },
+        {"weight" : 0.001, "item" : ["amulet4attack", 1]},
+		{"weight" : 0.001, "item" : ["amulet4energy", 1]},
+        {"weight" : 0.001, "item" : ["amulet4glow", 1]},
+        {"weight" : 0.001, "item" : [ "amulet4protect", 1]},
+        {"weight" : 0.001, "item" : ["amulet4run", 1] }
+      ],
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+  "amulettreasure4" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.2, "item" : ["amulet4attack", 1]},
+		{"weight" : 0.2, "item" : ["amulet4energy", 1]},
+        {"weight" : 0.2, "item" : ["amulet4glow", 1]},
+        {"weight" : 0.2, "item" : [ "amulet4protect", 1]},
+        {"weight" : 0.2, "item" : ["amulet4run", 1] }
+      ],
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+  
+   "sidestorybounties" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : ["money", 5000]}
+      ],
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+  
+   "sidestoryvaluable" : [
+    [0, {
+      "poolRounds" : [
+        [0.1, 2],
+        [0.9, 1]
+      ],
+      "pool" : [
+        {"weight" : 0.3, "item" : "techchip"},
+        {"weight" : 0.3, "item" : "colonydeed"},
+        {"weight" : 0.3, "item" : "manipulatormodule"},
+        {"weight" : 0.2, "item" : "upgradecomponent"},
+        {"weight" : 0.1, "item" : "teleportercore"},
+        {"weight" : 0.0, "item" : "autochip"}
+      ]
+    }]
+  ],
+  
+  
+   "sidestoryvaluable2" : [
+    [0, {
+      "poolRounds" : [
+        [0.1, 2],
+        [0.9, 1]
+      ],
+      "pool" : [
+        {"weight" : 0.025, "item" : "techchip"},
+        {"weight" : 0.9, "item" : "colonydeed"},
+        {"weight" : 0.075, "item" : "manipulatormodule"}
+      ]
+    }]
+  ],
+  
+  
+   "ssrarefurniture" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 0.3, "item" : "tenantcoolcomputer"},
+        {"weight" : 0.3, "item" : "tenantminingchest"},
+        {"weight" : 0.3, "item" : "tenantgaragetools"},
+        {"weight" : 0.3, "item" : "tenantcider"},
+        {"weight" : 0.3, "item" : "tenanthylotllilydeco1"},
+        {"weight" : 0.3, "item" : "tenantcookingpot"},
+        {"weight" : 0.3, "item" : "tenanttreasurebox"},
+        {"weight" : 0.3, "item" : "tenantmedievaldesk2"},
+        {"weight" : 0.3, "item" : "tenantmask"}
+      ]
+    }]
+  ],
+  
+  
+   "sstechupgrades" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 0.5, "item" : "techchip"},
+        {"weight" : 0.5, "item" : "manipulatormodule"}
+      ]
+    }]
+  ],
+  
+  
+   "sstools" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 0.3, "item" : "copperpickaxe"},
+        {"weight" : 0.3, "item" : "silverpickaxe"},
+        {"weight" : 0.3, "item" : "goldpickaxe"},
+        {"weight" : 0.3, "item" : "platinumpickaxe"},
+        {"weight" : 0.3, "item" : "diamondpickaxe"},
+        {"weight" : 0.3, "item" : ["torch", 15]}
+      ]
+    }]
+  ],
+  
+  
+   "ssmeds" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 0.7, "item" : ["bandage", 15]},
+		{"weight" : 0.3, "item" : ["medpack", 15]}
+      ]
+    }]
+  ],
+  
+  
+   "ssfuel" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 0.7, "item" : ["liquidfuel", 500]},
+		{"weight" : 0.3, "item" : ["liquidfuel", 750]}
+      ]
+    }]
+  ],
+  
+  
+   "sscolonydeeds" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "item" : "colonydeed"}
+      ]
+    }]
+  ],
+  
+  
+   "ssarcheology" : [
+    [0, {
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 0.3, "item" : [ "paintingapespeare", 1]},
+		{"weight" : 0.3, "item" : [ "paintingapexpixellisa", 1]},
+		{"weight" : 0.3, "item" : [ "paintinggothic", 1]},
+		{"weight" : 0.3, "item" : [ "paintingmonalisa", 1]},
+		{"weight" : 0.3, "item" : [ "paintingshakespeare", 1]},
+		{"weight" : 0.3, "item" : [ "paintingstarrynight", 1]},
+		{"weight" : 0.4, "item" : [ "venusdepixel", 1]},
+		{"weight" : 0.4, "item" : [ "goldenducky", 1]},
+		{"weight" : 0.4, "item" : [ "goldenjar1", 1]},
+		{"weight" : 0.4, "item" : [ "goldenurn", 1]},
+		{"weight" : 0.1, "item" : [ "diamonddisplay", 1]},
+		{"weight" : 0.5, "item" : [ "goldenpedestal", 1]},
+		{"weight" : 0.4, "item" : [ "goldvase1", 1]},
+		{"weight" : 0.4, "item" : [ "goldvase2", 1]},
+		{"weight" : 0.4, "item" : [ "goldvase3", 1]},
+		{"weight" : 0.4, "item" : [ "goldvase4", 1]},
+		{"weight" : 0.4, "item" : [ "goldvase5", 1]},
+		{"weight" : 0.3, "item" : [ "grail", 1]}
+      ]
+    }]
+  ]
+}

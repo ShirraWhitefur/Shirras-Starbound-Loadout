@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ghostlywax", "count" : 15 }, { "item" : "money", "count" : 200 }, { "item" : "glassmaterial", "count" : 20 }, { "item" : "beesilk", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "beewings",
+    "count" : 1
+  },
+  "groups" : [ "mod", "beestation", "armor", "all" ]
+}

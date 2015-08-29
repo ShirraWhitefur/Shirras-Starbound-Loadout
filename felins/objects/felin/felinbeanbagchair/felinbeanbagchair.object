@@ -1,0 +1,26 @@
+{
+	"objectName" : "felinbeanbagchair",
+	"tags" : [ "felin", "felinvillage" ],
+	"rarity" : "common",
+	"objectType" : "loungeable",
+	"description" : "It's a beanbag chair!",
+	"shortdescription" : "Beanbag Chair",
+	"race" : "felin",
+	"category" : "furniture",
+	"price" : 75,
+	"inventoryIcon" : "felinbeanbagchairicon.png",
+	"retainObjectParametersInItem" : true,
+	"orientations" : [
+		{
+			"leftImage" : "felinbeanbagchair.png:<color>.0",
+			"rightImage" : "felinbeanbagchair.png:<color>.1",
+			"imagePosition" : [-12, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"sitFlipDirection" : false,
+	"sitPosition" : [1, 22]
+}

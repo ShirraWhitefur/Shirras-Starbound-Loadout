@@ -1,0 +1,30 @@
+{	//CHELISE IS COOL [sic]
+	//Celise pralob oee
+	"objectName" : "felingraffiti1",
+	"tags" : [ "felin", "felinvillage", "felinwriting" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 1,
+	"smashOnBreak" : true,
+	"description" : "Graffiti. A nice sentiment, but wrong.",
+	"shortdescription" : "Felin Graffiti",
+	"race" : "felin",
+	"apexDescription" : "Chelise is cool. Who is this Chelise?",
+	"avianDescription" : "Who's cool now?",
+	"floranDescription" : "Floran not sure what thisss say.",
+	"glitchDescription" : "Curious. Something seems off.",
+	"humanDescription" : "Cerise?",
+	"hylotlDescription" : "I had such high hopes.",
+	"felinDescription" : "Chelsie, not Chelise. Dumbass writer.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felingraffiti1.png",
+			"imagePosition" : [-12, -8],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "laserhead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "laserhead.png"
+  },
+
+"parameters" :
+  {
+  }
+}
+

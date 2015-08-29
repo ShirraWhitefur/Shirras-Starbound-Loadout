@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "emerald", "count" : 6 }
+  ],
+  "output" : { "item" : "emeralddrill", "count" : 1 },
+  "groups" : [ "scifianvil", "tools", "all" ]
+}

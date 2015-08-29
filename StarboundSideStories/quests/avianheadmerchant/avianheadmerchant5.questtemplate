@@ -1,0 +1,16 @@
+  {
+  "id" : "avianheadmerchant5.gearup",
+  "prerequisites" : [ "avianheadmerchant4.gearup" ],
+  "title" : "^orange;Merchant Glory 4",
+  "text" : "This order came in from a Glitch. They want one of those hourglasses found in Glitch castles. If you can find it I'll pay double its value!",
+  "completionText" : "Dang, you're good. The Glitch will be incredibly happy with his purchase thanks to you.",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "hourglass", "count" : 1, "consume" : true }
+  ],
+  "moneyRange" : [700, 800],
+  "rewards" : [
+     
+   ],
+  "requireTurnIn" : true
+}
+ 

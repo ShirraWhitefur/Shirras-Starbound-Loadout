@@ -1,0 +1,38 @@
+[
+  { 
+  "op" : "add", 
+  "path" : "/icesphereChest",
+  "value" : 
+  [
+    {
+      "containers" : [ "icespherechest" ],
+      "treasurePool" : "icesphereChestTreasure",
+      "minimumLevel" : 0
+    }
+  ]
+  },
+  { 
+  "op" : "add", 
+  "path" : "/heckChest",
+  "value" : 
+  [
+    {
+      "containers" : [ "heckchest" ],
+      "treasurePool" : "heckChestTreasure",
+      "minimumLevel" : 0
+    }
+  ]
+  },
+  { 
+  "op" : "replace", 
+  "path" : "/hiveChest",
+  "value" : 
+  [
+    {
+      "containers" : [ "hivechest" ],
+      "treasurePool" : "hiveChestTreasure",
+      "minimumLevel" : 0
+    }
+  ]
+  }
+]

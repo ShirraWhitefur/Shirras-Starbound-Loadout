@@ -1,0 +1,193 @@
+[
+  {
+    "op" : "add",
+    "path" : "/starmapTypeColor/purplestar",
+    "value" : [185, 65, 215, 255]
+  },
+  {
+    "op" : "add",
+    "path" : "/starmapTypeDescription/purplestar",
+    "value" : "Mysterious Star"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/gardenms",
+    "value" : "A ^#76fe68;garden ^white;world."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/gardenmsapex",
+    "value" : "A ^#76fe68;garden ^white;world inhabited\nby apex."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/gardenmshuman",
+    "value" : "A ^#76fe68;garden ^white;world inhabited by humans."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/forestms",
+    "value" : "A ^#15ce02;forest ^white;world."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/forestmsfloran",
+    "value" : "A ^#15ce02;forest ^white;world inhabited by florans."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/forestmshuman",
+    "value" : "A ^#15ce02;forest ^white;world inhabited by humans."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/desertms",
+    "value" : "A ^#e6c801;desert ^white;world."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/desertmsavian",
+    "value" : "A ^#e6c801;desert ^white;world inhabited by avians."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/snowms",
+    "value" : "A ^#69f1fd;snow ^white;world."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/snowmsglitch",
+    "value" : "A ^#69f1fd;snow ^white;world inhabited by glitch."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/savannahms",
+    "value" : "A ^#ffe21d;savannah ^white;world."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/savannahmsavian",
+    "value" : "A ^#ffe21d;savannah ^white;world inhabited by avians."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/oceanms",
+    "value" : "An ^#008aff;ocean ^white;world."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/toxicms",
+    "value" : " A ^#06ff00;toxic ^white;world.\n^red;* IRRADIATED\n^red;* NON-BREATHABLE"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/junglems",
+    "value" : "A ^#12a003;jungle ^white;world.\n^red;* IRRADIATED"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/junglemsfloran",
+    "value" : "A ^#12a003;jungle ^white;world inhabited\nby florans.\n^red;* IRRADIATED"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/junglemsapex",
+    "value" : "A ^#12a003;jungle ^white;world inhabited\nby apex.\n^red;* IRRADIATED"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/alienms",
+    "value" : "An ^#7800ff;alien ^white;world.\n^red;* IRRADIATED\n^red;* NON-BREATHABLE"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/arcticms",
+    "value" : "An ^#00ffe4;arctic ^white;world.\n^red;* EXTREME COLD"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/tundrams",
+    "value" : "An ^#61ffe3;ice ^white;world.\n^red;* EXTREME COLD"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/volcanicms",
+    "value" : "A ^#e11212;volcanic ^white;world.\n^red;* EXTREME HEAT\n^red;* NON-BREATHABLE"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/scorchedms",
+    "value" : "A ^#b24301;scorched ^white;world.\n^red;* EXTREME HEAT\n^red;* NON-BREATHABLE"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/scorchedmsglitch",
+    "value" : "A ^#b24301;scorched ^white;world inhabited\nby glitch.\n^red;* EXTREME HEAT\n^red;* NON-BREATHABLE"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/magmams",
+    "value" : "A ^#ff1818;magma ^white;world.\n^red;* EXTREME HEAT\n^red;* NON-BREATHABLE"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/tentaclesms",
+    "value" : "A ^#fa58f4;tentacle ^white;world.\n^red;* NON-BREATHABLE"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/moonms",
+    "value" : "A ^#949493;lunar^white; world.\n^red;* EXTREME COLD\n^red;* NON-BREATHABLE"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/asteroidfieldms",
+    "value" : "An ^#d7711e;asteroid ^white;field.\n^red;* EXTREME COLD\n^red;* NON-BREATHABLE"
+  },
+  {
+    "op" : "add",
+    "path" : "/threatLevelToColor/-",
+    "value" : [ 169, 1, 219]
+  },
+  {
+    "op" : "add",
+    "path" : "/threatLevelToColor/-",
+    "value" : [ 169, 1, 219]
+  },
+  {
+    "op" : "add",
+    "path" : "/threatLevelToColor/-",
+    "value" : [ 169, 1, 219]
+  },
+  {
+    "op" : "add",
+    "path" : "/threatLevelToColor/-",
+    "value" : [ 169, 1, 219]
+  },
+  {
+    "op" : "add",
+    "path" : "/threatLevelToText/-",
+    "value" : "???"
+  },
+  {
+    "op" : "add",
+    "path" : "/threatLevelToText/-",
+    "value" : "???"
+  },
+  {
+    "op" : "add",
+    "path" : "/threatLevelToText/-",
+    "value" : "???"
+  },
+  {
+    "op" : "add",
+    "path" : "/threatLevelToText/-",
+    "value" : "???"
+  },
+  
+  {
+    "op" : "replace",
+    "path" : "/planetTypeToDescription/asteroids",
+    "value" : "An ^#d7711e;asteroid ^white;field.\n^red;* NON-BREATHABLE"
+  }
+]

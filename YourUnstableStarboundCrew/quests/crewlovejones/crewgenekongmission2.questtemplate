@@ -1,0 +1,18 @@
+{
+  "id" : "crewgenekongmission2.gearup",
+  "prerequisites" : [ "crewgenekongmission.gearup" ], 
+  "title" : "^green;Trusty Teleportation Part Two!",
+  "text" : "Well...this was not expected. Uh...let me think for a moment...hm. Okay, we might be able to make it to my ship, which has a teleporter in it. I'm going to search the surface to see if I can't get in, you go through what's left of my base. Ugh. At least we know the teleporter works...",
+  "completionText" : "Well my base is destroyed and my ship is wrecked. Still offering a spot on your crew? If you take out my computer out of my storage locker and put it on your ship, I'll appear and help you. Thanks for your kindness, captain.",
+  "completionConditions" : [
+ 
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "colonydeed", 1] ]
+   ],
+  "canBeAbandoned" : false,
+  "associatedMission" : "crewgenekong",
+  "requireTurnIn" : true
+}
+ 

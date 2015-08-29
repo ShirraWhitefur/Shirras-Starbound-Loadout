@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "orangeteleportercore", "count" : 1 },
+    { "item" : "durasteelbar", "count" : 2 },
+    { "item" : "circuitboard", "count" : 1 },
+    { "item" : "glassmaterial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "portableteleporter",
+    "count" : 1
+  },
+  "groups" : [ "ironcraftingtable", "objects", "tools", "all" ]
+}

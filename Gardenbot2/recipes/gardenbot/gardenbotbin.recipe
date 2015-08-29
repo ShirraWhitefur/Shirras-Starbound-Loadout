@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 15 }
+  ],
+  "output" : {
+    "item" : "gardenbotcropbin",
+    "count" : 1
+  },
+  "groups" : [ "mod", "craftingtable", "objects", "all" ]
+}

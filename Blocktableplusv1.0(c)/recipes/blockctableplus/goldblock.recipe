@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 1 }
+  ],
+  "output" : { "item" : "goldblock", "count" : 4 },
+  "groups" : [ "blocktableplus", "materials", "all", "wall" ]
+}

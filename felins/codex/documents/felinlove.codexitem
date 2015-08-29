@@ -1,0 +1,10 @@
+{
+	"codexId" : "felinlove",
+	"title" : "The Book of Love",
+	"codexkind" : "codex",
+	"itemName" : "felinloveCodex",
+	"inventoryIcon" : "felinbook_05.png",
+	"rarity" : "common",
+	"description" : "A Reference Guide",
+	"shortdescription" : "The Book of Love"
+}

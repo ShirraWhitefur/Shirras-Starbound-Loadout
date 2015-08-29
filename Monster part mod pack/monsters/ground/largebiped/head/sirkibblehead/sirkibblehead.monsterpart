@@ -1,0 +1,14 @@
+{
+  "name" : "sirkibblehead",
+  "category" : "largebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "sirkibblehead.png"
+  },
+
+ "parameters" :
+  {
+  }
+}
+

@@ -1,0 +1,4 @@
+[
+  { "op": "replace", "path": "/shortdescription", "value": "Wire Tool" },
+  { "op": "replace", "path": "/image", "value": "/items/tools/wiringgun2.png" }
+]

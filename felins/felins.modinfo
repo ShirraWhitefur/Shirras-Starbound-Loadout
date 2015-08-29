@@ -1,0 +1,41 @@
+{
+	"name" : "Felins",
+	"path" : ".",
+	"requires" : [],
+	"includes" : [],
+	"metadata" : {
+		"version" : "3.5.5",
+		"author" : "Kawa",
+		"description" : "Catgirls in Space!",
+		"thanks" : {
+			"Corrigane" : [ "suggestions" ],
+			"ECC" : [ "suggestions", "conlang" ],
+			"H1N1theI" : [ "conlang" ],
+			"HammerGuy" : [ "suggestions" ],
+			"HS_Elly" : [ "architecture" ],
+			"Hylotl" : [ "suggestions" ],
+			"Letrune" : [ "design", "names", "conlang" ],
+			"metadept" : [ "being awesome" ],
+			"MinPrinny" : [ "weapons" ],
+			"ODABUTSU" : [ "hair" ],
+			"OmnipotentEntity" : [ "also being awesome" ],
+			"PorkBellyMon" : [ "suggestions" ],
+			"RyuujinZERO" : [ "pillows from Avali mod" ],
+			"odverb" : [ "suggestions" ],
+			"SpaceKGreen" : [ "weapons" ],
+			"StarWeaver" : [ "respawn stopgap" ],
+			"teihoo" : [ "suggestions", "testing" ],
+			"Tullehar" : [ "weapons" ],
+			"xXRainbowHugzXx" : [ "suggestions" ],
+			"Kevin MacLeod" : [ "CC music" ]
+		},
+		"documentation" : "http://helmet.kafuka.org/thepile/Felins",
+		"repository" : "http://community.playstarbound.com/index.php?resources/felins.68/",
+		"extensions" : [
+			"http://community.playstarbound.com/index.php?resources/felins-object.1553/",
+			"http://community.playstarbound.com/index.php?resources/felins-intro-cinematic.2106/",
+			"http://community.playstarbound.com/resources/felins-fur.2848/",
+			"http://community.playstarbound.com/resources/felins-costumes.2925/"
+		]
+	}
+}

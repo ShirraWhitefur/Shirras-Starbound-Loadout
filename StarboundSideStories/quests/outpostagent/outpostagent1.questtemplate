@@ -1,0 +1,13 @@
+  {
+  "id" : "outpostagent1.gearup",
+  "title" : "^orange;All for Free?",
+  "text" : "Greetings, stranger! I've been trying to sell off this abandoned outpost for what seems like ages, and no one is taking me up on the offer...",
+  "completionText" : "I see that sparkle in your eye! The idea that you could run your own outpost, change it as you see fit...how about we forget the price? For now, that is, we'll just deal about that pixel issue later. For now, here's the deed to your own outpost!",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

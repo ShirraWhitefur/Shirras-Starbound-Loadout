@@ -1,0 +1,35 @@
+{
+	"objectName" : "felintrashcan",
+	"tags" : [ "felin", "storage", "odd" ],
+	"rarity" : "common",
+	"objectType" : "container",
+	"category" : "storage",
+	"price" : 30,
+	"description" : "An oddly nostalgic trash can.",
+	"shortdescription" : "Trash Can",
+	"race" : "generic",
+	"apexDescription" : "A trash can.",
+	"avianDescription" : "A trash can.",
+	"floranDescription" : "Trasssh can.",
+	"glitchDescription" : "Nostalgic. A trash can.",
+	"humanDescription" : "A recycle bin.",
+	"hylotlDescription" : "A trash can.",
+	"felinDescription" : "A barrel of laughs.",
+	"inventoryIcon" : "felintrashcanicon.png",
+	"orientations" : [
+		{
+			"image" : "felintrashcan.png",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"openSounds" : [ "/sfx/objects/locker_open.wav" ],
+	"closeSounds" : [ "/sfx/objects/locker_close.wav" ],
+	"slotCount" : 9,
+	"uiConfig" : "/interface/chests/chest%slots%.config",
+	"frameCooldown" : 67,
+	"autoCloseCooldown" : 3600
+}

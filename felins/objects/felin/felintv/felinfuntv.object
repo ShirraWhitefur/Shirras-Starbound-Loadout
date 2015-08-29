@@ -1,0 +1,52 @@
+{
+	"objectName" : "felinfuntv",
+	"tags" : [ "felin", "felinvillage", "electronic" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 300,
+	"description" : "An apex-made TV showing felin 'fun' shows.",
+	"shortdescription" : "Felin Fun TV",
+	"race" : "felin",
+	"apexDescription" : "There was supposed to be hidden propaganda. These cats are sly.",
+	"avianDescription" : "This is actually kind of horrible.",
+	"floranDescription" : "Floran sssay felin fun isss different from floran's.",
+	"glitchDescription" : "Embarrassment. I did not need to see this.",
+	"humanDescription" : "I suppose that could be considered fun...",
+	"hylotlDescription" : "I am shocked and amazed in equal measures.",
+	"felinDescription" : "Edutainment is key to felin society.",
+	"lightColor" : [28, 181, 238],
+	"flickerDistance" : 0.2,
+	"flickerStrength" : 0.05,
+	"flickerTiming" : 4,
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"imageLayers" : [ { "image" : "felinfuntv.png:default.<frame>", "fullbright" : true }, { "image" : "felinfuntv.png:lit" } ],
+			"imagePosition" : [-32, -16],
+			"direction" : "left",
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		},
+		{
+			"imageLayers" : [ { "image" : "felinfuntv.png:default.<frame>", "fullbright" : true }, { "image" : "felinfuntv.png:lit" } ],
+			"imagePosition" : [-32, -16],
+			"direction" : "right",
+			"flipImages" : false,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	],
+	"scripts" : [ "/objects/wired/switch/switch.lua" ],
+	"scriptDelta" : 5,
+	"animation" : "felinfuntv.animation",
+	"animationCustom" : {
+		"sounds" : {
+			"on" : [ "/sfx/objects/screen1.wav" ],
+			"off" : [ "/sfx/objects/screen2.wav" ]
+		}
+	},
+	"animationParts" : {
+		"switch" : "felinfuntv.png"
+	},
+	"animationPosition" : [-32, -16]
+}

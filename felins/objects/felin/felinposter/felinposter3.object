@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinposter3",
+	"tags" : [ "felin", "felinvillage", "pretty" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 100,
+	"shortdescription" : "Felin Hero Poster",
+	"description" : "A nice pinup poster of a felin hero.",
+	"race" : "felin",
+	"apexDescription" : "This cat looks like some kind of exotic dancer.",
+	"avianDescription" : "That's a nice top.",
+	"floranDescription" : "Floran likesss this cat.",
+	"glitchDescription" : "Intrigued. Why are her sleeves detached?",
+	"humanDescription" : "That costume looks oddly Arabic.",
+	"hylotlDescription" : "I'm sure this dance would look better in motion.",
+	"felinDescription" : "Shema the Dancer.",
+	"inventoryIcon" : "icon.png",
+	"orientations" : [
+		{
+			"image" : "felinposter40.png:2",
+			"imagePosition" : [-20, -16],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

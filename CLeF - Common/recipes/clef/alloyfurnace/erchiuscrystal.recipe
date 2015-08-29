@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "liquidfuel", "count" : 8 },
+    { "item" : "diamond", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "supermatter",
+    "count" : 1
+  },
+  "groups" : [ "alloyfurnace", "all" ]
+}

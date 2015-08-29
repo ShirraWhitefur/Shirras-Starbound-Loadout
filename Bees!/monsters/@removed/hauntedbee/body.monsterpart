@@ -1,0 +1,9 @@
+{
+  "name" : "hauntedbee",
+  "category" : "hauntedbee",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "hauntedbee.png"
+  }
+}

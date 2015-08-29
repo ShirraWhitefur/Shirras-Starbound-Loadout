@@ -1,0 +1,39 @@
+{
+  "objectName" : "tribalblocktable",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/blocktableplus.config",
+    "filter" : [ "blocktableplus" ]
+  },
+  "printable" : false,
+  "description" : "you can craft any block you have found on your travels at this table.",
+  "shortdescription" : "Block Station",
+  "race" : "generic",
+  "category" : "Crafting",
+  "price" : 700,
+
+  "apexDescription" : "A table with a bunch of tools for a Builder to make his Dreams.",
+  "avianDescription" : "Now I can show off the technology I've found on my travels.",
+  "floranDescription" : "Floransss can ussse table to help make housesss.",
+  "glitchDescription" : "Scanning HDD. Block crafting module activated.",
+  "humanDescription" : "I can recreate blocks I've found on my travels here.",
+  "hylotlDescription" : "A chance to Build.",
+
+  "inventoryIcon" : "tribalblocktableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tribalblocktable.png",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "none"
+
+    }
+  ]
+}
+

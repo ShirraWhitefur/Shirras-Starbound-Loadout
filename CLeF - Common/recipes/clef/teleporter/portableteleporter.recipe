@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1000 },
+    { "item" : "orangeteleportercore", "count" : 1 }
+  ],
+  "output" : { "item" : "portableteleporter", "count" : 1 },
+  "groups" : [ "teleshop" ]
+}

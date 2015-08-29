@@ -1,0 +1,9 @@
+{
+  "itemName" : "darkdust",
+  "rarity" : "legendary",
+  "inventoryIcon" : "darkdust.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Dust as black.. or red..? as night.",
+  "shortdescription" : "Dark Dust",
+  "learnBlueprintsOnPickup" : [ "blackflame" ]
+}

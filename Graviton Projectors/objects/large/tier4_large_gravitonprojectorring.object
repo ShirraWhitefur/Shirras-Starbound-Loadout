@@ -1,0 +1,60 @@
+{
+  "objectName" : "tier4_large_gravitonprojectorring",
+  "printable" : false,
+  "rarity" : "common",
+  "category" : "wire",
+  "price" : 3000,
+  "description" : "An large durasteel-encased device that projects a graviton field.",
+  "shortdescription" : "Gravring Model LD2",
+  "race" : "generic",
+ 
+  "apexDescription" : "An large durasteel-encased device that projects a graviton field.",
+  "avianDescription" : "An large durasteel-encased device that projects a graviton field.",
+  "floranDescription" : "Thingsss go up!",
+  "glitchDescription" : "Analysis. An large durasteel-encased graviton field projection device.",
+  "humanDescription" : "An large durasteel-encased device that projects a graviton field.",
+  "hylotlDescription" : "An large durasteel-encased device that projects a graviton field.",
+ 
+  "inventoryIcon" : "/objects/icons/tier4_gravitonprojectorringicon.png",
+ 
+  "orientations" : [
+    {
+      "image" : "/animations/gravitondevices/tier4/tier4_large_gravitonprojectorring.png:default.off",
+      "imagePosition" : [0, -8], 
+      "animationParts" : {
+        "projector" : "/animations/gravitondevices/tier4/tier4_large_gravitonprojectorring.png",
+        "projectorlit" : "/animations/gravitondevices/tier4/tier4_large_gravitonprojectorringlit.png"
+      },
+      "animationPosition" : [0, -8],
+      "spaceScan" : 0.85,
+      "anchors" : [ "left", "right" ],
+      "collision" : "solid"
+    }
+  ],
+ 
+  "animation" : "/animations/gravitondevices/tier4/tier4_gravitondevice.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/gravitonpulse_on.wav" ],
+      "off" : [ "/sfx/objects/gravitonpulse_off.wav" ]
+    }
+  },
+  "animationParts" : {
+    "projector" : "/animations/gravitondevices/tier4/tier4_large_gravitonprojectorring.png",
+    "projectorlit" : "/animations/gravitondevices/tier4/tier4_large_gravitonprojectorringlit.png"
+  },
+  "animationPosition" : [0, -8],
+ 
+  "inboundNodes" : [ [ 0, 0 ] ],
+  "outboundNodes" : [ [ 6, 0 ] ],
+ 
+  "scripts" : [ "/scripts/gravitonprojectorring.lua" ],
+  "scriptDelta" : 1,
+
+  "padcentrepoint" : 4.5,
+  "ringcentrepoint" : 3.5,
+  "fieldsize" : 2.25,
+  "forcestrength" : 2.1,
+  "devicesize" : "large",
+  "devicetier" : "tier4"
+}

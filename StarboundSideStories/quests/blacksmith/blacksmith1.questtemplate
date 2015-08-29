@@ -1,0 +1,13 @@
+  {
+  "id" : "blacksmith1.gearup",
+  "title" : "^orange;The Blacksmith",
+  "text" : "Surprise. Your armor is impressive, did you craft it? You did. Very impressive. I am Smithclink, the black smith.",
+  "completionText" : "Happy. You wish to help me become as good as you? I don't need to make the armor strong, I just enjoy the look of armor from all around the universe. Thank you!",
+  "completionConditions" : [
+  ],
+  "moneyRange" : [120, 150],
+  "rewards" : [ 
+   ],
+  "requireTurnIn" : true
+}
+ 

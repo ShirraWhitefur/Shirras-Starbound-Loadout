@@ -1,0 +1,14 @@
+{
+  "itemName" : "emeraldglassmaterial",
+  "rarity" : "rare",
+  "inventoryIcon" : "emeraldglass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "I can see my reflection... it's hideous, with emerald tint!",
+  "shortdescription" : "Emerald Glass Block",
+
+  "materialId" : 8764,
+
+  "learnBlueprintsOnPickup" : [
+    "emeraldglassmaterial"
+  ]
+}

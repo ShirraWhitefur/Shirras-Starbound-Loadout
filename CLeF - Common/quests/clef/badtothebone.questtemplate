@@ -1,0 +1,21 @@
+{
+  "id" : "badtothebone.gearup",
+  "prerequisites" : [ "glitchsilenttype3.gearup" ],
+  "requiredShipLevel" : 5,  
+  "title" : "^yellow;Bad To The Bone",
+  "text" : "Sad. How did I broke my voice box? It was fried by a monster. My pal tried to pull a prank and animated dead dragon's bones. The joker went so far he put a flamethrower into its mouth! Something has glitched and it turned hostile. Please, help us to stop it! Confident. You'll need a special bait to lure it. Have these schematics.",
+  "completionText" : "Surprised. You've brought one of its bones! Relief. That's a relief. Thankful. Words cannot express how much I'm grateful for your help! Here, have a blank tech card and a wallet of my pal. It's the smallest price he could repay for his deeds.",
+  "acceptItems" : [[ "pleaseprincess", 1]],
+  "completionConditions" : [
+    { "type" : "gather", "item" : "dragonbone", "count" : 1 }
+  ],
+  "moneyRange" : [5000, 10000],
+  "rewards" : [
+      [ [ "blanktechcard", 1 ] ]
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "",
+  "requireTurnIn" : true
+}
+ 

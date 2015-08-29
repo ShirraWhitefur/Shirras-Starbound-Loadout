@@ -1,0 +1,9 @@
+{
+  "name" : "anti_tinydreadstail",
+  "category" : "smallquadruped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "anti_tinydreadstail.png"
+  }
+}

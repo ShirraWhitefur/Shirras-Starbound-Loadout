@@ -1,0 +1,6 @@
+[
+	{ "op" : "add",
+		"path" : "/initialquests/felin",
+		"value" : [ "felintutorial.gearup" ]
+	}
+]

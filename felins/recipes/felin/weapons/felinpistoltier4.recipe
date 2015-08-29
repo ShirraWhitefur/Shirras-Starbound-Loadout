@@ -1,0 +1,7 @@
+{
+	"input" : [
+		{ "item" : "durasteelbar", "count" : 3 }
+	],
+	"output" : { "item" : "felintier4pistol", "count" : 1 },
+	"groups" : [ "scifianvil", "weapons", "all" ]
+}

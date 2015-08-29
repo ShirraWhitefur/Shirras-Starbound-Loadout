@@ -1,0 +1,280 @@
+{
+  "name" : "arcticms",
+  "friendlyName" : "Arctic",
+
+  "statusEffects" : [ "biomecold" ],
+
+  "spawnProfiles" : [
+    {
+      "groups" : [ "oceansurface1" ],
+      "extraSpawns" : [ "polarmoth", "orphanfly" ],
+      "monsterParameters" : {
+        "colors" : "arctic"
+      }
+    },
+    {
+      "groups" : [ "oceansurface2" ],
+      "extraSpawns" : [ "polarmoth", "snowskater" ],
+      "monsterParameters" : {
+        "colors" : "arctic"
+      }
+    }
+  ],
+
+  "hueShiftOptions" : [0],
+
+  "weather" : [
+    [0, [
+      "/weather.config:arcticNew",
+	  "/weather.config:arcticSnowy",
+	  "/weather.config:arcticMisty",
+	  "/weather.config:arcticHail",
+	  "/weather.config:arcticGlowingRain"
+    ]]
+  ],
+
+  "skyOptions" : [
+    {
+      // light muted blueish
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [203, 167, 56], [203, 108, 56] ],
+      "dayColors" : [ [179, 223, 251], [190, 190, 210] ],
+      "eveningColors" : [ [201, 169, 59], [195, 47, 44] ],
+      "nightColors" : [ [17, 19, 56, 80], [17, 19, 56, 160] ],
+
+      "morningLightColor" : [158, 121, 42],
+      "dayLightColor" : [190, 190, 210],
+      "eveningLightColor" : [124, 50, 38],
+      "nightLightColor" : [17, 19, 56]
+    },
+    {
+      // slight overcast
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [140, 140, 180], [120, 120, 180] ],
+      "dayColors" : [ [190, 190, 210], [170, 170, 210] ],
+      "eveningColors" : [ [160, 120, 180], [140, 100, 180] ],
+      "nightColors" : [ [26, 26, 31, 80], [26, 26, 31, 160] ],
+
+      "morningLightColor" : [140, 140, 180],
+      "dayLightColor" : [190, 190, 210],
+      "eveningLightColor" : [160, 120, 180],
+      "nightLightColor" : [26, 26, 31]
+    }
+
+  ],
+
+  "mainBlock" : "snow",
+  "subBlocks" : [ "slush", "ice" ],
+  "ores" : "surfaceOres",
+
+  "parallax" : "/parallax/surface/arctic.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/arctic_day.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/arctic_night.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/planetarium.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vastimmortalsuns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/arctic-exploration1.ogg", "/music/arctic-exploration2.ogg", "/music/haiku.ogg", "/music/M54.ogg", "/music/on-the-beach-at-night.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+    }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "snow" ],
+    "grassModDensity" : 0.9,
+
+    "items" : [
+	  {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDist",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:randomEncounter",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "randomencounter", "avianencounter", "glitchencounter" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibossoverground",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "minibossoverground" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "iceplatforming" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundChests",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "igloo" ]
+      },
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "snowdrift1" ], [0.35, "snowdrift2" ], [0.35, "snowdrift3" ], [0.35, "snowdrift4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpyLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "snowpinetree" ],
+        "treeFoliageList" : [ "icepinefoliage" ]
+      },
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSurfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildboltbulbseed" ] ],
+            "parameters" : {
+              "startingStage" : 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "snow" ],
+    "grassModDensity" : 0.2,
+
+    "items" : [
+	  {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "ceilingice", "ceilingthinice", "ceilingiceballs", "ceilingsnow" ]
+      }
+    ]
+  }
+}

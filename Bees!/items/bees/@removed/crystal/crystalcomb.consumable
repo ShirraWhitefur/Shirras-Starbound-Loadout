@@ -1,0 +1,22 @@
+{
+  "itemName" : "crystalcomb",
+  "rarity" : "Common",
+  "inventoryIcon" : "crystalcomb.png",
+  "description" : "A shiny crystal honey comb.",
+  "shortdescription" : "Crystal Honeycomb",
+  "handPosition" : [0.0, 0]
+,
+ 
+  "effects" : [ [
+    {
+        "effect" : "items/honeyheal1",
+        "duration" :60  },
+    {
+        "effect" : "fedhoney",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+     "fedhoney"
+  ]
+}

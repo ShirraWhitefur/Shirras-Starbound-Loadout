@@ -1,0 +1,25 @@
+{
+  "materialId" : 1285,
+  "materialName" : "aliendirt",
+  "particleColor" : [78, 61, 141, 255],
+  "itemDrop" : "aliendirt",
+  "description" : "Some rather bizarre dirt.",
+  "shortdescription" : "Alien Dirt",
+  "glitchDescription" : "Awestruck. I never thought I would live to see such colourful dirt.",
+  "floranDescription" : "Floran find colourful dirt funny.",
+  "footstepSound" : "/sfx/blocks/footstep_wetclay.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 1,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "aliendirt.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

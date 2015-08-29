@@ -1,0 +1,9 @@
+{
+  "name" : "anti_thintailquad",
+  "category" : "largequadruped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "anti_thintailquad.png"
+  }
+}

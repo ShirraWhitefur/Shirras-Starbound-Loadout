@@ -1,0 +1,13 @@
+{
+  "name" : "anti_slimehead",
+  "category" : "smallbiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "anti_slimehead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}

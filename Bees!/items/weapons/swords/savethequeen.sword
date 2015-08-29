@@ -1,0 +1,50 @@
+{
+  "itemName" : "savethequeen",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "level" : 6,
+  "rarity" : "Legendary",
+  "description" : "The high blade of the queen of bees.",
+  "shortdescription" : "Save the Queen",
+  "tooltipKind" : "sword",
+  "kind" : "Shortsword",
+
+  "image" : "savethequeen.png",
+  "firePosition" : [-2, 4],
+  "fireTime" : 0.6,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/queen/queen.wav" } ] },
+
+
+ "primaryStances" : {
+    "directional" : false,
+    "projectileType" : "queen",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 5.15
+    },
+	"idle" : {
+      "twoHanded" : false,
+      "armAngle" : 999,
+      "swordAngle" : 320,
+      "handPosition" : [-6, -2],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 90,
+      "swordAngle" : 115,
+      "handPosition" : [-6, -2],
+      "duration" : 0.2,
+      "statusEffects" : []
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -65,
+      "handPosition" : [-6, -6],
+      "duration" : 0.4,
+      "statusEffects" : []
+    }
+  }
+}

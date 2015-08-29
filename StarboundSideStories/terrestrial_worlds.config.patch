@@ -1,0 +1,436 @@
+[
+
+{"op": "add", "path": "/planetTypes/forest/layers/surface/dungeons/0", "value":"bugcatcher"},
+{"op": "add", "path": "/planetTypes/forest/layers/surface/dungeons/0", "value":"naturalcave2"},
+{"op": "add", "path": "/planetTypes/forest/layers/surface/dungeons/0", "value":"ancienttechdungeon"},
+{"op": "add", "path": "/planetTypes/forest/layers/surface/dungeons/0", "value":"bountydungeon"},
+{"op": "add", "path": "/planetTypes/forest/layers/surface/dungeons/0", "value":"wreck"},
+{"op": "add", "path": "/planetTypes/forest/layers/surface/dungeons/0", "value":"hylotlvillage"},
+{"op": "add", "path": "/planetTypes/forest/layers/surface/dungeons/0", "value":"hylotldungeon"},
+
+{"op": "add", "path": "/planetTypes/desert/layers/surface/dungeons/0", "value":"bugcatcher"},
+{"op": "add", "path": "/planetTypes/desert/layers/surface/dungeons/0", "value":"naturalcave2"},
+{"op": "add", "path": "/planetTypes/desert/layers/surface/dungeons/0", "value":"ancienttechdungeon"},
+{"op": "add", "path": "/planetTypes/desert/layers/surface/dungeons/0", "value":"bountydungeon"},
+{"op": "add", "path": "/planetTypes/desert/layers/surface/dungeons/0", "value":"wreck"},
+{"op": "add", "path": "/planetTypes/desert/layers/surface/dungeons/0", "value":"hylotlvillage"},
+{"op": "add", "path": "/planetTypes/desert/layers/surface/dungeons/0", "value":"hylotldungeon"},
+
+{"op": "add", "path": "/planetTypes/savannah/layers/surface/dungeons/0", "value":"bugcatcher"},
+{"op": "add", "path": "/planetTypes/savannah/layers/surface/dungeons/0", "value":"naturalcave2"},
+{"op": "add", "path": "/planetTypes/savannah/layers/surface/dungeons/0", "value":"ancienttechdungeon"},
+{"op": "add", "path": "/planetTypes/savannah/layers/surface/dungeons/0", "value":"bountydungeon"},
+{"op": "add", "path": "/planetTypes/savannah/layers/surface/dungeons/0", "value":"wreck"},
+{"op": "add", "path": "/planetTypes/savannah/layers/surface/dungeons/0", "value":"hylotlvillage"},
+{"op": "add", "path": "/planetTypes/savannah/layers/surface/dungeons/0", "value":"hylotldungeon"},
+
+{"op": "add", "path": "/planetTypes/ocean/layers/surface/dungeonCountRange", "value": [0, 1] },
+{"op": "add", "path": "/planetTypes/ocean/layers/surface/dungeons", "value": [ "wanderinghylotl" ] },
+
+{"op": "add", "path": "/planetTypes/moon/layers/surface/dungeonCountRange", "value": [0, 1] },
+{"op": "add", "path": "/planetTypes/moon/layers/surface/dungeons", "value": [ "ancienttechdungeon" ] },
+{"op": "add", "path": "/planetTypes/moon/layers/surface/dungeons", "value": [ "buildyourbase" ] },
+{"op": "add", "path": "/planetTypes/moon/layers/surface/dungeons", "value": [ "wreck" ] },
+
+{"op": "add", "path": "/planetTypes/arctic/layers/surface/dungeonCountRange", "value": [0, 1] },
+{"op": "add", "path": "/planetTypes/arctic/layers/surface/dungeons", "value": [ "wanderinghylotl" ] },
+
+{"op": "add", "path": "/planetTypes/jungle/layers/surface/dungeons/0", "value":"bugcatcher"},
+{"op": "add", "path": "/planetTypes/jungle/layers/surface/dungeons/0", "value":"ancienttechdungeon"},
+{"op": "add", "path": "/planetTypes/jungle/layers/surface/dungeons/0", "value":"bountydungeon"},
+{"op": "add", "path": "/planetTypes/jungle/layers/surface/dungeons/0", "value":"wreck"},
+{"op": "add", "path": "/planetTypes/jungle/layers/surface/dungeons/0", "value":"hylotlvillage"},
+{"op": "add", "path": "/planetTypes/jungle/layers/surface/dungeons/0", "value":"hylotldungeon"},
+
+{"op": "add", "path": "/planetTypes/snow/layers/surface/dungeons/0", "value":"avianfarmer"},
+{"op": "add", "path": "/planetTypes/snow/layers/surface/dungeons/0", "value":"naturalcave2"},
+{"op": "add", "path": "/planetTypes/snow/layers/surface/dungeons/0", "value":"ancienttechdungeon"},
+{"op": "add", "path": "/planetTypes/snow/layers/surface/dungeons/0", "value":"bountydungeon"},
+{"op": "add", "path": "/planetTypes/snow/layers/surface/dungeons/0", "value":"wreck"},
+{"op": "add", "path": "/planetTypes/snow/layers/surface/dungeons/0", "value":"hylotlvillage"},
+{"op": "add", "path": "/planetTypes/snow/layers/surface/dungeons/0", "value":"hylotldungeon"},
+
+{"op": "add", "path": "/planetTypes/alien/layers/surface/dungeons/0", "value":"ancienttechdungeon"},
+{"op": "add", "path": "/planetTypes/alien/layers/surface/dungeons/0", "value":"bugcatcher"},
+{"op": "add", "path": "/planetTypes/alien/layers/surface/dungeons/0", "value":"naturalcave2"},
+{"op": "add", "path": "/planetTypes/alien/layers/surface/dungeons/0", "value":"bountydungeon"},
+{"op": "add", "path": "/planetTypes/alien/layers/surface/dungeons/0", "value":"wreck"},
+{"op": "add", "path": "/planetTypes/alien/layers/surface/dungeons/0", "value":"hylotlvillage"},
+{"op": "add", "path": "/planetTypes/alien/layers/surface/dungeons/0", "value":"hylotldungeon"},
+
+{"op": "add", "path": "/planetTypes/volcanic/layers/surface/dungeons/0", "value":"ancienttechdungeon"},
+{"op": "add", "path": "/planetTypes/volcanic/layers/surface/dungeons/0", "value":"bountydungeon"},
+{"op": "add", "path": "/planetTypes/volcanic/layers/surface/dungeons/0", "value":"wreck"},
+{"op": "add", "path": "/planetTypes/volcanic/layers/surface/dungeons/0", "value":"hylotlvillage"},
+{"op": "add", "path": "/planetTypes/volcanic/layers/surface/dungeons/0", "value":"hylotldungeon"},
+
+{"op": "add", "path": "/planetTypes/scorched/layers/surface/dungeons/0", "value":"ancienttechdungeon"},
+{"op": "add", "path": "/planetTypes/scorched/layers/surface/dungeons/0", "value":"bountydungeon"},
+{"op": "add", "path": "/planetTypes/scorched/layers/surface/dungeons/0", "value":"wreck"},
+{"op": "add", "path": "/planetTypes/scorched/layers/surface/dungeons/0", "value":"hylotlvillage"},
+{"op": "add", "path": "/planetTypes/scorched/layers/surface/dungeons/0", "value":"hylotldungeon"},
+
+{"op": "add", "path": "/planetTypes/tundra/layers/surface/dungeons/0", "value":"avianfarmer"},
+{"op": "add", "path": "/planetTypes/tundra/layers/surface/dungeons/0", "value":"bountydungeon"},
+{"op": "add", "path": "/planetTypes/tundra/layers/surface/dungeons/0", "value":"ancienttechdungeon"},
+{"op": "add", "path": "/planetTypes/tundra/layers/surface/dungeons/0", "value":"wreck"},
+{"op": "add", "path": "/planetTypes/tundra/layers/surface/dungeons/0", "value":"hylotlvillage"},
+{"op": "add", "path": "/planetTypes/tundra/layers/surface/dungeons/0", "value":"hylotldungeon"},
+
+
+
+{
+    "op" : "add",
+    "path" : "/planetTypes/crewgarden",
+    "value" : {
+      "threatRange" : [6, 8],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "forest" ],
+          "secondaryRegion" : [ "spring", "oasis", "colourful" ],
+          "dungeonCountRange" : [1, 2],
+          "dungeons" : [ "hylotlvillage", "buildyourbase", "bugcatcher", "glitchvillage", "naturalcave2", "apextowerblock", "avianvillage", "floranvillagetower", "avianairship" ]
+        }
+      }
+    }
+  },  
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/crewforest",
+    "value" : {
+      "threatRange" : [6, 8],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "forest" ],
+          "secondaryRegion" : [ "spring", "mushroom", "oasis", "colourful" ],
+          "dungeonCountRange" : [1, 2],
+          "dungeons" : [ "hylotlvillage", "buildyourbase", "bugcatcher", "glitchvillage", "naturalcave2", "apextowerblock", "avianvillage", "humanbunker", "floranvillagetower", "avianairship" ]
+        },
+        "underground1" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        }
+      }
+    }
+  },  
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/crewsavannah",
+    "value" : {
+      "threatRange" : [6, 8],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "savannah" ],
+          "secondaryRegion" : [ "colourful", "spring", "oasis" ],
+          "dungeonCountRange" : [1, 2],
+          "dungeons" : [ "hylotlvillage", "buildyourbase", "bugcatcher", "glitchvillage", "naturalcave2", "apextowerblock", "avianvillage", "humanbunker", "floranvillagetower", "avianairship" ]
+        },
+        "underground1" : {
+          "secondaryRegion" : [ "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
+        }
+      }
+    }
+  },  
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/crewjungle",
+    "value" : {
+      "threatRange" : [6, 8],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "jungle" ],
+          "secondaryRegion" : [ "eyepatch", "bones", "ice", "bioluminescence", "crystalline", "alpine", "oasis" ],
+          "dungeonCountRange" : [1, 2],
+          "dungeons" : [ "hylotldungeon", "wreck", "bountydungeon", "ancienttechdungeon", "glitchsewer", "apexresearchlab", "apextestchamber", "aviantomb", "aviantower", "humanbunker", "floranhuntinggrounds",  "scifidungeon", "glitchcastle", "humanprison", "aviantemple", "floranhell" ]
+        },
+        "underground1" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves" ]
+        }
+      }
+    }
+  },  
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/crewalien",
+    "value" : {
+      "threatRange" : [6, 8],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "alien" ],
+          "secondaryRegion" : [ "eyepatch", "bones", "ice", "bioluminescence", "crystalline", "alpine" ],
+          "dungeonCountRange" : [1, 2],
+          "dungeons" : [ "hylotldungeon", "wreck", "bountydungeon", "ancienttechdungeon", "glitchsewer", "apexresearchlab", "apextestchamber", "aviantomb", "aviantower", "humanbunker", "floranhuntinggrounds",  "scifidungeon", "glitchcastle", "humanprison", "aviantemple", "floranhell" ]
+        },
+        "underground1" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves" ]
+        }
+      }
+    }
+  },  
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/crewtundra",
+    "value" : {
+      "threatRange" : [6, 8],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "tundra" ],
+          "secondaryRegion" : [ "eyepatch", "bones", "ice", "bioluminescence", "crystalline", "alpine" ],
+          "dungeonCountRange" : [1, 2],
+          "dungeons" : [ "hylotldungeon", "wreck", "bountydungeon", "ancienttechdungeon", "avianfarmer", "glitchcastle", "humanprison", "aviantemple", "avianairship" ]
+        }
+      }
+    }
+  },  
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/ancientplanet",
+    "value" : {
+      "threatRange" : [7, 8],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "ancientplanet" ],
+          "secondaryRegion" : [ "bioluminescence", "crystalline", "oasis", "alpine", "bones" ],
+          "dungeonCountRange" : [1, 2],
+          "dungeons" : [ "ancienttechdungeon", "ancientbossdungeon", "ancientvillages", "ancientsites", "ancientdigsites" ]
+        },
+        "underground1" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/ancientplanet2",
+    "value" : {
+      "threatRange" : [7, 8],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "ancientplanet2" ],
+          "secondaryRegion" : [ "bioluminescence", "crystalline", "oasis", "alpine", "bones" ],
+          "dungeonCountRange" : [1, 2],
+          "dungeons" : [ "ancienttechdungeon", "ancientbossdungeon", "ancientvillages", "ancientsites", "ancientdigsites" ]
+        },
+        "underground1" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/ancientplanet3",
+    "value" : {
+      "threatRange" : [7, 8],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "ancientplanet3" ],
+          "secondaryRegion" : [ "bioluminescence", "crystalline", "oasis", "alpine", "bones" ],
+          "dungeonCountRange" : [1, 2],
+          "dungeons" : [ "ancienttechdungeon", "ancientbossdungeon", "ancientvillages", "ancientsites", "ancientdigsites" ]
+        },
+        "underground1" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypes/ancientplanet4",
+    "value" : {
+      "threatRange" : [8, 9],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "ancientplanet4" ],
+          "secondaryRegion" : [ "bioluminescence", "crystalline", "oasis", "alpine", "bones" ],
+          "dungeonCountRange" : [2, 2],
+          "dungeons" : [ "ancienttechdungeon", "ancientbossdungeon", "ancientvillages", "ancientsites", "ancienttentacledungeon" ]
+        },
+        "underground1" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "luminouscaves", "cellcaves", "wildernessunderground", "icecaves" ]
+        }
+      }
+    }
+  },
+  
+  {"op" : "add", 
+  "path" : "/regionTypes/ancientplanet",
+  "value" : 
+  {
+      "caveLiquid" : [ "tarliquid" ],
+      "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "spikesSurface", "mesasSurface", "canyonsSurface", "ledgesSurface", "giantLedgesSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "ancientplanet" ]]
+      ]
+    }
+  },
+  
+  {"op" : "add", 
+  "path" : "/regionTypes/ancientplanet2",
+  "value" : 
+  {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "spikesSurface", "mesasSurface", "canyonsSurface", "ledgesSurface", "giantLedgesSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "ancientplanet2" ]]
+      ]
+    }
+  },
+  
+  {"op" : "add", 
+  "path" : "/regionTypes/ancientplanet3",
+  "value" : 
+  {
+      "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "spikesSurface", "mesasSurface", "canyonsSurface", "ledgesSurface", "giantLedgesSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "ancientplanet3" ]]
+      ]
+    }
+  },
+  
+  {"op" : "add", 
+  "path" : "/regionTypes/ancientplanet4",
+  "value" : 
+  {
+      "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "spikesSurface", "mesasSurface", "canyonsSurface", "ledgesSurface", "giantLedgesSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "ancientplanet4" ]]
+      ]
+    }
+  }
+
+]

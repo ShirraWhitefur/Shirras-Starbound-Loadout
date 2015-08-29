@@ -1,0 +1,23 @@
+{
+  "type" : "ancientbadman",
+  "baseType" : "hostile",
+
+  "levelVariance" : [-0.5, -0.5],
+
+  "dropPools" : [ "ancienttreasure" ],
+  
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "alienskullhead", "parameters" : { "colorIndex" : 0 } } ],
+            "chest" : [ { "name" : "rockchest", "parameters" : { "colorIndex" : 0 } } ],
+            "legs" : [ { "name" : "rocklegs", "parameters" : { "colorIndex" : 0 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "parameters" : { "definition" : "bonehammer" } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

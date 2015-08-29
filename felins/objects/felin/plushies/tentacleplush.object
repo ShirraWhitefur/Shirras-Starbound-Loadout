@@ -1,0 +1,28 @@
+{
+	"objectName" : "tentacleplush",
+	"tags" : [ "felin", "felinvillage" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 100,
+	"description" : "A plush tentacle?",
+	"shortdescription" : "Tentacle Plushie",
+	"race" : "felin",
+	"apexDescription" : "todo",
+	"avianDescription" : "todo",
+	"floranDescription" : "todo",
+	"glitchDescription" : "todo",
+	"humanDescription" : "todo",
+	"hylotlDescription" : "todo",
+	"felinDescription" : "todo",
+	"inventoryIcon" : "plushies.png:tentacle.icon",
+	"orientations" : [
+		{
+			"dualImage" : "plushies.png:tentacle",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 0.4,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "anti_fireflybody",
+  "category" : "smallflying",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "anti_fireflybody.png"
+  }
+}

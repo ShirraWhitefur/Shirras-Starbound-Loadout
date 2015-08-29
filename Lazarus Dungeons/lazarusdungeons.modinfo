@@ -1,0 +1,11 @@
+{
+	"name" : "lazarusdungeons",
+	"version" : "Stable",
+	"path" : "",
+	"dependencies" : [ ],
+	"metadata" : {
+		"author" : "capizma",
+		"description" : "Adds more dungeons into the game",
+		"version" : "0.0.3"
+	}
+}

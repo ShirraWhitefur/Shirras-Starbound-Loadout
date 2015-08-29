@@ -1,0 +1,3 @@
+[
+{"op":"add","path":"/liquids/83","value":{"name":"honey","tickDelta":1,"color":[230,180,80,128],"radiantLight":[160,120,20],"itemDrop":"liquidhoney","texture":"/liquids/honeytex.png","bottomLightMix":[150,100,20],"textureMovementFactor":2.6,"interactions":[]}}
+]

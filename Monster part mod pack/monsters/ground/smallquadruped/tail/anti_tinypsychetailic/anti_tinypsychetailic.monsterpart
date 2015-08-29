@@ -1,0 +1,9 @@
+{
+  "name" : "anti_tinypsychetailic",
+  "category" : "smallquadruped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "anti_tinypsychetailic.png"
+  }
+}

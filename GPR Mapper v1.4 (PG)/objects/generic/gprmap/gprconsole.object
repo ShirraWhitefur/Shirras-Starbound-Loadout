@@ -1,0 +1,32 @@
+{
+  "objectName" : "gprconsole",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2000,
+  "lightColor" : [150, 215, 235],
+
+  "description" : "This machine can read and render the shape of nearby terrain.",
+  "shortdescription" : "GPR Console",
+  "race" : "generic",
+
+  "inventoryIcon" : "gprobjecticon.png",
+  "orientations" : [
+    {
+      "leftImage" : "gprobjectleft.png:<color>.<frame>",
+      "rightImage" : "gprobjectright.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 9,
+      "animationCycle" : 0.9,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/vec2.lua", "gprconsolegobject.lua" ],
+  "scriptDelta" : 5,
+
+  "interactAction" : "ScriptConsole",
+  "interactData" : "/objects/generic/gprmap/gprconsolegui.config"
+}

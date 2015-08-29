@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "833honeyhammer", "count" : 1 },    { "item" : "imperviumcompound", "count" : 8 },  { "item" : "godlycomb", "count" : 12 }
+  ],
+  "output" : {
+    "item" : "833megahammer",
+    "count" : 1
+  },
+  "groups" : [ "mod", "beestation", "weapons", "all" ]
+}

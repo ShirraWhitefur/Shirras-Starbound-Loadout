@@ -1,0 +1,16 @@
+  {
+  "id" : "floranadvisor5.gearup",
+  "prerequisites" : [ "floranadvisor4.gearup" ],
+  "title" : "^orange;Floran Farming",
+  "text" : "Village lacks a sssteady sssupply of food ssstuff. Could you bring five boneboo ssseeds for a village farm?",
+  "completionText" : "Floran hid more ssseeds too and will give to you to plant. Maybe by your own house?",
+  "completionConditions" : [
+	{ "type" : "gather", "item" : "bonebooseed", "count" : 5, "consume" : false }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "bonebooseed", 5 ] ]
+   ],
+  "requireTurnIn" : true
+}
+ 

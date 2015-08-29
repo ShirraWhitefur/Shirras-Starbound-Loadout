@@ -1,0 +1,8 @@
+{
+	"input" : [
+	  { "item" : "diamond", "count" : 4  },
+	  { "item" : "durasteelbar", "count" : 2 }
+	],
+	"output" : { "item" : "diamondarmorhead", "count" : 1 },
+	"groups" : [ "metalworkstation", "armors", "all" ]
+}

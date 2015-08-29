@@ -1,0 +1,22 @@
+{
+  "itemName" : "peanutbuttercan",
+  "rarity" : "Uncommon",
+  "price" : 40,
+  "inventoryIcon" : "peanutbuttercan.png",
+  "description" : "A can of delicious peanut butter. Horsewives love it!",
+  "shortdescription" : "^orange;Peanut Butter",
+  "effects" : [ [
+    {
+        "effect" : "foodheal95",
+        "duration" : 120
+    }
+//    {
+//        "effect" : "wellfed",
+//        "duration" : 120
+//    }
+  ] ],
+  "blockingEffects" : [
+//    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "clefjellytrap" ]
+}

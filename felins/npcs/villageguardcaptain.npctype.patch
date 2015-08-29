@@ -1,0 +1,31 @@
+[
+	{
+		"op": "add",
+		"path": "/items/felin",
+		"value": [
+			[
+				0,
+				[
+					{
+						"head": [
+							{ "name": "felintier1head" }
+						],
+						"chest": [
+							{ "name": "felintier1chest", "data": { "colorIndex": [7] } }
+						],
+						"legs": [
+							{
+								"name": "felintier2pants", "data": { "colorIndex": [7] } }
+						],
+						"primary": [
+							{ "name": "felintier1rifle" }
+						],
+						"sheathedprimary": [
+							{ "name": "felintier2broadsword" }
+						]
+					}
+				]
+			]
+		]
+	}
+]

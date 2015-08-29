@@ -1,0 +1,23 @@
+{
+  "itemName" : "crewwonderbread",
+  "rarity" : "rare",
+  "price" : 400,
+  "inventoryIcon" : "carrotbread.png",
+  "description" : "A loaf of wonder bread. Let's be honest, it's just bread-shaped cake.",
+  "shortdescription" : "Wonder Bread",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal70",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 70
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "crewwonderbread" ]
+}

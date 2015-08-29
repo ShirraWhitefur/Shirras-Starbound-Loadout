@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 2500 }
+  ],
+  "output" : { "item" : "lagoonchest", "count" : 1 },
+  "groups" : [ "spinningwheel", "armors" ]
+}

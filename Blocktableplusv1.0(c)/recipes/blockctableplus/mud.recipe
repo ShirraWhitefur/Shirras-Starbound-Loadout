@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "dirtmaterial", "count" : 1 },
+	{ "item" : "liquidwater", "count" : 1 }
+  ],
+  "output" : { "item" : "mud", "count" : 1 },
+  "groups" : [ "blocktableplus", "materials", "all", "ground" ]
+}

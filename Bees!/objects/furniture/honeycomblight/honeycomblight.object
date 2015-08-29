@@ -1,0 +1,32 @@
+{
+  "objectName" : "honeycomblight",
+  "rarity" : "Common",
+  "description" : "The pod emits a natural yellow light.",
+  "shortdescription" : "Honeycomb Light",
+  "race" : "generic",
+
+  "category" : "light",
+  "price" : 500,
+  "lightColor" : [248, 221, 36],
+
+  "inventoryIcon" : "honeylighticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "honeylightback1.png:<color>.<frame>", "unlit" : true }, { "image" : "honeylightback2.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "honeylightceiling1.png:<color>.<frame>", "unlit" : true }, { "image" : "honeylightceiling2.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

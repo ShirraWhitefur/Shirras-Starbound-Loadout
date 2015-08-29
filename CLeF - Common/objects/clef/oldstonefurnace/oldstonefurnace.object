@@ -1,0 +1,100 @@
+{
+  "objectName" : "oldstonefurnace",
+  "rarity" : "Common",
+  "description" : "Good old stone furnace, crafts one item at a time.",
+  "shortdescription" : "Old Stone Furnace",
+  "race" : "generic",
+  "subtitle" : "Classic smelting.",
+  "category" : "crafting",
+  "price" : 25,
+  "objectType" : "container",
+  "printable" : false,
+  "hydrophobic" : true,
+
+  "apexDescription" : "A stone furnace. I can craft things here.",
+  "avianDescription" : "A furnace perfect for crafting.",
+  "floranDescription" : "Furnace hisss, ssspit, burn. Floran brave it.",
+  "glitchDescription" : "Craftsmanship. The furnace is the perfect temperature for creating metalworks.",
+  "humanDescription" : "A smelting furnace. Hot.",
+  "hylotlDescription" : "A hot, imposing furnace.",
+  "novakidDescription" : "Dat thing's hot. Almost as hot as me.",
+
+  "lightColor" : [229, 218, 207],
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "size" : 1.0,
+      "color" : [255, 100, 0, 255],
+      "light" : [150, 50, 50],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, 3.0],
+      "approach" : [0, 20],
+      "timeToLive" : 2,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0]
+    }
+  },
+
+  "inventoryIcon" : "oldstonefurnaceicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "oldstonefurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "oldstonefurnacelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "oldstonefurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "oldstonefurnacelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.wav",
+
+  "statusEffects" : [
+// dsp2003: Commented out until somebody fixes this mess
+//    {
+//      "kind" : "Warmth",
+//      "amount" : 70,
+//      "range" : 8
+//    }
+  ],
+
+  "recipeGroup" : "stonefurnace",
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/clef/objectcrafting/oldstonefurnace.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

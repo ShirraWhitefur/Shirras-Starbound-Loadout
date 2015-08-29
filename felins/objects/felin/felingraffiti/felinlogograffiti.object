@@ -1,0 +1,28 @@
+{
+	"objectName" : "felinlogograffiti",
+	"tags" : [ "felin", "felinvillage" ],
+	"rarity" : "common",
+	"category" : "decorative",
+	"price" : 1,
+	"smashOnBreak" : true,
+	"description" : "A messily drawn felin pawprint symbol.",
+	"shortdescription" : "Paw Print Graffiti",
+	"race" : "felin",
+	"apexDescription" : "There are cats afoot...",
+	"avianDescription" : "The felin leave these around sometimes to unsettle their prey.",
+	"floranDescription" : "Floran not know what to think.",
+	"glitchDescription" : "Hypothesis. The artist used a light coating to preserve pigment.",
+	"humanDescription" : "Here, kitty kitty...",
+	"hylotlDescription" : "Sloppy work, even for a felin.",
+	"inventoryIcon" : "felinlogograffiti.png",
+	"orientations" : [
+		{
+			"image" : "felinlogograffiti.png",
+			"imagePosition" : [-8, -8],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	]
+}

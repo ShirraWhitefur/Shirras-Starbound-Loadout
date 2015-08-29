@@ -1,0 +1,12 @@
+{
+  "name" : "GardenBot2",
+  "version" : "v. Pleased Giraffe",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "author" : "tynaut",
+    "updateBy" : "LoPhatKao",
+    "description" : "The automated gardening bot.",
+    "version" : "2.0"
+  }
+}

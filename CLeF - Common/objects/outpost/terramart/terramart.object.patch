@@ -1,0 +1,8 @@
+[
+  { "op" : "replace", "path" : "/printable", "value" : true },
+  { "op" : "add", "path" : "/hasObjectItem", "value" : true },
+  { "op" : "add", "path" : "/price", "value" : 1000 },
+  // NoLag Patch
+  { "op" : "replace", "path" : "/orientations/0/animationCycle", "value" : 4.8 },
+  { "op" : "replace", "path" : "/orientations/1/animationCycle", "value" : 4.8 }
+]

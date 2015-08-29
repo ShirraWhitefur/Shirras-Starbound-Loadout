@@ -1,0 +1,62 @@
+{
+  "objectName" : "tier9_medium_gravitonprojectorpad",
+  "printable" : false,
+  "rarity" : "legendary",
+  "category" : "wire",
+  "price" : 4000,
+  "description" : "A rubium-encased pad that can project and manipulate a graviton field above it.",
+  "shortdescription" : "Gravpad Model MR7",
+  "race" : "generic",
+
+  "apexDescription" : "A rubium-encased pad that projects a graviton field.",
+  "avianDescription" : "A rubium-encased pad that projects a graviton field.",
+  "floranDescription" : "Watches thingsss go up!",
+  "glitchDescription" : "Analysis. A graviton field projection rubium-encased pad.",
+  "humanDescription" : "A rubium-encased pad that projects a graviton field. Probably don't want to be wearing a kilt or skirt here.",
+  "hylotlDescription" : "A rubium-encased pad that projects a graviton field.",
+
+  "inventoryIcon" : "/objects/icons/tier9_gravitonprojectorpadicon.png",
+  
+  "orientations" : [
+    {
+      "image" : "/animations/gravitondevices/tier9/tier9_medium_gravitonprojectorpad.png:default.off",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "projector" : "/animations/gravitondevices/tier9/tier9_medium_gravitonprojectorpad.png",
+        "projectorlit" : "/animations/gravitondevices/tier9/tier9_medium_gravitonprojectorpadlit.png"
+      },
+      "animationPosition" : [0, 0],
+  
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ],
+
+  "animation" : "/animations/gravitondevices/tier9/tier9_gravitondevice.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/gravitonpulse_on.wav" ],
+      "off" : [ "/sfx/objects/gravitonpulse_off.wav" ]
+    }
+  },
+  "animationParts" : {
+    "projector" : "/animations/gravitondevices/tier9/tier9_medium_gravitonprojectorpad.png",
+    "projectorlit" : "/animations/gravitondevices/tier9/tier9_medium_gravitonprojectorpadlit.png"
+  },
+  "animationPosition" : [0, 0],
+  
+  "inboundNodes" : [ [ 1, 0 ] ],
+  "outboundNodes" : [ [ 4 , 0 ] ],
+
+  "scripts" : [ "/scripts/gravitonprojectorpad.lua" ],
+  "scriptDelta" : 1,
+
+  "padcentrepoint" : 3,
+  "ringcentrepoint" : 3,
+  "fieldsize" : 1,
+  "forcestrength" : 2.85,
+  "devicesize" : "medium",
+  "devicetier" : "tier9"
+}

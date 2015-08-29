@@ -1,0 +1,26 @@
+{
+	"name": "villager_felin",
+	"priority": 2,
+
+	"tagCriteria": {
+		"light": 1,
+		"door": 1,
+		"felin": 6
+	},
+
+	"tenants": [
+		{
+			"spawn": "npc",
+			"species": "felin",
+			"type": "villager",
+			"overrides": {
+				"damageTeamType" : "friendly"
+			 }
+		 }
+	 ],
+
+	"rent": {
+		"periodRange": [900.0, 1800.0],
+		"pool": "villagerGift"
+	}
+}

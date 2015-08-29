@@ -1,0 +1,6 @@
+[
+	{ "op" : "add",
+		"path" : "/initialcodex/felin",
+		"value" : [ "controls", "felinprologue", "felinorigins", "felinambition", "survivalguide" ]
+	}
+]

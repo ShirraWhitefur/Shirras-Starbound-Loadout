@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "peanutbuttercan", "count" : 1 },
+    { "item" : "cardboardboxlarge", "count" : 1 },
+    { "item" : "fullwood1", "count" : 1 }
+  ],
+  "output" : { "item" : "clefjellytrap", "count" : 1 },
+  "groups" : [ "craftingtable", "objects", "tools", "all" ]
+}

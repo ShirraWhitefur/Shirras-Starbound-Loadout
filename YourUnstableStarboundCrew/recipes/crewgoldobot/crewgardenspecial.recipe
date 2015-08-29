@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 10 },
+    { "item" : "rice", "count" : 10 },
+    { "item" : "potato", "count" : 10 },
+    { "item" : "pearlpea", "count" : 10 }
+  ],
+  "output" : { "item" : "crewgardenspecial", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing" ]
+}

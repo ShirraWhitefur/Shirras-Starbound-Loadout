@@ -1,0 +1,47 @@
+{
+  "objectName" : "snakebowl",
+  "rarity" : "Common",
+
+  "category" : "decorative",
+  "price" : 250,
+  "description" : "A bowl for keeping food in",
+  "shortdescription" : "Sssnake Food Bowl",
+  "race" : "generic",
+
+  "inventoryIcon" : "foodbowlicon.png",
+  "orientations" : [
+    {
+      "image" : "foodbowl.png:<color>.<key>",
+      "imagePosition" : [-1, 0],
+      "animationPosition" : [2, 4],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "bottom" ],
+      "directions" : ["right"]
+    },
+    {
+      "image" : "foodbowl.png:<color>.<key>",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [4, 4],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "bottom" ],
+      "directions" : ["right"]
+    }
+  ],
+
+  "animation" : "foodbowl.animation",
+  "animationParts" : {
+    "foodbowl" : "foodbowl.png"
+  },
+
+  "scripts" : [
+    "/objects/spawner/shipPetSpawner.lua"
+  ],
+  "scriptDelta" : 20,
+  "shipPetType" : "petsnake",
+  "spawnOffset" : [4, 3]
+}

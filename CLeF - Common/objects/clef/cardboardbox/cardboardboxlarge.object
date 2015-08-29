@@ -1,0 +1,45 @@
+{
+  "objectName" : "cardboardboxlarge",
+  "tags" : ["storage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A cardboard box. Fits more items than an average person can imagine.",
+  "shortdescription" : "^orange;Large cardboard box",
+  "race" : "generic",
+
+  "apexDescription" : "A huge cardboard box.",
+  "avianDescription" : "A huge box made out of cardboard.",
+  "floranDescription" : "A huge box of recycled tree-flesssh.",
+  "glitchDescription" : "Identify. Box. Cardboard. Big.",
+  "humanDescription" : "A huge box for useless stuff.",
+  "hylotlDescription" : "A primitive huge cardboard box.",
+  "novakidDescription" : "Bleh. How can this huge thing even hold something?",
+
+  "inventoryIcon" : "cardboardboxlargeicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "cardboardboxlargeleft.png:default",
+      "rightImage" : "cardboardboxlargeright.png:default",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/cardboardboxlarge_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/cardboardboxlarge_close.wav" ],
+  "slotCount" : 42,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

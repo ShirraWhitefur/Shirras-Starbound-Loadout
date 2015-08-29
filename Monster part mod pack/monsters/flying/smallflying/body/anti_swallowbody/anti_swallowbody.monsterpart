@@ -1,0 +1,9 @@
+{
+  "name" : "anti_swallowbody",
+  "category" : "smallflying",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "anti_swallowbody.png"
+  }
+}

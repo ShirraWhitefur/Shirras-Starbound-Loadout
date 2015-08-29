@@ -1,0 +1,20 @@
+{
+  "itemName" : "crewantidote",
+  "rarity" : "rare",
+  "price" : 1500,
+  "inventoryIcon" : "antidoteicon.png",
+  "description" : "Protect your body from poison for up to three minutes.",
+  "shortdescription" : "Poison Antidote",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "effect" : "antidote",
+        "duration" : 180
+      }
+    ] ],
+  "blockingEffects" : [
+    "antidote"
+  ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

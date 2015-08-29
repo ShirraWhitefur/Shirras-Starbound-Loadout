@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ancientcore", "count" : 5 },
+	{ "item" : "solariumstar", "count" : 5 },
+    { "item" : "money", "count" : 10000 }
+  ],
+  "output" : { "item" : "ancientarmorpants", "count" : 1 },
+  "groups" : [ "ancientcrafting" ]
+}

@@ -1,0 +1,9 @@
+{
+	"codexId" : "felinnotes",
+	"title" : "A Felin's Ambition",
+	"codexkind" : "codex",
+	"itemName" : "felinnotesCodex",
+	"rarity" : "common",
+	"description" : "A Felin begins their life's work.",
+	"shortdescription" : "Felin's Ambition"
+}

@@ -1,0 +1,32 @@
+{
+	"objectName" : "baconplatter",
+	"tags" : [ "misc" ],
+	"rarity" : "common",
+	"description" : "Bacon strips & bacon strips & bacon strips & bacon strips!",
+	"shortdescription" : "Plate of Bacon",
+	"race" : "felin",
+	"category" : "furniture",
+	"price" : 20,
+	"apexDescription" : "Yup, that's bacon.",
+	"avianDescription" : "It's pork on a plate. Big deal.",
+	"floranDescription" : "Floran not ssssure why flesssh on plate.",
+	"glitchDescription" : "Impressed. That's a lot of bacon.",
+	"humanDescription" : "More bacon! All the bacon!",
+	"hylotlDescription" : "Bacon. How barbaric.",
+	"felinDescription" : "Mmmm, bacon~",
+	"inventoryIcon" : "baconplattericon.png",
+	"orientations" : [
+		{
+			"dualImage" : "baconplatter.png",
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"breakDropOptions" : [ [
+		[ "felinplate", 1, { } ],
+		[ "cookedbacon", 1, { } ]
+	] ]
+}
