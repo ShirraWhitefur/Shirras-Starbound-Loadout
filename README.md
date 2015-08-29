@@ -61,7 +61,7 @@ Felins
 	http://community.playstarbound.com/resources/felins-costumes.2925/
 
 Frackin Universe
-	vRC41a - 2015-08-29
+	vRC41a - 2015-08-29 (Actually updating direct from Github, version number may get out of date.)
 	http://community.playstarbound.com/resources/frackinuniverse.2920/
 	Enhances exploration, crafting, and just about every other area of play. Huge mod.
 
