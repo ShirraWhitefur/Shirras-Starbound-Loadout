@@ -1,0 +1,8 @@
+{
+  "itemName" : "aenemapetal",
+  "rarity" : "Common",
+  "inventoryIcon" : "aenemapetal.png",
+  "description" : "The flowers of this plant actually extract into gas.",
+  "shortdescription" : "Aenema Petal",
+  "effects" : [ [ "wellfed" ] ]
+}

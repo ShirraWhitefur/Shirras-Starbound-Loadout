@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "shadowgasliquid", "count" : 60 }
+  ],
+  "output" : {
+    "item" : "shadowgascannister",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "chemical", "all" ]
+}

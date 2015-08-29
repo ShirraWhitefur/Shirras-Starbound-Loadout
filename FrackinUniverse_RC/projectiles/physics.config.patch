@@ -1,0 +1,69 @@
+[
+
+{"op":"add",
+"path":"/fu_eyeball",
+"value": {
+    "mass" : 0.2,
+    "gravityMultiplier" : 0.4,
+    "bounceFactor" : 0.7,
+    "maxMovementPerStep" : 0.4,
+
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 0.0,
+    "liquidFriction" : 10.0,
+    "groundFriction" : 6.0
+  }
+},
+{"op":"add",
+"path":"/fu_boulder",
+"value": {
+    "mass" : 1.0,
+    "gravityMultiplier" : 0.24,
+    "bounceFactor" : 0.0,
+    "maxMovementPerStep" : 0.4,
+
+    "collisionPoly" : [ [-1.6, -1.6], [1.6, -1.6], [1.6, 1.6], [-1.6, 1.6] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 0.0,
+    "liquidFriction" : 20.0,
+    "groundFriction" : 0.0
+  }
+},
+{"op":"add",
+"path":"/fu_flybug",
+"value": {
+    "mass" : 1.0,
+    "gravityMultiplier" : -0.12,
+    "stickyCollision" : false,
+    "stickyForce" : 20.0,
+    "maxMovementPerStep" : 0.4,
+
+    "collisionPoly" : [ [-0.8, -0.8], [0.8, -0.8], [0.8, 0.8], [0.8, 0.8] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 2.5,
+    "liquidFriction" : 2.5,
+    "groundFriction" : 2.5
+  }
+},
+{"op":"add",
+"path":"/fu_lightgas",
+"value": {
+    "mass" : 1.0,
+    "gravityMultiplier" : -0.05,
+    "bounceFactor" : 0.05,
+    "maxMovementPerStep" : 0.4,
+
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 1.0,
+    "liquidFriction" : 2.5,
+    "groundFriction" : 15.0
+  }
+}
+]
+

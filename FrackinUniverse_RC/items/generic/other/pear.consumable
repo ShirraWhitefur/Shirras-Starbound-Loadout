@@ -1,0 +1,19 @@
+{
+  "itemName" : "pear",
+  "rarity" : "Common",
+  "inventoryIcon" : "pear.png",
+  "description" : "A fresh pear, ripe for baking or consuming with my face!",
+  "shortdescription" : "Pear",
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed" ]
+}

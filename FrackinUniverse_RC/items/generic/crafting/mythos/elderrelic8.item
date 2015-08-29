@@ -1,0 +1,7 @@
+{
+  "itemName" : "elderrelic8",
+  "rarity" : "rare",
+  "inventoryIcon" : "elderrelic8.png",
+  "description" : "This seems to be a tiny, ancient reactor. Origin unknown.",
+  "shortdescription" : "^#ffe50e;Ancient Reactor^white;"
+}

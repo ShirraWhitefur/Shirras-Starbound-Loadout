@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "phosphorus", "count" : 12 },
+    { "item" : "magnesiumsulfate", "count" : 20 },
+    { "item" : "aminoacid", "count" : 6 },
+    { "item" : "liquidwater", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "aquatichomeostasis",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

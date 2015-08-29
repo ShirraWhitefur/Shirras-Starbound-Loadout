@@ -1,0 +1,153 @@
+{
+  "name" : "lightsaber",
+  "baseDps" : [2.0, 3.65],
+  "rateOfSwing" : [0.6, 1.4],
+  "multiplier" : 0.35,
+  "firePosition" : [15.5, 4.5],
+  "fireAfterWindup" : true,
+  "muzzleFlashes" : [ ],
+  "soundEffect" : [ "/sfx/weapons/sabre1.wav","/sfx/weapons/sabre2.wav","/sfx/weapons/sabre3.wav","/sfx/weapons/sabre4.wav","/sfx/weapons/sabre5.wav" ],
+  "kind" : "lightsaber",
+  "tooltipKind" : "sword",
+
+  "primaryStances" : {
+    "directional" : false,
+    "projectileTypes" : [ "testswoosh3" ],
+    "projectile" : {
+      "speed" : 0.1
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-2.7, -16.5],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-2.7, -16.5],
+      "duration" : 0.07,
+      "statusEffects" : []
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -45,
+      "swordAngle" : -90,
+      "handPosition" : [-2.7, -27],
+      "duration" : 0.4,
+      "statusEffects" : []
+    }
+  },
+  "parryBlockCooldown" : 1.2,
+  "parrySound" : "/sfx/melee/sword_parry.wav",
+  "parryParticle" : "shieldspark",
+
+  "altStances" : {
+    "type" : "parry",
+    "rescaleTiming" : false,
+    "parryPoly" : [ [12, -14], [12, -2], [28, 6], [28, -38], [12, -26] ],
+
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -17.0],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : 58,
+      "swordAngle" : 208,
+      "handPosition" : [15.0, -17.0],
+      "duration" : 1.0
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -17.0],
+      "duration" : 0.1
+    }
+  },
+  "palette" : [
+	{ "676767" : "756257", "B1B1B1" : "a18d7f", "E9E9E9" : "e0c7b5", //iron//
+      "A1750B" : "7e0000", "BC8B07" : "b71111", "F5E458" : "eb3f3f", //gold//
+      "624122" : "5b5b5b", "886337" : "7f7e7d", "b0885f" : "a09f9e", //wood//
+      "F32200" : "ffae46", "FFAB9E" : "ffd878", "FEFFFF" : "fcf7da", //energy//
+      "605C57" : "363636", "A89E93" : "5d5d5c", "D2C5B6" : "7e7e7e" //steel//
+    },
+
+    { "676767" : "5e718f", "B1B1B1" : "8fa3c5", "E9E9E9" : "bfcfea", //iron//
+      "A1750B" : "b0b0b0", "BC8B07" : "d4d4d4", "F5E458" : "f0f0f0", //gold//
+      "624122" : "624122", "886337" : "886337", "b0885f" : "b0885f", //wood//
+      "F32200" : "c2e72d", "FFAB9E" : "ddf67a", "FEFFFF" : "f8ffdc", //energy//
+      "605C57" : "363636", "A89E93" : "5d5d5c", "D2C5B6" : "7e7e7e" //steel//
+    },
+
+    { "676767" : "676767", "B1B1B1" : "B1B1B1", "E9E9E9" : "E9E9E9", //iron//
+      "A1750B" : "424242", "BC8B07" : "5b5b5b", "F5E458" : "7b7b7b", //gold//
+      "624122" : "624122", "886337" : "886337", "b0885f" : "b0885f", //wood//
+      "F32200" : "2da9e7", "FFAB9E" : "7accf6", "FEFFFF" : "dcf3ff", //energy//
+      "605C57" : "5f3f6e", "A89E93" : "815a93", "D2C5B6" : "9f78b1" //steel//
+    },
+
+    { "676767" : "a54995", "B1B1B1" : "d578c5", "E9E9E9" : "f7acea", //iron//
+      "A1750B" : "522569", "BC8B07" : "7a4b93", "F5E458" : "b578d5", //gold//
+      "624122" : "624122", "886337" : "886337", "b0885f" : "b0885f", //wood//
+      "F32200" : "c834c7", "FFAB9E" : "ff55fe", "FEFFFF" : "ffcbf9", //energy//
+      "605C57" : "483933", "A89E93" : "624d45", "D2C5B6" : "8a6c61" //steel//
+    },
+
+    { "676767" : "363636", "B1B1B1" : "5d5d5c", "E9E9E9" : "7e7e7e", //iron//
+      "A1750B" : "9b4729", "BC8B07" : "cd5e37", "F5E458" : "ffb848", //gold//
+      "624122" : "624122", "886337" : "886337", "b0885f" : "b0885f", //wood//
+      "F32200" : "96efff", "FFAB9E" : "bff9ff", "FEFFFF" : "e5fdff", //energy//
+      "605C57" : "605c57", "A89E93" : "8c867f", "D2C5B6" : "c3baae" //steel//
+    },
+
+    { "676767" : "8c7a63", "B1B1B1" : "c2ab8e", "E9E9E9" : "e5d3bc", //iron//
+      "A1750B" : "74621f", "BC8B07" : "a28e42", "F5E458" : "ceba6d", //gold//
+      "624122" : "4c331b", "886337" : "6a4d2b", "b0885f" : "896a4a", //wood//
+      "F32200" : "ff4869", "FFAB9E" : "ff908c", "FEFFFF" : "ffd3cb", //energy//
+      "605C57" : "4c5054", "A89E93" : "808892", "D2C5B6" : "9ea9b7" //steel//
+    },
+
+    { "676767" : "825b3e", "B1B1B1" : "c39963", "E9E9E9" : "efcea5", //iron//
+      "A1750B" : "4b286b", "BC8B07" : "75489e", "F5E458" : "9b6cc7", //gold//
+      "624122" : "663100", "886337" : "934f00", "b0885f" : "b36a1e", //wood//
+      "F32200" : "00d0f3", "FFAB9E" : "9ef2ff", "FEFFFF" : "ddf7fb", //energy//
+      "605C57" : "512448", "A89E93" : "8f3d7e", "D2C5B6" : "cc5fb6" //steel//
+    },
+
+    { "676767" : "313131", "B1B1B1" : "535353", "E9E9E9" : "919191", //iron//
+      "A1750B" : "866525", "BC8B07" : "ba9142", "F5E458" : "edc26f", //gold//
+      "624122" : "624122", "886337" : "886337", "b0885f" : "b0885f", //wood//
+      "F32200" : "d9ccb1", "FFAB9E" : "ede2cc", "FEFFFF" : "fff7e7", //energy//
+      "605C57" : "7e0000", "A89E93" : "b71111", "D2C5B6" : "eb3f3f" //steel//
+    },
+
+    { "676767" : "599999", "B1B1B1" : "89bcbc", "E9E9E9" : "c0e5e5", //iron//
+      "A1750B" : "622260", "BC8B07" : "a13d9e", "F5E458" : "d460d0", //gold//
+      "624122" : "624122", "886337" : "886337", "b0885f" : "b0885f", //wood//
+      "F32200" : "70cbff", "FFAB9E" : "e0f4ff", "FEFFFF" : "f2fbff", //energy//
+      "605C57" : "5c4f7f", "A89E93" : "7b69a9", "D2C5B6" : "9985ce" //steel//
+    },
+
+    { "676767" : "931b1b", "B1B1B1" : "ea634d", "E9E9E9" : "fca378", //iron//
+      "A1750B" : "65533b", "BC8B07" : "8b7559", "F5E458" : "bba486", //gold//
+      "624122" : "624122", "886337" : "886337", "b0885f" : "b0885f", //wood//
+      "F32200" : "ffbc1a", "FFAB9E" : "ffe6a7", "FEFFFF" : "fffaec", //energy//
+      "605C57" : "6b2549", "A89E93" : "ae4e80", "D2C5B6" : "d26ea2" //steel//
+    },
+
+    { "676767" : "4d7d2a", "B1B1B1" : "66a736", "E9E9E9" : "96df60", //iron//
+      "A1750B" : "b87b11", "BC8B07" : "e3a840", "F5E458" : "fede72", //gold//
+      "624122" : "624122", "886337" : "886337", "b0885f" : "b0885f", //wood//
+      "F32200" : "fff76c", "FFAB9E" : "fffbac", "FEFFFF" : "fffee3", //energy//
+      "605C57" : "59547e", "A89E93" : "837cb4", "D2C5B6" : "aba4de" //steel//
+    }
+  ],
+  "nameGenerator" : "lightsabernames.config:nameGen"
+}

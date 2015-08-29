@@ -1,0 +1,10 @@
+{
+  "itemName" : "batterystemcharge",
+  "rarity" : "Common",
+  "inventoryIcon" : "batterystemcharge.png",
+  "description" : "Increase your energy for a while.",
+  "shortdescription" : "Battery Stem Charge",
+      "effects" : [ [
+       "maxenergyboost80"
+    ] ]
+}

@@ -1,0 +1,18 @@
+{
+  "modId" : 6770,
+  "modName" : "protocite",
+  "itemDrop" : "protociteore",
+  "Description" : "Protocyte",
+  "health" : 11,
+  "breaksWithTile" : true,
+  "harvestLevel" : 2,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "protocite.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "radiantLight" : [0.07, 0.5, 0.2]
+  }
+}

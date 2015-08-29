@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "vashtaclaw", "count" : 8 },
+    { "item" : "titaniumbar", "count" : 12 },
+    { "item" : "ff_penumbraplating", "count" : 5 },
+    { "item" : "biochip", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "vashtagun",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

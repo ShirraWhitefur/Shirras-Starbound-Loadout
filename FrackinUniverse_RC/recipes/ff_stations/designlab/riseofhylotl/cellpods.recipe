@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "regengene1", "count" : 1 },
+    { "item" : "nutrientpaste", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "cellpodsplant",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "bush", "all", "tools" ]
+}

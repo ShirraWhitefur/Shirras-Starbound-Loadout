@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "fupoptop",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "fupoptop.png"
+  }
+}

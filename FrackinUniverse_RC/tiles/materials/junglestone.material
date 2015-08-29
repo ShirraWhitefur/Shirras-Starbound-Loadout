@@ -1,0 +1,21 @@
+{
+  "materialId" : 6614,
+  "materialName" : "junglestone",
+  "particleColor" : [92, 114, 84, 225],
+  "itemDrop" : "junglestonematerial",
+  "description" : "Stone covered in vines and roots.",
+  "shortdescription" : "Jungle Stone",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 8,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "junglestone.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false
+  }
+}
+

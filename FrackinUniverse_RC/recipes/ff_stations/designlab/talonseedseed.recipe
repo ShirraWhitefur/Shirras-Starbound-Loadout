@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "defensegene1", "count" : 1 },
+    { "item" : "cellresistance1", "count" : 1 },
+    { "item" : "biosample", "count" : 3 },
+    { "item" : "regengene1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "talonseedseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "vegetable", "all", "tools"  ]
+}

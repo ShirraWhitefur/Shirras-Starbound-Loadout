@@ -1,0 +1,13 @@
+{
+  "input" : [
+   { "item" : "penumbriteminer", "count" : 1 },
+   { "item" : "advancealloy", "count" : 2 }, 
+   { "item" : "ff_penumbraplating", "count" : 3 },
+   { "item" : "ff_protoplating", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "hybridminer",
+    "count" : 1
+  },
+  "groups" : [ "nanofabricator", "tools", "all" ]
+}

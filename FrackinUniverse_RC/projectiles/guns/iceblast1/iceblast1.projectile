@@ -1,0 +1,23 @@
+{
+  "projectileName" : "iceblast1",
+  "frames" : "iceblast1.png",
+  "physics" : "bullet",
+  "timeToLive" : 2,
+  "animationCycle" : 0.62,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 7,
+  "level" : 1,
+  "power" : 0.1,
+  "lightColor" : [40, 0, 120],
+  "speed" : 20,
+  "piercing" : false,
+  "damagePoly" : [ [0, -8], [16, -8], [16, 8], [0, 8] ],
+  "damageKind" : "iceplasma",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/iceexplosion1/iceexplosion1.config"
+    }
+  ]
+  
+  }

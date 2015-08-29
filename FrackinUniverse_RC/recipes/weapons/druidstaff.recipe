@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "erithianalgae", "count" : 4 },
+    { "item" : "energywood", "count" : 4 }
+  ],
+  "output" : { "item" : "druidstaff", "count" : 1 },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

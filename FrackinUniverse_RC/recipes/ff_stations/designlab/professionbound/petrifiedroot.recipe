@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "aggressiongene", "count" : 1 },
+    { "item" : "musclegene2", "count" : 1 },
+    { "item" : "celeritygene", "count" : 1 },
+    { "item" : "cellmatter", "count" : 3 },
+    { "item" : "corruptionseed", "count" : 3 },
+    { "item" : "adaptivecells", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "petrifiedrootseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "vine", "all", "tools" ]
+}

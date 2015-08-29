@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "beakseedseed", "count" : 3 },
+    { "item" : "defensegene1", "count" : 1 },
+    { "item" : "immunegene3", "count" : 1 },
+    { "item" : "regengene1", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 2 }
+	],
+  "output" : {
+    "item" : "leafshellseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "vegetable", "all", "tools" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "herrodbushgem",
+  "rarity" : "Common",
+  "inventoryIcon" : "herrodbushgem.png",
+  "description" : "Grants a massive defense boost.",
+  "shortdescription" : "Herrod Bush Gem",
+      "effects" : [ [
+          "defenseboost180"
+    ] ]
+}

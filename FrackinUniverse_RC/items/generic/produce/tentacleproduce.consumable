@@ -1,0 +1,10 @@
+{
+  "itemName" : "tentacleproduce",
+  "rarity" : "Common",
+  "inventoryIcon" : "tentacleproduce.png",
+  "description" : "Lashes out at those who harm you.",
+  "shortdescription" : "Tentacles",
+      "effects" : [ [
+          "thornsstranglevinesuper"
+    ] ]
+}

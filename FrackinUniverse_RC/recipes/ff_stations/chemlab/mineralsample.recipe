@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 1 },
+    { "item" : "rawminerals", "count" : 2 },
+    { "item" : "nutrientpaste", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "mineralsample",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "chemical", "all" ]
+}

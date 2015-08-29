@@ -1,0 +1,16 @@
+{
+  "name" : "percentarmorboost250",
+  "effectConfig" : {
+    "healthDown" : 2.50
+  },
+  "defaultDuration" : 30,
+
+  "scripts" : [
+    "percentarmorboost.lua"
+  ],
+  
+  //"animationConfig" : "percentarmorboost.animation",
+  
+  "label" : "Def +250%",
+  "icon" : "/interface/statuses/defense.png"
+}

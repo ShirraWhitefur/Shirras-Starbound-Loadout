@@ -1,0 +1,6 @@
+[
+{"op":"replace","path":"/itemDrop","value":"limestonematerial"},
+{"op":"replace","path":"/description","value":"Rough, unrefined limestone."},
+{"op":"replace","path":"/shortdescription","value":"Limestone Block"},
+{"op":"replace","path":"/glitchDescription","value":"Statement. Limestone."}
+]

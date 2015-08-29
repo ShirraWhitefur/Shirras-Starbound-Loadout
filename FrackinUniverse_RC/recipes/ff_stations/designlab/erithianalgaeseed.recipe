@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "aquatichomeostasis", "count" : 2 },
+    { "item" : "chloroplast2", "count" : 1 },
+    { "item" : "kelp", "count" : 3 },
+    { "item" : "endomorphicjelly", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "erithianalgaeseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "flower", "all", "tools" ]
+}

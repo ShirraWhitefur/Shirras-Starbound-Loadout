@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "densiniumore", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "densiniumbar",
+    "count" : 1
+  },
+  "groups" : [ "fissionfurnace", "all" ]
+}

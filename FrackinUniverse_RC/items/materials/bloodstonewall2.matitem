@@ -1,0 +1,10 @@
+{
+  "itemName" : "bloodstonewall2",
+  "rarity" : "Common",
+  "inventoryIcon" : "bloodstone2.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Blood Stone",
+  "description" : "This is probably worth something, somewhere.",
+
+  "materialId" : 6568
+}

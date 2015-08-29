@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "cellresistance1", "count" : 1 },
+    { "item" : "chloroplast2", "count" : 1 },
+    { "item" : "synthesizedprotein", "count" : 6 },
+    { "item" : "ammoniumsulfate", "count" : 6 },
+	{ "item" : "liquidbioooze", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "shockgene",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

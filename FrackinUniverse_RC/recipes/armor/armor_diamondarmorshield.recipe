@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ff_penumbraplating", "count" : 2 },
+    { "item" : "triangliumpyramid", "count" : 2 },
+    { "item" : "ff_diamondplating", "count" : 2 },
+    { "item" : "eridianbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "diamondshield",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

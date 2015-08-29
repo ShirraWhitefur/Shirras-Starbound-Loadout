@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "defensegene2", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 2 },
+    { "item" : "shroom", "count" : 3 },
+    { "item" : "nervebundle1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ghostmushroomseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "mushroom", "all", "tools" ]
+}

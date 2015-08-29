@@ -1,0 +1,13 @@
+{
+  "itemName" : "toxicflower",
+  "rarity" : "common",
+  "inventoryIcon" : "toxicflowericon.png",
+  "description" : "I don't really know if I should eat this..",
+  "shortdescription" : "Toxic Flower",
+  "effects" : [ [
+      {
+        "effect" : "weakpoison",
+        "duration" : 12
+      }
+    ] ]
+}

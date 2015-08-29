@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "immunegene2", "count" : 1 },
+    { "item" : "celeritygene", "count" : 1 },
+    { "item" : "coldgene", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "bonebooseed", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "kamaranpodsplant",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "bush", "all", "tools" ]
+}

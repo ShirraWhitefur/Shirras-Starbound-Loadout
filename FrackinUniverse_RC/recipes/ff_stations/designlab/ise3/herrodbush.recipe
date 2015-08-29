@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "defensegene3", "count" : 1 },
+    { "item" : "cellhardening3", "count" : 1 },
+    { "item" : "cellresistance3", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "herrodbush",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "bush", "all", "tools" ]
+}

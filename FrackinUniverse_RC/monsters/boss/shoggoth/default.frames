@@ -1,0 +1,14 @@
+{
+  "frameGrid" : {
+    "size" : [512, 256],
+    "dimensions" : [8, 6],
+
+    "names" : [
+      [ "idle.1", "idle.2", "idle.3", "idle.4", "idle.5", "idle.6", "idle.7", "idle.8" ],
+      [ "idle.9", "idle.10", "idle.11", "idle.12", "idle.13", "idle.14", "idle.15", "idle.16" ],
+      [ "swipe.1", "swipe.2", "swipe.3", "swipe.4", "swipe.5", "swipe.6", "swipe.7", "swipe.8" ],
+      [ "swipe.9", "swipe.10", "swipe.11", "swipe.12", "swipe.13", "swipe.14", "swipe.15", "swipe.16" ],
+      [ "walk.1", "walk.2", "walk.3", "walk.4", "walk.5", "walk.6", "walk.7", "walk.8" ]
+    ]
+  }
+}

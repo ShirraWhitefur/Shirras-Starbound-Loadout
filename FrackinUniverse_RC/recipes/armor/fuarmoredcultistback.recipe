@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "corruptionseed", "count" : 4 },
+    { "item" : "fleshstrand", "count" : 10 },
+    { "item" : "mutaviskthread", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "fuarmoredcultistback",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

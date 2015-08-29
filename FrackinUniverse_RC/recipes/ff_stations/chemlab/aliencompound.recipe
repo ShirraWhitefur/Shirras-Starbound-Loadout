@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "protorockmaterial", "count" : 3 },
+    { "item" : "prisilitestar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "aliencompound",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "compounds", "all" ]
+}

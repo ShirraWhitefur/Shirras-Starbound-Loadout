@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ammoniumsulfate", "count" : 5 },
+    { "item" : "sulphur", "count" : 5 },
+    { "item" : "methanol", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "ff_fertilizer",
+    "count" : 4
+  },
+  "groups" : [ "chemlab", "chemical", "all" ]
+}

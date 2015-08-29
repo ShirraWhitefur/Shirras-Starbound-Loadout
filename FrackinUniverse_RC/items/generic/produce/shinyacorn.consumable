@@ -1,0 +1,10 @@
+{
+  "itemName" : "shinyacorn",
+  "rarity" : "Common",
+  "inventoryIcon" : "shinyacornicon.png",
+  "description" : "Provides a substantial health boost for 3 minutes.",
+  "shortdescription" : "Shiny Acorn",
+  "effects" : [ [
+    "maxhealthboost120"
+    ] ]
+}

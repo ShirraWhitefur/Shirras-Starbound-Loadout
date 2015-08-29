@@ -1,0 +1,38 @@
+{
+  "objectName" : "guidestorage",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "description" : "A treasure trove of scientific knowledge.",
+  "shortdescription" : "Nerdy Bookcase",
+  "race" : "generic",
+  "price" : 1000,
+
+  "inventoryIcon" : "guidestorageicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "guidestorage.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "/objects/scripts/autofill.lua" ],
+  "scriptDelta" : 240,
+
+  "autofillContents" : [ {"name" : "ffguide", "count" : 1, "parameters" : {}},{"name" : "ffguide2", "count" : 1, "parameters" : {}},{"name" : "ffguide3", "count" : 1, "parameters" : {}} ]
+  
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "darklightblossom",
+  "rarity" : "Common",
+  "inventoryIcon" : "darklightblossom.png",
+  "description" : "It's said that this flower can cure insanity.",
+  "shortdescription" : "Darklight Blossom",
+      "effects" : [ [
+          "insanityimmunity"
+    ] ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "fleshstrand", "count" : 70 },
+    { "item" : "eyepiles", "count" : 12 },
+    { "item" : "corruptionseed", "count" : 8 },
+    { "item" : "mutagene2", "count" : 1 }
+  ],
+  "output" : { "item" : "eyecannon", "count" : 1 },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

@@ -1,0 +1,37 @@
+{
+  "projectileName" : "rocketswarm",
+  "frames" : "rocketswarm.png",
+  "animationCycle" : 0.25,  
+  "physics" : "boomerang",
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "fallSpeed" : 0,
+  "lightColor" : [255, 255, 128],
+  "timeToLive" : 0.3,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "swarmmissile",
+      "inheritDamageFactor" : 0.4
+    },
+	{
+      "action" : "projectile",
+      "type" : "swarmmissile",
+      "inheritDamageFactor" : 0.4,
+	  "angleAdjust" : -15
+    },
+	{
+      "action" : "projectile",
+      "type" : "swarmmissile",
+      "inheritDamageFactor" : 0.4,
+	  "angleAdjust" : 15
+    },
+	{
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "fireplasma"
+}

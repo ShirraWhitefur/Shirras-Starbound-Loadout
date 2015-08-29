@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "adaptivecells", "count" : 4 },
+    { "item" : "biosample", "count" : 8 }, 
+    { "item" : "nervebundle1", "count" : 1 },
+    { "item" : "cellresistance1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ighantseed",
+    "count" : 5
+  },
+  "groups" : [ "designlab", "flower", "all", "tools" ]
+}

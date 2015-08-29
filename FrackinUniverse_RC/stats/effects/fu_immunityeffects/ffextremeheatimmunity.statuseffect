@@ -1,0 +1,11 @@
+{
+  "name" : "ffextremeheatimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "ffextremeheatimmunity.lua"
+  ],
+  "label" : "Heat Immunity",
+  "icon" : "/interface/statuses/biomeheat.png"
+}

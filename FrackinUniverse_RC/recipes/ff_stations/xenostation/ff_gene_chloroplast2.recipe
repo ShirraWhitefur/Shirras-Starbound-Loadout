@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "ff_resin", "count" : 2},
+    { "item" : "aminoacid", "count" : 8},
+    { "item" : "peptidechain", "count" : 8},  
+    { "item" : "ff_fertilizer2", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "chloroplast2",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

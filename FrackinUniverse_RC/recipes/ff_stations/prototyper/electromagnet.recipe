@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 1 },
+    { "item" : "wire", "count" : 5 }
+	
+  ],
+  "output" : {
+    "item" : "electromagnet",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "chemical", "all" ]
+}

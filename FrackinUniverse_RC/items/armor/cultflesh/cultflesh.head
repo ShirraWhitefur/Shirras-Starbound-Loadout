@@ -1,0 +1,37 @@
+{
+  "itemName" : "cultfleshhead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Nothing says respect and power like a cow's skull.",
+  "shortdescription" : "Flesh Helmet",
+  "tooltipKind" : "armor",
+  
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.75
+    },
+    {
+      "stat" : "protection",
+      "amount" : 15
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 47
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 20
+    },
+    "slimestickimmunity"
+  ],
+    "questTags" : [ "tier5armor" ]
+}

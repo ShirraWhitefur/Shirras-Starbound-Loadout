@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "regengene3", "count" : 1 },
+    { "item" : "nervebundle3", "count" : 1 },
+    { "item" : "musclegene2", "count" : 1 },
+    { "item" : "cellmatter", "count" : 3 },
+    { "item" : "chloroplast3", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "genesiberryseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "fruit", "all", "tools" ]
+}

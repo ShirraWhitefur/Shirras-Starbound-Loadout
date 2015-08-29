@@ -1,0 +1,10 @@
+{
+  "itemName" : "crystalplant",
+  "rarity" : "rare",
+  "inventoryIcon" : "crystalplant.png",
+  "description" : "Provides immunity to poison and acid for one minute.",
+  "shortdescription" : "Crystal Shard",
+  "effects" : [ [
+      "poisonimmunity", "sulphuricacidimmunity"
+    ] ]
+}

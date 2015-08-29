@@ -1,0 +1,16 @@
+{
+  "name" : "biooozepoison",
+  "blockingStat" : "biooozeImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 4,
+
+  "scripts" : [
+    "biooozepoison.lua"
+  ],
+
+  "animationConfig" : "biooozepoison.animation",
+
+  "label" : "Oozed",
+  "icon" : "/interface/statuses/bioooze.png"
+}

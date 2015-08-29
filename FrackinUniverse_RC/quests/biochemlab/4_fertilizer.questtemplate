@@ -1,0 +1,16 @@
+  {
+  "id" : "4_fertilizer.gearup",
+  "title" : "^#1693d5;Fertilizer",
+  "text" : "You can't accomplish much without ^orange;Fertilizer^white;. Always have some on hand. You'll need ^orange;Ammonium sulphate^white;, ^orange;Sulphur^white; and ^orange;Methanol^white; to make it.",
+  "completionText" : "Good. Now let's make a more complex product.",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "ff_fertilizer", "consume" : false }
+  ],
+  "moneyRange" : [0,0],
+  "rewards" : [],
+
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "5_pesticide.gearup"
+}
+ 

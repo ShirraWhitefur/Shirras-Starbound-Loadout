@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "coldgene", "count" : 1 },
+    { "item" : "immunegene1", "count" : 1 },
+    { "item" : "cellhardening1", "count" : 1 },
+    { "item" : "biosample", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "kramil",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "bush", "all", "tools" ]
+}

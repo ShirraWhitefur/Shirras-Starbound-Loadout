@@ -1,0 +1,16 @@
+{
+  "name" : "gravrain",
+  "effectConfig" : {
+    "gravityModifier" : -1.0
+  },
+  "defaultDuration" : 0.35,
+
+  "scripts" : [
+    "gravrain.lua"
+  ],
+
+  "animationConfig" : "gravrain.animation",
+
+  "label" : "Gravity Rain",
+  "icon" : "/interface/statuses/lowgrav.png"
+}

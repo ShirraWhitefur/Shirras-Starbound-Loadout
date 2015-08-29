@@ -1,0 +1,15 @@
+  {
+  "id" : "6_peptidechain.gearup",
+  "title" : "^#1693d5;Peptide chain",
+  "text" : "^orange;Peptide chains^white; are an essential brick of life. Without them you won't be able to custom-craft a viable cell.",
+  "completionText" : "We're almost done. Just one more step to self-sufficiency.",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "peptidechain", "consume" : false }
+  ],
+  "moneyRange" : [0,0],
+  "rewards" : [],
+
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "7_synthprotein.gearup"
+}

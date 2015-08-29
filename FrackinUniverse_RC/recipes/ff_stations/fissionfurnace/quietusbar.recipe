@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "blooddiamond", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "quietusbar",
+    "count" : 1
+  },
+  "groups" : [ "fissionfurnace", "all" ]
+}

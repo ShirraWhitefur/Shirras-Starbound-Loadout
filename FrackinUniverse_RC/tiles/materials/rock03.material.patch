@@ -1,0 +1,6 @@
+[
+{"op":"replace","path":"/itemDrop","value":"dacitematerial"},
+{"op":"replace","path":"/description","value":"Rough, unrefined dacite."},
+{"op":"replace","path":"/shortdescription","value":"Mudstone Dacite"},
+{"op":"replace","path":"/glitchDescription","value":"Statement. Dacite."}
+]

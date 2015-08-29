@@ -1,0 +1,26 @@
+{
+  "itemName" : "elderpistol",
+  "inventoryIcon" : "elderpistol.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The ultimate annihilator.",
+  "shortdescription" : "Disruptor Pistol",
+  "image" : "elderpistol.png",
+  "handPosition" : [-7, -2],
+  "firePosition" : [5, 2],
+  "weaponType" : "Energy Weapon",
+  "recoilTime" : 0.1,
+  "level" : 8,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.50,
+  "twoHanded" : false,  
+  "walkWhileFiring" : true,
+  
+  "projectileType" : "elderburst",
+  "projectile" : { "speed" : 55, "power" : 3.2 , "color" : [0, 0, 0] },
+  "muzzleEffect" : {
+       "fireSound" : [ { "file" : "/sfx/weapons/eldercarbine.wav" } ],
+       "animation" :  "/animations/muzzleflash/plasmamuzzle4green/plasmamuzzle4green.animation"
+	   }   
+}

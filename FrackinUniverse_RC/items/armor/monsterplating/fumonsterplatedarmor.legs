@@ -1,0 +1,31 @@
+{
+  "itemName" : "fumonsterplatedlegs",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Leggings made with tough monster hide.",
+  "shortdescription" : "Monster Plate Leggings",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.7
+    },  
+    {
+      "stat" : "protection",
+      "amount" : 50
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 30
+    },
+    "fumudslowimmunity",
+    "blacktarimmunity"
+  ]
+}

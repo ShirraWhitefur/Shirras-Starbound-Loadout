@@ -1,0 +1,29 @@
+{
+  "name": "fuguard_apex",
+  "priority": 10,
+
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "fu": 16,
+    "combat" : 8,
+    "laser" : 2
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "apex",
+      "level": 1,
+      "type": "fuguard",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "villagerGift"
+  }
+}

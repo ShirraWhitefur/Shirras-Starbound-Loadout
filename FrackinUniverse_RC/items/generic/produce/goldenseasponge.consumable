@@ -1,0 +1,10 @@
+{
+  "itemName" : "goldenseasponge",
+  "rarity" : "Common",
+  "inventoryIcon" : "goldenseasponge.png",
+  "description" : "Makes you as light as a sponge, affecting your gravity.",
+  "shortdescription" : "Golden Sea Sponge",
+  "effects" : [ [
+      "lowgrav"
+    ] ]
+}

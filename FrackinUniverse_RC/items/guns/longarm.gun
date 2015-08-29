@@ -1,0 +1,33 @@
+{
+  "itemName" : "longarm",
+  "inventoryIcon" : "longarm.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Spread joy and shrapnel.",
+  "shortdescription" : "Longarm Shotgun",
+  "image" : "longarm.png",
+  "handPosition" : [-7, -1],
+  "firePosition" : [20, 0],
+  "weaponType" : "Beam",
+  "recoilTime" : 0.1,
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "fireTime" : 1.5,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+  "projectileCount" : 7,
+  "inaccuracy" : 0.125,
+  "fireOnRelease" : false,
+
+  "projectileType" : "splitbullet",
+  "projectile" : { 
+  "speed" : 60, 
+  "power" : 3.5
+  },
+  
+  "muzzleEffect" : {
+       "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.wav" } ],
+       "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
+	   } 
+}

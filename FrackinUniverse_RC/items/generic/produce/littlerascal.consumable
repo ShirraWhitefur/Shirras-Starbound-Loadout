@@ -1,0 +1,10 @@
+{
+  "itemName" : "littlerascal",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "littlerascal.png",
+  "description" : "Increases health and energy stores.",
+  "shortdescription" : "Little Rascal Herb",
+  "effects" : [ [
+      "maxhealthboost60", "maxenergyboost60"
+    ] ]  
+}

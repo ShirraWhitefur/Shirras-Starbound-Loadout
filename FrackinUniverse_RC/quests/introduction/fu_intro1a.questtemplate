@@ -1,0 +1,14 @@
+  {
+  "id" : "fu_intro1a.gearup",
+  "prerequisites" : [ "fu_intro1.gearup" ],
+  "title" : "^#1693d5;Moving to the Science outpost",
+  "text" : "If you'd like to broaden your scientific knowledge, I work at a ^green;high-tech facility^white; hidden away in the stars. Interested?",
+  "completionText" : "Please meet my friend at these coordinates. He lives at the ^orange;Corvex Research Facility^white; in Beta Reticuli IV. Use your ships AI to get there from the ^orange;Missions^white; tab. We could use your help.",
+  "completionConditions" : [ ],
+  "requireTurnIn" : true,
+  "moneyRange" : [100, 100],
+  "rewards" : [ ],
+  "completionCinema" : "/cinematics/coordinates.cinematic",
+  "canBeAbandoned" : false,
+  "associatedMission" : "scienceoutpostarrival"
+}

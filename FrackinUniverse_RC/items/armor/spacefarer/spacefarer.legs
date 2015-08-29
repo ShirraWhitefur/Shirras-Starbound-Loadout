@@ -1,0 +1,36 @@
+{
+  "itemName" : "spacefarerpants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Magnetic boots allow ship hull walking.",
+  "shortdescription" : "Spacefarer Greaves",
+  "tooltipKind" : "armor",
+  "learnBlueprintsOnPickup" : [ "spacefarerpantsadv" ],
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.09
+    },    
+    {
+      "stat" : "protection",
+      "amount" : 30
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 75
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 65
+    },
+    "spacefarerimmunity"
+  ]
+}

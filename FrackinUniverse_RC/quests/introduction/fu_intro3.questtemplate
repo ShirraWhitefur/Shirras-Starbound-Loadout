@@ -1,0 +1,19 @@
+  {
+  "id" : "fu_intro3.gearup",
+  "prerequisites" : [ "fu_intro2.gearup" ],
+  "title" : "^#1693d5;What Matters?",
+  "text" : "Before I send you to our engineer, you must have your own Matter Assembler. To craft it, you'll need ^orange;8 steel bars, 6 copper bars^white; and^orange; 4 units of glass.^white; ^green;Bring them to me^white; and we can continue.",
+  "completionText" : "Well done. This ^orange;weapon^white; will help keep you safe in your travels. The sand will prove useful soon. See me when you wish to continue your education.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "steelbar", "count" :8,"consume" : false },
+    { "type" : "gather", "item" : "copperbar", "count" :6,"consume" : false },
+    { "type" : "gather", "item" : "glassmaterial", "count" :4,  "consume" : false }
+  ],
+  "moneyRange" : [300, 400],
+  "rewards" : [ 
+    [ [ "solarispear", 1],[ "sand", 500] ] 
+  ],
+  "followUp" : "fu_intro4.gearup",
+  "requireTurnIn" : true
+}
+ 

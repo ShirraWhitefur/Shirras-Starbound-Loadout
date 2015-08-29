@@ -1,0 +1,34 @@
+{
+  "itemName" : "diamondshield",
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Fashionably expensive protection.",
+  "shortdescription" : "Diamond Shield",
+  "tooltipKind" : "shield",
+  "kind" : "Shield",
+
+  "inventoryIcon" : "diamondshield.png:preview",
+  "image" : "diamondshield.png",
+
+  "hitSound" : "/sfx/melee/shield_block_metal.wav",
+  "perfectHitSound" : "/sfx/melee/shield_block_metal_perfect.wav",
+  "breakSound" : "/sfx/melee/shield_break_metal.wav",
+  "perfectBlockParticle" : "shieldspark",
+  "breakParticle" : "guardbrokenmessage",
+
+  "recoilTime" : 0.2,
+  "knockbackPower" : 30,
+  "knockbackDamageKind" : "",
+  "statusEffects" : [
+    {
+      "stat" : "encumberance",
+      "amount" : 0.5
+    }
+  ],
+  "shieldPoly" : [ [-8, 0], [-8, 12], [8, 20], [8, -24], [-8, -12] ],
+  "damagePoly" : [ [-8, 0], [8, 18], [8, -18] ],
+
+  "health" : 220.0,
+  "healthRegen" : 0.10
+}

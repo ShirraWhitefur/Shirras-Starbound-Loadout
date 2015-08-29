@@ -1,0 +1,6 @@
+[
+{"op":"replace","path":"/itemDrop","value":"andesitematerial"},
+{"op":"replace","path":"/description","value":"Rough, unrefined andesite."},
+{"op":"replace","path":"/shortdescription","value":"Andesite Block"},
+{"op":"replace","path":"/glitchDescription","value":"Statement. Andesite."}
+]

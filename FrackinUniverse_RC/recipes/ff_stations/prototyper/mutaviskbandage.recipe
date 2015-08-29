@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "mutaviskthread", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "mutaviskbandage",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "chemical", "all" ]
+}

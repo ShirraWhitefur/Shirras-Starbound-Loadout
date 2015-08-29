@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "elderrelic5", "count" : 1 },
+    { "item" : "elderrelic11", "count" : 1 },
+    { "item" : "densiniumbar", "count" : 10 },
+    { "item" : "aliencompound", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "elderblade",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

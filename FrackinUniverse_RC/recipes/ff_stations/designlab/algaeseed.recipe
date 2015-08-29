@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "kelp", "count" : 3 },
+    { "item" : "aquatichomeostasis", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "algaeseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "bush", "all", "tools" ]
+}

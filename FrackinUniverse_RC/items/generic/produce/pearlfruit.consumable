@@ -1,0 +1,10 @@
+{
+  "itemName" : "pearlfruit",
+  "rarity" : "Common",
+  "inventoryIcon" : "pearlfruit.png",
+  "description" : "These fruits are damned delicious. And squishy. Heals 10% health",
+  "shortdescription" : "Pearlfruit",
+  "effects" : [ [
+      "heal_10"
+    ] ]
+}

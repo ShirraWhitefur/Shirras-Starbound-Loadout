@@ -1,0 +1,8 @@
+{
+  "itemName" : "quietusore",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "quietusore.png",
+  "description" : "Odd, crystallized and metal-infused blood plasma.",
+  "shortdescription" : "Quietus Ore",
+  "learnBlueprintsOnPickup" : [ "blooddiamond" ]
+}

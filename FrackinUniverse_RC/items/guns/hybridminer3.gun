@@ -1,0 +1,35 @@
+{
+    "itemName" : "hybridminer3",
+    "inventoryIcon" : "hybridminer3.png",
+    "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+    "maxStack" : 1,
+    "rarity" : "rare",
+    "description" : "Great power and range. ",
+    "shortdescription" : "Miner (Quantum)",
+    "image" : "hybridminer3.png",
+    "learnBlueprintsOnPickup" : [ "hybridminer4" ],
+    "handPosition" : [-8, 0],
+    "firePosition" : [8, 1.5],
+    "weaponType" : "Beam",
+    "recoilTime" : 0.1,
+    "level" : 1,
+    "tooltipKind" : "gun",
+    "fireTime" : 0.02,
+    "twoHanded" : false,
+    "rateOfFire" : [2, 7],
+    "muzzleEffect" : {
+      "fireSound" : [ { "file" : "/sfx/projectiles/swing_electric2.wav" } ]
+    },
+  
+    "fireOnRelease" : false,
+    
+    "projectileType" : "hybridminershot3",
+
+    "powerProjectileTime" : [0.4, 50],
+    "projectile" : {
+      "speed" : 20, 
+      "power" : 0.07 , 
+      "color" : [120, 120, 120] 
+  	}
+}
+  

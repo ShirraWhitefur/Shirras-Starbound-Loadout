@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "celeritygene", "count" : 1 },
+    { "item" : "shockgene", "count" : 1 },
+    { "item" : "shroom", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "yellowfootseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "vine", "all", "tools" ]
+}

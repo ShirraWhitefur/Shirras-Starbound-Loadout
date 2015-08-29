@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "thornitox", "count" : 12 },
+    { "item" : "dnasample", "count" : 24 },
+    { "item" : "penumbriteshard", "count" : 6 },
+    { "item" : "biochip", "count" : 5 },
+    { "item" : "biochip", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "spikesword3",
+    "count" : 1
+  },
+  "groups" : [ "nanofabricator", "weapons", "all" ]
+}

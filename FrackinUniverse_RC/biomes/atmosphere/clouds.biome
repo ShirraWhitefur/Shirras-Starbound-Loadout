@@ -1,0 +1,23 @@
+{
+  "name" : "clouds",
+  "friendlyName" : "Clouds",
+
+  "spawnProfiles" : [
+    {
+      "groups" : [ "sky1" ],
+      "extraSpawns" : [ ]
+    },
+    {
+      "groups" : [ "sky2" ],
+      "extraSpawns" : [ ]
+    }
+  ],
+
+  "mainBlock" : "cloudblock",
+  "subBlocks" : [ "raincloud"  ],
+  "ores" : "surfaceOres",
+
+  "parallax" : "/parallax/atmosphere/atmosphere.parallax",
+
+  "hueShiftOptions" : [0]
+}

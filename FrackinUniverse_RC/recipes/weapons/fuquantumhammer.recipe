@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "eridianbar", "count" : 8 },
+    { "item" : "particlecore", "count" : 1 },
+    { "item" : "advancealloy", "count" : 4 }
+  ],
+  "output" : { "item" : "fuquantumhammer", "count" : 1 },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

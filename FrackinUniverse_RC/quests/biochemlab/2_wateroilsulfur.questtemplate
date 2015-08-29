@@ -1,0 +1,18 @@
+  {
+  "id" : "2_wateroilsulphur.gearup",
+  "title" : "^#1693d5;Water, Oil and Sulphur",
+  "text" : "Speaking of resources, you'd better gather some right now. Let's say, ^green;20 ^orange;sulphur^white;, ^green;20 units of ^orange;oil^white; and ^green;20 units of ^orange;water^white;.",
+  "completionText" : "Great. This can be consumed pretty fast so remember where you got them.",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "sulphur", "count" :20, "consume" : false },
+    { "type" : "gather", "item" : "liquidoil", "count" :20, "consume" : false },
+    { "type" : "gather", "item" : "liquidwater","count" :20, "consume" : false }
+  ],
+  "moneyRange" : [0,0],
+  "rewards" : [],
+
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "3_aminoacids.gearup"
+}
+ 

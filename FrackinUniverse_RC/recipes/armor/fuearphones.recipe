@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 1 },
+    { "item" : "circuitboard", "count" : 1 },
+    { "item" : "wire", "count" : 2 },
+    { "item" : "copperbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "fuearphones",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

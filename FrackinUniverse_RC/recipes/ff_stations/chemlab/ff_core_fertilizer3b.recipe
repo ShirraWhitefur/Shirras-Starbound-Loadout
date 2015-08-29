@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ff_fertilizer2", "count" : 2 },
+    { "item" : "pesticide", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ff_fertilizer3",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "chemical", "all" ]
+}

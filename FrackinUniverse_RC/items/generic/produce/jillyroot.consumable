@@ -1,0 +1,10 @@
+{
+  "itemName" : "jillyroot",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "jillyroot.png",
+  "description" : "Delicious, and healthy. Heals 25% health.",
+  "shortdescription" : "Jilly Root",
+  "effects" : [ [
+        "heal_25"
+    ] ]
+}

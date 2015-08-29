@@ -1,0 +1,15 @@
+{
+  "modId" : 6772,
+  "modName" : "sulphuricgrass",
+  "Description" : "Sulphuric Stone",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "sulphuricgrass.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

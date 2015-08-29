@@ -1,0 +1,34 @@
+{
+    "itemName" : "minirocketlauncher2",
+    "inventoryIcon" : "minirocketlauncher2.png",
+    "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+    "maxStack" : 1,
+    "rarity" : "rare",
+    "description" : "Fires adorable little missiles.",
+    "shortdescription" : "Micro-Rocket Ejector",
+    "image" : "minirocketlauncher2.png",
+    "handPosition" : [-7, -1],
+    "firePosition" : [27, 2],
+    "weaponType" : "Rocket Launcher",
+    "recoilTime" : 0.1,
+    "level" : 4,
+    "tooltipKind" : "gun",
+    "fireTime" : 0.35,
+    "twoHanded" : true,
+    "walkWhileFiring" : false,
+    "muzzleEffect" : {
+       "fireSound" : [ { "file" : "/sfx/gun/rocket_shot.wav" } ],
+       "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
+    },
+    "fireOnRelease" : false,
+    
+    "projectileType" : "rocketswarm",
+
+    "powerProjectileTime" : [0.4, 50],
+    "projectile" : {
+      "speed" : 65, 
+      "power" : 4.8, 
+      "color" : [45, 45, 45] 
+  	}
+}
+  

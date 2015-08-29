@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "triangliumpyramid", "count" : 5 },
+    { "item" : "irradiumbar", "count" : 10 },
+    { "item" : "quietusplate", "count" : 3 },
+    { "item" : "liquidirradium", "count" : 14 }
+  ],
+  "output" : {
+    "item" : "irradiumlegs",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

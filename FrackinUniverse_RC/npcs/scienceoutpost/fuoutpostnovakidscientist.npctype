@@ -1,0 +1,85 @@
+{
+  "type" : "fuoutpostnovakidscientist",
+  "baseType" : "fuoutpostcivilian",
+
+    "scriptConfig" : {
+        "offeredQuests" : [ "1b_matterassembler.gearup", "1_samplingarray.gearup" ],
+        "turnInQuests" : [ "1a_matterassembler.gearup" ],
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                      "Hold your horses, fellow scientist!"
+                ]
+                }
+            }
+        },
+   
+
+    "items" : {
+        "override" : [
+            [0, [
+          {
+            "head" : [ "scientisthead" ],
+            "chest" : [ "spacefarerchestadv" ],
+            "legs" : [ "spacefarerpantsadv" ]
+          }
+            ] ]
+        ]
+    },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "appliesEnvironmentStatusEffects" : false,
+    "minimumLiquidStatusEffectPercentage" : 0.1,
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 5,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 100.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 100.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 100.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  }
+}

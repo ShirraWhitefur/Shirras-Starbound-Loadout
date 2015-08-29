@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "quietusplate", "count" : 5 },
+    { "item" : "fuprocessor", "count" : 2 },
+    { "item" : "advancealloy", "count" : 4 },
+    { "item" : "biochip", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "quietushead",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

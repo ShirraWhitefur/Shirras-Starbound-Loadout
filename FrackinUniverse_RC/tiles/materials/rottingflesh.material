@@ -1,0 +1,21 @@
+{
+	"materialId" : 6619,
+	"materialName" : "rottingflesh",
+	"particleColor" : [151, 171, 126, 255],
+	"itemDrop" : "rottingfleshmaterial",
+	"description" : "Okay...ew.",
+	"shortdescription" : "Rotting Flesh",
+	"footstepSound" : "/sfx/blocks/footstep_brains.wav",
+	"health" : 3,
+	"category": "materials",
+
+	"renderTemplate" : "/tiles/classicmaterialtemplate.config",
+	"renderParameters" : {
+		"texture" : "rottingflesh.png",
+		"variants" : 5,
+		"lightTransparent" : false,
+		"multiColored" : false,
+		"occludesBelow" : true,
+		"zLevel" : 0
+	}
+}

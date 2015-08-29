@@ -1,0 +1,49 @@
+{
+  "itemName" : "cultiststaff2",
+  "inventoryIcon" : "cultiststaff2.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Fashioned from bones and petrified wood.",
+  "shortdescription" : "Harbinger Staff",
+  "image" : "cultiststaff2.png",
+  "handPosition" : [-1.5, -7],
+  "firePosition" : [5, 1.5],
+  "level" : 3,
+  "fireTime" : 0.10,
+  "windupTime" : 0.08,
+  "cooldown" : 0.05,
+  "twoHanded" : true,
+  "fireOnRelease" : false,
+
+  "swingStart" : 12,
+  "swingFinish" : 0,
+  "coolingDownAngle" : 0,
+
+  "projectileType" : "flamethrowerff",
+  "projectile" : {
+    "speed" : 30,
+    "power" : 1,
+    "color" : [255, 10, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [
+      { "file" : "/sfx/gun/flamethrower.ogg" }
+    ]
+  },
+
+  "level1ChargeTime" : 0.10,
+  "level2ChargeTime" : 0.10,
+
+  "staffChargingGlow" : {
+    "file" : "cultiststaff2glow.png",
+    "chargingFrames" : 13,
+    "sparkFrames" : 3,
+    "loopFrames" : 4,
+    "fireFrames" : 3,
+    "sparkTime" : 0.5,
+    "loopTime" : 0.5,
+    "offset" : [ 0, 6 ]
+  }
+}

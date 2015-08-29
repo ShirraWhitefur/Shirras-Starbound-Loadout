@@ -1,0 +1,66 @@
+{
+  "objectName" : "fuwildavikancactusseed",
+  "rarity" : "uncommon",
+  "category" : "farmable",
+  "description" : "Cacti originating from Kadavan.",
+  "shortdescription" : "Kadavan Cactus Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+  "hasObjectItem" : false,
+
+  "apexDescription" : "A juicy cactus. It looks better than it tastes.",
+  "avianDescription" : "Colourful cacti. Not very tasty.",
+  "floranDescription" : "Juicccy green plantsss.",
+  "glitchDescription" : "Statement. Cactus spines make for excellent projectiles.",
+  "humanDescription" : "Alien cacti. I prefer those from Earth.",
+  "hylotlDescription" : "A plant filled with water. A relief to any who live in the desert.",
+  
+  "aegiDescription" : "A cactus originally found on Kadavan.",
+  "avikanDescription" : "A cactus from home. Vital for life in the desert.",
+  "erixianDescription" : "A plant full of water. It would not survive on Heragon.",
+  "trinkDescription" : "Cutting this plant releases water. This unit could use some.",
+  "hymidDescription" : "Juicy plants full of water. Similar plants grow on our home planet.",
+  "notixDescription" : "A big, juicy plant. Very green.",
+  "jorgasianDescription" : "A cactus. Those spines might hurt.",
+  "centensDescription" : "Cacti are found on many desert planets. A result of the Seeding.",
+  "dremetonDescription" : "Like the cacti on Elithia, this plant is vital to life in the desert.",
+  "hyvonDescription" : "Only the weak are hurt by the spines of this plant. We are not weak.",
+
+  "inventoryIcon" : "fuavikancactusseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fuavikancactusseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3], [1, 4], [0, 4] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "alts" : 5,
+      "duration" : [400, 440]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "fuavikancactusHarvest",
+      "resetToStage" : 0
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "fuavikancactusseed", 1, { } ] ]
+  ]
+}

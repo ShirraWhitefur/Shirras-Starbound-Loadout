@@ -1,0 +1,9 @@
+{
+  "itemName" : "eridianplate",
+  "rarity" : "legendary",
+  "inventoryIcon" : "eridianplate.png",
+  "description" : "A thick plate made of eridian.",
+  "category" : "Metal Plate",
+  "shortdescription" : "^#b84cbc;Eridian Plate^white;"
+}
+

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "agaranichor", "count" : 2 },
+    { "item" : "liquidgravrain", "count" : 12},
+    { "item" : "geneticmaterial", "count" : 10},
+    { "item" : "glassmaterial", "count" : 4},
+    { "item" : "dnasample", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "mutagene2",
+    "count" : 2
+  },
+  "groups" : [ "chemlab", "genetics", "all" ]
+}

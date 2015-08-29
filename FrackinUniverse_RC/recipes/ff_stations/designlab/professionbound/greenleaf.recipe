@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "shockgene", "count" : 2 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "nervebundle1", "count" : 1 },
+    { "item" : "ginsengseed", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "greenleafseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "bush", "all", "tools" ]
+}

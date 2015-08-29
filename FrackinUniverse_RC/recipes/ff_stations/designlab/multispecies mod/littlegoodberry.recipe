@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "regengene1", "count" : 1 },
+    { "item" : "aggressiongene", "count" : 1 },
+    { "item" : "cellhardening2", "count" : 1 },
+    { "item" : "pearlpeaseed", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "littlegoodberryseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "fruit", "all", "tools" ]
+}

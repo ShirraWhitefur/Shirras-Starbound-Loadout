@@ -1,0 +1,10 @@
+{
+  "codexId" : "blackbook1",
+  "title" : "Unknown Ancient Tome",
+  "codexkind" : "codex",
+  "inventoryIcon" : "eldertome.png",
+  "itemName" : "blackbook1",
+  "rarity" : "common",
+  "description" : "dark secrets and insanity await...",
+  "shortdescription" : "Ancient Tome"
+}

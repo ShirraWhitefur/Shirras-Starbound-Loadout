@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "aggressiongene", "count" : 1 },
+    { "item" : "blobbushjelly", "count" : 2 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "petalblue", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "aenemaflower",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "flower", "all", "tools" ]
+}

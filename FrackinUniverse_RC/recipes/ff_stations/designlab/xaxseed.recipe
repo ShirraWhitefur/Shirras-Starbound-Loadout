@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "firegene", "count" : 1 },
+    { "item" : "cellhardening3", "count" : 2 },
+    { "item" : "shockgene", "count" : 2 },
+    { "item" : "talonseedseed", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "xaxseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "bush", "all", "tools" ]
+}

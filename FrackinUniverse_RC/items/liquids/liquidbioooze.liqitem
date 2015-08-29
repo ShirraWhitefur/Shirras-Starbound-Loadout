@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidbioooze",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidbiooozeicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Bio-Ooze",
+  "description" : "A measure of bio-ooze.",
+
+  "liquid" : "bio_ooze"
+}

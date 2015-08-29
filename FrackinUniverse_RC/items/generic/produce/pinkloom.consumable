@@ -1,0 +1,10 @@
+{
+  "itemName" : "pinkloom",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "pinkloom.png",
+  "description" : "Increases health by 80 for 3 minutes.",
+  "shortdescription" : "Pinkloom Herb",
+  "effects" : [ [
+    "maxhealthboost80"
+    ] ]
+}

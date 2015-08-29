@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "luminescentcells", "count" : 1 },
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "tissueculture", "count" : 3 },
+    { "item" : "oculargene", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "gazelemonseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "vegetable", "all", "tools"  ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "steelplate", "count" : 2 },
+    { "item" : "ironplate", "count" : 4 },
+    { "item" : "fabric", "count" : 6 },
+    { "item" : "regengene1", "count" : 1 }
+  ],
+  "output" : { "item" : "fuhoodedmask", "count" : 1 },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

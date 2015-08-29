@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "protocitebar", "count" : 6 },
+    { "item" : "penumbriteshard", "count" : 6 },
+    { "item" : "ff_plastic", "count" : 6 },
+    { "item" : "moonstonebar", "count" : 4 },
+    { "item" : "biochip", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "protogun",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

@@ -1,0 +1,32 @@
+{
+  "kind" : "bioweapon",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/melee/tesla_shock1.wav", "/sfx/melee/tesla_shock2.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/tesla_shock_kill.wav" ],
+        "particles" : [
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/melee/tesla_shock1.wav", "/sfx/melee/tesla_shock2.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/tesla_shock_kill.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}
+
+
+

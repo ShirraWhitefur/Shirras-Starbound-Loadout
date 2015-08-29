@@ -1,0 +1,38 @@
+{
+  "objectName" : "clonelab",
+  "rarity" : "Common",
+  "description" : "Create modified versions of plants, and clone seeds.",
+  "shortdescription" : "^purple;Cloning Lab^white;",
+  "race" : "generic",
+  "subtitle" : "create modified seeds.",
+  "objectType" : "container",
+  "printable" : false,
+  "price" : 450,
+
+  "lightColor" : [75, 75, 100],
+
+  "inventoryIcon" : "clonelabicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "clonelab.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1] ],
+      "collision" : "platform"
+    }
+  ], 
+  "recipeGroup" : "clonelab",
+  "openSounds" : [ "/sfx/objects/screen3.wav" ],
+  "slotCount" : 3,
+  "uiConfig" : "/interface/objectcrafting/cloner/cloner.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}
+
+
+

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "solarishard", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "icecrystal",
+    "count" : 1
+  },
+  "groups" : [ "fissionfurnace", "all" ]
+}

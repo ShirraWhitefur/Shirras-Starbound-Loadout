@@ -1,0 +1,10 @@
+{
+  "itemName" : "voritcap",
+  "rarity" : "Common",
+  "inventoryIcon" : "voritcap.png",
+  "description" : "Greatly increases swimming speed.",
+  "shortdescription" : "Vorit Cap",
+  "effects" : [ [
+  "swimboost3"
+    ] ]
+}

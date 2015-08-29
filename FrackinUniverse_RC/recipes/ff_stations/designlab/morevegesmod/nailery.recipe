@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 1 },
+    { "item" : "organicsynthesis", "count" : 2 },
+    { "item" : "explosivegene", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "naileryseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "bush", "all", "tools" ]
+}

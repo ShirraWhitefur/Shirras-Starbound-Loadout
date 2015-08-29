@@ -1,0 +1,50 @@
+{
+  "itemName" : "corruptblade",
+  "level" : 5,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "A blade infused with corruption.",
+  "shortdescription" : "Corrupted Blade",
+  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
+  "kind" : "Shortsword",
+  "image" : "corruptblade.png",
+  "firePosition" : [22.5, 4.5],
+  "fireTime" : 0.5,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_onehanded.wav" } ] },
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileType" : "shortswordswoosh1",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 4.6
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -17.0],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-6.0, -17.0],
+      "duration" : 0.05,
+      "statusEffects" : []
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -45,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -27.5],
+      "duration" : 0.4,
+      "statusEffects" : []
+    }
+  }
+}

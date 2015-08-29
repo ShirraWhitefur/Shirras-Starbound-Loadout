@@ -1,0 +1,23 @@
+{
+  "materialId" : 6596,
+  "materialName" : "bonemeal",
+  "particleColor" : [212, 205, 174, 205],
+  "itemDrop" : "bonemealmaterial",
+  "description" : "mixed bone powder and... gore.",
+  "shortdescription" : "Bone Meal",
+  "footstepSound" : "/sfx/blocks/footstep_bone.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 7,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bonemealblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "musclegene3", "count" : 1 },
+    { "item" : "nervebundle3", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "cellresistance2", "count" : 1 },
+    { "item" : "greenleafseed", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "victorleaf",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "tree", "all", "tools" ]
+}

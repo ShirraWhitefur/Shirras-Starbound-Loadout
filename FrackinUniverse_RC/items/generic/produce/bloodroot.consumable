@@ -1,0 +1,10 @@
+{
+  "itemName" : "bloodroot",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "bloodroot.png",
+  "description" : "Increases your maximum health for 3 minutes.",
+  "shortdescription" : "Blood Root",
+  "effects" : [ [
+    "maxhealthboost40"
+    ] ]
+}

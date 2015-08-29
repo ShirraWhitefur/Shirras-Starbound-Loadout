@@ -1,0 +1,10 @@
+{
+  "itemName" : "slimeleaf",
+  "rarity" : "Common",
+  "inventoryIcon" : "slimeleaf.png",
+  "description" : "Tastes like ass. Upside? 30 Protection and Slime immunity.",
+  "shortdescription" : "Slime Leaf",
+      "effects" : [ [
+          "defenseboost30","slimestickimmunity"
+    ] ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 1 },
+    { "item" : "ironbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "diamondblockmaterial",
+    "count" : 2
+  },
+  "groups" : [ "prototyper", "materials", "all" ]
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "geneticmaterial", "count" : 6 },
+    { "item" : "tissueculture", "count" : 6 },
+    { "item" : "nutrientpaste", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "peptidechain",
+    "count" : 5
+  },
+  "groups" : [ "chemlab", "genetics", "all"  ]
+}

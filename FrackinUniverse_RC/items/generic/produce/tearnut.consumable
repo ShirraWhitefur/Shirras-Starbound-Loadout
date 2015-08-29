@@ -1,0 +1,10 @@
+{
+  "itemName" : "tearnut",
+  "rarity" : "Common",
+  "inventoryIcon" : "tearnut.png",
+  "description" : "Extremely protein rich! Heals 10% health.",
+  "shortdescription" : "Tearnut",
+  "effects" : [ [
+      "heal_10"
+    ] ]
+}

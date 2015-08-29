@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "mineralsample", "count" : 1 }, 
+    { "item" : "mutavisksilk", "count" : 1 },
+    { "item" : "dnasample", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "mutaviskthread",
+    "count" : 2
+  },
+  "groups" : [ "chemlab", "compounds", "all" ]
+}

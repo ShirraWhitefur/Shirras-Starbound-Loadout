@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "peptidechain", "count" : 6 },
+    { "item" : "methanol", "count" : 1 },
+    { "item" : "glassmaterial", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "synthesizedprotein",
+    "count" : 4
+  },
+  "groups" : [ "chemlab", "genetics", "all"  ]
+}

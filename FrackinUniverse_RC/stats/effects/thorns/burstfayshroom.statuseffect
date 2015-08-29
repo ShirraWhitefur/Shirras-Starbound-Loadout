@@ -1,0 +1,20 @@
+{
+  "name" : "burstfayshroom",
+  "effectConfig" : {
+    "range" : 5,
+
+    "damageProjectileType" : "shieldburst",
+    "damageMultiplier" : 4,
+
+    "cooldown" : 1
+
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "burstfayshroom.lua"
+  ],
+
+  "label" : "Thorns",
+  "icon" : "/interface/statuses/thorns.png"
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+	{ "item" : "defensegene3", "count" : 1 },
+	{ "item" : "cellhardening2", "count" : 1 },
+        { "item" : "nutrientpaste", "count" : 3 },
+        { "item" : "endomorphicjelly", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "beetlesproutseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "bush", "all", "tools" ]
+}

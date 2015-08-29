@@ -1,0 +1,16 @@
+{
+  "itemName" : "vextonguestamen",
+  "rarity" : "Common",
+  "inventoryIcon" : "vextonguestamen.png",
+  "description" : "Increases healing rate.",
+  "shortdescription" : "Vextongue Stamen",
+  "effects" : [ [
+      {
+        "effect" : "regeneration2",
+	      "duration" : 24
+      }
+    ] ],
+  "blockingEffects" : [
+    "regeneration2"
+  ]
+}

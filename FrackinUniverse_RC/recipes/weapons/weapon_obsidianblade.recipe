@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "obsidianshard", "count" : 25 },
+    { "item" : "ceruliumcompound", "count" : 3 },
+    { "item" : "ff_penumbraplating", "count" : 3 },
+    { "item" : "ebonshard", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "obsidianblade",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

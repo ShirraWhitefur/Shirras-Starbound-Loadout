@@ -1,0 +1,29 @@
+{
+  "itemName" : "quellstembud",
+  "rarity" : "Common",
+  "inventoryIcon" : "quellstembud.png",
+  "description" : "Total immunity to heat and fire.",
+  "shortdescription" : "Quellstem Bud",
+      "effects" : [ [
+      {
+        "effect" : "fireImmunity",
+        "amount" : 1.0,
+        "duration" : 120
+      },
+      {
+        "effect" : "lavaImmunity",
+        "amount" : 1.0,
+        "duration" : 120
+      },
+      {
+        "effect" : "biomeheatImmunity",
+        "amount" : 1.0,
+        "duration" : 120
+      },
+      {
+        "effect" : "ffextremeheatImmunity",
+        "amount" : 1.0,
+        "duration" : 120
+      }
+    ] ]
+}

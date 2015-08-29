@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "nervebundle1", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "shockgene", "count" : 1 },
+    { "item" : "oonfortaseed", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "batterystem",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "flower", "all", "tools" ]
+}

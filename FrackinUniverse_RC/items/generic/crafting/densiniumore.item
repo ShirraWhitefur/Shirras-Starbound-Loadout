@@ -1,0 +1,8 @@
+{
+  "itemName" : "densiniumore",
+  "rarity" : "legendary",
+  "inventoryIcon" : "densiniumore.png",
+  "description" : "A multi-phasic super-dense metal.",
+  "shortdescription" : "Densinium Ore",
+  "learnBlueprintsOnPickup" : [ "densiniumbar", "voidstorage" ]
+}

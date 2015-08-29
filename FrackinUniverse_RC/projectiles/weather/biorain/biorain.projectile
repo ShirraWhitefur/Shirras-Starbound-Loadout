@@ -1,0 +1,9 @@
+{
+  "projectileName" : "biorain",
+  "physics" : "grenade",
+  "frames" : "healingrain.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 2,
+  "lightColor" : [0, 125, 0],
+  "actionOnReap" : [ { "action" : "liquid", "liquid" : "bio_ooze", "quantity" : 0.65 } ]
+}

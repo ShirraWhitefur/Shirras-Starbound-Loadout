@@ -1,0 +1,10 @@
+{
+  "itemName" : "penumbradirtmaterial",
+  "rarity" : "Common",
+  "inventoryIcon" : "penumbradirtmaterial.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Void dirt",
+  "description" : "This dirt absorbs all light",
+
+  "materialId" : 6588
+}

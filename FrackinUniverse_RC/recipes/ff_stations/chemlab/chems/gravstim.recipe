@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "liquidgravrain", "count" : 3 },
+    { "item" : "cellmateria", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "gravstim",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "compounds", "all" ]
+}

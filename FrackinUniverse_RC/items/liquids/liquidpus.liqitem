@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidpus",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "liquidpusicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Pus",
+  "description" : "This is absolutely disgusting.",
+
+  "liquid" : "pus"
+}

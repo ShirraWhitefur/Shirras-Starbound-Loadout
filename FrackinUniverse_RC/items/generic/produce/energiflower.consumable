@@ -1,0 +1,14 @@
+{
+  "itemName" : "energiflower",
+  "rarity" : "Common",
+  "inventoryIcon" : "energiflowericon.png",
+  "description" : "Regenerates some energy. Also acts as a minor fuel.",
+  "shortdescription" : "Energiflower",  
+  "fuelAmount" : 4,
+  "effects" : [ [
+      {
+        "effect" : "energyregenfu35",
+        "duration" : 20
+      }
+    ] ]
+}

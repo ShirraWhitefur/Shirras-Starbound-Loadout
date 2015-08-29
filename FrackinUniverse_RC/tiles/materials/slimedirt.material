@@ -1,0 +1,24 @@
+{
+  "materialId" : 6606,
+  "materialName" : "slimedirt",
+  "particleColor" : [81, 150, 81, 200],
+  "itemDrop" : "slimedirtmaterial",
+  "description" : "Ew. Slimy.",
+  "shortdescription" : "Slimey Soil",
+  "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "health" : 3,
+  "tillableMod" : 36,
+  "soil" : true,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "slimedirt.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}
+

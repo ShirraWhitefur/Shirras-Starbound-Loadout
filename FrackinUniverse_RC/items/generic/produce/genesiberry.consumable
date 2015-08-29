@@ -1,0 +1,10 @@
+{
+  "itemName" : "genesiberry",
+  "rarity" : "Common",
+  "inventoryIcon" : "genesiberry.png",
+  "description" : "Heals 90% health",
+  "shortdescription" : "Genesiberry",
+  "effects" : [ [
+      "heal_90"
+    ] ]
+}

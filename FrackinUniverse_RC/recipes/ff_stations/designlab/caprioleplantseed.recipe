@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "musclegene1", "count" : 1 },
+    { "item" : "nervebundle1", "count" : 1 },
+	{ "item" : "tissueculture", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "caprioleplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "flower", "all", "tools" ]
+}

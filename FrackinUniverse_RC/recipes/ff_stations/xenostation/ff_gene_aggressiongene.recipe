@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "cellhardening1", "count" : 1 },
+    { "item" : "liquidbioooze", "count" : 2 },
+    { "item" : "phosphorus", "count" : 6 },
+    { "item" : "synthesizedprotein", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "aggressiongene",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}
+ 

@@ -1,0 +1,20 @@
+  {
+  "id" : "rooted2.gearup",
+  "prerequisites" : [ "rooted1.gearup" ],
+  "title" : "^#1693d5;Rooted II",
+  "text" : "If I am to get off this world, I ^green;need some armor^white;. Could you ^orange;craft me some pioneer armor^white;?",
+  "completionText" : "Excellent. Now I can stop panicking and really get to work!",
+  "completionConditions" : [ 
+  { "type" : "gather", "item" : "fupioneerhead", "consume" : true },
+  { "type" : "gather", "item" : "fupioneerchest", "consume" : true },
+  { "type" : "gather", "item" : "fupioneerpants", "consume" : true } 
+  ],
+  "moneyRange" : [220,420],
+  "rewards" : [ 
+    [ [ "firegene", 1 ],[ "shockgene", 1 ], [ "toxingene", 1 ]  ]
+    ],
+
+  "requireTurnIn" : true,
+  "canBeAbandoned" : false,
+  "followUp" : "rooted3.gearup"
+}

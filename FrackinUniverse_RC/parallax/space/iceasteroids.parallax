@@ -1,0 +1,60 @@
+{
+    "verticalOrigin" : 0,
+
+  "layers" : [
+    {
+      "kind" : "asteroidfront",
+      "offset" : [0, 0],
+      "parallax" : [10, 9999],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "asteroidfront",
+      "offset" : [133, 0],
+      "parallax" : [10, 9999],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "asteroidback",
+      "offset" : [0, 0],
+      "parallax" : [20, 9999],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "asteroidback",
+      "offset" : [133, 0],
+      "parallax" : [20, 9999],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "asteroidback2",
+      "offset" : [0, 0],
+      "parallax" : [9999, 9999],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "asteroidback2",
+      "offset" : [133, 0],
+      "parallax" : [9999, 9999],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    }
+  ]
+}

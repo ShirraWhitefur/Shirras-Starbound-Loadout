@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "celeritygene", "count" : 1 },
+    { "item" : "petalyellow", "count" : 3 },
+    { "item" : "luminescentcells", "count" : 1 },
+    { "item" : "musclegene1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "goldenglowseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "flower", "all", "tools" ]
+}

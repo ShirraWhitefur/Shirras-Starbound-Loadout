@@ -1,0 +1,8 @@
+{
+  "itemName" : "copperplate",
+  "rarity" : "common",
+  "inventoryIcon" : "copperplate.png",
+  "description" : "A Pressed Copper Plate",
+  "category" : "Metal Plate",
+  "shortdescription" : "Copper Plate"
+}

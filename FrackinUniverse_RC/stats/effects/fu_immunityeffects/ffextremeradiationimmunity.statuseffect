@@ -1,0 +1,11 @@
+{
+  "name" : "ffextremeradiationimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "ffextremeradiationimmunity.lua"
+  ],
+  "label" : "Radiation Immunity",
+  "icon" : "/interface/statuses/biomeradioactive.png"
+}

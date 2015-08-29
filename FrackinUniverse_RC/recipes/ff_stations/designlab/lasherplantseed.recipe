@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "aggressiongene", "count" : 1 },
+    { "item" : "defensegene1", "count" : 1 }, 
+    { "item" : "fleshstrand", "count" : 3 },
+    { "item" : "nervebundle1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "lasherplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "bush", "all", "tools" ]
+}

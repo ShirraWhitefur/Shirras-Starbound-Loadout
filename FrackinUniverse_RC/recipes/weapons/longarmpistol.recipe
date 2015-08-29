@@ -1,0 +1,12 @@
+{
+  "input" : [
+   { "item" : "eridianplate", "count" : 1 },
+   { "item" : "coil", "count" : 2 },
+   { "item" : "titaniumbar", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "longarmpistol",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

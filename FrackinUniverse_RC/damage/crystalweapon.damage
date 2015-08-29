@@ -1,0 +1,32 @@
+{
+  "kind" : "crystal",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/melee/blunt_hit_organic.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/blunt_kill_organic1.wav" ],
+        "particles" : [
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/melee/shield_block_metal2.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/kill_robotic3.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,17 @@
+  {
+  "id" : "rooted1.gearup",
+  "prerequisites" : [ ],
+  "title" : "^#1693d5;Rooted",
+  "text" : "I'm sort of a ^green;crappy explorer^white;. I've been stuck here for years. You seem industrious and driven! Could you possibly ^orange;craft me a gas mask^white;? I'll need it when I finally get off-world.",
+  "completionText" : "You are a godsend! Thanks so much. Say...could we maybe talk some more?",
+  "completionConditions" : [ 
+  { "type" : "gather", "item" : "ff_gasmask", "consume" : true } ],
+  "moneyRange" : [210,290],
+  "rewards" : [ 
+    [ [ "musclegene1", 1 ] ]
+    ],
+
+  "requireTurnIn" : true,
+  "canBeAbandoned" : false,
+  "followUp" : "rooted2.gearup"
+}

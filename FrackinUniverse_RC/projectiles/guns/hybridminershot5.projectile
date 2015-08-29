@@ -1,0 +1,23 @@
+{
+  "projectileName" : "hybridminershot5",
+  "frames" : "hybridminershot5.png",
+  "physics" : "laser",
+  "timeToLive" : 0.825,
+  "animationCycle" : 0.2,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 4,
+  "level" : 2,
+  "power" : 0.5,
+  "lightColor" : [153, 197, 208],
+  "speed" : 35,
+  "piercing" : false,
+  "damagePoly" : [ [0, -8], [16, -8], [16, 8], [0, 8] ],
+  "damageKind" : "plasma",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/hybridminerexplosion5.config"
+    }
+  ]
+  
+  }

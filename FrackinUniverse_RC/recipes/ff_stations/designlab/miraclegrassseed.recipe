@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "regengene1", "count" : 1 },
+    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "plantfibre", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "miraclegrassseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "flower", "all", "tools" ]
+}

@@ -1,0 +1,17 @@
+{
+  "modId" : 6610,
+  "modName" : "biotilled",
+  "description" : "Tilled mutated soil",
+  "footstepSound" : "/sfx/blocks/footstep_wetclay.wav",
+  "tilled" : true,
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "biotilled.png",
+    "variants" : 3,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}
+

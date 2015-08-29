@@ -1,0 +1,8 @@
+{
+  "itemName" : "nailery",
+  "rarity" : "Common",
+  "inventoryIcon" : "naileryicon.png",
+  "description" : "Nailery, a Glitch delicacy. Tastes a bit too much like iron. Makes nail bombs.",
+  "shortdescription" : "Nailery",
+  "learnBlueprintsOnPickup" : [ "nailbomb" ]
+}

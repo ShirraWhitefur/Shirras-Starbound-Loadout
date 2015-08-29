@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "bone", "count" : 3 },
+    { "item" : "vialproto", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "protostim",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "compounds", "all" ]
+}

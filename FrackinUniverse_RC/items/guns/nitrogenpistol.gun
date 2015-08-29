@@ -1,0 +1,33 @@
+{
+  "itemName" : "nitrogenpistol",
+  "inventoryIcon" : "nitrogenpistol.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Freezes unfortunate targets.",
+  "shortdescription" : "Nitrogen Pistol",
+  "image" : "nitrogenpistol.png",
+  "handPosition" : [-7, -1],
+  "firePosition" : [13, 4],
+  "weaponType" : "Beam",
+  "recoilTime" : 0.1,
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.5,
+  "twoHanded" : false,
+  "walkWhileFiring" : false,
+
+  "fireOnRelease" : false,
+
+  "projectileType" : "fuicebreath",
+  "projectile" : { 
+  "speed" : 50, 
+  "power" : 2.15 , 
+  "color" : [255, 141, 40] 
+  },
+  
+  "muzzleEffect" : {
+       "fireSound" : [ { "file" : "/sfx/gun/pulsecannon2.wav" } ],
+       "animation" :  "/animations/muzzleflash/plasmamuzzle3blue/plasmamuzzle3blue.animation"
+	   } 
+}

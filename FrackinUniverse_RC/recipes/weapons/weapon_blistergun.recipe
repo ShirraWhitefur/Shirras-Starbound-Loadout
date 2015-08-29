@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "blisterextract", "count" : 6 },
+    { "item" : "ff_penumbraplating", "count" : 6 },
+    { "item" : "titaniumbar", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "blistergun",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

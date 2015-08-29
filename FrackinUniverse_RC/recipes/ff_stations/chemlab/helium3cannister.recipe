@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "helium3gasliquid", "count" : 60 }
+  ],
+  "output" : {
+    "item" : "helium3cannister",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "chemical", "all" ]
+}

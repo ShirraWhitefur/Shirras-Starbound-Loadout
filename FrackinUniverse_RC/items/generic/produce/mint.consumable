@@ -1,0 +1,10 @@
+{
+  "itemName" : "mint",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "mint.png",
+  "description" : "Radiation-proof herb. Useless against Extreme radiation.",
+  "shortdescription" : "Star Mint",
+  "effects" : [ [
+   "heal_15", "energy_15"
+    ] ]
+}

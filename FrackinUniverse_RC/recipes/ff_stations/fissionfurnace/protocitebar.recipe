@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "protociteore", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "protocitebar",
+    "count" : 1
+  },
+  "groups" : [ "fissionfurnace", "all" ]
+}

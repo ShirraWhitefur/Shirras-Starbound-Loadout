@@ -1,0 +1,30 @@
+{
+  "projectileName" : "elderblast3",
+  "physics" : "hover",
+  "bounces" : 0,
+  "speed" : 80,
+  "timeToLive" : 0.1,
+  "lightColor" : [0, 160, 0],
+  "frames" : "elderblast3.png",
+  "animationCycle" : 0.1,
+  "frameNumber" : 6,
+  "animationLoops" : false,
+  "power" : 3,
+  "damagePoly" : [ [-3, 3], [-3, -3], [3, -3], [3, 3] ],
+  "piercing" : true,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/elderexplosion/elderexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "elderblast4",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 0
+    }
+  ],
+  "damageKind" : "plasma"
+}

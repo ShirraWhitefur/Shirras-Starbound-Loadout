@@ -1,0 +1,6 @@
+[
+{"op":"replace","path":"/itemDrop","value":"gneissmaterial"},
+{"op":"replace","path":"/description","value":"Rough, unrefined gneiss."},
+{"op":"replace","path":"/shortdescription","value":"Gneiss Block"},
+{"op":"replace","path":"/glitchDescription","value":"Statement. Gneiss."}
+]

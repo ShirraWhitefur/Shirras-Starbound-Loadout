@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 2 },
+    { "item" : "musclegene2", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 2 },
+    { "item" : "petalblue", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "bluemelonseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "fruit", "all", "tools" ]
+}

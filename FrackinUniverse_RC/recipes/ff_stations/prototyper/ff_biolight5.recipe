@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "biospore", "count" : 50 },
+    { "item" : "steelbar", "count" : 8 },
+    { "item" : "biochip", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ff_biolight5",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "furniture", "all" ]
+}

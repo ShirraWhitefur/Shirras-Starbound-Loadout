@@ -1,0 +1,27 @@
+{
+  "itemName" : "thornslinger",
+  "inventoryIcon" : "thornslinger.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Rapid fire thorny death. Share with friends.",
+  "shortdescription" : "Thorn Slinger",
+  "image" : "thornslinger.png",
+  "handPosition" : [-7, -1],
+  "firePosition" : [20, 1.5],
+  "weaponType" : "Assault Rifle",
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.1,
+  "inaccuracy" : 0.02,
+  "twoHanded" : true,  
+  "walkWhileFiring" : false,
+  
+  "projectileType" : "thornslingershot",
+  "projectile" : { "speed" : 65, "power" : 2.3 , "color" : [0, 0, 0] },
+  "muzzleEffect" : {
+       "fireSound" : [ { "file" : "/sfx/gun/plasma_pistol3.wav" } ],
+       "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
+	   }   
+}

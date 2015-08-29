@@ -1,0 +1,17 @@
+{
+  "itemName" : "tyvokkhook",
+  "rarity" : "Common",
+  "inventoryIcon" : "tyvokkhook.png",
+  "description" : "A powerful regenerative food.",
+  "shortdescription" : "Tyvokk Hook",
+  "effects" : [ [
+      {
+        "effect" : "regeneration3",
+        "duration" : 20
+      },      
+      {
+        "effect" : "energyregenfu25",
+        "duration" : 20
+      }
+    ] ]
+}

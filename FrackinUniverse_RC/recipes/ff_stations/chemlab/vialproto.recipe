@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 1 },
+    { "item" : "protocitebar", "count" : 1 },
+    { "item" : "dnasample", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "vialproto",
+    "count" : 2
+  },
+  "groups" : [ "chemlab", "compounds", "all" ]
+}

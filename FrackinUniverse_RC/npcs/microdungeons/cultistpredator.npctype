@@ -1,0 +1,116 @@
+{
+  "type" : "cultistpredator",
+  "baseType" : "hostile",
+
+  "levelVariance" : [0, 0],
+
+  "dropPools" : [ "ffbanditTreasure" ],
+  
+ "scriptConfig" : {
+  "dialog" : {
+  "attack" : "/dialog/cultist.config:attack"
+  }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "cultarmorhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "cultarmorchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "cultarmorpants", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "bloodyknife" }
+            ],
+            "alt" : [
+              { "name" : "flashlight" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "cultfleshhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "cultarmorchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "cultarmorpants", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "coralspear" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "cultarmorhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "cultarmorchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "cultarmorpants", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "obsidianblade" }
+            ],
+            "alt" : [
+              { "name" : "flashlight" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "cultarmorhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "cultarmorchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "cultarmorpants", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "bloodyknife" }
+            ],
+            "alt" : [
+              { "name" : "bloodyknife" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "fubonearmorhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "fubonearmorchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "fubonearmorlegs", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "carbonblade" }
+            ],
+            "alt" : [
+              { "name" : "flashlight" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "ff_lagoonhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "ff_lagoonchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "ff_lagoonpants", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "elderblade" }
+            ],
+            "alt" : [
+              { "name" : "eldershield" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "cultcrown" } ],
+            "chest" : [ { "name" : "cultarmorchest" } ],
+            "legs" : [ { "name" : "cultarmorpants" } ],
+            "primary" : [
+              [ "generatedsword", 1, { "definition" : "commondagger" } ],
+              [ "generatedsword", 1, { "definition" : "commonaxe" } ],
+              [ "generatedsword", 1, { "definition" : "commonshortsword" } ],
+              [ "generatedsword", 1, { "definition" : "commonbroadsword" } ],
+              [ "generatedsword", 1, { "definition" : "commonhammer" } ],
+              [ "generatedsword", 1, { "definition" : "commonspear" } ],
+              [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ],
+              [ "generatedgun", 1, { "definition" : "commonpistol" } ],
+              [ "generatedgun", 1, { "definition" : "commonmachinepistol" } ],
+              [ "generatedgun", 1, { "definition" : "commonshotgun" } ],
+              [ "generatedgun", 1, { "definition" : "commonsniperrifle" } ]
+            ],
+            "alt" : [
+              { "name" : "flashlight" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "skullreaperhelm" } ],
+            "chest" : [ { "name" : "elderarmorchest" } ],
+            "legs" : [ { "name" : "elderarmorpants" } ],
+            "primary" : [
+              { "name" : "elderblade" }, { "name" : "elderpistol" }
+            ],
+            "alt" : [
+              { "name" : "eldershield" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

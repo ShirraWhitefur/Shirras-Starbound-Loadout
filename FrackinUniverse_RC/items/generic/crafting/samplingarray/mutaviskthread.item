@@ -1,0 +1,8 @@
+{
+  "itemName" : "mutaviskthread",
+  "rarity" : "rare",
+  "inventoryIcon" : "mutaviskthread.png",
+  "description" : "A strange, super-tough bio-thread.",
+  "shortdescription" : "Mutavisk Nanofibre",
+  "learnBlueprintsOnPickup" : [ "mutaviskhead", "mutaviskchest", "mutavisklegs", "mutaviskbandage" ]
+}

@@ -1,0 +1,26 @@
+{
+  "itemName" : "energyassault",
+  "inventoryIcon" : "energyassault.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A reliable energy weapon.",
+  "shortdescription" : "Energy Assault Rifle",
+  "image" : "energyassault.png",
+  "handPosition" : [-12, -3],
+  "firePosition" : [11, 1],
+  "weaponType" : "Energy Weapon",
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.185,
+  "inaccuracy" : 0.025,
+  "twoHanded" : true,  
+  "walkWhileFiring" : false,
+  "projectileType" : "blueboltsmall",
+  "projectile" : { "speed" : 65, "power" : 3.6 , "color" : [70, 0, 120] },
+  "muzzleEffect" : {
+       "fireSound" : [ { "file" : "/sfx/gun/plasma_mp7.wav" } ],
+       "animation" :  "/animations/muzzleflash/plasmamuzzle3blue/plasmamuzzle3blue.animation"
+	   }   
+}

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "cellhardening1", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "coralcreepseed", "count" : 3 },
+    { "item" : "nervebundle1", "count" : 1 },
+	{ "item" : "defensegene1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "mireurchinseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "vegetable", "all", "tools"  ]
+}

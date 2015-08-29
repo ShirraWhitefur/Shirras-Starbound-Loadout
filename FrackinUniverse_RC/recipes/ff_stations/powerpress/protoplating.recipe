@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "protocitebar", "count" : 2 },
+    { "item" : "ff_mercury", "count" : 2 },
+    { "item" : "lead", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ff_protoplating",
+    "count" : 1
+  },
+  "groups" : [ "powerpress", "materials", "all" ]
+}

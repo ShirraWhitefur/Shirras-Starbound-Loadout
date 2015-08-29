@@ -1,0 +1,18 @@
+{
+  "projectileName" : "sulphurstone2",
+  "frames" : "sulphurstone2.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/weatheringexplosion/weatheringexplosion.config"
+    }
+  ],
+  "power" : 1.0,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef"
+}

@@ -1,0 +1,37 @@
+{
+  "objectName" : "fusnowberryseed",
+  "rarity" : "rare",
+  "category" : "farmable",
+  "description" : "Cold, crunchy and poisonous. The trifecta of qualities for a delicious fruit.",
+  "shortdescription" : "Snowberry",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "inventoryIcon" : "snowberryseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "snowberryseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ 
+	  [-2, 0], [-2, 1], [-2, 2], [-2, 3], [-2, 4], [-2, 5], [-2, 6], [-1, 0], [-1, 1], [-1, 2], [-1, 3], [-1, 4], [-1, 5], [-1, 6], [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [1, 0], [1, 1], [1, 2], [1, 3], [1, 4], [1, 5], [1, 6], [2, 0], [2, 1], [2, 2], [2, 3], [2, 4], [2, 5], [2, 6], [3, 0], [3, 1], [3, 2], [3, 3], [3, 4], [3, 5], [3, 6] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [120, 360]
+    },
+    {
+      "duration" : [120, 360]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "fusnowberryseedHarvest",
+      "resetToStage" : 0
+    }
+  ]
+}

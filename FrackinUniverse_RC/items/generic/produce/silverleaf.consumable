@@ -1,0 +1,10 @@
+{
+  "itemName" : "silverleaf",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "silverleaf.png",
+  "description" : "Fantastic energy booster",
+  "shortdescription" : "Silverleaf Herb",
+  "effects" : [ [
+      "maxenergyboost80"
+    ] ]  
+}

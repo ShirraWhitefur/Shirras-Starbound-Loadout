@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "celeritygene", "count" : 1},
+    { "item" : "immunegene2", "count" : 1},
+    { "item" : "toxicgene", "count" : 1},
+    { "item" : "bonebooseed", "count" : 3}
+  ],
+  "output" : {
+    "item" : "nissseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "flower", "all", "tools" ]
+}

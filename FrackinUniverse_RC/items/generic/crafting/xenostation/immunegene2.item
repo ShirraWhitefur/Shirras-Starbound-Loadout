@@ -1,0 +1,8 @@
+{
+  "itemName" : "immunegene2",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "immunegene2.png",
+  "description" : "Immunity research",
+  "shortdescription" : "^#77acc3;Immunity II^white;",
+  "learnBlueprintsOnPickup" : [ "immunegene3", "leafshellseed" ]
+}

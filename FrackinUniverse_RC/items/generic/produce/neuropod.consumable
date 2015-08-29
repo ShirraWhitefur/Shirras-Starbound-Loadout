@@ -1,0 +1,28 @@
+{
+  "itemName" : "neuropod",
+  "rarity" : "Common",
+  "inventoryIcon" : "neuropod.png",
+  "description" : "A powerhouse of speed, energy and strength.",
+  "shortdescription" : "Neuropod Bulb",
+  "effects" : [ [
+      {
+        "effect" : "energyregenfu50",
+        "duration" : 35
+      },
+      {
+        "effect" : "runboost",
+        "amount" : 0.35,
+        "duration" : 35
+      },
+      {
+        "effect" : "rage",
+        "amount" : 0.35,
+        "duration" : 35
+      },
+      {
+        "effect" : "jumpboost",
+        "amount" : 0.35,
+        "duration" : 35
+      }
+    ] ]
+}
