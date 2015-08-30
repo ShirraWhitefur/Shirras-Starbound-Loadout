@@ -65,7 +65,7 @@ GardenBot 2.0 Rebooted
 	http://community.playstarbound.com/resources/gardenbot-2-0-rebooted.3036/
 	Robotic Farming ... IN SPACE! - Supports over 1000 plants! - SGu5/PGu2
 
-		NEED TESTING \/
+		Needs testing! \/
 Graviton Projectors
 	v1.29 - 2015-03-16
 	http://community.playstarbound.com/resources/graviton-projectors.2692/
@@ -116,7 +116,7 @@ Purchasable Pets
 	http://community.playstarbound.com/resources/purchasable-pets.2854/
 	Buy pets at Infinity Express
 
-		NEEDS AUTHOR TO MAKE PATCH! \/
+		TEMPORARILY REMOVED - Neeeeds author to make a patch! \/
 Starbound Side Stories
 	v1.9 - 2015-08-25
 	http://community.playstarbound.com/resources/starbound-side-stories.2830/
