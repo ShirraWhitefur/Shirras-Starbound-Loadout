@@ -1,4 +1,0 @@
-[
-  { "op" : "add", "path" : "/health", "value" : 20 },
-  { "op" : "replace", "path" : "/smashOnBreak", "value" : false }
-]

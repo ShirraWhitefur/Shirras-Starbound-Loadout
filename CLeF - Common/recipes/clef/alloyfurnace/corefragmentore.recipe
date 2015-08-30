@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "liquidlava", "count" : 10 },
-    { "item" : "liquidoil", "count" : 1 }
-  ],
-  "output" : { "item" : "corefragmentore", "count" : 1 },
-  "groups" : [ "alloyfurnace", "all" ]
-}

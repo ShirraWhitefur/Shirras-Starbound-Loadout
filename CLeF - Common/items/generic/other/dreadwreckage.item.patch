@@ -1,4 +1,0 @@
-[
-  { "op" : "add", "path" : "/pickupQuestTemplates", "value" : [ "importantwreckage.gearup" ] },
-  { "op" : "add", "path" : "/learnBlueprintsOnPickup", "value" : [ "dreadblock", "hitechpickaxe", "hitechdrill" ] }
-]

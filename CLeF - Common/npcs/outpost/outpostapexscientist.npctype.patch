@@ -1,5 +1,0 @@
-[
-  // Jelly Boss Quest
-  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "foodforthought.gearup" },
-  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "foodforthought.gearup" }
-]

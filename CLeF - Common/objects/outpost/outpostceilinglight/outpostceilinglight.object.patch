@@ -1,6 +1,0 @@
-[
-  // NoLag patch
-  { "op" : "replace", "path" : "/lightColor", "value" : [ 205, 205, 205 ] },
-  { "op" : "remove", "path" : "/pointLight" },
-  { "op" : "remove", "path" : "/pointBeam" }
-]

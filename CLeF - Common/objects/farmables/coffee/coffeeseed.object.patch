@@ -1,5 +1,0 @@
-[
-  { "op" : "replace", "path" : "/shortdescription", "value" : "Raw Coffee Beans" },
-  { "op" : "replace", "path" : "/description", "value" : "Grows coffee plant. Dry them out and brew them." },
-  { "op" : "add", "path" : "/learnBlueprintsOnPickup", "value" : [ "coffeebeans" ] }
-]

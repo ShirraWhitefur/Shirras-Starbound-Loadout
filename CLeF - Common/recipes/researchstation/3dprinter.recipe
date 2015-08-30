@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 2000 },
-    { "item" : "durasteelbar", "count" : 10 },
-    { "item" : "diamond", "count" : 2 }
-  ],
-  "output" : { "item" : "3dprinter", "count" : 1 },
-  "groups" : [ "researchstation", "tools", "all" ]
-}

@@ -1,6 +1,0 @@
-{
-  "input" : [
-  ],
-  "output" : { "item" : "orangeteleportercore", "count" : 1 },
-	"groups" : [ "spawningtable", "crafting" ]
-}

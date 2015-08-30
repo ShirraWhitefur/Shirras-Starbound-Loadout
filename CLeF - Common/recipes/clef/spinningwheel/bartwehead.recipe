@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "glassmaterial", "count" : 2 }
-  ],
-  "output" : { "item" : "bartwehead", "count" : 1 },
-  "groups" : [ "spinningwheel", "material" ]
-}

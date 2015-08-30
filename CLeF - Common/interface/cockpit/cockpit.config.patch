@@ -1,7 +1,0 @@
-[
-  // intraspace travel cost patch
-  { "op" : "replace", "path" : "/intraSystemFuelcost", "value" : 5 },
-  // interface colours
-  { "op" : "replace", "path" : "/guiConfig/xCoord/color", "value" : [ 255, 128, 0 ] },
-  { "op" : "replace", "path" : "/guiConfig/yCoord/color", "value" : [ 255, 128, 0 ] }
-]

@@ -1,5 +1,0 @@
-[
-  { "op" : "replace", "path" : "/shortdescription", "value" : "Liquid Slime" },
-  { "op" : "replace", "path" : "/description", "value" : "A measure of liquid slime." },
-  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "greenslime" }
-}

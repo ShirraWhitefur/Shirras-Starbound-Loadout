@@ -1,6 +1,0 @@
-[
-  { "op" : "replace", "path" : "/description", "value" : "Pickaxes are so past millenium! This one is made of gold. Helps you to get more gold!" },
-  { "op" : "replace", "path" : "/durability", "value" : 5000 },
-  { "op" : "add", "path" : "/canBeRepaired", "value" : true},
-  { "op" : "add", "path" : "/durabilityRegenChart", "value" : [ [ "goldore", 1500 ], [ "goldbar", 3000 ] ] }
-]

@@ -1,4 +1,0 @@
-[
-  // NoLag Patch
-  { "op" : "replace", "path" : "/animatedParts/stateTypes/light/states/on/cycle", "value" : 0.9 }
-]

@@ -1,5 +1,0 @@
-[
-  { "op" : "replace", "path" : "/skippable", "value" : true },
-  { "op" : "replace", "path" : "/panels", "value" : [] },
-  { "op" : "replace", "path" : "/audio", "value" : [] }
-]

@@ -1,5 +1,0 @@
-[
-  // NoLag patch
-  { "op" : "replace", "path" : "/lightColor", "value" : [ 30, 44, 51 ] },
-  { "op" : "add", "path" : "/defaultLightState", "value" : false }
-]

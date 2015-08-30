@@ -1,9 +1,9 @@
 # Shirras-Starbound-Loadout
 Shirra's Starbound Mod Loadout
 
-Updated - 2015-08-29
+Updated - 2015-08-30
  All mods unpacked
- Optimized with PNGGauntlet
+ Optimized with PNGGauntlet last on 2015-08-29
 --------------------------------
 
 ACCM
@@ -25,11 +25,6 @@ Blocktable+ (Compatibility)
 	v0.1 - 2015-08-28
 	http://community.playstarbound.com/resources/blocktable-plus-compatibility.2791/
 	compatibility version of blocktable plus (A table that lets you build most materials)
-
-CLeF - Choke Le Fish
-	v53 - 2015-08-29
-	http://community.playstarbound.com/resources/clef-things-to-do-in-starbound.2622/
-	Brings fun back. Armour, liquid interactions, repairable tools, old bosses, quests and much more!
 
 Colorbound
 	v3.2 - 2015-01-31
@@ -61,7 +56,7 @@ Felins
 	http://community.playstarbound.com/resources/felins-costumes.2925/
 
 Frackin Universe
-	vRC41a - 2015-08-29 (Actually updating direct from Github, version number may get out of date.)
+	vRC41a - 2015-08-30 (Actually updating direct from Github, version number may get out of date.)
 	http://community.playstarbound.com/resources/frackinuniverse.2920/
 	Enhances exploration, crafting, and just about every other area of play. Huge mod.
 
@@ -70,12 +65,11 @@ GardenBot 2.0 Rebooted
 	http://community.playstarbound.com/resources/gardenbot-2-0-rebooted.3036/
 	Robotic Farming ... IN SPACE! - Supports over 1000 plants! - SGu5/PGu2
 
-		NEED TESTING
+		NEED TESTING \/
 Graviton Projectors
 	v1.29 - 2015-03-16
 	http://community.playstarbound.com/resources/graviton-projectors.2692/
 	Defying Gravity!
-		NEED TESTING
 
 Ground Penetrating Radar Station
 	v1.4 - 2015-08-27
@@ -122,6 +116,7 @@ Purchasable Pets
 	http://community.playstarbound.com/resources/purchasable-pets.2854/
 	Buy pets at Infinity Express
 
+		NEEDS AUTHOR TO MAKE PATCH! \/
 Starbound Side Stories
 	v1.9 - 2015-08-25
 	http://community.playstarbound.com/resources/starbound-side-stories.2830/
@@ -191,3 +186,14 @@ Gyrusens
 	v1.0 - 2015-03-27
 	http://community.playstarbound.com/resources/gyrusens.1997/
 	Alien reptile race from distant lands!
+
+                 ----------------------------------
+--------------------------------------------------------------------
+                Removed - Incompatible with Multiplayer
+--------------------------------------------------------------------
+                 ----------------------------------
+	
+CLeF - Choke Le Fish
+	v53 - 2015-08-29
+	http://community.playstarbound.com/resources/clef-things-to-do-in-starbound.2622/
+	Brings fun back. Armour, liquid interactions, repairable tools, old bosses, quests and much more!

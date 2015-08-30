@@ -1,4 +1,0 @@
-[
- { "op" : "replace", "path" : "/description", "value" : "This brain looks to be perfect for experimentation... or cooking!" },
- { "op" : "add", "path" : "/learnBlueprintsOnPickup", "value" : [ "artificialbrain", "brainpie" ] }
-]

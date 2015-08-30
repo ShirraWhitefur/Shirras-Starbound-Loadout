@@ -1,1 +1,0 @@
-// These .png files are part of LoPhatKao's NoLag mod. Just a reminder for myself.

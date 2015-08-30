@@ -1,5 +1,0 @@
-[
-  // Fatal Circuit Quest
-  { "op": "add", "path": "/scriptConfig/offeredQuests", "value": [ "fatalcircuit1.gearup" ] },
-  { "op": "add", "path": "/scriptConfig/turnInQuests", "value": [ "fatalcircuit1.gearup" ] }
-]
