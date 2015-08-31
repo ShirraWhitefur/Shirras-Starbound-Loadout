@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "steelbar", "count" : 3 },
-    { "item" : "microchip", "count" : 2 },
-    { "item" : "electromagnet", "count" : 1 }
-  ],
-  "output" : { "item" : "laspistol", "count" : 1 },
-  "groups" : [ "prototyper", "weapons", "all" ]
-}

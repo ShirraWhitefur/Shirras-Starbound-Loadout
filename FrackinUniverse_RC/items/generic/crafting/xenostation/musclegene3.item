@@ -1,8 +1,0 @@
-{
-  "itemName" : "musclegene3",
-  "rarity" : "rare",
-  "inventoryIcon" : "musclegene3.png",
-  "description" : "Muscle enhancement research.",
-  "shortdescription" : "^#88e25b;Strength III^white;",
-  "learnBlueprintsOnPickup" : [ "xaxseed" ]
-}

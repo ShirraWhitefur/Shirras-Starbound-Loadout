@@ -1,9 +1,0 @@
-{
-  "name" : "shadowgasimmunity",
-  "effectConfig" : {},
-  "defaultDuration" : 120,
-
-  "scripts" : [
-    "shadowgasimmunity.lua"
-  ]
-}

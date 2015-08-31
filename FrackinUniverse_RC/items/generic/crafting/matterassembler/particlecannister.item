@@ -1,7 +1,0 @@
-{
-  "itemName" : "particlecannister",
-  "rarity" : "uncommon",
-  "inventoryIcon" : "particlecannister.png",
-  "description" : "cannister of unstable particles",
-  "shortdescription" : "^#77acc3;Particle Canister^white;"
-}

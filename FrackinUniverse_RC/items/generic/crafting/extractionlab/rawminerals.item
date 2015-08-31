@@ -1,8 +1,0 @@
-{
-  "itemName" : "rawminerals",
-  "rarity" : "Common",
-  "inventoryIcon" : "rawminerals.png",
-  "description" : "It's raw minerals. What more can be said?",
-  "shortdescription" : "Raw Minerals",
-  "learnBlueprintsOnPickup" : [ "coil" ]
-}

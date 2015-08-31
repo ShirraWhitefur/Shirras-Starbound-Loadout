@@ -1,8 +1,0 @@
-{
-  "itemName" : "adaptivecells",
-  "rarity" : "Common",
-  "inventoryIcon" : "adaptivecells.png",
-  "description" : "adaptive cells.",
-  "shortdescription" : "Adaptive Cells",
-  "learnBlueprintsOnPickup" : [ "adaptivecells" ]
-}

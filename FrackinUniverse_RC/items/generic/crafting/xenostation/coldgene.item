@@ -1,8 +1,0 @@
-{
-  "itemName" : "coldgene",
-  "rarity" : "Common",
-  "inventoryIcon" : "coldgene.png",
-  "description" : "Cold gene research",
-  "shortdescription" : "Cold Gene",
-  "learnBlueprintsOnPickup" : [ "blizzberryseed", "fusnowberryseed", "pekkitseed" ]
-}

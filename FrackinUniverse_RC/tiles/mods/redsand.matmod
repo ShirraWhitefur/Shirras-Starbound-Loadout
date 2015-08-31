@@ -1,9 +1,0 @@
-{
-  "modId" : 3760,
-  "modName" : "redsand",
-  "frames" : "redsand.png",
-  "variants" : 5,
-  "Description" : "Scattered sand.",
-  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
-  "health" : 0
-}

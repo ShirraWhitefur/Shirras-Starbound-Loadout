@@ -1,8 +1,0 @@
-{
-  "itemName" : "chloroplast1",
-  "rarity" : "Common",
-  "inventoryIcon" : "chloroplast1.png",
-  "description" : "Modify metabolism of cells",
-  "shortdescription" : "Chloroplast Boost I",
-  "learnBlueprintsOnPickup" : [ "talonseedseed", "chloroplast2", "synthesizedprotein", "organicsynthesis" ]
-}

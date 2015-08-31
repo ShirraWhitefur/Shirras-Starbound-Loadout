@@ -1,9 +1,0 @@
-{
-  "name" : "head",
-  "category" : "futoxicfly",
-  "type" : "head",
-
-  "frames" : {
-    "head" : "head.png"
-  }
-}

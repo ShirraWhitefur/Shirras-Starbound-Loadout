@@ -1,8 +1,0 @@
-{
-  "itemName" : "defensegene2",
-  "rarity" : "uncommon",
-  "inventoryIcon" : "defensegene2.png",
-  "description" : "defense gene research.",
-  "shortdescription" : "^#77acc3;Cellular Defense II^white;",
-  "learnBlueprintsOnPickup" : [ "defensegene3" ]
-}

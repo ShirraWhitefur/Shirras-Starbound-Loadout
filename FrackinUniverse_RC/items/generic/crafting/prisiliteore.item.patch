@@ -1,4 +1,0 @@
-[
-	{"op":"replace","path":"/description","value":"Super-dense crystalline ore."},
-	{"op":"add","path":"/learnBlueprintsOnPickup","value": [ "prisilitestar" ] }
-]

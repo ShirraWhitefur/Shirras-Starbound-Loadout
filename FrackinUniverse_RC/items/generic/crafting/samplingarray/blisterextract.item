@@ -1,8 +1,0 @@
-{
-  "itemName" : "blisterextract",
-  "rarity" : "uncommon",
-  "inventoryIcon" : "blisterextract.png",
-  "description" : "With this you can craft Blister gear.",
-  "shortdescription" : "Blister Extract",
-  "learnBlueprintsOnPickup" : [ "blisterpistol", "blistershield" ]
-}

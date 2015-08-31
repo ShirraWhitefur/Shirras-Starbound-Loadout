@@ -1,9 +1,0 @@
-{
-  "itemName" : "ff_diamondplating",
-  "rarity" : "rare",
-  "inventoryIcon" : "ff_diamondplating.png",
-  "description" : "Diamond and Alloy. Ultra-Hard!",
-  "shortdescription" : "^#88e25b;Diamond Plating^white;",
-  "category" : "Metal Plate",
-  "learnBlueprintsOnPickup" : [ "sciencefuhead", "sciencefulegs", "sciencefuchest", "ff_focusingarray", "quantumextractor" ]
-}

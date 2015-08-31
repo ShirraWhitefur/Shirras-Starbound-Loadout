@@ -1,9 +1,0 @@
-{
-  "itemName" : "titaniumplate",
-  "rarity" : "uncommon",
-  "inventoryIcon" : "titaniumplate.png",
-  "description" : "A thick plate made of titanium.",
-  "category" : "Metal Plate",
-  "shortdescription" : "^#77acc3;Titanium Plate^white;"
-}
-

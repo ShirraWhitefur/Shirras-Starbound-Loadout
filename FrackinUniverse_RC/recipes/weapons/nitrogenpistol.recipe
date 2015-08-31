@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "liquidnitrogenitem", "count" : 12 },
-    { "item" : "densealloy", "count" : 6 },
-    { "item" : "icecrystal", "count" : 3 }
-  ],
-  "output" : { "item" : "nitrogenpistol", "count" : 1 },
-  "groups" : [ "prototyper", "weapons", "all" ]
-}

@@ -1,8 +1,0 @@
-{
-  "itemName" : "unstableparticles",
-  "rarity" : "uncommon",
-  "inventoryIcon" : "unstableparticles.png",
-  "description" : "unshielded particles for weapons",
-  "shortdescription" : "^#77acc3;Unstable Particles^white;",
-  "learnBlueprintsOnPickup" : [ "shadowblade", "mineralpistollite", "mineralcannonlite", "particlecannister", "nuclearcore", "particlegrenade", "particlecore" ]
-}

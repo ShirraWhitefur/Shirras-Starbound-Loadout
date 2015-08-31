@@ -1,8 +1,0 @@
-{
-  "itemName" : "eridianore",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "eridianore.png",
-  "description" : "Eridian ore. A lab-built custom alloy.",
-  "shortdescription" : "^#b84cbc;Eridian Chunk^white;",
-  "learnBlueprintsOnPickup" : [ "eridianbar" ]
-}

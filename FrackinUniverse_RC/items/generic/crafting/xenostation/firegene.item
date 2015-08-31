@@ -1,8 +1,0 @@
-{
-  "itemName" : "firegene",
-  "rarity" : "Common",
-  "inventoryIcon" : "firegene.png",
-  "description" : "Combustion gene research",
-  "shortdescription" : "Combustion Gene",
-    "learnBlueprintsOnPickup" : [ "ignuschiliseed", "quellstem" ]
-}

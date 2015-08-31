@@ -1,8 +1,0 @@
-{
-  "input" : [ ],
-  "output" : {
-    "item" : "spiderweb2",
-    "count" : 1
-  },
-  "groups" : [ "box", "decorations", "all" ]
-}

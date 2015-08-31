@@ -1,9 +1,0 @@
-{
-  "name" : "fuaggressivebee",
-  "category" : "fuaggressivebee",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "fuaggressivebee.png"
-  }
-}

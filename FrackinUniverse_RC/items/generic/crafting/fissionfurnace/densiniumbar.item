@@ -1,8 +1,0 @@
-{
-  "itemName" : "densiniumbar",
-  "rarity" : "legendary",
-  "inventoryIcon" : "densiniumbar.png",
-  "description" : "A multi-phasic super-dense metal.",
-  "shortdescription" : "^#b84cbc;Densinium Bar^white;",
-  "learnBlueprintsOnPickup" : [ "densiniumplate", "densiniumshield", "densiniumrifle", "densiniumscythe", "densiniumlegs", "densiniumchest", "densiniumhead" ]
-}

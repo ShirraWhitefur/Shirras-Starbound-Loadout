@@ -1,8 +1,0 @@
-{
-  "itemName" : "regengene1",
-  "rarity" : "Common",
-  "inventoryIcon" : "regengene1.png",
-  "description" : "Helps keep a cell alive",
-  "shortdescription" : "Regeneration I",
-  "learnBlueprintsOnPickup" : [ "regengene2", "greenleafseed" ]
-}

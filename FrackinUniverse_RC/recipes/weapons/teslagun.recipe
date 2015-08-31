@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "carbonplate", "count" : 6 },
-    { "item" : "cpu", "count" : 2 },
-    { "item" : "powercore", "count" : 1 }
-  ],
-  "output" : { "item" : "teslagun", "count" : 1 },
-  "groups" : [ "prototyper", "weapons", "all" ]
-}

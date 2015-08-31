@@ -1,8 +1,0 @@
-{
-  "itemName" : "celeritygene",
-  "rarity" : "Common",
-  "inventoryIcon" : "celeritygene.png",
-  "description" : "Affects the natural speed of the cell",
-  "shortdescription" : "Celerity Gene",
-  "learnBlueprintsOnPickup" : [ "garikleaf" ]
-}

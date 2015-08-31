@@ -1,8 +1,0 @@
-{
-  "itemName" : "cellhardening1",
-  "rarity" : "Common",
-  "inventoryIcon" : "cellhardening1.png",
-  "description" : "Cell hardening research.",
-  "shortdescription" : "Cell Hardening I",
-  "learnBlueprintsOnPickup" : [ "mutaviskseed", "cellhardening2" ]
-}

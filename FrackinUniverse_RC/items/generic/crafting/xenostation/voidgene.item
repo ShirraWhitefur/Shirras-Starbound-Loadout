@@ -1,8 +1,0 @@
-{
-  "itemName" : "voidgene",
-  "rarity" : "legendary",
-  "inventoryIcon" : "voidgene.png",
-  "description" : "Mysterious interdimensional genetic material.",
-  "shortdescription" : "^#b84cbc;Void Gene^white;",
-  "learnBlueprintsOnPickup" : [ "omegajumptechgrant" ]
-}

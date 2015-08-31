@@ -1,8 +1,0 @@
-{
-  "itemName" : "powercore",
-  "rarity" : "rare",
-  "inventoryIcon" : "powercore.png",
-  "description" : "A powercore used to energize tech.",
-  "category" : "Hardware",
-  "shortdescription" : "^#88e25b;Power Core^white;"
-}

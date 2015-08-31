@@ -1,8 +1,0 @@
-{
-  "itemName" : "silk",
-  "rarity" : "Common",
-  "inventoryIcon" : "silk.png",
-  "description" : "A soft silk.",
-  "shortdescription" : "Silk",
-  "learnBlueprintsOnPickup" : [ "ff_plastic" ]
-}

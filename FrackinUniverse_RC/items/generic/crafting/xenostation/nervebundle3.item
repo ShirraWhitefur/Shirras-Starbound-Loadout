@@ -1,8 +1,0 @@
-{
-  "itemName" : "nervebundle3",
-  "rarity" : "rare",
-  "inventoryIcon" : "nervebundle3.png",
-  "description" : "Nerve Bundle research.",
-  "shortdescription" : "^#88e25b;Nerve Bundle III^white;",
-  "learnBlueprintsOnPickup" : [ "petrifiedrootseed" ]
-}

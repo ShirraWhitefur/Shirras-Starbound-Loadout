@@ -1,9 +1,0 @@
-{
-  "name" : "fuminigoat",
-  "category" : "fuminigoat",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

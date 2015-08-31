@@ -1,8 +1,0 @@
-{
-  "itemName" : "oculargene",
-  "rarity" : "Common",
-  "inventoryIcon" : "oculargene.png",
-  "description" : "Ocular gene alteration. Weird stuff.",
-  "shortdescription" : "Ocular Enhancement",
-  "learnBlueprintsOnPickup" : [ "gazelemon" ]
-}

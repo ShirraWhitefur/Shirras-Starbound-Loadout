@@ -1,8 +1,0 @@
-{
-  "itemName" : "ff_fertilizer",
-  "rarity" : "Common",
-  "inventoryIcon" : "fertilizer.png",
-  "description" : "It's what plants crave.",
-  "shortdescription" : "Fertilizer",
-  "learnBlueprintsOnPickup" : [ "ff_fertilizer2", "toxicgene" ]
-}

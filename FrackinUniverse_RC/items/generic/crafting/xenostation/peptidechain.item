@@ -1,8 +1,0 @@
-{
-  "itemName" : "peptidechain",
-  "rarity" : "Common",
-  "inventoryIcon" : "peptidechain.png",
-  "description" : "Yep. It's a peptide chain.",
-  "shortdescription" : "Peptide Chain",
-  "learnBlueprintsOnPickup" : [ "advancedpeptide" ]
-}

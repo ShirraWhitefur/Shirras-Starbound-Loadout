@@ -1,8 +1,0 @@
-{
-  "itemName" : "immunegene1",
-  "rarity" : "Common",
-  "inventoryIcon" : "immunegene1.png",
-  "description" : "Immunity research",
-  "shortdescription" : "Immunity I",
-  "learnBlueprintsOnPickup" : [ "immunegene2", "nissseed" ]
-}

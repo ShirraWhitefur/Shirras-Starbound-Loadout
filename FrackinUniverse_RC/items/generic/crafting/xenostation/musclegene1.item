@@ -1,8 +1,0 @@
-{
-  "itemName" : "musclegene1",
-  "rarity" : "Common",
-  "inventoryIcon" : "musclegene1.png",
-  "description" : "Muscle enhancement research.",
-  "shortdescription" : "Strength I",
-  "learnBlueprintsOnPickup" : [ "musclegene2", "explosivegene", "caprioleplantseed" ]
-}

@@ -1,8 +1,0 @@
-{
-  "itemName" : "aggressiongene",
-  "rarity" : "Common",
-  "inventoryIcon" : "aggressiongene.png",
-  "description" : "Aggression gene research",
-  "shortdescription" : "Aggression Gene",
-  "learnBlueprintsOnPickup" : [ "vashtaplantseed" ]
-}

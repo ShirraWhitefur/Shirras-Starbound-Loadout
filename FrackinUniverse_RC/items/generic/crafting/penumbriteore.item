@@ -1,8 +1,0 @@
-{
-  "itemName" : "penumbriteore",
-  "rarity" : "uncommon",
-  "inventoryIcon" : "penumbriteore.png",
-  "description" : "Super-hard Penumbrite",
-  "shortdescription" : "Penumbrite Ore",
-  "learnBlueprintsOnPickup" : [ "penumbriteshard" ]
-}

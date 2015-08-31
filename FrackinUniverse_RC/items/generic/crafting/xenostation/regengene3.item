@@ -1,8 +1,0 @@
-{
-  "itemName" : "regengene3",
-  "rarity" : "rare",
-  "inventoryIcon" : "regengene3.png",
-  "description" : "This is truly advanced regeneration.",
-  "shortdescription" : "^#88e25b;Regeneration III^white;",
-  "learnBlueprintsOnPickup" : [ "tyvokkseed", "haleflowerseed", "floralytplantseed" ]
-}

@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "fuquantumlegs", "count" : 1 },
-    { "item" : "mutagene4", "count" : 4 },
-    { "item" : "biochip", "count" : 8 }
-  ],
-  "output" : { "item" : "fuquantumlegsadv", "count" : 1 },
-  "groups" : [ "nanofabricator", "armors", "all" ]
-}

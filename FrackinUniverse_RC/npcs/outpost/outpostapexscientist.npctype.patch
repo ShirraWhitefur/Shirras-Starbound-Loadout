@@ -1,6 +1,0 @@
-[
-{"op":"add","path":"/scriptConfig/offeredQuests/-","value":"fu_intro1.gearup"},
-{"op":"add","path":"/scriptConfig/offeredQuests/-","value":"fu_intro1a.gearup"},
-{"op":"add","path":"/scriptConfig/turnInQuests/-","value":"fu_intro1.gearup"},
-{"op":"add","path":"/scriptConfig/turnInQuests/-","value":"fu_intro1a.gearup"}
-]

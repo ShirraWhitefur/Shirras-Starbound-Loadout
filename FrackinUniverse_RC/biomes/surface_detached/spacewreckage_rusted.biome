@@ -1,7 +1,0 @@
-{
-  "name" : "spacewreckage_rusted",
-  "friendlyName" : "Rusted Hulk",
-    "mainBlock" : "rustymetal",
-    "subBlocks" : [ "girdir", "junktech", "rustyblock" ],
-    "ores" : "ff_surfaceOres"
-}

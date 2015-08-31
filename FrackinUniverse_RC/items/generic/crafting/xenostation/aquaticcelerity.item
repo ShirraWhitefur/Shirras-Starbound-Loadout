@@ -1,8 +1,0 @@
-{
-  "itemName" : "aquaticcelerity",
-  "rarity" : "Common",
-  "inventoryIcon" : "aquaticcelerity.png",
-  "description" : "Aquatic celerity research",
-  "shortdescription" : "Aquatic Celerity",
-  "learnBlueprintsOnPickup" : [ "kamaranpodsplant" ]
-}

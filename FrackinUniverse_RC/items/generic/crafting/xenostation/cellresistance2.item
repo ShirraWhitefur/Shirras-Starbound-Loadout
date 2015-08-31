@@ -1,8 +1,0 @@
-{
-  "itemName" : "cellresistance2",
-  "rarity" : "uncommon",
-  "inventoryIcon" : "cellresistance2.png",
-  "description" : "Cell resistance research.",
-  "shortdescription" : "^#77acc3;Cell Resistance II^white;",
-  "learnBlueprintsOnPickup" : [ "cellresistance3" ]
-}

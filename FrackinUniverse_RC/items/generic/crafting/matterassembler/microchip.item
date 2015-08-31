@@ -1,9 +1,0 @@
-{
-  "itemName" : "microchip",
-  "rarity" : "Common",
-  "inventoryIcon" : "microchip.png",
-  "description" : "A basic microchip",
-  "category" : "Hardware",
-  "shortdescription" : "Microchip",
-  "learnBlueprintsOnPickup" : [ "cpu", "advcircuit" ]
-}

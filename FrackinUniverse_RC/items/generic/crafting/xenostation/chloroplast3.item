@@ -1,8 +1,0 @@
-{
-  "itemName" : "chloroplast3",
-  "rarity" : "rare",
-  "inventoryIcon" : "chloroplast3.png",
-  "description" : "Greatly increase the metabolic rate of cells",
-  "shortdescription" : "^#88e25b;Chloroplast Boost III^white;",
-  "learnBlueprintsOnPickup" : [ "melodistarseed" ]
-}

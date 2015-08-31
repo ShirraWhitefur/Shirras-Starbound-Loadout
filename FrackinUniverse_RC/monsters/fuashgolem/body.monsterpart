@@ -1,9 +1,0 @@
-{
-  "name" : "body",
-  "category" : "fuashgolem",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "fuashgolem.png"
-  }
-}
