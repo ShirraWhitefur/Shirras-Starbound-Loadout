@@ -1,0 +1,11 @@
+{
+  "name" : "ezglass",
+  "version" : "Beta v. Upbeat Giraffe",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "author" : "Lefl",
+    "version" : "1.4",
+    "description" : "Make Glass more easy"
+  }
+}

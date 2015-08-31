@@ -1,0 +1,15 @@
+{
+	"name" : "over9000",
+	"version" : "1.0",
+	"path" : ".",
+	"requires" : [],
+	"includes" : [],
+	"metadata" : {
+	  "displayName" : "Over9000",
+		"author" : "SoulOfSorin",
+		"description" : "",
+		"support_url" : "",
+		"version" : "",
+		"thanks" : ""
+	}
+}

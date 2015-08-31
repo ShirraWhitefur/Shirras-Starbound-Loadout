@@ -1,0 +1,8 @@
+[
+  { "op" : "replace", "path" : "/description", "value" : "A copper drill! Cheap yet efficient. Recommended by Mrs. Copperbottom!" },
+  { "op" : "replace", "path" : "/durability", "value" : 3000 },
+  { "op" : "replace", "path" : "/blockRadius", "value" : 3},
+  { "op" : "replace", "path" : "/tileDamage", "value" : 2.9},
+  { "op" : "add", "path" : "/canBeRepaired", "value" : true},
+  { "op" : "add", "path" : "/durabilityRegenChart", "value" : [ [ "copperore", 750 ], [ "copperbar", 1500 ] ] }
+]

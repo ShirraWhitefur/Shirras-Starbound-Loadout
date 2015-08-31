@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 3 },
+    { "item" : "copperbar", "count" : 1 },
+    { "item" : "yarnspinner", "count" : 1 }
+  ],
+  "output" : { "item" : "modern_loom", "count" : 1 },
+  "groups" : [ "metalworkstation", "objects", "all" ]
+}

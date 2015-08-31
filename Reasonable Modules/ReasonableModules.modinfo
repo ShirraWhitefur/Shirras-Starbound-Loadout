@@ -1,0 +1,12 @@
+{
+  "name" : "ReasonableModules",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "displayName" : "Reasonable Modules",
+	"author" : "Artix Fox",
+	"thanks" : {},
+	"description" : "Adds the four upgrade types as purchasables at the Infinity Express at the Outpost.",
+	"version" : "1.0"
+  }
+}

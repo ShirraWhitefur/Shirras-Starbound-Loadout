@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/input", "value" : [ { "item" : "diamond", "count" : 8 } ] }
+]

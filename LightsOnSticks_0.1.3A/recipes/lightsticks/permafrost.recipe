@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "snowflake", "count" : 15 }
-  ],
-  "output" : { "item" : "permafrost", "count" : 1 },
-  "groups" : [ "scififurnace", "armors", "all" ]
-}
-

@@ -1,0 +1,38 @@
+{
+  "objectName" : "modern_loom",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "A device that uses fabrics. I can tailor new clothes with it!",
+  "shortdescription" : "^orange;Modern Loom^white;",
+  "race" : "generic",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/objects/crafting/modern_loom/modern_loom.config",
+    "filter" : [ "spinningwheel" ]
+  },
+  "category" : "crafting",
+  "price" : 500,
+
+  "apexDescription" : "Artisan tailors use machines like these.",
+  "avianDescription" : "Less effort than a spinning wheel.",
+  "floranDescription" : "Floran wantsss ssshirt fassster!",
+  "glitchDescription" : "Analysis. It can weave fabrics very efficiently.",
+  "humanDescription" : "Not so old fashioned now, are we?",
+  "hylotlDescription" : "Ah, a hi-tech cloth spinner! How pleasing.",
+
+  "inventoryIcon" : "modern_loom_inv.png",
+  "orientations" : [
+    {
+      "dualImage" : "modern_loom.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+
+}

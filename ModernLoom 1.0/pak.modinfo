@@ -1,0 +1,10 @@
+{
+	"name" : "Modern Loom",
+	"version" : "Beta v. Pleased Giraffe",
+	"path" : ".",
+	"metadata": {
+		"author" : "Rawkinrex alteration of an I Said No original",
+		"modversion" : "1.0",
+		"description" : "A high-tech upgrade to the spinning wheel."
+	}
+}

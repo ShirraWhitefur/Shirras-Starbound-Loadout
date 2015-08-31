@@ -1,7 +1,7 @@
 # Shirras-Starbound-Loadout
 Shirra's Starbound Mod Loadout
 
-Updated - 2015-08-30
+Updated - 2015-08-31 10:15am
  All mods unpacked
  Optimized with PNGGauntlet last on 2015-08-29
 --------------------------------
@@ -137,7 +137,42 @@ Your Starbound Crew
 	http://community.playstarbound.com/resources/your-starbound-crew.948/
 	Over 150 quests to help you get your own crew and explore the universe!
 
-                 ----------------------------------
+Reasonable Modules
+	v1.0 - 2015-08-26
+	http://community.playstarbound.com/resources/reasonable-modules.3089/
+	Modules at a reasonable price.
+	
+More Avian Beaks
+	v0.2 - 2015-08-30
+	http://community.playstarbound.com/resources/more-avian-beaks.3103/
+	Adds 12+ new beaks for avians
+
+Its Over 9000
+	v1.2A - 2015-08-19
+	http://community.playstarbound.com/resources/its-over-nine-thousand.2995/
+	Store more stuff in your stuff
+
+CLeF - Teleport Anim Removal
+	v2 - 2015-04-27
+	http://community.playstarbound.com/resources/intrusive-teleport-animation-removal.2838/
+	Removes epileptic teleport animation introduced in SG
+
+EZ Glass
+	v1.0 - 2015-08-30
+	http://community.playstarbound.com/resources/ezglass.3107/
+	You can make glass out of normal sand again!
+
+Repair Tools
+	v1.4 - 2015-03-10
+	http://community.playstarbound.com/resources/repair-tools-spirited-giraffe.2648/
+	Store more stuff in your stuff
+
+Modern Loom
+	v1.0 - 2015-08-30
+	http://community.playstarbound.com/resources/modern-loom-pleased-giraffe.3113/
+	Upgrade your Yarn Spinner to a Modern Loom!
+
+	             ----------------------------------
 --------------------------------------------------------------------
                 Actively being debated for addition.
 				                Cheaty.

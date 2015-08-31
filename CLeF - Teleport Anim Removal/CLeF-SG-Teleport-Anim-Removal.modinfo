@@ -1,0 +1,15 @@
+{
+	"name" : "CLeF-SG-Teleport-Anim-Removal",
+	"version" : "Beta v. Spirited Giraffe",
+	"path" : ".",
+	"requires" : [],
+	"includes" : [],
+	"metadata" : {
+	  "displayName" : "CLeF SG Teleport Anim Removal Stand-alone",
+		"author" : "dsp2003",
+		"description" : "",
+		"support_url" : "https://github/dsp2003/clf/",
+		"version" : "",
+		"thanks" : ""
+	}
+}

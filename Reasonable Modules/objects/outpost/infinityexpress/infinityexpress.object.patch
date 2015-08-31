@@ -1,0 +1,19 @@
+[
+
+{ "op" : "add", 
+"path" : "/interactData/items/-", 
+"value" : { "item" : "manipulatormodule" }},
+
+{ "op" : "add", 
+"path" : "/interactData/items/-", 
+"value" : { "item" : "upgrademodule" }},
+
+{ "op" : "add", 
+"path" : "/interactData/items/-", 
+"value" : { "item" : "autochip" }},
+
+{ "op" : "add", 
+"path" : "/interactData/items/-", 
+"value" : { "item" : "techchip" }}
+
+]

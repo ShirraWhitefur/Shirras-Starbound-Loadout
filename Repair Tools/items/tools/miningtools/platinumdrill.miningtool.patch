@@ -1,0 +1,8 @@
+[
+  { "op" : "replace", "path" : "/description", "value" : "A platinum drill! For a serious mining!" },
+  { "op" : "replace", "path" : "/durability", "value" : 5500 },
+  { "op" : "replace", "path" : "/blockRadius", "value" : 3},
+  { "op" : "replace", "path" : "/tileDamage", "value" : 4.3},
+  { "op" : "add", "path" : "/canBeRepaired", "value" : true},
+  { "op" : "add", "path" : "/durabilityRegenChart", "value" : [ [ "platinumore", 750 ], [ "platinumbar", 1500 ] ] }
+]

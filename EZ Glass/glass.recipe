@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "sand2", "count" : 3 }
+  ],
+  "output" : { "item" : "glassmaterial", "count" : 1 },
+  "groups" : [ "stonefurnace", "objects", "all" ]
+}
