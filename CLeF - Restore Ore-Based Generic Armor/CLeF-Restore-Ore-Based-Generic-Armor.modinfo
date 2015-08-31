@@ -1,0 +1,15 @@
+{
+	"name" : "CLeF-Restore-Ore-Based-Generic-Armor",
+	"version" : "Beta v. Pleased Giraffe",
+	"path" : ".",
+	"requires" : [],
+	"includes" : [],
+	"metadata" : {
+	  "displayName" : "CLeF Restore-Ore-Based-Generic-Armor Stand-alone",
+		"author" : "dsp2003",
+		"description" : "Ripped out by Shirra without permission for their server.  Bad foxy.  Don't upload anywhere besides Shirra's server/client pack.",
+		"support_url" : "https://github/dsp2003/clf/",
+		"version" : "",
+		"thanks" : ""
+	}
+}

@@ -148,6 +148,16 @@ All mods unpacked.
 	*   http://community.playstarbound.com/resources/intrusive-teleport-animation-removal.2838/
 	*   Removes epileptic teleport animation introduced in SG
 
+*   CLeF - Restore Ore-Based Generic Armor
+	*   v1 - 2015-08-31
+	*   http://community.playstarbound.com/resources/clef-things-to-do-in-starbound.2622/
+	*   Ripped from CLeF proper by Shirra without permission.  Non-Official.  Do not re-upload.
+
+*   CLeF - Restore Teleporter Items
+	*   v1 - 2015-08-31
+	*   http://community.playstarbound.com/resources/clef-things-to-do-in-starbound.2622/
+	*   Ripped from CLeF proper by Shirra without permission.  Non-Official.  Do not re-upload.
+
 *   EZ Glass
 	*   v1.0 - 2015-08-30
 	*   http://community.playstarbound.com/resources/ezglass.3107/
@@ -162,6 +172,11 @@ All mods unpacked.
 	*   v1.0 - 2015-08-30
 	*   http://community.playstarbound.com/resources/modern-loom-pleased-giraffe.3113/
 	*   Upgrade your Yarn Spinner to a Modern Loom!
+
+*   Better Steel Recipe
+	*   v1.2 - 2015-08-29
+	*   http://community.playstarbound.com/resources/better-steel-recipe-pleased-giraffe.3100/
+	*   Make Steel Bar recipe more realistic.
 
 <-------------------------------------------------------------------->  
 Actively being debated for addition.  Cheaty.  

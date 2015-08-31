@@ -1,0 +1,12 @@
+{
+  "name" : "Better Steel",
+  "version" : "Beta v. Pleased Giraffe",
+  "path" : ".",
+  "metadata" : {
+		"displayName" : "Better Steel",
+		"author" : "Rawkinrex",
+		"description" : "This mod changes the steel bar recipe to make it realistic.",
+		"support_url" : "http://community.playstarbound.com/",
+		"version" : "1.1"
+	}	
+}

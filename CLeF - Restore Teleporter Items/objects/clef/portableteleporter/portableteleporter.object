@@ -1,0 +1,46 @@
+{
+  "objectName" : "portableteleporter",
+  "objectType" : "teleporter",
+  "rarity" : "Common",
+  "description" : "This will let me conveniently teleport from anywhere!",
+  "shortdescription" : "Portable Teleporter",
+  "price" : 1000,
+  "printable" : true,
+  "apexDescription" : "Teleporting feels like riding a rollercoaster at the speed of light.",
+  "avianDescription" : "Teleporting feels like flying.",
+  "floranDescription" : "Floran feel confusssed during teleport.",
+  "glitchDescription" : "Educate. I set myself to sleep during the teleport process.",
+  "humanDescription" : "Teleporting is a huge rush.",
+  "hylotlDescription" : "Teleporting feels like diving into the ocean from a mountain top.",
+  "novakidDescription" : "Heya, heya! It's like riding a metal sonic horse!",
+
+  "category" : "teleporter",
+  "lightColor" : [151, 110, 99],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/remoteteleporter.config",
+
+  "inventoryIcon" : "portableteleportericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "portableteleporter.png:<color>", "fullbright" : true }, { "image" : "portableteleporterlit.png:<color>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ],
+  "health" : 10,
+
+// dsp2003: nope, Chucklefish. BAD FISH, BAD!
+// "breakDropPool" : "remoteteleporter",
+  
+  "teleporterFootPosition" : [0, 1]
+}
