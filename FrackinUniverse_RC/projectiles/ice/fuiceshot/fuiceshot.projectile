@@ -1,0 +1,18 @@
+{
+  "projectileName" : "fuiceshot",
+  "physics" : "bullet",
+  "frames" : "fuiceshot.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 19,
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 6,
+  "emitters" : [ "defaultwhite" ],
+  "damageKind" : "slash",
+   "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/mediumsnowballexplosion/mediumsnowballexplosion.config"
+    }
+  ]
+}

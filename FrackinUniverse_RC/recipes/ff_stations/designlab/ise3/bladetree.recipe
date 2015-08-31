@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "aggressiongene", "count" : 1 },
+    { "item" : "cellhardening2", "count" : 1 },
+    { "item" : "thornfruit", "count" : 3 },
+    { "item" : "cellresistance1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "bladetree",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "tree", "all", "tools" ]
+}

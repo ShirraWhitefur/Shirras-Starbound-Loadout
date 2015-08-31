@@ -1,0 +1,13 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/icewasteunderground",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true,
+      "modifiers" : "?saturation=-10",
+      "baseCount" : 3
+    }
+  ]
+}

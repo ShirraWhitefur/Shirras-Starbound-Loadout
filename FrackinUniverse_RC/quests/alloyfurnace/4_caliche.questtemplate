@@ -1,0 +1,13 @@
+  {
+  "id" : "4_caliche.gearup",
+  "title" : "^#1693d5;Time to Sweat",
+  "text" : "Ah, this is more interesting. You'll have to dig into the desert for this one. ^green;Gather 50 ^orange;Caliche stone^green; and smelt it^white;. Avoid being buried in quicksand! I lost a good Mantis friend like this. If you find him while digging, please bring him back, bones and all.",
+  "completionText" : "You didn't find him, right? Well, at least you have some ^orange;saltpeter^white; now.",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "saltpeter", "consume" : false }
+  ],
+  "moneyRange" : [120,220],
+
+  "requireTurnIn" : false,
+  "followUp" : "5_mascagnite.gearup"
+}

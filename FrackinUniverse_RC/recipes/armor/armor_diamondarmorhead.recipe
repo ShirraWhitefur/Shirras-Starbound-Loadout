@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "triangliumpyramid", "count" : 4 },
+    { "item" : "ff_diamondplating", "count" : 3 },
+    { "item" : "eridianplate", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ff_diamondarmorhead",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

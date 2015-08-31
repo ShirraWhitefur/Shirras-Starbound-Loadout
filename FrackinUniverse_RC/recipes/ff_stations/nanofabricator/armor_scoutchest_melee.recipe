@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ff_protoplating", "count" : 8 },
+    { "item" : "quietusbar", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 8 },
+    { "item" : "corefragmentore", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "ff_scoutchest_melee",
+    "count" : 1
+  },
+  "groups" : [ "nanofabricator", "armors", "all" ]
+}

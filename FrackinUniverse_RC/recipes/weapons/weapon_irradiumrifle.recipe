@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "irradiumbar", "count" : 10 },
+    { "item" : "cpu", "count" : 2 },
+    { "item" : "liquidirradium", "count" : 24 },
+    { "item" : "vialproto", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "irradiumrifle",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

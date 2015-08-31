@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "thornitox", "count" : 12 },
+    { "item" : "dnasample", "count" : 12 },
+    { "item" : "ironbar", "count" : 6 },
+    { "item" : "biochip", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "spikesword",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

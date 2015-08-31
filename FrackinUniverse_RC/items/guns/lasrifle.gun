@@ -1,0 +1,35 @@
+{
+    "itemName" : "lasrifle",
+    "inventoryIcon" : "lasrifle.png",
+    "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+    "maxStack" : 1,
+    "rarity" : "rare",
+    "description" : "Laser weapon with a decent punch.",
+    "shortdescription" : "Las Rifle",
+    "image" : "lasrifle.png",
+    "handPosition" : [-12, -2],
+    "firePosition" : [27, 2],
+    "weaponType" : "Beam",
+    "recoilTime" : 0.1,
+    "level" : 2,
+    "tooltipKind" : "gun",
+    "fireTime" : 0.275,
+    "twoHanded" : true,
+    "rateOfFire" : [2, 7],
+    "walkWhileFiring" : true,
+    "muzzleEffect" : {
+      "fireSound" : [ { "file" : "/sfx/gun/plasma_mp2.wav" } ],
+      "animation" : "/animations/muzzleflash/plasmamuzzle2/plasmamuzzle2.animation"
+    },
+    "fireOnRelease" : false,
+    
+    "projectileType" : "fulaserpistol",
+
+    "powerProjectileTime" : [0.4, 50],
+    "projectile" : {
+      "speed" : 80, 
+      "power" : 4.6, 
+      "color" : [80, 30, 0] 
+  	}
+}
+  

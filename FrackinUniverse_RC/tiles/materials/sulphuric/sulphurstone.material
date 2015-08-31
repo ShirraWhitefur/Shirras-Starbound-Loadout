@@ -1,0 +1,21 @@
+{
+  "materialId" : 6579,
+  "materialName" : "sulphurstone",
+  "particleColor" : [109, 78, 52, 255],
+  "itemDrop" : "sulphurstonematerial",
+  "description" : "Jam-packed with goodness.",
+  "shortdescription" : "Sulphuric Stone",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "health" : 11,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "sulphurstone.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

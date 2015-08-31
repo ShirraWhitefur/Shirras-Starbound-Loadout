@@ -1,0 +1,14 @@
+{
+  "input" : [
+   { "item" : "aliencompound", "count" : 8 },
+   { "item" : "mutagene4", "count" : 1 },
+   { "item" : "bone", "count" : 12 },
+   { "item" : "corruptionseed", "count" : 10 },
+   { "item" : "monsterplating", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "biogun",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

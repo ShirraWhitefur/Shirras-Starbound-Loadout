@@ -1,0 +1,17 @@
+{
+  "name" : "swimboost",
+  "effectConfig" : {
+    "boostAmount" : 1,
+    "riseAmount" : 1
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "swimboost.lua"
+  ],
+
+  "animationConfig" : "swimboost.animation",
+  
+  "label" : "Swim +",
+  "icon" : "/interface/statuses/wet.png"
+}

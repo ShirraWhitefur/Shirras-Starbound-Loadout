@@ -1,0 +1,9 @@
+{
+  "itemName" : "ironplate",
+  "rarity" : "common",
+  "inventoryIcon" : "ironplate.png",
+  "description" : "A thick plate made of iron.",
+  "category" : "Metal Plate",
+  "shortdescription" : "Iron Plate"
+}
+

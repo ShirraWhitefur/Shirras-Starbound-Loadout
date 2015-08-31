@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 1 },
+    { "item" : "tissueculture", "count" : 1 },
+    { "item" : "geneticmaterial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "dnasample",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "genetics", "all" ]
+}

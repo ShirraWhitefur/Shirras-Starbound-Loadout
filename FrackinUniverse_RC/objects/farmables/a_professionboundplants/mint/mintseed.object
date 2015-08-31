@@ -1,0 +1,38 @@
+{
+  "objectName" : "mintseed",
+  "rarity" : "common",
+  "category" : "Farmable",
+  "description" : "A new mint strain capable of healing wounds.",
+  "shortdescription" : "Star Mint Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "inventoryIcon" : "mintseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "mintseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [100, 120]
+    },
+    {
+      "duration" : [100, 120]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "mintHarvest",
+      "resetToStage" : 0
+    }
+  ]
+}

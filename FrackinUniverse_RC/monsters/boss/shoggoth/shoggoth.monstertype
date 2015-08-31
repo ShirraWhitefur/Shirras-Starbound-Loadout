@@ -1,0 +1,120 @@
+{
+  "type" : "shoggoth",
+
+  "categories" : [ "shoggoth" ],
+  "parts" : [  "chest", "eyebeam" ],
+
+  "animation" : "shoggoth.animation",
+  "colors" : "/monsters/colors.config",
+  "reversed" : true,
+  "dropPools" : [
+    {
+      "default" : "money"
+    }
+  ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/boss/bossMonster.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua",
+
+      "/monsters/boss/shoggoth/dieState.lua",
+      "/monsters/boss/shoggoth/idleState.lua"
+    ],
+
+    "skillCount" : 3,
+    "skills" : ["tentacleSwipeAttack", "fleshBombAttack", "eyeBeamAttack"],
+
+    "phases" : [
+      {
+        "skills" : [ "tentacleSwipeAttack", "fleshBombAttack", "eyeBeamAttack"]
+      }
+    ],
+
+    "scale" : 1,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-16, -16], [16, -16], [16, 0], [-16, 0] ],
+      "mass" : 1,
+      "walkSpeed" : 8,
+      "runSpeed" : 8,
+      "jumpSpeed" : 20,
+      "airforce" : 10
+    },
+
+    "projectileSourcePosition" : [-2.5, -1.25],
+    "projectileSourceOffset" : [7, 0],
+
+    "trackTargetDistance" : 100.0,
+    "switchTargetDistance" : 0,
+
+    "knockoutTime" : 0.5,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+
+    "alwaysAggressive" : true,
+
+
+    "jumpTargetDistance" : 4,
+    "jumpTime" : [0.4, 0.7],
+
+    "metaBoundBox" : [-10, -10, 10, 10],
+
+    "blockedSensors" : [ [-16, -16], [16, -16], [16, 0], [-16, 0] ],
+    "fallSensors" : [ [-16, -16], [16, -16], [16, 0], [-16, 0] ],
+
+    "touchDamage" : {
+      "poly" : [ [-16, -16], [16, -16], [16, 0], [-16, 0] ],
+      "damage" : 100,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "default",
+      "statusEffects" : [ "slimefriction" ]
+    },
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 0,
+
+      "stats" : {
+        "maxHealth" : {
+          "baseValue" : 1000
+        },
+        "protection" : {
+          "baseValue" : 1.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "poisonImmunity" : {
+          "baseValue" : 1.0
+        },
+        "fireImmunity" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [1.0, -1.5],
+    "feetOffset" : [0, -21]
+  }
+}

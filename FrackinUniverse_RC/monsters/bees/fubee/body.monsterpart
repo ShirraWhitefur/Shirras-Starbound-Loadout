@@ -1,0 +1,9 @@
+{
+  "name" : "fubee",
+  "category" : "fubee",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "fubee.png"
+  }
+}

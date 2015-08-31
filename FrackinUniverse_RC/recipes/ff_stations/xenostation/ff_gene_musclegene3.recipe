@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "musclegene2", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 12 },
+    { "item" : "aggressiongene", "count" : 1 },
+	{ "item" : "liquidorganicsoup", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "musclegene3",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

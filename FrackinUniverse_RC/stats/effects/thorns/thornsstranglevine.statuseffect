@@ -1,0 +1,20 @@
+{
+  "name" : "thornsstranglevine",
+  "effectConfig" : {
+    "range" : 5,
+
+    "damageProjectileType" : "armorthornburst",
+    "damageMultiplier" : 2.5,
+
+    "cooldown" : 1
+
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "thornsstranglevine.lua"
+  ],
+
+  "label" : "Thorns",
+  "icon" : "/interface/statuses/thorns.png"
+}

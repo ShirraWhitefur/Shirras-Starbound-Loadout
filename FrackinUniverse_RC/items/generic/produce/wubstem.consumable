@@ -1,0 +1,10 @@
+{
+  "itemName" : "wubstem",
+  "rarity" : "Common",
+  "inventoryIcon" : "wubstemicon.png",
+  "description" : "Heals 20% of your health.",
+  "shortdescription" : "Wubstem",
+  "effects" : [ [
+      "heal_20"
+    ] ]
+}

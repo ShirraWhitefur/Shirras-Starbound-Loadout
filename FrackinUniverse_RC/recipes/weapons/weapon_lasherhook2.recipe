@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "mutaviskthread", "count" : 12 },
+    { "item" : "lasherhook", "count" : 1 },
+    { "item" : "liquiddarkwater", "count" : 12 },
+    { "item" : "biochip", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "lasherhook2",
+    "count" : 1
+  },
+  "groups" : [ "nanofabricator", "weapons", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "algaegreen", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "biofuelcannister",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "chemical", "all" ]
+}

@@ -1,0 +1,18 @@
+{
+  "modId" : 6690,
+  "modName" : "densinium",
+  "description" : "Ultra-dense dimensional ore",
+  "footstepSound" : "/sfx/blocks/footstep_metallic.wav",
+  "health" : 62,
+  "breaksWithTile" : true,
+  "harvestLevel" : 3,
+  "itemDrop" : "densiniumore",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "densinium.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "radiantLight" : [0.24, 0.0, 0.24]
+  }
+}

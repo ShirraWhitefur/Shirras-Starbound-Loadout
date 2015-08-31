@@ -1,0 +1,8 @@
+[
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "ffguide"} },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "ffguide2"} },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "ffguide3"} },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "prototyper"} },
+  { "op" : "add", "path" : "/statusControllerSettings/primaryScriptSources/-" , "value" : "/scripts/basicTileGroundEffects.lua" },
+  { "op" : "add", "path" : "/statusControllerSettings/primaryScriptSources/-" , "value" : "/scripts/fu_tileGroundEffects.lua" }
+]

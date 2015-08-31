@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "immunegene1", "count" : 1 },
+    { "item" : "coldgene", "count" : 1 },
+    { "item" : "chloroplast1", "count" : 2 },
+    { "item" : "nutrientpaste", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "fusnowberryseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "fruit", "all", "tools" ]
+}

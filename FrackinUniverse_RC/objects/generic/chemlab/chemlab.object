@@ -1,0 +1,43 @@
+{
+  "objectName" : "chemlab",
+  "tags" : [ "fu", "science", "scienceoutpost" ],
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/chemlab.config",
+    "filter" : [ "chemlab" ]
+  },
+  "printable" : false,
+  "description" : "Mess around with chemicals!",
+  "shortdescription" : "^orange;BioChem Lab^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 450,
+
+  "apexDescription" : "A BioChem Lab.",
+  "avianDescription" : "A BioChem Lab.",
+  "floranDescription" : "A BioChem Lab.",
+  "glitchDescription" : "Identify. A BioChem Lab.",
+  "humanDescription" : "A BioChem Lab.",
+  "hylotlDescription" : "A BioChem Lab.",
+
+  "learnBlueprintsOnPickup" : [ "xenostation", "synthesizedprotein", "luminescentpaste", "peptidechain", "cellmatter", "calciumnitrate", "magnesiumsulfate", "cellmateria", "aminoacid", "ff_fertilizer", "unstableparticles"  ],
+
+  "lightColor" : [20, 20, 40],
+  "soundEffect" : "/sfx/objects/fridge_hum.wav",
+  "inventoryIcon" : "chemlabicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "chemlab.png:<color>",
+      "imagePosition" : [-30, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1] ],
+      "collision" : "platform"
+    }
+  ]
+
+}

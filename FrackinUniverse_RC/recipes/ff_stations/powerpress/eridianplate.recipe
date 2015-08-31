@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "eridianbar", "count" : 3 },
+    { "item" : "lead", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "eridianplate",
+    "count" : 1
+  },
+  "groups" : [ "powerpress", "materials", "all" ]
+}

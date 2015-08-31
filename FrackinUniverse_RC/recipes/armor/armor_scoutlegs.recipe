@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ff_protoplating", "count" : 6 },
+    { "item" : "vialproto", "count" : 2 },
+    { "item" : "titaniumplate", "count" : 3 },
+    { "item" : "moonstonebar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "ff_scoutpants",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

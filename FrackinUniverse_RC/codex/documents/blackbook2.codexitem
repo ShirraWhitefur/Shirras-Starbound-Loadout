@@ -1,0 +1,10 @@
+{
+  "codexId" : "blackbook2",
+  "title" : "Science Journal",
+  "codexkind" : "codex",
+  "inventoryIcon" : "eldertome.png",
+  "itemName" : "blackbook2",
+  "rarity" : "common",
+  "description" : "Scrawled by a madman",
+  "shortdescription" : "Terrible Science Jounral"
+}

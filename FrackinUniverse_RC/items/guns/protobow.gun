@@ -1,0 +1,38 @@
+{
+  "itemName" : "protobow",
+  "inventoryIcon" : "protobowicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Protocyte, and other high quality materials. Awesome.",
+  "shortdescription" : "Protocyte Bow",
+  "image" : "protobow.png:<frame>",
+  "imageFrameSelector" : "bowImageSelector",
+  "handPosition" : [0, -1],
+  "firePosition" : [20, 1.5],
+  "level" : 4,
+  "fireTime" : 1.2,
+  "twoHanded" : true,
+  "tooltipKind" : "bow",
+  "fireOnRelease" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "lesserprotoarrow",
+  "powerProjectileType" : "protoarrow",
+  "powerProjectileTime" : [0.5, 100.1],
+  "drawSpeedCurve" : "drawTimeMultiplier",
+  "drawPowerCurve" : "drawTimeMultiplier",
+  "projectile" : {
+    "speed" : 80,
+    "power" : 5,
+    "color" : [221, 227, 49]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/bow_loose_perfect.wav" } ]
+  }
+}
+
+
+
+

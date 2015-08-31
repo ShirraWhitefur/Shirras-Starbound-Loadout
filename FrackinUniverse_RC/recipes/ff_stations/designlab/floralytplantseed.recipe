@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "regengene2", "count" : 1 },
+    { "item" : "aliencompound", "count" : 12 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "chloroplast2", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "floralytplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "flower", "all", "tools" ]
+}

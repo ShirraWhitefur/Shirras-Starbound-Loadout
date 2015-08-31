@@ -1,0 +1,38 @@
+{
+  "itemName" : "ff_scoutchest_melee",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Increase shield regeneration",
+  "shortdescription" : "Warrior Chestpiece",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 2.0
+    },    
+    {
+      "stat" : "protection",
+      "amount" : 35
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 30
+    },
+    "shieldregen2"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "projectileName" : "coldblast1",
+  "frames" : "coldblast1.png",
+  "physics" : "laser",
+  "animationCycle" : 0.5,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 4,
+  "speed" : 19,
+  "timeToLive" : 1.25,
+  "piercing" : false,
+  "damagePoly" : [ ],
+  "damageKind" : "iceplasma",
+  "lightColor" : [40, 0, 170],
+  "emitters" : [ "defaultwhite" ]
+}
+

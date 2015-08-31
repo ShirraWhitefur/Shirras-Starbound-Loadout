@@ -1,0 +1,11 @@
+{
+  "input" : [
+   { "item" : "durasteelbar", "count" : 2 },
+   { "item" : "steelbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "hardenedsteelblade",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

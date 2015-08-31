@@ -1,0 +1,25 @@
+{
+  "name" : "starspawnSpitAttack",
+  "label" : "VOID CLOUD",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "starspawnSpitAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "cultistshot",
+      "range" : 15,
+      "speed" : 25,
+      "power" : 26,
+      "shots" : 1,
+      "windupTime" : 0.05,
+      "winddownTime" : 0.2
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "rangedAttack" : [ ]
+    }
+  }
+}
+

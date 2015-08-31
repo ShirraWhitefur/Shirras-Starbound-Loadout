@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "moonstoneore", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "moonstonebar",
+    "count" : 1
+  },
+  "groups" : [ "fissionfurnace", "all" ]
+}

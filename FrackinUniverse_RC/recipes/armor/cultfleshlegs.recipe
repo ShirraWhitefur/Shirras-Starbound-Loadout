@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 15 },
+    { "item" : "fleshstrand", "count" : 24 },
+    { "item" : "corruptionseed", "count" : 6 },
+    { "item" : "bone", "count" : 12 }
+  ],
+  "output" : { "item" : "cultfleshlegs", "count" : 1 },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

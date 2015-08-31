@@ -1,0 +1,16 @@
+{
+  "id" : "1_cloninglab.gearup",
+  "prerequisites" : [ "fu_intro4.gearup" ],
+  "title" : "^#39bc2f;Upgrading 101",
+  "text" : "For your next bit of science training, you are going to need a ^orange;Nano-Fabricator^white;.",
+  "completionText" : "I have but one task for you now, and the rest of your journey will be of your own choices.",  
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "nanofabricator", "consume" : false }
+  ],
+
+  "moneyRange" : [0,0],
+  "rewards" : [ ],
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "2_miningupgrade.gearup"
+}

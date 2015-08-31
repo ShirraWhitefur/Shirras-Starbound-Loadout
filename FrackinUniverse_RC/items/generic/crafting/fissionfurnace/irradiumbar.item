@@ -1,0 +1,8 @@
+{
+  "itemName" : "irradiumbar",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "irradiumbar.png",
+  "description" : "Compressed, purified irradium.",
+  "shortdescription" : "^#77acc3;Irradium Bar^white;",
+      "learnBlueprintsOnPickup" : [ "irradiumspear", "irradiumblade", "irradiumsword", "irradiumrifle", "irradiumhelm", "irradiumchest", "irradiumlegs" ]
+}

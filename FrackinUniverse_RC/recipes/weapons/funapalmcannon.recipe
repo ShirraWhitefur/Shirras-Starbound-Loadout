@@ -1,0 +1,13 @@
+{
+  "input" : [
+   { "item" : "carbonplate", "count" : 20 },
+   { "item" : "biofuelcannister", "count" : 12 },
+   { "item" : "moltencore", "count" : 1 },
+   { "item" : "corefragmentore", "count" : 24 }
+  ],
+  "output" : {
+    "item" : "napalmcannon",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

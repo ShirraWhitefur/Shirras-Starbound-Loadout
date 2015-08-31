@@ -1,0 +1,21 @@
+{
+  "materialId" : 6582,
+  "materialName" : "iceblock3",
+  "particleColor" : [209, 223, 237, 255],
+  "itemDrop" : "iceblock3material",
+  "description" : "Ice Sheet",
+  "shortdescription" : "Ice Sheet",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "health" : 8,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "iceblock3.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

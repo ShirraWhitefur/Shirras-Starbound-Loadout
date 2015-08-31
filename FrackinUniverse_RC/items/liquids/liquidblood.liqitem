@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidblood",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidbloodicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Blood",
+  "description" : "A measure of blood.",
+
+  "liquid" : "bloodliquid"
+}

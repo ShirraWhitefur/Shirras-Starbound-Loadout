@@ -1,0 +1,13 @@
+{
+  "input" : [
+   { "item" : "gunpowder", "count" : 8 },
+   { "item" : "quietusplate", "count" : 2 },
+   { "item" : "minirocketlauncher", "count" : 1 },
+   { "item" : "monsterplating", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "minirocketlauncher2",
+    "count" : 1
+  },
+  "groups" : [ "nanofabricator", "weapons", "all" ]
+}

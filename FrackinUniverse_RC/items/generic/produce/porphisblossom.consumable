@@ -1,0 +1,13 @@
+{
+  "itemName" : "porphisblossom",
+  "rarity" : "Common",
+  "inventoryIcon" : "porphisblossom.png",
+  "description" : "Grants 25% Rage",
+  "shortdescription" : "Porphis Blossom",
+  "effects" : [ [
+      "rage"
+    ] ],
+  "blockingEffects" : [
+  "rage"
+  ]
+}

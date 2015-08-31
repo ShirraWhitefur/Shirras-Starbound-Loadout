@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "immunegene2", "count" : 1 },
+    { "item" : "toxicgene", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "cellresistance2", "count" : 1 },
+    { "item" : "tissueculture", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "fuspongeweedseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "bush", "all", "tools" ]
+}

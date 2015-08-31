@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "steelgirdirverticalmaterial",
+    "count" : 10
+  },
+  "groups" : [ "prototyper", "materials", "all" ]
+}

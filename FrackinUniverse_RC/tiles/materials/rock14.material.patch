@@ -1,0 +1,6 @@
+[
+{"op":"replace","path":"/itemDrop","value":"gabbromaterial"},
+{"op":"replace","path":"/description","value":"Rough, unrefined gabbro."},
+{"op":"replace","path":"/shortdescription","value":"Gabbro Block"},
+{"op":"replace","path":"/glitchDescription","value":"Statement. Gabbro."}
+]

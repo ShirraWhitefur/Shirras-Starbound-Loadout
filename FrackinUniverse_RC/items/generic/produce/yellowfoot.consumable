@@ -1,0 +1,10 @@
+{
+  "itemName" : "yellowfoot",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "yellowfoot.png",
+  "description" : "Yellowfoot boosts personal energy reserves.",
+  "shortdescription" : "Yellow-foot Mushroom",
+  "effects" : [ [
+      "maxenergyboost60"
+    ] ]
+}

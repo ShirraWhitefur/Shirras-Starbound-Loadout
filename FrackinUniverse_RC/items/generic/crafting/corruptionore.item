@@ -1,0 +1,8 @@
+{
+  "itemName" : "corruptionore",
+  "rarity" : "rare",
+  "inventoryIcon" : "corruptionore.png",
+  "description" : "Some strange, corrupted mineral.",
+  "shortdescription" : "Corrupted Bio-mass",
+  "learnBlueprintsOnPickup" : [ "corruptionseed", "glarestalkseed" ]
+}

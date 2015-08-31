@@ -1,0 +1,34 @@
+{
+  "objectName" : "fissionfurnace",
+  "tags" : [ "fu", "science", "scienceoutpost", "combat", "laser" ],
+  "rarity" : "rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/fissionfurnace.config",
+    "filter" : [ "alloyfurnace", "scififurnace", "fissionfurnace" ]
+  },
+  "printable" : false,
+  "description" : "This reliable unit is capable of making even the toughest alloys into usable metal.",
+  "shortdescription" : "^orange;Fission Furnace^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 1250,
+  "lightColor" : [0, 0, 90],
+  "pickupQuestTemplates" : [ "fissionfurnace.gearup" ],
+  "learnBlueprintsOnPickup" : [ "solaricrystal", "magnesiumpowder", "moonstonebar" ],
+  "inventoryIcon" : "fissionfurnaceicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fissionfurnace.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

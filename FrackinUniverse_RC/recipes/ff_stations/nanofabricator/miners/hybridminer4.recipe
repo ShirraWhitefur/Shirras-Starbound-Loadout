@@ -1,0 +1,13 @@
+{
+  "input" : [
+   { "item" : "densiniumplate", "count" : 1 },
+   { "item" : "eridianplate", "count" : 1 },
+   { "item" : "ff_focusingarray", "count" : 2 }, 
+   { "item" : "hybridminer3", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "hybridminer4",
+    "count" : 1
+  },
+  "groups" : [ "nanofabricator", "tools", "all" ]
+}

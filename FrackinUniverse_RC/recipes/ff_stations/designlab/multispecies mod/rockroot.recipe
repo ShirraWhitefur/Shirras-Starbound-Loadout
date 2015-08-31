@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "neonmelonseed", "count" : 1 },
+    { "item" : "celeritygene", "count" : 1 },
+    { "item" : "defensegene2", "count" : 1 },
+    { "item" : "cellhardening3", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "rockrootseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "vine", "all", "tools" ]
+}

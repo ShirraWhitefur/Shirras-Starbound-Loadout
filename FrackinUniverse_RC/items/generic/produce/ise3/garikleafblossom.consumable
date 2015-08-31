@@ -1,0 +1,14 @@
+{
+  "itemName" : "garikleafblossom",
+  "rarity" : "Common",
+  "inventoryIcon" : "garikleafblossom.png",
+  "description" : "Increase your ground speed.",
+  "shortdescription" : "Garikleaf Blossom",
+      "effects" : [ [
+      {
+        "effect" : "runboost",
+        "amount" : 0.65,
+        "duration" : 120
+      }
+    ] ]
+}

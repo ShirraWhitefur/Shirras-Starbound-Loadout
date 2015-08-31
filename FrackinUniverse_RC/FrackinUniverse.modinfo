@@ -1,0 +1,11 @@
+{
+  "name" : "FrackinUniverse",
+  "version" : "",
+  "path" : ".",
+  "dependencies" : [ ],
+  "metadata": {
+    "author" : "Sayter",
+    "description" : "Adds new gene engineering system for plants, new plants, weapons and more.",
+    "support_url" : ""
+  }
+}

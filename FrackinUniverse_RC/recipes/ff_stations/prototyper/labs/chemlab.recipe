@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 10 },
+    { "item" : "glassmaterial", "count" : 10 },    
+    { "item" : "copperbar", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "chemlab",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "genetics", "all", "tools" ]
+}

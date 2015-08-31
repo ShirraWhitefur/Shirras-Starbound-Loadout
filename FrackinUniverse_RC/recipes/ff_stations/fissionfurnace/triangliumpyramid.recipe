@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "triangliumore", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "triangliumpyramid",
+    "count" : 1
+  },
+  "groups" : [ "fissionfurnace", "all" ]
+}

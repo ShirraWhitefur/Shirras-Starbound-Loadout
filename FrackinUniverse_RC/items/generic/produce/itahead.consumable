@@ -1,0 +1,14 @@
+{
+  "itemName" : "itahead",
+  "rarity" : "Common",
+  "inventoryIcon" : "itahead.png",
+  "description" : "Possesses potent anti-toxins. Cures poisons.",
+  "shortdescription" : "Ita Flower Head",
+    
+  "effects" : [ [ 
+  "poisonimmunity"
+  ] ],
+  "blockingEffects" : [
+  "antidote"
+  ]
+}

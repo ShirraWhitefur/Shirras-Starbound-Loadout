@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "nuclearcore", "count" : 1 },
+    { "item" : "aichip", "count" : 2 },
+    { "item" : "eridianplate", "count" : 2 },
+    { "item" : "quietusplate", "count" : 1 },
+    { "item" : "hybridminer4", "count" : 1 }
+  ],
+  "output" : { "item" : "mmgravgun", "count" : 1 },
+  "groups" : [ "nanofabricator", "weapon", "all" ]
+}

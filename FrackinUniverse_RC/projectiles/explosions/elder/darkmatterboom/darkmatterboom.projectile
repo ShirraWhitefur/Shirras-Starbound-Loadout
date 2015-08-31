@@ -1,0 +1,16 @@
+{
+  "projectileName" : "darkmatterboom",
+  "frames" : "darkmatterboom.png",
+  "animationCycle" : 0.3,
+  "level" : 7,
+  "frameNumber" : 7,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "pointLight" : true,
+  "lightColor" : [168,175,155],
+  "universalDamage" : true,
+  "damageKind" : "default"
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "firegene", "count" : 2 },
+    { "item" : "ignuschiliseed", "count" : 3 },
+    { "item" : "cellresistance2", "count" : 1 },
+    { "item" : "explosivegene", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ignuschili2seed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "vegetable", "all", "tools"  ]
+}

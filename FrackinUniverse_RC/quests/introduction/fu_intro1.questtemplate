@@ -1,0 +1,15 @@
+  {
+  "id" : "fu_intro1.gearup",
+  //"prerequisites" : [ "ftlrepairmain.gearup" ],
+  "requiredShipLevel" : 2,
+  "title" : "^#39bc2f;Going Ape for Science",
+  "text" : "I know of a place for budding scientific minds to explore their theories in peace. If you ^green;bring me some ^orange;Glass^white; I may just tell you where it is.",
+  "completionText" : "Thanks so much. Talk to me when you wish to learn more about our haven.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "glassmaterial", "consume" : true }
+  ],
+  "moneyRange" : [300, 400],
+  "rewards" : [ ],
+  "followUp" : "fu_intro1a.gearup",
+  "requireTurnIn" : true
+}

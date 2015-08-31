@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 1 },
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "coldgene", "count" : 2 },
+    { "item" : "immunegene2", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "blizzberryseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "fruit", "all", "tools" ]
+}

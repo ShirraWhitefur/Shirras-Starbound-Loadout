@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "luminescentcells", "count" : 2 },
+    { "item" : "shroom", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "goldshroomseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "mushroom", "all", "tools" ]
+}

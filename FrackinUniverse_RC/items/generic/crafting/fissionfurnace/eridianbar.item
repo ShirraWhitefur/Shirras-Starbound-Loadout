@@ -1,0 +1,8 @@
+{
+  "itemName" : "eridianbar",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "eridianbar.png",
+  "description" : "This metal is lab-built, and extremely useful.",
+  "shortdescription" : "Eridian Bar",
+  "learnBlueprintsOnPickup" : [ "shadowblade", "fuquantumhead", "fuquantumchest", "fuquantumlegs", "fuquantumhammer", "eridianplate" ]
+}

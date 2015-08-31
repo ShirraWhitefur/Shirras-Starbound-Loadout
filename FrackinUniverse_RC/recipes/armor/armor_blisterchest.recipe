@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "titaniumplate", "count" : 5 },
+    { "item" : "blisterextract", "count" : 8 },
+    { "item" : "ff_silicon", "count" : 18 },
+    { "item" : "biochip", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "blisterchest",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

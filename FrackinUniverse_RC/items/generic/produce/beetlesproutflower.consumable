@@ -1,0 +1,10 @@
+{
+  "itemName" : "beetlesproutflower",
+  "rarity" : "Common",
+  "inventoryIcon" : "beetlesproutflower.png",
+  "description" : "Smells like bacon, tastes like snot. Grants a shield.",
+  "shortdescription" : "Beetle Sprout Flower",
+  "effects" : [ [
+     "defenseboost90"
+    ] ]
+}

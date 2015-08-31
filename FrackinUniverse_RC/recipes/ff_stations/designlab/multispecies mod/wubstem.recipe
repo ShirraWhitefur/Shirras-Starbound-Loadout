@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "nervebundle2", "count" : 1 },
+    { "item" : "oculargene", "count" : 1 },
+    { "item" : "regengene1", "count" : 1 },
+    { "item" : "cellhardening1", "count" : 1 },
+    { "item" : "cellmateria", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "wubstemseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "fruit", "all", "tools" ]
+}

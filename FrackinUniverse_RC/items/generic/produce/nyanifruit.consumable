@@ -1,0 +1,10 @@
+{
+  "itemName" : "nyanifruit",
+  "rarity" : "Common",
+  "inventoryIcon" : "nyanifruit.png",
+  "description" : "Surprisingly filling. Heals 15% health.",
+  "shortdescription" : "Nyani String",
+  "effects" : [ [
+      "heal_15"
+    ] ]
+}

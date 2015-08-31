@@ -1,0 +1,15 @@
+  {
+  "id" : "3_circuitboard.gearup",
+  "prerequisites" : [ ],
+  "title" : "^#1693d5;Circuitboard",
+  "text" : "For controlling advanced functions, circuitry is a must. The advanced labs will need it! Build a ^orange;circuit board^white;. You can extract ^orange;silicon^white; by extracting it from ^orange;sand^white; or the crystalline ground of a ^orange;Crystal Moon^white;. You have an extractor, right?",
+  "completionText" : "You'll need that ^orange;circuitboard^white; for your ^white;Xeno Lab^white;.",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "circuitboard", "consume" : false }
+  ],
+  "moneyRange" : [0,0],
+  "rewards" : [],
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "3b_powerpress.gearup"
+}

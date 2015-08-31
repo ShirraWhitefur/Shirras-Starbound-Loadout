@@ -1,0 +1,10 @@
+{
+  "itemName" : "fayshroom",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "fayshroom.png",
+  "description" : "Stab those that harm you.",
+  "shortdescription" : "Fayshroom",
+  "effects" : [ [
+       "burstfayshroom"
+    ] ]
+}

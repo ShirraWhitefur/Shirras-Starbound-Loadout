@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ff_fertilizer", "count" : 1 },
+    { "item" : "geneticmaterial", "count" : 4 },
+    { "item" : "methanol", "count" : 1 },
+    { "item" : "dnasample", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "organicsynthesis",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

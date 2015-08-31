@@ -1,0 +1,33 @@
+{
+  "itemName" : "ff_scouthelm",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Reliable protection. Decent energy regen.",
+  "shortdescription" : "Scout Helm",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.5
+    },    
+    {
+      "stat" : "protection",
+      "amount" : 22
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 20
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 42
+    }
+  ]
+}

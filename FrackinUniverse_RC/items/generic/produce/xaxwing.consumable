@@ -1,0 +1,14 @@
+{
+  "itemName" : "xaxwing",
+  "rarity" : "Common",
+  "inventoryIcon" : "xaxwing.png",
+  "description" : "Feels gross to chew, but you'll levitate. That's handy.",
+  "shortdescription" : "Xax Wing",
+  "effects" : [ [
+      {
+        "effect" : "levitation",
+        "duration" : 60
+      },
+      "helium3immunity"
+    ] ]
+}

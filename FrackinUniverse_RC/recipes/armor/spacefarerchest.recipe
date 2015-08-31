@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumplate", "count" : 8 },
+    { "item" : "ff_protoplating", "count" : 7 },
+    { "item" : "vialproto", "count" : 6 },
+    { "item" : "cpu", "count" : 1 }
+  ],
+  "output" : { "item" : "spacefarerchest", "count" : 1 },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

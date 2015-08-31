@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "magnesiumpowder", "count" : 5 },
+    { "item" : "methanol", "count" : 3 },
+    { "item" : "sulphur", "count" : 3}
+  ],
+  "output" : {
+    "item" : "magnesiumsulfate",
+    "count" : 5
+  },
+  "groups" : [ "chemlab", "compounds", "all" ]
+}

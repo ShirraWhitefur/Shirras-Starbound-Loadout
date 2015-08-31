@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "thornitox", "count" : 16 },
+    { "item" : "dnasample", "count" : 48 },
+    { "item" : "ceruliumcompound", "count" : 14 },
+    { "item" : "biochip", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "spikesword5",
+    "count" : 1
+  },
+  "groups" : [ "nanofabricator", "weapons", "all" ]
+}

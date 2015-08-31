@@ -1,0 +1,9 @@
+{
+  "itemName" : "ff_plastic",
+  "rarity" : "Common",
+  "inventoryIcon" : "ff_plastic.png",
+  "description" : "Synthetic compound enhanced through science!",
+  "shortdescription" : "Advanced Plastic",
+  "category" : "Plastics",
+  "learnBlueprintsOnPickup" : [ "waterball", "pioneershield", "fupioneerchest", "fupioneerpants", "fupioneerhead", "goggles1", "goggles2", "hydrotubematerial", "ff_bubblegun", "mineralpistollite", "mineralcannonlite", "ff_gasmask", "ff_divingmaskhead" ]
+}

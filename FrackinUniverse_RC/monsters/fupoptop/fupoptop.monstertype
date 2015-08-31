@@ -1,0 +1,120 @@
+{
+  "type" : "fupoptop",
+
+  "categories" : [ "fupoptop" ],
+  "parts" : [ "body" ],
+
+  "animation" : "fupoptop.animation",
+  "colors" : "/monsters/colors.config",
+
+  "dropPools" : [ "basicMonsterTreasure" ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/ground/groundMonster.lua",
+      "/scripts/pathing.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua",
+
+      "/monsters/ground/aggroHopState.lua",
+      "/monsters/ground/approachState.lua",
+      "/monsters/ground/fleeState.lua",
+      "/monsters/ground/stunState.lua",
+      "/monsters/fupoptop/wanderskipstate.lua"
+    ],
+
+    "blockedSensors" : [ [1.5, -0.8], [1.5, 0.2], [1.5, 0.7] ],
+    "fallSensors" : [ [0.5, -2.5], [0.5, -3.5], [0.5, -4.5], [2.0, -2.5], [2.0, -3.5], [2.0, -4.5] ],
+
+    "skills" : [ "meleeAttack", "pounceAttack" ],
+
+    "aggressive" : false,
+    "territoryDistance" : 10.0,
+    "territorialTargetRadius" : 20.0,
+    "minimalTargetRadius" : 6.0,
+    "targetSearchTime" : 0.5,
+    "targetHoldTime" : 10.0,
+
+    "closeDistance" : 1.5,
+
+    "wanderTime" : [4.0, 6.0],
+    "wanderMovementTime" : [2.0, 3.0],
+
+    "jumpTargetDistance" : 6,
+    "jumpTime" : [0.5, 1.0],
+
+    "pathing" : {
+      "canOpenDoors" : false
+    },
+
+    "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-2.0, -2.25], [2.5, -2.25], [2.0, 0.25], [-1.5, 0.25] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 3,
+      "runSpeed" : 8,
+
+      "airFriction" : 0.0,
+      "airJumpProfile" : {
+        "jumpSpeed" : 45.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0              
+      }
+    },
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+
+    "touchDamage" : {
+      "poly" : [ [-2.0, -2.25], [2.5, -2.25], [2.0, 0.25], [-1.5, 0.25] ],
+      "damage" : 12,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "default",
+      "statusEffects" : [ ]
+    },
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 0,
+
+      "stats" : {
+        "maxHealth" : {
+          "baseValue" : 48
+        },
+        "protection" : {
+          "baseValue" : 1.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        }
+      },
+
+      "resources" : {
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "projectileSourcePosition" : [0.0, -1.0],
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -22]
+  }
+}

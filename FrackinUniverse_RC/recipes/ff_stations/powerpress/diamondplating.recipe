@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 4 },
+    { "item" : "carbonplate", "count" : 1 },
+    { "item" : "lead", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "ff_diamondplating",
+    "count" : 1
+  },
+  "groups" : [ "powerpress", "materials", "all" ]
+}

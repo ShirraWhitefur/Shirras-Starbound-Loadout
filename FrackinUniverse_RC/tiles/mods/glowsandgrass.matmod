@@ -1,0 +1,16 @@
+{
+  "modId" : 6795,
+  "modName" : "glowsandgrass",
+  "Description" : "glowing sand",
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "grass" : true,
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "glowsandgrass.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

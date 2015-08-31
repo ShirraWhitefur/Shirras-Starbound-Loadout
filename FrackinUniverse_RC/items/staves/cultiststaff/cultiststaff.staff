@@ -1,0 +1,50 @@
+{
+  "itemName" : "cultiststaff",
+  "inventoryIcon" : "cultiststaff.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Fashioned from bones and petrified wood.",
+  "shortdescription" : "Cultist's Staff",
+  "image" : "cultiststaff.png",
+  "handPosition" : [-1.5, -7],
+  "firePosition" : [5, 1.5],
+  "level" : 6,
+  "fireTime" : 0.2,
+  "windupTime" : 1.0,
+  "cooldown" : 0.3,
+  "twoHanded" : true,
+  "fireOnRelease" : true,
+
+  "swingStart" : 12,
+  "swingFinish" : 0,
+  "coolingDownAngle" : 0,
+
+  "projectileType" : "cultistshot",
+  "projectile" : {
+    "speed" : 20,
+    "power" : 8,
+    "color" : [255, 10, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [
+      { "file" : "/sfx/gun/rocket_shot.wav" },
+      { "file" : "/sfx/gun/rocket_fly.wav" }
+    ]
+  },
+
+  "level1ChargeTime" : 0.5,
+  "level2ChargeTime" : 1.0,
+
+  "staffChargingGlow" : {
+    "file" : "cultiststaffglow.png",
+    "chargingFrames" : 13,
+    "sparkFrames" : 3,
+    "loopFrames" : 4,
+    "fireFrames" : 3,
+    "sparkTime" : 0.5,
+    "loopTime" : 0.5,
+    "offset" : [ 0, 6 ]
+  }
+}

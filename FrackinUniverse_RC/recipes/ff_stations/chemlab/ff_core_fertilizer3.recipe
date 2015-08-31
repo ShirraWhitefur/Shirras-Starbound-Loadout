@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "liquidoil", "count" : 20 },
+    { "item" : "sulphur", "count" : 7 },
+    { "item" : "magnesiumsulfate", "count" : 7 },
+    { "item" : "pesticide", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ff_fertilizer3",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "chemical", "all" ]
+}

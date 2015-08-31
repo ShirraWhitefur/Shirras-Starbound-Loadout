@@ -1,0 +1,49 @@
+{
+  "itemName" : "druidstaff",
+  "inventoryIcon" : "druidstaff.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Murderer and salad-maker combined!",
+  "shortdescription" : "Druid's Staff",
+  "image" : "druidstaff.png",
+  "handPosition" : [-1.5, -7],
+  "firePosition" : [5, 1.5],
+  "level" : 4,
+  "fireTime" : 0.05,
+  "windupTime" : 0.05,
+  "cooldown" : 0.1,
+  "twoHanded" : true,
+  "fireOnRelease" : false,
+
+  "swingStart" : 12,
+  "swingFinish" : 0,
+  "coolingDownAngle" : 0,
+
+  "projectileType" : "ffpetal",
+  "projectile" : {
+    "speed" : 40,
+    "power" : 0.5,
+    "color" : [12, 90, 12]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [
+      { "file" : "/sfx/weapons/protopistol.wav" }
+    ]
+  },
+
+  "level1ChargeTime" : 0.25,
+  "level2ChargeTime" : 0.25,
+
+  "staffChargingGlow" : {
+    "file" : "druidstaffglow.png",
+    "chargingFrames" : 13,
+    "sparkFrames" : 3,
+    "loopFrames" : 4,
+    "fireFrames" : 3,
+    "sparkTime" : 0.5,
+    "loopTime" : 0.5,
+    "offset" : [ 0, 6 ]
+  }
+}

@@ -1,0 +1,6 @@
+[
+{"op":"replace","path":"/itemDrop","value":"conglomeratematerial"},
+{"op":"replace","path":"/description","value":"Rough, unrefined conglomerate."},
+{"op":"replace","path":"/shortdescription","value":"Conglomerate Block"},
+{"op":"replace","path":"/glitchDescription","value":"Statement. Conglomerate."}
+]

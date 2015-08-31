@@ -1,0 +1,32 @@
+{
+  "itemName" : "ionrifle",
+  "inventoryIcon" : "ionrifle.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Fires reflective bursts of ion energy.",
+  "shortdescription" : "Ion Rifle",
+  "image" : "ionrifle.png",
+  "handPosition" : [-7, -1],
+  "firePosition" : [20, 3],
+  "weaponType" : "Beam",
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.15,
+  "inaccuracy" : 0.03,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+  "fireOnRelease" : false,
+
+  "projectileType" : "ionrifleshot",
+  "projectile" : { 
+  "speed" : 60, 
+  "power" : 2.72 
+  },
+  
+  "muzzleEffect" : {
+       "fireSound" : [ { "file" : "/sfx/weapons/ionrifle.wav" } ],
+       "animation" :  "/animations/muzzleflash/plasmamuzzle3blue/plasmamuzzle3blue.animation"
+	   } 
+}

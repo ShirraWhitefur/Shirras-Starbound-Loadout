@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "quietuslegs", "count" : 6 },
+    { "item" : "advancealloy", "count" : 4 },
+    { "item" : "biochip", "count" : 4}
+  ],
+  "output" : {
+    "item" : "quietuslegs",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

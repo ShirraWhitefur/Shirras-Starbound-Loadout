@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "vialproto", "count" : 2 },
+    { "item" : "liquidelderfluid", "count" : 5 },
+    { "item" : "liquidorganicsoup", "count" : 4 },
+    { "item" : "liquidirradium", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "ultrastim",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "compounds", "all" ]
+}

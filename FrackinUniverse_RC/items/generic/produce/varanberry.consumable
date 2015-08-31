@@ -1,0 +1,10 @@
+{
+  "itemName" : "varanberry",
+  "rarity" : "Common",
+  "inventoryIcon" : "varanberry.png",
+  "description" : "Heals 5% of your health.",
+  "shortdescription" : "Varan Berries",
+  "effects" : [ [
+      "heal_5"
+    ] ]
+}

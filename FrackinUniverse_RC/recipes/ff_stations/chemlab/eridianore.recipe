@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "graphene", "count" : 1 },
+    { "item" : "vialproto", "count" : 1},
+    { "item" : "advancealloy", "count" : 1},
+    { "item" : "corvex", "count" : 1},
+    { "item" : "liquidsulphuricacid", "count" : 1}
+  ],
+  "output" : {
+    "item" : "eridianore",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "chemical", "all" ]
+}

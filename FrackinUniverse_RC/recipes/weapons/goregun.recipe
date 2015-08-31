@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "fleshstrand", "count" : 45 },
+    { "item" : "rottingfleshmaterial", "count" : 15 },
+    { "item" : "corruptionseed", "count" : 8 },
+    { "item" : "advancealloy", "count" : 4 }
+  ],
+  "output" : { "item" : "goregun", "count" : 1 },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

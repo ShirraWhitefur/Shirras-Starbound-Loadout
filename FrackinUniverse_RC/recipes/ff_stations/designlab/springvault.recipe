@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "celeritygene", "count" : 1 },
+    { "item" : "fleshstrand", "count" : 3 },
+    { "item" : "musclegene2", "count" : 1 },
+	{ "item" : "nervebundle1", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "springvaultseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "vine", "all", "tools" ]
+}

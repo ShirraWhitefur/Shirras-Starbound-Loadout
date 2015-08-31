@@ -1,0 +1,27 @@
+{
+  "itemName" : "mineralcannon",
+  "inventoryIcon" : "mineralcannon.png",
+  "learnBlueprintsOnPickup" : [ "mineralcannonadv" ],
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Rapid-fire death beam",
+  "shortdescription" : "Particle Rifle",
+  "image" : "mineralcannon.png",
+  "handPosition" : [-7, -1],
+  "firePosition" : [20, 1.5],
+  "weaponType" : "Beam",
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.45,
+  "twoHanded" : true,  
+  "walkWhileFiring" : false,
+  
+  "projectileType" : "mineralcannonshot",
+  "projectile" : { "speed" : 60, "power" : 6 , "color" : [0, 180, 0] },
+  "muzzleEffect" : {
+       "fireSound" : [ { "file" : "/sfx/gun/plasma_pistol3.wav" } ],
+       "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
+	   }   
+}

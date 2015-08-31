@@ -1,0 +1,18 @@
+{
+  "itemName" : "ighantbulb",
+  "rarity" : "Common",
+  "inventoryIcon" : "ighantbulb.png",
+  "description" : "Strange rubbery plant loaded with yum.",
+  "shortdescription" : "Ighant Bulb",
+  "learnBlueprintsOnPickup" : [ "banehammer" ],
+  "effects" : [ [
+      {
+        "effect" : "bouncy",
+        "amount" : 1.0,
+        "duration" : 20
+      }
+    ] ],
+  "blockingEffects" : [
+    "bouncy"
+  ]
+}

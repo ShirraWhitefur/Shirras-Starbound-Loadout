@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 10 },
+    { "item" : "lasherplantseed", "count" : 4 },
+    { "item" : "liquidblacktar", "count" : 12 },
+    { "item" : "biochip", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "lasherhook",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

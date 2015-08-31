@@ -1,0 +1,16 @@
+{
+  "name" : "moltenmetal",
+  "blockingStat" : "lavaImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5.75,
+
+  "scripts" : [
+    "moltenmetal.lua"
+  ],
+
+  "animationConfig" : "moltenmetal.animation",
+
+  "label" : "Heat",
+  "icon" : "/interface/statuses/biomeheat.png"
+}

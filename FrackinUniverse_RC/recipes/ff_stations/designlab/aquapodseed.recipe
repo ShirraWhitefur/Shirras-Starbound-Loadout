@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "aquaticcelerity", "count" : 1 },
+    { "item" : "tissueculture", "count" : 3 },
+    { "item" : "aquatichomeostasis", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "aquapodseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "bush", "all", "tools" ]
+}

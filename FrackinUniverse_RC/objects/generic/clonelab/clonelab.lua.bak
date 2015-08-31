@@ -1,0 +1,210 @@
+local recipes =
+{
+-- MODIFIED PLANTS
+{inputs = {"bioreagentblue", "automatoseed", amount = 3 }, outputs = { "automatoseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentgreen", "avesmingoseed", amount = 3 }, outputs = { "avesmingoseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentred", "bananaseed", amount = 3 }, outputs = { "bananaseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentyellow", "beakseedseed", amount = 3 }, outputs = { "beakseedseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentgrey", "boltbulbseed", amount = 3 }, outputs = { "boltbulbseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentpurple", "bonebooseed", amount = 3 }, outputs = { "bonebooseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentblue", "carrotseed", amount = 3 }, outputs = { "carrotseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentgreen", "chiliseed", amount = 3 }, outputs = { "chiliseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentred", "coralcreepseed", amount = 3 }, outputs = { "coralcreepseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentyellow", "cornseed", amount = 3 }, outputs = { "cornseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentgrey", "crystalplantseed", amount = 3 }, outputs = { "crystalplantseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentpurple", "currentcornseed", amount = 3 }, outputs = { "currentcornseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentgreen", "diodiaseed", amount = 3 }, outputs = { "diodiaseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentblue", "dirturchinseed" }, outputs = { "dirturchinseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentred", "eggshootseed", amount = 3 }, outputs = { "eggshootseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentyellow", "feathercrownseed" }, outputs = { "feathercrownseedadv" }, time = 60},
+{inputs = {"bioreagentgrey", "grapeseed", amount = 3 }, outputs = { "grapeseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentpurple", "kiwiseed", amount = 3 }, outputs = { "kiwiseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentblue", "neonmelonseed", amount = 3 }, outputs = { "neonmelonseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentgreen", "oculemonseed", amount = 3 }, outputs = { "oculemonseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentred", "pearlpeaseed", amount = 3 }, outputs = { "pearlpeaseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentgrey", "pineappleseed", amount = 3 }, outputs = { "pineappleseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentyellow", "pussplumseed", amount = 3 }, outputs = { "pussplumseedadv", amount = 3}, time = 60},
+{inputs = {"bioreagentpurple", "potatoseed", amount = 3 }, outputs = { "potatoseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentblue", "reefpodseed", amount = 3 }, outputs = { "reefpodseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentgreen", "riceseed", amount = 3 }, outputs = { "riceseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentred", "sugarcaneseed", amount = 3 }, outputs = { "sugarcaneseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentyellow", "tomatoseed", amount = 3 }, outputs = { "tomatoseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentgrey", "toxictopseed", amount = 3 }, outputs = { "toxictopseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentpurple", "wartweedseed", amount = 3 }, outputs = { "wartweedseedadv", amount = 3 }, time = 60},
+{inputs = {"bioreagentblue", "wheatseed", amount = 3 }, outputs = { "wheatseedadv", amount = 3 }, time = 60},
+-- ADVANCED MODIFIED PLANTS
+{inputs = {"vialblue", "automatoseedadv", amount = 3 }, outputs = { "automatoseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialgreen", "avesmingoseedadv", amount = 3 }, outputs = { "avesmingoseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialred", "bananaseedadv", amount = 3 }, outputs = { "bananaseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialyellow", "beakseedseedadv", amount = 3 }, outputs = { "beakseedseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialgrey", "boltbulbseedadv", amount = 3 }, outputs = { "boltbulbseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialpurple", "bonebooseedadv", amount = 3 }, outputs = { "bonebooseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialblue", "carrotseedadv", amount = 3 }, outputs = { "carrotseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialgreen", "chiliseedadv", amount = 3 }, outputs = { "chiliseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialred", "coralcreepseedadv", amount = 3 }, outputs = { "coralcreepseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialyellow", "cornseedadv", amount = 3 }, outputs = { "cornseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialgrey", "crystalplantseedadv", amount = 3 }, outputs = { "crystalplantseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialpurple", "currentcornseedadv", amount = 3 }, outputs = { "currentcornseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialgreen", "diodiaseedadv", amount = 3 }, outputs = { "diodiaseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialblue", "dirturchinseedadv", amount = 3 }, outputs = { "dirturchinseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialred", "eggshootseedadv", amount = 3 }, outputs = { "eggshootseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialyellow", "feathercrownseedadv", amount = 3 }, outputs = { "feathercrownseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialgrey", "grapeseedadv", amount = 3 }, outputs = { "grapeseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialpurple", "kiwiseedadv", amount = 3 }, outputs = { "kiwiseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialblue", "neonmelonseedadv", amount = 3 }, outputs = { "neonmelonseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialgreen", "oculemonseedadv", amount = 3 }, outputs = { "oculemonseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialred", "pearlpeaseedadv", amount = 3 }, outputs = { "pearlpeaseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialgrey", "pineappleseedadv", amount = 3 }, outputs = { "pineappleseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialyellow", "pussplumseedadv", amount = 3 }, outputs = { "pussplumseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialpurple", "potatoseedadv", amount = 3 }, outputs = { "potatoseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialblue", "reefpodseedadv", amount = 3 }, outputs = { "reefpodseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialgreen", "riceseedadv", amount = 3 }, outputs = { "riceseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialred", "sugarcaneseedadv", amount = 3 }, outputs = { "sugarcaneseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialyellow", "tomatoseedadv", amount = 3 }, outputs = { "tomatoseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialgrey", "toxictopseedadv", amount = 3 }, outputs = { "toxictopseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialpurple", "wartweedseedadv", amount = 3 }, outputs = { "wartweedseedadv2", amount = 3 }, time = 60},
+{inputs = {"vialblue", "wheatseedadv", amount = 3 }, outputs = { "wheatseedadv2", amount = 3 }, time = 60},
+
+-- HYDROFLORA MOD PLANTS  (count as basic)
+{inputs = {"bioreagentgreen", "crystal", amount = 3 }, outputs = { "crystarborseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentblue", "glassmaterial", amount = 3 }, outputs = { "glassleafseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentred", "cellmatter", amount = 3 }, outputs = { "hummseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentyellow", "algaeseed", amount = 3 }, outputs = { "redfangberryseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentblue", "cinnabarore", amount = 3 }, outputs = { "redolivenutseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentpurple", "sapling", amount = 3 }, outputs = { "treeplentseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentgrey", "crystal", amount = 3 }, outputs = { "turnabeggaseed", amount = 3 }, time = 60},
+
+-- MOREFOOD MOD PLANTS (count as basic)
+{inputs = {"bioreagentgreen", "artichokeseed", amount = 3 }, outputs = { "artichokeseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentblue", "asparagusseed", amount = 3 }, outputs = { "asparagusseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentyellow", "beetseed", amount = 3 }, outputs = { "beetseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentgrey", "bellpepperseed", amount = 3 }, outputs = { "bellpepperseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentred", "blueberriesseed", amount = 3 }, outputs = { "blueberriesseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentpurple", "broccoliseed", amount = 3 }, outputs = { "broccoliseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentgreen", "brusselsproutseed", amount = 3 }, outputs = { "brusselsproutseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentblue", "cauliflowerseed", amount = 3 }, outputs = { "cauliflowerseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentred", "celeryseed", amount = 3 }, outputs = { "celeryseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentgrey", "cherryseed", amount = 3 }, outputs = { "cherryseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentpurple", "cherrytomatoseed", amount = 3 }, outputs = { "cherrytomatoseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentyellow", "collardgreensseed", amount = 3 }, outputs = { "collardgreensseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentgreen", "cucumberseed", amount = 3 }, outputs = { "cucumberseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentred", "garlicseed", amount = 3 }, outputs = { "garlicseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentgreen", "gingerseed", amount = 3 }, outputs = { "gingerseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentblue", "kaleseed", amount = 3 }, outputs = { "kaleseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentgrey", "leekseed", amount = 3 }, outputs = { "leekseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentyellow", "onionseed", amount = 3 }, outputs = { "onionseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentgreen", "parsnipseed", amount = 3 }, outputs = { "parsnipseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentred", "peanutseed", amount = 3 }, outputs = { "peanutseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentgrey", "radishseed", amount = 3 }, outputs = { "radishseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentblue", "rhubarbseed", amount = 3 }, outputs = { "rhubarbseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentyellow", "soybeanseedb", amount = 3 }, outputs = { "soybeanseedb", amount = 3 }, time = 60},
+{inputs = {"bioreagentpurple", "spinachseed", amount = 3 }, outputs = { "spinachseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentgreen", "squashseed", amount = 3 }, outputs = { "squashseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentred", "strawberriesseed", amount = 3 }, outputs = { "strawberriesseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentblue", "sweetpotato", amount = 3 }, outputs = { "sweetpotato", amount = 3 }, time = 60},
+{inputs = {"bioreagentgrey", "turnipseed", amount = 3 }, outputs = { "turnipseed", amount = 3 }, time = 60},
+{inputs = {"bioreagentpurple", "zucchiniseed", amount = 3 }, outputs = { "zucchiniseed", amount = 3 }, time = 60}
+
+
+
+-- AVALI MOD PLANTS
+--avaliplant1
+--avaliplant2
+--avaliplant3
+
+-- PEGLACI MOD PLANTS
+--spongeweed
+--snowberry
+
+
+}
+
+function init(args)
+    self.timer = 0
+    self.recipe = nil
+    self.crafting = false
+end
+
+function hasValidRecipe()
+    local id = entity.id()
+    local contents = world.containerItems(entity.id())
+
+    for _, recipe in pairs(recipes) do
+        local hasRecipe = true
+        for id, item in pairs(recipe.inputs) do
+            -- I'm making the assumption you are only going to need 1 individual item for each input.
+            -- You will not be able to require 2 of the same item.
+            -- To "fix" this, you will need to have a count requirement in the recipes table and check it here
+           
+            -- the current implementation of containerAvailable is Bugged according to Meta.
+            --if world.containerAvailable(id, item) > 0 then
+            --    break
+            --end
+           
+            -- Since the damn thing is broken, we have to iterate manually.
+            local found = false
+            for i, inv in pairs(contents) do
+                if item == inv.name then
+                    found = true
+                    break -- Break the item search loop
+                end
+            end
+           
+            if not found then
+                hasRecipe = false
+                break -- Break loop for current recipe
+            end
+        end
+       
+        -- Do we have the match?
+        if hasRecipe then
+            return true, recipe
+        end
+    end
+   
+    return false, nil
+end
+
+-- Adds in/Removes the items. If you added the amount param to tables, be sure to update it here.
+function generateRecipe()
+    local recipe = self.recipe
+    local entID = entity.id()
+   
+    -- Remove the input items
+    for k, v in pairs(recipe.inputs) do
+        if not world.containerConsume(entID, {item = v , count = 1}) then
+            return
+        end
+    end
+   
+    -- Add the output items
+    for k, item in pairs(recipe.outputs) do
+        local itemsRemaining = world.containerAddItems(entID, { name= item, count = 1, data={}})
+       
+        if itemsRemaining then
+            world.spawnItem(itemsRemaining.item, entity.position(), itemsRemaining.amount)
+        end
+    end
+end
+
+function main()
+    -- Are we already crafting?
+    if not self.crafting then
+        -- No? Check recipes.
+        local hasRecipie, recipe = hasValidRecipe()
+        if hasRecipie then
+            self.recipe = recipe
+            entity.setAnimationState("clonelab", "working")
+            self.crafting = true
+        end
+    else
+        -- Yes? Run timer.
+        self.timer = self.timer + entity.dt()
+        if self.timer >= self.recipe.time then
+            generateRecipe() -- Take the recipe requirements and Generate the results
+            self.crafting = false
+            self.timer = 1
+            entity.setAnimationState("clonelab", "idle")
+        end
+    end
+end

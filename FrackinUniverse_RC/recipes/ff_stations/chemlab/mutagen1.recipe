@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "liquidalienjuice", "count" : 5 },
+    { "item" : "aliencompound", "count" : 15},
+    { "item" : "geneticmaterial", "count" : 10},
+    { "item" : "glassmaterial", "count" : 4},
+    { "item" : "dnasample", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "mutagene1",
+    "count" : 2
+  },
+  "groups" : [ "chemlab", "genetics", "all" ]
+}

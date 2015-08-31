@@ -1,0 +1,10 @@
+{
+  "itemName" : "kamaranpods",
+  "rarity" : "Common",
+  "inventoryIcon" : "kamaranpods.png",
+  "description" : "Resistant to movement effects.",
+  "shortdescription" : "Kamaran Pod",
+  "effects" : [ [
+      "blacktarimmunity", "fumudslowimmunity", "iceslipimmunity"
+    ] ]
+}

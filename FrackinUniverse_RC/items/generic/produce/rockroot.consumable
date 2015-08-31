@@ -1,0 +1,10 @@
+{
+  "itemName" : "rockroot",
+  "rarity" : "Common",
+  "inventoryIcon" : "rockrooticon.png",
+  "description" : "Grants 90 Protection",
+  "shortdescription" : "Rockroot",
+    "effects" : [ [
+       "defenseboost90"
+    ] ]
+}

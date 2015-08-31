@@ -1,0 +1,16 @@
+{
+  "name" : "mercurypoison",
+  "blockingStat" : "poisonImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "mercurypoison.lua"
+  ],
+
+  "animationConfig" : "mercurypoison.animation",
+
+  "label" : "Poisoned",
+  "icon" : "/interface/statuses/poison.png"
+}

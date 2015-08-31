@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "cellresistance2", "count" : 1 },
+    { "item" : "phosphorus", "count" : 12 },
+    { "item" : "immunegene1", "count" : 1 },
+    { "item" : "ff_fertilizer", "count" : 1 },
+	{ "item" : "liquidbioooze", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "immunegene2",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

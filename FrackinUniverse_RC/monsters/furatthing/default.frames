@@ -1,0 +1,12 @@
+{
+  "frameGrid" : {
+    "size" : [32, 32],
+    "dimensions" : [9, 3],
+
+    "names" : [
+      [ null, "idle", null, "bite.1", "bite.2", "bite.3", "bite.4", null, null ],
+      [ null, "run.1", "run.2", "run.3", "run.4", null, null, null, null ],
+      [ null, "creepy.1", "creepy.2", "creepy.3", "creepy.4", "creepy.5", "creepy.6", "creepy.7", "creepy.8" ]
+    ]
+  }
+}

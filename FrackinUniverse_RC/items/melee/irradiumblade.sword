@@ -1,0 +1,51 @@
+{
+  "itemName" : "irradiumblade",
+  "level" : 5,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Honed to perfection. Irradiate your foes.",
+  "shortdescription" : "Irradium Shortsword",
+  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
+  "kind" : "Shortsword",
+  "image" : "irradiumblade.png",
+  "firePosition" : [15.5, 4.5],
+  "fireTime" : 0.85,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileType" : "irradiumswoosh",
+    "projectile" : {
+      "speed" : 25,
+      "power" : 5.2
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-3.0, -17.0],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-3.0, -17.0],
+      "duration" : 0.05,
+      "statusEffects" : []
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -45,
+      "swordAngle" : -90,
+      "handPosition" : [-3.0, -27.5],
+      "duration" : 0.4,
+      "statusEffects" : []
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "chloroplast2", "count" : 1 },
+    { "item" : "fleshstrand", "count" : 3 },
+    { "item" : "musclegene2", "count" : 1 },
+    { "item" : "oculargene", "count" : 2 },
+    { "item" : "nervebundle2", "count" : 2 },
+    { "item" : "corruptionseed", "count" : 12 }
+  ],
+  "output" : {
+    "item" : "glarestalkseed",
+    "count" : 1
+  },
+  "groups" : [ "designlab", "tree", "all", "tools" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "mascagniteore", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "ammoniumsulfate",
+    "count" : 1
+  },
+  "groups" : [ "alloyfurnace", "all" ]
+}

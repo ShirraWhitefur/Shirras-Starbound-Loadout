@@ -1,0 +1,18 @@
+{
+  "modId" : 6691,
+  "modName" : "corruption",
+  "itemDrop" : "corruptionore",
+  "Description" : "algae",
+  "health" : 8.5,
+  "harvestLevel" : 3,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "corruption.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "radiantLight" : [0.25, 0.05, 0.25]
+  }
+}

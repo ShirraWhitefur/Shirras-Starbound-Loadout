@@ -1,0 +1,17 @@
+  {
+  "id" : "assassinsplight1.gearup",
+  "prerequisites" : [ ],
+  "title" : "^#1693d5;Assassin's Plight",
+  "text" : "I needss to kill targetss but my weaponsses are lacking. Can you bringing meess a ^orange;Thornitox bladess^white;?",
+  "completionText" : "Thanking you I isss. Now I try stabss on thingss.",
+  "completionConditions" : [ 
+  { "type" : "gather", "item" : "spikesword", "consume" : true } ],
+  "moneyRange" : [210,290],
+  "rewards" : [ 
+    [ [ "crunchychick", 1 ] ]
+    ],
+
+  "requireTurnIn" : true,
+  "canBeAbandoned" : false,
+  "followUp" : "assassinsplight2.gearup"
+}

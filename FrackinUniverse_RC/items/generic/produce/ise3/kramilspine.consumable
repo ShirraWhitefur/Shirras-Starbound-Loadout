@@ -1,0 +1,10 @@
+{
+  "itemName" : "kramilspine",
+  "rarity" : "Common",
+  "inventoryIcon" : "kramilspine.png",
+  "description" : "Immunity to ice effects",
+  "shortdescription" : "Kramil Spine",
+      "effects" : [ [
+          "iceslipimmunity", "slushslowimmunity", "snowslowimmunity"
+    ] ]
+}

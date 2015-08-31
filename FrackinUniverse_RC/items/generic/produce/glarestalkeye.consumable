@@ -1,0 +1,10 @@
+{
+  "itemName" : "glarestalkeye",
+  "rarity" : "Common",
+  "inventoryIcon" : "glarestalkeye.png",
+  "description" : "Grants 75% Rage.",
+  "shortdescription" : "Glarestalk Eye",
+  "effects" : [ [
+      "rage75"
+    ] ]
+}

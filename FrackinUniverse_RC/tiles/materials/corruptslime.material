@@ -1,0 +1,22 @@
+{
+  "materialId" : 4068,
+  "materialName" : "corruptslime",
+  "particleColor" : [84, 73, 88, 255],
+  "itemDrop" : "corruptslimematerial",
+  "description" : "All that remains after being touched by Dark Water.",
+  "shortdescription" : "Corruption",
+  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "health" : 2,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "corruptslime.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "radiantLight" : [0.4, 0.2, 0.4]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "regengene1", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "biosample", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "jillyrootseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "vine", "all", "tools" ]
+}

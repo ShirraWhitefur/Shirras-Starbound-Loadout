@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "aggressiongene", "count" : 1 },
+    { "item" : "explosivegene", "count" : 1 },
+	{ "item" : "coldgene", "count" : 1 },
+	{ "item" : "thornfruit", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "pekkitseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "vine", "all", "tools" ]
+}

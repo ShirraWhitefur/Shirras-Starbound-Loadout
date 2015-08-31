@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "vialproto", "count" : 1}
+  ],
+  "output" : {
+    "item" : "biofuelcannistermax",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "chemical", "all" ]
+}

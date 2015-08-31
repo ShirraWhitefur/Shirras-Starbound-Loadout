@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 3 },
+    { "item" : "chloroplast3", "count" : 1 },
+    { "item" : "corruptionseed", "count" : 3 },
+    { "item" : "aquatichomeostasis", "count" : 1 },
+    { "item" : "greenslime", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "corvexseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "flower", "all", "tools" ]
+}

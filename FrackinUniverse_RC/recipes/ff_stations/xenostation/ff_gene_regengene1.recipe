@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "peptidechain", "count" : 4 },
+    { "item" : "glassmaterial", "count" : 1 },
+    { "item" : "magnesiumpowder", "count" : 4 },
+    { "item" : "chloroplast1", "count" : 1 },
+	{ "item" : "liquidhealing", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "regengene1",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

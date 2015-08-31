@@ -1,0 +1,10 @@
+{
+  "itemName" : "onion",
+  "rarity" : "Common",
+  "inventoryIcon" : "onionicon.png",
+  "description" : "An gurn onion. Tasty! Heals 15% health.",
+  "shortdescription" : "Gurn Onion",
+  "effects" : [ [
+      "heal_15"
+    ] ]
+}

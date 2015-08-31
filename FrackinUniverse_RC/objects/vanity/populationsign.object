@@ -1,0 +1,23 @@
+{
+  "objectName" : "populationsign",
+  "printable" : true,
+  "rarity" : "Common",
+  "objectType" : "decorative",
+  "price" : 200,
+  "category" : "storage",
+  "description" : "I wonder what people once lived here...",
+  "shortdescription" : "Ruined Population Sign",
+  "race" : "generic",
+
+  "inventoryIcon" : "populationsign.png",
+  "orientations" : [
+    {
+      "dualImage" : "populationsign.png",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ]
+}

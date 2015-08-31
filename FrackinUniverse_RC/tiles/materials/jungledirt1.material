@@ -1,0 +1,23 @@
+{
+  "materialId" : 6585,
+  "materialName" : "jungledirt1",
+  "particleColor" : [92, 145, 86, 255],
+  "itemDrop" : "jungledirt1material",
+  "description" : "dry, fertile soil.",
+  "shortdescription" : "Jungle Dirt",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 2,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "jungledirt1.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "itemName" : "hellfire1hand",
+  "level" : 6,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Forged from the fires of hell itself.",
+  "shortdescription" : "Hellfire Short Blade",
+  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
+  "kind" : "Shortsword",
+  "image" : "hellfire1hand.png",
+  "firePosition" : [15.5, 4.5],
+  "fireTime" : 0.8,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileType" : "magmaswoosh",
+    "projectile" : {
+      "speed" : 25,
+      "power" : 5
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-3.0, -17.0],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-3.0, -17.0],
+      "duration" : 0.05,
+      "statusEffects" : []
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -45,
+      "swordAngle" : -90,
+      "handPosition" : [-3.0, -27.5],
+      "duration" : 0.4,
+      "statusEffects" : []
+    }
+  }
+}

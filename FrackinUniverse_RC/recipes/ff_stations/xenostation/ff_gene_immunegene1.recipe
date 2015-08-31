@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "cellresistance1", "count" : 1 },
+    { "item" : "phosphorus", "count" : 8 },
+    { "item" : "peptidechain", "count" : 4 },
+	{ "item" : "liquidpoison", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "immunegene1",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

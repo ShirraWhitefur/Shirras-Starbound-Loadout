@@ -1,0 +1,6 @@
+[
+{"op":"replace","path":"/itemDrop","value":"chertmaterial"},
+{"op":"replace","path":"/description","value":"Rough, unrefined chert."},
+{"op":"replace","path":"/shortdescription","value":"Chert Block"},
+{"op":"replace","path":"/glitchDescription","value":"Statement. Chert."}
+]

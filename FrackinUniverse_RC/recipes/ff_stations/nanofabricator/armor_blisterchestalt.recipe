@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ff_penumbraplating", "count" : 5 },
+    { "item" : "blisterextract", "count" : 8 },
+    { "item" : "ff_silicon", "count" : 20 },
+    { "item" : "biochip", "count" : 9 }
+  ],
+  "output" : {
+    "item" : "blisterchestalt",
+    "count" : 1
+  },
+  "groups" : [ "nanofabricator", "armors", "all" ]
+}

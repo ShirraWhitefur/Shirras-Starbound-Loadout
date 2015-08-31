@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "corefragmentore", "count" : 8 },
+    { "item" : "liquidlava", "count" : 25 },
+    { "item" : "liquidironfu", "count" : 50 },
+    { "item" : "ceruliumcompound", "count" : 4 },
+    { "item" : "magneticshielding", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "moltencore",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "chemical", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidblacktar",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidblacktaricon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Black Tar",
+  "description" : "A measure of viscous tar.",
+
+  "liquid" : "blacktar"
+}

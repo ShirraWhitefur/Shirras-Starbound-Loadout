@@ -1,0 +1,17 @@
+{
+  "itemName" : "capriole",
+  "rarity" : "Common",
+  "inventoryIcon" : "capriole.png",
+  "description" : "Muscle enhancing. Eat for jumpy goodness.",
+  "shortdescription" : "Capriole Flower",
+  "effects" : [ [
+      {
+        "effect" : "jumpboost",
+        "amount" : 0.25,
+        "duration" : 25
+      }
+    ] ],
+  "blockingEffects" : [
+    "jumpboost"
+  ]
+}

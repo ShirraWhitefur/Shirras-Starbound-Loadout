@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },
+    { "item" : "coalore", "count" : 1 },
+    { "item" : "lead", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ironplate",
+    "count" : 1
+  },
+  "groups" : [ "powerpress", "materials", "all" ]
+}

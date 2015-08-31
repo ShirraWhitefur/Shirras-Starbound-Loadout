@@ -1,0 +1,14 @@
+{
+  "itemName" : "minkocoapod",
+  "rarity" : "Common",
+  "inventoryIcon" : "minkocoapodicon.png",
+  "description" : "Provides a boost to speed.",
+  "shortdescription" : "Minkocoa Pod",
+  "effects" : [ [
+      {
+        "effect" : "runboost",
+        "amount" : "0.25",
+        "duration" : 25
+      }
+    ] ]
+}

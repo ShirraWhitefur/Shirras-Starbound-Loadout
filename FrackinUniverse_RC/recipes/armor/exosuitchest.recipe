@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "fleshstrand", "count" : 32 },
+    { "item" : "bone", "count" : 12 },
+    { "item" : "ff_resin", "count" : 12 },
+    { "item" : "carbonplate", "count" : 5 },
+    { "item" : "liquidironfu", "count" : 60 }
+  ],
+  "output" : {
+    "item" : "fuexosuitchest",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors" ]
+}

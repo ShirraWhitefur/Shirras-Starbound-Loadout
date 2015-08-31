@@ -1,0 +1,49 @@
+{
+  "itemName" : "solarispear",
+  "level" : 2,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Forged from raw solari crystals.",
+  "shortdescription" : "Lunari Spear",
+  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
+  "kind" : "Spear",
+  "image" : "solarispear.png",
+  "firePosition" : [52.5, -7.0],
+  "fireTime" : 0.8,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileType" : "spearswoosh1",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 9
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [0.5, -12.5],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : -110,
+      "swordAngle" : -90,
+      "handPosition" : [1.5, -19.5],
+      "duration" : 0.05,
+      "statusEffects" : []
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -50,
+      "swordAngle" : -90,
+      "handPosition" : [1.5, -24.5],
+      "duration" : 0.4,
+      "statusEffects" : []
+    }
+  }
+}

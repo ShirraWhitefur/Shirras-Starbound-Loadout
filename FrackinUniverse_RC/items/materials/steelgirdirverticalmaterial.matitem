@@ -1,0 +1,10 @@
+{
+  "itemName" : "steelgirdirverticalmaterial",
+  "rarity" : "Common",
+  "inventoryIcon" : "steelgirdirverticalmaterial.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Steel Girder",
+  "shortdescription" : "Steel Girder",
+
+  "materialId" : 6595
+}

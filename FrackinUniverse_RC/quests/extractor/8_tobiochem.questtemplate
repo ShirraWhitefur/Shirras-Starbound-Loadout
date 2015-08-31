@@ -1,0 +1,12 @@
+  {
+  "id" : "8_tobiochem.gearup",
+  "title" : "^#1693d5;Apex of Chemistry",
+  "text" : "I'll ask you to come back to our Outpost. I want you to to meet our chemist, Blumpy. Not much of a name, true. But smart as a whip, that one.",
+  "completionText" : "So, are you ready to work on the REAL stuff? I'm talking of complex chemistry. You'll need a ^white;BioChem Lab^white;. Make one. Come back to me when you have completed most of the tasks from my colleagues.",
+  "completionConditions" : [],
+  "moneyRange" : [ 0,0 ],
+  "rewards" : [ [ "scientistchest"] ],
+
+  "requireTurnIn" : true,
+  "canBeAbandoned" : false
+}

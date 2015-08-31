@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "rawminerals", "count" : 25 },
+    { "item" : "ceruliumcompound", "count" : 9 },
+    { "item" : "lead", "count" : 12 },
+    { "item" : "haleflowerseed", "count" : 3 },
+    { "item" : "ighantseed", "count" : 3 },
+    { "item" : "liquidirradium", "count" : 24 }
+  ],
+  "output" : {
+    "item" : "banehammer",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

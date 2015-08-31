@@ -1,0 +1,6 @@
+[
+{"op":"replace","path":"/itemDrop","value":"gritstonematerial"},
+{"op":"replace","path":"/description","value":"Rough, unrefined gritstone."},
+{"op":"replace","path":"/shortdescription","value":"Gritstone Block"},
+{"op":"replace","path":"/glitchDescription","value":"Statement. Gritstone."}
+]

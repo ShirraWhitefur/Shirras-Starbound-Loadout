@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "quietusbar", "count" : 3 },
+    { "item" : "ironplate", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "quietusplate",
+    "count" : 1
+  },
+  "groups" : [ "powerpress", "materials", "all" ]
+}

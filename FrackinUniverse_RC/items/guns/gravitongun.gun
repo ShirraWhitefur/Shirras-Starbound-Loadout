@@ -1,0 +1,31 @@
+{
+  "itemName" : "gravitongun",
+  "inventoryIcon" : "gravitongun.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Launches micro-gravity disruptions.",
+  "shortdescription" : "Graviton Gun",
+  "image" : "gravitongun.png",
+  "handPosition" : [-7, -1],
+  "firePosition" : [20, 1.5],
+  "weaponType" : "High Tech",
+  "recoilTime" : 0.1,
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.35,
+  "inaccuracy" : 0.12,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "gravitonorb",
+  "projectile" : { 
+  "speed" : 80, 
+  "power" : 5 , 
+  "color" : [255, 44, 44] 
+  },
+  "muzzleEffect" : {
+       "fireSound" : [ { "file" : "/sfx/weapons/gravitongun.wav" } ],
+       "animation" :  "/animations/muzzleflash/plasmamuzzle1/plasmamuzzle1.animation"
+	   }
+}

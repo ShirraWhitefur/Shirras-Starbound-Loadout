@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "eridianplate", "count" : 4 },
+    { "item" : "advcircuit", "count" : 3 },
+    { "item" : "aichip", "count" : 1 }
+  ],
+  "output" : { "item" : "fuquantumlegs", "count" : 1 },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

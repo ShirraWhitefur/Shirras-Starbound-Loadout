@@ -1,0 +1,36 @@
+{
+    "itemName" : "slimelauncher",
+    "inventoryIcon" : "slimelauncher.png",
+    "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+    "maxStack" : 1,
+    "rarity" : "rare",
+    "description" : "Not entirely practical, but fun.",
+    "shortdescription" : "Slime Launcher",
+    "image" : "slimelauncher.png",
+    "handPosition" : [-4, -3],
+    "firePosition" : [12, 2],
+    "weaponType" : "Bio Weapon",
+    "recoilTime" : 0.1,
+    "level" : 2,
+    "tooltipKind" : "gun",
+    "fireTime" : 0.75,
+    "twoHanded" : true,
+    "walkWhileFiring" : false,
+    "rateOfFire" : [2, 7],
+    "muzzleEffect" : {
+      "fireSound" : [ { "file" : "/sfx/projectiles/goo_spit2.wav" } ],
+      "animation" : "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
+    },
+  
+    "fireOnRelease" : false,
+    
+    "projectileType" : "ffslimeblob",
+
+    "powerProjectileTime" : [0.4, 50],
+    "projectile" : {
+      "speed" : 55, 
+      "power" : 3 , 
+      "color" : [0, 220, 0] 
+  	}
+}
+  

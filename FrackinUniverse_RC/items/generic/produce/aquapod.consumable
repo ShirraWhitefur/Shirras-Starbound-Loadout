@@ -1,0 +1,10 @@
+{
+  "itemName" : "aquapod",
+  "rarity" : "Common",
+  "inventoryIcon" : "aquapod.png",
+  "description" : "Increases your speed in liquids.",
+  "shortdescription" : "Aquapod Bulb",
+      "effects" : [ [
+          "swimboost2"
+    ] ]
+}

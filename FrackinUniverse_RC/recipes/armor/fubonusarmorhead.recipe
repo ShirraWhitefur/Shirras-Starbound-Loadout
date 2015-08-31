@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "matteritem", "count" : 8 },
+    { "item" : "eridianplate", "count" : 2 },
+    { "item" : "advcircuit", "count" : 1 },
+    { "item" : "wretchel", "count" : 2 },
+    { "item" : "corefragmentore", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "fubonusarmorhead",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

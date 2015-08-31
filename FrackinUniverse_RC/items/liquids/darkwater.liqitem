@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquiddarkwater",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "liquiddarkwatericon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Dark Water",
+  "description" : "A measure of utterly corrupt water.",
+
+  "liquid" : "darkwater"
+}

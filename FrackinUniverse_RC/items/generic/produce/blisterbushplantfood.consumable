@@ -1,0 +1,15 @@
+{
+  "itemName" : "blisterbushplantfood",
+  "rarity" : "Common",
+  "inventoryIcon" : "blisterbushplantfood.png",
+  "description" : "You can eat this if you're brave. It'll help your nightvision a great deal.",
+  "shortdescription" : "Blister Sack",
+  "effects" : [ [
+      {
+        "effect" : "glowpurple",
+        "amount" : "1.0",
+        "duration" : 120
+      }
+    ] ],
+  "learnBlueprintsOnPickup" : [ "blisterextract" ]
+}

@@ -1,0 +1,32 @@
+{
+  "itemName" : "fuplasmagun",
+  "inventoryIcon" : "fuplasmagun.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "A lovely friend to bring to a party.",
+  "shortdescription" : "Plasma Rifle",
+  "image" : "fuplasmagun.png",
+  "handPosition" : [-12, -1],
+  "firePosition" : [18, 1],
+  "weaponType" : "Beam",
+  "recoilTime" : 0.1,
+  "level" : 7,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.45,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "fireOnRelease" : false,
+
+  "projectileType" : "fuplasmarifleblastsmall",
+  "projectile" : { 
+  "speed" : 75, 
+  "power" : 5.5 
+  },
+  
+  "muzzleEffect" : {
+       "fireSound" : [ { "file" : "/sfx/weapons/shock_impact3.wav" } ],
+       "animation" :  "/animations/muzzleflash/plasmamuzzle3blue/plasmamuzzle3blue.animation"
+   }
+}

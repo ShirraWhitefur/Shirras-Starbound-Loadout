@@ -1,0 +1,8 @@
+{
+  "itemName" : "triggerassembly",
+  "rarity" : "Common",
+  "inventoryIcon" : "triggerassembly.png",
+  "description" : "trigger housing for a particle weapon",
+  "shortdescription" : "Trigger Assembly",
+  "learnBlueprintsOnPickup" : [ "laspistol" ]
+}

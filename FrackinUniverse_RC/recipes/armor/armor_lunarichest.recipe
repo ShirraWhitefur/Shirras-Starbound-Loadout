@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 4 },
+    { "item" : "solaricrystal", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "lunarichest",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

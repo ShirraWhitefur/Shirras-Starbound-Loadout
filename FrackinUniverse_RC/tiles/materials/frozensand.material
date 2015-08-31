@@ -1,0 +1,23 @@
+{
+  "materialId" : 6615,
+  "materialName" : "frozensand",
+  "particleColor" : [190, 214, 232, 225],
+  "itemDrop" : "frozensandmaterial",
+  "description" : "Ice-covered sand.",
+  "shortdescription" : "Frozen Sand",
+  "footstepSound" : "/sfx/blocks/footstep_sand2.wav",
+  "health" : 1,
+  "category": "materials",
+  "soil": true,
+  "falling" : true,
+  "cascading" : true,
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "frozensand.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false
+  }
+}
+

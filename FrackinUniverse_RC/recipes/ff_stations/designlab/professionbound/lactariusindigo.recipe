@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "shockgene", "count" : 1 },
+    { "item" : "nervebundle3", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "regengene2", "count" : 1 },
+    { "item" : "shroom", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "lactariusindigoseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "mushroom", "all", "tools" ]
+}

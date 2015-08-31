@@ -1,0 +1,17 @@
+{
+  "name" : "energyregenfu_armor50",
+  "effectConfig" : {
+    "regenAmount" : 0.0050,
+    "regenBlockAmount" : 1
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "energyregenfu.lua"
+  ],
+
+  "animationConfig" : "energyregenfu.animation",
+
+  "label" : "E.Regen 4",
+  "icon" : "/interface/statuses/energyregen2.png"
+}

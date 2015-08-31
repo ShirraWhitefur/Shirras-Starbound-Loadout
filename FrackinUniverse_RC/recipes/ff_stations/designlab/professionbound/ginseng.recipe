@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "chloroplast2", "count" : 1 },
+    { "item" : "regengene1", "count" : 1 },
+    { "item" : "shockgene", "count" : 1 },
+    { "item" : "plantfibre", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "ginsengseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "vine", "all", "tools" ]
+}

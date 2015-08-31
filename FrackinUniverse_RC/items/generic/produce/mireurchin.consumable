@@ -1,0 +1,22 @@
+{
+  "itemName" : "mireurchin",
+  "rarity" : "Common",
+  "inventoryIcon" : "mireurchin.png",
+  "description" : "Move slower, but carry a big shield",
+  "shortdescription" : "Mire Urchin",
+  "effects" : [ [
+      {
+        "effect" : "runboost",
+        "amount" : "-0.25",
+        "duration" : 30
+      },
+      {
+        "effect" : "staticshield",
+        "amount" : "0.90",
+        "duration" : 60
+      }
+    ] ],
+  "blockingEffects" : [
+    "runboost", "staticshield"
+  ]
+}

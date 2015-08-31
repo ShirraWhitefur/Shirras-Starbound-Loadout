@@ -1,0 +1,23 @@
+{
+  "materialId" : 6586,
+  "materialName" : "jungledirt2",
+  "particleColor" : [92, 145, 86, 255],
+  "itemDrop" : "jungledirt2material",
+  "description" : "moist leafy dirt.",
+  "shortdescription" : "Jungle Soil",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 4,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "jungledirt2.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cellhardening1", "count" : 1 },
+    { "item" : "aggressiongene", "count" : 1 },
+    { "item" : "cacti", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "tinselbush",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "bush", "all", "tools" ]
+}

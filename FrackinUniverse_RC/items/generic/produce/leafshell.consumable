@@ -1,0 +1,38 @@
+{
+  "itemName" : "leafshell",
+  "rarity" : "Common",
+  "inventoryIcon" : "leafshellicon.png",
+  "description" : "Complete immunity to most liquids, and to ice, snow and slush.",
+  "shortdescription" : "Leafshell",
+  "effects" : [ [
+      {
+        "effect" : "liquidimmunity",
+        "duration" : 60
+      },
+      {
+        "effect" : "biooozeimmunity",
+        "duration" : 60
+      },
+      {
+        "effect" : "sulphuricacidimmunity",
+        "duration" : 60
+      },
+      {
+        "effect" : "nitrogenfreezeimmunity",
+        "duration" : 60
+      },
+      {
+        "effect" : "iceslipimmunity",
+        "duration" : 60
+      },
+      {
+        "effect" : "snowslowimmunity",
+        "duration" : 60
+      },
+      {
+        "effect" : "slushslowimmunity",
+        "duration" : 60
+      }
+      
+    ] ]
+}

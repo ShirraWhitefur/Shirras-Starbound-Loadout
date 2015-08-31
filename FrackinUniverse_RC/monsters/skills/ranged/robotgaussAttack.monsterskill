@@ -1,0 +1,26 @@
+{
+  "name" : "robotgaussAttack",
+  "label" : "Gauss Cannon",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "robotgaussAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "gausspistolshot",
+      "range" : 9,
+      "speed" : 35,
+      "power" : 12,
+      "shots" : 7,
+      "windupTime" : 0.05,
+      "winddownTime" : 0.2,
+      "fireInterval" : 0.16
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "rangedAttack" : [ ]
+    }
+  }
+}
+

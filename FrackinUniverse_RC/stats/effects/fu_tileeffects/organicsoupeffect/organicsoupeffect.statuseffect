@@ -1,0 +1,12 @@
+{
+  "name" : "organicsoupeffect",
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "organicsoupeffect.lua"
+  ],
+
+  "label" : "Organic Soup",
+  "icon" : "/interface/statuses/bounce.png"
+}

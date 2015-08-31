@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "liquidoil", "count" : 6 },
+    { "item" : "adaptivecells", "count" : 2 },
+    { "item" : "aminoacid", "count" : 4 },
+    { "item" : "saltpeter", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "celeritygene",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

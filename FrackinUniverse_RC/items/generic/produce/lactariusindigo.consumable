@@ -1,0 +1,10 @@
+{
+  "itemName" : "lactariusindigo",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "lactariusindigo.png",
+  "description" : "Increases health and energy maximums.",
+  "shortdescription" : "Lactarius Indigo Mushroom",
+  "effects" : [ [
+      "maxhealthboost90", "maxenergyboost90"
+    ] ]
+}

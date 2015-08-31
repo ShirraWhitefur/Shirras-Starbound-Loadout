@@ -1,0 +1,24 @@
+{
+  "name" : "slimeGun2Attack",
+  "label" : "SLIME BALL",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "slimeGun2Attack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "bioblastslime",
+      "range" : 20,
+      "power" : 15,
+      "speed" : 35,
+      "shots" : 3,
+      "fireInterval" : 0.066
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "rangedAttack" : [ ]
+    }
+  }
+}
+

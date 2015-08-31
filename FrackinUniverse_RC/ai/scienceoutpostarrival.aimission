@@ -1,0 +1,32 @@
+{
+  "missionName" : "scienceoutpostarrival",
+  "icon" : "lunarbaseicon.png",
+  "missionWorld" : "scienceoutpost",
+
+  "speciesText" : {
+    "apex" : {
+      "buttonText" : "Enter Science Outpost",
+      "repeatButtonText" : "Visit Science Outpost",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The Science Outpost is an important research center. This is where I will learn about flora research.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+	
+    "default" : {
+      "buttonText" : "Enter Science Outpost",
+      "repeatButtonText" : "Visit Science Outpost",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The Science Outpost is an important research center. This is where I will learn about flora research.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+	
+  }
+}

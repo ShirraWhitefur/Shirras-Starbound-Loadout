@@ -1,0 +1,18 @@
+{
+  "modId" : 6684,
+  "modName" : "penumbrite",
+  "itemDrop" : "penumbriteore",
+  "Description" : "Penumbrite",
+  "health" : 18,
+  "breaksWithTile" : true,
+  "harvestLevel" : 2,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "penumbrite.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "radiantLight" : [0.15, 0.2, 0.5]
+  }
+}
