@@ -164,9 +164,9 @@ All mods unpacked.
 	*   You can make glass out of normal sand again!
 
 *   Repair Tools
-	*   v1.4 - 2015-03-10
+	*   v1.4 - 2015-03-10 - TWEAKED - 2015-08-31
 	*   http://community.playstarbound.com/resources/repair-tools-spirited-giraffe.2648/
-	*   Store more stuff in your stuff
+	*   Repairable tools.  Tweaked!  Now actually adds the bloody recipes back in.  Grr!
 
 *   Modern Loom
 	*   v1.0 - 2015-08-30

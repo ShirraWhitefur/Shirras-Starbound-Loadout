@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/input", "value" : [ {"item" : "silverbar", "count" : 8 } ] }
-]

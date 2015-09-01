@@ -1,0 +1,3 @@
+[
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup", "value" : [ "copperpickaxe", "silverpickaxe", "goldpickaxe", "platinumpickaxe", "diamondpickaxe" ] }
+]

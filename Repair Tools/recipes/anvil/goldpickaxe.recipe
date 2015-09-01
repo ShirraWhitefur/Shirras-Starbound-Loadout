@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 8 }
+  ],
+  "output" : { "item" : "goldpickaxe", "count" : 1 },
+  "groups" : [ "anvil", "tools", "all" ]
+}
