@@ -62,7 +62,7 @@ All mods unpacked.
 	*	Enhances exploration, crafting, and just about every other area of play. Huge mod.
 
 *	GardenBot 2.0 Rebooted
-	*	v2.0 RC8 - 2015-08-24
+	*	v2.0 RC9 - 2015-09-01
 	*	http://community.playstarbound.com/resources/gardenbot-2-0-rebooted.3036/
 	*	Robotic Farming ... IN SPACE! - Supports over 1000 plants! - SGu5/PGu2
 
@@ -196,6 +196,11 @@ Actively being debated for addition.  Cheaty.
 Actively being debated for addition.  Races.  
 Most here aren't in due to lack of remotely complete gearing or frequent updates.  
 <-------------------------------------------------------------------->
+
+*   Sergals
+	*   v1.7A - 2015-09-01
+	*   http://community.playstarbound.com/resources/sergal-race.980/updates
+	*   Adds Sergals into your game.
 
 *   Familiars
 	*   v1.12 - 2015-08-29
